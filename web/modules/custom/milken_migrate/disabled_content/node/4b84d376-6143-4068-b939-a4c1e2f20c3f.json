@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/man-plan-canal-nicaragua-latest-milken-institute-review-how-daniel-ortega-and-obscure?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 65
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4b84d376-6143-4068-b939-a4c1e2f20c3f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 65
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "A man, a plan, a canal -- Nicaragua? In the latest Milken Institute Review: How Daniel Ortega and an obscure Chinese tycoon are teaming up to build a rival to the Panama Canal",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-07-22T09:00:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/man-plan-canal-nicaragua-latest-milken-institute-review-how-daniel-ortega-and-obscure",
+            "pid": 118,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- Charles Castaldi, a former NPR reporter in Central America, explains how a Nicaraguan strongman and Chinese billionaire are planning to dig a $50 billion canal that will eclipse its rival to the south. \"The decision to move forward on a project of this scale took a lot of time to make, of course,\" allows Castaldi. \"Well, not really: the speed with which the concession was granted would make those who have been struggling obtain approval to build the 36-inch Keystone XL pipeline for the last six years green with envy.\"Also in this issue:Ross DeVol, the Milken Institute's chief research officer, offers a report card on Abenomics, the Japanese prime minister's Hail Mary play to jolt the economy out of its rut. \"Japan has a historical knack for making comebacks when the odds seem longest,\" DeVol reminds. \"And it just might be about to happen again: After two decades of lost growth, the stars may be lining up for a surge.\"Lydia DePillis, a reporter at the Washington Post, analyzes the emerging Trans Pacific Partnership, \"the most ambitious trade agreement the United States\" has ever negotiated. \"It takes on a host of impediments to economic integration ranging from diverging safety standards to lax intellectual property protection,\" she explains, \"making it as much a tool of domestic reform and an exercise in geopolitics as it is an agreement on the terms of global commerce.\"Frank Rose, a digital media analyst, attacks the prevailing wisdom that Hollywood's road to success will be paved with ever-fewer, ever-more-expensive mega-movies. \"To the frequent consternation of those who try to run it,\" he writes, \"the entertainment business is inescapably in the business of entertaining humans, a species that craves novelty as much as it craves spectacle -- and one prone to sudden and unpredictable shifts in taste. Any theory that fails to take this into account is unlikely to survive the next cycle.\"Ed Dolan, a regular contributor to the EconoMonitor blog, argues the time has come for a no-strings-attached, \"universal basic income approach\" to reducing poverty. \"It offends conservative sensibilities by offering something for nothing,\" he acknowledges. \"And it raises serious questions for progressives who worry that a UBI would not do enough to transform the culture of poverty that weighs down the underclass. But it has pragmatic advocates (including me) who see the UBI as the way to escape of the ideological and administrative quagmires of policy-as-usual.\"Clifford Gaddy (Brookings) and Barry Ickes (Penn State) explain why Russia's slippage into economic stagnation won't be easy to reverse. \"Putin lacks a plan to cure the ills of the economy,\" they explain. \"He apparently will maintain business as usual, based on mega-projects, tens of trillions of rubles for defense industry modernization and industrialization of Russia's coldest and most remote regions in the East. Meanwhile, there is still no clear recognition of what has happened with the economy or of what could be done to fix it.\"Lucas Davis, an economist at the University of California (Berkeley), estimates the waste created by subsidies in countries that make gasoline as cheap as 9 cents a gallon at the pump. \"When local demand was modest, the inherent inefficiency could be -- and generally was -- overlooked\", Davis notes. \"But demand has crept up as consumers responded to both growing income and the incentives to buy fuel-inefficient vehicles and drive them a lot. Once in, of course, it is hard to get them out.\"Vikram Nehru and Nadia Bulkin of the Carnegie Endowment for International Peace analyze the unraveling of Thailand's economy and polity -- and how it might be reversed. \"Many consider the origins of the current crisis to be rising inequality between the affluent, rapidly growing region around Bangkok and the country's largely rural (and poor) North and Northeast,\" they explain. \"But the divisions go far deeper.\"# # #",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- Charles Castaldi, a former NPR reporter in Central America, explains how a Nicaraguan strongman and Chinese billionaire are planning to dig a $50 billion canal that will eclipse its rival to the south. \"The decision to move forward on a project of this scale took a lot of time to make, of course,\" allows Castaldi. \"Well, not really: the speed with which the concession was granted would make those who have been struggling obtain approval to build the 36-inch Keystone XL pipeline for the last six years green with envy.\"Also in this issue:Ross DeVol, the Milken Institute's chief research officer, offers a report card on Abenomics, the Japanese prime minister's Hail Mary play to jolt the economy out of its rut. \"Japan has a historical knack for making comebacks when the odds seem longest,\" DeVol reminds. \"And it just might be about to happen again: After two decades of lost growth, the stars may be lining up for a surge.\"Lydia DePillis, a reporter at the Washington Post, analyzes the emerging Trans Pacific Partnership, \"the most ambitious trade agreement the United States\" has ever negotiated. \"It takes on a host of impediments to economic integration ranging from diverging safety standards to lax intellectual property protection,\" she explains, \"making it as much a tool of domestic reform and an exercise in geopolitics as it is an agreement on the terms of global commerce.\"Frank Rose, a digital media analyst, attacks the prevailing wisdom that Hollywood's road to success will be paved with ever-fewer, ever-more-expensive mega-movies. \"To the frequent consternation of those who try to run it,\" he writes, \"the entertainment business is inescapably in the business of entertaining humans, a species that craves novelty as much as it craves spectacle -- and one prone to sudden and unpredictable shifts in taste. Any theory that fails to take this into account is unlikely to survive the next cycle.\"Ed Dolan, a regular contributor to the EconoMonitor blog, argues the time has come for a no-strings-attached, \"universal basic income approach\" to reducing poverty. \"It offends conservative sensibilities by offering something for nothing,\" he acknowledges. \"And it raises serious questions for progressives who worry that a UBI would not do enough to transform the culture of poverty that weighs down the underclass. But it has pragmatic advocates (including me) who see the UBI as the way to escape of the ideological and administrative quagmires of policy-as-usual.\"Clifford Gaddy (Brookings) and Barry Ickes (Penn State) explain why Russia's slippage into economic stagnation won't be easy to reverse. \"Putin lacks a plan to cure the ills of the economy,\" they explain. \"He apparently will maintain business as usual, based on mega-projects, tens of trillions of rubles for defense industry modernization and industrialization of Russia's coldest and most remote regions in the East. Meanwhile, there is still no clear recognition of what has happened with the economy or of what could be done to fix it.\"Lucas Davis, an economist at the University of California (Berkeley), estimates the waste created by subsidies in countries that make gasoline as cheap as 9 cents a gallon at the pump. \"When local demand was modest, the inherent inefficiency could be -- and generally was -- overlooked\", Davis notes. \"But demand has crept up as consumers responded to both growing income and the incentives to buy fuel-inefficient vehicles and drive them a lot. Once in, of course, it is hard to get them out.\"Vikram Nehru and Nadia Bulkin of the Carnegie Endowment for International Peace analyze the unraveling of Thailand's economy and polity -- and how it might be reversed. \"Many consider the origins of the current crisis to be rising inequality between the affluent, rapidly growing region around Bangkok and the country's largely rural (and poor) North and Northeast,\" they explain. \"But the divisions go far deeper.\"# # #",
+    "summary": null,
+    "summary_processed": ""
+}

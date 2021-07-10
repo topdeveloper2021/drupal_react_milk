@@ -1,0 +1,368 @@
+{
+    "name": "milken-institute/freshdrupalmi",
+    "description": "Main site development repo",
+    "type": "project",
+    "license": "MIT",
+    "repositories": {
+        "search_api_pantheon": {
+            "canonical": true,
+            "type": "vcs",
+            "url": "git@github.com:pantheon-systems/search_api_pantheon.git"
+        },
+        "0": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "1": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "simple_oauth": {
+            "type": "package",
+            "package": {
+                "name": "drupal/simple_oauth",
+                "type": "drupal-module",
+                "version": "dev-8.x-5.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/project/simple_oauth.git",
+                    "reference": "8f2688cadd6b9e364e66d193542bba11b2b25061"
+                }
+            }
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "composer-plugin-api": "^2.0",
+        "bower-asset/jquery-simple-color": "^1.2",
+        "bower-asset/spectrum": "^1.8",
+        "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "drupal/address": "^1.7",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/adminimal_theme": "^1.5",
+        "drupal/audiofield": "^1.9",
+        "drupal/authorization": "^1.0",
+        "drupal/auto_entitylabel": "^3.0@beta",
+        "drupal/better_normalizers": "^1.0",
+        "drupal/bg_image_formatter": "^1.12",
+        "drupal/block_field": "^1.0@RC",
+        "drupal/bootstrap": "^3.21",
+        "drupal/bootstrap_barrio": "^5",
+        "drupal/bootstrap_library": "dev-1.x",
+        "drupal/bootstrap_paragraphs": "^2.0@beta",
+        "drupal/cdn": "^3.2",
+        "drupal/coder": "^8.3",
+        "drupal/color_field": "^2.2",
+        "drupal/component": "^1.0@beta",
+        "drupal/config_ignore": "^2.3",
+        "drupal/config_split": "^2",
+        "drupal/config_update": "^1.6",
+        "drupal/consumers": "^1.11",
+        "drupal/content_browser": "^1.0",
+        "drupal/convert_bundles": "^1",
+        "drupal/core": "^9.1",
+        "drupal/core-composer-scaffold": "^9.1",
+        "drupal/crop": "^2.1",
+        "drupal/csv_importer": "^1.9",
+        "drupal/ctools": "^3",
+        "drupal/decoupled_kit": "^1.1",
+        "drupal/decoupled_router": "^2.0",
+        "drupal/default_content": "^1",
+        "drupal/default_content_deploy": "^1",
+        "drupal/delete_all": "^2.0",
+        "drupal/devel": "^4.0",
+        "drupal/devel_kint_extras": "^1.0",
+        "drupal/diff": "^1.0@RC",
+        "drupal/dropzonejs": "^2.0",
+        "drupal/ds": "^3.5",
+        "drupal/easy_install": "^10.1",
+        "drupal/eck": "^1",
+        "drupal/element_class_formatter": "^1.0",
+        "drupal/embed": "^1.0",
+        "drupal/entity_block": "^1",
+        "drupal/entity_browser": "^2",
+        "drupal/entity_browser_enhanced": "^1.0",
+        "drupal/entity_embed": "^1.0",
+        "drupal/entity_import": "^1",
+        "drupal/entity_reference_revisions": "^1.7",
+        "drupal/entity_usage": "^2",
+        "drupal/entityqueue": "^1",
+        "drupal/facets": "^1.3",
+        "drupal/field_group": "^3.0",
+        "drupal/file_browser": "^1.2",
+        "drupal/file_entity": "^2",
+        "drupal/fontawesome": "^2",
+        "drupal/form_options_attributes": "^2.0",
+        "drupal/gatsby": "^1",
+        "drupal/gin": "^3",
+        "drupal/gin_login": "^1",
+        "drupal/gin_toolbar": "^1",
+        "drupal/graphql": "^4",
+        "drupal/hax": "^3.2",
+        "drupal/hook_event_dispatcher": "^2",
+        "drupal/image_style_warmer": "^1",
+        "drupal/imagick": "^1.2",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/jsonapi_extras": "^3",
+        "drupal/jsonapi_hypermedia": "^1.6",
+        "drupal/jsonapi_image_styles": "^2.0",
+        "drupal/jsonapi_include": "^1.2",
+        "drupal/jsonapi_resources": "^1",
+        "drupal/jsonapi_schema": "^1",
+        "drupal/jsonapi_search_api": "^1",
+        "drupal/key_value_field": "^1",
+        "drupal/layout_builder_restrictions": "^2.5",
+        "drupal/layout_builder_styles": "^1",
+        "drupal/layout_builder_tabs": "^1.0@beta",
+        "drupal/layout_library": "^1.0@beta",
+        "drupal/layout_paragraphs": "^1.0@beta",
+        "drupal/layout_section_classes": "^1.0@RC",
+        "drupal/masquerade": "^2.0@beta",
+        "drupal/media_entity_browser": "^2.0@alpha",
+        "drupal/media_migration": "^1.0@alpha",
+        "drupal/media_parent_entity_link": "^1.0@beta",
+        "drupal/menu_item_extras": "dev-2.x",
+        "drupal/metatag": "^1.11",
+        "drupal/migrate_plus": "^5.1",
+        "drupal/migrate_process_skip": "^2.0",
+        "drupal/migrate_tools": "^5.0",
+        "drupal/npm": "^2.0",
+        "drupal/openapi": "^2.0@RC",
+        "drupal/openapi_jsonapi": "^3",
+        "drupal/openapi_ui": "^1.0@RC",
+        "drupal/openapi_ui_redoc": "^1.0@RC",
+        "drupal/openid_connect": "^1.0@beta",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/paragraph_blocks": "^3",
+        "drupal/paragraphs": "^1",
+        "drupal/paragraphs_browser": "^1.0@beta",
+        "drupal/paragraphs_button": "^1.1",
+        "drupal/paragraphs_edit": "^2.0@alpha",
+        "drupal/paragraphs_inline_entity_form": "^1.0@beta",
+        "drupal/pathauto": "^1.6",
+        "drupal/prlp": "^1.6",
+        "drupal/publication_date": "^2",
+        "drupal/purge": "^3.0@beta",
+        "drupal/queue_ui": "^2.0",
+        "drupal/redirect": "^1.6",
+        "drupal/redis": "^1.1",
+        "drupal/restui": "^1",
+        "drupal/s3fs": "^3",
+        "drupal/s3fs_cors": "^1",
+        "drupal/scheduler": "^1.3",
+        "drupal/schemata": "^1.0@beta",
+        "drupal/search_api": "^1",
+        "drupal/search_api_attachments": "^1.0@beta",
+        "drupal/search_api_autocomplete": "^1.4",
+        "drupal/search_api_solr": "^4.0.0",
+        "drupal/shield": "^1.2",
+        "drupal/simple_oauth": "^5",
+        "drupal/simple_sitemap": "^3.10",
+        "drupal/slick": "^2.2",
+        "drupal/slick_browser": "^2.1",
+        "drupal/social_media": "^1.9",
+        "drupal/sophron": "^1.0@beta",
+        "drupal/subrequests": "^3.0",
+        "drupal/svg_image_field": "^2",
+        "drupal/taxonomy_machine_name": "^1.0@beta",
+        "drupal/twig_tweak": "^3",
+        "drupal/typed_data": "^1.0@alpha",
+        "drupal/uikit": "^3.14",
+        "drupal/uikit_components": "^3.0",
+        "drupal/vbo_export": "^3.0",
+        "drupal/video_embed_field": "^2.2",
+        "drupal/views_aggregator": "^1.0@alpha",
+        "drupal/views_bootstrap": "^4.2",
+        "drupal/views_field_view": "^1.0@beta",
+        "drupal/views_infinite_scroll": "^1.5",
+        "drupal/views_layout": "^1.1",
+        "drupal/webform": "^6",
+        "drupal/webpack": "^1.0@alpha",
+        "drupal/workflow": "^1.0",
+        "drupal/yoast_seo": "^1.7",
+        "drush/drush": "^10",
+        "enyo/dropzone": "^5.5",
+        "friendsofphp/php-cs-fixer": "^3",
+        "ksubileau/color-thief-php": "^1.4",
+        "league/commonmark": "^1.5",
+        "mnsami/composer-custom-directory-installer": "^2.0",
+        "mpratt/embera": "~2.0",
+        "npm-asset/ace-builds": "^1",
+        "npm-asset/blazy": "^1",
+        "npm-asset/bootstrap": "^4",
+        "npm-asset/dropzone": "^4",
+        "npm-asset/fontawesome": "^5",
+        "npm-asset/imagesloaded": "^4",
+        "npm-asset/masonry": "^0.0.2",
+        "npm-asset/masonry-layout": "^4.2",
+        "npm-asset/slick-carousel": "^1.8",
+        "oomphinc/composer-installers-extender": "^2.0",
+        "phpstan/phpstan": "^0.12",
+        "scssphp/scssphp": "^1.0.7",
+        "squizlabs/php_codesniffer": "^3.6",
+        "wa72/url": "^0.7.1",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "scripts/composer/ScriptHandler.php",
+            "tests/behat/features/bootstrap/FeatureContext.php"
+        ]
+    },
+    "scripts": {
+        "analyze": [
+            "php -d memory_limit=-1 drush upgrade_status:analyze --all"
+        ],
+        "update-vendor-dir": [
+            "php -d memory_limit=-1 `which composer` update -W --optimize-autoloader --prefer-dist",
+            "cd ./web/libraries/bootstrap/dist && cp -R * ..",
+            "vendor/bin/phpcs --config-set installed_paths web/modules/contrib/coder/coder_sniffer"
+        ],
+        "install-vendor-dir": [
+            "php -d memory_limit=-1 `which composer` install --optimize-autoloader --prefer-dist",
+            "cd ./web/libraries/bootstrap/dist && cp -R * ..",
+            "vendor/bin/phpcs --config-set installed_paths web/modules/contrib/coder/coder_sniffer"
+        ],
+        "install-codestandards": [
+            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+        ],
+        "build-assets": [
+            "@install-vendor-dir",
+            "@prepare-for-pantheon",
+            "npm install && npm run build"
+        ],
+        "lint": "find web/modules/custom web/themes/custom -name '*.php' -exec php -l {} \\;",
+        "code-sniff": [
+            "vendor/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer",
+            "vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,info,txt,md --ignore=node_modules,bower_components,vendor ./web/modules/custom",
+            "vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,info,txt,md --ignore=node_modules,bower_components,vendor ./web/themes/custom",
+            "vendor/bin/phpcs --standard=DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md --ignore=node_modules,bower_components,vendor ./web/modules/custom",
+            "vendor/bin/phpcs --standard=DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md --ignore=node_modules,bower_components,vendor ./web/themes/custom"
+        ],
+        "code-fix": [
+            "vendor/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer",
+            "`which phpcbf` -vp --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,info,txt,md web/modules/custom"
+        ],
+        "unit-test": "echo 'No unit test step defined.'",
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "prepare-for-pantheon": "DrupalProject\\composer\\ScriptHandler::prepareForPantheon",
+        "post-install-cmd": [
+            "bash scripts/setup-precommit.sh",
+            "cp -R web/libraries/bootstrap/dist/* web/libraries/bootstrap",
+            "@drupal-scaffold",
+            "@install-codestandards",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "post-update-cmd": [
+            "bash scripts/setup-precommit.sh",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+            "@install-codestandards"
+        ],
+        "post-create-project-cmd": [
+            "@drupal-scaffold",
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "pre-commit": [
+            "composer validate --strict",
+            "composer update --with-dependencies",
+            "git add composer.lock",
+            "@code-fix",
+            "@code-sniff"
+        ]
+    },
+    "extra": {
+        "installer-types": [
+            "bower-asset",
+            "npm-asset",
+            "drupal-drush",
+            "drupal-theme",
+            "drupal-profile",
+            "drupal-module",
+            "drupal-core"
+        ],
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/private/scripts/quicksilver/{$name}/": [
+                "type:quicksilver-script"
+            ],
+            "web/libraries/{$name}": [
+                "type:bower-asset",
+                "type:npm-asset"
+            ]
+        },
+        "phpcodesniffer-search-depth": 5,
+        "build-env": {
+            "install-cms": [
+                "drush site-install standard --account-mail={account-mail} --account-name={account-name} --account-pass={account-pass} --site-mail={site-mail} --site-name={site-name} --yes"
+            ],
+            "export-configuration": "drush config-export --yes"
+        },
+        "drupal-scaffold": {
+            "source": "https://raw.githubusercontent.com/pantheon-systems/drops-8-scaffolding/{version}/{path}",
+            "includes": [
+                "sites/default/default.services.pantheon.preproduction.yml",
+                "sites/default/settings.pantheon.php"
+            ],
+            "excludes": [
+                ".csslintrc",
+                ".editorconfig",
+                ".eslintignore",
+                ".eslintrc.json",
+                ".htaccess",
+                "web.config"
+            ],
+            "allowed-packages": [
+                "drupal/core"
+            ],
+            "overwrite": true,
+            "locations": {
+                "web-root": "./web"
+            },
+            "file-mapping": {
+                "[web-root]/sites/default/settings.local.php": "config/settings.local.php",
+                "[web-root]/sites/default/settings.pantheon.php": "config/settings.pantheon.php"
+            }
+        },
+        "patches-file": "composer.patches.json",
+        "enable-patching": true,
+        "composer-exit-on-patch-failure": true
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "process-timeout": 0,
+        "fxp-asset": {
+            "enabled": true,
+            "vcs-driver-options": {
+                "github-no-api": true
+            }
+        },
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}

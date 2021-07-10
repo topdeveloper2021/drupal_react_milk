@@ -1,0 +1,34 @@
+
+
+
+/**** BEGIN - ABOUT US BLUE BKG BLOCK ON MOBILE  ******/
+.page-node-type-landing-page{
+  #partner-with-us {
+    .bkg-noimage-image-container {
+
+      @media (max-width: $breakpointPhone) {
+        p {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+        h2 {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+      }
+    }
+  }
+}
+// Image overlay
+
+.img-overlay:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $imgOverlay;
+}
+/**** END - ABOUT US BLUE BKG BLOCK ON MOBILE  ******/

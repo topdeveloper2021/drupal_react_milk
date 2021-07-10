@@ -1,0 +1,21 @@
+uuid: e7d38686-a660-454d-87d6-455f7b3db07d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_recwaiverdate
+field_name: field_recwaiverdate
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

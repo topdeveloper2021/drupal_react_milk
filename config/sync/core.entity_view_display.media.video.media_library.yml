@@ -1,0 +1,77 @@
+uuid: 9aeb940a-8841-445c-ab52-4cd581f20b4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.video.field_body
+    - field.field.media.video.field_centers
+    - field.field.media.video.field_collections
+    - field.field.media.video.field_embedded_id
+    - field.field.media.video.field_embedded_oembed
+    - field.field.media.video.field_embedded_service
+    - field.field.media.video.field_event_reference
+    - field.field.media.video.field_events
+    - field.field.media.video.field_height
+    - field.field.media.video.field_index_weight
+    - field.field.media.video.field_media_oembed_video
+    - field.field.media.video.field_meta_tags
+    - field.field.media.video.field_people
+    - field.field.media.video.field_program_initiatives
+    - field.field.media.video.field_regions
+    - field.field.media.video.field_subheader
+    - field.field.media.video.field_tags
+    - field.field.media.video.field_term_collection
+    - field.field.media.video.field_thumbnail_uri
+    - field.field.media.video.field_topics
+    - field.field.media.video.field_video_height
+    - field.field.media.video.field_video_width
+    - field.field.media.video.field_width
+    - image.style.medium
+    - media.type.video
+  module:
+    - image
+id: media.video.media_library
+targetEntityType: media
+bundle: video
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_body: true
+  field_centers: true
+  field_collections: true
+  field_embedded_id: true
+  field_embedded_oembed: true
+  field_embedded_service: true
+  field_event_reference: true
+  field_events: true
+  field_height: true
+  field_index_weight: true
+  field_media_oembed_video: true
+  field_meta_tags: true
+  field_people: true
+  field_program_initiatives: true
+  field_regions: true
+  field_subheader: true
+  field_tags: true
+  field_term_collection: true
+  field_thumbnail: true
+  field_thumbnail_uri: true
+  field_topics: true
+  field_video_height: true
+  field_video_width: true
+  field_width: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  uid: true

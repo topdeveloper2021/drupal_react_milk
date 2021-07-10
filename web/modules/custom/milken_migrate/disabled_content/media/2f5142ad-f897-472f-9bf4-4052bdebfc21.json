@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7020\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/kOR_5wfqD1Mv2pBfhjE0C1xlUC9aDRk45b5M5LLhlfA.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7020
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2f5142ad-f897-472f-9bf4-4052bdebfc21"
+        }
+    ],
+    "vid": [
+        {
+            "value": 4
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/kOR_5wfqD1Mv2pBfhjE0C1xlUC9aDRk45b5M5LLhlfA.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71d55b27-dc33-4af4-9c81-abb20ece5e5c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Reimagining Medicare for Longer Lives",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T14:25:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "People who reach age 65 today in the U.S. can be expected to live, on average, another 20 years. Yet the Medicare program was designed to treat acute conditions, not to help older adults manage their chronic conditions and prevent illness in the future. How might laws like the recently enacted CHRONIC Care Act transform Medicare to better address the primary health of older adults today? How are healthcare systems and health plans changing incentives to promote prevention and wellness as people live longer lives?",
+    "format": "rich_text",
+    "processed": "People who reach age 65 today in the U.S. can be expected to live, on average, another 20 years. Yet the Medicare program was designed to treat acute conditions, not to help older adults manage their chronic conditions and prevent illness in the future. How might laws like the recently enacted CHRONIC Care Act transform Medicare to better address the primary health of older adults today? How are healthcare systems and health plans changing incentives to promote prevention and wellness as people live longer lives?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/P7NNice_CnU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/kOR_5wfqD1Mv2pBfhjE0C1xlUC9aDRk45b5M5LLhlfA.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

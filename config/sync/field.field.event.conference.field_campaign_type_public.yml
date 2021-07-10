@@ -1,0 +1,19 @@
+uuid: 85eb7869-33d6-48f4-95ab-a9cf7812f356
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_campaign_type_public
+id: event.conference.field_campaign_type_public
+field_name: field_campaign_type_public
+entity_type: event
+bundle: conference
+label: 'Campaign Type Public'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

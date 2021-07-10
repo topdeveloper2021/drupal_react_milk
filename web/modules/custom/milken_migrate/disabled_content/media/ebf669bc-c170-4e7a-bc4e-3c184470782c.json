@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10186\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/JWDkm6k2jS7yldshUd1VJIlgBLugWh9z34PfCjPDuHw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10186
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ebf669bc-c170-4e7a-bc4e-3c184470782c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2334
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/JWDkm6k2jS7yldshUd1VJIlgBLugWh9z34PfCjPDuHw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd6cbd23-3725-4c02-a51c-1129ecb11c08"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Transforming Economies: Investment in MENA",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-03T17:26:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:43:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Many MENA economies are prioritizing strategies to diversify away from hydrocarbons and are focusing more attention on advancing solutions that boost the private sector's role for an increasing labor force. This shift is creating further opportunities for foreign investors to be involved in shaping the future of the region. Establishing the right frameworks to ensure success for the region along with sound policies to encourage further private-sector development are of absolute importance. This panel will explore the key questions around this issue. What will the future of investment look like in the greater MENA region? What policies are required to support the development of the region as it diversifies away from hydrocarbons? How will shifts in oil prices and supply affect resource-rich MENA countries' commitment to economic diversification? How will MENA economies meet the human-capital demands from expanding non-oil industries? How can investment in soft infrastructure strengthen the innovation ecosystem for the region's talent to thrive and create solutions to their country specific challenges?",
+    "format": "rich_text",
+    "processed": "Many MENA economies are prioritizing strategies to diversify away from hydrocarbons and are focusing more attention on advancing solutions that boost the private sector's role for an increasing labor force. This shift is creating further opportunities for foreign investors to be involved in shaping the future of the region. Establishing the right frameworks to ensure success for the region along with sound policies to encourage further private-sector development are of absolute importance. This panel will explore the key questions around this issue. What will the future of investment look like in the greater MENA region? What policies are required to support the development of the region as it diversifies away from hydrocarbons? How will shifts in oil prices and supply affect resource-rich MENA countries' commitment to economic diversification? How will MENA economies meet the human-capital demands from expanding non-oil industries? How can investment in soft infrastructure strengthen the innovation ecosystem for the region's talent to thrive and create solutions to their country specific challenges?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/xwdTaV0_Fns",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/JWDkm6k2jS7yldshUd1VJIlgBLugWh9z34PfCjPDuHw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

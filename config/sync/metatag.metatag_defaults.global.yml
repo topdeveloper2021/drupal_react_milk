@@ -1,0 +1,18 @@
+uuid: ee1c5add-3db4-46a6-9291-f1f0a9e35d64
+langcode: en
+status: true
+dependencies: {  }
+id: global
+label: Global
+tags:
+  title: '[current-page:title] | [site:name]'
+  canonical_url: '[current-page:url]'
+  og_image_alt: 'Milken Institute'
+  article_publisher: 'https://www.facebook.com/milkeninstitute/'
+  og_image: '[current-page:metatag:image_src:value]'
+  og_image_url: '[current-page:metatag:image_src:value]'
+  og_image_secure_url: '[current-page:metatag:image_src:value]'
+  twitter_cards_image: '[current-page:metatag:image_src:value]'
+  twitter_cards_type: summary
+  twitter_cards_site: '@MilkenInstitute'
+  twitter_cards_title: '[current-page:title] | [site:name]'

@@ -1,0 +1,191 @@
+<?php
+// phpcs:ignoreFile
+
+/**
+ * @file
+ * Functions to support theming in the milken_admin theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ *
+ * Add class to html tag.
+ *
+ * @code
+ * $variables['html_attributes']->addClass('no-js');
+ * @endcode
+ *
+ * Don't display the site name twice on the front page (and
+ * potentially others).
+ *
+ * @code
+ * if (isset($variables['head_title_array']['title']) &&
+ *   isset($variables['head_title_array']['name'])
+ *   && ($variables['head_title_array']['title']
+ *   == $variables['head_title_array']['name'])) {
+ * $variables['head_title'] = $variables['head_title_array']['name'];
+ * }
+ * @endcode
+ */
+function milken_admin_preprocess_html(array &$variables) {
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ *
+ * Tell IE to use latest rendering engine (not to use compatibility mode).
+ *
+ * @code
+ * $ie_edge = [
+ *   '#type' => 'html_tag',
+ *   '#tag' => 'meta',
+ *   '#attributes' => [
+ *     'http-equiv' => 'X-UA-Compatible',
+ *     'content' => 'IE=edge',
+ *   ],
+ * ];
+ * $page['#attached']['html_head'][] = [$ie_edge, 'ie_edge'];
+ * @endcode
+ */
+function milken_admin_page_attachments_alter(array &$page) {
+}
+
+/**
+ * Implements hook_preprocess_page() for page.html.twig.
+ */
+function milken_admin_preprocess_page(array &$variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_page_alter().
+ */
+function milken_admin_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_node_alter().
+ *
+ * @code
+ * $node = $variables['elements']['#node'];
+ * if ($variables['elements']['#view_mode'] == "full") {
+ * }
+ * @endcode
+ */
+function milken_admin_theme_suggestions_node_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for Block document templates.
+ */
+function milken_admin_preprocess_block(array &$variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_field_alter().
+ *
+ * @code
+ * $element = $variables['element'];
+ * $suggestions[] = 'field__' . $element['#view_mode'];
+ * $suggestions[] = 'field__' . $element['#view_mode'] . '__' .
+ *   $element['#field_name'];
+ * @endcode
+ */
+function milken_admin_theme_suggestions_field_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_field_alter().
+ *
+ * @code
+ * $element = $variables['element'];
+ * if (isset($element['#attributes']['class']) && in_array('form-composite',
+ *   $element['#attributes']['class'])) {
+ *   $suggestions[] = 'fieldset__form_composite';
+ * }
+ * @endcode
+ *
+ */
+function milken_admin_theme_suggestions_fieldset_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_preprocess_node().
+ *
+ * Default to turning off byline/submitted.
+ *
+ * @code
+ * $variables['display_submitted'] = FALSE;
+ * @endcode
+ *
+ */
+function milken_admin_preprocess_node(array &$variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_views_view_alter().
+ */
+function milken_admin_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_preprocess_form().
+ *
+ * @code
+ * $variables['attributes']['novalidate'] = 'novalidate';
+ * @endcode
+ *
+ */
+function milken_admin_preprocess_form(array &$variables) {
+}
+
+/**
+ * Implements hook_preprocess_select().
+ *
+ * @code
+ * $variables['attributes']['class'][] = 'select-chosen';
+ * @endcode
+ *
+ */
+function milken_admin_preprocess_select(array &$variables) {
+}
+
+/**
+ * Implements hook_preprocess_field().
+ *
+ * @code
+ * switch ($variables['element']['#field_name']) {}
+ * @endcode
+ *
+ */
+function milken_admin_preprocess_field(array &$variables, $hook) {
+}
+
+/**
+ * Implements hook_preprocess_details().
+ *
+ * @code
+ * $variables['attributes']['class'][] = 'details';
+ * $variables['summary_attributes']['class'] = 'summary';
+ * @endcode
+ *
+ */
+function milken_admin_preprocess_details(array &$variables) {
+}
+
+/**
+ * Implements hook_theme_suggestions_details_alter().
+ */
+function milken_admin_theme_suggestions_details_alter(array &$suggestions, array $variables) {
+}
+
+/**
+ * Implements hook_preprocess_menu_local_task().
+ *
+ * @code
+ * $variables['element']['#link']['url']->setOption('attributes',
+ *   ['class'=>'rounded']);
+ * @endcode
+ *
+ */
+function milken_admin_preprocess_menu_local_task(array &$variables) {
+}

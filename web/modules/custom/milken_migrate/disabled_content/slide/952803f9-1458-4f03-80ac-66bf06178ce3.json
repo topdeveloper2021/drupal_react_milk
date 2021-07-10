@@ -1,0 +1,120 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/slide\/49?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/novogratz-jankovic-article.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 49
+        }
+    ],
+    "uuid": [
+        {
+            "value": "952803f9-1458-4f03-80ac-66bf06178ce3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "full_width_one_column"
+        }
+    ],
+    "title": [
+        {
+            "value": "Decentralized Technology: A New Revolution",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/novogratz-jankovic-article.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "13d54942-4ae7-4145-ac04-aeab5933753c"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "\/by_uuid\/node\/982b2ab3-c6a0-46ac-9c03-ee7186aec502",
+            "title": null,
+            "options": []
+        }
+    ],
+    "field_promoted": [
+        {
+            "value": false
+        }
+    ],
+    "field_published": [
+        {
+            "value": true
+        }
+    ],
+    "field_subtitle": [
+        {
+            "value": "Power of Ideas - Asia Summit 2018"
+        }
+    ],
+    "field_text_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ]
+}

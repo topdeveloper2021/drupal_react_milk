@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7044\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/zXmkzJ9A-J4V_tSi3ONa63rLL_RD0we1wOf2AzTHCwg.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7044
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2fd0b844-7a5b-4c03-ac70-aafbb157fde1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 16
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/zXmkzJ9A-J4V_tSi3ONa63rLL_RD0we1wOf2AzTHCwg.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3a3faf91-3e30-4678-ae1d-64e57eea410d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "India in Focus: Capturing Growth Drivers for the Next Decade",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T11:03:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As the world's fastest-growing major economy with a large, young, and intelligent workforce, India is often posited as an emerging superpower. With rapidly developing private sector industries, especially its technology sector, and progressive regulatory policies, India is attracting larger capital flows and investments from domestic and foreign investors. On this panel, senior executives in business and finance and policy analysts will discuss the growth opportunities and challenges for India's private sector and the economic prospects of the broader Indian subcontinent. ",
+    "format": "rich_text",
+    "processed": "As the world's fastest-growing major economy with a large, young, and intelligent workforce, India is often posited as an emerging superpower. With rapidly developing private sector industries, especially its technology sector, and progressive regulatory policies, India is attracting larger capital flows and investments from domestic and foreign investors. On this panel, senior executives in business and finance and policy analysts will discuss the growth opportunities and challenges for India's private sector and the economic prospects of the broader Indian subcontinent. ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/0rkjMBBL8XM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/zXmkzJ9A-J4V_tSi3ONa63rLL_RD0we1wOf2AzTHCwg.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

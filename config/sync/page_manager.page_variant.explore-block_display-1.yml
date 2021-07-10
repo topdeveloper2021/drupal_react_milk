@@ -1,0 +1,46 @@
+uuid: 28a7fbc6-461e-4582-b17a-1d74fe5f810c
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-1
+label: Videos
+variant: block_display
+variant_settings:
+  blocks:
+    2ab06b5b-02c9-4e56-ac85-43cbc452dfb9:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: 2ab06b5b-02c9-4e56-ac85-43cbc452dfb9
+      form_configuration:
+        id: videos_browser
+        type: media--video
+        view_mode: card
+        url: '/jsonapi/media/video?jsonapi_include=true'
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: eac4334f-7261-4134-b8e5-90b47185a38a
+  label: null
+  weight: 0
+  sections: {  }
+  page_title: 'Explore Videos'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: /explore/videos
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

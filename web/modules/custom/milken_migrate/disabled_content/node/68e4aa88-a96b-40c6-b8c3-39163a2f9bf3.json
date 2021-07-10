@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/be-agile-thrive?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/53?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 518
+        }
+    ],
+    "uuid": [
+        {
+            "value": "68e4aa88-a96b-40c6-b8c3-39163a2f9bf3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 518
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/53?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31debfd0-fb27-46f6-9b39-716b710c3d24"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Be Agile to Thrive ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T12:42:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T20:07:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/be-agile-thrive",
+            "pid": 571,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "R<b>etaining agility and flexibility will be the biggest challenge facing businesses in Asia in the future. Some of Asia\u2019s most famous recent success stories, such as China\u2019s Alibaba and Tencent, have built massive multi-industry businesses by reinventing business models and embracing digital.\u00a0<\/b> This agility has enabled them to tear up the rule book.\u00a0To be successful long-term, companies must make agility and change part of their DNA.\u00a0Companies are already facing reduced life expectancies globally. In 1964, the average tenure of companies on the S&P was 33 years.\u00a0That number shrank to 24 years in 2016 and is forecast to dwindle to just 12 years by 2027, according to Innosight Strategy & Innovation at Huron. To live longer, companies will need to evolve and find new growth areas. Consider how Toyota, which has an investment in Japanese telecoms company KDDI, as well as an investment in Japan\u2019s largest taxi-hailing app JapanTaxi, recently worked with Accenture to develop a solution for taxi dispatchers to predict demand for service. This is a tech-driven win-win for the companies: KDDI is seeking new business opportunities leveraging the big data it has at its fingertips, while Toyota is improving its Mobility as a Service (MaaS) capabilities. They are adeptly using artificial intelligence and machine learning to amalgamate traffic, demographic predictions, weather, public transport service availability, and events at large facilities to predict demand. In the past, a conglomerate might have made investments in a variety of companies and leave it at that. Toyota, however, is leveraging cutting edge tech for new non-core products that drive revenue growth for a variety of the companies in which it\u2019s invested. Asia will be both the testing ground and launchpad for new innovations. Already Alibaba\u2019s retail model of offering financial services and encouraging vendors to be creative by setting up virtual pop-up stores and developing new marketing techniques has been embraced globally. For example, Alipay preceded Amazon Pay, and the online shopping bonanza Singles\u2019 Day in China was a roaring success before Amazon launched Prime Day. Any company seeking to do business in Asia will need to be nimble. Starbucks has paired up with Alibaba\u2019s food delivery platform Ele.me, which will begin making deliveries from 150 Starbucks outlets in September. Starbucks already controls 80 percent of the market, according to Euromonitor, but local competitors have been nipping at its lead by offering to deliver coffee. Starbucks' partnership with the digital giant illustrates its intention to remain flexible. We live in an age that demands companies stay in a permanent state of change. The digital era calls for a new approach to organizational change. We call this rotation to the new. This approach requires companies to: (1) transform the core business to drive up investment capacity; (2) grow the core business to sustain the fuel for growth; and (3) identify and scale new growth areas at pace. Our research shows that companies in Asia have higher contribution expectations from new businessesbut their shift to the new, as with companies in other markets, is likely too slow. Similar to global findings, only 6.8 percent of surveyed companies in Asia have accelerated their journey into the new. That is a challenge\u2014it suggests too many companies remain unprepared for the future. The good news is we have home-grown role models, a digitally-savvy populace across the region and a desire to use technology to leapfrog global competitors. But companies need to act fast\u2014the S&P data shows that business life expectancies are contracting.\u00a0To live long and uncover new growth opportunities, companies must remain agile and continue to reinvent themselves by leveraging digital solutions as part of their overall business strategy.",
+    "format": "rich_text",
+    "processed": "R<b>etaining agility and flexibility will be the biggest challenge facing businesses in Asia in the future. Some of Asia\u2019s most famous recent success stories, such as China\u2019s Alibaba and Tencent, have built massive multi-industry businesses by reinventing business models and embracing digital.\u00a0<\/b> This agility has enabled them to tear up the rule book.\u00a0To be successful long-term, companies must make agility and change part of their DNA.\u00a0Companies are already facing reduced life expectancies globally. In 1964, the average tenure of companies on the S&amp;P was 33 years.\u00a0That number shrank to 24 years in 2016 and is forecast to dwindle to just 12 years by 2027, according to Innosight Strategy &amp; Innovation at Huron. To live longer, companies will need to evolve and find new growth areas. Consider how Toyota, which has an investment in Japanese telecoms company KDDI, as well as an investment in Japan\u2019s largest taxi-hailing app JapanTaxi, recently worked with Accenture to develop a solution for taxi dispatchers to predict demand for service. This is a tech-driven win-win for the companies: KDDI is seeking new business opportunities leveraging the big data it has at its fingertips, while Toyota is improving its Mobility as a Service (MaaS) capabilities. They are adeptly using artificial intelligence and machine learning to amalgamate traffic, demographic predictions, weather, public transport service availability, and events at large facilities to predict demand. In the past, a conglomerate might have made investments in a variety of companies and leave it at that. Toyota, however, is leveraging cutting edge tech for new non-core products that drive revenue growth for a variety of the companies in which it\u2019s invested. Asia will be both the testing ground and launchpad for new innovations. Already Alibaba\u2019s retail model of offering financial services and encouraging vendors to be creative by setting up virtual pop-up stores and developing new marketing techniques has been embraced globally. For example, Alipay preceded Amazon Pay, and the online shopping bonanza Singles\u2019 Day in China was a roaring success before Amazon launched Prime Day. Any company seeking to do business in Asia will need to be nimble. Starbucks has paired up with Alibaba\u2019s food delivery platform Ele.me, which will begin making deliveries from 150 Starbucks outlets in September. Starbucks already controls 80 percent of the market, according to Euromonitor, but local competitors have been nipping at its lead by offering to deliver coffee. Starbucks' partnership with the digital giant illustrates its intention to remain flexible. We live in an age that demands companies stay in a permanent state of change. The digital era calls for a new approach to organizational change. We call this rotation to the new. This approach requires companies to: (1) transform the core business to drive up investment capacity; (2) grow the core business to sustain the fuel for growth; and (3) identify and scale new growth areas at pace. Our research shows that companies in Asia have higher contribution expectations from new businessesbut their shift to the new, as with companies in other markets, is likely too slow. Similar to global findings, only 6.8 percent of surveyed companies in Asia have accelerated their journey into the new. That is a challenge\u2014it suggests too many companies remain unprepared for the future. The good news is we have home-grown role models, a digitally-savvy populace across the region and a desire to use technology to leapfrog global competitors. But companies need to act fast\u2014the S&amp;P data shows that business life expectancies are contracting.\u00a0To live long and uncover new growth opportunities, companies must remain agile and continue to reinvent themselves by leveraging digital solutions as part of their overall business strategy.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,11 @@
+uuid: 83e07b25-e661-4cec-9867-c270c63c0814
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tracks
+id: taxonomy_term.tracks
+target_entity_type_id: taxonomy_term
+target_bundle: tracks
+default_langcode: site_default
+language_alterable: false

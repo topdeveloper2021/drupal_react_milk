@@ -1,0 +1,40 @@
+uuid: 1ac6e472-40ba-47c3-974d-b679e79365d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.teams.field_center_reference
+    - field.field.taxonomy_term.teams.field_header
+    - taxonomy.vocabulary.teams
+  module:
+    - text
+id: taxonomy_term.teams.default
+targetEntityType: taxonomy_term
+bundle: teams
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_center_reference:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_header:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/how-make-us-cities-blue-zones-healthy-longevity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/104?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 586
+        }
+    ],
+    "uuid": [
+        {
+            "value": "39f42ca8-f155-415b-be23-704e9ff65a23"
+        }
+    ],
+    "vid": [
+        {
+            "value": 586
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/104?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "08a2ef67-4e61-4509-b151-6dd9fc1b5779"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How to Make U.S. Cities Blue Zones for Healthy Longevity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:27:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/how-make-us-cities-blue-zones-healthy-longevity",
+            "pid": 639,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>New York Times bestselling author, Dan Buettner has traveled the globe visiting the places in the world where higher percentages of people enjoy long, full lives, areas dubbed \u201cBlue Zones.\u201d He founded Blue Zones LLC to help people live longer, healthier, and happier lives by improving\u00a0their environments. In an interview with the Milken Institute Center for the Future of Aging, Buettner explains how American cities can become places that older adults choose to reside, the importance of positive outlook, and the choices we make in how we age.<\/i><b>What led you to start researching longevity hot spots? Have you found any common themes among them?<\/b>It all started in the spring of 2000 when I was leading a series of educational projects for <i>National Geographic<\/i> called \u201cQuests,\u201d in which a team of scientists investigated some of Earth\u2019s great puzzles. I had heard about Okinawans\u2019 unusual longevity and thought it would be a great quest to investigate what their secrets to good health and long life were. We spent ten days studying, exploring, and summing up what we found. Five years later, I returned to Okinawa with a new team. I\u2019d just written a cover story for <i>National Geographic<\/i> about the \u201cSecrets of Long Life,\u201d which profiled three areas of the world with concentrations of some of the world\u2019s longest-lived people\u2014areas we dubbed \u201cBlue Zones\u201d regions. I was determined to delve deeper into the lifestyle of Okinawa.\u00a0During these explorations we were always thinking, how can we bring these teachings back to our communities? This is how the Blue Zones project was born. We decided that we could take the nine evidence-based common denominators that we found in all the Blue Zones and implement them in communities across the United States. Our goal was to make small adjustments to make the healthy choice the easy choice for people in their communities.<b>What\u2019s your take on how American cities can become places that older adults choose to reside?<\/b>Studies show that social isolation and loneliness kill. It\u2019s important that older adults have easy access to transportation or are able to walk to where they\u2019d like to go. People don\u2019t want to be put somewhere and forgotten. They want to pursue their hobbies, see friends, and have a strong purpose. New research shows retirees often want the same things from their cities that millennials do\u2014walkability, cost-effective housing, with activities and restaurants nearby.<b>How can communities play a role in embracing an active and healthy lifestyle?<\/b>It\u2019s most important that we curate environments that encourage healthy lifestyles and diets. If the healthy choice is the easy choice in our day-to-day lives, we will take that route over the unhealthy option. Living in a place that promotes walking (i.e., being able to walk to work\/school\/grocery store\/ parks, etc.) is an extremely important aspect. Also, having access to fruits and vegetables is something many people take for granted around the country, but some locations are food deserts, and even if you want to eat healthy, you can\u2019t.In Blue Zones Project cities, we focus on the bigger picture instead of just encouraging people to diet and exercise. During my research and explorations in all the Blue Zones regions, I saw how the environment dictated the lifestyle of the world\u2019s healthiest and longest-lived people. So instead of just focusing on individuals, we\u2019re focused on the creation of sustainable, long-term changes in communities that affect the entire population and future generations. We work with city planners and local government to create sidewalks and bike paths and to clean up local parks so it\u2019s easier to be active and for children to walk to school; we work with restaurants, large employers, grocery stores, and schools to make healthier foods available; and we work with local health officials to pass smoking policies to de-normalize smoking for current and future generations. Albert Lea, MN was our first project. In just one year, citizens added 2.9 years to their lives and city healthcare claims decreased by 49 percent.<b>How does the Blue Zones project encourage a sense of purpose?\u00a0<\/b>We always encourage people of every age to volunteer and keep purpose in their day. One of our favorite centenarians in Loma Linda was Marge Jetton, who, even at the age of 105, was volunteering at over seven organizations around her community. Also, an extremely important aspect of a centenarian\u2019s life is to connect with friends and neighbors. The world\u2019s longest-lived people chose\u2014or were born into\u2014social circles that supported healthy behaviors. Okinawans created \u201cmoais\u201d\u2014groups of five friends that committed to each other for life.It is also important to surround yourself with the right people who share your values of health. Research from the Framingham Studies shows that smoking, obesity, happiness, and\u00a0even loneliness are contagious.\u00a0So, the social networks of long-lived people favorably shape their health behaviors. This is good for up to ten additional healthy years of your life.<b>Does culture affect happiness? And are certain cultures more inclined to be happy?<\/b>As Winston Churchill once said, shape your environment, and it will shape you. I don\u2019t believe in happy cultures\u2014they're a myth. In places around the world that have produced the happiest populations, you always see the same pattern: 50-100 years ago, enlightened leaders shifted their focus away from economic development to quality of life. They focused on public health and not the sick care we have in the U.S. They enacted policies to favor equality, trust, and tolerance\u2014all three of which are more highly correlated to life satisfaction in rich countries than incremental GDP growth. They made sure every kid could read\u2014that girls and women were educated. This produced mothers who had fewer children and those children were healthier, better educated, and grew up to be more productive adults who made better voting decisions. Hence, an upward ratcheting in well-being.<b>How would you respond to those who say we do not have a choice in how we age?<\/b>You can choose what to eat, who your friends are, and what you do with your free time. All three can have profound impacts on your life expectancy. If you choose vegetarian friends whose idea of recreation is tennis or biking and like to engage in meaningful conversation, you\u2019ll have a much better outcome than sitting around with friends who watch TV and eat hot dogs. The choice is yours.",
+    "format": "rich_text",
+    "processed": "<i>New York Times bestselling author, Dan Buettner has traveled the globe visiting the places in the world where higher percentages of people enjoy long, full lives, areas dubbed \u201cBlue Zones.\u201d He founded Blue Zones LLC to help people live longer, healthier, and happier lives by improving\u00a0their environments. In an interview with the Milken Institute Center for the Future of Aging, Buettner explains how American cities can become places that older adults choose to reside, the importance of positive outlook, and the choices we make in how we age.<\/i><b>What led you to start researching longevity hot spots? Have you found any common themes among them?<\/b>It all started in the spring of 2000 when I was leading a series of educational projects for <i>National Geographic<\/i> called \u201cQuests,\u201d in which a team of scientists investigated some of Earth\u2019s great puzzles. I had heard about Okinawans\u2019 unusual longevity and thought it would be a great quest to investigate what their secrets to good health and long life were. We spent ten days studying, exploring, and summing up what we found. Five years later, I returned to Okinawa with a new team. I\u2019d just written a cover story for <i>National Geographic<\/i> about the \u201cSecrets of Long Life,\u201d which profiled three areas of the world with concentrations of some of the world\u2019s longest-lived people\u2014areas we dubbed \u201cBlue Zones\u201d regions. I was determined to delve deeper into the lifestyle of Okinawa.\u00a0During these explorations we were always thinking, how can we bring these teachings back to our communities? This is how the Blue Zones project was born. We decided that we could take the nine evidence-based common denominators that we found in all the Blue Zones and implement them in communities across the United States. Our goal was to make small adjustments to make the healthy choice the easy choice for people in their communities.<b>What\u2019s your take on how American cities can become places that older adults choose to reside?<\/b>Studies show that social isolation and loneliness kill. It\u2019s important that older adults have easy access to transportation or are able to walk to where they\u2019d like to go. People don\u2019t want to be put somewhere and forgotten. They want to pursue their hobbies, see friends, and have a strong purpose. New research shows retirees often want the same things from their cities that millennials do\u2014walkability, cost-effective housing, with activities and restaurants nearby.<b>How can communities play a role in embracing an active and healthy lifestyle?<\/b>It\u2019s most important that we curate environments that encourage healthy lifestyles and diets. If the healthy choice is the easy choice in our day-to-day lives, we will take that route over the unhealthy option. Living in a place that promotes walking (i.e., being able to walk to work\/school\/grocery store\/ parks, etc.) is an extremely important aspect. Also, having access to fruits and vegetables is something many people take for granted around the country, but some locations are food deserts, and even if you want to eat healthy, you can\u2019t.In Blue Zones Project cities, we focus on the bigger picture instead of just encouraging people to diet and exercise. During my research and explorations in all the Blue Zones regions, I saw how the environment dictated the lifestyle of the world\u2019s healthiest and longest-lived people. So instead of just focusing on individuals, we\u2019re focused on the creation of sustainable, long-term changes in communities that affect the entire population and future generations. We work with city planners and local government to create sidewalks and bike paths and to clean up local parks so it\u2019s easier to be active and for children to walk to school; we work with restaurants, large employers, grocery stores, and schools to make healthier foods available; and we work with local health officials to pass smoking policies to de-normalize smoking for current and future generations. Albert Lea, MN was our first project. In just one year, citizens added 2.9 years to their lives and city healthcare claims decreased by 49 percent.<b>How does the Blue Zones project encourage a sense of purpose?\u00a0<\/b>We always encourage people of every age to volunteer and keep purpose in their day. One of our favorite centenarians in Loma Linda was Marge Jetton, who, even at the age of 105, was volunteering at over seven organizations around her community. Also, an extremely important aspect of a centenarian\u2019s life is to connect with friends and neighbors. The world\u2019s longest-lived people chose\u2014or were born into\u2014social circles that supported healthy behaviors. Okinawans created \u201cmoais\u201d\u2014groups of five friends that committed to each other for life.It is also important to surround yourself with the right people who share your values of health. Research from the Framingham Studies shows that smoking, obesity, happiness, and\u00a0even loneliness are contagious.\u00a0So, the social networks of long-lived people favorably shape their health behaviors. This is good for up to ten additional healthy years of your life.<b>Does culture affect happiness? And are certain cultures more inclined to be happy?<\/b>As Winston Churchill once said, shape your environment, and it will shape you. I don\u2019t believe in happy cultures\u2014they're a myth. In places around the world that have produced the happiest populations, you always see the same pattern: 50-100 years ago, enlightened leaders shifted their focus away from economic development to quality of life. They focused on public health and not the sick care we have in the U.S. They enacted policies to favor equality, trust, and tolerance\u2014all three of which are more highly correlated to life satisfaction in rich countries than incremental GDP growth. They made sure every kid could read\u2014that girls and women were educated. This produced mothers who had fewer children and those children were healthier, better educated, and grew up to be more productive adults who made better voting decisions. Hence, an upward ratcheting in well-being.<b>How would you respond to those who say we do not have a choice in how we age?<\/b>You can choose what to eat, who your friends are, and what you do with your free time. All three can have profound impacts on your life expectancy. If you choose vegetarian friends whose idea of recreation is tennis or biking and like to engage in meaningful conversation, you\u2019ll have a much better outcome than sitting around with friends who watch TV and eat hot dogs. The choice is yours.",
+    "summary": null,
+    "summary_processed": ""
+}

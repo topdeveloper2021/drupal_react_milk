@@ -1,0 +1,21 @@
+uuid: d7043622-5922-417f-bc00-d7d334df0ec7
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: rooms.field_schoolhousecap
+field_name: field_schoolhousecap
+entity_type: rooms
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

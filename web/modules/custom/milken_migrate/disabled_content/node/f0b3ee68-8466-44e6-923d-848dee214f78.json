@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/where-does-your-city-rank-milken-institute-index-analyses-352-metropolitan-areas-identify?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 57
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f0b3ee68-8466-44e6-923d-848dee214f78"
+        }
+    ],
+    "vid": [
+        {
+            "value": 57
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Where does your city rank? Milken Institute index analyses 352 metropolitan areas to identify \u201cBest Cities for Successful Aging\u201d",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-11-17T14:49:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/where-does-your-city-rank-milken-institute-index-analyses-352-metropolitan-areas-identify",
+            "pid": 110,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 The Milken Institute released today the first-of-its-kind, data-driven index, Best Cities for Successful Aging, which measures and ranks the performance of 352 U.S. metropolitan areas in promoting and enabling successful agingThe Top 10 large and small [1] metropolitan areas are:<table><tr><td><b>Ranking - largest metros:<\/b><\/td><td>\u00a0<\/td>\n<td><b>Ranking - smaller metros:<\/b><\/td>\n<\/tr><tr><td><\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nMadison, WI\n<\/td>\n<td>\u00a0<\/td>\n<td>\n1\n<\/td>\n<td>\nIowa City, IA\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nOmaha-Council Bluffs, NE-IA\n<\/td>\n<td>\u00a0<\/td>\n<td>\n2\n<\/td>\n<td>\nSioux Falls, SD\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nProvo-Orem, UT\n<\/td>\n<td>\u00a0<\/td>\n<td>\n3\n<\/td>\n<td>\nColumbia, MO\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nBoston-Cambridge-Newton, MA-NH\n<\/td>\n<td>\u00a0<\/td>\n<td>\n4\n<\/td>\n<td>\nBismarck, ND\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nSalt Lake City, UT\n<\/td>\n<td>\u00a0<\/td>\n<td>\n5\n<\/td>\n<td>\nRapid City, SD\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nJackson, MS\n<\/td>\n<td>\u00a0<\/td>\n<td>\n6\n<\/td>\n<td>\nAmes, IA\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nDes Moines-West Des Moines, IA\n<\/td>\n<td>\u00a0<\/td>\n<td>\n7\n<\/td>\n<td>\nRochester, MN\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nToledo, OH\n<\/td>\n<td>\u00a0<\/td>\n<td>\n8\n<\/td>\n<td>\nAnn Arbor, MI\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nAustin-Round Rock, TX\n<\/td>\n<td>\u00a0<\/td>\n<td>\n9\n<\/td>\n<td>\nCheyenne, WY\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nBridgeport-Stamford-Norwalk, CT\n<\/td>\n<td>\u00a0<\/td>\n<td>\n10\n<\/td>\n<td>\nFargo, ND-MN\n<\/td>\n<\/tr><\/table>Unlike many \"best places to retire\" lists, the Milken Institute starts from the insight that most Americans want to age at home and in place, and not uproot themselves from their communities. In effect, the Best Cities for Successful Aging Index is an x-ray that reveals how well U.S. cities are providing the infrastructure, amenities, and opportunities both to serve and benefit from the country's fastest-growing age segment.\u00a0The Best Cities for Successful Aging index examines 84 separate factors that most affect the quality of life for older adults. These include not only health and wellness, crime rates and weather, but also economic and job conditions, housing, transportation, and social engagement factors that help create safe, affordable and connected communities. The index also recognizes the new economic and social reality that, especially for the 65-79 age group, many need and want to continue paid employment.The index includes two sets of overall rankings: one for the 100 most populous metropolitan areas and another for the next 252 metros in size. The index also breaks down results for the 65-79 age group and for those 80 and older, recognizing that the needs and aspirations of adults change as they age.\"Our research finds common themes among the top-ranked cities,\" said Anusuya Chatterjee, Milken Institute senior economist and one of the authors of the report. \"These include economic strength, abundance of health resources, active lifestyles, opportunities for intellectual stimulation and access to amenities.\"As part of this initiative, the Institute reached out to U.S. mayors to ask them to sign the Best Cities for Successful Aging Mayor's Pledge. To date, one-hundred thirty-seven mayors from across the political spectrum have committed to make their cities work better for older adults and to enable older adults to strengthen their cities and improve lives for all generations through purposeful work and volunteerism. The mayors and their cities are listed on a site devoted to the Mayor's Pledge: successfulaging.milkeninstitute.org\/mayors-pledgeThe Pledge comes from the Institute's Best Cities for Successful Aging Advisory Committee, an important group of thought leaders and experts who are advising the Institute in its work on healthy, productive and purposeful aging.\"With the demographic shift proceeding across America, enabling successful aging could not be more important for our future,\" said Paul Irving, president of the Milken Institute. \"Best Cities for Successful Aging is not just an index, it's a movement. We hope our findings spark national discussion and, at the local level, generate virtuous competition among cities to galvanize improvement in the social structures that serve and empower older adults.\"To read \"Best Cities for Successful Aging\" and explore the interactive data site, go to successfulaging.milkeninstitute.org.# # # [1] Metros were ranked by population. The top 100 largest metros were placed in one subgroup and the remaining 252 in another. This allowed for appropriate data comparisons between metros with smaller populations, using a slightly different data set.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 The Milken Institute released today the first-of-its-kind, data-driven index, Best Cities for Successful Aging, which measures and ranks the performance of 352 U.S. metropolitan areas in promoting and enabling successful agingThe Top 10 large and small [1] metropolitan areas are:<table><tr><td><b>Ranking - largest metros:<\/b><\/td><td>\u00a0<\/td>\n<td><b>Ranking - smaller metros:<\/b><\/td>\n<\/tr><tr><td><\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nMadison, WI\n<\/td>\n<td>\u00a0<\/td>\n<td>\n1\n<\/td>\n<td>\nIowa City, IA\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nOmaha-Council Bluffs, NE-IA\n<\/td>\n<td>\u00a0<\/td>\n<td>\n2\n<\/td>\n<td>\nSioux Falls, SD\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nProvo-Orem, UT\n<\/td>\n<td>\u00a0<\/td>\n<td>\n3\n<\/td>\n<td>\nColumbia, MO\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nBoston-Cambridge-Newton, MA-NH\n<\/td>\n<td>\u00a0<\/td>\n<td>\n4\n<\/td>\n<td>\nBismarck, ND\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nSalt Lake City, UT\n<\/td>\n<td>\u00a0<\/td>\n<td>\n5\n<\/td>\n<td>\nRapid City, SD\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nJackson, MS\n<\/td>\n<td>\u00a0<\/td>\n<td>\n6\n<\/td>\n<td>\nAmes, IA\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nDes Moines-West Des Moines, IA\n<\/td>\n<td>\u00a0<\/td>\n<td>\n7\n<\/td>\n<td>\nRochester, MN\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nToledo, OH\n<\/td>\n<td>\u00a0<\/td>\n<td>\n8\n<\/td>\n<td>\nAnn Arbor, MI\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nAustin-Round Rock, TX\n<\/td>\n<td>\u00a0<\/td>\n<td>\n9\n<\/td>\n<td>\nCheyenne, WY\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nBridgeport-Stamford-Norwalk, CT\n<\/td>\n<td>\u00a0<\/td>\n<td>\n10\n<\/td>\n<td>\nFargo, ND-MN\n<\/td>\n<\/tr><\/table>Unlike many \"best places to retire\" lists, the Milken Institute starts from the insight that most Americans want to age at home and in place, and not uproot themselves from their communities. In effect, the Best Cities for Successful Aging Index is an x-ray that reveals how well U.S. cities are providing the infrastructure, amenities, and opportunities both to serve and benefit from the country's fastest-growing age segment.\u00a0The Best Cities for Successful Aging index examines 84 separate factors that most affect the quality of life for older adults. These include not only health and wellness, crime rates and weather, but also economic and job conditions, housing, transportation, and social engagement factors that help create safe, affordable and connected communities. The index also recognizes the new economic and social reality that, especially for the 65-79 age group, many need and want to continue paid employment.The index includes two sets of overall rankings: one for the 100 most populous metropolitan areas and another for the next 252 metros in size. The index also breaks down results for the 65-79 age group and for those 80 and older, recognizing that the needs and aspirations of adults change as they age.\"Our research finds common themes among the top-ranked cities,\" said Anusuya Chatterjee, Milken Institute senior economist and one of the authors of the report. \"These include economic strength, abundance of health resources, active lifestyles, opportunities for intellectual stimulation and access to amenities.\"As part of this initiative, the Institute reached out to U.S. mayors to ask them to sign the Best Cities for Successful Aging Mayor's Pledge. To date, one-hundred thirty-seven mayors from across the political spectrum have committed to make their cities work better for older adults and to enable older adults to strengthen their cities and improve lives for all generations through purposeful work and volunteerism. The mayors and their cities are listed on a site devoted to the Mayor's Pledge: successfulaging.milkeninstitute.org\/mayors-pledgeThe Pledge comes from the Institute's Best Cities for Successful Aging Advisory Committee, an important group of thought leaders and experts who are advising the Institute in its work on healthy, productive and purposeful aging.\"With the demographic shift proceeding across America, enabling successful aging could not be more important for our future,\" said Paul Irving, president of the Milken Institute. \"Best Cities for Successful Aging is not just an index, it's a movement. We hope our findings spark national discussion and, at the local level, generate virtuous competition among cities to galvanize improvement in the social structures that serve and empower older adults.\"To read \"Best Cities for Successful Aging\" and explore the interactive data site, go to successfulaging.milkeninstitute.org.# # # [1] Metros were ranked by population. The top 100 largest metros were placed in one subgroup and the remaining 252 in another. This allowed for appropriate data comparisons between metros with smaller populations, using a slightly different data set.",
+    "summary": null,
+    "summary_processed": ""
+}

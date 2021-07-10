@@ -1,0 +1,25 @@
+uuid: b3d556c8-7092-40f8-aa22-234702347a0b
+langcode: und
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: field_media_image
+_core:
+  default_config_hash: UbLy1_yBV5jSxil0-k8gV9GiVUg3Oik3hlAJzqeT8YQ
+id: image
+label: Image
+description: 'Locally hosted images.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: field_photo_subject_name
+  mimetype: field_filemime
+  filesize: field_filesize
+  width: field_width
+  height: field_height

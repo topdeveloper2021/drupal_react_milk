@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/sites\/default\/files\/Collins-POI_WEB.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 2387
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a9a54413-2ed5-45ea-8dd5-84ee28c2d790"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7661a09f-6a1e-4d5f-a2ba-399071f74c9a"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Collins-POI_WEB.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/Collins-POI_WEB.jpg",
+            "url": "\/sites\/default\/files\/Collins-POI_WEB.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 235650
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

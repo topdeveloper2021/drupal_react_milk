@@ -1,0 +1,21 @@
+uuid: bd51758b-7bb9-447a-8524-9a8b23bf18c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: rooms.field_tour
+field_name: field_tour
+entity_type: rooms
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

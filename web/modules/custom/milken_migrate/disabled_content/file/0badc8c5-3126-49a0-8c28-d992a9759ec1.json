@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/0npda0kD9KLqbRT21nSjnVrRkg9HQV44dKJRuE7RCQE.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 29
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0badc8c5-3126-49a0-8c28-d992a9759ec1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "0npda0kD9KLqbRT21nSjnVrRkg9HQV44dKJRuE7RCQE.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/0npda0kD9KLqbRT21nSjnVrRkg9HQV44dKJRuE7RCQE.jpg",
+            "url": "\/sites\/default\/files\/oembed_thumbnails\/0npda0kD9KLqbRT21nSjnVrRkg9HQV44dKJRuE7RCQE.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 36486
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:30:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:30:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/learn-live-it-says-author-about-global-gap-between-rich-and-poor?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 234
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c5091cd1-3268-46db-8297-97843ef57ef5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 234
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "'Learn to live with it,' says author about global gap between rich and poor",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/learn-live-it-says-author-about-global-gap-between-rich-and-poor",
+            "pid": 287,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In the debate over how to resolve the gap between the world\u2032s rich and poor, Gary Hufbauer offers a blunt view: We don\u2032t have the will or the way to close it, so learn to deal with it.\nIn the latest issue of The Milken Institute Review, Hufbauer, a senior fellow at the Institute for International Economics in Washington, labels the arguments that polarization is self-correcting - or that the enlightened policies of the United States or European Union can make a big difference - as \"grand illusions.\" \"It is hard to escape the conclusion that the polarization problem can\u2032t be fixed, say, by changing America\u2032s unilateralist impulse or introducing sweet reason to the Middle East,\" he writes. \"In the end, the challenge will be to live with polarization and to minimize its damage to the global commons.\" This could mean everything from war against Iraq (to protect ourselves against chemical, biological and nuclear weapons) to an all-out offensive against the spread of AIDS. \"Living with polarization means intervening against the most dangerous and appalling manifestations, as seen from the rich-country side of the divide,\" he argues. \"It means Jacksonian intervention with a humanitarian edge.\" Also in this issue of the Review, James DeLong, director of the Center for the Study of Digital Property at the Progress & Freedom Foundation in Washington, takes aim at the conventional wisdom that public companies should be forced to account for employee stock options in P&L statements. \"The expense-or-not-expense issue is of modest importance in itself,\" he writes. \"But it has considerable potential to cause problems - especially with taxing and regulatory authorities hostile to new forms of business organizations.\" Other highlights from the new Review:\no\tGlenn Yago and Betsy Zeidman of the Milken Institute make the case that bringing minority and women entrepreneurs into the mainstream of the U.S. economy is not only the right thing to do, it\u2032s the only thing to do. \"We are coming to understand that bringing everyone into the fold doesn\u2032t compromise growth,\" they write. \"Quite the contrary, it is the key to sustaining Americans\u2032 standard of living as the giant baby boom generation retires.\" o\tLarry Kotlikoff, head of the economics department at Boston University, offers an explanation for why high-speed Internet connections have yet to reach the average computer user, along with a technological fix for breaking the political and economic logjam. \"The fix involves using next-generation technology to achieve for broadband and local phone service what was done years ago for long-distance service, namely to establish electronic switching between providers,\" he writes.\no\tRicardo Bayon, a fellow at the New America Foundation, reports on the growing inclination of institutional investors to throw their weight behind social and environmental initiatives. \"Not only do they have the money,\" he writes, \"but a reach and influence that traditional do-gooders can only dream about. When they talk, governments and corporations must listen.\" o\tJeffrey Frankel, a professor at Harvard University\u2032s Kennedy School and a former member of President Clinton\u2032s economic team, marvels at the role reversal between Democrats and Republicans on economic policy. \"The Republicans, who were so long identified with free markets and less-is-more government, have become the party of fiscal profligacy and market intervention,\" he argues. \"Democratic presidents have (by comparison) become the agents of fiscal responsibility and arms-length microeconomic policies.\" o\tCarol Graham, Robert Litan and Sandip Sukhtankar of the Brookings Institute translate the impact of the loss of confidence in the public securities market into the billions of lost production of goods and services. \"The best guess is that the crisis in corporate governance will exact sizable costs on the economy,\" they write. This issue\u2032s book excerpt comes from Clusters of Creativity: Enduring Lessons on Innovation and Entrepreneurship from Silicon Valley and Europe\u2032s Silicon Fen, by Rob Koepp, a Milken Institute research fellow. Koepp argues that while every successful technology cluster is unique, there is no way to create or sustain one without the help of exceptional managerial leadership. Also in this issue, our regular features: A charticle by Milken Institute Senior Fellow William Frey that looks at the steady rise of African-American professionals and the upward mobility of immigrant Latinos, and a book review of Conquer the Crash: You Can Survive and Prosper in a Deflationary Depression, by Robert R. Prechter Jr. The Milken Institute Review is distributed to some 10,000 corporate and financial executives, policy makers, academics and journalists throughout the world. Its editor is Peter Passell, former economics columnist for The New York Times.",
+    "format": "rich_text",
+    "processed": "In the debate over how to resolve the gap between the world\u2032s rich and poor, Gary Hufbauer offers a blunt view: We don\u2032t have the will or the way to close it, so learn to deal with it.\nIn the latest issue of The Milken Institute Review, Hufbauer, a senior fellow at the Institute for International Economics in Washington, labels the arguments that polarization is self-correcting - or that the enlightened policies of the United States or European Union can make a big difference - as \"grand illusions.\" \"It is hard to escape the conclusion that the polarization problem can\u2032t be fixed, say, by changing America\u2032s unilateralist impulse or introducing sweet reason to the Middle East,\" he writes. \"In the end, the challenge will be to live with polarization and to minimize its damage to the global commons.\" This could mean everything from war against Iraq (to protect ourselves against chemical, biological and nuclear weapons) to an all-out offensive against the spread of AIDS. \"Living with polarization means intervening against the most dangerous and appalling manifestations, as seen from the rich-country side of the divide,\" he argues. \"It means Jacksonian intervention with a humanitarian edge.\" Also in this issue of the Review, James DeLong, director of the Center for the Study of Digital Property at the Progress &amp; Freedom Foundation in Washington, takes aim at the conventional wisdom that public companies should be forced to account for employee stock options in P&amp;L statements. \"The expense-or-not-expense issue is of modest importance in itself,\" he writes. \"But it has considerable potential to cause problems - especially with taxing and regulatory authorities hostile to new forms of business organizations.\" Other highlights from the new Review:\no\tGlenn Yago and Betsy Zeidman of the Milken Institute make the case that bringing minority and women entrepreneurs into the mainstream of the U.S. economy is not only the right thing to do, it\u2032s the only thing to do. \"We are coming to understand that bringing everyone into the fold doesn\u2032t compromise growth,\" they write. \"Quite the contrary, it is the key to sustaining Americans\u2032 standard of living as the giant baby boom generation retires.\" o\tLarry Kotlikoff, head of the economics department at Boston University, offers an explanation for why high-speed Internet connections have yet to reach the average computer user, along with a technological fix for breaking the political and economic logjam. \"The fix involves using next-generation technology to achieve for broadband and local phone service what was done years ago for long-distance service, namely to establish electronic switching between providers,\" he writes.\no\tRicardo Bayon, a fellow at the New America Foundation, reports on the growing inclination of institutional investors to throw their weight behind social and environmental initiatives. \"Not only do they have the money,\" he writes, \"but a reach and influence that traditional do-gooders can only dream about. When they talk, governments and corporations must listen.\" o\tJeffrey Frankel, a professor at Harvard University\u2032s Kennedy School and a former member of President Clinton\u2032s economic team, marvels at the role reversal between Democrats and Republicans on economic policy. \"The Republicans, who were so long identified with free markets and less-is-more government, have become the party of fiscal profligacy and market intervention,\" he argues. \"Democratic presidents have (by comparison) become the agents of fiscal responsibility and arms-length microeconomic policies.\" o\tCarol Graham, Robert Litan and Sandip Sukhtankar of the Brookings Institute translate the impact of the loss of confidence in the public securities market into the billions of lost production of goods and services. \"The best guess is that the crisis in corporate governance will exact sizable costs on the economy,\" they write. This issue\u2032s book excerpt comes from Clusters of Creativity: Enduring Lessons on Innovation and Entrepreneurship from Silicon Valley and Europe\u2032s Silicon Fen, by Rob Koepp, a Milken Institute research fellow. Koepp argues that while every successful technology cluster is unique, there is no way to create or sustain one without the help of exceptional managerial leadership. Also in this issue, our regular features: A charticle by Milken Institute Senior Fellow William Frey that looks at the steady rise of African-American professionals and the upward mobility of immigrant Latinos, and a book review of Conquer the Crash: You Can Survive and Prosper in a Deflationary Depression, by Robert R. Prechter Jr. The Milken Institute Review is distributed to some 10,000 corporate and financial executives, policy makers, academics and journalists throughout the world. Its editor is Peter Passell, former economics columnist for The New York Times.",
+    "summary": null,
+    "summary_processed": ""
+}

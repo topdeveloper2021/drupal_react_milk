@@ -1,0 +1,25 @@
+From fa66fe2fd6782b9586437db58b9a932cafb92777 Mon Sep 17 00:00:00 2001
+From: Ian Lintner <ian.lintner@workiva.com>
+Date: Mon, 13 Jan 2020 15:59:33 -0600
+Subject: [PATCH] Use bundle property instead of resolving through type.
+
+---
+ src/Controller/EckEntityListBuilder.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/Controller/EckEntityListBuilder.php b/src/Controller/EckEntityListBuilder.php
+index 8d37de7..05677f5 100644
+--- a/src/Controller/EckEntityListBuilder.php
++++ b/src/Controller/EckEntityListBuilder.php
+@@ -40,7 +40,7 @@ class EckEntityListBuilder extends EntityListBuilder {
+    */
+   public function buildRow(EntityInterface $entity) {
+     $entityTypeId = $entity->getEntityTypeId();
+-    $entityBundle = $entity->type->entity->label();
++    $entityBundle = $entity->bundle();
+     $route = "entity.{$entityTypeId}.canonical";
+     $routeArguments = [$entityTypeId => $entity->id()];
+ 
+-- 
+2.22.0
+

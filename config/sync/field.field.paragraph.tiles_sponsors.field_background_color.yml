@@ -1,0 +1,25 @@
+uuid: 24c50999-cbfd-4d85-a3ed-ca114b97a281
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_color
+    - paragraphs.paragraphs_type.tiles_sponsors
+  module:
+    - color_field
+id: paragraph.tiles_sponsors.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+bundle: tiles_sponsors
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    color: '#ffffff'
+    opacity: !!float 1
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

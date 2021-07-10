@@ -1,0 +1,23 @@
+uuid: 2e108611-c971-464a-844d-f219021073df
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_hidden
+id: people.staff.field_hidden
+field_name: field_hidden
+entity_type: people
+bundle: staff
+label: Hidden
+description: 'If checked, Author squares will not link to the full profile page.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

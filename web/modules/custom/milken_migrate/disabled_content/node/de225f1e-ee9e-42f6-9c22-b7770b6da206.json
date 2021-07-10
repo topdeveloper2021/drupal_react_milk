@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-march-07-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/125?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 742
+        }
+    ],
+    "uuid": [
+        {
+            "value": "de225f1e-ee9e-42f6-9c22-b7770b6da206"
+        }
+    ],
+    "vid": [
+        {
+            "value": 742
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/125?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "55486e87-e30d-4b91-8353-133d9db92274"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - March 07, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-04T12:51:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:17:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-march-07-2019",
+            "pid": 795,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Heard on the Hill Of all the stories from 2018, data breaches and scandals at firms like Equifax and Facebook may prove to be the most impactful on FinTech in the United States. While things are sure to slow down as 2020 draws near, the question of how to best protect and govern consumer data is at the top of the agenda for both parties on Capitol Hill. Last week, two hearings in the House of Representatives showcased this focus and the level of bipartisan agreement on the issue. In the House Financial Services Committee, a hearing on holding credit bureaus accountable brought out several points of bipartisan agreement. First, there was widespread agreement among witnesses and committee members that the Fair Credit Reporting Act needs to be updated. The devil is in the details, of course, but Democrats and consumer advocates voiced their support for Chairwoman Waters\u2019 bill, the Comprehensive Consumer Credit Reporting Reform Act of 2019. For their part, Republicans on the committee voiced their concerns about the oligopolistic structure of the market, a concern that was also raised by many of their Democratic colleagues. Meanwhile, a hearing with less fanfare was being held by the Consumer Protection and Commerce Subcommittee of the House Energy and Commerce Committee. The topic of the hearing, protecting consumer privacy in the era of big data, has frequently been in the news since the Cambridge Analytica scandal and the implementation of the General Data Protection Regulation (GDPR) in the European Union (EU). Here too there was bipartisan agreement that comprehensive privacy legislation is needed at the federal level, but disagreement over what that might look like. Republicans found themselves nodding along with several witnesses from industry groups who felt that a GDPR-like structure would be problematic, citing reports that the regulation has merely created a competitive moat around incumbents in Europe. There was also bipartisan agreement that increased enforcement is needed for data privacy violations, with committee Democrats citing the Federal Trade Commission\u2019s Section 5 authority. Going forward, it will be important to keep tabs on the extent to which these conversations speak to each other or fail to do so. One idea that Congressman David Cicilline, the Chair of the Subcommittee on Antitrust in the House Judiciary Committee, raised to increase competition for tech platforms is the concept of data portability, the right for a consumer to allow their data to be sent from one institution to another. There are significant challenges to this in the context of tech platforms, but open banking initiatives by regulators around the world have driven progress towards achieving it in financial services. It is probably inevitable that such data governance questions will break out into their respective verticals. However, one hopes they will periodically surface for air to see what they can learn from each other. Industry Headlines <i>AltFi<\/i>:\u00a0Affirm announced a new partnership with Walmart last week, bringing point of sale financing to over 4,000 Walmart locations in the US. Customers will have the option of paying back their loans, which range from $200 to $2,000, in three, six, or 12-month installments. Meanwhile, Funding Circle hit a major milestone in the US last week, where it announced that it has lent over $2 billion. According to Funding Circle, that means they have more small business loans outstanding than 98 percent of FDIC insured banks. <i>Big Tech<\/i>: Several weeks after Facebook announced that its messaging services on Messenger, WhatsApp, and Instagram would be merged, Mark Zuckerberg has written an essay on Facebook\u2019s shift to a focus on privacy. <i>Blockchain & Crypto<\/i>: For the second week in a row, there is a potentially game-changing development to report in the blockchain and cryptocurrency world. This week it comes not from Wall Street, but from Silicon Valley, where Facebook is reportedly working on a top-secret cryptocurrency project. Like the JPM Coin news, however, a lot of questions remain. For skeptical readers, this piece from TechCrunch does a good job of weighing those questions. On a related note, Mizuho stated that its new digital currency does not use crypto or blockchain. Meanwhile, Coinbase was in the news last week. First, the exchange announced it was adding XRP to its platform for users of Coinbase Pro. This is bigger news for Ripple than it is for Coinbase, which has reportedly been trying to get XRP listed on major exchanges for some time. Elsewhere, SoFi and Coinbase announced a partnership that will allow SoFi\u2019s users to buy crypto through Coinbase. Finally, a grassroots movement in the crypto community to #DeleteCoinbase found out it\u2019s easier said than done since many accounts have residual crypto \u201cdust\u201d that keeps their account balance above zero. In response, Coinbase let go the controversial new staff members who sparked the movement, saying their due diligence process hadn\u2019t functioned properly. <i>Data Intermediation<\/i>:\u00a0Fiserv announced that it joined the Financial Data Exchange, an industry lead initiative to establish standards for financial data sharing. Fiserv will have a seat on the board. <i>Digital Banking<\/i>: British challenger banks Revolut and Metro Bank have had a really bad couple of weeks. Last week\u2019s edition of FinTech in Focus discussed Revolut\u2019s unwanted attention from Lithuanian policymakers, who are concerned the country\u2019s regulators may not have the capacity to supervise the challenger bank effectively and Revolut may be too close to Kremlin-linked companies. Subsequently, a report from Wired detailed the unforgiving work culture at Revolut. Some of this came to light several months ago, when Spanish newspaper El Diario reported the company routinely required prospective employees to recruit new customers for Revolut as a part of their interview process and did not remunerate them for their work. Wired found the challenger bank\u2019s cultural problems run deep, with high turnover and bullying pervasive throughout the company. But Revolut\u2019s problems don\u2019t stop there. The Telegraph reported last week that Revolut had turned off its anti-money laundering (AML) system for a few months, evidently because the system flagged too many false positives. Revolut CEO Nik Storonsky responded in a blog post that the Telegraph\u2019s report was inaccurate, Revolut had done nothing wrong, and the incident did not play a role in the Chief Financial Officer\u2019s resignation, which also took place last week. Unsurprisingly, the U.K.\u2019s Financial Conduct Authority (FCA) is looking into the matter, and London\u2019s Metropolitan Police are now investigating for fraud. Whatever is going on over there, there are at least two takeaways for young FinTech firms. First, treat people with respect. And second, don\u2019t turn off your AML system like a faulty smoke detector. Metro Bank\u2019s problems aren\u2019t quite as erratic, but their timing is more awkward. Last week, Metro Bank was awarded \u00a3120 million from a fund that regulators created to increase competition in the U.K. banking sector. However, the award comes as Metro Bank was recently found to have made an accounting error that led to it being undercapitalized. Upon the revelation of this mistake, Metro Bank announced a \u00a3350 million share issue, precipitating a steep drop in its share price. Now, both the FCA and the Prudential Regulation Authority are looking into how this could have happened and whether the mistake caused investors to be misled. On a lighter note, N26 announced it would open an office in Brazil last week. The challenger bank has not yet applied for a Brazilian banking license and has not indicated whether it would go that route or operate as a bank partner. Global Developments <i>Ireland<\/i>: Here is a quick and to-the-point headline about what the Ireland Data Protection Commission is up to: \u201cA European data privacy office has 15 open investigations. Ten are about Facebook.\u201d <i>Israel<\/i>: An inter-ministerial team in Israel is recommending that the country establish a regulatory sandbox after a request for information from the Ministry of Finance in 2017. <i>Mexico<\/i>: Mexico\u2019s central bank is in talks with Amazon about establishing a mobile payments system based on QR codes. The central bank says the system, called CoDi, will be trialed this month. <i>Philippines<\/i>: Cesar Purisima, a Senior Fellow at the Milken Institute and former Secretary of Finance in the Philippines, recently published an op-ed on Inquirer.net discussing FinTech\u2019s opportunity to increase financial inclusion in the Philippines. The op-ed comes after the Milken Institute\u2019s John Schellhase and Amos Garcia published a white paper about FinTech in the Philippines, which highlights five focus areas for policymakers. <i>United Arab Emirates<\/i>: The Abu Dhabi Global Market is accepting applications for the fourth cohort of its sandbox, with themes of \u201csustainable finance\u201d and \u201cAPI economies.\u201d <i>United\u00a0States<\/i>:\u00a0The big news in U.S. tech regulation last week was that the FTC will create a task force that focuses on competition in tech. This comes at a time when the FTC has been criticized for its light touch approach to enforcement. At the state level, Massachusetts Secretary of State William Galvin created a FinTech working group, which will \u201chelp advise securities regulators on meeting the novel demands of this rapidly growing space.\u201d Finally, the Milken Institute\u2019s Jackson Mueller and Michael Piwowar sent in a comment letter on the Consumer Financial Protection Bureau\u2019s No-Action Letter and Product Sandbox Proposal. ",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Heard on the Hill Of all the stories from 2018, data breaches and scandals at firms like Equifax and Facebook may prove to be the most impactful on FinTech in the United States. While things are sure to slow down as 2020 draws near, the question of how to best protect and govern consumer data is at the top of the agenda for both parties on Capitol Hill. Last week, two hearings in the House of Representatives showcased this focus and the level of bipartisan agreement on the issue. In the House Financial Services Committee, a hearing on holding credit bureaus accountable brought out several points of bipartisan agreement. First, there was widespread agreement among witnesses and committee members that the Fair Credit Reporting Act needs to be updated. The devil is in the details, of course, but Democrats and consumer advocates voiced their support for Chairwoman Waters\u2019 bill, the Comprehensive Consumer Credit Reporting Reform Act of 2019. For their part, Republicans on the committee voiced their concerns about the oligopolistic structure of the market, a concern that was also raised by many of their Democratic colleagues. Meanwhile, a hearing with less fanfare was being held by the Consumer Protection and Commerce Subcommittee of the House Energy and Commerce Committee. The topic of the hearing, protecting consumer privacy in the era of big data, has frequently been in the news since the Cambridge Analytica scandal and the implementation of the General Data Protection Regulation (GDPR) in the European Union (EU). Here too there was bipartisan agreement that comprehensive privacy legislation is needed at the federal level, but disagreement over what that might look like. Republicans found themselves nodding along with several witnesses from industry groups who felt that a GDPR-like structure would be problematic, citing reports that the regulation has merely created a competitive moat around incumbents in Europe. There was also bipartisan agreement that increased enforcement is needed for data privacy violations, with committee Democrats citing the Federal Trade Commission\u2019s Section 5 authority. Going forward, it will be important to keep tabs on the extent to which these conversations speak to each other or fail to do so. One idea that Congressman David Cicilline, the Chair of the Subcommittee on Antitrust in the House Judiciary Committee, raised to increase competition for tech platforms is the concept of data portability, the right for a consumer to allow their data to be sent from one institution to another. There are significant challenges to this in the context of tech platforms, but open banking initiatives by regulators around the world have driven progress towards achieving it in financial services. It is probably inevitable that such data governance questions will break out into their respective verticals. However, one hopes they will periodically surface for air to see what they can learn from each other. Industry Headlines <i>AltFi<\/i>:\u00a0Affirm announced a new partnership with Walmart last week, bringing point of sale financing to over 4,000 Walmart locations in the US. Customers will have the option of paying back their loans, which range from $200 to $2,000, in three, six, or 12-month installments. Meanwhile, Funding Circle hit a major milestone in the US last week, where it announced that it has lent over $2 billion. According to Funding Circle, that means they have more small business loans outstanding than 98 percent of FDIC insured banks. <i>Big Tech<\/i>: Several weeks after Facebook announced that its messaging services on Messenger, WhatsApp, and Instagram would be merged, Mark Zuckerberg has written an essay on Facebook\u2019s shift to a focus on privacy. <i>Blockchain &amp; Crypto<\/i>: For the second week in a row, there is a potentially game-changing development to report in the blockchain and cryptocurrency world. This week it comes not from Wall Street, but from Silicon Valley, where Facebook is reportedly working on a top-secret cryptocurrency project. Like the JPM Coin news, however, a lot of questions remain. For skeptical readers, this piece from TechCrunch does a good job of weighing those questions. On a related note, Mizuho stated that its new digital currency does not use crypto or blockchain. Meanwhile, Coinbase was in the news last week. First, the exchange announced it was adding XRP to its platform for users of Coinbase Pro. This is bigger news for Ripple than it is for Coinbase, which has reportedly been trying to get XRP listed on major exchanges for some time. Elsewhere, SoFi and Coinbase announced a partnership that will allow SoFi\u2019s users to buy crypto through Coinbase. Finally, a grassroots movement in the crypto community to #DeleteCoinbase found out it\u2019s easier said than done since many accounts have residual crypto \u201cdust\u201d that keeps their account balance above zero. In response, Coinbase let go the controversial new staff members who sparked the movement, saying their due diligence process hadn\u2019t functioned properly. <i>Data Intermediation<\/i>:\u00a0Fiserv announced that it joined the Financial Data Exchange, an industry lead initiative to establish standards for financial data sharing. Fiserv will have a seat on the board. <i>Digital Banking<\/i>: British challenger banks Revolut and Metro Bank have had a really bad couple of weeks. Last week\u2019s edition of FinTech in Focus discussed Revolut\u2019s unwanted attention from Lithuanian policymakers, who are concerned the country\u2019s regulators may not have the capacity to supervise the challenger bank effectively and Revolut may be too close to Kremlin-linked companies. Subsequently, a report from Wired detailed the unforgiving work culture at Revolut. Some of this came to light several months ago, when Spanish newspaper El Diario reported the company routinely required prospective employees to recruit new customers for Revolut as a part of their interview process and did not remunerate them for their work. Wired found the challenger bank\u2019s cultural problems run deep, with high turnover and bullying pervasive throughout the company. But Revolut\u2019s problems don\u2019t stop there. The Telegraph reported last week that Revolut had turned off its anti-money laundering (AML) system for a few months, evidently because the system flagged too many false positives. Revolut CEO Nik Storonsky responded in a blog post that the Telegraph\u2019s report was inaccurate, Revolut had done nothing wrong, and the incident did not play a role in the Chief Financial Officer\u2019s resignation, which also took place last week. Unsurprisingly, the U.K.\u2019s Financial Conduct Authority (FCA) is looking into the matter, and London\u2019s Metropolitan Police are now investigating for fraud. Whatever is going on over there, there are at least two takeaways for young FinTech firms. First, treat people with respect. And second, don\u2019t turn off your AML system like a faulty smoke detector. Metro Bank\u2019s problems aren\u2019t quite as erratic, but their timing is more awkward. Last week, Metro Bank was awarded \u00a3120 million from a fund that regulators created to increase competition in the U.K. banking sector. However, the award comes as Metro Bank was recently found to have made an accounting error that led to it being undercapitalized. Upon the revelation of this mistake, Metro Bank announced a \u00a3350 million share issue, precipitating a steep drop in its share price. Now, both the FCA and the Prudential Regulation Authority are looking into how this could have happened and whether the mistake caused investors to be misled. On a lighter note, N26 announced it would open an office in Brazil last week. The challenger bank has not yet applied for a Brazilian banking license and has not indicated whether it would go that route or operate as a bank partner. Global Developments <i>Ireland<\/i>: Here is a quick and to-the-point headline about what the Ireland Data Protection Commission is up to: \u201cA European data privacy office has 15 open investigations. Ten are about Facebook.\u201d <i>Israel<\/i>: An inter-ministerial team in Israel is recommending that the country establish a regulatory sandbox after a request for information from the Ministry of Finance in 2017. <i>Mexico<\/i>: Mexico\u2019s central bank is in talks with Amazon about establishing a mobile payments system based on QR codes. The central bank says the system, called CoDi, will be trialed this month. <i>Philippines<\/i>: Cesar Purisima, a Senior Fellow at the Milken Institute and former Secretary of Finance in the Philippines, recently published an op-ed on Inquirer.net discussing FinTech\u2019s opportunity to increase financial inclusion in the Philippines. The op-ed comes after the Milken Institute\u2019s John Schellhase and Amos Garcia published a white paper about FinTech in the Philippines, which highlights five focus areas for policymakers. <i>United Arab Emirates<\/i>: The Abu Dhabi Global Market is accepting applications for the fourth cohort of its sandbox, with themes of \u201csustainable finance\u201d and \u201cAPI economies.\u201d <i>United\u00a0States<\/i>:\u00a0The big news in U.S. tech regulation last week was that the FTC will create a task force that focuses on competition in tech. This comes at a time when the FTC has been criticized for its light touch approach to enforcement. At the state level, Massachusetts Secretary of State William Galvin created a FinTech working group, which will \u201chelp advise securities regulators on meeting the novel demands of this rapidly growing space.\u201d Finally, the Milken Institute\u2019s Jackson Mueller and Michael Piwowar sent in a comment letter on the Consumer Financial Protection Bureau\u2019s No-Action Letter and Product Sandbox Proposal. ",
+    "summary": null,
+    "summary_processed": ""
+}

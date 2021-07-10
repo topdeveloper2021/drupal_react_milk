@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7077\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/RpSN7RRXo0ZD1hqdVD5zuXpRVGUt0c_66Yr0RF9QVbo.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7077
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4483ec67-13b3-4a95-8a3c-12f8b33a9726"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1696
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/RpSN7RRXo0ZD1hqdVD5zuXpRVGUt0c_66Yr0RF9QVbo.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a71662e2-a9d1-4c7e-b9d7-bd9be38512de"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Preparing California for the Future of Work",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-08-23T19:57:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-12T21:58:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The future of work is taking shape under the looming specter of automation and the spreading application of artificial intelligence across industry sectors. This dynamic has leaders around the country contemplating the role of human labor in the face of unprecedented technological advancement. In preparing California for this future of work, the focus for leaders starts at reshaping California higher education pipeline to proactively develop the skills critical for 21st-century jobs. Hear viewpoints from both traditional and state of the art California companies, as well as from state and educational leaders as to the future of work and higher education in the Golden State.",
+    "format": "rich_text",
+    "processed": "The future of work is taking shape under the looming specter of automation and the spreading application of artificial intelligence across industry sectors. This dynamic has leaders around the country contemplating the role of human labor in the face of unprecedented technological advancement. In preparing California for this future of work, the focus for leaders starts at reshaping California higher education pipeline to proactively develop the skills critical for 21st-century jobs. Hear viewpoints from both traditional and state of the art California companies, as well as from state and educational leaders as to the future of work and higher education in the Golden State.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/gHITMro0nww",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/RpSN7RRXo0ZD1hqdVD5zuXpRVGUt0c_66Yr0RF9QVbo.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

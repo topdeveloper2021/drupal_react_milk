@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/grow-mexican-economy-must-shed-last-vestiges-populist-one-party-rule-argues-laurence-kerr?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 155
+        }
+    ],
+    "uuid": [
+        {
+            "value": "512c3a9b-0da9-47b0-8c15-bfc63b9afbd4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 155
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "To grow, the Mexican economy must shed the last vestiges of populist, one-party rule, argues Laurence Kerr in the latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/grow-mexican-economy-must-shed-last-vestiges-populist-one-party-rule-argues-laurence-kerr",
+            "pid": 208,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - <b>Laurence Kerr<\/b>, a former minister-counselor for economic affairs at the U.S. embassy in Mexico City, puts Mexico's economy in context, providing a rich historical account of the policies and social constructs that have shaped the country's trajectory. \"Bowed under the weight of inefficient bureaucracies and often-rapacious leaders espousing outdated economic models, Mexico has nevertheless largely managed to crawl out of bitter poverty to join the middle-income nations,\" he reports in the latest Milken Institute Review. However, Kerr also illustrates that continuing issues including immigration, security, oil industry policies and more could threaten the nation's ability to realize its growing potential.\nAlso in this issue: <b>Robert Looney<\/b>, an economist at the Naval Postgraduate School in California, challenges the conventional wisdom surrounding Pakistani President Pervez Musharraf\u2032s weakening grip on power. While most media accounts have focused on Musharraf's power grabs and constitutional abuses -- not to mention the fallout from Benazir Bhutto's assassination -- Looney believes that simple economics have eroded support for the Pakistani leader. \"Analysts close to the ground argue that the proximate cause of Musharraf's humbling was his inability to contain food and fuel inflation - and, more generally, his failure to improve the living standard of the great majority of Pakistanis who have yet to share in the bounty from Asia's economic awakening.\" <b>Sherry Glied<\/b>, an economist at Columbia University's Mailman School of Public Health, explores how a universal health-insurance mandate would (and wouldn't) work, and why the idea provokes extreme reactions. \"Reforms that include subsidies and risk-rating limits would be enough to induce the majority of people now lacking insurance to obtain it voluntarily,\" she argues. \"But research on health-insurance markets, along with two decades of experience with public insurance expansion initiatives, suggest that even with very substantial subsidies as incentives, a significant number of Americans - perhaps a third of those currently uninsured - would choose to go without.\" <b>Dean Baker<\/b>, co-director of the Center for Economic and Policy Research in Washington, analyzes what he believes to be the waste and conflicts of interest inherent in the current system of drug testing, which, in his view, gives pharmaceutical companies control over evaluating their own products. He proposes a bold alternative: \"On the one hand, publicly financed testing of drugs would reduce the resources that must be invested to insure that new drugs are safe and effective. On the other, funding the program through government savings from negotiating lower drug prices for Medicare would reduce the waste linked to the gap between production costs and market prices.\" <b>Robert Archibald<\/b> and <b>David Feldman<\/b>, economists at the College of William and Mary in Virginia, argue that health-care inflation is part of a broader and not entirely malign trend in service industries that depend heavily on skilled labor. \"The health-care industry is surely riddled with incentive problems that often lead to the delivery of the wrong services to the wrong people, and at too great a cost,\" they concede. \"Our point is that the tendency for medical price increases to outstrip the overall inflation rate is not, in itself, a reason to think the industry is failing to deliver the goods.\" From the recent sold-out Milken Institute Global Conference, <b>Michael Milken<\/b> chats with Nobel Prize-winning economists <b>Gary Becker<\/b>, <b>Edmund Phelps<\/b>, <b>Myron Scholes<\/b> and <b>Michael Spence<\/b> about topics ranging from China\u2032s humungous foreign currency reserves to the prospects for another depression. Also, Financial Times columnist <b>Tim Harford<\/b> explains how economic game theory has produced a poker champion. And Milken Institute senior fellow <b>Bill Frey<\/b> focuses on the role of race in swing states for this issue's Charticle. The Milken Institute Review is available online for free download after brief registration and by mail with paid subscription. It is sent quarterly to the world's leading business and financial executives, senior policy-makers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - <b>Laurence Kerr<\/b>, a former minister-counselor for economic affairs at the U.S. embassy in Mexico City, puts Mexico's economy in context, providing a rich historical account of the policies and social constructs that have shaped the country's trajectory. \"Bowed under the weight of inefficient bureaucracies and often-rapacious leaders espousing outdated economic models, Mexico has nevertheless largely managed to crawl out of bitter poverty to join the middle-income nations,\" he reports in the latest Milken Institute Review. However, Kerr also illustrates that continuing issues including immigration, security, oil industry policies and more could threaten the nation's ability to realize its growing potential.\nAlso in this issue: <b>Robert Looney<\/b>, an economist at the Naval Postgraduate School in California, challenges the conventional wisdom surrounding Pakistani President Pervez Musharraf\u2032s weakening grip on power. While most media accounts have focused on Musharraf's power grabs and constitutional abuses -- not to mention the fallout from Benazir Bhutto's assassination -- Looney believes that simple economics have eroded support for the Pakistani leader. \"Analysts close to the ground argue that the proximate cause of Musharraf's humbling was his inability to contain food and fuel inflation - and, more generally, his failure to improve the living standard of the great majority of Pakistanis who have yet to share in the bounty from Asia's economic awakening.\" <b>Sherry Glied<\/b>, an economist at Columbia University's Mailman School of Public Health, explores how a universal health-insurance mandate would (and wouldn't) work, and why the idea provokes extreme reactions. \"Reforms that include subsidies and risk-rating limits would be enough to induce the majority of people now lacking insurance to obtain it voluntarily,\" she argues. \"But research on health-insurance markets, along with two decades of experience with public insurance expansion initiatives, suggest that even with very substantial subsidies as incentives, a significant number of Americans - perhaps a third of those currently uninsured - would choose to go without.\" <b>Dean Baker<\/b>, co-director of the Center for Economic and Policy Research in Washington, analyzes what he believes to be the waste and conflicts of interest inherent in the current system of drug testing, which, in his view, gives pharmaceutical companies control over evaluating their own products. He proposes a bold alternative: \"On the one hand, publicly financed testing of drugs would reduce the resources that must be invested to insure that new drugs are safe and effective. On the other, funding the program through government savings from negotiating lower drug prices for Medicare would reduce the waste linked to the gap between production costs and market prices.\" <b>Robert Archibald<\/b> and <b>David Feldman<\/b>, economists at the College of William and Mary in Virginia, argue that health-care inflation is part of a broader and not entirely malign trend in service industries that depend heavily on skilled labor. \"The health-care industry is surely riddled with incentive problems that often lead to the delivery of the wrong services to the wrong people, and at too great a cost,\" they concede. \"Our point is that the tendency for medical price increases to outstrip the overall inflation rate is not, in itself, a reason to think the industry is failing to deliver the goods.\" From the recent sold-out Milken Institute Global Conference, <b>Michael Milken<\/b> chats with Nobel Prize-winning economists <b>Gary Becker<\/b>, <b>Edmund Phelps<\/b>, <b>Myron Scholes<\/b> and <b>Michael Spence<\/b> about topics ranging from China\u2032s humungous foreign currency reserves to the prospects for another depression. Also, Financial Times columnist <b>Tim Harford<\/b> explains how economic game theory has produced a poker champion. And Milken Institute senior fellow <b>Bill Frey<\/b> focuses on the role of race in swing states for this issue's Charticle. The Milken Institute Review is available online for free download after brief registration and by mail with paid subscription. It is sent quarterly to the world's leading business and financial executives, senior policy-makers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,120 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/slide\/207?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/Barth-James-Betru-Aron-Opportunity-Zones-Image1%20%281%29.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 207
+        }
+    ],
+    "uuid": [
+        {
+            "value": "888375c4-c440-4287-9375-1913119f1a68"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "full_width_one_column"
+        }
+    ],
+    "title": [
+        {
+            "value": "Turbocharging Opportunity Zones",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/Barth-James-Betru-Aron-Opportunity-Zones-Image1%20%281%29.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ec2e2967-0e0d-4fa7-ad6f-c2a8e643e5f5"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "\/by_uuid\/node\/aefe8dfc-cac3-48ec-ae89-b7ce0f9cb017",
+            "title": null,
+            "options": []
+        }
+    ],
+    "field_promoted": [
+        {
+            "value": false
+        }
+    ],
+    "field_published": [
+        {
+            "value": true
+        }
+    ],
+    "field_subtitle": [
+        {
+            "value": "Milken Institute Review"
+        }
+    ],
+    "field_text_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ]
+}

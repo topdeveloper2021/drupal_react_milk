@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/13501\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/G_fg-bceQ22r2N4fIVPrpBU6alf68JFuF3_gkYI0TE4.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13501
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7862728b-5aef-4976-a53d-778712c056fa"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2412
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/G_fg-bceQ22r2N4fIVPrpBU6alf68JFuF3_gkYI0TE4.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "93456dc0-45b6-485d-814d-d2e7e7a050d0"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Part 1 | A Conversation with Bill Cassidy, MD, US Senator, Louisiana ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-28T22:53:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-11-04T12:42:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "This video will be available to livestream on Wednesday, October 30 as part of our 2019 Future of Health Summit.",
+    "format": "rich_text",
+    "processed": "This video will be available to livestream on Wednesday, October 30 as part of our 2019 Future of Health Summit.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 95,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/livestream.com\/milkeninstitute\/events\/8861687",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/G_fg-bceQ22r2N4fIVPrpBU6alf68JFuF3_gkYI0TE4.png"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 360
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 640
+        }
+    ],
+    "field_width": [
+        {
+            "value": 170,
+            "lang": "en"
+        }
+    ]
+}

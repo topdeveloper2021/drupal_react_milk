@@ -1,0 +1,120 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/slide\/73?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/Carhart-Harris_WEB.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 73
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2ad9bf47-3a5d-493d-82bd-c482ab786faa"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "full_width_one_column"
+        }
+    ],
+    "title": [
+        {
+            "value": "What Does Prosperity Mean to Me?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/Carhart-Harris_WEB.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a38464ff-2c57-490e-a16f-1d73d3c38848"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "\/by_uuid\/node\/363d27a7-0f79-43dd-961c-86efc758bf59",
+            "title": null,
+            "options": []
+        }
+    ],
+    "field_promoted": [
+        {
+            "value": false
+        }
+    ],
+    "field_published": [
+        {
+            "value": true
+        }
+    ],
+    "field_subtitle": [
+        {
+            "value": "Power of Ideas"
+        }
+    ],
+    "field_text_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+uuid: 24441b89-b593-4288-aba1-293a63258ee7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_job_position
+field_name: field_job_position
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

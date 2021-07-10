@@ -1,0 +1,19 @@
+uuid: f155a08d-d344-4108-a928-c97d4c23192c
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_event
+field_name: field_event
+entity_type: people
+type: entity_reference
+settings:
+  target_type: event
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

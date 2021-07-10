@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/economic-regulation-prolonged-great-depression-say-harold-cole-and-lee-ohanian-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 690
+        }
+    ],
+    "uuid": [
+        {
+            "value": "be1f1e25-d7e1-45e3-b76f-bd8634f8f206"
+        }
+    ],
+    "vid": [
+        {
+            "value": 690
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Economic regulation prolonged Great Depression, say Harold Cole and Lee Ohanian in Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:23:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/economic-regulation-prolonged-great-depression-say-harold-cole-and-lee-ohanian-milken",
+            "pid": 743,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - <b>Harold Cole<\/b> of Penn and <b>Lee Ohanian<\/b> of UCLA argue that FDR's New Deal, specifically the National Industrial Recovery Act, did more harm than good, lengthening the Great Depression by some seven years. \"While some New Deal policies did work to keep millions of unemployed Americans from homelessness - even starvation - the general thrust was problematic,\" they write in the latest issue of The Milken Institute Review. \"Indeed, the New Deal is best seen as a cautionary tale for those prepared to rush to regulate the economy.\" Also in this issue: <b>Uwe Reinhardt<\/b> of Princeton makes the case for containing health-care spending by setting treatment priorities according to how much bang they deliver for a buck. <b>Scott Nyquist<\/b> and <b>Jaeson Rosenfeld<\/b> of McKinsey & Company predict that tight oil markets will soon return. The name of the game now is to figure out \"what policymakers could and should do to balance the demand-supply equation.\" <b>Claudia Goldin<\/b> and <b>Lawrence Katz<\/b> of Harvard explain that the culprit behind rising income inequality isn't globalization or the collapse of the union movement or even the relentless march of technology. It's education. <b>Dennis Aigner<\/b> of the University of California, Irvine explains that corporations really can do better by doing good. The Milken Institute's <b>Ross DeVol<\/b> ranks North America's metros on their success in attracting high-tech industry. <b>Bill Frey<\/b> of the Milken Institute and the Brookings Institution analyzes Americans' dramatic loss of mobility in the wake of the housing bust. Book excerpts from <b>Richard Posner's<\/b> \"A Failure of Capitalism\" and <b>Peter Leeson's<\/b> \"The Invisible Hook: The Hidden Economics of Pirates.\" The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policymakers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - <b>Harold Cole<\/b> of Penn and <b>Lee Ohanian<\/b> of UCLA argue that FDR's New Deal, specifically the National Industrial Recovery Act, did more harm than good, lengthening the Great Depression by some seven years. \"While some New Deal policies did work to keep millions of unemployed Americans from homelessness - even starvation - the general thrust was problematic,\" they write in the latest issue of The Milken Institute Review. \"Indeed, the New Deal is best seen as a cautionary tale for those prepared to rush to regulate the economy.\" Also in this issue: <b>Uwe Reinhardt<\/b> of Princeton makes the case for containing health-care spending by setting treatment priorities according to how much bang they deliver for a buck. <b>Scott Nyquist<\/b> and <b>Jaeson Rosenfeld<\/b> of McKinsey &amp; Company predict that tight oil markets will soon return. The name of the game now is to figure out \"what policymakers could and should do to balance the demand-supply equation.\" <b>Claudia Goldin<\/b> and <b>Lawrence Katz<\/b> of Harvard explain that the culprit behind rising income inequality isn't globalization or the collapse of the union movement or even the relentless march of technology. It's education. <b>Dennis Aigner<\/b> of the University of California, Irvine explains that corporations really can do better by doing good. The Milken Institute's <b>Ross DeVol<\/b> ranks North America's metros on their success in attracting high-tech industry. <b>Bill Frey<\/b> of the Milken Institute and the Brookings Institution analyzes Americans' dramatic loss of mobility in the wake of the housing bust. Book excerpts from <b>Richard Posner's<\/b> \"A Failure of Capitalism\" and <b>Peter Leeson's<\/b> \"The Invisible Hook: The Hidden Economics of Pirates.\" The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policymakers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times.",
+    "summary": null,
+    "summary_processed": ""
+}

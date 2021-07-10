@@ -1,0 +1,120 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/slide\/91?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/Clinton-Higgins-GC-POI_WEB.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 91
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4378f05c-0d1f-41ad-85f0-b7e99d26850f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "full_width_one_column"
+        }
+    ],
+    "title": [
+        {
+            "value": "Healthy Body, Healthy Mind: The Makings of a Prosperous Future",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/Clinton-Higgins-GC-POI_WEB.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e4e1450b-3a08-4d19-b438-ef6981139ae2"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "\/by_uuid\/node\/5707f61f-4691-4390-808d-c464aefce2b8",
+            "title": null,
+            "options": []
+        }
+    ],
+    "field_promoted": [
+        {
+            "value": false
+        }
+    ],
+    "field_published": [
+        {
+            "value": true
+        }
+    ],
+    "field_subtitle": [
+        {
+            "value": "The Power of Ideas"
+        }
+    ],
+    "field_text_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+uuid: 20a7a80d-f5e0-4acd-8d6e-b70d8ac5e125
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_events
+    - media.type.video_stream
+    - taxonomy.vocabulary.events
+id: media.video_stream.field_events
+field_name: field_events
+entity_type: media
+bundle: video_stream
+label: Events
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      events: events
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

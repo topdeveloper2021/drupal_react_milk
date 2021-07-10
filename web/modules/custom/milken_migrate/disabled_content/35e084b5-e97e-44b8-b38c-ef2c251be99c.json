@@ -1,0 +1,109 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/72\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/main-menu---fastercures"
+        }
+    },
+    "id": [
+        {
+            "value": 72
+        }
+    ],
+    "uuid": [
+        {
+            "value": "35e084b5-e97e-44b8-b38c-ef2c251be99c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "main-menu---fastercures"
+        }
+    ],
+    "enabled": [
+        {
+            "value": false
+        }
+    ],
+    "title": [
+        {
+            "value": "Our Team",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main-menu---fastercures"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -49
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:a0fd3ef4-d7b1-4386-954f-cb6fab316e26"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T02:37:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "view_mode": [
+        {
+            "value": "default",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ]
+}

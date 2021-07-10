@@ -1,0 +1,202 @@
+diff --git a/core/modules/media/src/MediaSourceBase.php b/core/modules/media/src/MediaSourceBase.php
+index 5da82a6443..5cc284835e 100644
+--- a/core/modules/media/src/MediaSourceBase.php
++++ b/core/modules/media/src/MediaSourceBase.php
+@@ -330,8 +330,12 @@ public function getSourceFieldValue(MediaInterface $media) {
+       throw new \RuntimeException('Source field for media source is not defined.');
+     }
+ 
+-    /** @var \Drupal\Core\Field\FieldItemInterface $field_item */
+-    $field_item = $media->get($source_field)->first();
++    $items = $media->get($source_field);
++    if ($items->isEmpty()) {
++      return NULL;
++    }
++
++    $field_item = $items->first();
+     return $field_item->{$field_item->mainPropertyName()};
+   }
+ 
+diff --git a/core/modules/media/src/MediaSourceInterface.php b/core/modules/media/src/MediaSourceInterface.php
+index a2dea535a7..3154eb064d 100644
+--- a/core/modules/media/src/MediaSourceInterface.php
++++ b/core/modules/media/src/MediaSourceInterface.php
+@@ -186,7 +186,7 @@ public function prepareFormDisplay(MediaTypeInterface $type, EntityFormDisplayIn
+    *   A media item.
+    *
+    * @return mixed
+-   *   The source value.
++   *   The source value, or NULL if the media item's source field is empty.
+    *
+    * @throws \RuntimeException
+    *   If the source field for the media source is not defined.
+diff --git a/core/modules/media/src/Plugin/Validation/Constraint/OEmbedResourceConstraintValidator.php b/core/modules/media/src/Plugin/Validation/Constraint/OEmbedResourceConstraintValidator.php
+index 99f6faba5e..3b885cce8f 100644
+--- a/core/modules/media/src/Plugin/Validation/Constraint/OEmbedResourceConstraintValidator.php
++++ b/core/modules/media/src/Plugin/Validation/Constraint/OEmbedResourceConstraintValidator.php
+@@ -83,6 +83,11 @@ public function validate($value, Constraint $constraint) {
+       throw new \LogicException('Media source must implement ' . OEmbedInterface::class);
+     }
+     $url = $source->getSourceFieldValue($media);
++    // The URL may be NULL if the source field is empty, which is invalid input.
++    if (empty($url)) {
++      $this->context->addViolation($constraint->invalidResourceMessage);
++      return;
++    }
+ 
+     // Ensure that the URL matches a provider.
+     try {
+diff --git a/core/modules/media/src/Plugin/media/Source/OEmbed.php b/core/modules/media/src/Plugin/media/Source/OEmbed.php
+index 9fbea0b16c..6a3621a3b5 100644
+--- a/core/modules/media/src/Plugin/media/Source/OEmbed.php
++++ b/core/modules/media/src/Plugin/media/Source/OEmbed.php
+@@ -220,6 +220,11 @@ public function getMetadataAttributes() {
+    */
+   public function getMetadata(MediaInterface $media, $name) {
+     $media_url = $this->getSourceFieldValue($media);
++    // The URL may be NULL if the source field is empty, in which case just
++    // return NULL.
++    if (empty($media_url)) {
++      return NULL;
++    }
+ 
+     try {
+       $resource_url = $this->urlResolver->getResourceUrl($media_url);
+diff --git a/core/modules/media/tests/src/Kernel/MediaSourceTest.php b/core/modules/media/tests/src/Kernel/MediaSourceTest.php
+index b998927a40..cf6a75cae7 100644
+--- a/core/modules/media/tests/src/Kernel/MediaSourceTest.php
++++ b/core/modules/media/tests/src/Kernel/MediaSourceTest.php
+@@ -218,6 +218,10 @@ public function testGetSourceFieldValue() {
+     $media->save();
+     $media_source = $media->getSource();
+     $this->assertSame('some_value', $media_source->getSourceFieldValue($media));
++
++    // Test that NULL is returned if there is no value in the source field.
++    $media->set('field_media_test', NULL)->save();
++    $this->assertNull($media_source->getSourceFieldValue($media));
+   }
+ 
+   /**
+diff --git a/core/modules/media/tests/src/Kernel/OEmbedResourceConstraintValidatorTest.php b/core/modules/media/tests/src/Kernel/OEmbedResourceConstraintValidatorTest.php
+new file mode 100644
+index 0000000000..d02ff7ceb9
+--- /dev/null
++++ b/core/modules/media/tests/src/Kernel/OEmbedResourceConstraintValidatorTest.php
+@@ -0,0 +1,74 @@
++<?php
++
++namespace Drupal\Tests\media\Kernel;
++
++use Drupal\KernelTests\KernelTestBase;
++use Drupal\media\Entity\Media;
++use Drupal\media\OEmbed\UrlResolverInterface;
++use Drupal\media\Plugin\Validation\Constraint\OEmbedResourceConstraint;
++use Drupal\media\Plugin\Validation\Constraint\OEmbedResourceConstraintValidator;
++use Drupal\Tests\media\Traits\MediaTypeCreationTrait;
++use Prophecy\Argument;
++use Symfony\Component\Validator\Context\ExecutionContextInterface;
++
++/**
++ * @coversDefaultClass \Drupal\media\Plugin\Validation\Constraint\OEmbedResourceConstraintValidator
++ *
++ * @group media
++ */
++class OEmbedResourceConstraintValidatorTest extends KernelTestBase {
++
++  use MediaTypeCreationTrait;
++
++  /**
++   * {@inheritdoc}
++   */
++  protected static $modules = ['field', 'file', 'image', 'media', 'user'];
++
++  /**
++   * {@inheritdoc}
++   */
++  protected function setUp() {
++    parent::setUp();
++    $this->installEntitySchema('file');
++    $this->installEntitySchema('user');
++  }
++
++  /**
++   * @covers ::validate
++   */
++  public function testValidate() {
++    $media = Media::create([
++      'bundle' => $this->createMediaType('oembed:video')->id(),
++    ]);
++
++    $constraint = new OEmbedResourceConstraint();
++
++    // The media item has an empty source value, so the constraint validator
++    // should add a violation and return early before invoking the URL resolver.
++    $context = $this->prophesize(ExecutionContextInterface::class);
++    $context->addViolation($constraint->invalidResourceMessage)->shouldBeCalled();
++
++    $url_resolver = $this->prophesize(UrlResolverInterface::class);
++    $url_resolver->getProviderByUrl(Argument::any())->shouldNotBeCalled();
++
++    $value = new class ($media) {
++      public function __construct($entity) {
++        $this->entity = $entity;
++      }
++
++      public function getEntity() {
++        return $this->entity;
++      }
++    };
++
++    $validator = new OEmbedResourceConstraintValidator(
++      $url_resolver->reveal(),
++      $this->container->get('media.oembed.resource_fetcher'),
++      $this->container->get('logger.factory')
++    );
++    $validator->initialize($context->reveal());
++    $validator->validate($value, $constraint);
++  }
++
++}
+diff --git a/core/modules/media/tests/src/Kernel/OEmbedSourceTest.php b/core/modules/media/tests/src/Kernel/OEmbedSourceTest.php
+new file mode 100644
+index 0000000000..180085ae04
+--- /dev/null
++++ b/core/modules/media/tests/src/Kernel/OEmbedSourceTest.php
+@@ -0,0 +1,37 @@
++<?php
++
++namespace Drupal\Tests\media\Kernel;
++
++use Drupal\KernelTests\KernelTestBase;
++use Drupal\media\Plugin\media\Source\OEmbed;
++
++/**
++ * @coversDefaultClass \Drupal\media\Plugin\media\Source\OEmbed
++ *
++ * @group media
++ */
++class OEmbedSourceTest extends KernelTestBase {
++
++  /**
++   * {@inheritdoc}
++   */
++  protected static $modules = ['media'];
++
++  /**
++   * @covers ::getMetadata
++   */
++  public function testGetMetadata() {
++    $configuration = [
++      'source_field' => 'field_test_oembed',
++    ];
++    $plugin = OEmbed::create($this->container, $configuration, 'oembed', []);
++
++    // Test that NULL is returned for a media item with no source value.
++    $media = $this->prophesize('\Drupal\media\MediaInterface');
++    $field_items = $this->prophesize('\Drupal\Core\Field\FieldItemListInterface');
++    $field_items->isEmpty()->willReturn(TRUE);
++    $media->get($configuration['source_field'])->willReturn($field_items->reveal());
++    $this->assertNull($plugin->getMetadata($media->reveal(), 'type'));
++  }
++
++}

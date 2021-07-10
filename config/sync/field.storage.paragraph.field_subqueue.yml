@@ -1,0 +1,20 @@
+uuid: ecb55e74-9fb5-4ec1-bac1-313879ba0001
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityqueue
+    - paragraphs
+id: paragraph.field_subqueue
+field_name: field_subqueue
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: entity_subqueue
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

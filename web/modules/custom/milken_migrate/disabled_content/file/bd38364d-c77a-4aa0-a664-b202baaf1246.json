@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/sites\/default\/files\/mcfarling-WEB.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 2400
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bd38364d-c77a-4aa0-a664-b202baaf1246"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7661a09f-6a1e-4d5f-a2ba-399071f74c9a"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "mcfarling-WEB.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/mcfarling-WEB.jpg",
+            "url": "\/sites\/default\/files\/mcfarling-WEB.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 217429
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+uuid: 91897d27-0024-4689-a777-701f75770afe
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.node.field_people
+    - node.type.session
+id: node.session.field_people
+field_name: field_people
+entity_type: node
+bundle: session
+label: People
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles:
+      staff: staff
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: null
+field_type: entity_reference

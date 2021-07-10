@@ -1,0 +1,19 @@
+uuid: a4eb3562-4185-4b2d-abf5-7c0ca06f5cb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.missing_migration.missing_migration
+    - field.storage.missing_migration.field_type
+id: missing_migration.missing_migration.field_type
+field_name: field_type
+entity_type: missing_migration
+bundle: missing_migration
+label: type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fear-currency-war-grows?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/156?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 784
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d164b155-28a9-4dfa-af22-400b06ad7199"
+        }
+    ],
+    "vid": [
+        {
+            "value": 784
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/156?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36df03d9-0a28-4b89-9cf1-7c5fdb4ac0ee"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Fear of a Currency War Grows",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T20:35:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:30:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fear-currency-war-grows",
+            "pid": 837,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "HONG KONG \u2013\u00a0While China may well have hoped to focus on the end of World War II and Japan\u2019s wartime record, the Chinese central bank\u2019s major devaluation of the yuan this week has large parts of Asia now worried about the prospects of a currency war. The record 1.9 percent devaluation on Tuesday sent the Chinese currency, also known as the renminbi, to its weakest level since April 2013. The move could potentially aid Chinese exporters because currencies, from the Thai baht to the South Korean won, tumbled across the region. Central banks in Southeast and East Asia may well come under pressure to further lower the value of their currencies to help domestic companies remain competitive with lower-priced Chinese goods. Strikingly, the \u201cone off\u201d move by the Chinese central bank followed disappointing trade data and a decision by the International Monetary Fund to delay any conclusions on whether the yuan will be added to the so-called Special Drawing Rights \u201cbasket of currencies,\u201d which is comprised of dollars, euros, pounds and yen. One economic reality is increasingly clear. The Chinese economy is sputtering, perhaps more than the official numbers show, and Beijing is struggling to find a solution. Yet, \u201cHow low can China go?\u201d is only the latest question being raised about Beijing\u2019s commitment to its 2013 pledge to \u201cgive a decisive role to markets\u201d in its economy. Talk persists about a possible Chinese stimulus program and \u201cquantitative easing with Chinese characteristics\u201d to spur the nation\u2019s slowing, but still growing, economy. Such questions are understandable as Beijing still struggles with its ongoing interventions in its equity markets. A month after Chinese stocks lost trillions of dollars in value as stock prices plummeted to lows not seen since the Global Financial Crisis, tremendous volatility remains a core theme for today\u2019s China\u2019s. What is clear is that no matter how large is China\u2019s wallet to finance purchases and how strong the government\u2019s ability to devalue its currency or to order brokerages to do its bidding, more state money and less willpower for reform are not the long-term solutions to China\u2019s ongoing woes. Direct and indirect government involvement to help shore up stock prices and placate the Chinese small-scale shareholders who dominate the marketplace has included allowing some shares not to trade, the suspension of new IPOs (initial public offerings), financial support for brokerages and the establishment of a market-stabilization fund to help inject funds into the market. To further try to reduce volatility, China recently banned same-day margin lending, as well as banned some accounts under the control of U.S. hedge fund Citadel and even China\u2019s state-owned Citic Securities from trading for three months. Even in a \u201ccommand economy\u201d with trillions of dollars in reserves, it would be a mistake for China\u2019s leadership to think the central government\u2019s ability to \u201ccommand\u201d domestic behavior can replace the fundamental need for change and continued reform. So, what can Beijing do to win back confidence in its economy? With the \u201clittle bric\u201d of excessive bureaucracy, poorly conceived or enforced regulation, increased interventionism and persistent corruption taking their toll, here are two broad steps that China should take. First, Beijing must re-commit to the opening of its financial markets and to a deepening of capital market reforms. This is well in line with the one-time pledge to give a decisive role to markets, and is also in line with President Xi Jinping\u2019s \u201cChinese Dream\u201d and goal of a \u201cmoderately well off society\u201d by the year 2020. Last year, China\u2019s State Council announced it would move forward on a number of financial reforms. These included making progress toward direct bond issuances by local governments, removing some of the limits on using financial derivatives, and streamlining the approval process for IPOs as well as increasing quotas for both inward and outward foreign investment. Some progress has already been made with innovations, including the introduction last November of Shanghai-Hong Kong Stock Connect. While subject to quotas, this link between the Shanghai Stock Exchange and the Hong Kong Stock Exchange has increased two-way market access and should be built on. Second, China must allow more of its businesses and entrepreneurs to succeed and fail on their own. With every market intervention, investors will be left wondering whether any business will ultimately succeed based on its fundamental merits versus government involvement, including the ability of the central bank to intervene forcefully in currency markets. Already, it is clear that the nation\u2019s stock markets are now reliant on official support and shareholders eager to sell are being prevented from doing so, for now. With a lack of transparency continuing about the level and duration of government support measures, volatility persists. While the recent focus has been understandably on the nation\u2019s equity markets, China\u2019s credit markets also need to be allowed to continue to mature \u2014 onshore and offshore. This will include permitting Chinese companies, including state-owned enterprises, to default on corporate bond payments. As with the United States\u2019 own bailouts and market interventions during the Global Financial Crisis, decisions done in the heat of moment will be debated and second-guessed down the road. This will be true for China. That is no reason though for China to avoid concentrating on the broader economic reforms that others in the Asia-Pacific region have slowly come to embrace. This will include continuing to take steps to build an enabling environment for the private sector \u2014 one marked by strengthened rule of law, greater transparency and accountability, and best practices in corporate governance. Such a commitment would in the long run be to the benefit of all of China\u2019s listed companies and can help drive long-term growth and job creation. China certainly has the power to intervene in its own markets. The nation also has the power to go lower, further devaluing its own currency \u2014 to the detriment of many of its Asian neighbors. More important, however, will be the willpower to refrain from such interventionism in favor of pursuing the fundamental changes and continued reform that will help ensure more sustainable growth and greater comfort with China\u2019s long-term economic rise. As Asia marks the 70th anniversary of World War II\u2019s end, how unfortunate that talk has now turned to what may well be the first salvo in a currency war. <i>This article first appeared in the\u00a0Japan Times.<\/i>",
+    "format": "rich_text",
+    "processed": "HONG KONG \u2013\u00a0While China may well have hoped to focus on the end of World War II and Japan\u2019s wartime record, the Chinese central bank\u2019s major devaluation of the yuan this week has large parts of Asia now worried about the prospects of a currency war. The record 1.9 percent devaluation on Tuesday sent the Chinese currency, also known as the renminbi, to its weakest level since April 2013. The move could potentially aid Chinese exporters because currencies, from the Thai baht to the South Korean won, tumbled across the region. Central banks in Southeast and East Asia may well come under pressure to further lower the value of their currencies to help domestic companies remain competitive with lower-priced Chinese goods. Strikingly, the \u201cone off\u201d move by the Chinese central bank followed disappointing trade data and a decision by the International Monetary Fund to delay any conclusions on whether the yuan will be added to the so-called Special Drawing Rights \u201cbasket of currencies,\u201d which is comprised of dollars, euros, pounds and yen. One economic reality is increasingly clear. The Chinese economy is sputtering, perhaps more than the official numbers show, and Beijing is struggling to find a solution. Yet, \u201cHow low can China go?\u201d is only the latest question being raised about Beijing\u2019s commitment to its 2013 pledge to \u201cgive a decisive role to markets\u201d in its economy. Talk persists about a possible Chinese stimulus program and \u201cquantitative easing with Chinese characteristics\u201d to spur the nation\u2019s slowing, but still growing, economy. Such questions are understandable as Beijing still struggles with its ongoing interventions in its equity markets. A month after Chinese stocks lost trillions of dollars in value as stock prices plummeted to lows not seen since the Global Financial Crisis, tremendous volatility remains a core theme for today\u2019s China\u2019s. What is clear is that no matter how large is China\u2019s wallet to finance purchases and how strong the government\u2019s ability to devalue its currency or to order brokerages to do its bidding, more state money and less willpower for reform are not the long-term solutions to China\u2019s ongoing woes. Direct and indirect government involvement to help shore up stock prices and placate the Chinese small-scale shareholders who dominate the marketplace has included allowing some shares not to trade, the suspension of new IPOs (initial public offerings), financial support for brokerages and the establishment of a market-stabilization fund to help inject funds into the market. To further try to reduce volatility, China recently banned same-day margin lending, as well as banned some accounts under the control of U.S. hedge fund Citadel and even China\u2019s state-owned Citic Securities from trading for three months. Even in a \u201ccommand economy\u201d with trillions of dollars in reserves, it would be a mistake for China\u2019s leadership to think the central government\u2019s ability to \u201ccommand\u201d domestic behavior can replace the fundamental need for change and continued reform. So, what can Beijing do to win back confidence in its economy? With the \u201clittle bric\u201d of excessive bureaucracy, poorly conceived or enforced regulation, increased interventionism and persistent corruption taking their toll, here are two broad steps that China should take. First, Beijing must re-commit to the opening of its financial markets and to a deepening of capital market reforms. This is well in line with the one-time pledge to give a decisive role to markets, and is also in line with President Xi Jinping\u2019s \u201cChinese Dream\u201d and goal of a \u201cmoderately well off society\u201d by the year 2020. Last year, China\u2019s State Council announced it would move forward on a number of financial reforms. These included making progress toward direct bond issuances by local governments, removing some of the limits on using financial derivatives, and streamlining the approval process for IPOs as well as increasing quotas for both inward and outward foreign investment. Some progress has already been made with innovations, including the introduction last November of Shanghai-Hong Kong Stock Connect. While subject to quotas, this link between the Shanghai Stock Exchange and the Hong Kong Stock Exchange has increased two-way market access and should be built on. Second, China must allow more of its businesses and entrepreneurs to succeed and fail on their own. With every market intervention, investors will be left wondering whether any business will ultimately succeed based on its fundamental merits versus government involvement, including the ability of the central bank to intervene forcefully in currency markets. Already, it is clear that the nation\u2019s stock markets are now reliant on official support and shareholders eager to sell are being prevented from doing so, for now. With a lack of transparency continuing about the level and duration of government support measures, volatility persists. While the recent focus has been understandably on the nation\u2019s equity markets, China\u2019s credit markets also need to be allowed to continue to mature \u2014 onshore and offshore. This will include permitting Chinese companies, including state-owned enterprises, to default on corporate bond payments. As with the United States\u2019 own bailouts and market interventions during the Global Financial Crisis, decisions done in the heat of moment will be debated and second-guessed down the road. This will be true for China. That is no reason though for China to avoid concentrating on the broader economic reforms that others in the Asia-Pacific region have slowly come to embrace. This will include continuing to take steps to build an enabling environment for the private sector \u2014 one marked by strengthened rule of law, greater transparency and accountability, and best practices in corporate governance. Such a commitment would in the long run be to the benefit of all of China\u2019s listed companies and can help drive long-term growth and job creation. China certainly has the power to intervene in its own markets. The nation also has the power to go lower, further devaluing its own currency \u2014 to the detriment of many of its Asian neighbors. More important, however, will be the willpower to refrain from such interventionism in favor of pursuing the fundamental changes and continued reform that will help ensure more sustainable growth and greater comfort with China\u2019s long-term economic rise. As Asia marks the 70th anniversary of World War II\u2019s end, how unfortunate that talk has now turned to what may well be the first salvo in a currency war. <i>This article first appeared in the\u00a0Japan Times.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

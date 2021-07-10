@@ -1,0 +1,29 @@
+uuid: 231a1cbd-ce94-40f7-ac55-eac6c2c208ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_tags
+    - taxonomy.vocabulary.milken_tags
+id: event.conference.field_tags
+field_name: field_tags
+entity_type: event
+bundle: conference
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

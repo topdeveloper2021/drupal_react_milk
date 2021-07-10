@@ -1,0 +1,23 @@
+uuid: 863b055a-0e50-4c47-818f-2bc3245da235
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.media_tiles
+  module:
+    - options
+id: paragraph.media_tiles.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: media_tiles
+label: 'View Mode'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: card
+default_value_callback: ''
+settings: {  }
+field_type: list_string

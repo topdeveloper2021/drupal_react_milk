@@ -1,0 +1,120 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/slide\/216?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/Timothy_P._Walbert_Hero_Image_1920x1080-min.jpg"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 216
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cd5b4c71-a255-48d4-b750-5bbb9e6c7a68"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "full_width_one_column"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Taking Chances in Developing Rare Disease Medicines Is Worth the Risk",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "field_background_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/slide\/full_width_one_column\/field_background_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/Timothy_P._Walbert_Hero_Image_1920x1080-min.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "86044a9f-9029-4ff0-8947-2b79854235b6"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_link": [
+        {
+            "uri": "\/by_uuid\/node\/5a0dea87-88e2-4ed4-861c-6c94fbd7ed18",
+            "title": null,
+            "options": []
+        }
+    ],
+    "field_promoted": [
+        {
+            "value": false
+        }
+    ],
+    "field_published": [
+        {
+            "value": true
+        }
+    ],
+    "field_subtitle": [
+        {
+            "value": "Power of Ideas - Future of Health Summit 2019"
+        }
+    ],
+    "field_text_color": [
+        {
+            "color": "#000000",
+            "opacity": 1
+        }
+    ]
+}

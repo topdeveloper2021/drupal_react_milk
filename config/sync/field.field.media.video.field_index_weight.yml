@@ -1,0 +1,23 @@
+uuid: 96b75123-36c2-4e9d-86b7-b97b643460db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_index_weight
+    - media.type.video
+  module:
+    - options
+id: media.video.field_index_weight
+field_name: field_index_weight
+entity_type: media
+bundle: video
+label: 'Index Weight'
+description: 'Specify how high on the search results this item should be, where 0 is at the top of the list, followed by 1,2,3,....'
+required: true
+translatable: true
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

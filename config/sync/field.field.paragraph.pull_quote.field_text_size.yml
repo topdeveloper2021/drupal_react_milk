@@ -1,0 +1,23 @@
+uuid: 7420553b-3f2e-4ce2-9ca9-282103cd3316
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_size
+    - paragraphs.paragraphs_type.pull_quote
+  module:
+    - options
+id: paragraph.pull_quote.field_text_size
+field_name: field_text_size
+entity_type: paragraph
+bundle: pull_quote
+label: 'Text Size'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: display-2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

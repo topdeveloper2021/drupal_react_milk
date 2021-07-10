@@ -1,0 +1,18 @@
+{{ attach_library('milken_base/node_landing_page') }}
+
+{% set node_landing_page_value =  node.toArray
+  | merge({ 'entityTypeId': node.getEntityTypeId })
+  | merge({ 'id': node.uuid.value })
+  | merge({ 'drupal_internal__id': node.id })
+  | merge({ 'includes': "field_hero_image" })
+
+%}
+
+
+<node-landing-page
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ node_landing_page_value | jsonapi }}"
+>
+</node-landing-page>

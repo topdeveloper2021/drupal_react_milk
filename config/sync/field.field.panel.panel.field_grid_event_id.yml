@@ -1,0 +1,19 @@
+uuid: 6c0bc9d3-ef44-44f1-9654-063df7e5b95d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_grid_event_id
+id: panel.panel.field_grid_event_id
+field_name: field_grid_event_id
+entity_type: panel
+bundle: panel
+label: 'grid event id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

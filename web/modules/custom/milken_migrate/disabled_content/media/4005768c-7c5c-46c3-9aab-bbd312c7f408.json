@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7837\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/CZTItme5bhdFB8JwsxYQhOQpmniPf94KXdjnndH6GuU.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7837
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4005768c-7c5c-46c3-9aab-bbd312c7f408"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2202
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/CZTItme5bhdFB8JwsxYQhOQpmniPf94KXdjnndH6GuU.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ce1a2ffe-9a4c-4efb-8fb3-69bef9e46880"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "China's Outbound Investment: A Bid for Influence or Better Returns?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T18:46:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:03:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As Asia's wealth grows, new investors from the region are looking for prospects beyond their borders. Chinese corporates are poised to take an even larger role in global commerce as they turn to cross-border mergers and acquisitions. The Asian Infrastructure Investment Bank has attracted membership applications from over 40 countries. A series of government measures encouraging overseas investment are expected to help Chinese firms expand in markets such as South America, Southeast Asia and Africa, particularly in building nuclear power and rail infrastructure. The new rules will benefit Chinese companies, but will the growth in overseas investment also increase China's influence in emerging and developing nations? Will the Chinese and other new Asian investors find themselves in competition with the traditional investors from developed countries, or will these new infusions of capital simply be absorbed by the huge appetite for infrastructure building?",
+    "format": "rich_text",
+    "processed": "As Asia's wealth grows, new investors from the region are looking for prospects beyond their borders. Chinese corporates are poised to take an even larger role in global commerce as they turn to cross-border mergers and acquisitions. The Asian Infrastructure Investment Bank has attracted membership applications from over 40 countries. A series of government measures encouraging overseas investment are expected to help Chinese firms expand in markets such as South America, Southeast Asia and Africa, particularly in building nuclear power and rail infrastructure. The new rules will benefit Chinese companies, but will the growth in overseas investment also increase China's influence in emerging and developing nations? Will the Chinese and other new Asian investors find themselves in competition with the traditional investors from developed countries, or will these new infusions of capital simply be absorbed by the huge appetite for infrastructure building?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/KEJMVvgN4Dw",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/CZTItme5bhdFB8JwsxYQhOQpmniPf94KXdjnndH6GuU.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

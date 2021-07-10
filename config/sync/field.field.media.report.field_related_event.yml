@@ -1,0 +1,26 @@
+uuid: c56c6f0e-3a55-4f16-8f87-c1702dc509d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_related_event
+    - media.type.report
+id: media.report.field_related_event
+field_name: field_related_event
+entity_type: media
+bundle: report
+label: 'Related Event'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

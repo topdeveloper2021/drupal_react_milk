@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/healthspan-not-lifespan?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/105?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 587
+        }
+    ],
+    "uuid": [
+        {
+            "value": "91fe8548-c7e0-4b58-8471-2037d5158e70"
+        }
+    ],
+    "vid": [
+        {
+            "value": 587
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/105?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "62cb3191-ab13-4576-8f5b-c11eb8b465f8"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Healthspan, Not Lifespan",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:30:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/healthspan-not-lifespan",
+            "pid": 640,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Thiel Fellow, Laura Deming, is on a mission to extend human healthspan. She is a Forbes 30 Under 30 alum and was one of the stars of The Age of Aging, a documentary by\u00a0National Geographic. In an interview with the Milken Institute Center for the Future of Aging, Deming explains the importance of disease prevention in healthy aging and why longevity is a growing market for investment.<\/i><b>What advice can you give companies seeking investments in the aging field?<\/b>Having curiosity and an intensity to find the truth are important, because often, in a company context, if you have a lot of drive but not a lot of curiosity, you\u2019ll ignore the signposts along the way about why your drugs might not be working or problems with the therapeutics.On the other hand, if you have a lot of curiosity, but not a lot of drive, you might end up getting distracted by a lot of interesting science and not pursuing your goal single-mindedly. Coupled together these two characteristics will take a company a long way.\u00a0<b>How can we make\u00a0longevity\u00a0an essential topic for potential investors?<\/b>I think that problem is actually already solved. People in the financial community, at least right now, are rapidly investing or interested in the space. That\u2019s the complete opposite of eight years ago, when nobody wanted to put capital into it. One thing that\u2019s been helpful is that companies either get access to the public markets or get started with less capital from well-earned means, and these two events have really raised the profile with the field. Going forward, I think what will be helpful is for longevity researchers to make better strides in science. I think the most important thing will be getting that first longevity-specific drug into the hands of patients. Once we see a drug from this area of science that actually produces a measurable benefit to patients that they could not have gotten otherwise, that will be the largest invite to new investors.\u00a0<b>What do you think are the main reasons for scientists focusing on increasing healthy lifespan?<\/b>One big driver has been that nobody wants <i>just<\/i> to increase lifespan. It\u2019s nobody\u2019s idea of a good plan. It\u2019s kind of fascinating, because I think in the early days of the field, we didn\u2019t really understand what it was that we wanted to optimize for. But now it\u2019s very clear to everyone that we should be focusing on increasing the healthy part of the life, not just maximum lifespan in an old, decrepit state.<b>How do disease prevention and wellness factor into your efforts to increase a healthy lifespan?\u00a0<\/b>Those are areas that we are extremely excited about. At the Longevity Fund, we mostly focus on therapeutics including drugs, pharma, and even biologics. There are definitely many things that people should be doing to increase their healthy lifespan, and I think ways to incentivize people to do those things will be quite fascinating to watch as they develop.<b>A headline from The Telegraph in 2016 claimed \u201cHumans are unlikely ever to live longer than\u00a0125 years.\u201d What\u2019s your take on this?<\/b>That\u2019s based on a paper published in\u00a0Nature\u00a0that mostly refers to the current state of technology. It\u2019s talking about if things continue as they are today. But given that we can\u2019t predict what science or medicine will produce, I don\u2019t think it relates to future medicine. That\u2019s different than the question of what is the absolute maximum possible limit on lifespan. That statistic is valid if nothing changes, but it can\u2019t predict the effect of breakthroughs in medicine and\/or alternatebiology. So, I don\u2019t think it\u2019s actually relevant for the future of medicine.\u00a0<b>How would you respond to scientists who solely focus on lifespan extension and defeating death?\u00a0<\/b>To be clear, our focus should be on how to let people live a healthier life for longer. Our goal is not just to extend life to a big number of years, but also to accompany that with a parallel increase in the number of healthy years someone has.<b>What advice can you give young people who are interested in studying the biology of aging?<\/b>I think there\u2019s no better time to join the field, given all the exciting discovery going on. What I recommend is that people learn the basics of biology\u2014so, get the textbooks, like <i>The Molecular Biology of the Cell<\/i>\u2014and reach out to local labs and see if you can find a lab to work in. From there, dive into the literature\u2014read a lot of papers and the big stories of the research that\u2019s being done\u2014to get to the forefront of the field quickly.",
+    "format": "rich_text",
+    "processed": "<i>Thiel Fellow, Laura Deming, is on a mission to extend human healthspan. She is a Forbes 30 Under 30 alum and was one of the stars of The Age of Aging, a documentary by\u00a0National Geographic. In an interview with the Milken Institute Center for the Future of Aging, Deming explains the importance of disease prevention in healthy aging and why longevity is a growing market for investment.<\/i><b>What advice can you give companies seeking investments in the aging field?<\/b>Having curiosity and an intensity to find the truth are important, because often, in a company context, if you have a lot of drive but not a lot of curiosity, you\u2019ll ignore the signposts along the way about why your drugs might not be working or problems with the therapeutics.On the other hand, if you have a lot of curiosity, but not a lot of drive, you might end up getting distracted by a lot of interesting science and not pursuing your goal single-mindedly. Coupled together these two characteristics will take a company a long way.\u00a0<b>How can we make\u00a0longevity\u00a0an essential topic for potential investors?<\/b>I think that problem is actually already solved. People in the financial community, at least right now, are rapidly investing or interested in the space. That\u2019s the complete opposite of eight years ago, when nobody wanted to put capital into it. One thing that\u2019s been helpful is that companies either get access to the public markets or get started with less capital from well-earned means, and these two events have really raised the profile with the field. Going forward, I think what will be helpful is for longevity researchers to make better strides in science. I think the most important thing will be getting that first longevity-specific drug into the hands of patients. Once we see a drug from this area of science that actually produces a measurable benefit to patients that they could not have gotten otherwise, that will be the largest invite to new investors.\u00a0<b>What do you think are the main reasons for scientists focusing on increasing healthy lifespan?<\/b>One big driver has been that nobody wants <i>just<\/i> to increase lifespan. It\u2019s nobody\u2019s idea of a good plan. It\u2019s kind of fascinating, because I think in the early days of the field, we didn\u2019t really understand what it was that we wanted to optimize for. But now it\u2019s very clear to everyone that we should be focusing on increasing the healthy part of the life, not just maximum lifespan in an old, decrepit state.<b>How do disease prevention and wellness factor into your efforts to increase a healthy lifespan?\u00a0<\/b>Those are areas that we are extremely excited about. At the Longevity Fund, we mostly focus on therapeutics including drugs, pharma, and even biologics. There are definitely many things that people should be doing to increase their healthy lifespan, and I think ways to incentivize people to do those things will be quite fascinating to watch as they develop.<b>A headline from The Telegraph in 2016 claimed \u201cHumans are unlikely ever to live longer than\u00a0125 years.\u201d What\u2019s your take on this?<\/b>That\u2019s based on a paper published in\u00a0Nature\u00a0that mostly refers to the current state of technology. It\u2019s talking about if things continue as they are today. But given that we can\u2019t predict what science or medicine will produce, I don\u2019t think it relates to future medicine. That\u2019s different than the question of what is the absolute maximum possible limit on lifespan. That statistic is valid if nothing changes, but it can\u2019t predict the effect of breakthroughs in medicine and\/or alternatebiology. So, I don\u2019t think it\u2019s actually relevant for the future of medicine.\u00a0<b>How would you respond to scientists who solely focus on lifespan extension and defeating death?\u00a0<\/b>To be clear, our focus should be on how to let people live a healthier life for longer. Our goal is not just to extend life to a big number of years, but also to accompany that with a parallel increase in the number of healthy years someone has.<b>What advice can you give young people who are interested in studying the biology of aging?<\/b>I think there\u2019s no better time to join the field, given all the exciting discovery going on. What I recommend is that people learn the basics of biology\u2014so, get the textbooks, like <i>The Molecular Biology of the Cell<\/i>\u2014and reach out to local labs and see if you can find a lab to work in. From there, dive into the literature\u2014read a lot of papers and the big stories of the research that\u2019s being done\u2014to get to the forefront of the field quickly.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/219?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/program_initiatives"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/program_initiatives\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 219
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e6b615a2-2320-4afd-aa90-a130445942f5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "program_initiatives"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "FinTech",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/program_initiatives\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-06-06T18:52:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "FinTech | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/219",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

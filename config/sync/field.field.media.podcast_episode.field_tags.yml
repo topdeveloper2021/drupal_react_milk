@@ -1,0 +1,29 @@
+uuid: 5d11c012-a4e8-4897-bd1d-fb5078a0c2a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_tags
+    - media.type.podcast_episode
+    - taxonomy.vocabulary.milken_tags
+id: media.podcast_episode.field_tags
+field_name: field_tags
+entity_type: media
+bundle: podcast_episode
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

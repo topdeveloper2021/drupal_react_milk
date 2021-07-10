@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-global-conference-place-where-world-connects-now-livestream?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 47
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ff4e3c2a-ed7c-4537-a05b-3a911594e60c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 47
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Global Conference \u2013 the place where the world connects \u2013  now on livestream",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-24T12:28:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-global-conference-place-where-world-connects-now-livestream",
+            "pid": 100,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 The Milken Institute Global Conference begins Sunday, April 26. This year, several of the most high profile panels of the conference will be livestreamed. The livestreams can be viewed on http:\/\/bit.ly\/1I56AvC. Here are the panels that will streamed and the approximate start times:Monday, April 27, 12:50 \u2013 2 p.m. Pacific time. The Global Economy: A Conversation with Timothy Geithner, Henry Paulson and Robert Rubin<br> In this session, Sheryl Sandberg, chief operating officer of Facebook, interviews three former U.S. treasury secretaries about global economic trends, public finance and capital markets. Join us for a discussion among three renowned leaders of finance. <br> See this stream at http:\/\/bit.ly\/1GpWCmKTuesday, April 28, 12:30 \u2013 2 p.m. Pacific time. What Would You Do to Make the World Better for Women and Girls? A Conversation and Call to Action<br> Hosted by Willow Bay, USC Annenberg School of Journalism, with Patricia Arquette, Barbara Bush, Frieda Pinto, Paul Kagame, and many others. <br> See this stream at http:\/\/bit.ly\/1Hxna8q\nWednesday, April 29, 12:40 \u2013 2 p.m. Pacific time. Part 1 A Conversation with California Governor Jerry Brown | Part 2 Trends in Global Entertainment<br> Moderated by CNBC\u2019s Julia Boorstin, with Colorforce\u2019s Nina Jacobson, Sony Entertainment\u2019s Michael Lynton, CBS\u2019 Leslie Moonves, and Fox Networks\u2019 Peter Rice. <br> See this stream at http:\/\/bit.ly\/1EzK5zD\nIn addition, videos of these and all Global Conference panels will be available for viewing at www.globalconference.org, usually within several hours after their conclusion. See the site for the full list of speakers and panels.More than 700 speakers, including major investors, CEOs, senior government officials, scientists, educators, philanthropists, and journalists will take part in more than 170 sessions at the Global Conference. The event will draw more than 3,500 people from 55 countries and 41 states to the Beverly Hilton for discussions on 11 content tracks. Topics include rebuilding housing finance, creating healthier lives and a healthier economy, the future of higher education, building a global workforce, and more.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 The Milken Institute Global Conference begins Sunday, April 26. This year, several of the most high profile panels of the conference will be livestreamed. The livestreams can be viewed on http:\/\/bit.ly\/1I56AvC. Here are the panels that will streamed and the approximate start times:Monday, April 27, 12:50 \u2013 2 p.m. Pacific time. The Global Economy: A Conversation with Timothy Geithner, Henry Paulson and Robert Rubin<br \/> In this session, Sheryl Sandberg, chief operating officer of Facebook, interviews three former U.S. treasury secretaries about global economic trends, public finance and capital markets. Join us for a discussion among three renowned leaders of finance. <br \/> See this stream at http:\/\/bit.ly\/1GpWCmKTuesday, April 28, 12:30 \u2013 2 p.m. Pacific time. What Would You Do to Make the World Better for Women and Girls? A Conversation and Call to Action<br \/> Hosted by Willow Bay, USC Annenberg School of Journalism, with Patricia Arquette, Barbara Bush, Frieda Pinto, Paul Kagame, and many others. <br \/> See this stream at http:\/\/bit.ly\/1Hxna8q\nWednesday, April 29, 12:40 \u2013 2 p.m. Pacific time. Part 1 A Conversation with California Governor Jerry Brown | Part 2 Trends in Global Entertainment<br \/> Moderated by CNBC\u2019s Julia Boorstin, with Colorforce\u2019s Nina Jacobson, Sony Entertainment\u2019s Michael Lynton, CBS\u2019 Leslie Moonves, and Fox Networks\u2019 Peter Rice. <br \/> See this stream at http:\/\/bit.ly\/1EzK5zD\nIn addition, videos of these and all Global Conference panels will be available for viewing at www.globalconference.org, usually within several hours after their conclusion. See the site for the full list of speakers and panels.More than 700 speakers, including major investors, CEOs, senior government officials, scientists, educators, philanthropists, and journalists will take part in more than 170 sessions at the Global Conference. The event will draw more than 3,500 people from 55 countries and 41 states to the Beverly Hilton for discussions on 11 content tracks. Topics include rebuilding housing finance, creating healthier lives and a healthier economy, the future of higher education, building a global workforce, and more.",
+    "summary": null,
+    "summary_processed": ""
+}

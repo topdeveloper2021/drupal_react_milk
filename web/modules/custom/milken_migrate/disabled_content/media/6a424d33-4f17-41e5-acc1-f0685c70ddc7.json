@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7033\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/-v_ZvBTjLcKDEK1Nb9It5RwWb8kvmY8eIEhL_HKE3xo.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7033
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6a424d33-4f17-41e5-acc1-f0685c70ddc7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1999
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/-v_ZvBTjLcKDEK1Nb9It5RwWb8kvmY8eIEhL_HKE3xo.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9dd4f368-a86e-45df-8b6d-953bbd0dd49a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Building Mental Health Resilience at Each Stage of Life",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-25T01:21:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:06:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Like physical health, mental health requires awareness, care, management and vigilance. As the world comes to grips with the enormity and urgency of our global mental health crisis, we need to take stock of all tools at our disposal. To do this, there is value to segmenting all of life's stages - childhood, adolescence, emerging adulthood, middle age and retirement - to determine the distinct mental health and brain development needs of each. This panel will explore how specific factors - such as childhood traumas, bullying, suicidality, addiction and social isolation - affect mental health over a lifetime in order to uncover the best ways to build, maintain and reinforce mental health resilience from cradle to grave.\u00a0",
+    "format": "rich_text",
+    "processed": "Like physical health, mental health requires awareness, care, management and vigilance. As the world comes to grips with the enormity and urgency of our global mental health crisis, we need to take stock of all tools at our disposal. To do this, there is value to segmenting all of life's stages - childhood, adolescence, emerging adulthood, middle age and retirement - to determine the distinct mental health and brain development needs of each. This panel will explore how specific factors - such as childhood traumas, bullying, suicidality, addiction and social isolation - affect mental health over a lifetime in order to uncover the best ways to build, maintain and reinforce mental health resilience from cradle to grave.\u00a0",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/0nad93M9_tY",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/-v_ZvBTjLcKDEK1Nb9It5RwWb8kvmY8eIEhL_HKE3xo.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

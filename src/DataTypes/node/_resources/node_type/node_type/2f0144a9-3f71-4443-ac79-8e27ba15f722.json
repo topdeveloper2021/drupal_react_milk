@@ -1,0 +1,34 @@
+{
+  "type": "node_type--node_type",
+  "id": "2f0144a9-3f71-4443-ac79-8e27ba15f722",
+  "links": {
+    "describedby": {
+      "href": "http://localhost:8080/jsonapi/node_type/node_type/resource/schema"
+    },
+    "self": {
+      "href": "http://localhost:8080/jsonapi/node_type/node_type/2f0144a9-3f71-4443-ac79-8e27ba15f722"
+    }
+  },
+  "attributes": {
+    "langcode": "en",
+    "status": true,
+    "dependencies": {
+      "module": [
+        "menu_ui"
+      ]
+    },
+    "third_party_settings": {
+      "menu_ui": {
+        "available_menus": [],
+        "parent": ""
+      }
+    },
+    "name": "Opportunity",
+    "drupal_internal__type": "opportunity",
+    "description": "Philanthropy Hub Opportunity",
+    "help": "",
+    "new_revision": true,
+    "preview_mode": 1,
+    "display_submitted": true
+  }
+}

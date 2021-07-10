@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7103\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/as4m4fbxWgXUPpzdZH96H0p2L5fbaEjnYvAEofipvS0.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7103
+        }
+    ],
+    "uuid": [
+        {
+            "value": "072215d6-ec21-4004-b4be-9a1c79751b0d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 55
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/as4m4fbxWgXUPpzdZH96H0p2L5fbaEjnYvAEofipvS0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3f3e64ff-f429-43ee-8758-d27082f9b644"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Energy Markets: The Year Ahead for Oil, Gas and Renewables",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-04-27T09:10:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Following a dismal 2017, oil prices have remained above $60 for most of this year as U.S. shale producers relentlessly maintain production levels, offsetting reductions by OPEC nations. Meanwhile, renewable sources like wind and solar energy continue to significantly disrupt traditional energy markets, even as the advent of shale production mitigates their near-term impact. Where are the investing opportunities and caveats, and how will they change if oil prices move higher or, as some predict, lower? Also, what are the geopolitical implications of the U.S. dethroning Russia as the world's largest oil producer, potentially as early as this year?",
+    "format": "rich_text",
+    "processed": "Following a dismal 2017, oil prices have remained above $60 for most of this year as U.S. shale producers relentlessly maintain production levels, offsetting reductions by OPEC nations. Meanwhile, renewable sources like wind and solar energy continue to significantly disrupt traditional energy markets, even as the advent of shale production mitigates their near-term impact. Where are the investing opportunities and caveats, and how will they change if oil prices move higher or, as some predict, lower? Also, what are the geopolitical implications of the U.S. dethroning Russia as the world's largest oil producer, potentially as early as this year?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/2tQVfaubYGw",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/as4m4fbxWgXUPpzdZH96H0p2L5fbaEjnYvAEofipvS0.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

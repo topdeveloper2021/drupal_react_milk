@@ -1,0 +1,19 @@
+uuid: 1edc5626-4ab1-4559-aec4-02a56dd252c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.office
+    - field.storage.location.field_email
+id: location.office.field_email
+field_name: field_email
+entity_type: location
+bundle: office
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

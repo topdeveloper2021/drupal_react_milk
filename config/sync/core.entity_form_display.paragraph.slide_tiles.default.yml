@@ -1,0 +1,60 @@
+uuid: 69b9a307-e1e6-46d1-9b94-0481606eb959
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide_tiles.field_background_color
+    - field.field.paragraph.slide_tiles.field_slide_refs
+    - field.field.paragraph.slide_tiles.field_title
+    - field.field.paragraph.slide_tiles.field_view_mode
+    - paragraphs.paragraphs_type.slide_tiles
+  module:
+    - color_field
+id: paragraph.slide_tiles.default
+targetEntityType: paragraph
+bundle: slide_tiles
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_background_color:
+    weight: -9
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+    type: color_field_widget_default
+    region: content
+  field_slide_refs:
+    weight: -8
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_title:
+    weight: -7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_view_mode:
+    weight: -6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

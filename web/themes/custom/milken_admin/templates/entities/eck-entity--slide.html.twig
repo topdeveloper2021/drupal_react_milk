@@ -1,0 +1,20 @@
+{{ attach_library('milken_base/eck_entity_slide') }}
+
+{% set eck_entity_value =  []
+    | merge({ 'entityTypeId': eck_entity.getEntityTypeId })
+    | merge({ 'id': eck_entity.uuid.value })
+    | merge({ 'drupal_internal__id': eck_entity.id.value })
+    | merge({ 'type': eck_entity.bundle })
+    | merge({ 'includes': "field_background_image" })
+
+%}
+
+
+<eck-entity-slide
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ eck_entity_value | jsonapi }}"
+>
+
+</eck-entity-slide>

@@ -1,0 +1,28 @@
+uuid: 6b558e6d-88c4-457e-b41f-d70946cc4554
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_hero_image
+    - media.type.image
+id: event.conference.field_hero_image
+field_name: field_hero_image
+entity_type: event
+bundle: conference
+label: 'Hero Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: null
+field_type: entity_reference

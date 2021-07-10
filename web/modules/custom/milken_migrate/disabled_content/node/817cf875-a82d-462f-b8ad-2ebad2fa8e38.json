@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/tech-innovation-need-not-be-made-usa?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/154?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 782
+        }
+    ],
+    "uuid": [
+        {
+            "value": "817cf875-a82d-462f-b8ad-2ebad2fa8e38"
+        }
+    ],
+    "vid": [
+        {
+            "value": 782
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/154?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de048c0b-e43b-485c-b90d-5ce4f3736315"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Tech innovation need not be 'Made in the USA'",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T18:21:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:24:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/tech-innovation-need-not-be-made-usa",
+            "pid": 835,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>Lessons from California for Asian entrepreneurs and start-ups<\/b> In the fast-paced world of technology, innovation need not be limited to one side of the Pacific Ocean. Advances are clearly happening all around the Pacific Rim. But Asia policymakers should, and can, do more to encourage the freer flow of ideas and capital across the Pacific to the benefit of American and Asian entrepreneurs, companies and economies. This goes beyond the proposed Trans-Pacific Partnership trade deal, which would connect the United States and other Asia-Pacific countries; together they account for 40 per cent of global gross domestic product. California offers several lessons that Asian nations can build on if they, too, are to become centres of global invention and innovation. America's \"Golden State\" has been associated with the rewards of risk-taking for decades. Those California dreams of tech success have since gone global, capturing the imaginations of would-be tech entrepreneurs everywhere. The recent rapid growth of investment in Asia's tech sector, which according to media platform Tech in Asia has risen from US$6 billion (about S$8.4 billion) to US$45 billion in two years, provides a real opportunity. But the key is not just investment in initial public offerings (IPOs) and hot tech stocks, but also in building the entrepreneurial ecosystem to create consistent levels of innovation. But a key to growth will be recognising that while venture capital funds do involve personal relationships, they also involve assessing and taking risks with relative strangers. This is a marked contrast to basing investment decisions primarily on the longstanding family relationships that often work in Asia. Long-term success in tech, however, typically includes the ability to not only improve on, but also to be the centre of innovation. As increasing global competition and higher costs have brought several Asian countries into increased prominence in technology manufacturing, there is a strong desire also to nurture and boost their own home-grown innovations, risk-takers and successes. <b>Three Lessons from California<\/b> First, Asia, and the nations of Asean in particular, must commit to developing great research universities that will both train skilled individuals and advance the sharing of basic research and technology. According to the Shanghai Academic Ranking of World Universities 2015, the US is home to 16 of the world's top 20 research universities. Of those 16, an astonishing six are in California, ranging from Stanford University at No. 2, to the University of California, San Francisco, at No. 18. Three of the top seven are in the San Francisco area, two from around Los Angeles, and one in San Diego. Of the top 100 research universities, 11 are in California. In contrast, Asia's highest-ranking research university is the University of Tokyo at No. 21; no non-Japanese university in Asia makes the top 100. Second, Asia must embrace failure - not as an end, but as a means to success. Perhaps one of the most important strengths of California is the ability of its entrepreneurs to fail and try again. By some accounts, two-thirds of Silicon Valley start-ups do not last five years, failing ever to make it to an IPO stage. So why do there continue to be so many start-ups? Quite often, the same people who started one company are willing and able to try again. Even the more established firms, including Apple, Google and Intel, have thrived in part by continuing to take chances on small innovators, who then made it big. At one point, Yahoo's single greatest windfall arguably came from its stake in China's e-commerce leader, Alibaba. Third, Asian countries must move to innovate in their financing of start-ups. Risk-taking cannot be left to entrepreneurs alone. By some accounts, up to 50 per cent of all venture capital activity in the world flows through California. The access to significant investors at numerous different stages plays a significant role for California's success in seeding tech innovation. Asia must take further steps to develop this resource, including policy and regulatory changes. Singapore, for example, has a significant opportunity to establish itself as a hub of entrepreneurial investment - and reinvestment. Asia's family entrepreneurs are a great asset. But a key to growth will be recognising that while venture capital funds do involve personal relationships, they also involve assessing and taking risks with relative strangers. This is a marked contrast to basing investment decisions primarily on the longstanding family relationships that often work in Asia. While many California companies would benefit from more long-term, patient investors, the reality is that before many California start-ups reach that stage, a significant funding gap exists. Financing options and investors that go beyond \"family and friends\" have entered this gap. This, too, Asia should embrace. Even the most successful Asia start-ups have found it easier to access US capital markets to further their expansion. Alibaba's blockbuster New York Stock Exchange IPO is one example. The tech sector remains a US success story that has gone well beyond any Silicon Valley roots. In recent years, technology companies have moved south from Silicon Valley to the Santa Monica neighbourhood - now nicknamed Silicon Beach. That same reinvention and expansion of America's tech industry now has people rightly California dreaming, on both sides of the Pacific. Kevin Klowden is managing director of the Milken Institute's California Centre. Curtis S. Chin, a former US ambassador to the Asian Development Bank, is an Asia Fellow of the institute and managing director of advisory firm RiverPeak Group. <i>A version of this article appeared in the print edition of The Straits Times on September 18, 2015, with the headline 'Tech innovation need not be 'Made in the USA''.<\/i>",
+    "format": "rich_text",
+    "processed": "<b>Lessons from California for Asian entrepreneurs and start-ups<\/b> In the fast-paced world of technology, innovation need not be limited to one side of the Pacific Ocean. Advances are clearly happening all around the Pacific Rim. But Asia policymakers should, and can, do more to encourage the freer flow of ideas and capital across the Pacific to the benefit of American and Asian entrepreneurs, companies and economies. This goes beyond the proposed Trans-Pacific Partnership trade deal, which would connect the United States and other Asia-Pacific countries; together they account for 40 per cent of global gross domestic product. California offers several lessons that Asian nations can build on if they, too, are to become centres of global invention and innovation. America's \"Golden State\" has been associated with the rewards of risk-taking for decades. Those California dreams of tech success have since gone global, capturing the imaginations of would-be tech entrepreneurs everywhere. The recent rapid growth of investment in Asia's tech sector, which according to media platform Tech in Asia has risen from US$6 billion (about S$8.4 billion) to US$45 billion in two years, provides a real opportunity. But the key is not just investment in initial public offerings (IPOs) and hot tech stocks, but also in building the entrepreneurial ecosystem to create consistent levels of innovation. But a key to growth will be recognising that while venture capital funds do involve personal relationships, they also involve assessing and taking risks with relative strangers. This is a marked contrast to basing investment decisions primarily on the longstanding family relationships that often work in Asia. Long-term success in tech, however, typically includes the ability to not only improve on, but also to be the centre of innovation. As increasing global competition and higher costs have brought several Asian countries into increased prominence in technology manufacturing, there is a strong desire also to nurture and boost their own home-grown innovations, risk-takers and successes. <b>Three Lessons from California<\/b> First, Asia, and the nations of Asean in particular, must commit to developing great research universities that will both train skilled individuals and advance the sharing of basic research and technology. According to the Shanghai Academic Ranking of World Universities 2015, the US is home to 16 of the world's top 20 research universities. Of those 16, an astonishing six are in California, ranging from Stanford University at No. 2, to the University of California, San Francisco, at No. 18. Three of the top seven are in the San Francisco area, two from around Los Angeles, and one in San Diego. Of the top 100 research universities, 11 are in California. In contrast, Asia's highest-ranking research university is the University of Tokyo at No. 21; no non-Japanese university in Asia makes the top 100. Second, Asia must embrace failure - not as an end, but as a means to success. Perhaps one of the most important strengths of California is the ability of its entrepreneurs to fail and try again. By some accounts, two-thirds of Silicon Valley start-ups do not last five years, failing ever to make it to an IPO stage. So why do there continue to be so many start-ups? Quite often, the same people who started one company are willing and able to try again. Even the more established firms, including Apple, Google and Intel, have thrived in part by continuing to take chances on small innovators, who then made it big. At one point, Yahoo's single greatest windfall arguably came from its stake in China's e-commerce leader, Alibaba. Third, Asian countries must move to innovate in their financing of start-ups. Risk-taking cannot be left to entrepreneurs alone. By some accounts, up to 50 per cent of all venture capital activity in the world flows through California. The access to significant investors at numerous different stages plays a significant role for California's success in seeding tech innovation. Asia must take further steps to develop this resource, including policy and regulatory changes. Singapore, for example, has a significant opportunity to establish itself as a hub of entrepreneurial investment - and reinvestment. Asia's family entrepreneurs are a great asset. But a key to growth will be recognising that while venture capital funds do involve personal relationships, they also involve assessing and taking risks with relative strangers. This is a marked contrast to basing investment decisions primarily on the longstanding family relationships that often work in Asia. While many California companies would benefit from more long-term, patient investors, the reality is that before many California start-ups reach that stage, a significant funding gap exists. Financing options and investors that go beyond \"family and friends\" have entered this gap. This, too, Asia should embrace. Even the most successful Asia start-ups have found it easier to access US capital markets to further their expansion. Alibaba's blockbuster New York Stock Exchange IPO is one example. The tech sector remains a US success story that has gone well beyond any Silicon Valley roots. In recent years, technology companies have moved south from Silicon Valley to the Santa Monica neighbourhood - now nicknamed Silicon Beach. That same reinvention and expansion of America's tech industry now has people rightly California dreaming, on both sides of the Pacific. Kevin Klowden is managing director of the Milken Institute's California Centre. Curtis S. Chin, a former US ambassador to the Asian Development Bank, is an Asia Fellow of the institute and managing director of advisory firm RiverPeak Group. <i>A version of this article appeared in the print edition of The Straits Times on September 18, 2015, with the headline 'Tech innovation need not be 'Made in the USA''.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

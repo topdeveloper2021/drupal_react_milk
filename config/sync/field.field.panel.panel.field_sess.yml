@@ -1,0 +1,19 @@
+uuid: 62ebb426-d108-456d-a6fc-ecce48f2988f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_sess
+id: panel.panel.field_sess
+field_name: field_sess
+entity_type: panel
+bundle: panel
+label: Session
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

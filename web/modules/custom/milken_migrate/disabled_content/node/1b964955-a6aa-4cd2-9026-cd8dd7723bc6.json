@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/permissible-interest-loans-are-sold-assigned-or-otherwise-transferred?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/254?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 884
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1b964955-a6aa-4cd2-9026-cd8dd7723bc6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 884
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/254?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "36991adb-3c8c-4d06-8298-1530252211a3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Permissible Interest on Loans That Are Sold, Assigned, or Otherwise Transferred",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-01-22T18:54:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-01-22T22:13:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/permissible-interest-loans-are-sold-assigned-or-otherwise-transferred",
+            "pid": 937,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The Honorable Joseph Otting <b> Comptroller <br \/> Office of the Comptroller of the Currency <br \/> 400 7th Street, SW <br \/> Washington, DC 20219 The Honorable Jelena McWilliams<br \/> Chairman<br \/> Federal Deposit Insurance Corporation<br \/> 550 17th Street, NW<br \/> Washington, DC 20429<br \/> <br \/> <strong>Re: Permissible Interest on Loans That Are Sold, Assigned, or Otherwise Transferred (RIN 1557\u2013AE73; RIN 3064\u2013AF21)<\/b> Dear Comptroller Otting and Chairman McWilliams, The Milken Institute Center for Financial Markets appreciates the opportunity to provide comments on the separate notices of proposed rulemaking by the Office of the Comptroller of the Currency (OCC) and Federal Deposit Insurance Corporation (FDIC). The proposed rules, which amend section 27 and 24(j) of the Federal Deposit Insurance (FDI) Act and section 85 and section 1463(g) of the National Bank Act, provide welcome clarity around the validity and enforceability of interest rate terms on loans that are sold, assigned, or otherwise transferred by national banks, federal savings associations, and state banks to non-banks. The Milken Institute is a nonprofit, nonpartisan think tank that helps people build meaningful lives in which they can experience health and well-being, pursue effective education and gainful employment, and access the resources required to create ever-expanding opportunities for themselves and their broader communities. The Milken Institute Center for Financial Markets (CFM) promotes financial market understanding and works to expand access to capital, strengthen and deepen financial markets, and develop innovative financial solutions to the most pressing global challenges. Since the United States Court of Appeals for the Second Circuit\u2019s decision in Madden vs. Midland (Madden), the Milken Institute has consistently voiced its concerns about the decision and potential negative repercussions from the lawsuit that extend well beyond the Second Circuit Court\u2019s jurisdiction. The two separate notices of proposed rulemaking come approximately two months after members of the US House Committee on Financial Services sent a letter to the OCC urging the agency to address the uncertainty caused by the Madden decision, and nearly a year and a half after the US Department of Treasury, in its fourth and final report on core principles for regulating the US financial system, suggested federal banking regulators use their available authorities to address the challenges posed by Madden. We commend the OCC and FDIC efforts to address the concerns emanating from the Second Circuit Court\u2019s decision in Madden. Both notices of proposed rulemaking provide substantive legal histories behind the \u201cvalid when made\u201d doctrine, including how the courts and the regulatory agencies have interpreted the legal doctrine over the years. In light of the uncertainty caused by the Madden decision, the proposed rules reaffirm long-standing views regarding the enforceability of interest rate terms on loans that are sold, transferred, or otherwise assigned. While regulatory action to address the uncertainty caused by Madden is welcome, we are concerned that even if the OCC and FDIC adopt the rules as proposed, legal uncertainty will remain because the Madden decision still stands. Unless the Second Circuit Court of Appeals reverses its decision in Madden, or the Supreme Court of the United States gets involved, we remain convinced that congressional action is the only way to address the negative consequences of the Madden decision. We believe there are three reasons why Congress should pass legislation that would reaffirm longstanding legal precedent called into question by the Madden decision. <b>Read Full Comment Letter<\/b> <br \/> ",
+    "format": "rich_text",
+    "processed": "The Honorable Joseph Otting <b> Comptroller <br \/> Office of the Comptroller of the Currency <br \/> 400 7th Street, SW <br \/> Washington, DC 20219 The Honorable Jelena McWilliams<br \/> Chairman<br \/> Federal Deposit Insurance Corporation<br \/> 550 17th Street, NW<br \/> Washington, DC 20429<br \/><br \/><strong>Re: Permissible Interest on Loans That Are Sold, Assigned, or Otherwise Transferred (RIN 1557\u2013AE73; RIN 3064\u2013AF21)<\/strong><\/b> Dear Comptroller Otting and Chairman McWilliams, The Milken Institute Center for Financial Markets appreciates the opportunity to provide comments on the separate notices of proposed rulemaking by the Office of the Comptroller of the Currency (OCC) and Federal Deposit Insurance Corporation (FDIC). The proposed rules, which amend section 27 and 24(j) of the Federal Deposit Insurance (FDI) Act and section 85 and section 1463(g) of the National Bank Act, provide welcome clarity around the validity and enforceability of interest rate terms on loans that are sold, assigned, or otherwise transferred by national banks, federal savings associations, and state banks to non-banks. The Milken Institute is a nonprofit, nonpartisan think tank that helps people build meaningful lives in which they can experience health and well-being, pursue effective education and gainful employment, and access the resources required to create ever-expanding opportunities for themselves and their broader communities. The Milken Institute Center for Financial Markets (CFM) promotes financial market understanding and works to expand access to capital, strengthen and deepen financial markets, and develop innovative financial solutions to the most pressing global challenges. Since the United States Court of Appeals for the Second Circuit\u2019s decision in Madden vs. Midland (Madden), the Milken Institute has consistently voiced its concerns about the decision and potential negative repercussions from the lawsuit that extend well beyond the Second Circuit Court\u2019s jurisdiction. The two separate notices of proposed rulemaking come approximately two months after members of the US House Committee on Financial Services sent a letter to the OCC urging the agency to address the uncertainty caused by the Madden decision, and nearly a year and a half after the US Department of Treasury, in its fourth and final report on core principles for regulating the US financial system, suggested federal banking regulators use their available authorities to address the challenges posed by Madden. We commend the OCC and FDIC efforts to address the concerns emanating from the Second Circuit Court\u2019s decision in Madden. Both notices of proposed rulemaking provide substantive legal histories behind the \u201cvalid when made\u201d doctrine, including how the courts and the regulatory agencies have interpreted the legal doctrine over the years. In light of the uncertainty caused by the Madden decision, the proposed rules reaffirm long-standing views regarding the enforceability of interest rate terms on loans that are sold, transferred, or otherwise assigned. While regulatory action to address the uncertainty caused by Madden is welcome, we are concerned that even if the OCC and FDIC adopt the rules as proposed, legal uncertainty will remain because the Madden decision still stands. Unless the Second Circuit Court of Appeals reverses its decision in Madden, or the Supreme Court of the United States gets involved, we remain convinced that congressional action is the only way to address the negative consequences of the Madden decision. We believe there are three reasons why Congress should pass legislation that would reaffirm longstanding legal precedent called into question by the Madden decision. <b>Read Full Comment Letter<\/b> <br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

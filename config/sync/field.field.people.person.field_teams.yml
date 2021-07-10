@@ -1,0 +1,29 @@
+uuid: cd1aa0e2-a56c-4f5f-8844-a3f21ffa5090
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_teams
+    - taxonomy.vocabulary.teams
+id: people.person.field_teams
+field_name: field_teams
+entity_type: people
+bundle: person
+label: Teams
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      teams: teams
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

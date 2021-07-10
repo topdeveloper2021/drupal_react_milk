@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/213?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/program_initiatives"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/program_initiatives\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 213
+        }
+    ],
+    "uuid": [
+        {
+            "value": "656ee4d9-8a11-4446-b336-2da043ef0cd0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "program_initiatives"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Age-Forward Communities",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/program_initiatives\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-06-06T18:49:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Age-Forward Communities | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/213",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

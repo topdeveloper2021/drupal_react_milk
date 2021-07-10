@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/how-60-percent-increase-fdi-relates-prosperity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/84?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 550
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5adf9590-c00f-4cfd-af38-b80501308fac"
+        }
+    ],
+    "vid": [
+        {
+            "value": 550
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/84?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a9c6e2c-83e9-4fe7-bb91-f0b4592d788c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How a 60 Percent Increase in FDI Relates to Prosperity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T14:20:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-13T18:10:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/how-60-percent-increase-fdi-relates-prosperity",
+            "pid": 603,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Canada\u2019s news on foreign direct investment reveals five keys to shared prosperity.<\/b><\/i> I\u2019m here to share some great news on foreign direct investment (FDI) in Canada. It\u2019s news with real significance for shared prosperity. Canada\u2019s FDI inflows for 2018 did more than rise above the 10-year average; a 60 percent increase from 2017 stands in sharp contrast to the rest of the world, which saw a 19 percent decrease in FDI inflow in 2018. The increase is making Canada stronger, with more global capital flowing into the country, through more deals, from more sources, into more sectors, creating more jobs. Using this positive reversal as a starting point, I offer five keys to greater shared prosperity. <b>Plan a route to prosperity<\/b> Before becoming the inaugural CEO of Invest in Canada last March, I had been involved in finalizing negotiations on the Trans-Pacific Partnership free trade agreement, which gives global companies in Canada access to more markets. Canada is now the only G7 country offering investors preferential market access to more than 50 countries, with over 1.5 billion consumers and a combined GDP of nearly USD $50 trillion. A quick takeaway: insightful planning and greater market access are critical to shared prosperity. <b>Nurture new economy initiatives<\/b> While 2018 deals like the nation\u2019s largest-ever private-sector investment\u00ad\u00ad\u2014LNG Canada\u2019s $40 billion liquified natural gas project\u2014and Toyota Canada\u2019s $1.4 billion investment in manufacturing plants play to Canada\u2019s traditional strengths, it\u2019s technology where Canada attracts much of the world\u2019s attention and investment today. This new tech economy includes AI. In March 2017, Canada was the world\u2019s first country to announce a national strategy for artificial intelligence and provide government support. In 2018, the world saw a 28 percent increase in AI-related startups in Canada. The last five years saw, on average, a 49 percent increase in AI-related deals. International AI-related players in Canada have more than doubled from 2017 to 2018. The new tech economy includes FinTech. It includes cleantech (an industry in which Canada ranks first among G20 countries). It also includes cybersecurity. In 2018, for example, Siemens joined global firms making cybersecurity investments here, where Canada\u2019s first advanced cybersecurity training program is helping stem the industry\u2019s talent shortage crisis that\u2019s seeing as many as 3.5 million positions remaining unfilled by 2021. To achieve shared prosperity, finding and fostering the most attractive, most sustainable investment opportunities will continue to be important. <b>Fuel prosperity with skilled and diverse global talent<\/b> With the world\u2019s most educated workforce, Canada has the talent to make new tech sectors grow. By supporting homegrown talent while attracting top-tier international talent (the Global Talent Stream, for example, brings skilled workers to Canada in as little as two weeks), Canada has become a leader in developing and attracting global talent. Rich, bright diversity like that found in Canada\u2014where almost 20 percent of the population is foreign-born and where more than 200 languages are spoken\u2014 is central to shared prosperity. <b>Show global investors the money\u2014then take less of it in taxes<\/b> As an investment attraction agency focused on global companies, Invest in Canada has quickly become adept at showing them the money. Through the\u00a0Scientific Research and Experimental Development program, businesses leverage tax credits to drive cutting-edge research. And Canada\u2019s recent addition of $800 million in innovation incentives to the Strategic Innovation Fund brings over $2 billion of support to companies engaged in high growth innovative projects . What\u2019s more, with Canada\u2019s fall 2018 business tax enhancements enabling all businesses to write off up to 100 percent of machinery, equipment, and assets, Canada now has the lowest Marginal Effective Tax Rate in the G7, 5 percentage points below the new US rates and even farther below most G7 nations. The upshot? Making it easy for growth-minded global investors to find and work with a trusted partner leads to shared prosperity. And giving these innovative companies incentives to deploy more investment capital\u2014which Canada also does\u2014further builds partnerships and prosperity. <b>Make people\u2019s lives better<\/b> International companies want all their people\u2014global executives and domestic employees alike\u2014to enjoy safe, healthy, and productive lives at work and at home. With Canada ranking #1 for quality of life, which includes metrics for safety, health care, education, and job markets, more global companies are choosing Canada. Add to this Canada's #1 ranking among G7 nations on the 163-country Global Peace Index (which correlates to lower interest rates, lower inflation, and higher FDI), and the reality of shared prosperity is closer than many think.",
+    "format": "rich_text",
+    "processed": "<i><b>Canada\u2019s news on foreign direct investment reveals five keys to shared prosperity.<\/b><\/i> I\u2019m here to share some great news on foreign direct investment (FDI) in Canada. It\u2019s news with real significance for shared prosperity. Canada\u2019s FDI inflows for 2018 did more than rise above the 10-year average; a 60 percent increase from 2017 stands in sharp contrast to the rest of the world, which saw a 19 percent decrease in FDI inflow in 2018. The increase is making Canada stronger, with more global capital flowing into the country, through more deals, from more sources, into more sectors, creating more jobs. Using this positive reversal as a starting point, I offer five keys to greater shared prosperity. <b>Plan a route to prosperity<\/b> Before becoming the inaugural CEO of Invest in Canada last March, I had been involved in finalizing negotiations on the Trans-Pacific Partnership free trade agreement, which gives global companies in Canada access to more markets. Canada is now the only G7 country offering investors preferential market access to more than 50 countries, with over 1.5 billion consumers and a combined GDP of nearly USD $50 trillion. A quick takeaway: insightful planning and greater market access are critical to shared prosperity. <b>Nurture new economy initiatives<\/b> While 2018 deals like the nation\u2019s largest-ever private-sector investment\u00ad\u00ad\u2014LNG Canada\u2019s $40 billion liquified natural gas project\u2014and Toyota Canada\u2019s $1.4 billion investment in manufacturing plants play to Canada\u2019s traditional strengths, it\u2019s technology where Canada attracts much of the world\u2019s attention and investment today. This new tech economy includes AI. In March 2017, Canada was the world\u2019s first country to announce a national strategy for artificial intelligence and provide government support. In 2018, the world saw a 28 percent increase in AI-related startups in Canada. The last five years saw, on average, a 49 percent increase in AI-related deals. International AI-related players in Canada have more than doubled from 2017 to 2018. The new tech economy includes FinTech. It includes cleantech (an industry in which Canada ranks first among G20 countries). It also includes cybersecurity. In 2018, for example, Siemens joined global firms making cybersecurity investments here, where Canada\u2019s first advanced cybersecurity training program is helping stem the industry\u2019s talent shortage crisis that\u2019s seeing as many as 3.5 million positions remaining unfilled by 2021. To achieve shared prosperity, finding and fostering the most attractive, most sustainable investment opportunities will continue to be important. <b>Fuel prosperity with skilled and diverse global talent<\/b> With the world\u2019s most educated workforce, Canada has the talent to make new tech sectors grow. By supporting homegrown talent while attracting top-tier international talent (the Global Talent Stream, for example, brings skilled workers to Canada in as little as two weeks), Canada has become a leader in developing and attracting global talent. Rich, bright diversity like that found in Canada\u2014where almost 20 percent of the population is foreign-born and where more than 200 languages are spoken\u2014 is central to shared prosperity. <b>Show global investors the money\u2014then take less of it in taxes<\/b> As an investment attraction agency focused on global companies, Invest in Canada has quickly become adept at showing them the money. Through the\u00a0Scientific Research and Experimental Development program, businesses leverage tax credits to drive cutting-edge research. And Canada\u2019s recent addition of $800 million in innovation incentives to the Strategic Innovation Fund brings over $2 billion of support to companies engaged in high growth innovative projects . What\u2019s more, with Canada\u2019s fall 2018 business tax enhancements enabling all businesses to write off up to 100 percent of machinery, equipment, and assets, Canada now has the lowest Marginal Effective Tax Rate in the G7, 5 percentage points below the new US rates and even farther below most G7 nations. The upshot? Making it easy for growth-minded global investors to find and work with a trusted partner leads to shared prosperity. And giving these innovative companies incentives to deploy more investment capital\u2014which Canada also does\u2014further builds partnerships and prosperity. <b>Make people\u2019s lives better<\/b> International companies want all their people\u2014global executives and domestic employees alike\u2014to enjoy safe, healthy, and productive lives at work and at home. With Canada ranking #1 for quality of life, which includes metrics for safety, health care, education, and job markets, more global companies are choosing Canada. Add to this Canada's #1 ranking among G7 nations on the 163-country Global Peace Index (which correlates to lower interest rates, lower inflation, and higher FDI), and the reality of shared prosperity is closer than many think.",
+    "summary": null,
+    "summary_processed": ""
+}

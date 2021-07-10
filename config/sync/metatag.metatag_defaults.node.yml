@@ -1,0 +1,10 @@
+uuid: f7eab818-61fa-474d-8b0c-19a4081b7c6a
+langcode: en
+status: true
+dependencies: {  }
+id: node
+label: Content
+tags:
+  title: '[node:title] | [site:name]'
+  canonical_url: '[node:url]'
+  description: '[node:summary]'

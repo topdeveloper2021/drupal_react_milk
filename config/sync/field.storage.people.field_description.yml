@@ -1,0 +1,19 @@
+uuid: f1219be2-8d13-40a5-b5e7-dfb54a577166
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_description
+field_name: field_description
+entity_type: people
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

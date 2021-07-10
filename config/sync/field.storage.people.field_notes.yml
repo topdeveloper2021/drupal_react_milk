@@ -1,0 +1,19 @@
+uuid: 2ca16dbf-c35b-4037-a67e-85e201d25455
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_notes
+field_name: field_notes
+entity_type: people
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

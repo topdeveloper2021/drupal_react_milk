@@ -1,0 +1,115 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/16\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/main"
+        }
+    },
+    "id": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b5474113-4c89-4c5d-a04b-8ce198688cab"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "main"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Leadership",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "Meet the Milken Institute leadership team",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/leadership",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -49
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:36e267bc-5aea-407b-adb0-9a84f15946ae"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-17T13:19:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "view_mode": [
+        {
+            "value": "default",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ]
+}

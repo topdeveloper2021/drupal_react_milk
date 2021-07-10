@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7030\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/aBigtA00XDvK6KAlt7eG8jpu1EthXXsGWtOZ8cjrii8.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7030
+        }
+    ],
+    "uuid": [
+        {
+            "value": "31e4ee9e-fe2e-478b-b2ab-5040758bdb5a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2280
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/aBigtA00XDvK6KAlt7eG8jpu1EthXXsGWtOZ8cjrii8.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1533b01e-6987-4c76-84f6-336ba26ddf44"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Womens Health: Addressing Disparities from Health Leadership to Patient Care",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-25T01:05:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:37:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Women are disproportionately affected by issues surrounding health, as health decision-makers, caregivers, and patients. Women make 80 percent of health-care decisions for their families, and they are much more likely to serve as the primary caregiver for a family member who falls ill. Women also utilize more health-care services than men, accounting for 57 percent of all doctors' office expenses. On top of that, women make up close to 80 percent of the health workforce. Yet only one Fortune 500 health-care company has a female CEO, and only 23 percent of executives at Fortune 500 health-care companies are women. Despite decades of mandates from Congress, women still make up less than half of clinical trial participants, and gender differences in outcomes are still inadequately studied. What initiatives are currently in place to ensure medical research and healthcare are reflecting the perspectives and priorities of women moving forward? What can all leaders do to further promote the inclusion of women at the leadership level of major health-care companies? How can industry shifts towards gender equity positively affect global health?",
+    "format": "rich_text",
+    "processed": "Women are disproportionately affected by issues surrounding health, as health decision-makers, caregivers, and patients. Women make 80 percent of health-care decisions for their families, and they are much more likely to serve as the primary caregiver for a family member who falls ill. Women also utilize more health-care services than men, accounting for 57 percent of all doctors' office expenses. On top of that, women make up close to 80 percent of the health workforce. Yet only one Fortune 500 health-care company has a female CEO, and only 23 percent of executives at Fortune 500 health-care companies are women. Despite decades of mandates from Congress, women still make up less than half of clinical trial participants, and gender differences in outcomes are still inadequately studied. What initiatives are currently in place to ensure medical research and healthcare are reflecting the perspectives and priorities of women moving forward? What can all leaders do to further promote the inclusion of women at the leadership level of major health-care companies? How can industry shifts towards gender equity positively affect global health?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/3Ijt140eXi4",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/aBigtA00XDvK6KAlt7eG8jpu1EthXXsGWtOZ8cjrii8.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

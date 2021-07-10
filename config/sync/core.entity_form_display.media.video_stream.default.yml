@@ -1,0 +1,249 @@
+uuid: 5595b16d-5bf8-42ab-99c4-2c87aeda5991
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.video_stream.field_centers
+    - field.field.media.video_stream.field_collections
+    - field.field.media.video_stream.field_event_reference
+    - field.field.media.video_stream.field_events
+    - field.field.media.video_stream.field_media_oembed_video
+    - field.field.media.video_stream.field_people
+    - field.field.media.video_stream.field_regions
+    - field.field.media.video_stream.field_start_finish_time
+    - field.field.media.video_stream.field_tags
+    - field.field.media.video_stream.field_topics
+    - media.type.video_stream
+  module:
+    - datetime_range
+    - field_group
+    - media
+    - path
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_content
+        - group_promotion
+        - group_authoring
+        - group_taxonomy
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_content:
+      children:
+        - field_media_oembed_video
+        - field_start_finish_time
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: Content
+    group_authoring:
+      children:
+        - langcode
+        - uid
+        - created
+        - path
+        - status
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Authoring
+    group_promotion:
+      children:
+        - field_people
+        - field_event_reference
+      parent_name: group_tabs
+      weight: 21
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Promotion
+    group_taxonomy:
+      children:
+        - field_tags
+        - field_topics
+        - field_events
+        - field_regions
+        - field_collections
+        - field_centers
+      parent_name: group_tabs
+      weight: 23
+      format_type: tab
+      region: hidden
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Taxonomy
+id: media.video_stream.default
+targetEntityType: media
+bundle: video_stream
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_centers:
+    weight: 8
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_collections:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_event_reference:
+    weight: 103
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_events:
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_media_oembed_video:
+    type: oembed_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_people:
+    weight: 101
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_regions:
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_start_finish_time:
+    weight: 104
+    settings: {  }
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_tags:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_topics:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

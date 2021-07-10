@@ -1,0 +1,152 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: $font-family-base;
+  font-variant-ligatures: no-common-ligatures;
+  overflow-x: hidden;
+}
+html {
+  overflow-y: auto;
+}
+body {
+  overflow-y: hidden;
+}
+
+.hide-from-tablet {
+  @media (max-width: $breakpointTablet) {
+    display: none;
+  }
+}
+.show-from-tablet {
+  display: none;
+  @media (max-width: $breakpointTablet) {
+    display: block;
+  }
+}
+
+#main-wrapper {
+  margin-top: 64px;
+  @media (min-width: ($breakpointPhone + 2px)) {
+    margin-top: 76px;
+  }
+  .media-body p.text-muted strong {
+    color: black !important;
+    font-weight: bold;
+    font-family: "LatoWebBold";
+  }
+}
+
+[pointer] {
+  cursor: pointer;
+}
+
+// Scroll to Top Button
+#scroll_to_top {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #252525;
+  z-index: 1000;
+  color: #fff;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  transition: .3s ease;
+  cursor: pointer;
+
+  &.header_scroll {
+    display: flex;
+  }
+
+  &:hover {
+    background-color: #FF6633;
+  }
+
+  & a {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none!important;
+
+    & i {
+      display: block;
+      margin-top: 0.15em;
+    }
+  }
+}
+
+.btn-milken-orange {
+  background: var(--color-milken-orange);
+  color: white;
+  display: inline-block;
+  font-family: 'LatoWebBold';
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: 2em;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 0 12px rgba(0,0,0,0.25), 0 2px 3px rgba(0,0,0,0.10);
+  }
+
+  @media screen and (max-width: 575.98px) {
+    margin-top: 1em;    
+  }
+}
+
+.bubble-images.embedded-entity {
+  width: 5em;
+}
+
+blockquote {
+  &::before {
+    display: inline-block;
+    content: "\201C";
+    position: absolute;
+    color: var(--color-milken-blue);
+    font-weight: normal;
+    vertical-align: bottom;
+    font-size: 2em;
+    left: -0.2em;
+    top: 0.1em;
+  }
+
+  &::after {
+    display: inline-block;
+    content: "\201D";
+    position: absolute;
+    color: var(--color-milken-blue);
+    font-weight: normal;
+    font-size: 2em;
+    bottom: -0.5em;
+    right: -0.2em;
+  }
+}
+
+
+.react-paginate {
+  color: #bdbdbf;
+  & li a {
+    padding: 0 1em;
+    outline: none;
+    @media (max-width: $breakpointPhone) {
+      padding: 0 0.35em;
+    }
+  }
+  & li.active, li:hover {
+    color: #3d3e44;
+  }
+
+}

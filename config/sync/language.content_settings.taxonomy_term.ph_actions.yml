@@ -1,0 +1,11 @@
+uuid: dc1855ad-ed7e-41ee-be38-70e2aa65a66c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ph_actions
+id: taxonomy_term.ph_actions
+target_entity_type_id: taxonomy_term
+target_bundle: ph_actions
+default_langcode: site_default
+language_alterable: false

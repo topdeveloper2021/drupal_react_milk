@@ -1,0 +1,34 @@
+uuid: 52c39a23-faa9-436e-8f74-0c22a784110e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content_refs
+    - node.type.article
+    - node.type.career
+    - node.type.landing_page
+    - node.type.opportunity
+    - paragraphs.paragraphs_type.content_tiles
+id: paragraph.content_tiles.field_content_refs
+field_name: field_content_refs
+entity_type: paragraph
+bundle: content_tiles
+label: 'Content Refs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      career: career
+      landing_page: landing_page
+      opportunity: opportunity
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: landing_page
+field_type: entity_reference

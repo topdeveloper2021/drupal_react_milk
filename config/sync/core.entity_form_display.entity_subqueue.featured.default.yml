@@ -1,0 +1,56 @@
+uuid: 04bd902f-be4b-4a76-9127-dd0137693c7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.featured
+    - field.field.entity_subqueue.featured.field_missing_migrations
+  module:
+    - entityqueue
+    - inline_entity_form
+id: entity_subqueue.featured.default
+targetEntityType: entity_subqueue
+bundle: featured
+mode: default
+content:
+  field_missing_migrations:
+    weight: 6
+    settings:
+      form_mode: default
+      revision: false
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      collapsible: false
+      collapsed: false
+    third_party_settings: {  }
+    type: inline_entity_form_simple
+    region: content
+  items:
+    type: entityqueue_dragtable
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: '60'
+      placeholder: ''
+      link_to_entity: false
+      link_to_edit_form: true
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

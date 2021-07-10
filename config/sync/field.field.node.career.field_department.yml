@@ -1,0 +1,31 @@
+uuid: 8dfe51da-3bba-432e-94e1-1fb86660f940
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_department
+    - node.type.career
+    - taxonomy.vocabulary.centers
+    - taxonomy.vocabulary.department
+id: node.career.field_department
+field_name: field_department
+entity_type: node
+bundle: career
+label: Department
+description: 'Enter the department or center for which this position would report to. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+      department: department
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: centers
+field_type: entity_reference

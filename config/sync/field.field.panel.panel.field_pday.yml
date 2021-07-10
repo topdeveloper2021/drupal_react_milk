@@ -1,0 +1,19 @@
+uuid: 0583e8e2-c4c3-42a9-975a-987b713257d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_pday
+id: panel.panel.field_pday
+field_name: field_pday
+entity_type: panel
+bundle: panel
+label: pday
+description: 'Grid field for Start Time Period (AM/PM)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

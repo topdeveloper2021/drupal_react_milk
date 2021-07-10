@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/latest-milken-institute-review-wharton-school-economist-argues-americas-skills-shortage?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 52
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6d5f0b5a-5749-40f7-ac1c-e525ba63d8f3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 52
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In the latest Milken Institute Review: Wharton School economist argues that America\u2019s \u201cskills shortage\u201d is a myth",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-01-15T15:27:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/latest-milken-institute-review-wharton-school-economist-argues-americas-skills-shortage",
+            "pid": 105,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 <b>Peter Cappelli<\/b> of Penn\u2019s Wharton School takes aim at the received wisdom that the U.S. economy suffers from shortages of vital labor skills. \u201cIt is difficult,\u201d he writes, \u201cto think of another labor market issue in which rigorous research is so lacking, where parties with a material interest in the outcomes have so dominated the discussion, where the quality of evidence and discussion has been so poor, and where the stakes are so large.\u201dAlso in this issue:<b>Ben Bland<\/b>, the Financial Times\u2019 correspondent in Indonesia, assesses that huge country\u2019s economic prospects in the wake of the election of a president apparently determined to challenge crony-capitalism-as-usual. Indonesia, he argues, is at a crossroads at which it \u201ccan either buckle down for reform and assure substantial growth for decades, or languish near the low-end of middle-income status.\u201dAlan Krueger, a former chairman of President Obama\u2019s Council of Economic Advisers, acknowledges the value of Thomas Piketty\u2019s high-profile book in spurring public debate over income inequality, but argues that Piketty ignores the related \u2013 and more important \u2013 issue of intergeneration mobility. \u201cI calculated that mobility will slow by about a quarter for the next generation of children,\u201d he writes. \u201cThe U.S. may thus be headed for an inequality trap, where rising inequality in one generation reduces opportunities for economic advancement for disadvantaged children in the next generation, and so on into the future.\u201d<b>Seema Jayachandran<\/b>, an economist at Northwestern, offers an unconventional (and disquieting) view about the prospects for women in emerging-market countries. \u201cThe idea that development will eradicate gender inequality is based on some facts, yet fails to account for others,\u201d she argues. \u201cThe tidiness and optimism the model offers is apt to blind us to societal patterns that buck the trend. Indeed, this inclination to assume that economic development is the all-purpose fix distracts from the very real need to press for gender equality by other means.\u201d<b>Reihan Salam<\/b>, the executive editor of the National Review, outlines the policy agenda of what has come to be known as reform conservatism. \u201cNobody has all the answers,\u201d he writes. \u201cBut the reformers are offering America something that neither liberals nor, for that matter, the Republican establishment can: Constructive responses to the daunting problems of an era in which America\u2019s prosperity and social stability can no longer be taken for granted.\u201d<b>John Komlos<\/b>, a former professor of economics at the University of Munich, wonders whether the ongoing celebration of Schumpeter\u2019s \u201ccreative destruction\u201d has passed its sell-by date. \u201cJust because we have been innovating and growing successfully for a quarter of a millennium by no means implies that the process will, or should, continue indefinitely,\u201d he argues. \u201cNo such economic law exists and the historical record indicates that there are times when economic regimes reach a tipping point and abruptly change direction.\u201d<b>Reena Aggarwal<\/b> (Georgetown University), <b>Daniel Gorfine<\/b> (OnDeck and Milken Institute) and <b>Dana Stefanczyk<\/b> (Georgetown) address a chronic problem bedeviling advanced and developing economies alike. \u201cEfficient capital markets remain a prerequisite for sustained economic growth,\u201d they argue, \u201cand nowhere is their inefficiency felt more than in small and medium-sized enterprises. That\u2019s why the emergence of alternative financing platforms for SMEs -- in particular, those that exploit the low overhead of the Internet \u2013 is cause for celebration.\u201dFind the latest Milken Institute Review here: http:\/\/www.milkeninstitute.org\/publications\/view\/681",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 <b>Peter Cappelli<\/b> of Penn\u2019s Wharton School takes aim at the received wisdom that the U.S. economy suffers from shortages of vital labor skills. \u201cIt is difficult,\u201d he writes, \u201cto think of another labor market issue in which rigorous research is so lacking, where parties with a material interest in the outcomes have so dominated the discussion, where the quality of evidence and discussion has been so poor, and where the stakes are so large.\u201dAlso in this issue:<b>Ben Bland<\/b>, the Financial Times\u2019 correspondent in Indonesia, assesses that huge country\u2019s economic prospects in the wake of the election of a president apparently determined to challenge crony-capitalism-as-usual. Indonesia, he argues, is at a crossroads at which it \u201ccan either buckle down for reform and assure substantial growth for decades, or languish near the low-end of middle-income status.\u201dAlan Krueger, a former chairman of President Obama\u2019s Council of Economic Advisers, acknowledges the value of Thomas Piketty\u2019s high-profile book in spurring public debate over income inequality, but argues that Piketty ignores the related \u2013 and more important \u2013 issue of intergeneration mobility. \u201cI calculated that mobility will slow by about a quarter for the next generation of children,\u201d he writes. \u201cThe U.S. may thus be headed for an inequality trap, where rising inequality in one generation reduces opportunities for economic advancement for disadvantaged children in the next generation, and so on into the future.\u201d<b>Seema Jayachandran<\/b>, an economist at Northwestern, offers an unconventional (and disquieting) view about the prospects for women in emerging-market countries. \u201cThe idea that development will eradicate gender inequality is based on some facts, yet fails to account for others,\u201d she argues. \u201cThe tidiness and optimism the model offers is apt to blind us to societal patterns that buck the trend. Indeed, this inclination to assume that economic development is the all-purpose fix distracts from the very real need to press for gender equality by other means.\u201d<b>Reihan Salam<\/b>, the executive editor of the National Review, outlines the policy agenda of what has come to be known as reform conservatism. \u201cNobody has all the answers,\u201d he writes. \u201cBut the reformers are offering America something that neither liberals nor, for that matter, the Republican establishment can: Constructive responses to the daunting problems of an era in which America\u2019s prosperity and social stability can no longer be taken for granted.\u201d<b>John Komlos<\/b>, a former professor of economics at the University of Munich, wonders whether the ongoing celebration of Schumpeter\u2019s \u201ccreative destruction\u201d has passed its sell-by date. \u201cJust because we have been innovating and growing successfully for a quarter of a millennium by no means implies that the process will, or should, continue indefinitely,\u201d he argues. \u201cNo such economic law exists and the historical record indicates that there are times when economic regimes reach a tipping point and abruptly change direction.\u201d<b>Reena Aggarwal<\/b> (Georgetown University), <b>Daniel Gorfine<\/b> (OnDeck and Milken Institute) and <b>Dana Stefanczyk<\/b> (Georgetown) address a chronic problem bedeviling advanced and developing economies alike. \u201cEfficient capital markets remain a prerequisite for sustained economic growth,\u201d they argue, \u201cand nowhere is their inefficiency felt more than in small and medium-sized enterprises. That\u2019s why the emergence of alternative financing platforms for SMEs -- in particular, those that exploit the low overhead of the Internet \u2013 is cause for celebration.\u201dFind the latest Milken Institute Review here: http:\/\/www.milkeninstitute.org\/publications\/view\/681",
+    "summary": null,
+    "summary_processed": ""
+}

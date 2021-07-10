@@ -1,0 +1,19 @@
+uuid: dd6b4e32-d302-42cd-a75c-a9f97b5c2502
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_last_name
+field_name: field_last_name
+entity_type: grid_speakers
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,5 @@
+services:
+  milken_migrate_migrate_subscriber:
+    class: 'Drupal\milken_migrate\EventSubscriber\MigrateRowSubscriber'
+    tags:
+     - {  name: 'event_subscriber' }

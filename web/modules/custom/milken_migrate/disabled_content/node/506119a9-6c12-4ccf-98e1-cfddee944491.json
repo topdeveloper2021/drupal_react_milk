@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/woody-clark-former-deputy-director-california-governors-office-planning-and-research-joins?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 568
+        }
+    ],
+    "uuid": [
+        {
+            "value": "506119a9-6c12-4ccf-98e1-cfddee944491"
+        }
+    ],
+    "vid": [
+        {
+            "value": 568
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Woody Clark, former deputy director, California Governor's Office of Planning and Research, joins Milken Institute as a senior fellow in sustainable development finance",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T13:40:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/woody-clark-former-deputy-director-california-governors-office-planning-and-research-joins",
+            "pid": 621,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Woodrow W. \"Woody\" Clark II, former deputy director and senior policy advisor to the California Governor\u2032s Office of Planning and Research, has joined the Milken Institute as a senior fellow. Dr. Clark was responsible for developing the state\u2032s policies and program development on renewable energy, advanced technology and finance. Dr. Clark will work in the Institute\u2032s Capital Studies group, focusing on environmental and renewable energy finance research and program development. The Institute\u2032s work in this area looks at creating financial instruments to fund environmental conservation - such as developing options for monetizing ecosystems - and maximize the shareholder value of environmentally and energy-based technologies and enterprises. Dr. Clark is founder and CEO of Clark Communications LLC, a Los Angeles-based consulting firm. He served as deputy director and senior policy advisor on energy reliability and environmental and new advanced technologies in the Governor\u2032s Office of Planning and Research (2000-2003). From 1994 to 1999, he was manager of strategic planning in the Energy Directorate at the Lawrence Livermore National Laboratory. He was a co-author and co-editor of the Climate Change Report from the United Nation\u2032s Intergovernmental Panel on Climate Change, and the Framework Convention on Climate Change reports on \"Technology Commercialization\" for emerging nations series of reports on new technology applications to energy and environmental problems. He served in appointed positions on international trade, economic development and defense conversion as well as energy and the environment in the Pete Wilson and Gray Davis administrations. He is the lead author on \"California\u2032s Next Economy\" (2003) and chaired the \"California\u2032s Hydrogen Economy\" Conference (2003). He has co-authored a number of articles and a forthcoming book on energy, Agile Energy Systems: Global lessons from the California energy crisis Elsevier Press, July 2004), which he wrote with Professor Ted Bradshaw of the University of California, Davis. Dr. Clark received his Ph.D. from the University of California, Berkeley, and has master\u2032s degrees from the University of Illinois, Urbana, Roosevelt University and Loyola University, Chicago.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Woodrow W. \"Woody\" Clark II, former deputy director and senior policy advisor to the California Governor\u2032s Office of Planning and Research, has joined the Milken Institute as a senior fellow. Dr. Clark was responsible for developing the state\u2032s policies and program development on renewable energy, advanced technology and finance. Dr. Clark will work in the Institute\u2032s Capital Studies group, focusing on environmental and renewable energy finance research and program development. The Institute\u2032s work in this area looks at creating financial instruments to fund environmental conservation - such as developing options for monetizing ecosystems - and maximize the shareholder value of environmentally and energy-based technologies and enterprises. Dr. Clark is founder and CEO of Clark Communications LLC, a Los Angeles-based consulting firm. He served as deputy director and senior policy advisor on energy reliability and environmental and new advanced technologies in the Governor\u2032s Office of Planning and Research (2000-2003). From 1994 to 1999, he was manager of strategic planning in the Energy Directorate at the Lawrence Livermore National Laboratory. He was a co-author and co-editor of the Climate Change Report from the United Nation\u2032s Intergovernmental Panel on Climate Change, and the Framework Convention on Climate Change reports on \"Technology Commercialization\" for emerging nations series of reports on new technology applications to energy and environmental problems. He served in appointed positions on international trade, economic development and defense conversion as well as energy and the environment in the Pete Wilson and Gray Davis administrations. He is the lead author on \"California\u2032s Next Economy\" (2003) and chaired the \"California\u2032s Hydrogen Economy\" Conference (2003). He has co-authored a number of articles and a forthcoming book on energy, Agile Energy Systems: Global lessons from the California energy crisis Elsevier Press, July 2004), which he wrote with Professor Ted Bradshaw of the University of California, Davis. Dr. Clark received his Ph.D. from the University of California, Berkeley, and has master\u2032s degrees from the University of Illinois, Urbana, Roosevelt University and Loyola University, Chicago.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,25 @@
+uuid: 32f583f9-58b2-4550-98ad-cf7391ed039c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: landing_pages
+label: 'Landing Pages'
+handler: multiple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      landing_page: landing_page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

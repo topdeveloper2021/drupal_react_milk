@@ -1,0 +1,21 @@
+uuid: 115fdb80-8568-4b4a-8334-e19f4324a65d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_meta_tags
+  module:
+    - metatag
+id: people.staff.field_meta_tags
+field_name: field_meta_tags
+entity_type: people
+bundle: staff
+label: field_meta_tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

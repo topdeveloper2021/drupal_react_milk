@@ -1,0 +1,23 @@
+uuid: cd5c1e51-c6aa-4dbf-9d66-168517ff1851
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_is_hero_image
+id: slide.full_width_one_column.field_is_hero_image
+field_name: field_is_hero_image
+entity_type: slide
+bundle: full_width_one_column
+label: 'Is Hero Image'
+description: 'Hero images appear only at the top of the page and always have left-aligned text.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/older-and-out-work-heres-what-do?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/168?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 796
+        }
+    ],
+    "uuid": [
+        {
+            "value": "75fe4bb6-d83b-47d0-9946-fa221caf6f47"
+        }
+    ],
+    "vid": [
+        {
+            "value": 796
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/168?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "383db9ca-0da5-4fd3-a662-2145be56a04c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Older and Out of Work? Here's What to Do. ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-22T16:19:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-22T16:23:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/older-and-out-work-heres-what-do",
+            "pid": 849,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "British film star Michael Caine has a philosophy that has kept him, at age 81, a busy man in youth-obsessed Hollywood. In his autobiography \u201cWhat\u2019s It All About?\u201d Mr. Caine writes, \u201cIf you want to do something with your life, never listen to anybody else, no matter how clever or expert they may appear. Keep your eyes open and your ears shut and, as the Americans say, go for it.\u201d Mr. Caine\u2019s attitude is one that older, out-of-work Americans should embrace. Too many older job seekers accept the common negative perceptions that aging workers can\u2019t adapt, are less productive, or are too feeble to compete. Their concerns are understandable. A research report from AARP (2013) found that approximately two-thirds of workers ages 45 to 74 say they have seen or experienced age discrimination in the workplace. Of those, a remarkable 92% say age discrimination is very or somewhat common. That ageism can be an impediment is hard to deny. But older job seekers can\u2019t let that stop them. They need confidence, an appreciation of their value, and a sense of self-empowerment. And they have reason to feel empowered. Older workers get high marks for loyalty and reliability. The value of intergenerational workforces is increasingly understood by enlightened employers. Less-enlightened employers who do not accommodate older workers may ultimately face a shortage of experienced and knowledgeable talent. And older workers can help employers relate to the prime and growing aging customer demographic. \u201cThe aging mind, imbued with emotional balance, improved perspective, and better mental health, is a resource to be embraced,\u201d writes Laura Carstensen of Stanford University. The most important message we can send to older Americans is this: You have as much to offer employers as your younger counterparts. And if new skills are needed, there are ways to get them. So, don\u2019t fall into the trap popular culture has set for you. Empower yourself by focusing on the things you can control. Get in touch with friends and associates who may know of jobs that match your abilities. Reach out and expand your relationship network. Be active in social media, especially job-oriented online networks. If you\u2019re behind on computer and software skills, go back to school. Of course, school can also provide new ideas and relationships and can help you prepare for a career change. Universities and community colleges offer classes on campus and online. Build a resume that focuses on what you can do rather than what you did. Don\u2019t make it a history lesson. Highlight your most recent achievements and the new talents you\u2019re acquiring. Volunteer. It will sharpen skills, provide valuable new contacts for your job search, and enhance your sense of purpose and pride in your abilities. In a world that doesn\u2019t yet appreciate the potential of older people, self empowerment will improve your chances of finding work that is rewarding and satisfying for this changing stage of life. <i>Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and a scholar in residence at the University of Southern California Davis School of Gerontology.<\/i> <i><em>This article first appeared in\u00a0The Wall Street Journal\u00a0<\/i><\/em>",
+    "format": "rich_text",
+    "processed": "British film star Michael Caine has a philosophy that has kept him, at age 81, a busy man in youth-obsessed Hollywood. In his autobiography \u201cWhat\u2019s It All About?\u201d Mr. Caine writes, \u201cIf you want to do something with your life, never listen to anybody else, no matter how clever or expert they may appear. Keep your eyes open and your ears shut and, as the Americans say, go for it.\u201d Mr. Caine\u2019s attitude is one that older, out-of-work Americans should embrace. Too many older job seekers accept the common negative perceptions that aging workers can\u2019t adapt, are less productive, or are too feeble to compete. Their concerns are understandable. A research report from AARP (2013) found that approximately two-thirds of workers ages 45 to 74 say they have seen or experienced age discrimination in the workplace. Of those, a remarkable 92% say age discrimination is very or somewhat common. That ageism can be an impediment is hard to deny. But older job seekers can\u2019t let that stop them. They need confidence, an appreciation of their value, and a sense of self-empowerment. And they have reason to feel empowered. Older workers get high marks for loyalty and reliability. The value of intergenerational workforces is increasingly understood by enlightened employers. Less-enlightened employers who do not accommodate older workers may ultimately face a shortage of experienced and knowledgeable talent. And older workers can help employers relate to the prime and growing aging customer demographic. \u201cThe aging mind, imbued with emotional balance, improved perspective, and better mental health, is a resource to be embraced,\u201d writes Laura Carstensen of Stanford University. The most important message we can send to older Americans is this: You have as much to offer employers as your younger counterparts. And if new skills are needed, there are ways to get them. So, don\u2019t fall into the trap popular culture has set for you. Empower yourself by focusing on the things you can control. Get in touch with friends and associates who may know of jobs that match your abilities. Reach out and expand your relationship network. Be active in social media, especially job-oriented online networks. If you\u2019re behind on computer and software skills, go back to school. Of course, school can also provide new ideas and relationships and can help you prepare for a career change. Universities and community colleges offer classes on campus and online. Build a resume that focuses on what you can do rather than what you did. Don\u2019t make it a history lesson. Highlight your most recent achievements and the new talents you\u2019re acquiring. Volunteer. It will sharpen skills, provide valuable new contacts for your job search, and enhance your sense of purpose and pride in your abilities. In a world that doesn\u2019t yet appreciate the potential of older people, self empowerment will improve your chances of finding work that is rewarding and satisfying for this changing stage of life. <i>Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and a scholar in residence at the University of Southern California Davis School of Gerontology.<\/i> <i><em>This article first appeared in\u00a0The Wall Street Journal\u00a0<\/em><\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

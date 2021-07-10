@@ -1,0 +1,198 @@
+uuid: 0370ca39-5b45-4b28-9285-a500f952b7f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.podcast_episode.field_body
+    - field.field.media.podcast_episode.field_centers
+    - field.field.media.podcast_episode.field_collections
+    - field.field.media.podcast_episode.field_episode
+    - field.field.media.podcast_episode.field_events
+    - field.field.media.podcast_episode.field_filemime
+    - field.field.media.podcast_episode.field_filesize
+    - field.field.media.podcast_episode.field_guests
+    - field.field.media.podcast_episode.field_index_weight
+    - field.field.media.podcast_episode.field_media_audio_file
+    - field.field.media.podcast_episode.field_media_image
+    - field.field.media.podcast_episode.field_media_in_library
+    - field.field.media.podcast_episode.field_meta_tags
+    - field.field.media.podcast_episode.field_people
+    - field.field.media.podcast_episode.field_promo_image
+    - field.field.media.podcast_episode.field_regions
+    - field.field.media.podcast_episode.field_service_links
+    - field.field.media.podcast_episode.field_summary
+    - field.field.media.podcast_episode.field_tags
+    - field.field.media.podcast_episode.field_topics
+    - field.field.media.podcast_episode.field_transcript
+    - media.type.podcast_episode
+  module:
+    - file
+    - image
+    - key_value_field
+    - metatag
+    - options
+    - text
+id: media.podcast_episode.default
+targetEntityType: media
+bundle: podcast_episode
+mode: default
+content:
+  field_body:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_centers:
+    weight: 17
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_collections:
+    weight: 16
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_episode:
+    weight: 8
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_events:
+    weight: 14
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_filemime:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_filesize:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_index_weight:
+    weight: 19
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_media_audio_file:
+    type: file_audio
+    label: visually_hidden
+    weight: 0
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+  field_media_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_media_in_library:
+    weight: 5
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_meta_tags:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_promo_image:
+    type: entity_reference_entity_view
+    weight: 18
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_regions:
+    weight: 15
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_service_links:
+    weight: 10
+    label: above
+    settings:
+      value_only: false
+    third_party_settings: {  }
+    type: key_value
+    region: content
+  field_summary:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tags:
+    weight: 12
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_topics:
+    weight: 13
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  created: true
+  field_guests: true
+  field_people: true
+  field_transcript: true
+  langcode: true
+  name: true
+  published_at: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

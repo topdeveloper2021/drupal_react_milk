@@ -1,0 +1,29 @@
+uuid: 81bd9086-2844-499c-ba0c-b8eaa0ee0c39
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_tags
+    - taxonomy.vocabulary.milken_tags
+id: panel.panel.field_tags
+field_name: field_tags
+entity_type: panel
+bundle: panel
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

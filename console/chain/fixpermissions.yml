@@ -1,0 +1,76 @@
+command:
+  name: site:milken:fixpermissions
+  description: 'Fix permissions issues with the sites/default/* folders'
+commands:
+
+  - command: exec
+    arguments:
+      bin: "mkdir -p /tmp/www/web/sites/default/files"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "mkdir -p /tmp/www/web/sites/default/private"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "mkdir -p /tmp/www/web/sites/default/temp"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chmod -R 777 /var/www/web/sites/default/files"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chmod -R 777 /var/www/web/sites/default/files/.*"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chown -R www-data.www-data /var/www/web/sites/default/files"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chmod -R 777 /var/www/web/sites/default/private"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chmod -R 777 /var/www/web/sites/default/private/.*"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chown -R www-data.www-data /var/www/web/sites/default/private"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chmod -R 777 /var/www/web/sites/default/temp"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chmod -R 777 /var/www/web/sites/default/temp/.*"
+    options:
+      working-directory: "/var/www/web"
+
+  - command: exec
+    arguments:
+      bin: "chown -R www-data.www-data /var/www/web/sites/default/temp"
+    options:
+      working-directory: "/var/www/web"

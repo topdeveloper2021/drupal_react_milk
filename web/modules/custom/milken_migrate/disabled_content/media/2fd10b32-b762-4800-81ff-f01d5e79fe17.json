@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7800\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/JR5qt4FnVMT9oi-weWHjvccXNcOtVhDH3L-nzJ1mp00.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7800
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2fd10b32-b762-4800-81ff-f01d5e79fe17"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2004
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/JR5qt4FnVMT9oi-weWHjvccXNcOtVhDH3L-nzJ1mp00.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2b4c704d-8524-4b97-bfd8-573f23675fd2"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Business of Healthy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-28T21:30:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:06:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The choices Americans make about what to eat and drink are often unhealthy ones, contributing to an obesity rate of more than 33 percent. Lowering this rate and curbing its role in chronic disease are key to controlling rising health-care costs and improving quality of life. More Americans are becoming aware of this, and interest in a healthy diet is gaining momentum. Communities and organizations are addressing the time constraints that families face when it comes to improving their diets. \"Food deserts\" have become a matter of national concern. To serve this growing market, many food companies and restaurants are reshaping their product lines and menus. Corporations and investors are acquiring a taste for the profits produced by healthy food. Yet much more needs to be accomplished. This panel will discuss how America can make healthy food and drink accessible and affordable to all. Should it primarily be the responsibility of policymakers, communities, consumers or corporations? Is the solution more about raising awareness or proactively changing what's on store shelves?",
+    "format": "rich_text",
+    "processed": "The choices Americans make about what to eat and drink are often unhealthy ones, contributing to an obesity rate of more than 33 percent. Lowering this rate and curbing its role in chronic disease are key to controlling rising health-care costs and improving quality of life. More Americans are becoming aware of this, and interest in a healthy diet is gaining momentum. Communities and organizations are addressing the time constraints that families face when it comes to improving their diets. \"Food deserts\" have become a matter of national concern. To serve this growing market, many food companies and restaurants are reshaping their product lines and menus. Corporations and investors are acquiring a taste for the profits produced by healthy food. Yet much more needs to be accomplished. This panel will discuss how America can make healthy food and drink accessible and affordable to all. Should it primarily be the responsibility of policymakers, communities, consumers or corporations? Is the solution more about raising awareness or proactively changing what's on store shelves?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/Mdf0ixgm0yQ",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/JR5qt4FnVMT9oi-weWHjvccXNcOtVhDH3L-nzJ1mp00.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

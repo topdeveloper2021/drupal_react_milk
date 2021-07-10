@@ -1,0 +1,19 @@
+uuid: f7302fd6-a4de-47fd-964d-0049e1b4bfa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_campaign_type
+id: event.conference.field_campaign_type
+field_name: field_campaign_type
+entity_type: event
+bundle: conference
+label: 'Campaign Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

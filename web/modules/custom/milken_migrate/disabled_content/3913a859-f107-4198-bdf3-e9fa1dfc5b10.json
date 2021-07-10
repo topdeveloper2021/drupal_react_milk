@@ -1,0 +1,98 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/4\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/footer-links-menu"
+        }
+    },
+    "id": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3913a859-f107-4198-bdf3-e9fa1dfc5b10"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "footer-links-menu"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Careers",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "footer-links-menu"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/careers",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -46
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-19T18:12:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ]
+}

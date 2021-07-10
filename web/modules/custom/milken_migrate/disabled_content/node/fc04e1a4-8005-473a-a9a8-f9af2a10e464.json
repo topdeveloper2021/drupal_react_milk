@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/just-do-it-cut-corporate-taxes-and-create-middle-class-jobs?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/166?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 794
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fc04e1a4-8005-473a-a9a8-f9af2a10e464"
+        }
+    ],
+    "vid": [
+        {
+            "value": 794
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/166?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "217d3666-4ddc-449e-9122-eb122f5ce235"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": " Just Do It: Cut Corporate Taxes and Create Middle-Class Jobs",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-22T15:54:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-22T16:03:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/just-do-it-cut-corporate-taxes-and-create-middle-class-jobs",
+            "pid": 847,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In his 2016 Budget Proposal, President Obama called for a new \"middle-class economics.\" The president is right to seek ways to assist the middle class. Despite positive economic trends -- the United States added three million jobs in 2014, stock markets remain near all-time highs and household debt burdens have dropped -- all is not well in wage-stagnated Middle America. But rather than solely redistributionist ideas to help the struggling middle class, we need economic policies that incentivize firms and entrepreneurs to take risks by expanding and hiring. We can start by reducing and modernizing the corporate tax rate system. Globalization has forever changed the international competitive landscape, but U.S. corporate tax policy has not kept up. Because manufacturing investment is now highly mobile across borders, U.S. manufacturers and their workers have borne the brunt of this outdated thinking on corporate tax policy. The efficiency of investment is reduced as businesses allocate capital investment in specific projects across the globe based largely on tax considerations. As recently as 1988, the United States had one of the world's most competitive statutory corporate tax rates. But while other nations slashed their rates, the U.S. kept them virtually constant. Today, the U.S. has the highest\u00a0statutory corporate tax rateamong OECD member nations, roughly 14 percentage points above the average. Many of the rate reductions that have taken place in the developed economies have been accompanied by base-broadening measures and the paring back of exclusions. In most cases, these changes were made in a revenue-neutral way. To gauge the impact of a lower corporate income tax rate, Milken Institute economists evaluated the likely effect of a cut in the top\u00a0U.S. corporate tax rate from 35 to 22 percent, with the reduction phased in over a five-year period beginning next year. This new rate, which would match the current OECD average, would provide a substantial boost to economic growth: \u2022 Real GDP growth would improve by 0.3 percentage point from 2017 to 2019, an average of 0.2 percentage point from 2020 through 2023, and 0.1 in 2024 and 2025, relative to a baseline projection with no change in policy. By 2025, real GDP is $375.6 billion higher than it would be under the current corporate tax system. \u2022 Industrial production exceeds the baseline by 3.9 percent in 2025, while total employment increases 2.13 million (1.4 percent) and manufacturing employment rises 350,000 (2.7 percent). Lower corporate tax rates will lead to higher levels of domestic investment and a greater accumulation of productive capital. Having more capital stock available per worker augments productivity and improves long-run economic growth, leading to more jobs and a higher standard of living for those workers. Industries exporting a greater share of the goods and services that they produce pay higher wages than those that don't. As exports rise from an improved competitive position, good middle-class jobs are created. Another particularly onerous feature of our system is that it taxes U.S. multinational corporations on their worldwide earnings, but most U.S. trading partners take a different approach. Most industrialized countries use a\u00a0territorial system\u00a0(among the G-8 the U.S. is the only one with a worldwide system) for their multinationals in which the home country exempts all or most of the firm's foreign earnings from taxation. Under a territorial tax system, the U.S. would tax only the domestic-derived income of a corporation and would exempt most or all foreign income. By doing this, a territorial system would allow U.S. corporations to compete with foreign corporations on a level playing field. More firms would choose to bring foreign (deferred) earnings back to the U.S. We can quibble about the size of\u00a0repatriated earnings, but they would be in the tens of billions of dollars and lead to job-creating investment in the U.S. In return for lower tax rates, corporations would need to accept that some exemptions and credits would have to go. A comprehensive modernization of the U.S. corporate tax system can be enacted in a fiscally responsive, revenue-neutral way. I believe most U.S. multinationals would accept base-broadening measures such as limiting depreciation allowances and closing tax loopholes if it meant the overall corporate tax system was fairer, more efficient and more transparent. The White House and Congress have much common ground on reforming the corporate tax system. While the White House's proposal to subject all earning currently held abroad to a one-time 14 percent tax isn't likely to fly in Congress, workable compromises are possible. One possible compromise would be to allow \"deferred\" earnings to be repatriated back to the U.S. at a tax rate of five percent and some amount of the federal taxes be earmarked for public\/private infrastructure investment. This transition period could last through the end of 2015 before a territorial regime being implemented in 2016. The Middle Class would appreciate more and better paying jobs that this policy change would bring. As U.S.-based Nike likes to say: Just Do It. This column originally appeared on The Huffington Post.",
+    "format": "rich_text",
+    "processed": "In his 2016 Budget Proposal, President Obama called for a new \"middle-class economics.\" The president is right to seek ways to assist the middle class. Despite positive economic trends -- the United States added three million jobs in 2014, stock markets remain near all-time highs and household debt burdens have dropped -- all is not well in wage-stagnated Middle America. But rather than solely redistributionist ideas to help the struggling middle class, we need economic policies that incentivize firms and entrepreneurs to take risks by expanding and hiring. We can start by reducing and modernizing the corporate tax rate system. Globalization has forever changed the international competitive landscape, but U.S. corporate tax policy has not kept up. Because manufacturing investment is now highly mobile across borders, U.S. manufacturers and their workers have borne the brunt of this outdated thinking on corporate tax policy. The efficiency of investment is reduced as businesses allocate capital investment in specific projects across the globe based largely on tax considerations. As recently as 1988, the United States had one of the world's most competitive statutory corporate tax rates. But while other nations slashed their rates, the U.S. kept them virtually constant. Today, the U.S. has the highest\u00a0statutory corporate tax rateamong OECD member nations, roughly 14 percentage points above the average. Many of the rate reductions that have taken place in the developed economies have been accompanied by base-broadening measures and the paring back of exclusions. In most cases, these changes were made in a revenue-neutral way. To gauge the impact of a lower corporate income tax rate, Milken Institute economists evaluated the likely effect of a cut in the top\u00a0U.S. corporate tax rate from 35 to 22 percent, with the reduction phased in over a five-year period beginning next year. This new rate, which would match the current OECD average, would provide a substantial boost to economic growth: \u2022 Real GDP growth would improve by 0.3 percentage point from 2017 to 2019, an average of 0.2 percentage point from 2020 through 2023, and 0.1 in 2024 and 2025, relative to a baseline projection with no change in policy. By 2025, real GDP is $375.6 billion higher than it would be under the current corporate tax system. \u2022 Industrial production exceeds the baseline by 3.9 percent in 2025, while total employment increases 2.13 million (1.4 percent) and manufacturing employment rises 350,000 (2.7 percent). Lower corporate tax rates will lead to higher levels of domestic investment and a greater accumulation of productive capital. Having more capital stock available per worker augments productivity and improves long-run economic growth, leading to more jobs and a higher standard of living for those workers. Industries exporting a greater share of the goods and services that they produce pay higher wages than those that don't. As exports rise from an improved competitive position, good middle-class jobs are created. Another particularly onerous feature of our system is that it taxes U.S. multinational corporations on their worldwide earnings, but most U.S. trading partners take a different approach. Most industrialized countries use a\u00a0territorial system\u00a0(among the G-8 the U.S. is the only one with a worldwide system) for their multinationals in which the home country exempts all or most of the firm's foreign earnings from taxation. Under a territorial tax system, the U.S. would tax only the domestic-derived income of a corporation and would exempt most or all foreign income. By doing this, a territorial system would allow U.S. corporations to compete with foreign corporations on a level playing field. More firms would choose to bring foreign (deferred) earnings back to the U.S. We can quibble about the size of\u00a0repatriated earnings, but they would be in the tens of billions of dollars and lead to job-creating investment in the U.S. In return for lower tax rates, corporations would need to accept that some exemptions and credits would have to go. A comprehensive modernization of the U.S. corporate tax system can be enacted in a fiscally responsive, revenue-neutral way. I believe most U.S. multinationals would accept base-broadening measures such as limiting depreciation allowances and closing tax loopholes if it meant the overall corporate tax system was fairer, more efficient and more transparent. The White House and Congress have much common ground on reforming the corporate tax system. While the White House's proposal to subject all earning currently held abroad to a one-time 14 percent tax isn't likely to fly in Congress, workable compromises are possible. One possible compromise would be to allow \"deferred\" earnings to be repatriated back to the U.S. at a tax rate of five percent and some amount of the federal taxes be earmarked for public\/private infrastructure investment. This transition period could last through the end of 2015 before a territorial regime being implemented in 2016. The Middle Class would appreciate more and better paying jobs that this policy change would bring. As U.S.-based Nike likes to say: Just Do It. This column originally appeared on The Huffington Post.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,437 @@
+uuid: eaf9cc42-9206-49fe-8751-dcf5a77da659
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+    - eck
+    - media
+    - node
+    - search_api
+    - milken_base
+  config:
+    - field.storage.event.field_campaign_name
+    - field.storage.event.field_description
+    - field.storage.event.field_event_date
+    - field.storage.event.field_name_short
+    - field.storage.event.field_related_media
+    - field.storage.media.field_body
+    - field.storage.media.field_content
+    - field.storage.media.field_episode
+    - field.storage.media.field_event_reference
+    - field.storage.media.field_media_file
+    - field.storage.media.field_photo_subject_name
+    - field.storage.media.field_photo_subject_title
+    - field.storage.media.field_summary
+    - field.storage.node.field_content
+    - field.storage.node.field_long_description
+    - field.storage.node.field_short_summary
+    - search_api.server.freshdrupal_live
+third_party_settings:
+  search_api_solr:
+    finalize: false
+    commit_before_finalize: false
+    commit_after_finalize: false
+    multilingual:
+      limit_to_content_language: false
+      include_language_independent: true
+    highlighter:
+      maxAnalyzedChars: 51200
+      fragmenter: gap
+      regex:
+        slop: 0.5
+        pattern: blank
+        maxAnalyzedChars: 10000
+      usePhraseHighlighter: true
+      highlightMultiTerm: true
+      preserveMulti: false
+      highlight:
+        mergeContiguous: false
+        requireFieldMatch: false
+        snippets: 3
+        fragsize: 0
+    mlt:
+      mintf: 1
+      mindf: 1
+      maxdf: 0
+      maxdfpct: 0
+      minwl: 0
+      maxwl: 0
+      maxqt: 100
+      maxntp: 2000
+      boost: false
+      interestingTerms: none
+    term_modifiers:
+      slop: 3
+      fuzzy: 1
+    advanced:
+      index_prefix: ''
+      collection: ''
+      timezone: ''
+id: freshdrupal_live
+name: freshdrupal_live
+description: ''
+read_only: false
+field_settings:
+  bundle:
+    label: Bundle
+    property_path: search_api_bundle
+    type: string
+  entity_type_id:
+    label: EntityTypeId
+    property_path: search_api_entity_type_id
+    type: string
+  field_body:
+    label: body
+    datasource_id: 'entity:media'
+    property_path: field_body
+    type: text
+    dependencies:
+      config:
+        - field.storage.media.field_body
+  field_body_1:
+    label: body
+    datasource_id: 'entity:media'
+    property_path: field_body
+    type: text
+    dependencies:
+      config:
+        - field.storage.media.field_body
+  field_body_2:
+    label: 'Reverse reference: <em class="placeholder">Paragraph</em> using <em class="placeholder">Content Refs</em> » body'
+    datasource_id: 'entity:node'
+    property_path: 'search_api_reverse_entity_references_paragraph__field_content_refs:field_body'
+    type: text
+  field_campaign_name:
+    label: 'Campaign Name'
+    datasource_id: 'entity:event'
+    property_path: field_campaign_name
+    type: string
+    dependencies:
+      config:
+        - field.storage.event.field_campaign_name
+  field_content:
+    label: Content
+    datasource_id: 'entity:node'
+    property_path: field_content
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_content
+  field_content_1:
+    label: Content
+    datasource_id: 'entity:media'
+    property_path: field_content
+    type: integer
+    dependencies:
+      config:
+        - field.storage.media.field_content
+  field_description:
+    label: Description
+    datasource_id: 'entity:event'
+    property_path: field_description
+    type: text
+    dependencies:
+      config:
+        - field.storage.event.field_description
+  field_description_1:
+    label: Description
+    datasource_id: 'entity:event'
+    property_path: field_description
+    type: text
+    dependencies:
+      config:
+        - field.storage.event.field_description
+  field_episode:
+    label: Episode
+    datasource_id: 'entity:media'
+    property_path: field_episode
+    type: integer
+    dependencies:
+      config:
+        - field.storage.media.field_episode
+  field_event_date:
+    label: 'Event Date'
+    datasource_id: 'entity:event'
+    property_path: field_event_date
+    type: date
+    dependencies:
+      config:
+        - field.storage.event.field_event_date
+  field_event_reference:
+    label: 'Event Reference'
+    datasource_id: 'entity:media'
+    property_path: field_event_reference
+    type: integer
+    dependencies:
+      config:
+        - field.storage.media.field_event_reference
+  field_event_references:
+    label: 'Reverse reference: <em class="placeholder">Paragraph</em> using <em class="placeholder">Event References</em> » Event References'
+    datasource_id: 'entity:event'
+    property_path: 'search_api_reverse_entity_references_paragraph__field_event_references:field_event_references'
+    type: integer
+  field_long_description:
+    label: 'Long Description'
+    datasource_id: 'entity:node'
+    property_path: field_long_description
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_long_description
+  field_media_file:
+    label: 'PDF File'
+    datasource_id: 'entity:media'
+    property_path: field_media_file
+    type: integer
+    dependencies:
+      config:
+        - field.storage.media.field_media_file
+  field_name_short:
+    label: 'Name Short'
+    datasource_id: 'entity:event'
+    property_path: field_name_short
+    type: text
+    dependencies:
+      config:
+        - field.storage.event.field_name_short
+  field_name_short_1:
+    label: 'Name Short'
+    datasource_id: 'entity:event'
+    property_path: field_name_short
+    type: text
+    dependencies:
+      config:
+        - field.storage.event.field_name_short
+  field_photo_subject_name:
+    label: 'Photo Subject Name'
+    datasource_id: 'entity:media'
+    property_path: field_photo_subject_name
+    type: string
+    dependencies:
+      config:
+        - field.storage.media.field_photo_subject_name
+  field_photo_subject_title:
+    label: 'Photo Subject Title'
+    datasource_id: 'entity:media'
+    property_path: field_photo_subject_title
+    type: string
+    dependencies:
+      config:
+        - field.storage.media.field_photo_subject_title
+  field_related_media:
+    label: 'Related Media'
+    datasource_id: 'entity:event'
+    property_path: field_related_media
+    type: integer
+    dependencies:
+      config:
+        - field.storage.event.field_related_media
+  field_short_summary:
+    label: 'Short Summary'
+    datasource_id: 'entity:node'
+    property_path: field_short_summary
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_short_summary
+  field_summary:
+    label: Summary
+    datasource_id: 'entity:media'
+    property_path: field_summary
+    type: string
+    dependencies:
+      config:
+        - field.storage.media.field_summary
+  field_title_1:
+    label: 'Reverse reference: <em class="placeholder">Paragraph</em> using <em class="placeholder">Event References</em> » Title'
+    datasource_id: 'entity:event'
+    property_path: 'search_api_reverse_entity_references_paragraph__field_event_references:field_title'
+    type: string
+  jsonapi_type:
+    label: Type
+    property_path: search_api_jsonapi_type
+    type: string
+  label:
+    label: Label
+    property_path: search_api_label
+    type: string
+  name:
+    label: Name
+    datasource_id: 'entity:media'
+    property_path: name
+    type: string
+    dependencies:
+      module:
+        - media
+  parent_type:
+    label: 'Reverse reference: <em class="placeholder">Paragraph</em> using <em class="placeholder">Event References</em> » Parent type'
+    datasource_id: 'entity:event'
+    property_path: 'search_api_reverse_entity_references_paragraph__field_event_references:parent_type'
+    type: string
+  taxonomy:
+    label: Taxonomy
+    property_path: search_api_taxonomy
+    type: string
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+  title_1:
+    label: Title
+    datasource_id: 'entity:event'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - eck
+  title_2:
+    label: Title
+    datasource_id: 'entity:event'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - eck
+  title_3:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: string
+    dependencies:
+      module:
+        - node
+  url:
+    label: URI
+    property_path: search_api_url
+    type: string
+    configuration:
+      absolute: false
+  uuid:
+    label: UUID
+    property_path: search_api_uuid
+    type: string
+datasource_settings:
+  'entity:event':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:media':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:people':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  bundle: {  }
+  double_quote_workaround:
+    all_fields: false
+    fields:
+      - bundle
+      - entity_type_id
+      - field_body
+      - field_body_1
+      - field_campaign_name
+      - field_description
+      - field_long_description
+      - field_name
+      - field_name_short
+      - field_photo_subject_name
+      - field_photo_subject_title
+      - field_short_summary
+      - field_summary
+      - field_title
+      - field_title_1
+      - name
+      - parent_type
+      - title
+      - title_1
+      - uuid
+    replacement: '|9999999998|'
+    weights:
+      postprocess_query: 0
+      preprocess_index: -15
+      preprocess_query: -15
+  entityTypeId: {  }
+  highlight:
+    highlight: always
+    highlight_partial: false
+    excerpt: true
+    excerpt_length: 256
+    exclude_fields: {  }
+    prefix: '<strong>'
+    suffix: '</strong>'
+    weights:
+      postprocess_query: 0
+  html_filter:
+    all_fields: false
+    fields:
+      - bundle
+      - entity_type_id
+      - field_body
+      - field_campaign_name
+      - field_description
+      - field_long_description
+      - field_name_short
+      - field_photo_subject_name
+      - field_photo_subject_title
+      - field_short_summary
+      - field_summary
+      - field_title_1
+      - name
+      - parent_type
+      - title
+      - title_1
+      - uuid
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+  jsonapi_type: {  }
+  label: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+  reverse_entity_references: {  }
+  solr_date_range:
+    weights:
+      preprocess_index: 0
+  taxonomy_bucket: {  }
+  uuid: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: false
+  cron_limit: 50
+server: freshdrupal_live

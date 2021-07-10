@@ -1,0 +1,19 @@
+uuid: 0407f1a8-66c8-4e03-8727-f8d666f92ade
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_embedded_oembed
+field_name: field_embedded_oembed
+entity_type: media
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

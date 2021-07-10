@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains react_component.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function react_component_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the react_component module.
+    case 'help.page.react_component':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Adding react components to the layout module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function react_component_theme() {
+  return [
+    'react_component' => [
+      'render element' => 'children',
+    ],
+  ];
+}

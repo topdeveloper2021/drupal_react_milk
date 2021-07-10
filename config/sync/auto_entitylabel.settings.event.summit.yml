@@ -1,0 +1,6 @@
+status: 1
+pattern: '🏔 [event:title]'
+escape: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit

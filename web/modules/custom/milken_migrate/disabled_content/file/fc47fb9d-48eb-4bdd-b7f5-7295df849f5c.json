@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/sites\/default\/files\/Macroprudential%20Policy%20and%20Financial%20Stability-%20Where%20Do%20We%20Stand_photo.jpg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 2338
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fc47fb9d-48eb-4bdd-b7f5-7295df849f5c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7661a09f-6a1e-4d5f-a2ba-399071f74c9a"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Macroprudential Policy and Financial Stability- Where Do We Stand_photo.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/Macroprudential Policy and Financial Stability- Where Do We Stand_photo.jpg",
+            "url": "\/sites\/default\/files\/Macroprudential%20Policy%20and%20Financial%20Stability-%20Where%20Do%20We%20Stand_photo.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 7972012
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

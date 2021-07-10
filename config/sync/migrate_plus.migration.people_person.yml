@@ -1,0 +1,123 @@
+uuid: ceb9d22c-3d04-4b94-90b8-d447820ac78b
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+      - eck
+id: people_person
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - node
+migration_group: milken
+label: 'People => Person VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/node/speaker'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/node/speaker
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - field_sp_photo
+    - field_centers_general
+    - field_event_reference
+  fields:
+    -
+      name: id
+      label: 'node ID'
+      selector: /drupal_internal__nid
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: name
+      label: Name/Title
+      selector: /title
+    -
+      name: path
+      label: path
+      selector: /path/alias
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: status
+      label: Status
+      selector: /status
+    -
+      name: photo
+      label: Photo
+      selector: /field_sp_photo
+    -
+      name: center
+      label: Center
+      selector: /field_centers_general
+    -
+      name: pftitle
+      label: Position/Title
+      selector: /field_sp_job_position/value
+    -
+      name: team
+      label: Team
+      selector: /field_team_tag
+    -
+      name: fname
+      label: 'First Name'
+      selector: /field_first_name
+    -
+      name: lname
+      label: 'Last Name'
+      selector: /field_last_name
+    -
+      name: bio
+      label: 'Bio text'
+      selector: body/value
+    -
+      name: event
+      label: 'Event Ref'
+      selector: field_event_reference/field_grid_event_id
+  ids:
+    id:
+      type: integer
+    uuid:
+      type: string
+process:
+  title: name
+  name: name
+  uuid: uuid
+  field_biotext:
+    -
+      plugin: get
+      source: bio
+    -
+      plugin: callback
+      callable: strip_tags
+  field_status: status
+  field_first_name: fname
+  field_last_name: lname
+  field_pgtitle: pftitle
+  field_photo:
+    plugin: 'milken_migrate:remote_image'
+    source: photo
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+destination:
+  plugin: 'milken_migrate:people'
+  default_bundle: person
+migration_dependencies: {  }

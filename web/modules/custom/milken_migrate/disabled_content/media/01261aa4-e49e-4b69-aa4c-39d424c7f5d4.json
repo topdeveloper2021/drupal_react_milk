@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10057\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/VTMcJcgALLij9xFVOSabTgm2WMLz7oEVnMyAr_kObQ8.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10057
+        }
+    ],
+    "uuid": [
+        {
+            "value": "01261aa4-e49e-4b69-aa4c-39d424c7f5d4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2077
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/VTMcJcgALLij9xFVOSabTgm2WMLz7oEVnMyAr_kObQ8.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0cb1883a-d313-4f10-87a3-530ea1d540c4"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Modernizing Financial Regulation to Facilitate Shared Economic Prosperity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-29T20:49:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-25T16:21:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The US financial system provides tremendous economic opportunities to businesses and consumers through the provision of capital. Yet many of the regulations that underpin this system do not match the technological realities of the 21st century. Financial technology innovations have opened new avenues for fostering greater financial inclusion and have presented regulators with unique opportunities to address compliance and oversight mandates with greater efficiency. What are financial regulators doing to modernize regulations in order to facilitate greater access to capital, job creation, and financial inclusion for all Americans? What more can be done to foster responsible fintech and regtech innovations?",
+    "format": "rich_text",
+    "processed": "The US financial system provides tremendous economic opportunities to businesses and consumers through the provision of capital. Yet many of the regulations that underpin this system do not match the technological realities of the 21st century. Financial technology innovations have opened new avenues for fostering greater financial inclusion and have presented regulators with unique opportunities to address compliance and oversight mandates with greater efficiency. What are financial regulators doing to modernize regulations in order to facilitate greater access to capital, job creation, and financial inclusion for all Americans? What more can be done to foster responsible fintech and regtech innovations?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/cLYGFtstlHU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/VTMcJcgALLij9xFVOSabTgm2WMLz7oEVnMyAr_kObQ8.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

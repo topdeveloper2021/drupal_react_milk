@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/three-megatrends-reshaping-asia-and-our-world?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/186?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 814
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1087c175-7288-4453-8715-d03b730f7bcd"
+        }
+    ],
+    "vid": [
+        {
+            "value": 814
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/186?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b0e3670c-6bc6-49fd-92d2-adb9a7d74751"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Three Megatrends Reshaping Asia and Our World",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-08-27T02:34:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-13T13:32:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/three-megatrends-reshaping-asia-and-our-world",
+            "pid": 867,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "For the past five years, PGIM has brought together our leading investors to debate the megatrends reshaping global markets. One consistent strand links this body of research: Asia remains the bellwether for the most promising opportunities and urgent challenges facing us. And while the tariff wars and Korean peninsula tensions dominate the news cycle, we believe long-term investors must also position their portfolios to take advantage of powerful secular currents in Asia that will continue to reshape the global economy for decades to come. Our \u201ctop 3\u201d list: <b>Asian Cities Underpin Global Urbanization<\/b> Never before has the pace of urbanization been so rapid: some 60 to 70 million people will be added to the urban population each year for the next 30 years, according to research from New York University. While historically centered in the US and Europe, Asia is now driving the global urbanization boom. By 2025, more than half of the world\u2019s urban population\u2014or about 2.5 billon people\u2014will live in Asian cities. Over the next 15 years, megacities, with over 10 million inhabitants, will increase from 34 to 48; of these 14 new megacities, 11 will be in Asia. Critically, city formation is not just the accidental by-product of industrial development; it is an integral driver of continued productivity gains and economic growth. Cities create deep labor markets and allow specialized skill sets and companies to thrive. Perhaps most importantly, cities are the primary breeding ground for creativity and innovation through the cross-pollination and rapid dissemination of new ideas. Think Silicon Valley, Cambridge, or Bangalore. Yet, if unaccompanied by vital infrastructure, housing, and effective social policies, urbanization can create social unrest and strains on the local economy. Already, Asia accounts for 64 percent of the global urban population living in slum areas, compared to just over 50 percent of the global urban population. It is vital that Asian policymakers address the risks associated with rapid urbanization to ensure it delivers on its promise. <b>Asia\u2019s Middle Class Comes of Age<\/b> As the US and European middle classes continue to hollow out, Asia\u2019s is expected to grow from 2 billion to 3.5 billion people over the next decade, accounting for 65 percent of the global middle class, according to the Brookings Institution. This rapidly growing segment is increasingly urban, aspirational, connected, and wealthy, helping it to drive global consumer trends and spending. This next generation of Asian consumers will also shift from consumption dominated by staples and essentials toward consumer discretionary, financial services, health care, leisure, and personal care. This, of course, will create wide-ranging opportunities for both domestic and international companies to harness Asia\u2019s growing spending power\u2014and ensure that Asia\u2019s growth is less dependent on riding the coattails of export-oriented, developed-market economic growth. However, China\u2019s difficult transition to a consumer-oriented economy should serve as a warning\u2014 accommodating this middle class is not always easy. Of particular note is the risk that Asian countries might fall into the middle-income trap, effectively getting stuck between export economies and consumer economies. As Asia looks to benefit from its newfound wealth, it will be important for governments and businesses to actively promote the upgrading of skills to compete in a tech- and service-driven economy. <b>Asian Demographics is a Tale of Two Cities<\/b> As developed markets such as the US and Europe see the old rapidly outnumbering the young, several key Asian countries such as India, Cambodia, Laos, and the Philippines still have a median age of around 25, based on United Nations (UN) data. This leaves Southern Asia as one of the few regions, alongside Africa, where young populations and an expanding labor force should help generate strong economic growth and higher savings thanks to a lower dependency ratio. To be sure, Asia is not immune to an aging population. More than a quarter of the Japanese population is over the age of 65, the UN says, and the number of Chinese aged 65-and-over will exceed 355 million by 2045. Asian countries will need to prepare for this \u201csilver age,\u201d investing in senior housing, medical care, pensions, and social security to try and ensure better retirement security. There will also be investment opportunities in areas such as age-related biotech and pharmaceuticals, and in \u201csilvertech\u201d\u2014the platforms, apps, and devices that aim to help older adults live independently. How Asia\u2019s aging population chooses to put its disposable income to work will have a material impact on the rise and fall of different sectors in the economy, leading to new challenges and opportunities for individuals, governments, companies, and investors.",
+    "format": "rich_text",
+    "processed": "For the past five years, PGIM has brought together our leading investors to debate the megatrends reshaping global markets. One consistent strand links this body of research: Asia remains the bellwether for the most promising opportunities and urgent challenges facing us. And while the tariff wars and Korean peninsula tensions dominate the news cycle, we believe long-term investors must also position their portfolios to take advantage of powerful secular currents in Asia that will continue to reshape the global economy for decades to come. Our \u201ctop 3\u201d list: <b>Asian Cities Underpin Global Urbanization<\/b> Never before has the pace of urbanization been so rapid: some 60 to 70 million people will be added to the urban population each year for the next 30 years, according to research from New York University. While historically centered in the US and Europe, Asia is now driving the global urbanization boom. By 2025, more than half of the world\u2019s urban population\u2014or about 2.5 billon people\u2014will live in Asian cities. Over the next 15 years, megacities, with over 10 million inhabitants, will increase from 34 to 48; of these 14 new megacities, 11 will be in Asia. Critically, city formation is not just the accidental by-product of industrial development; it is an integral driver of continued productivity gains and economic growth. Cities create deep labor markets and allow specialized skill sets and companies to thrive. Perhaps most importantly, cities are the primary breeding ground for creativity and innovation through the cross-pollination and rapid dissemination of new ideas. Think Silicon Valley, Cambridge, or Bangalore. Yet, if unaccompanied by vital infrastructure, housing, and effective social policies, urbanization can create social unrest and strains on the local economy. Already, Asia accounts for 64 percent of the global urban population living in slum areas, compared to just over 50 percent of the global urban population. It is vital that Asian policymakers address the risks associated with rapid urbanization to ensure it delivers on its promise. <b>Asia\u2019s Middle Class Comes of Age<\/b> As the US and European middle classes continue to hollow out, Asia\u2019s is expected to grow from 2 billion to 3.5 billion people over the next decade, accounting for 65 percent of the global middle class, according to the Brookings Institution. This rapidly growing segment is increasingly urban, aspirational, connected, and wealthy, helping it to drive global consumer trends and spending. This next generation of Asian consumers will also shift from consumption dominated by staples and essentials toward consumer discretionary, financial services, health care, leisure, and personal care. This, of course, will create wide-ranging opportunities for both domestic and international companies to harness Asia\u2019s growing spending power\u2014and ensure that Asia\u2019s growth is less dependent on riding the coattails of export-oriented, developed-market economic growth. However, China\u2019s difficult transition to a consumer-oriented economy should serve as a warning\u2014 accommodating this middle class is not always easy. Of particular note is the risk that Asian countries might fall into the middle-income trap, effectively getting stuck between export economies and consumer economies. As Asia looks to benefit from its newfound wealth, it will be important for governments and businesses to actively promote the upgrading of skills to compete in a tech- and service-driven economy. <b>Asian Demographics is a Tale of Two Cities<\/b> As developed markets such as the US and Europe see the old rapidly outnumbering the young, several key Asian countries such as India, Cambodia, Laos, and the Philippines still have a median age of around 25, based on United Nations (UN) data. This leaves Southern Asia as one of the few regions, alongside Africa, where young populations and an expanding labor force should help generate strong economic growth and higher savings thanks to a lower dependency ratio. To be sure, Asia is not immune to an aging population. More than a quarter of the Japanese population is over the age of 65, the UN says, and the number of Chinese aged 65-and-over will exceed 355 million by 2045. Asian countries will need to prepare for this \u201csilver age,\u201d investing in senior housing, medical care, pensions, and social security to try and ensure better retirement security. There will also be investment opportunities in areas such as age-related biotech and pharmaceuticals, and in \u201csilvertech\u201d\u2014the platforms, apps, and devices that aim to help older adults live independently. How Asia\u2019s aging population chooses to put its disposable income to work will have a material impact on the rise and fall of different sectors in the economy, leading to new challenges and opportunities for individuals, governments, companies, and investors.",
+    "summary": null,
+    "summary_processed": ""
+}

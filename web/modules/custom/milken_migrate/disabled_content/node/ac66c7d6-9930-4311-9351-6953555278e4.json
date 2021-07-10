@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/how-build-strong-caregiving-workforce?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/13?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 472
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ac66c7d6-9930-4311-9351-6953555278e4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 472
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/13?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dbb8c41d-fc9f-467f-be83-277fa7f3bf32"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How to Build a Strong Caregiving Workforce",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-03T01:04:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/how-build-strong-caregiving-workforce",
+            "pid": 525,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>When it comes to being an advocate for the rights of domestic workers, MacArthur Fellow Ai-jen Poo is on the front line. She has made it her mission to empower and organize domestic workers, protect their rights, and improve their working conditions. In an interview with the Milken Institute Center for the Future of Aging, Poo talks about the impact of population aging on the caregiving workforce and how the future of home health care depends on quality jobs.<\/i><b>In the United States, 10,000 baby boomers turn 65 every day. How do you think this population boom will affect the caregiving workforce?<\/b>With boomers aging and people living longer than we ever imagined possible, there\u2019s been a dramatic growth in the older population and, along with it, the need for care, particularly home-based care. This generation of older people wants to age in their communities, connected to friends and family, rather than in an institution. What that means is that the direct care workforce will continue to grow, and particularly the home-care workforce. At the moment, these are poverty wage jobs. With a median annual income of $13,000 per year, the workers, whom we\u2019re counting on to help us care for our families, can hardly care for their own doing this work. We will need to invest in this workforce in a new way if we are to have a strong workforce to help us live well in the future.It also means that more families will be managing care, and we will need to support our family caregivers better. At the moment, caregivers\u2014whether professional or family\u2014are hardly in our consciousness, let alone in our policy solutions.<b>Home care is one of the fastest growing occupations in the nation. Do you think it will start keeping pace with the need due to the population boom?\u00a0<\/b>The growth of home care as an occupation won\u2019t keep pace with the need unless we improve the quality of jobs. At the moment, because we have so undervalued the work, we often lose our best caregivers to jobs in fast food or retail. At the end of the day, working people need to pay the bills and take care of their families, and at the moment, it\u2019s very hard to do that doing home care. The rates of turnover reflect the instability of the existing workforce, despite its rapid growth. We can change all of that, and states like Washington have demonstrated that it is possible. The state of Washington, thanks to the efforts of the home-care union and forward-thinking elected officials, has consistently raised wages and offered high-quality training for the workforce. As a result, Washington is qualitatively much better prepared for the elder boom than most other states.<b>For the past 20 years you have been organizing and advocating on behalf of our nation\u2019s domestic workers. What lessons have you learned?<\/b>I\u2019ve learned that oftentimes it\u2019s the people you least expect who end up inspiring others the most. I have seen domestic workers and home-care workers capture the imaginations of the most cynical people in the nation when they describe their experiences and their activism\u2014and, most importantly, their victories. It was everyday women with difficult jobs, families to care for, and bills to pay that ultimately passed statewide legislation in eight states to protect the rights of domestic workers. It was those same women, and all the people they inspired, who brought two million home-care workers under minimum wage and overtime protections. Everyday women can and have made history, and will continue to.You have\u00a0stated\u00a0that we can build a strong care workforce by ensuring that professional caregivers receive livable wages and benefits. Do you think we are close to achieving this goal?We have a culture that has never adequately valued this work as real work\u2026 While I think we made progress when the Department of Labor finally changed Fair Labor Standards Act regulations to include home-care workers in minimum wage and overtime protections, I think we are still a long way from livable wages and good jobs. States like Maine, which will be deciding on the \u201cHome Care for All\u201d citizen\u2019s initiative in November, or Washington State, which is working on a \u201cLong-term Care Trust Act,\u201d are on the cutting edge. Those states could dramatically improve the quality of work and quality of services available to us. Once those measures succeed, which could happen soon, I will say we are on our way!\u00a0",
+    "format": "rich_text",
+    "processed": "<i>When it comes to being an advocate for the rights of domestic workers, MacArthur Fellow Ai-jen Poo is on the front line. She has made it her mission to empower and organize domestic workers, protect their rights, and improve their working conditions. In an interview with the Milken Institute Center for the Future of Aging, Poo talks about the impact of population aging on the caregiving workforce and how the future of home health care depends on quality jobs.<\/i><b>In the United States, 10,000 baby boomers turn 65 every day. How do you think this population boom will affect the caregiving workforce?<\/b>With boomers aging and people living longer than we ever imagined possible, there\u2019s been a dramatic growth in the older population and, along with it, the need for care, particularly home-based care. This generation of older people wants to age in their communities, connected to friends and family, rather than in an institution. What that means is that the direct care workforce will continue to grow, and particularly the home-care workforce. At the moment, these are poverty wage jobs. With a median annual income of $13,000 per year, the workers, whom we\u2019re counting on to help us care for our families, can hardly care for their own doing this work. We will need to invest in this workforce in a new way if we are to have a strong workforce to help us live well in the future.It also means that more families will be managing care, and we will need to support our family caregivers better. At the moment, caregivers\u2014whether professional or family\u2014are hardly in our consciousness, let alone in our policy solutions.<b>Home care is one of the fastest growing occupations in the nation. Do you think it will start keeping pace with the need due to the population boom?\u00a0<\/b>The growth of home care as an occupation won\u2019t keep pace with the need unless we improve the quality of jobs. At the moment, because we have so undervalued the work, we often lose our best caregivers to jobs in fast food or retail. At the end of the day, working people need to pay the bills and take care of their families, and at the moment, it\u2019s very hard to do that doing home care. The rates of turnover reflect the instability of the existing workforce, despite its rapid growth. We can change all of that, and states like Washington have demonstrated that it is possible. The state of Washington, thanks to the efforts of the home-care union and forward-thinking elected officials, has consistently raised wages and offered high-quality training for the workforce. As a result, Washington is qualitatively much better prepared for the elder boom than most other states.<b>For the past 20 years you have been organizing and advocating on behalf of our nation\u2019s domestic workers. What lessons have you learned?<\/b>I\u2019ve learned that oftentimes it\u2019s the people you least expect who end up inspiring others the most. I have seen domestic workers and home-care workers capture the imaginations of the most cynical people in the nation when they describe their experiences and their activism\u2014and, most importantly, their victories. It was everyday women with difficult jobs, families to care for, and bills to pay that ultimately passed statewide legislation in eight states to protect the rights of domestic workers. It was those same women, and all the people they inspired, who brought two million home-care workers under minimum wage and overtime protections. Everyday women can and have made history, and will continue to.You have\u00a0stated\u00a0that we can build a strong care workforce by ensuring that professional caregivers receive livable wages and benefits. Do you think we are close to achieving this goal?We have a culture that has never adequately valued this work as real work\u2026 While I think we made progress when the Department of Labor finally changed Fair Labor Standards Act regulations to include home-care workers in minimum wage and overtime protections, I think we are still a long way from livable wages and good jobs. States like Maine, which will be deciding on the \u201cHome Care for All\u201d citizen\u2019s initiative in November, or Washington State, which is working on a \u201cLong-term Care Trust Act,\u201d are on the cutting edge. Those states could dramatically improve the quality of work and quality of services available to us. Once those measures succeed, which could happen soon, I will say we are on our way!\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

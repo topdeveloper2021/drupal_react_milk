@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7167\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/95rhhZndhJxcTCNFS80VlZ7nFYtfEmwVhIGvBg27QOw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7167
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e8992523-506a-4d84-a2c5-292e603a5e18"
+        }
+    ],
+    "vid": [
+        {
+            "value": 91
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/95rhhZndhJxcTCNFS80VlZ7nFYtfEmwVhIGvBg27QOw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3a5db20f-a287-4933-9655-0aa36d481cfb"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Institutional Investors: Thriving Amid Change",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-13T02:46:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In a world in profound flux, where do we look for the great investment ideas and strategies of today\u2014and the next 50 years? Some of the Pacific Region's largest institutional investors will discuss the importance of agility as we prepare for the next wave in asset management. What will be the impact of the region's massive demographic shift and rising populist policies on future growth? How will organizations and their cultures adapt to changes in technology, including digital and big data? What will the end of the leverage tailwind mean for price growth? And which investments will thrive from the rapid change in consumer preferences?<br>#MIGlobalhttp:\/\/www.milkeninstitute.org\/events\/conferences\/global-conference\/2018\/",
+    "format": "rich_text",
+    "processed": "In a world in profound flux, where do we look for the great investment ideas and strategies of today\u2014and the next 50 years? Some of the Pacific Region's largest institutional investors will discuss the importance of agility as we prepare for the next wave in asset management. What will be the impact of the region's massive demographic shift and rising populist policies on future growth? How will organizations and their cultures adapt to changes in technology, including digital and big data? What will the end of the leverage tailwind mean for price growth? And which investments will thrive from the rapid change in consumer preferences?<br \/>#MIGlobalhttp:\/\/www.milkeninstitute.org\/events\/conferences\/global-conference\/2018\/",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/8HFitZ3KIIc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/95rhhZndhJxcTCNFS80VlZ7nFYtfEmwVhIGvBg27QOw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

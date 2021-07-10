@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7244\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7244
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5c87b2e2-ccf6-4f4f-a595-ccf41c76ef21"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1674
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0828ffb5-a2c6-4dcc-8bf2-8292700e71c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Immigration and the California Economy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-16T19:57:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T18:48:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As immigration policy has become an urgent policy item in the United States and Europe, California finds itself caught squarely in the middle of competing economic and political agendas. It would be no exaggeration to say that the national immigration debate may have a significant impact on key industry sectors in California, including agriculture, tourism, manufacturing and tech innovation. How will the prospect of more aggressive federal deportation policies affect California\u2019s ability to power its economy? Likewise, how are state leaders cultivating and protecting the highly skilled immigrant workforce our economy needs to continue to flourish? Moderator Andrea Bernstein, Correspondent, KPCC Speakers Gray Davis, Of Counsel, Loeb & Loeb LLP; 37th Governor of California Maria Elena Durazo, General Vice President, Unite Here Iliana Perez, Entrepreneurship Initiatives Manager, Educators for Fair Consideration (E4FC) Perry Wong, Managing Director, Research, Milken Institute",
+    "format": "rich_text",
+    "processed": "As immigration policy has become an urgent policy item in the United States and Europe, California finds itself caught squarely in the middle of competing economic and political agendas. It would be no exaggeration to say that the national immigration debate may have a significant impact on key industry sectors in California, including agriculture, tourism, manufacturing and tech innovation. How will the prospect of more aggressive federal deportation policies affect California\u2019s ability to power its economy? Likewise, how are state leaders cultivating and protecting the highly skilled immigrant workforce our economy needs to continue to flourish? Moderator Andrea Bernstein, Correspondent, KPCC Speakers Gray Davis, Of Counsel, Loeb &amp; Loeb LLP; 37th Governor of California Maria Elena Durazo, General Vice President, Unite Here Iliana Perez, Entrepreneurship Initiatives Manager, Educators for Fair Consideration (E4FC) Perry Wong, Managing Director, Research, Milken Institute",
+    "summary": null,
+    "summary_processed": "",
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/videoseries",
+            "lang": "en"
+        }
+    ]
+}

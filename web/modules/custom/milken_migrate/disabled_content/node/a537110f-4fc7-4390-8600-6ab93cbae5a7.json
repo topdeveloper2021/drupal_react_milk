@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/building-partnerships-combat-opioid-crisis?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/107?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 630
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a537110f-4fc7-4390-8600-6ab93cbae5a7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 630
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/107?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "434f2d30-50d4-4217-bfb3-6258de19ec28"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Building Partnerships to Combat the Opioid Crisis",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T18:24:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T20:38:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/building-partnerships-combat-opioid-crisis",
+            "pid": 683,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "We\u2019ve all seen data that magnifies a tragic and gripping reality\u2014millions of people in every community across the country are experiencing the ravages of opioid addiction first-hand. Opioid addiction is a scourge that knows no age, gender, ethnic, geographic, or socioeconomic boundary. And with close to 175 drug overdose deaths per day in the United States, we must grapple with how to respond to these staggering statistics. Public-private partnerships that align around the single goal of reversing opioid misuse and heroin use are needed now more than ever to produce comprehensive approaches that change the trajectory of the future of health. It\u2019s with this shared goal in mind that the Drug Enforcement Administration (DEA) and Discovery Education have joined forces to launch\u00a0<i>Operation Prevention<\/i>\u2014a nationwide initiative to educate and empower students with facts to help them better understand the science behind opioids\u2019 impact on the brain and body. The future of the next generation\u2019s health depends on connections and conversations at home, in the classroom, and on the playground. When students are not only informed, but also engaged as participants in the conversation, they are able to build resiliency and are better equipped to manage difficult situations and make personal decisions about their own health and the health of others. <i>Operation Prevention<\/i>\u00a0was developed to provide no-cost prevention education resources to schools and communities across the nation, helping to engage our nation\u2019s youth in life-saving conversations about drug-free living. With a focus on the personal, societal, and economic impact of addiction across the country, the program ensures schools in every state have access to comprehensive, science-based resources that make it easier for educators, parents, and students to not only discuss this timely and sensitive topic, but also take action. Requiring no local sponsorship or corporate underwriting to activate,\u202f<i>Operation Prevention<\/i>\u202fprovides educational access to every student\u2014no matter their zip code\u2014anytime, anywhere, and on any device. Designed with content, insights, and best practices from the National Institute on Drug Abuse and the Substance Abuse and Mental Health Services Administration's Center for Substance Abuse Prevention,\u00a0<i>Operation Prevention<\/i>\u00a0is designed to be used across subject areas beyond traditional health class instruction. Since its 2016 launch,\u00a0<i>Operation Prevention<\/i>\u00a0has partnered with school districts to reach over 3 million students with a multimedia approach that empowers 3rd-12th grade students. Beyond the classroom and through collaborations with global media partners,\u00a0<i>Operation Prevention<\/i>\u00a0PSAs have been seen in approximately\u202f8.5 million homes nationwide. Belief in the importance of free and immediate access is grounded in our shared sense of urgency. Rodney Crouse, a middle school science and reading teacher from Greensboro, NC, told us of his surprise that 80 percent of his fifth-grade classroom had been exposed to drugs in their neighborhoods and in their homes\u2014and we knew there was no time to waste. He initiated an\u00a0<i>Operation Prevention<\/i>\u00a0dialogue in his classroom that helped to save students\u2019 futures and their lives. \u201cWatching the\u00a0<i>Operation Prevention\u00a0Virtual Field Trip<\/i>\u00a0opened up an opportunity for authentic, life-saving conversations with my students,\u201d Crouse told us. \u201cThe opioid epidemic is impacting our schools and communities in real ways. This reignited my passion to help stop this epidemic \u2013 not just in Greensboro, but nationwide.\u201d Our belief in the power of collaboration doesn\u2019t stop there. That\u2019s why the DEA and Discovery Education teamed up with the Milken Institute to further expand\u00a0<i>Operation Prevention<\/i>\u2019s reach. Deeply rooted in building strong bridges that positively impact communities, the Milken Institute hosts a combined network of businesses, advocacy organizations, think tanks, and philanthropic institutions across the country. At the 2017\u00a0Future of Health Summit, the Milken Institute\u2019s Center for Public Health provided a platform for\u00a0<i>Operation Prevention<\/i>\u00a0to present a call-to-action that inspired individuals, communities, and businesses to take the pledge to share\u00a0<i>Operation Prevention\u00a0<\/i>resources within their own networks. DEA Chief of Community Outreach Sean Fearns, who leads the DEA\u2019s work in this area, perfectly summed up our shared belief in the necessity of deep collaboration to inspire a lifesaving dialogue in schools and communities across the U.S. In his words, \u201cNo community is immune from America\u2019s opioid epidemic. While young people are the most vulnerable to misusing substances, they are also the most susceptible to being influenced in their decision making. If students could learn at a young age about the science behind addiction, appropriate practices of prescription medication, and the consequences of opioid misuse, they may become less likely to experiment with them in the future.\u201d It\u2019s our hope that one day a program like\u00a0<i>Operation Prevention<\/i>\u00a0will no longer be necessary and the opioid epidemic will be a thing of the past. Until that time, we are committed to doing our part to nurture the powerful partnerships we\u2019ve built and invite others to join us in our shared belief that a new era of empowered and educated young people will slow the tide of the opioid epidemic and play a part in decreasing misuse and addiction nationwide.",
+    "format": "rich_text",
+    "processed": "We\u2019ve all seen data that magnifies a tragic and gripping reality\u2014millions of people in every community across the country are experiencing the ravages of opioid addiction first-hand. Opioid addiction is a scourge that knows no age, gender, ethnic, geographic, or socioeconomic boundary. And with close to 175 drug overdose deaths per day in the United States, we must grapple with how to respond to these staggering statistics. Public-private partnerships that align around the single goal of reversing opioid misuse and heroin use are needed now more than ever to produce comprehensive approaches that change the trajectory of the future of health. It\u2019s with this shared goal in mind that the Drug Enforcement Administration (DEA) and Discovery Education have joined forces to launch\u00a0<i>Operation Prevention<\/i>\u2014a nationwide initiative to educate and empower students with facts to help them better understand the science behind opioids\u2019 impact on the brain and body. The future of the next generation\u2019s health depends on connections and conversations at home, in the classroom, and on the playground. When students are not only informed, but also engaged as participants in the conversation, they are able to build resiliency and are better equipped to manage difficult situations and make personal decisions about their own health and the health of others. <i>Operation Prevention<\/i>\u00a0was developed to provide no-cost prevention education resources to schools and communities across the nation, helping to engage our nation\u2019s youth in life-saving conversations about drug-free living. With a focus on the personal, societal, and economic impact of addiction across the country, the program ensures schools in every state have access to comprehensive, science-based resources that make it easier for educators, parents, and students to not only discuss this timely and sensitive topic, but also take action. Requiring no local sponsorship or corporate underwriting to activate,\u202f<i>Operation Prevention<\/i>\u202fprovides educational access to every student\u2014no matter their zip code\u2014anytime, anywhere, and on any device. Designed with content, insights, and best practices from the National Institute on Drug Abuse and the Substance Abuse and Mental Health Services Administration's Center for Substance Abuse Prevention,\u00a0<i>Operation Prevention<\/i>\u00a0is designed to be used across subject areas beyond traditional health class instruction. Since its 2016 launch,\u00a0<i>Operation Prevention<\/i>\u00a0has partnered with school districts to reach over 3 million students with a multimedia approach that empowers 3rd-12th grade students. Beyond the classroom and through collaborations with global media partners,\u00a0<i>Operation Prevention<\/i>\u00a0PSAs have been seen in approximately\u202f8.5 million homes nationwide. Belief in the importance of free and immediate access is grounded in our shared sense of urgency. Rodney Crouse, a middle school science and reading teacher from Greensboro, NC, told us of his surprise that 80 percent of his fifth-grade classroom had been exposed to drugs in their neighborhoods and in their homes\u2014and we knew there was no time to waste. He initiated an\u00a0<i>Operation Prevention<\/i>\u00a0dialogue in his classroom that helped to save students\u2019 futures and their lives. \u201cWatching the\u00a0<i>Operation Prevention\u00a0Virtual Field Trip<\/i>\u00a0opened up an opportunity for authentic, life-saving conversations with my students,\u201d Crouse told us. \u201cThe opioid epidemic is impacting our schools and communities in real ways. This reignited my passion to help stop this epidemic \u2013 not just in Greensboro, but nationwide.\u201d Our belief in the power of collaboration doesn\u2019t stop there. That\u2019s why the DEA and Discovery Education teamed up with the Milken Institute to further expand\u00a0<i>Operation Prevention<\/i>\u2019s reach. Deeply rooted in building strong bridges that positively impact communities, the Milken Institute hosts a combined network of businesses, advocacy organizations, think tanks, and philanthropic institutions across the country. At the 2017\u00a0Future of Health Summit, the Milken Institute\u2019s Center for Public Health provided a platform for\u00a0<i>Operation Prevention<\/i>\u00a0to present a call-to-action that inspired individuals, communities, and businesses to take the pledge to share\u00a0<i>Operation Prevention\u00a0<\/i>resources within their own networks. DEA Chief of Community Outreach Sean Fearns, who leads the DEA\u2019s work in this area, perfectly summed up our shared belief in the necessity of deep collaboration to inspire a lifesaving dialogue in schools and communities across the U.S. In his words, \u201cNo community is immune from America\u2019s opioid epidemic. While young people are the most vulnerable to misusing substances, they are also the most susceptible to being influenced in their decision making. If students could learn at a young age about the science behind addiction, appropriate practices of prescription medication, and the consequences of opioid misuse, they may become less likely to experiment with them in the future.\u201d It\u2019s our hope that one day a program like\u00a0<i>Operation Prevention<\/i>\u00a0will no longer be necessary and the opioid epidemic will be a thing of the past. Until that time, we are committed to doing our part to nurture the powerful partnerships we\u2019ve built and invite others to join us in our shared belief that a new era of empowered and educated young people will slow the tide of the opioid epidemic and play a part in decreasing misuse and addiction nationwide.",
+    "summary": null,
+    "summary_processed": ""
+}

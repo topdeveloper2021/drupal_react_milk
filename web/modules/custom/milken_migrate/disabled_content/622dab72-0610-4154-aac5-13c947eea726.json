@@ -1,0 +1,83 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/global-economy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/milken_tags"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/milken_tags\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 36
+        }
+    ],
+    "uuid": [
+        {
+            "value": "622dab72-0610-4154-aac5-13c947eea726"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "milken_tags"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Global Economy",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 1
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/milken_tags\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-18T20:59:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Global Economy | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/global-economy",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ],
+    "path": {
+        "alias": "\/taxonomy\/term\/global-economy"
+    }
+}

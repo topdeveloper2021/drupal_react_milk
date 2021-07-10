@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7702\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8gLSBjDRrTXmJ3Jnrmzn6hPHvdu2KT2J6fkHATJu_lk.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7702
+        }
+    ],
+    "uuid": [
+        {
+            "value": "90b78e6f-f06f-41c8-8511-53bde59df29d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 404
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8gLSBjDRrTXmJ3Jnrmzn6hPHvdu2KT2J6fkHATJu_lk.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e416facc-ad26-467a-83ad-e487302a739e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Powering Up European High-Tech",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-10-13T10:11:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "From the silicon chip to social media, America has programmed the path of information technology, an industry that has changed the world and created phenomenal wealth. But can Europe disrupt expectations of a future centered on Silicon Valley? Why has the continent been a buyer, rather than a producer, of the devices, software and media that define the digital age? Observers point to contrasting cultures, saying that California\u2019s embrace-failure-and-try-again attitude has no analog in refined Europe, and that despite the continent\u2019s financial strength, it lacks the vast funding networks that enable American inventors to turn ideas into products. What strategies can help Europeans partner with or outperform entrenched U.S. giants? What are European regulators thinking\u2014are their frequent interventions sparking competition or masking protectionism? Our expert panel will discuss how to nurture entrepreneurs, channel the continent\u2019s brainpower and industrial might into next-generation offerings and build a digital Europe.",
+    "format": "rich_text",
+    "processed": "From the silicon chip to social media, America has programmed the path of information technology, an industry that has changed the world and created phenomenal wealth. But can Europe disrupt expectations of a future centered on Silicon Valley? Why has the continent been a buyer, rather than a producer, of the devices, software and media that define the digital age? Observers point to contrasting cultures, saying that California\u2019s embrace-failure-and-try-again attitude has no analog in refined Europe, and that despite the continent\u2019s financial strength, it lacks the vast funding networks that enable American inventors to turn ideas into products. What strategies can help Europeans partner with or outperform entrenched U.S. giants? What are European regulators thinking\u2014are their frequent interventions sparking competition or masking protectionism? Our expert panel will discuss how to nurture entrepreneurs, channel the continent\u2019s brainpower and industrial might into next-generation offerings and build a digital Europe.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/IZo_fcq3FVU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/8gLSBjDRrTXmJ3Jnrmzn6hPHvdu2KT2J6fkHATJu_lk.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

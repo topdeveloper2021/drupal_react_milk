@@ -1,0 +1,19 @@
+uuid: 33afc8a7-06b6-4e25-ae85-70b31dec339c
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_event
+field_name: field_event
+entity_type: panel
+type: entity_reference
+settings:
+  target_type: event
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

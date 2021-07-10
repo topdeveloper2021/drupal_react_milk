@@ -1,0 +1,231 @@
+uuid: b42a6a9d-69e3-42ce-b347-eb7bb7400eb5
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: speaker_recommendation
+title: 'Speaker Recommendation'
+description: 'Speaker recommendation form for summits and conferences.'
+category: ''
+elements: "hero:\n  '#type': webform_section\n  '#title': Hero\n  '#title_display': invisible\n  '#attributes':\n    style: 'background-image: url(/sites/default/files/Speaker%20Recommendation%20Form_Hero_0.jpg); background-size: cover;'\n  hero_container:\n    '#type': container\n    '#attributes':\n      class:\n        - container\n      style: 'color: white; display: flex; flex-direction: column; justify-content: center; padding: 10vw 7.5vw; margin: unset;'\n    hero_title:\n      '#type': processed_text\n      '#display_on': both\n      '#text': |\n        <h1 style=\"font-size: 2.5em; font-family: 'LatoWebBold';\">Speaker Recommendation Form</h1>\n      '#format': full_html\n    hero_description:\n      '#type': processed_text\n      '#display_on': both\n      '#text': '<h3 style=\"font-family: ''LatoWeb''; font-size: 1.5em;\">The Milken Institute features the foremost experts and thought leaders on stage, and we welcome speaker recommendations for our Conferences, Summits and events. To suggest a speaker, please submit a recommendation below.</h3>'\n      '#format': full_html\nflexbox:\n  '#type': fieldset\n  '#title': 'Speaker Recommendation Form'\n  '#title_display': invisible\n  '#attributes':\n    class:\n      - my-5\n    style: 'width: 100%; max-width: 800px; margin: 0 auto;'\n  speaker_information:\n    '#type': fieldset\n    '#title': 'Speaker Information'\n    speaker_name:\n      '#type': webform_name\n      '#title': Name\n      '#title__access': false\n      '#first__title': 'Speaker''s First Name'\n      '#first__required': true\n      '#middle__access': false\n      '#last__title': 'Speaker''s Last Name'\n      '#last__required': true\n      '#suffix__access': false\n      '#degree__access': false\n      '#required': true\n    affiliation:\n      '#type': textfield\n      '#title': 'Speaker''s Affiliation'\n      '#description': '(title, organization)'\n      '#description_display': before\n      '#required': true\n    short_biography:\n      '#type': textarea\n      '#title': 'Short Biography'\n      '#description': 'Please limit your response to 250 words ( 1,500 characters ).'\n      '#description_display': before\n      '#maxlength': '1500'\n      '#required': true\n    area_of_expertise:\n      '#type': select\n      '#title': 'Area(s) of Expertise'\n      '#multiple': 3\n      '#multiple_error': 'Up to three areas of expertise can be selected.'\n      '#description': '<p>Please indicate up to three areas of interest to the speaker. Click and hold Ctrl to select more than one option:</p>'\n      '#description_display': before\n      '#options':\n        'Business & Industry': 'Business & Industry'\n        'Capital Access & Economic Opportunity': 'Capital Access & Economic Opportunity'\n        'Diversity, Equality, & Inclusion': 'Diversity, Equality, & Inclusion'\n        'Financial Markets': 'Financial Markets'\n        'Health & Medical Research': 'Health & Medical Research'\n        'Human Capital, Jobs, & Education': 'Human Capital, Jobs, & Education'\n        'Philanthropy & Social Impact': 'Philanthropy & Social Impact'\n        'Policy, Politics, & Regulation': 'Policy, Politics, & Regulation'\n        'Regions & Developing Markets': 'Regions & Developing Markets'\n        'Society & Culture': 'Society & Culture'\n        'Sustainability & Environment': 'Sustainability & Environment'\n        'Technology & Innovation': 'Technology & Innovation'\n        Other: Other\n      '#required': true\n      '#required_error': 'Please select area of expertise. '\n    reason_for_recommendation:\n      '#type': textarea\n      '#title': 'Reason for Recommendation'\n      '#description': 'In 250 words or less ( 1,500 characters ), please detail the value that this speaker can add to a discussion about the topic indicated above.'\n      '#description_display': before\n      '#maxlength': '1500'\n      '#required': true\n    events:\n      '#type': select\n      '#title': Events\n      '#multiple': true\n      '#description': |\n        Our 2021 event calendar includes:\n        <ul>\n        \t<li>Future of Health Summit | Virtual | June 22&nbsp;&ndash; 23, 2021</li>\n        \t<li>Asia Summit&nbsp;| September 29&nbsp;&ndash; 30, 2021</li>\n        \t<li>Global Conference&nbsp;| October 17 &ndash; 20, 2021</li>\n        \t<li>Partnering for Patients | Virtual | December 7, 2021</li>\n        </ul>\n        Please indicate the speaker&rsquo;s primary event(s) of interest. Click and hold Ctrl to select more than one option:\n      '#description_display': before\n      '#options':\n        'Future of Health Summit': 'Future of Health Summit'\n        'Asia Summit': 'Asia Summit'\n        'Global Conference': 'Global Conference'\n        'Partnering for Patients': 'Partnering for Patients'\n    additional_information:\n      '#type': webform_link\n      '#title': 'Supplemental Materials'\n      '#multiple': 3\n      '#description': '<span>Please add links to any recent speaking engagements, publications or media coverage.</span>'\n      '#description_display': before\n  contact_information:\n    '#type': fieldset\n    '#title': 'Your Contact Information'\n    '#description': '<span class=\"panel-title\" style=\"color: 333;\">Please share your information below. If we identify a programmatic alignment between your recommended speaker and our program, a member of our programming team will follow up with you directly.</span>'\n    agent_information:\n      '#type': webform_name\n      '#title': 'Agent Information'\n      '#title__access': false\n      '#first__title': 'Your First Name'\n      '#first__required': true\n      '#middle__access': false\n      '#last__title': 'Your Last Name'\n      '#last__required': true\n      '#suffix__access': false\n      '#degree__access': false\n      '#required': true\n    your_affiliation:\n      '#type': textfield\n      '#title': 'Your Affiliation'\n      '#description': '(title, organization)'\n      '#description_display': before\n    email:\n      '#type': email\n      '#title': 'Your Email'\n      '#required': true\n    telephone:\n      '#type': webform_telephone\n      '#title': 'Your Phone Number'\n      '#type__access': false\n      '#phone__required': true\n      '#phone__international_initial_country': US\n      '#required': true\n  additional_information_comments:\n    '#type': textarea\n    '#title': 'Additional Information'\n    '#description': 'Please share any additional questions or comments ( max 1,500 characters ).'\n    '#title_display': before\n    '#description_display': before\n    '#maxlength': '1500'\n  actions:\n    '#type': webform_actions\n    '#title': 'Submit button(s)'"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: ''
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: source_entity_webform
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: true
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_auto_forward: true
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_title: 'Your Speaker Recommendation Has Been Received'
+  confirmation_message: "<div alt=\"Speaker Recommendation Form Hero\" class=\"embedded-entity align-center\" data-embed-button=\"media_browser\" data-entity-embed-display=\"media_image\" data-entity-type=\"media\" data-entity-uuid=\"a63d9648-c94e-4712-9b8d-d1dd1a889927\" data-langcode=\"en\" title=\"Speaker Recommendation Form Hero\"><img alt=\"Speaker Recommendation Form Hero\" class=\"img-responsive\" src=\"/sites/default/files/Speaker%20Recommendation%20Form_Hero.jpg\" title=\"Speaker Recommendation Form Hero\" typeof=\"foaf:Image\" /></div>\r\n&nbsp;\r\n\r\n<h1><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\">Your speaker recommendation&nbsp;submission&nbsp;has been received. Thank you.</span></span></h1>\r\n<span style=\"font-size:11pt\"><span style=\"line-height:105%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"line-height:105%\">Thank you for submitting your speaker recommendation. Your submission has been received and will be reviewed by our programming team. If we identify an alignment between your recommended speaker and our program, we will follow up with you directly.&nbsp;If you would like updates on future Milken Institute news and events, <span style=\"color:black\">please</span><strong><span style=\"color:#70ad47\"> <span class=\"MsoHyperlink\" style=\"color:#0563c1\"><span style=\"text-decoration:underline\"><span style=\"color:#70ad47\"><a href=\"https://www.cvent.com/Pub/eMarketing/Pages/SignUp.aspx?p=5b49cee6-fb01-4e53-bf27-b8aef82941e6&amp;m=\" style=\"color:#0563c1; text-decoration:underline\"><span style=\"color:#70ad47\">subscribe to our mailing list</span></a></span></span></span></span></strong><span class=\"MsoHyperlink\" style=\"color:#0563c1\"><span style=\"text-decoration:underline\">.</span></span></span></span></span></span></span>"
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles:
+      - webform_creator
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles:
+      - webform_creator
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles:
+      - webform_creator
+    users: {  }
+    permissions: {  }
+handlers:
+  email:
+    id: email
+    label: Email
+    notes: ''
+    handler_id: email
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: 'jramirez@milkeninstitute.org, speakers@milkeninstitute.org'
+      to_options: {  }
+      cc_mail: ''
+      cc_options: {  }
+      bcc_mail: ''
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: _default
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''
+      exclude_attachments: false
+      parameters: {  }
+variants: {  }

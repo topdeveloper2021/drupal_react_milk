@@ -1,0 +1,19 @@
+uuid: 0df3918f-e1a3-46ae-bf18-abd0b5cdbc94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_thumbnail_uri
+    - media.type.video
+id: media.video.field_thumbnail_uri
+field_name: field_thumbnail_uri
+entity_type: media
+bundle: video
+label: 'Thumbnail Uri'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

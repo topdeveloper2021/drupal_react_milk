@@ -1,0 +1,21 @@
+uuid: 349a8dd5-e551-4c33-a0ae-0b2b15609785
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_secondarytrack
+field_name: field_secondarytrack
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

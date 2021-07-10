@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10162\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Or_EsrnerpHQ_2t458Yuoy16M7mrJYYxWKfwS3tYeDM.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10162
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7d0d880c-3da6-478f-8592-81bf31d20331"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1786
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Or_EsrnerpHQ_2t458Yuoy16M7mrJYYxWKfwS3tYeDM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "33adf657-c9c5-44b3-a6c2-7469124d4bca"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Partnerships in Humanitarian Response: Bringing Hope and Opportunity to Refugee Children",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-02T18:00:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The scale of the global refugee crisis is staggering. Today, 68.5 million people are displaced worldwide; more than 30 million of them are children. They've lost homes and loved ones, seen violence, and endured the kinds of traumas that threaten their future learning, health, and wellbeing. How the world meets this challenge will have ripple effects on our societies for generations. Given the high stakes, the MacArthur Foundation awarded its landmark 100&Change grant to Sesame Workshop and the International Rescue Committee, which will launch the largest early childhood intervention in the history of humanitarian response. Through the power of partnership--and with the help of lovable Muppet friends--this visionary program will provide early learning and nurturing care to millions of children in the Syrian response region. Join us as we explore how audacious philanthropy and strategic partnerships can help transform humanitarian response wherever children are in conflict or crisis.",
+    "format": "rich_text",
+    "processed": "The scale of the global refugee crisis is staggering. Today, 68.5 million people are displaced worldwide; more than 30 million of them are children. They've lost homes and loved ones, seen violence, and endured the kinds of traumas that threaten their future learning, health, and wellbeing. How the world meets this challenge will have ripple effects on our societies for generations. Given the high stakes, the MacArthur Foundation awarded its landmark 100&amp;Change grant to Sesame Workshop and the International Rescue Committee, which will launch the largest early childhood intervention in the history of humanitarian response. Through the power of partnership--and with the help of lovable Muppet friends--this visionary program will provide early learning and nurturing care to millions of children in the Syrian response region. Join us as we explore how audacious philanthropy and strategic partnerships can help transform humanitarian response wherever children are in conflict or crisis.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/nR6-1daYFK4",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/Or_EsrnerpHQ_2t458Yuoy16M7mrJYYxWKfwS3tYeDM.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+uuid: 78ec8213-c599-4282-9fa6-dd0d29ed2e70
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_tags
+    - taxonomy.vocabulary.milken_tags
+id: event.summit.field_tags
+field_name: field_tags
+entity_type: event
+bundle: summit
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

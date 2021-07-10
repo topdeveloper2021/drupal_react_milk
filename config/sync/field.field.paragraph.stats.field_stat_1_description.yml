@@ -1,0 +1,21 @@
+uuid: 3285e443-ed5e-4e8f-94ce-2b7bfe1805f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stat_1_description
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_stat_1_description
+field_name: field_stat_1_description
+entity_type: paragraph
+bundle: stats
+label: 'Stat 1 Description'
+description: 'Description to show below the first stat.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Is the highest U.S. dollar currency denomination in production as of 2021.'
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,122 @@
+uuid: 9856d185-e3f6-403f-b9d3-f9a3a8359379
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pull_quote.field_alignment
+    - field.field.paragraph.pull_quote.field_background
+    - field.field.paragraph.pull_quote.field_body
+    - field.field.paragraph.pull_quote.field_text_size
+    - paragraphs.paragraphs_type.pull_quote
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_content
+        - group_authoring
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+      region: content
+    group_content:
+      children:
+        - field_alignment
+        - field_background
+        - field_text_size
+        - field_body
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: content
+      region: content
+    group_authoring:
+      children:
+        - created
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Authoring
+      region: content
+id: paragraph.pull_quote.default
+targetEntityType: paragraph
+bundle: pull_quote
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_alignment:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_background:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_body:
+    type: text_textarea_with_summary
+    weight: 15
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_pull_quote:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_text_size:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  status:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

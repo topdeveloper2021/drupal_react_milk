@@ -1,0 +1,27 @@
+uuid: 956ad6f8-c4b2-46ed-ae45-70c09c643357
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - field.storage.grid_join_panel_speaker.field_speaker
+id: grid_join_panel_speaker.join_table.field_speaker
+field_name: field_speaker
+entity_type: grid_join_panel_speaker
+bundle: join_table
+label: Speaker
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

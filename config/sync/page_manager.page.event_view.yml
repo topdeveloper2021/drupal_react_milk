@@ -1,0 +1,16 @@
+uuid: 0609db36-3da1-4b15-8f3d-e7c8416451f4
+langcode: en
+status: true
+dependencies: {  }
+id: event_view
+label: 'Event View'
+description: ''
+use_admin_theme: false
+path: '/event/{args}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  args:
+    machine_name: args
+    type: 'entity:event'
+    label: event

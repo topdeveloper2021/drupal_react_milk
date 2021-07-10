@@ -1,0 +1,19 @@
+uuid: 0e4fab3a-f3a5-45a3-bd14-29e0c9d96f56
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - field.storage.grid_join_panel_speaker.field_panel_speaker_id
+id: grid_join_panel_speaker.join_table.field_panel_speaker_id
+field_name: field_panel_speaker_id
+entity_type: grid_join_panel_speaker
+bundle: join_table
+label: 'Panel Speaker ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

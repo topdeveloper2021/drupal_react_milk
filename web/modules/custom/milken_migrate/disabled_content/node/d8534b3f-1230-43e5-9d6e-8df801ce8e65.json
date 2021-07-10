@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/key-forming-long-term-memories?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/6?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 465
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d8534b3f-1230-43e5-9d6e-8df801ce8e65"
+        }
+    ],
+    "vid": [
+        {
+            "value": 465
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f4e5c9e8-7f3a-4011-8415-b6074dca231c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Key to Forming Long-Term Memories",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:32:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/key-forming-long-term-memories",
+            "pid": 518,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>NYU Professor, Andr\u00e9 Fenton, is a neurobiologist studying how brains store experiences as memories and how self-expression works with memory to give us information that matters. In an interview with the Milken Institute Center for the of Future Aging, Fenton explains how his work is increasing our understanding of the aging brain and the role that protein kinase M zeta, plays in maintaining long-term memory.<\/i><b>Can you explain why protein kinase M zeta (PKMzeta) is so essential for long-term memory?<\/b>We remember information for long periods of time. There has to be a physical, biological way this happens. We know that for memories to persist, proteins have to be made. We know that proteins are encoded by genes and by activating specific genes, specific proteins are made in individual cells. The problem is that most proteins only last a few days before they are damaged and destroyed by the chemical environment inside cells. How is it possible to build memory, something delicate and precise that persists for years, when the building materials only exist for days? If the cell replenishes destroyed proteins that are crucial for storing memory, it is not clear how the replacement proteins know where in the cell to go\u2014each cell has several thousand synapses, but only tens to hundreds of them are the storage sites for a particular memory.\u00a0This is where PKMzeta comes in. It is an unusual protein, with properties that can solve these problems. PKMzeta is a kinase, which means it phosphorylates (i.e., works by modifying) other proteins, by turning them on to perform a specific cellular function. PKMzeta is unusual because each PKMzeta molecule can \u201cturn on\u201d (phosphorylate) other PKMzeta molecules, perhaps protecting, or at least forestalling, them from being degraded. Once cells produce PKMzeta molecules, they are automatically turned on. That means a cluster of PKMzeta molecules can keep themselves turned on perpetually. PKMzeta, when newly synthetized by the cell, can diffuse throughout the cell, but the molecules are most likely to be protected from degradation if they diffuse to an existing cluster of PKMzeta molecules, where the newly synthesized PKMzeta can replenish PKMzeta molecules that were destroyed and thereby perpetuate the cluster. This \u201cpersistent kinase\u201d property is a mechanism for making a molecular switch that, once it is turned on, can stay turned on indefinitely. PKMzeta seems to work this way, which is a plausible biological mechanism of memory persistence.<b>What does your work tell us about the aging brain?<\/b>I work on two related but distinct problems that are relevant to understanding the aging brain. One is the biological mechanism of memory persistence; the other is the biological mechanism for how information is read out of a particular set of neural circuits in the hippocampus and related regions. Memory function requires not only a way to store information but also a way to read out that information. The reading problem is an electrophysiological problem, but it is founded in how electrical neural activity is generated and transferred across synapses from one set of neurons to another. The aging brain can show abnormalities both in how synapses function\u2014unfortunately synapses are lost with aging\u2014as well as in how electrical activity propagates through the networks of neurons in the hippocampus and the connected areas. When we better understand the biological basis of memory, we will better understand how this biology is altered in aging.<b>Since the PKMzeta molecule plays a crucial role in memory retention, how do you see this knowledge transforming future research?<\/b>Once we understand the biology of memory formation and persistence, we will be better able to understand how the mechanisms of memory formation and persistence are affected by neurodegenerative diseases. We can design optimal ways of protecting against cognitive impairment or even attenuate and restore brain function from diseases that affect the relevant neurobiology. Imagine with Alzheimer\u2019s disease, for example, that we knew PKMzeta is crucial for memory persistence and we also knew that the neurofibrillary tangles pathology in AD acted to sequester PKMzeta, hijacking it from getting to synapses where it is needed for storing memory and directing the flow of neural information. If that was the case, we could design novel AD treatments like drugs that prevent PKMzeta binding and sequestration to the neurofibrillary tangles. We just don\u2019t know enough yet.<b>How can new technologies advance research on memory formation?<\/b>Most advances in science are driven by technological advances, such as the ability now to better measure and manipulate biological objects of interest. Memory research is now limited by the widespread unavailability of technologies to measure the strength of many individual synapses, or the voltage across the membrane of a compartment of a neuron, as with a synapse. Technologies that allow specific genetically- or functionally-defined cell types to be marked and manipulated are helping advance memory research. Technologies to selectively interfere with and\/or selectively activate PKMzeta and other molecules at synapses are also helping advance the field, along with technologies to visualize where and how long PKMzeta molecules reside in sub-cellular locations. Finally, technologies that allow recording and manipulating the electrical activity of many individual neurons will also be invaluable.",
+    "format": "rich_text",
+    "processed": "<i>NYU Professor, Andr\u00e9 Fenton, is a neurobiologist studying how brains store experiences as memories and how self-expression works with memory to give us information that matters. In an interview with the Milken Institute Center for the of Future Aging, Fenton explains how his work is increasing our understanding of the aging brain and the role that protein kinase M zeta, plays in maintaining long-term memory.<\/i><b>Can you explain why protein kinase M zeta (PKMzeta) is so essential for long-term memory?<\/b>We remember information for long periods of time. There has to be a physical, biological way this happens. We know that for memories to persist, proteins have to be made. We know that proteins are encoded by genes and by activating specific genes, specific proteins are made in individual cells. The problem is that most proteins only last a few days before they are damaged and destroyed by the chemical environment inside cells. How is it possible to build memory, something delicate and precise that persists for years, when the building materials only exist for days? If the cell replenishes destroyed proteins that are crucial for storing memory, it is not clear how the replacement proteins know where in the cell to go\u2014each cell has several thousand synapses, but only tens to hundreds of them are the storage sites for a particular memory.\u00a0This is where PKMzeta comes in. It is an unusual protein, with properties that can solve these problems. PKMzeta is a kinase, which means it phosphorylates (i.e., works by modifying) other proteins, by turning them on to perform a specific cellular function. PKMzeta is unusual because each PKMzeta molecule can \u201cturn on\u201d (phosphorylate) other PKMzeta molecules, perhaps protecting, or at least forestalling, them from being degraded. Once cells produce PKMzeta molecules, they are automatically turned on. That means a cluster of PKMzeta molecules can keep themselves turned on perpetually. PKMzeta, when newly synthetized by the cell, can diffuse throughout the cell, but the molecules are most likely to be protected from degradation if they diffuse to an existing cluster of PKMzeta molecules, where the newly synthesized PKMzeta can replenish PKMzeta molecules that were destroyed and thereby perpetuate the cluster. This \u201cpersistent kinase\u201d property is a mechanism for making a molecular switch that, once it is turned on, can stay turned on indefinitely. PKMzeta seems to work this way, which is a plausible biological mechanism of memory persistence.<b>What does your work tell us about the aging brain?<\/b>I work on two related but distinct problems that are relevant to understanding the aging brain. One is the biological mechanism of memory persistence; the other is the biological mechanism for how information is read out of a particular set of neural circuits in the hippocampus and related regions. Memory function requires not only a way to store information but also a way to read out that information. The reading problem is an electrophysiological problem, but it is founded in how electrical neural activity is generated and transferred across synapses from one set of neurons to another. The aging brain can show abnormalities both in how synapses function\u2014unfortunately synapses are lost with aging\u2014as well as in how electrical activity propagates through the networks of neurons in the hippocampus and the connected areas. When we better understand the biological basis of memory, we will better understand how this biology is altered in aging.<b>Since the PKMzeta molecule plays a crucial role in memory retention, how do you see this knowledge transforming future research?<\/b>Once we understand the biology of memory formation and persistence, we will be better able to understand how the mechanisms of memory formation and persistence are affected by neurodegenerative diseases. We can design optimal ways of protecting against cognitive impairment or even attenuate and restore brain function from diseases that affect the relevant neurobiology. Imagine with Alzheimer\u2019s disease, for example, that we knew PKMzeta is crucial for memory persistence and we also knew that the neurofibrillary tangles pathology in AD acted to sequester PKMzeta, hijacking it from getting to synapses where it is needed for storing memory and directing the flow of neural information. If that was the case, we could design novel AD treatments like drugs that prevent PKMzeta binding and sequestration to the neurofibrillary tangles. We just don\u2019t know enough yet.<b>How can new technologies advance research on memory formation?<\/b>Most advances in science are driven by technological advances, such as the ability now to better measure and manipulate biological objects of interest. Memory research is now limited by the widespread unavailability of technologies to measure the strength of many individual synapses, or the voltage across the membrane of a compartment of a neuron, as with a synapse. Technologies that allow specific genetically- or functionally-defined cell types to be marked and manipulated are helping advance memory research. Technologies to selectively interfere with and\/or selectively activate PKMzeta and other molecules at synapses are also helping advance the field, along with technologies to visualize where and how long PKMzeta molecules reside in sub-cellular locations. Finally, technologies that allow recording and manipulating the electrical activity of many individual neurons will also be invaluable.",
+    "summary": null,
+    "summary_processed": ""
+}

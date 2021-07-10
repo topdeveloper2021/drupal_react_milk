@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-challenges-america-drink-different?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 51
+        }
+    ],
+    "uuid": [
+        {
+            "value": "606b931f-4afa-43ba-bd9b-54085c3191c2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 51
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute challenges America to \u201cDrink Different\u201d",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-01-22T11:24:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-challenges-america-drink-different",
+            "pid": 104,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2014 Each day, Americans make choices about what they will eat and drink. Often, these are unhealthy ones, contributing to a national obesity rate of more than 33 percent. Lowering this rate is key to controlling rising health-care costs and improving quality of life. While many factors contribute to obesity, the consumption of sugar-sweetened beverages is a leading cause. Health economists from the Milken Institute conducted the first-ever analysis of the effect lowering consumption of such drinks would have on public health and finances \u2014 and discovered that even a modest reduction would have a major health impact and generate solid economic dividends.\u201cIn 2030, if Americans consume on average three fewer 12-ounce sugar-sweetened drinks per month compared to continuing on the current trend, the number of obese Americans would be reduced by 2.6 million,\u201d says Anusuya Chatterjee, an Institute managing economist and co-author of Drink Different: Feasible Strategies to Reduce Obesity. \u201cAnd reaching this goal would produce an overall savings of more than $25 billion for the U.S health-care system.\u201dThe primary drivers of obesity are poor diet, sedentary lifestyle, and a desk-bound work environment. Many items in the typical American diet have little nutritional value. \u201cDrink Different\u201d focuses on the \u201cempty caloredries\u201d in sugar-sweetened beverages \u2014 including sodas, sports drinks, and fruit drinks with less than 100 percent fruit juice \u2014 that contain an average of 10 teaspoons of sugar per 12-ounce container. Medical researchers have established a causal relationship between the excess calories in these drinks and a rise in blood sugar levels that often leads to diabetes and heart disease.To estimate the impact of sugary drinks, Institute researchers used data from 1999 to 2010, across market groups representing more than 75 percent of the U.S. population. They then created two possible scenarios of sugary beverage consumption to note the effects on obesity: a baseline representing continuation of the status quo, and an optimistic scenario assuming a moderate reduction in consumption. An analysis of the difference between them shows that even a moderate reduction could bring dramatic benefits to the health-care system over a 20-year period.To achieve that goal, effective public policies are needed to shape and reinforce healthier consumer behavior. \u201cMany policies that targeted sugary drinks have failed,\u201d says health analyst and report co-author Sindhu Kubendran. \u201cThat\u2019s mainly because the prices of healthy alternatives were not competitive.\u201dAmong the recommended measures to reduce obesity:Promote alternatives. Making healthy drinks more attractive could cut consumption of the sugary kind. For instance, improving the taste of tap water in places where it is substandard could spur consumption of water.Since nutritious consumption must be complemented by an active lifestyle, policymakers and consumers need to develop infrastructure and raise awareness of the importance of physical activity.\nBusiness and political leaders should work together to push for healthy lifestyles. Progress here has already been made. Last year, the three leading global soda companies pledged to support a 20 percent reduction in Americans\u2019 consumption of sugary drink calories by 2025.\n\u201cOur analysis points out that sugary drinks should not be the sole focus of obesity-prevention efforts,\u201d says Chatterjee. \u201cBut reducing consumption of these beverages will be a very good start to healthier and more productive lives for millions of Americans.\u201dFind Drink Different here: http:\/\/www.milkeninstitute.org\/publications\/view\/683",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2014 Each day, Americans make choices about what they will eat and drink. Often, these are unhealthy ones, contributing to a national obesity rate of more than 33 percent. Lowering this rate is key to controlling rising health-care costs and improving quality of life. While many factors contribute to obesity, the consumption of sugar-sweetened beverages is a leading cause. Health economists from the Milken Institute conducted the first-ever analysis of the effect lowering consumption of such drinks would have on public health and finances \u2014 and discovered that even a modest reduction would have a major health impact and generate solid economic dividends.\u201cIn 2030, if Americans consume on average three fewer 12-ounce sugar-sweetened drinks per month compared to continuing on the current trend, the number of obese Americans would be reduced by 2.6 million,\u201d says Anusuya Chatterjee, an Institute managing economist and co-author of Drink Different: Feasible Strategies to Reduce Obesity. \u201cAnd reaching this goal would produce an overall savings of more than $25 billion for the U.S health-care system.\u201dThe primary drivers of obesity are poor diet, sedentary lifestyle, and a desk-bound work environment. Many items in the typical American diet have little nutritional value. \u201cDrink Different\u201d focuses on the \u201cempty caloredries\u201d in sugar-sweetened beverages \u2014 including sodas, sports drinks, and fruit drinks with less than 100 percent fruit juice \u2014 that contain an average of 10 teaspoons of sugar per 12-ounce container. Medical researchers have established a causal relationship between the excess calories in these drinks and a rise in blood sugar levels that often leads to diabetes and heart disease.To estimate the impact of sugary drinks, Institute researchers used data from 1999 to 2010, across market groups representing more than 75 percent of the U.S. population. They then created two possible scenarios of sugary beverage consumption to note the effects on obesity: a baseline representing continuation of the status quo, and an optimistic scenario assuming a moderate reduction in consumption. An analysis of the difference between them shows that even a moderate reduction could bring dramatic benefits to the health-care system over a 20-year period.To achieve that goal, effective public policies are needed to shape and reinforce healthier consumer behavior. \u201cMany policies that targeted sugary drinks have failed,\u201d says health analyst and report co-author Sindhu Kubendran. \u201cThat\u2019s mainly because the prices of healthy alternatives were not competitive.\u201dAmong the recommended measures to reduce obesity:Promote alternatives. Making healthy drinks more attractive could cut consumption of the sugary kind. For instance, improving the taste of tap water in places where it is substandard could spur consumption of water.Since nutritious consumption must be complemented by an active lifestyle, policymakers and consumers need to develop infrastructure and raise awareness of the importance of physical activity.\nBusiness and political leaders should work together to push for healthy lifestyles. Progress here has already been made. Last year, the three leading global soda companies pledged to support a 20 percent reduction in Americans\u2019 consumption of sugary drink calories by 2025.\n\u201cOur analysis points out that sugary drinks should not be the sole focus of obesity-prevention efforts,\u201d says Chatterjee. \u201cBut reducing consumption of these beverages will be a very good start to healthier and more productive lives for millions of Americans.\u201dFind Drink Different here: http:\/\/www.milkeninstitute.org\/publications\/view\/683",
+    "summary": null,
+    "summary_processed": ""
+}

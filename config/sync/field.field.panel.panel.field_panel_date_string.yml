@@ -1,0 +1,19 @@
+uuid: 64a32f2d-90fc-4b8a-98b1-7755e0ec9a4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_panel_date_string
+id: panel.panel.field_panel_date_string
+field_name: field_panel_date_string
+entity_type: panel
+bundle: panel
+label: 'Panel Date String'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

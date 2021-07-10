@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-april-15-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/126?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 743
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0f8fd3e8-2c96-4658-b717-064ad0f2d395"
+        }
+    ],
+    "vid": [
+        {
+            "value": 743
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/126?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ccc841d-6802-4d2b-a617-415db131c86e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus April 15, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-04T12:44:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:17:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-april-15-2019",
+            "pid": 796,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Apple Card You probably heard that Apple is going all in on financial services. Well, not all in. It\u2019s not becoming a bank, of course. It is, however, partnering with Goldman Sachs to offer Apple Card to iPhone users. Apple Card is a credit card with some good (but not unheard of) rewards for its users, such as 2 percent cash back on all purchases. What sets it apart from other credit cards is its enhanced security measures and smooth user experience, which includes a built-in personal financial management (PFM) app. So, is it all over? Should everyone else pack it up now that the best and brightest from Wall Street and Silicon Valley have teamed up to dominate retail banking? Some observers, such as Ron Shevlin of Cornerstone Advisors, are skeptical. Shevlin believes that Apple Card will strike out because the rewards aren\u2019t good enough, no one cares about PFM apps, and Apple just isn\u2019t data-driven enough to get the most out of it. These are all good points, to which I think the only real counterpoint is that Apple is different. Whether because of design quality or the status conferred by owning the newest Apple product, consumers tend to buy things that Apple sells without really needing them. Whether or not it works out that way, however, Apple Card is more interesting for what it reveals about Goldman\u2019s thinking. In order to increase its foothold in retail banking, Goldman is accepting that it won\u2019t own the customer relationship. Of course, that\u2019s an easier calculation for a retail rookie like Goldman to make than, say, Bank of America. Nevertheless, the partnership marks a new level of financial gatekeeping for big tech. On the same day that Tim Cook announced Apple Card, he also announced other gatekeeping services in the video streaming, news, and gaming industries, with varying levels of buy-in from content providers. Different as banking may be from those industries, banks would do well to watch and learn from others\u2019 experiences with big tech. Industry Headlines <i>AltFi<\/i>: Several announcements have bubbled up in the AltFi world. First, CommonBond announced an expansion into lending for medical and dental students. This comes after the firm had already expanded its offerings to include a product specific for MBA students. Second, John Mack and Mary Meeker are leaving LendingClub\u2019s board, citing a desire to focus more time on other projects. Third, Affirm is reportedly after a new funding round of $316 million, which would bring its valuation to $2.4 billion. Fourth, Avant is rumored to be far along in talks with the Office of the Comptroller of the Currency (OCC) about its special purpose national bank charter. No details are available at this point, however, and both Avant and the OCC declined to comment. Finally, Kabbage closed a $700 million asset-backed securitization. <i>Blockchain & Crypto<\/i>: PayPal announced an investment in Cambridge Blockchain, its first investment in blockchain technology. Cambridge\u2019s digital identity product is marketed towards financial institutions seeking to lower their KYC costs. Meanwhile, Jeff Skilling is launching a blockchain platform for energy trading or something. In cryptocurrency news, CoinMarketCap has admitted to having some data accuracy issues after a recently filed application for a Bitcoin exchange-traded fund (ETF) accused CoinMarketCap\u2019s data of being \u201cextremely wrong.\u201d To be fair, it can\u2019t be easy to report trading volume on crypto exchanges accurately. <i>Data Intermediation<\/i>: The Financial Data and Technology Association (FDATA) released a whitepaper on the benefits of open banking for the United States. Steve Boms, the executive director of FDATA North America, stated: \u201cIf implemented properly, open banking will preserve the security and stability of the financial system while empowering customers and accelerating opportunities for innovation.\u201d In other news, Equifax and FICO announced a partnership, launching the Data Decisions Cloud. <i>Digital Banking<\/i>: An independent review into the near collapse of Co-op Bank by the Bank of England expressed concern that the effect of digital banking may be to make banks\u2019 deposit bases \u201cless sticky over time.\u201d According to Mark Zelmer, who led the review, the rise of digital banking and open banking may increase the risk of runs on deposits and contagion. On a more positive note, a survey conducted by the Central Bank of Kenya and FSD Kenya concluded that the introduction of M-Pesa increased financial inclusion in the country, where access to financial services increased from 75 percent in 2016 to 83 percent in 2019. Elsewhere, Y Combinator is backing Monzo, and N26 is facing questions from its regulator. <i>Payments<\/i>: Venmo is taking action against users with negative balances in their Venmo accounts, according to a story from the Wall Street Journal. The Journal reports that PayPal recently updated the user agreement for Venmo in order to give itself the ability to seize funds from a PayPal account of a Venmo user with a negative balance, and the company is threatening to send users with a negative balance to a debt collection agency. In some cases, those with negative balances seem to have them after being targeted by fraudsters. In other payments news, Citigroup is throwing its hat in the ring, starting a consumer payments business of its own. Oh, and for all of you FinTech aficionados in Washington D.C., you can expect to see a familiar face at Nats games this season. Global Developments <i>United Nations<\/i>: The Task Force for Digital Financing of the Sustainable Development Goals (SDGs) at the United Nations recently launched a call for contributions that discusses the opportunities for digital financing to help achieve the SDGs. Contributions made by April 30 will be considered for inclusion in the interim report to the secretary general, and contributions made by the final date of October 31 will be considered for inclusion in the final report. <i>World Bank<\/i>: The Consultative Group to Assist the Poor is hosting a webinar on regulatory enablers for achieving universal financial inclusion on April 24. The webinar will focus on how digital financial services can be used to increase financial inclusion and present case studies with evidence from Ghana and Tanzania. <i>Bank for International Settlements<\/i>: The Bank for International Settlements (BIS) published a working paper titled \u201cBig Tech and the changing structure of financial intermediation.\u201d Regular readers of FinTech in Focus will know that this is one of our favorite topics, and the BIS has consistently put out a great analysis of the relevant issues. The paper finds that big tech firms lend more in countries that have less competitive banking sectors, higher levels of financial exclusion, and less stringent bank regulation. <i>European Union<\/i>: According to a recent survey by Tink, a Swedish open banking platform, 41 percent of European banks missed a PSD2 deadline last September to give third-party service providers the ability to test the bank\u2019s APIs. <i>China<\/i>: A list produced by China\u2019s National Redevelopment and Reform Commission suggests that cryptocurrency mining is among the types of activities that the commission will consider eliminating. A public comment period on the list closes on May 7, but the commission did not specify when the proposed ban would come into effect. <i>Germany<\/i>: The German Crowdfunding Association took another step towards establishing itself as a self-regulatory organization for crowdfunding in Germany by introducing a new Transparency Seal, which will be given to members who demonstrate a commitment to certain standards. <i>Mexico<\/i>: Mexican President Andres Manuel Lopez Obrador called for increased competition in the banking sector in a bid to boost financial inclusion. AMLO, as Lopez Obrador is known, stated that the government would offer more banking licenses if needed and doubled down on his commitment to limit bank commissions. <i>South Korea<\/i>: The Financial Services Commission launched South Korea\u2019s regulatory sandbox last week and will review 19 firms for potential inclusion in the sandbox. <i>United States<\/i>: Last week, the Securities and Exchange Commission (SEC) made waves when it issued a Framework for \u201cInvestment Contract\u201d Analysis of Digital Assets. The framework is not a rule and thus does not carry legal weight, but it does give industry stakeholders insight into the SEC\u2019s thinking on the initial coin offerings. Specifically, the framework discusses how the commission will apply the Howey Test to crypto assets. Matt Levine of Bloomberg has a great summary of the issues at hand, while some cryptocurrency experts argue that there is still work to be done. However, the SEC also gave an example of the types of ventures it approves of by issuing a no-action letter to TurnKey Jet, Inc., an air charter service using tokens that are redeemable for services. The SEC wasn\u2019t done there, however. The commission also charged Direct Lending Investments with a \u201cmulti-year fraud\u201d that involved over-charging private funds and inflating their returns. Finally, the Federal Reserve Bank of New York (FRBNY) announced its FinTech Advisory Group, which held its first meeting on April 1. FRBNY also held its first research conference on FinTech at the end of March, which featured a fantastic selection of academic work on lending, blockchain, and regulatory tools. ",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Apple Card You probably heard that Apple is going all in on financial services. Well, not all in. It\u2019s not becoming a bank, of course. It is, however, partnering with Goldman Sachs to offer Apple Card to iPhone users. Apple Card is a credit card with some good (but not unheard of) rewards for its users, such as 2 percent cash back on all purchases. What sets it apart from other credit cards is its enhanced security measures and smooth user experience, which includes a built-in personal financial management (PFM) app. So, is it all over? Should everyone else pack it up now that the best and brightest from Wall Street and Silicon Valley have teamed up to dominate retail banking? Some observers, such as Ron Shevlin of Cornerstone Advisors, are skeptical. Shevlin believes that Apple Card will strike out because the rewards aren\u2019t good enough, no one cares about PFM apps, and Apple just isn\u2019t data-driven enough to get the most out of it. These are all good points, to which I think the only real counterpoint is that Apple is different. Whether because of design quality or the status conferred by owning the newest Apple product, consumers tend to buy things that Apple sells without really needing them. Whether or not it works out that way, however, Apple Card is more interesting for what it reveals about Goldman\u2019s thinking. In order to increase its foothold in retail banking, Goldman is accepting that it won\u2019t own the customer relationship. Of course, that\u2019s an easier calculation for a retail rookie like Goldman to make than, say, Bank of America. Nevertheless, the partnership marks a new level of financial gatekeeping for big tech. On the same day that Tim Cook announced Apple Card, he also announced other gatekeeping services in the video streaming, news, and gaming industries, with varying levels of buy-in from content providers. Different as banking may be from those industries, banks would do well to watch and learn from others\u2019 experiences with big tech. Industry Headlines <i>AltFi<\/i>: Several announcements have bubbled up in the AltFi world. First, CommonBond announced an expansion into lending for medical and dental students. This comes after the firm had already expanded its offerings to include a product specific for MBA students. Second, John Mack and Mary Meeker are leaving LendingClub\u2019s board, citing a desire to focus more time on other projects. Third, Affirm is reportedly after a new funding round of $316 million, which would bring its valuation to $2.4 billion. Fourth, Avant is rumored to be far along in talks with the Office of the Comptroller of the Currency (OCC) about its special purpose national bank charter. No details are available at this point, however, and both Avant and the OCC declined to comment. Finally, Kabbage closed a $700 million asset-backed securitization. <i>Blockchain &amp; Crypto<\/i>: PayPal announced an investment in Cambridge Blockchain, its first investment in blockchain technology. Cambridge\u2019s digital identity product is marketed towards financial institutions seeking to lower their KYC costs. Meanwhile, Jeff Skilling is launching a blockchain platform for energy trading or something. In cryptocurrency news, CoinMarketCap has admitted to having some data accuracy issues after a recently filed application for a Bitcoin exchange-traded fund (ETF) accused CoinMarketCap\u2019s data of being \u201cextremely wrong.\u201d To be fair, it can\u2019t be easy to report trading volume on crypto exchanges accurately. <i>Data Intermediation<\/i>: The Financial Data and Technology Association (FDATA) released a whitepaper on the benefits of open banking for the United States. Steve Boms, the executive director of FDATA North America, stated: \u201cIf implemented properly, open banking will preserve the security and stability of the financial system while empowering customers and accelerating opportunities for innovation.\u201d In other news, Equifax and FICO announced a partnership, launching the Data Decisions Cloud. <i>Digital Banking<\/i>: An independent review into the near collapse of Co-op Bank by the Bank of England expressed concern that the effect of digital banking may be to make banks\u2019 deposit bases \u201cless sticky over time.\u201d According to Mark Zelmer, who led the review, the rise of digital banking and open banking may increase the risk of runs on deposits and contagion. On a more positive note, a survey conducted by the Central Bank of Kenya and FSD Kenya concluded that the introduction of M-Pesa increased financial inclusion in the country, where access to financial services increased from 75 percent in 2016 to 83 percent in 2019. Elsewhere, Y Combinator is backing Monzo, and N26 is facing questions from its regulator. <i>Payments<\/i>: Venmo is taking action against users with negative balances in their Venmo accounts, according to a story from the Wall Street Journal. The Journal reports that PayPal recently updated the user agreement for Venmo in order to give itself the ability to seize funds from a PayPal account of a Venmo user with a negative balance, and the company is threatening to send users with a negative balance to a debt collection agency. In some cases, those with negative balances seem to have them after being targeted by fraudsters. In other payments news, Citigroup is throwing its hat in the ring, starting a consumer payments business of its own. Oh, and for all of you FinTech aficionados in Washington D.C., you can expect to see a familiar face at Nats games this season. Global Developments <i>United Nations<\/i>: The Task Force for Digital Financing of the Sustainable Development Goals (SDGs) at the United Nations recently launched a call for contributions that discusses the opportunities for digital financing to help achieve the SDGs. Contributions made by April 30 will be considered for inclusion in the interim report to the secretary general, and contributions made by the final date of October 31 will be considered for inclusion in the final report. <i>World Bank<\/i>: The Consultative Group to Assist the Poor is hosting a webinar on regulatory enablers for achieving universal financial inclusion on April 24. The webinar will focus on how digital financial services can be used to increase financial inclusion and present case studies with evidence from Ghana and Tanzania. <i>Bank for International Settlements<\/i>: The Bank for International Settlements (BIS) published a working paper titled \u201cBig Tech and the changing structure of financial intermediation.\u201d Regular readers of FinTech in Focus will know that this is one of our favorite topics, and the BIS has consistently put out a great analysis of the relevant issues. The paper finds that big tech firms lend more in countries that have less competitive banking sectors, higher levels of financial exclusion, and less stringent bank regulation. <i>European Union<\/i>: According to a recent survey by Tink, a Swedish open banking platform, 41 percent of European banks missed a PSD2 deadline last September to give third-party service providers the ability to test the bank\u2019s APIs. <i>China<\/i>: A list produced by China\u2019s National Redevelopment and Reform Commission suggests that cryptocurrency mining is among the types of activities that the commission will consider eliminating. A public comment period on the list closes on May 7, but the commission did not specify when the proposed ban would come into effect. <i>Germany<\/i>: The German Crowdfunding Association took another step towards establishing itself as a self-regulatory organization for crowdfunding in Germany by introducing a new Transparency Seal, which will be given to members who demonstrate a commitment to certain standards. <i>Mexico<\/i>: Mexican President Andres Manuel Lopez Obrador called for increased competition in the banking sector in a bid to boost financial inclusion. AMLO, as Lopez Obrador is known, stated that the government would offer more banking licenses if needed and doubled down on his commitment to limit bank commissions. <i>South Korea<\/i>: The Financial Services Commission launched South Korea\u2019s regulatory sandbox last week and will review 19 firms for potential inclusion in the sandbox. <i>United States<\/i>: Last week, the Securities and Exchange Commission (SEC) made waves when it issued a Framework for \u201cInvestment Contract\u201d Analysis of Digital Assets. The framework is not a rule and thus does not carry legal weight, but it does give industry stakeholders insight into the SEC\u2019s thinking on the initial coin offerings. Specifically, the framework discusses how the commission will apply the Howey Test to crypto assets. Matt Levine of Bloomberg has a great summary of the issues at hand, while some cryptocurrency experts argue that there is still work to be done. However, the SEC also gave an example of the types of ventures it approves of by issuing a no-action letter to TurnKey Jet, Inc., an air charter service using tokens that are redeemable for services. The SEC wasn\u2019t done there, however. The commission also charged Direct Lending Investments with a \u201cmulti-year fraud\u201d that involved over-charging private funds and inflating their returns. Finally, the Federal Reserve Bank of New York (FRBNY) announced its FinTech Advisory Group, which held its first meeting on April 1. FRBNY also held its first research conference on FinTech at the end of March, which featured a fantastic selection of academic work on lending, blockchain, and regulatory tools. ",
+    "summary": null,
+    "summary_processed": ""
+}

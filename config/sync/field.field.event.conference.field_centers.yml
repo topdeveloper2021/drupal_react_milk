@@ -1,0 +1,29 @@
+uuid: a8c9cc4b-c4ce-4f8c-bf32-bacae24b7e63
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_centers
+    - taxonomy.vocabulary.centers
+id: event.conference.field_centers
+field_name: field_centers
+entity_type: event
+bundle: conference
+label: Centers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

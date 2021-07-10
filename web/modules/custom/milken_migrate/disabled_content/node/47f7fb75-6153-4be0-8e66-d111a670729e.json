@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/americans-stand-cusp-money-revolution?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/161?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 789
+        }
+    ],
+    "uuid": [
+        {
+            "value": "47f7fb75-6153-4be0-8e66-d111a670729e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 789
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/161?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dc3cc1fe-9086-4154-9c92-a76bef9f2c83"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Americans Stand On the Cusp of a Money Revolution",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T23:02:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:49:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/americans-stand-cusp-money-revolution",
+            "pid": 842,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Americans are standing on the cusp of a revolution in how we access and use money, a revolution that could make our economic lives more secure and our economy more robust. Just as e-commerce freed merchants and customers from geographic boundaries in the delivery of goods, advances in financial technology promise to make it easier for businesses, investors, and consumers to raise capital, make investments, and transfer money to anyone, anywhere. This technological revolution brings the promise of greater opportunity, particularly for those who live outside the wealthiest parts of the country. Unfortunately, our outdated regulatory structure, made up of a patchwork of state regulations, could stifle this revolution before it starts. A minefield of inconsistent requirements could make it impossible for innovative companies, especially small businesses, to establish a foothold. Fortunately, Congress has the power to protect both innovators and consumers from this regulatory morass and to create a fair and uniform playing field for all participants, if they have the courage to use it. There should be no question that Congress has the power to do so. The Founders understood the danger that too many overlapping state rules posed to the development of a national economy. The Commerce Clause was intended to prevent this by granting Congress the power to regulate interstate commerce and shield it from the burden of excessive state regulation. As technology changes the fundamental nature of financial transactions that were once intrastate but that now regularly reach beyond state lines, it is essential that the regulations governing those transactions are fair and uniform. Frequently the only way to ensure this is for the federal government to make the rules. A recent example of the need for congressional action is the debate surrounding the Security and Exchange Commission's (SEC) changes to Regulation A, an exemption to the requirement that companies \"fully\" register with the SEC prior to seeking investment via the sale of securities. Regulation A was intended to help smaller companies access capital by allowing an abbreviated registration process while allowing regular investors to buy stock in companies that still had early growth potential, provided they sought no more than $5 million in investment. But, only one qualified Regulation A offering was conducted in 2011, compared to more than 8,000 Regulation D offerings that same year. Why? A major reason was that Regulation A not only required companies to undergo a significant vetting and disclosure process from the SEC, but also to comply with the varying and often onerous registration requirements of each and every state in which they sought investment. So, unsurprisingly, companies overwhelmingly chose Regulation D, which, unfortunately for smaller investors is effectively limited to wealthy people and institutions. The JOBS Act was supposed to fix this, but Congress failed to preempt the states and instead simply increased the amount of money a company could raise under Regulation A (apparently to make the hassle worthwhile, but only for companies seeking a very large amount of money). The SEC, using some regulatory jujitsu, found a way to preempt the states for certain offerings, but at the cost of expensive ongoing disclosure obligations. The rules force companies to choose between dealing with the states or gaining preemption and having to face expensive ongoing and burdensome disclosures. Understandably this has not pleased the states, who feel their authority was unjustly stripped by the SEC. Some small business advocates are also disappointed at the compromise, fearing that instead of one unusable Regulation A, we now have two. The SEC isn't to blame; it has done what it can to make this work under significant political pressure. Rather, Congress should have acknowledged that while private and quasi-private securities offerings may have once been primarily local affairs, thanks to the internet, investing in a company on the other side of the country can be almost as easy as buying clothes on Amazon, rendering state borders moot. To be viable, any policy that seeks to expand access to capital will need to take this into account, and apply a uniform standard. Congress is the appropriate body to make that decision. Securities are by no means the only industry where technology is transforming local transactions to national ones. Lending, money transmittal, and a host of other financial activities are being profoundly changed by the ease with which technology allows people to interact over distance. While this shift has great promise to make finance more accessible and inclusive the uncertainty of having to navigate over fifty separate legal regimes will stifle innovation. To prevent this, Congress must be willing to both reevaluate where preexisting divisions of authority are now obsolete and be willing to provide innovative industries clear, exclusive, and limited rules for entrepreneurs to follow. The scope of interstate commerce is much broader now than it once was, and Congress should take the lead to ensure an economy where innovation and prosperity can cross state lines. <i>Brian Knight is the Associate Director for Financial Policy at the Milken Institute's Center for Financial Markets.\u00a0<\/i> <i>This article originally appeared on RealClearMarkets.com\u00a0<\/i>",
+    "format": "rich_text",
+    "processed": "Americans are standing on the cusp of a revolution in how we access and use money, a revolution that could make our economic lives more secure and our economy more robust. Just as e-commerce freed merchants and customers from geographic boundaries in the delivery of goods, advances in financial technology promise to make it easier for businesses, investors, and consumers to raise capital, make investments, and transfer money to anyone, anywhere. This technological revolution brings the promise of greater opportunity, particularly for those who live outside the wealthiest parts of the country. Unfortunately, our outdated regulatory structure, made up of a patchwork of state regulations, could stifle this revolution before it starts. A minefield of inconsistent requirements could make it impossible for innovative companies, especially small businesses, to establish a foothold. Fortunately, Congress has the power to protect both innovators and consumers from this regulatory morass and to create a fair and uniform playing field for all participants, if they have the courage to use it. There should be no question that Congress has the power to do so. The Founders understood the danger that too many overlapping state rules posed to the development of a national economy. The Commerce Clause was intended to prevent this by granting Congress the power to regulate interstate commerce and shield it from the burden of excessive state regulation. As technology changes the fundamental nature of financial transactions that were once intrastate but that now regularly reach beyond state lines, it is essential that the regulations governing those transactions are fair and uniform. Frequently the only way to ensure this is for the federal government to make the rules. A recent example of the need for congressional action is the debate surrounding the Security and Exchange Commission's (SEC) changes to Regulation A, an exemption to the requirement that companies \"fully\" register with the SEC prior to seeking investment via the sale of securities. Regulation A was intended to help smaller companies access capital by allowing an abbreviated registration process while allowing regular investors to buy stock in companies that still had early growth potential, provided they sought no more than $5 million in investment. But, only one qualified Regulation A offering was conducted in 2011, compared to more than 8,000 Regulation D offerings that same year. Why? A major reason was that Regulation A not only required companies to undergo a significant vetting and disclosure process from the SEC, but also to comply with the varying and often onerous registration requirements of each and every state in which they sought investment. So, unsurprisingly, companies overwhelmingly chose Regulation D, which, unfortunately for smaller investors is effectively limited to wealthy people and institutions. The JOBS Act was supposed to fix this, but Congress failed to preempt the states and instead simply increased the amount of money a company could raise under Regulation A (apparently to make the hassle worthwhile, but only for companies seeking a very large amount of money). The SEC, using some regulatory jujitsu, found a way to preempt the states for certain offerings, but at the cost of expensive ongoing disclosure obligations. The rules force companies to choose between dealing with the states or gaining preemption and having to face expensive ongoing and burdensome disclosures. Understandably this has not pleased the states, who feel their authority was unjustly stripped by the SEC. Some small business advocates are also disappointed at the compromise, fearing that instead of one unusable Regulation A, we now have two. The SEC isn't to blame; it has done what it can to make this work under significant political pressure. Rather, Congress should have acknowledged that while private and quasi-private securities offerings may have once been primarily local affairs, thanks to the internet, investing in a company on the other side of the country can be almost as easy as buying clothes on Amazon, rendering state borders moot. To be viable, any policy that seeks to expand access to capital will need to take this into account, and apply a uniform standard. Congress is the appropriate body to make that decision. Securities are by no means the only industry where technology is transforming local transactions to national ones. Lending, money transmittal, and a host of other financial activities are being profoundly changed by the ease with which technology allows people to interact over distance. While this shift has great promise to make finance more accessible and inclusive the uncertainty of having to navigate over fifty separate legal regimes will stifle innovation. To prevent this, Congress must be willing to both reevaluate where preexisting divisions of authority are now obsolete and be willing to provide innovative industries clear, exclusive, and limited rules for entrepreneurs to follow. The scope of interstate commerce is much broader now than it once was, and Congress should take the lead to ensure an economy where innovation and prosperity can cross state lines. <i>Brian Knight is the Associate Director for Financial Policy at the Milken Institute's Center for Financial Markets.\u00a0<\/i> <i>This article originally appeared on RealClearMarkets.com\u00a0<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,43 @@
+uuid: 74ea7dd5-5486-4067-9b75-a558bf07353b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.missing_migration.missing_migration
+    - field.field.missing_migration.missing_migration.field_id
+    - field.field.missing_migration.missing_migration.field_type
+id: missing_migration.missing_migration.default
+targetEntityType: missing_migration
+bundle: missing_migration
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_id:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_type:
+    weight: 11
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

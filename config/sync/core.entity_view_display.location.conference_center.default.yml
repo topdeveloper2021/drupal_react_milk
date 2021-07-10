@@ -1,0 +1,41 @@
+uuid: 00240f9b-4c8c-463a-895a-a68c007dda89
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.conference_center
+    - field.field.location.conference_center.field_address
+    - field.field.location.conference_center.field_rooms
+  module:
+    - address
+id: location.conference_center.default
+targetEntityType: location
+bundle: conference_center
+mode: default
+content:
+  field_address:
+    weight: -4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_rooms:
+    weight: -3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

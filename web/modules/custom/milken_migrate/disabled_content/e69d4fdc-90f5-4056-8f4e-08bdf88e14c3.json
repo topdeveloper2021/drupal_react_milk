@@ -1,0 +1,115 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/91\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/main-menu---future-of-aging"
+        }
+    },
+    "id": [
+        {
+            "value": 91
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e69d4fdc-90f5-4056-8f4e-08bdf88e14c3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "main-menu---future-of-aging"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Videos",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "Watch thought-provoking sessions from our events",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main-menu---future-of-aging"
+        }
+    ],
+    "link": [
+        {
+            "uri": "https:\/\/preview.milkeninstitute.org\/search?f%5B0%5D=content_type%3Avideo&f%5B1%5D=topics_gral%3A114",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
+        }
+    ],
+    "weight": [
+        {
+            "value": -48
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:f40b98fa-571d-4fe7-885a-691aff8fe216"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-10T20:54:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "view_mode": [
+        {
+            "value": "default",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ]
+}

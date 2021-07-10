@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7802\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/01b57bxvlobBP9QKGVKgKQn1HUmcHvgtGwoj6OTKa1U.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7802
+        }
+    ],
+    "uuid": [
+        {
+            "value": "875c518a-32f7-43f0-bb99-ba9d70ae245f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 470
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/01b57bxvlobBP9QKGVKgKQn1HUmcHvgtGwoj6OTKa1U.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "154d9439-58d4-43ab-8d5e-4af272158dae"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Real Estate: Best Countries, Best Classes",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-28T21:35:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Opportunities in real estate vary greatly by country and asset class. Where are investors likely to find the best returns? Are slow-growth markets, such as the euro zone, undervalued? Are there still plays to be made in the U.S., where the Fed is poised to raise interest rates? With China's markets slowing, where should investors look in Asia? Do some locations in Latin America look attractive or are markets still too pricey? What are the trends by asset classes (commercial, retail, industrial, multi-family, single family, hospitality)? As equity markets become expensive relative to earnings, will more investors turn to real estate for appreciation and a rate of return? What are the leading sources of capital? Is debt or equity the way to proceed? What about capital for new construction? Listen as a panel of leading investors discuss opportunities and risk in the world's real estate markets.",
+    "format": "rich_text",
+    "processed": "Opportunities in real estate vary greatly by country and asset class. Where are investors likely to find the best returns? Are slow-growth markets, such as the euro zone, undervalued? Are there still plays to be made in the U.S., where the Fed is poised to raise interest rates? With China's markets slowing, where should investors look in Asia? Do some locations in Latin America look attractive or are markets still too pricey? What are the trends by asset classes (commercial, retail, industrial, multi-family, single family, hospitality)? As equity markets become expensive relative to earnings, will more investors turn to real estate for appreciation and a rate of return? What are the leading sources of capital? Is debt or equity the way to proceed? What about capital for new construction? Listen as a panel of leading investors discuss opportunities and risk in the world's real estate markets.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/k2P66czYAFQ",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/01b57bxvlobBP9QKGVKgKQn1HUmcHvgtGwoj6OTKa1U.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

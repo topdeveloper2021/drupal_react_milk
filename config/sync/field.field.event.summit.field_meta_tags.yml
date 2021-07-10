@@ -1,0 +1,21 @@
+uuid: 6924206f-440c-4f7f-a931-6a2759d033f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_meta_tags
+  module:
+    - metatag
+id: event.summit.field_meta_tags
+field_name: field_meta_tags
+entity_type: event
+bundle: summit
+label: 'meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

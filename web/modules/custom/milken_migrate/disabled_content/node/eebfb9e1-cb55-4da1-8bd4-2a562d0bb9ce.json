@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/no-child-left-behind-discourages-investment-neediest-students-experts-report-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 166
+        }
+    ],
+    "uuid": [
+        {
+            "value": "eebfb9e1-cb55-4da1-8bd4-2a562d0bb9ce"
+        }
+    ],
+    "vid": [
+        {
+            "value": 166
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "No Child Left Behind discourages investment in neediest students, experts report in Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/no-child-left-behind-discourages-investment-neediest-students-experts-report-milken",
+            "pid": 219,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - The Bush Administration\u2032s No Child Left Behind law was designed to force public schools to meet higher standards, or suffer the loss of federal aid. But new research by <b>Diane Schanzenbach<\/b> and colleagues at the University of Chicago shows that the law actually undermines efforts to bring many students up to snuff. \"The system is grounded on testing that rewards schools based on the fraction of their students that pass,\" she writes in the new Milken Institute Review. \"As a result, teachers have a perverse incentive to focus their efforts on students who are very close to the pass-fail threshold at the expense of their worst-performing students.\" Examining potential solutions, Schanzenbach recommends a system that credits the highest proficiency, \"but also gives partial credit for students who fall short of this highest threshold, yet do manage to exceed lower thresholds.\" Also in this issue of the Milken Institute's quarterly journal: <b>Robert Looney<\/b> of the Naval Postgraduate School in Monterey, recounts the rise and fall of Thailand's colorful prime minister Thaksin Shinawatra - and with him, his effort to give the country\u2032s poor a stake in export-led economic growth. \"Thaksinomics may not have gotten it all right. But it is entirely possible that the failure to intervene, Thaksin-style, to prevent growing income inequality in Asia will sooner or later derail the continent\u2032s rush to affluence.\" <b>Jeffrey Frankel<\/b>, former economic advisor to President Clinton, offers a primer on the latest threat to the stability of the international capital flows that power globalization. \"About 10 years ago, the phrase 'carry trade' made the leap from investment bank trading rooms to the Markets section of The Wall Street Journal. More recently, readers of high-end financial pages have been treated to assertions that the carry trade is 'unwinding,' with consequences galore for international financial markets. My guess, though, is that the notion of the carry trade and its implications are still Greek to all but the most devoted consumers of financial news.\" <b>Barry Eichengreen<\/b> analyzes Europe\u2032s efforts to regain economic leadership after decades of stop-and-go growth and chronically high unemployment. \"To be sure, the productivity payoff has been modest. But reforming an advanced economy is a little bit like trying to overhaul a car's engine while the vehicle is running. One must expect a bit of sputtering.\" <b>Greg Sidek<\/b> and <b>Hal Singer<\/b> of the Criterion Economics consulting firm examine the Federal Communications Commission\u2032s disturbing inclination to micromanage mergers in the telecom industry and its increasing preference for conduct-based merger remedies as opposed to structural remedies or divestiture. \"Commissioners are likely to come and go from the telecommunications industry, the telecommunications bar, and the Congressional committees overseeing the FCC. Thus, for commissioners, the costs (in terms of future income) of alienating telecom constituencies are significant. And conduct remedies offer an effective way of spreading around the goodies in ways that keep everyone sweet.\" <b>Margaret Anderson<\/b>, <b>Greg Simon<\/b> and <b>Melissa Stevens<\/b> of FasterCures, the Milken Institute\u2032s medical solutions innovation center, report on the creation of a new service designed to point philanthropists in the right directions. \"By empowering affluent donors, we can apply the skills and ambition to medical philanthropy that have driven the success of the most innovative companies in America.\" <b>Jim Leitzel<\/b> of the University of Chicago explains how \"self-exclusion\" offers a novel way of containing addiction problems without undermining personal freedom. \"But the advantages of licensing or self-exclusion seem most pronounced when applied to currently illegal substances such as cocaine and heroin. Heavy consumers of some illegal drugs know they are exercising bad judgment so they might welcome programs (short of incarceration) that limit their consumption.\" The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times. All of the articles are available online at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - The Bush Administration\u2032s No Child Left Behind law was designed to force public schools to meet higher standards, or suffer the loss of federal aid. But new research by <b>Diane Schanzenbach<\/b> and colleagues at the University of Chicago shows that the law actually undermines efforts to bring many students up to snuff. \"The system is grounded on testing that rewards schools based on the fraction of their students that pass,\" she writes in the new Milken Institute Review. \"As a result, teachers have a perverse incentive to focus their efforts on students who are very close to the pass-fail threshold at the expense of their worst-performing students.\" Examining potential solutions, Schanzenbach recommends a system that credits the highest proficiency, \"but also gives partial credit for students who fall short of this highest threshold, yet do manage to exceed lower thresholds.\" Also in this issue of the Milken Institute's quarterly journal: <b>Robert Looney<\/b> of the Naval Postgraduate School in Monterey, recounts the rise and fall of Thailand's colorful prime minister Thaksin Shinawatra - and with him, his effort to give the country\u2032s poor a stake in export-led economic growth. \"Thaksinomics may not have gotten it all right. But it is entirely possible that the failure to intervene, Thaksin-style, to prevent growing income inequality in Asia will sooner or later derail the continent\u2032s rush to affluence.\" <b>Jeffrey Frankel<\/b>, former economic advisor to President Clinton, offers a primer on the latest threat to the stability of the international capital flows that power globalization. \"About 10 years ago, the phrase 'carry trade' made the leap from investment bank trading rooms to the Markets section of The Wall Street Journal. More recently, readers of high-end financial pages have been treated to assertions that the carry trade is 'unwinding,' with consequences galore for international financial markets. My guess, though, is that the notion of the carry trade and its implications are still Greek to all but the most devoted consumers of financial news.\" <b>Barry Eichengreen<\/b> analyzes Europe\u2032s efforts to regain economic leadership after decades of stop-and-go growth and chronically high unemployment. \"To be sure, the productivity payoff has been modest. But reforming an advanced economy is a little bit like trying to overhaul a car's engine while the vehicle is running. One must expect a bit of sputtering.\" <b>Greg Sidek<\/b> and <b>Hal Singer<\/b> of the Criterion Economics consulting firm examine the Federal Communications Commission\u2032s disturbing inclination to micromanage mergers in the telecom industry and its increasing preference for conduct-based merger remedies as opposed to structural remedies or divestiture. \"Commissioners are likely to come and go from the telecommunications industry, the telecommunications bar, and the Congressional committees overseeing the FCC. Thus, for commissioners, the costs (in terms of future income) of alienating telecom constituencies are significant. And conduct remedies offer an effective way of spreading around the goodies in ways that keep everyone sweet.\" <b>Margaret Anderson<\/b>, <b>Greg Simon<\/b> and <b>Melissa Stevens<\/b> of FasterCures, the Milken Institute\u2032s medical solutions innovation center, report on the creation of a new service designed to point philanthropists in the right directions. \"By empowering affluent donors, we can apply the skills and ambition to medical philanthropy that have driven the success of the most innovative companies in America.\" <b>Jim Leitzel<\/b> of the University of Chicago explains how \"self-exclusion\" offers a novel way of containing addiction problems without undermining personal freedom. \"But the advantages of licensing or self-exclusion seem most pronounced when applied to currently illegal substances such as cocaine and heroin. Heavy consumers of some illegal drugs know they are exercising bad judgment so they might welcome programs (short of incarceration) that limit their consumption.\" The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times. All of the articles are available online at www.milkeninstitute.org.",
+    "summary": null,
+    "summary_processed": ""
+}

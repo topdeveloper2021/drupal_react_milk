@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7454\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/KPJ6shwlTJ9EdXaynR4TqHkHpIxBjk9h7PKHaz8ia9k.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7454
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e2e2f2a1-4752-4a6c-92ca-316ff251f926"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1590
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/KPJ6shwlTJ9EdXaynR4TqHkHpIxBjk9h7PKHaz8ia9k.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2dd9a348-e6b0-40e5-8dd9-20f6694ef4de"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Things That Will Blow Your Mind",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-06-23T10:01:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T12:25:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Listen as this panel of visionaries discuss the remarkable projects they\u2019re working on to drive advancement in the neuroscience and engineering fields.<br \/> <br \/> Moderator:<br \/> Richard Sandler, Executive Vice President, Milken Family Foundation; Partner, Law Offices of Maron & Sandler<br \/> <br \/> Speakers:<br \/> Ed Boyden, Professor, MIT Media Lab and McGovern Institute Mary Lou Jepsen, Founder and CEO, OpenWater Bryan Johnson, Founder and CEO, Kernel and OS Fund Neal Kassell, Founder and Chairman, Focused Ultrasound Foundation",
+    "format": "rich_text",
+    "processed": "Listen as this panel of visionaries discuss the remarkable projects they\u2019re working on to drive advancement in the neuroscience and engineering fields.<br \/><br \/> Moderator:<br \/> Richard Sandler, Executive Vice President, Milken Family Foundation; Partner, Law Offices of Maron &amp; Sandler<br \/><br \/> Speakers:<br \/> Ed Boyden, Professor, MIT Media Lab and McGovern Institute Mary Lou Jepsen, Founder and CEO, OpenWater Bryan Johnson, Founder and CEO, Kernel and OS Fund Neal Kassell, Founder and Chairman, Focused Ultrasound Foundation",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/hXUNO_8Oo0s",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/KPJ6shwlTJ9EdXaynR4TqHkHpIxBjk9h7PKHaz8ia9k.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

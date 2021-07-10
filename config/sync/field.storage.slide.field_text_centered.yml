@@ -1,0 +1,18 @@
+uuid: d3202103-9113-425b-9f14-e57293fd2b7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: slide.field_text_centered
+field_name: field_text_centered
+entity_type: slide
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,27 @@
+uuid: 3efd8aa0-d043-496b-89fc-35b937a99375
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_social_media
+  module:
+    - social_media
+id: people.person.field_social_media
+field_name: field_social_media
+entity_type: people
+bundle: person
+label: 'Social Media'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: social_media

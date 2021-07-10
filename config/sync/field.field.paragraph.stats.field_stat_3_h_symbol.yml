@@ -1,0 +1,19 @@
+uuid: 5e00a4ca-2794-44cb-be5a-a5e5175c19a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stat_3_h_symbol
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_stat_3_h_symbol
+field_name: field_stat_3_h_symbol
+entity_type: paragraph
+bundle: stats
+label: 'Stat 3 Header Symbol'
+description: 'Very short text to show before the first stat number value.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

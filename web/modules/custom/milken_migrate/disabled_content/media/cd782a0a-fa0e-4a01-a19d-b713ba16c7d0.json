@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7429\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Gb81V1I3AminurZpGtj3EtoMEPa0GZaNx-Y7an-DMVI.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7429
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cd782a0a-fa0e-4a01-a19d-b713ba16c7d0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 205
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Gb81V1I3AminurZpGtj3EtoMEPa0GZaNx-Y7an-DMVI.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8454726d-389a-490d-adf8-d4ea0d53a45b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Supercharge the Search for Cures: Medical Philanthropists Reinvent Giving to Get Results",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-17T13:39:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The Milken Institute's Center for Strategic Philanthropy and its predecessor, the Philanthropy Advisory Service, have conducted more than a dozen deep dives into \"disease philanthropy.\" These inquiries have yielded valuable lessons on how philanthropists and family offices can make a difference in a wide range of diseases such as Parkinson's Disease, End Stage Renal Disease, Melanoma and many more. This panel will examine the following questions:<br><br>How can medical philanthropy evolve beyond \"checkbook\" philanthropy?<br>What experiences are the most gratifying and challenging for the philanthropist?<br>Compared to government resources for scientific research, will medical philanthropic capital always be marginal? Can it be transformative when it targets a specific disease?",
+    "format": "rich_text",
+    "processed": "The Milken Institute's Center for Strategic Philanthropy and its predecessor, the Philanthropy Advisory Service, have conducted more than a dozen deep dives into \"disease philanthropy.\" These inquiries have yielded valuable lessons on how philanthropists and family offices can make a difference in a wide range of diseases such as Parkinson's Disease, End Stage Renal Disease, Melanoma and many more. This panel will examine the following questions:<br \/><br \/>How can medical philanthropy evolve beyond \"checkbook\" philanthropy?<br \/>What experiences are the most gratifying and challenging for the philanthropist?<br \/>Compared to government resources for scientific research, will medical philanthropic capital always be marginal? Can it be transformative when it targets a specific disease?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/I23z5LwXKG4",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/Gb81V1I3AminurZpGtj3EtoMEPa0GZaNx-Y7an-DMVI.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

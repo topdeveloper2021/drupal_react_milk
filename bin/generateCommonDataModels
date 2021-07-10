@@ -1,0 +1,63 @@
+#!/usr/bin/env ts-node-script --project=../tsconfig.json
+
+const AccessToken = require("../src/DataTypes/AccessToken").AccessToken;
+const { Spider, Extractor, Logger } = require("drupal-jsonapi-extractor");
+const Axios = require("axios");
+
+const endpoint = new URL("http://localhost:8080");
+const baseURL = new URL(`${endpoint.toString()}/jsonapi/`);
+
+Axios.get(`${endpoint.toString()}/rest/session/token`)
+  .then((res) => {
+    const sessionToken = res.data;
+    return AccessToken.getToken()
+      .then((res) => {
+        return new AccessToken(res);
+      })
+      .then((accessToken) => {
+        console.log("Access Token", accessToken);
+        return Axios.create({
+          method: "GET",
+          baseURL: baseURL,
+          headers: {
+            "Content-Type": "application/hal+json",
+            "X-CSRF-Token": sessionToken,
+            "Access-Control-Allow-Origin": "http://localhost:8080",
+            "Access-Control-Allow-Credentials": "true",
+            Authorization: accessToken.Authorization,
+          },
+          port: 8080,
+          debug: true,
+          withCredentials: true,
+        });
+      });
+  })
+  .then((axiosClient) => {
+    const spider = new Spider({
+      baseURL: "http://localhost:8080/jsonapi/",
+      terminateOnError: true,
+      api: axiosClient,
+    });
+
+    try {
+      ["media", "node", "event", "slide", "paragraphs"].map((entityTypeId) => {
+        console.debug("Extracting: ", entityTypeId);
+        const extractor = new Extractor(spider, {
+          location: `src/DataTypes/${entityTypeId}`,
+          clean: true,
+        });
+        const logger = new Logger([spider, extractor]);
+        spider
+          .crawl(
+            baseURL
+              .toString()
+              .concat(`/${entityTypeId}_type/${entityTypeId}_type`)
+          )
+          .catch((err) => {
+            console.error(err.message);
+          });
+      });
+    } catch (err) {
+      console.error(err.message);
+    }
+  });

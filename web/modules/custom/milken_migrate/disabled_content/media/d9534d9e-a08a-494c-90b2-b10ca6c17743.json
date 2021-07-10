@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7048\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/iOwYCBRQlr78u4_ju86Sbxvy3eaTNSzpy1691eRyMiI.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7048
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d9534d9e-a08a-494c-90b2-b10ca6c17743"
+        }
+    ],
+    "vid": [
+        {
+            "value": 18
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/iOwYCBRQlr78u4_ju86Sbxvy3eaTNSzpy1691eRyMiI.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "00681af3-0486-454a-9397-d86f29029b6d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Investing for Immortality",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T11:12:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "With auction sale values now reaching hundreds of millions of dollars, the return on investment on an art masterpiece can be tremendous. But more than a hefty profit, this asset class offers something that very few investment opportunities do: a shot at immortality. We remember the Medicis not only for their statesmanship or business acumen, but for their legacy as early supporters and patrons of Michelangelo, Leonardo Da Vinci, Sandro Boticelli, and other great masters of art. While the possibility of immortality is certainly there, the odds are tough. What are the risks and opportunities for investment associated with this growing asset class? What are the avenues for investment? What sets good art apart? How can art investors maximize their chances of earning a page in history? ",
+    "format": "rich_text",
+    "processed": "With auction sale values now reaching hundreds of millions of dollars, the return on investment on an art masterpiece can be tremendous. But more than a hefty profit, this asset class offers something that very few investment opportunities do: a shot at immortality. We remember the Medicis not only for their statesmanship or business acumen, but for their legacy as early supporters and patrons of Michelangelo, Leonardo Da Vinci, Sandro Boticelli, and other great masters of art. While the possibility of immortality is certainly there, the odds are tough. What are the risks and opportunities for investment associated with this growing asset class? What are the avenues for investment? What sets good art apart? How can art investors maximize their chances of earning a page in history? ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/lx0Vsw3DGt8",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/iOwYCBRQlr78u4_ju86Sbxvy3eaTNSzpy1691eRyMiI.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

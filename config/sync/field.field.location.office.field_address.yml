@@ -1,0 +1,33 @@
+uuid: 2be46dfc-4421-4d4c-96c3-7cbbb808f12d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.office
+    - field.storage.location.field_address
+  module:
+    - address
+id: location.office.field_address
+field_name: field_address
+entity_type: location
+bundle: office
+label: Address
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries: {  }
+  langcode_override: ''
+  field_overrides:
+    givenName:
+      override: hidden
+    additionalName:
+      override: hidden
+    familyName:
+      override: hidden
+    organization:
+      override: hidden
+  fields: {  }
+field_type: address

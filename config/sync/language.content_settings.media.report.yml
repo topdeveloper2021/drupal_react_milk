@@ -1,0 +1,11 @@
+uuid: ada94366-42e7-4f38-9998-bf74ea2fa631
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.report
+id: media.report
+target_entity_type_id: media
+target_bundle: report
+default_langcode: site_default
+language_alterable: false

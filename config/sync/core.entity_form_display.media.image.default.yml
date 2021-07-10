@@ -1,0 +1,269 @@
+uuid: 888f5efc-e808-4daa-8f2d-02ba8ac8a255
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_collections
+    - field.field.media.image.field_events
+    - field.field.media.image.field_field_centers
+    - field.field.media.image.field_filemime
+    - field.field.media.image.field_filesize
+    - field.field.media.image.field_height
+    - field.field.media.image.field_media_image
+    - field.field.media.image.field_media_in_library
+    - field.field.media.image.field_photo_subject_name
+    - field.field.media.image.field_photo_subject_title
+    - field.field.media.image.field_regions
+    - field.field.media.image.field_tags
+    - field.field.media.image.field_topics
+    - field.field.media.image.field_width
+    - image.style.thumbnail
+    - media.type.image
+  module:
+    - field_group
+    - image
+    - path
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_content
+        - group_authoring
+        - group_taxonomy
+      parent_name: ''
+      weight: 2
+      format_type: tabs
+      format_settings:
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: Tabs
+      region: content
+    group_content:
+      children:
+        - field_filemime
+        - field_filesize
+        - field_height
+        - field_width
+        - field_media_image
+        - field_photo_subject_name
+        - field_photo_subject_title
+        - field_media_in_library
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Content
+      region: content
+    group_authoring:
+      children:
+        - langcode
+        - uid
+        - created
+        - path
+      parent_name: group_tabs
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Authoring
+      region: content
+    group_taxonomy:
+      children:
+        - field_topics
+        - field_tags
+        - field_events
+        - field_regions
+        - field_collections
+        - field_field_centers
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      region: hidden
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Taxonomy
+id: media.image.default
+targetEntityType: media
+bundle: image
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_collections:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_events:
+    weight: 25
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_field_centers:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_filemime:
+    weight: 101
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_filesize:
+    weight: 102
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_height:
+    weight: 103
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_media_image:
+    weight: 105
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_media_in_library:
+    weight: 108
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_photo_subject_name:
+    weight: 106
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photo_subject_title:
+    weight: 107
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_regions:
+    weight: 26
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tags:
+    weight: 24
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_topics:
+    weight: 23
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_width:
+    weight: 104
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 0
+    region: content
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

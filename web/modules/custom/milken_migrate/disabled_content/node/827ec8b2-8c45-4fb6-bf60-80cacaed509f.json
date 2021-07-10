@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/worlds-decision-makers-gather-shape-future-10th-anniversary-milken-institute-global?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 180
+        }
+    ],
+    "uuid": [
+        {
+            "value": "827ec8b2-8c45-4fb6-bf60-80cacaed509f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 180
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "World's Decision-Makers Gather to 'Shape the Future' at 10th Anniversary Milken Institute Global Conference",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/worlds-decision-makers-gather-shape-future-10th-anniversary-milken-institute-global",
+            "pid": 233,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - World leaders in business, finance, education, health care, philanthropy and public policy gather in Los Angeles on April 23-25 for what has become one of the premier intellectual, cultural and social events of the year: the Milken Institute Global Conference. This year\u2032s conference, which is expected to draw a record audience of nearly 3,000, has become a key forum for global decision-makers to tackle the most relevant current issues, from reducing oil dependency to ensuring access to a good education, quality health care and well-paying jobs. More than 430 panelists will appear on some 120 sessions, including more than 100 CEOs, seven winners of the Nobel Prize, six ambassadors and former ambassadors, current and former members of Congress, the head of the FDA, a former astronaut, union leaders, media visionaries, actors and executives of some of the world\u2032s largest private-equity companies, asset-management firms and pension funds. A few of this year\u2032s lineup of panelists include: \u0387 Roger Ailes, Chairman and CEO, FOX News<b>\n\u0387 Leon Black, Founding Partner, Apollo Advisors L.P.<br>\n\u0387 David Bonderman, Founding Partner, Texas Pacific Group<br>\n\u0387 Harold Ford, Jr., former Congressman and Chairman, Democratic Leadership Council<br>\n\u0387 Michael J. Fox, Founder, The Michael J. Fox Foundation for Parkinson\u2032s Research<br>\n\u0387 Helene Gayle, President and CEO, CARE USA<br>\n\u0387 Edward Lazear, Chairman, White House Council of Economic Advisers\n<br>\u0387 Angelo Mozilo, Chairman and CEO, Countrywide Financial Corporation<br>\n\u0387 Rupert Murdoch, Chairman and CEO, News Corporation<br>\n\u0387 Michael Oxley, Vice Chairman, NASDAQ; former Chairman of The House Financial Services Committee<br>\n\u0387 Boone Pickens, Entrepreneur and Philanthropist\n<br>\u0387 Sumner Redstone, Chairman and CEO, Viacom<br>\n\u0387 David Rubenstein, Managing Director, The Carlyle Group\n<br>\u0387 Terry Semel, Chairman and CEO, Yahoo! Inc.<br>\n\u0387 Andrew Stern, President, Service Employees International Union<br>\n\u0387 Ronald Sugar, Chairman and CEO, Northrop Grumman Corporation\n<br>\u0387 Ted Turner, Chairman, United Foundation<br>\n\u0387 Andrew von Eschenbach, Commissioner, U.S. Food and Drug Administration<br>\n\u0387 Deborah Wince-Smith, President, Council on Competitiveness<br>\n\u0387 Steve Wynn, President and CEO, Wynn Resorts \"What makes Global Conference so unique is the ability to convene such an impressive group of decision-makers and global capital resources in one place,\" said Milken Institute President and CEO Michael Klowden. \"Here we can see the truly transformational power of the capital markets and their role in raising the quality of life of people around the world.\" Sessions include: \u0387 Four Nobel laureates discuss what can be done to effectively slow global warming <br>\n\u0387 The former Senate Majority Leader, the head of the FDA and leading philanthropists offer their insights on how to solve U.S. and global health problems<br>\n\u0387 Private-equity executives from four of the world\u2032s largest and most influential firms talk about investment opportunities in 2007<br>\n\u0387 Members of the Iraqi Parliament describe conditions in their country - and what the future may hold<br>\n\u0387 Investors and a former ambassador discuss the political reforms needed to encourage sustainable growth and prosperity in China\n<br>\u0387 A look at New Orleans as a domestic emerging market, where financial innovation, social capital and private-public partnerships are generating growth and opportunity<br>\n\u0387 Leaders of some of the world\u2032s largest media firms debate how they plan to stay ahead in today\u2032s fast-changing entertainment environment<br>\n\u0387 Education experts, including a governor and the former U.S. secretary of education, offer their ideas on fixing America\u2032s K-12 schools <\/b>\n\u0387 This year\u2032s theme is \"Shaping the Future\" and panelists and attendees will be challenged to take financial innovation and best practices beyond the barriers of specific industries and countries to find greater benefit across the globe. The 10th Anniversary Milken Institute Global Conference is underwritten by Calyon, Guggenheim and SBI Group. For complete information about the Global Conference, visit: www.milkeninstitute.org. Note to media: Members of the press with proper credentials wishing to cover the 2007 Global Conference must apply using our online Media Registration Form on the web site\u2032s registration page. Please note that you are not registered until your application has been approved and you receive confirmation.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - World leaders in business, finance, education, health care, philanthropy and public policy gather in Los Angeles on April 23-25 for what has become one of the premier intellectual, cultural and social events of the year: the Milken Institute Global Conference. This year\u2032s conference, which is expected to draw a record audience of nearly 3,000, has become a key forum for global decision-makers to tackle the most relevant current issues, from reducing oil dependency to ensuring access to a good education, quality health care and well-paying jobs. More than 430 panelists will appear on some 120 sessions, including more than 100 CEOs, seven winners of the Nobel Prize, six ambassadors and former ambassadors, current and former members of Congress, the head of the FDA, a former astronaut, union leaders, media visionaries, actors and executives of some of the world\u2032s largest private-equity companies, asset-management firms and pension funds. A few of this year\u2032s lineup of panelists include: \u0387 Roger Ailes, Chairman and CEO, FOX News<b>\n\u0387 Leon Black, Founding Partner, Apollo Advisors L.P.<br \/>\n\u0387 David Bonderman, Founding Partner, Texas Pacific Group<br \/>\n\u0387 Harold Ford, Jr., former Congressman and Chairman, Democratic Leadership Council<br \/>\n\u0387 Michael J. Fox, Founder, The Michael J. Fox Foundation for Parkinson\u2032s Research<br \/>\n\u0387 Helene Gayle, President and CEO, CARE USA<br \/>\n\u0387 Edward Lazear, Chairman, White House Council of Economic Advisers\n<br \/>\u0387 Angelo Mozilo, Chairman and CEO, Countrywide Financial Corporation<br \/>\n\u0387 Rupert Murdoch, Chairman and CEO, News Corporation<br \/>\n\u0387 Michael Oxley, Vice Chairman, NASDAQ; former Chairman of The House Financial Services Committee<br \/>\n\u0387 Boone Pickens, Entrepreneur and Philanthropist\n<br \/>\u0387 Sumner Redstone, Chairman and CEO, Viacom<br \/>\n\u0387 David Rubenstein, Managing Director, The Carlyle Group\n<br \/>\u0387 Terry Semel, Chairman and CEO, Yahoo! Inc.<br \/>\n\u0387 Andrew Stern, President, Service Employees International Union<br \/>\n\u0387 Ronald Sugar, Chairman and CEO, Northrop Grumman Corporation\n<br \/>\u0387 Ted Turner, Chairman, United Foundation<br \/>\n\u0387 Andrew von Eschenbach, Commissioner, U.S. Food and Drug Administration<br \/>\n\u0387 Deborah Wince-Smith, President, Council on Competitiveness<br \/>\n\u0387 Steve Wynn, President and CEO, Wynn Resorts \"What makes Global Conference so unique is the ability to convene such an impressive group of decision-makers and global capital resources in one place,\" said Milken Institute President and CEO Michael Klowden. \"Here we can see the truly transformational power of the capital markets and their role in raising the quality of life of people around the world.\" Sessions include: \u0387 Four Nobel laureates discuss what can be done to effectively slow global warming <br \/>\n\u0387 The former Senate Majority Leader, the head of the FDA and leading philanthropists offer their insights on how to solve U.S. and global health problems<br \/>\n\u0387 Private-equity executives from four of the world\u2032s largest and most influential firms talk about investment opportunities in 2007<br \/>\n\u0387 Members of the Iraqi Parliament describe conditions in their country - and what the future may hold<br \/>\n\u0387 Investors and a former ambassador discuss the political reforms needed to encourage sustainable growth and prosperity in China\n<br \/>\u0387 A look at New Orleans as a domestic emerging market, where financial innovation, social capital and private-public partnerships are generating growth and opportunity<br \/>\n\u0387 Leaders of some of the world\u2032s largest media firms debate how they plan to stay ahead in today\u2032s fast-changing entertainment environment<br \/>\n\u0387 Education experts, including a governor and the former U.S. secretary of education, offer their ideas on fixing America\u2032s K-12 schools <\/b>\n\u0387 This year\u2032s theme is \"Shaping the Future\" and panelists and attendees will be challenged to take financial innovation and best practices beyond the barriers of specific industries and countries to find greater benefit across the globe. The 10th Anniversary Milken Institute Global Conference is underwritten by Calyon, Guggenheim and SBI Group. For complete information about the Global Conference, visit: www.milkeninstitute.org. Note to media: Members of the press with proper credentials wishing to cover the 2007 Global Conference must apply using our online Media Registration Form on the web site\u2032s registration page. Please note that you are not registered until your application has been approved and you receive confirmation.",
+    "summary": null,
+    "summary_processed": ""
+}

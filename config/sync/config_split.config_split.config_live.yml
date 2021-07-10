@@ -1,0 +1,24 @@
+uuid: abc8df7b-b6e3-4bb5-a934-aa8340139d2b
+langcode: en
+status: false
+dependencies: {  }
+id: config_live
+label: 'Live Config Splitr'
+description: ''
+folder: ../config/splits/live
+module:
+  devel: 0
+  devel_generate: 0
+  search_api: 50
+  search_api_solr: 51
+  search_api_attachments: 52
+theme: {  }
+blacklist:
+  - search_api.index.milken_solr
+  - search_api.server.solr_dev
+  - system.performance
+  - views.view.search
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

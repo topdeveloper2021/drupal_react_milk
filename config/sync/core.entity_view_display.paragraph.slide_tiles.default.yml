@@ -1,0 +1,52 @@
+uuid: 60755a00-2c40-41c8-92e7-3f53857e7b84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide_tiles.field_background_color
+    - field.field.paragraph.slide_tiles.field_slide_refs
+    - field.field.paragraph.slide_tiles.field_title
+    - field.field.paragraph.slide_tiles.field_view_mode
+    - paragraphs.paragraphs_type.slide_tiles
+  module:
+    - color_field
+    - options
+id: paragraph.slide_tiles.default
+targetEntityType: paragraph
+bundle: slide_tiles
+mode: default
+content:
+  field_background_color:
+    weight: 0
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_slide_refs:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_title:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_view_mode:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  search_api_excerpt: true

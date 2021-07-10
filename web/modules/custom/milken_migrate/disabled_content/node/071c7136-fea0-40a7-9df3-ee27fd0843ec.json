@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-july-30-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/138?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 766
+        }
+    ],
+    "uuid": [
+        {
+            "value": "071c7136-fea0-40a7-9df3-ee27fd0843ec"
+        }
+    ],
+    "vid": [
+        {
+            "value": 766
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/138?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "aa65b5f8-a701-4a76-88b7-6be3bbea40e5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - July 30, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-30T12:14:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:41:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-july-30-2018",
+            "pid": 819,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Platform Effect Platforms are simultaneously blessed and haunted by network effects: blessed by the positive feedback loop of a growing user base and haunted by the need to grow and maintain that user base. To see the power of reverse network effects, look no further than the empty storefronts and parking spaces at your local mall. For a digital example of the same phenomenon, the rise and fall of Myspace provides another cautionary tale. Late last week, American tech platforms received a sharp reminder of the centrality of their networks to their businesses. Facebook and Twitter each saw their share prices drop around 20 percent upon the release of their quarterly results. Both price drops were precipitated by less than stellar news about the platforms\u2019 user bases, with Facebook\u2019s user growth slowing and Twitter\u2019s recent purge of fake accounts leading to a decrease in active users. Two weeks earlier, Netflix\u2019s stock fell by as much as 14 percent on a similar report that they had added 1 million less subscribers than expected. None of these firms look to go the way of the local mall or Myspace just this moment, but their perceived vulnerability raised questions about the strength of the tech sector as a whole. Talk of contagion has been mostly quelled by a strong quarterly report from Amazon (Alphabet revealed strong earnings earlier in the week, bouncing back from news of the European Union\u2019s \u20ac4.3 billion fine). Still, the impact that tech platforms and their networks have on financial markets is not to be underestimated. Markets are down at the time of writing, despite news that the U.S. economy grew at its fastest rate in four years in the second quarter.<b> Industry Headlines <i>AltFi:\u00a0<\/i>The carnage continued in China\u2019s peer-to-peer lending market last week. At least 118 platforms have failed in July alone. In Hangzhou, two sporting arenas were enlisted to allow petition bureaus to process complaints from investors. According to analysis by China International Capital Corp., no more than 10 percent of existing platforms are likely to exist in another three years. Meanwhile, eBay announced that it will begin offering loans to its merchants in a partnership with Square Capital. This comes not long after eBay broke off its partnership with PayPal in favor of Adyen. Previously, PayPal offered working capital loans to eBay merchants. Finally, OnDeck announced that it is expanding its business to Australia and Canada. <i>Blockchain and Crypto:<\/i> Late last week the news broke that the Winklevoss twins\u2019 latest effort to list a bitcoin exchange traded fund (ETF) was rebuffed by the U.S. Securities and Exchange Commission (SEC) yet again. The SEC noted their denial does not preclude favorable rulings in the future, but maintained its concerns that bitcoin is vulnerable to manipulation. Notably, the SEC referenced a study we have discussed in previous weeks that shows that Tether has been used to prop up the price of bitcoin. In other crypto ETF news, the SEC released comments made (mostly) in support of another bitcoin ETF. They make for wonderful reading and might help explain the SEC\u2019s skepticism. Meanwhile, the Digital Currency Group\u2019s Barry Silbert believes that bitcoin\u2019s price has already reached its nadir for 2018 and put his money where his mouth is by investing more in bitcoin a few weeks ago. Silbert said, \u201cAs an asset class it is here to stay \u2026 I\u2019m 100% confident a decentralized, non-fiat form of money is here to stay.\u201d Not all cryptocurrencies are still the beneficiaries of such bullish sentiment, however. The Verge took a look at some of the more notorious cryptocurrencies that have received celebrity endorsements and found that most of them aren\u2019t doing so well. My particular favorite is \u201cAkoin,\u201d but I also can\u2019t help but to enjoy the fact that Elon Musk lost the key to his digital wallet. In blockchain, Barclays filed two patent applications with the U.S. Patent and Trademark Office. The first application deals with transferring digital currencies, while the second is focused on using blockchain technology to validate personal information for Know-Your-Customer requirements. Elsewhere, BBVA signed a corporate loan with ACS using blockchain technology, and Chinese citizens have found an unusual use case for blockchain by storing censored articles within the metadata of cryptocurrency transactions. <i>RegTech:<\/i> The International RegTech Association (IRTA) announced a partnership with The Disruption House, a benchmarking and data analytics company. The partnership gives IRTA members access to The Disruption Company\u2019s Scorecard. <i>Payments:<\/i> Not unlike other tech platforms last week, PayPal\u2019s quarterly earnings managed to disappoint investors without actually reporting any bad news. PayPal outperformed estimates for revenue and earnings, and raised its guidance for the year. Investors, however, seemed to have set the bar even higher for the payments giant. This came just days after hedge fund Third Point announced a significant stake in the company. Daniel Loeb, Third Point\u2019s manager, is confident in PayPal, stating, \"We see parallels between PayPal and other best\u2010in\u2010class internet platforms like Netflix and Amazon: high and rising market share, untapped pricing power, and significant margin expansion potential.\" Elsewhere, SoftBank and Paytm will reportedly partner to offer a mobile payments service in Japan by the end of 2018. The competition in Japan is sure to be fierce, where all the usual suspects from China and the U.S. are circling, in addition to local leaders like Line and Mercari. Speaking of fierce competition, Snapchat announced that it would shut down its Snapcash feature, a partnership with Square. Finally, on the back end, Stripe is launching a product to allow its business clients to issue branded payments cards for their customers. <br \/> Global Developments <strong>Europe<\/b><b> <i>European Union:<\/i> The European Parliament Committee on Economic and Monetary Affairs published a study on competition issues raised by the emergence of FinTech. There is a lot to discuss here (and I am going to need to spend some more time with this report) but looking at FinTech through the prism of European competition policy is going to be crucial to understanding the market moving forward. As we have written before, big tech platforms may ultimately be the biggest beneficiaries of Open Banking and the E.U.\u2019s second Payment Services Directive. <i>United Kingdom:<\/i> The Financial Conduct Authority (FCA) released their annual report, which covers a wide range of issues under the FCA\u2019s purview. With respect to FinTech, the report states that; \u201cThe FCA has been a consistent champion of Fintech and Regtech. Our advocacy and experience has encouraged regulators in other jurisdictions to follow suit. I hope and expect that the number of these joint programmes, both formal and informal, will grow. Not least because financial innovation on a global scale requires consistent standards of global regulation.\u201d Notably, the FCA gives special attention to its competition mandate as being a key driver of their work on FinTech. This focus on increasing competition has resulted in the FCA\u2019s leading regulatory sandbox initiative, TechSprints, and other projects. Elsewhere, the FCA made news last week by updating its rules for crowdfunding. The FCA\u2019s new rules will cover loan-based crowdfunding, where they state that they have observed some poor business practices. Finally, the Bank of England gave blockchain in the U.K. a boost last week by announcing that its revamped Real-Time Gross Settlement system should be able to link up with blockchain-based FinTech firms. <i>Spain:<\/i>\u00a0Spain looks to become the latest country to jump on the sandbox bandwagon, with news breaking last week that the country\u2019s financial regulator is drafting a regulation to establish a regulatory sandbox modeled after the FCA\u2019s efforts in the U.K. <strong>Asia<\/b><b> <i>China:<\/i> Financial regulators in China and South Korea announced a cooperation agreement on a host of issues last week, including the regulation of cryptocurrencies. <i>India:\u00a0<\/i>WhatsApp\u2019s launch of its payments service in India has been delayed by the Ministry of Electronics and Information Technology amid concerns of how Facebook stores and uses its users\u2019 data. WhatsApp\u2019s spokeswoman stated, \u201cWe are working closely with the Indian government, National Payments Corporation of India, and multiple banks including our payment service providers to expand the feature to more people.\u201d <i>South Korea:<\/i> South Korea\u2019s Financial Services Commission announced the creation of a Financial Innovation Bureau. The bureau will be charged with policy initiatives relevant to topics including FinTech, big data, and cryptocurrencies. <strong>North America<\/b><br \/> <i>United States:<\/i> A group of industry leaders sent an email to SEC Chairman Jay Clayton, asking that the Commission increase Regulation Crowdfunding\u2019s maximum amount to $20 million from its current level of $1.07 million. This comes after the U.K. and Germany have raised their levels to $9.4 million, prompting industry leaders to argue that the maximum must be raised in order for the U.S. to maintain its leadership in the space. Elsewhere, Federal Reserve Chairman Jerome Powell stated that cryptocurrencies are not yet big enough to pose a systemic risk to the financial system. He also explicitly said that the Fed is not looking at CBDCs at this time. Finally, in a separate hearing, Commodity Futures Trading Commission (CFTC) Chairman Christopher Giancarlo discussed the CFTC\u2019s efforts to regulate cryptocurrencies and blockchain. Giancarlo stated, \u201cMy focus as Chairman has been guided by six broad elements concerning virtual currency: (1) staff competency; (2) consumer education; (3) U.S. interagency cooperation; (4) exercise of authority; (5) strong enforcement; and, (6) heightened review of virtual currency product self-certifications.\u201d ",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Platform Effect Platforms are simultaneously blessed and haunted by network effects: blessed by the positive feedback loop of a growing user base and haunted by the need to grow and maintain that user base. To see the power of reverse network effects, look no further than the empty storefronts and parking spaces at your local mall. For a digital example of the same phenomenon, the rise and fall of Myspace provides another cautionary tale. Late last week, American tech platforms received a sharp reminder of the centrality of their networks to their businesses. Facebook and Twitter each saw their share prices drop around 20 percent upon the release of their quarterly results. Both price drops were precipitated by less than stellar news about the platforms\u2019 user bases, with Facebook\u2019s user growth slowing and Twitter\u2019s recent purge of fake accounts leading to a decrease in active users. Two weeks earlier, Netflix\u2019s stock fell by as much as 14 percent on a similar report that they had added 1 million less subscribers than expected. None of these firms look to go the way of the local mall or Myspace just this moment, but their perceived vulnerability raised questions about the strength of the tech sector as a whole. Talk of contagion has been mostly quelled by a strong quarterly report from Amazon (Alphabet revealed strong earnings earlier in the week, bouncing back from news of the European Union\u2019s \u20ac4.3 billion fine). Still, the impact that tech platforms and their networks have on financial markets is not to be underestimated. Markets are down at the time of writing, despite news that the U.S. economy grew at its fastest rate in four years in the second quarter.<b> Industry Headlines <i>AltFi:\u00a0<\/i>The carnage continued in China\u2019s peer-to-peer lending market last week. At least 118 platforms have failed in July alone. In Hangzhou, two sporting arenas were enlisted to allow petition bureaus to process complaints from investors. According to analysis by China International Capital Corp., no more than 10 percent of existing platforms are likely to exist in another three years. Meanwhile, eBay announced that it will begin offering loans to its merchants in a partnership with Square Capital. This comes not long after eBay broke off its partnership with PayPal in favor of Adyen. Previously, PayPal offered working capital loans to eBay merchants. Finally, OnDeck announced that it is expanding its business to Australia and Canada. <i>Blockchain and Crypto:<\/i> Late last week the news broke that the Winklevoss twins\u2019 latest effort to list a bitcoin exchange traded fund (ETF) was rebuffed by the U.S. Securities and Exchange Commission (SEC) yet again. The SEC noted their denial does not preclude favorable rulings in the future, but maintained its concerns that bitcoin is vulnerable to manipulation. Notably, the SEC referenced a study we have discussed in previous weeks that shows that Tether has been used to prop up the price of bitcoin. In other crypto ETF news, the SEC released comments made (mostly) in support of another bitcoin ETF. They make for wonderful reading and might help explain the SEC\u2019s skepticism. Meanwhile, the Digital Currency Group\u2019s Barry Silbert believes that bitcoin\u2019s price has already reached its nadir for 2018 and put his money where his mouth is by investing more in bitcoin a few weeks ago. Silbert said, \u201cAs an asset class it is here to stay \u2026 I\u2019m 100% confident a decentralized, non-fiat form of money is here to stay.\u201d Not all cryptocurrencies are still the beneficiaries of such bullish sentiment, however. The Verge took a look at some of the more notorious cryptocurrencies that have received celebrity endorsements and found that most of them aren\u2019t doing so well. My particular favorite is \u201cAkoin,\u201d but I also can\u2019t help but to enjoy the fact that Elon Musk lost the key to his digital wallet. In blockchain, Barclays filed two patent applications with the U.S. Patent and Trademark Office. The first application deals with transferring digital currencies, while the second is focused on using blockchain technology to validate personal information for Know-Your-Customer requirements. Elsewhere, BBVA signed a corporate loan with ACS using blockchain technology, and Chinese citizens have found an unusual use case for blockchain by storing censored articles within the metadata of cryptocurrency transactions. <i>RegTech:<\/i> The International RegTech Association (IRTA) announced a partnership with The Disruption House, a benchmarking and data analytics company. The partnership gives IRTA members access to The Disruption Company\u2019s Scorecard. <i>Payments:<\/i> Not unlike other tech platforms last week, PayPal\u2019s quarterly earnings managed to disappoint investors without actually reporting any bad news. PayPal outperformed estimates for revenue and earnings, and raised its guidance for the year. Investors, however, seemed to have set the bar even higher for the payments giant. This came just days after hedge fund Third Point announced a significant stake in the company. Daniel Loeb, Third Point\u2019s manager, is confident in PayPal, stating, \"We see parallels between PayPal and other best\u2010in\u2010class internet platforms like Netflix and Amazon: high and rising market share, untapped pricing power, and significant margin expansion potential.\" Elsewhere, SoftBank and Paytm will reportedly partner to offer a mobile payments service in Japan by the end of 2018. The competition in Japan is sure to be fierce, where all the usual suspects from China and the U.S. are circling, in addition to local leaders like Line and Mercari. Speaking of fierce competition, Snapchat announced that it would shut down its Snapcash feature, a partnership with Square. Finally, on the back end, Stripe is launching a product to allow its business clients to issue branded payments cards for their customers. <br \/> Global Developments <strong>Europe<\/strong><\/b><b> <i>European Union:<\/i> The European Parliament Committee on Economic and Monetary Affairs published a study on competition issues raised by the emergence of FinTech. There is a lot to discuss here (and I am going to need to spend some more time with this report) but looking at FinTech through the prism of European competition policy is going to be crucial to understanding the market moving forward. As we have written before, big tech platforms may ultimately be the biggest beneficiaries of Open Banking and the E.U.\u2019s second Payment Services Directive. <i>United Kingdom:<\/i> The Financial Conduct Authority (FCA) released their annual report, which covers a wide range of issues under the FCA\u2019s purview. With respect to FinTech, the report states that; \u201cThe FCA has been a consistent champion of Fintech and Regtech. Our advocacy and experience has encouraged regulators in other jurisdictions to follow suit. I hope and expect that the number of these joint programmes, both formal and informal, will grow. Not least because financial innovation on a global scale requires consistent standards of global regulation.\u201d Notably, the FCA gives special attention to its competition mandate as being a key driver of their work on FinTech. This focus on increasing competition has resulted in the FCA\u2019s leading regulatory sandbox initiative, TechSprints, and other projects. Elsewhere, the FCA made news last week by updating its rules for crowdfunding. The FCA\u2019s new rules will cover loan-based crowdfunding, where they state that they have observed some poor business practices. Finally, the Bank of England gave blockchain in the U.K. a boost last week by announcing that its revamped Real-Time Gross Settlement system should be able to link up with blockchain-based FinTech firms. <i>Spain:<\/i>\u00a0Spain looks to become the latest country to jump on the sandbox bandwagon, with news breaking last week that the country\u2019s financial regulator is drafting a regulation to establish a regulatory sandbox modeled after the FCA\u2019s efforts in the U.K. <strong>Asia<\/strong><\/b><b> <i>China:<\/i> Financial regulators in China and South Korea announced a cooperation agreement on a host of issues last week, including the regulation of cryptocurrencies. <i>India:\u00a0<\/i>WhatsApp\u2019s launch of its payments service in India has been delayed by the Ministry of Electronics and Information Technology amid concerns of how Facebook stores and uses its users\u2019 data. WhatsApp\u2019s spokeswoman stated, \u201cWe are working closely with the Indian government, National Payments Corporation of India, and multiple banks including our payment service providers to expand the feature to more people.\u201d <i>South Korea:<\/i> South Korea\u2019s Financial Services Commission announced the creation of a Financial Innovation Bureau. The bureau will be charged with policy initiatives relevant to topics including FinTech, big data, and cryptocurrencies. <strong>North America<\/strong><\/b><br \/><i>United States:<\/i> A group of industry leaders sent an email to SEC Chairman Jay Clayton, asking that the Commission increase Regulation Crowdfunding\u2019s maximum amount to $20 million from its current level of $1.07 million. This comes after the U.K. and Germany have raised their levels to $9.4 million, prompting industry leaders to argue that the maximum must be raised in order for the U.S. to maintain its leadership in the space. Elsewhere, Federal Reserve Chairman Jerome Powell stated that cryptocurrencies are not yet big enough to pose a systemic risk to the financial system. He also explicitly said that the Fed is not looking at CBDCs at this time. Finally, in a separate hearing, Commodity Futures Trading Commission (CFTC) Chairman Christopher Giancarlo discussed the CFTC\u2019s efforts to regulate cryptocurrencies and blockchain. Giancarlo stated, \u201cMy focus as Chairman has been guided by six broad elements concerning virtual currency: (1) staff competency; (2) consumer education; (3) U.S. interagency cooperation; (4) exercise of authority; (5) strong enforcement; and, (6) heightened review of virtual currency product self-certifications.\u201d ",
+    "summary": null,
+    "summary_processed": ""
+}

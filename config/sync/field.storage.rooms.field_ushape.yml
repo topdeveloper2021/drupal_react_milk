@@ -1,0 +1,21 @@
+uuid: 70e50cc7-b066-485d-bcc9-4b6c7d8c4691
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: rooms.field_ushape
+field_name: field_ushape
+entity_type: rooms
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

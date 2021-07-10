@@ -1,0 +1,25 @@
+uuid: 150f17a7-06f1-4320-a16c-1349327e9792
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_tab.field_tab_content
+    - paragraphs.paragraphs_type.paragraph_tab
+  module:
+    - layout_paragraphs
+id: paragraph.paragraph_tab.default
+targetEntityType: paragraph
+bundle: paragraph_tab
+mode: default
+content:
+  field_tab_content:
+    type: layout_paragraphs
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  search_api_excerpt: true

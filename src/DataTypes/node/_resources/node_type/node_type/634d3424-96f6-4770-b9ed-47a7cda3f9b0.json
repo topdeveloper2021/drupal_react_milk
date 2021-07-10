@@ -1,0 +1,36 @@
+{
+  "type": "node_type--node_type",
+  "id": "634d3424-96f6-4770-b9ed-47a7cda3f9b0",
+  "links": {
+    "describedby": {
+      "href": "http://localhost:8080/jsonapi/node_type/node_type/resource/schema"
+    },
+    "self": {
+      "href": "http://localhost:8080/jsonapi/node_type/node_type/634d3424-96f6-4770-b9ed-47a7cda3f9b0"
+    }
+  },
+  "attributes": {
+    "langcode": "en",
+    "status": true,
+    "dependencies": {
+      "module": [
+        "menu_ui"
+      ]
+    },
+    "third_party_settings": {
+      "menu_ui": {
+        "available_menus": [
+          "main"
+        ],
+        "parent": "main:"
+      }
+    },
+    "name": "Article",
+    "drupal_internal__type": "article",
+    "description": "",
+    "help": "",
+    "new_revision": true,
+    "preview_mode": 1,
+    "display_submitted": true
+  }
+}

@@ -1,0 +1,52 @@
+uuid: 30830daf-2697-4974-bf9d-063f533d86bd
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article.field_authors
+    - field.field.node.article.field_centers
+    - field.field.node.article.field_collections
+    - field.field.node.article.field_content
+    - field.field.node.article.field_event
+    - field.field.node.article.field_events
+    - field.field.node.article.field_index_weight
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_promo_slide
+    - field.field.node.article.field_region
+    - field.field.node.article.field_summary
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_topics
+    - field.field.node.article.field_yoast_seo
+    - node.type.article
+  module:
+    - user
+id: node.article.teaser
+targetEntityType: node
+bundle: article
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_authors: true
+  field_centers: true
+  field_collections: true
+  field_content: true
+  field_event: true
+  field_events: true
+  field_index_weight: true
+  field_meta_tags: true
+  field_promo_slide: true
+  field_promotional_slide: true
+  field_region: true
+  field_summary: true
+  field_tags: true
+  field_topics: true
+  field_yoast_seo: true
+  langcode: true
+  published_at: true
+  search_api_excerpt: true

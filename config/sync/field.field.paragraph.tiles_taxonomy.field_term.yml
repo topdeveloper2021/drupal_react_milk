@@ -1,0 +1,37 @@
+uuid: 4046915e-eed4-40d1-866b-8228fefc6381
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_term
+    - paragraphs.paragraphs_type.tiles_taxonomy
+    - taxonomy.vocabulary.centers
+    - taxonomy.vocabulary.collections
+    - taxonomy.vocabulary.milken_tags
+    - taxonomy.vocabulary.program_initiatives
+    - taxonomy.vocabulary.topics
+id: paragraph.tiles_taxonomy.field_term
+field_name: field_term
+entity_type: paragraph
+bundle: tiles_taxonomy
+label: field_term
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+      collections: collections
+      milken_tags: milken_tags
+      program_initiatives: program_initiatives
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: milken_tags
+field_type: entity_reference

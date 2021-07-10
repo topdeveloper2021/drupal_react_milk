@@ -1,0 +1,20 @@
+{{ attach_library('milken_base/people') }}
+
+{% set eck_entity_value =  []
+  | merge({ 'entityTypeId': eck_entity.getEntityTypeId })
+  | merge({ 'id': eck_entity.uuid.value })
+  | merge({ 'drupal_internal__id': eck_entity.id })
+  | merge({ 'type': eck_entity.bundle })
+  | merge({ 'includes': "field_photo,field_event,field_centers" })
+
+%}
+
+
+<people
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ eck_entity_value | jsonapi }}"
+>
+
+</people>

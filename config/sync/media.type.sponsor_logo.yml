@@ -1,0 +1,23 @@
+uuid: 14a7eeca-2470-47c1-935b-f66188dbd8bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: field_media_image
+id: sponsor_logo
+label: 'Sponsor Logo'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name
+  mimetype: field_filemime
+  filesize: field_filesize
+  width: field_width
+  height: field_width

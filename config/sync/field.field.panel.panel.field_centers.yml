@@ -1,0 +1,29 @@
+uuid: 77795156-b955-40ff-8cc9-a35202897dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_centers
+    - taxonomy.vocabulary.centers
+id: panel.panel.field_centers
+field_name: field_centers
+entity_type: panel
+bundle: panel
+label: Centers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

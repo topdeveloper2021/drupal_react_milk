@@ -1,0 +1,28 @@
+uuid: 2c30edc7-422b-4308-bd2b-b320fe9f10fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.missing_migration.missing_migration
+    - entityqueue.entity_queue.featured
+    - field.storage.entity_subqueue.field_missing_migrations
+id: entity_subqueue.featured.field_missing_migrations
+field_name: field_missing_migrations
+entity_type: entity_subqueue
+bundle: featured
+label: 'Missing Migrations'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:missing_migration'
+  handler_settings:
+    target_bundles:
+      missing_migration: missing_migration
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

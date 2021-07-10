@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-education-key-prosperity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/111?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 695
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c70a70da-169b-483e-8573-cfbeac829b18"
+        }
+    ],
+    "vid": [
+        {
+            "value": 695
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/111?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f6fcf3fe-9378-48ff-946f-62a1b687176e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Education Is the Key to Prosperity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T06:48:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:34:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-education-key-prosperity",
+            "pid": 748,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>To drive shared prosperity, we need to make sure that everyone can get the education and lifelong training he or she needs to succeed in the 21st century.<\/b><\/i> I first set foot on American soil when I was three years old. Like so many immigrant families, mine left Italy to pursue opportunity and a better life. And when they imagined that better life for me, they always told me the same thing: It starts with a good education. When I was in school, my parents let me know when they were proud, but they always pushed me to be better. (In my house, there was never an A-minus that shouldn\u2019t have been an A-plus.) And thanks to them, I became the first person in my family to go to college. Stories like this affirm a central plank of the American dream\u2014that if you work hard and get an education, you can prosper. But, as technology advances, certain jobs become obsolete, the skills required for success evolve, and many Americans\u2019 belief in that dream has been shaken. To drive shared prosperity, we need to make sure that everyone can get the education and lifelong training they need to succeed in the 21st century. Our education system has a critical role to play in that, of course, but the business community must step up, too. In particular, we can help to prepare the next generation of workers in three critical ways. <b>Partnering with Colleges and Universities <\/b> First, companies and academic institutions should actively collaborate to ensure students are acquiring the knowledge and skills they\u2019ll need once they enter the workforce. At EY, for example, we are engaging with colleges and universities through two innovative public-private-partnerships: The Business Roundtable Workforce Partnership Initiative and the Greater Washington Partnership. Through these initiatives, some of America\u2019s leading companies are joining forces with colleges and universities to make sure their workforce readiness programs are aligned with the needs of local employers. That way, students graduate with the most in-demand skills, and businesses have a stronger talent pipeline. Beyond these partnerships, EY also works with schools to design courses and give students critical real-world experience. We\u2019ve collaborated with educators and professional services experts to create a free virtual library of curriculum modules on a variety of topics that are relevant to our business. While efforts like these can have a major impact, they only work if colleges and universities embrace them. In many cases, college faculty resist changing curriculums that worked in the past, even as the world changes rapidly outside of their doors. It\u2019s time to change that\u2014and for universities and businesses to work together. <b>Helping More Students Pursue Higher Education<\/b> Of course, what is taught at colleges and universities is only relevant to students who are able to enroll in the first place. That\u2019s why it\u2019s also important for businesses to invest in their communities and help reduce the barriers to higher education. This is particularly important at EY, where an informal internal survey found that roughly one-third of our US employees are first-generation college graduates. That\u2019s why we invest time and resources to help students across the country to see higher education as a realistic path. As part of our College MAP program, EY employees mentor students in underserved communities, helping them navigate the process of applying for colleges and scholarships. I\u2019ve also been personally involved with two amazing organizations, Prep for Prep and Oliver Scholars, which help students from underserved communities in New York City find placement at independent schools and prepare for a top college education. Like me, an incredible number of these students go on to become the first person in their families to earn a degree. <b>Promoting Continuous Learning in the Workplace <\/b> Finally, we often talk about education as it relates to students, but learning shouldn\u2019t end once your career begins. EY invests more than $500 million in training and nearly 13 million hours in classroom instruction each year. We also promote continuous learning through a program called EY Badges, which lets our people earn credentials for acquiring and applying new skills. These efforts help keep our workforce strong while giving our people ways to gain valuable skills that will benefit them throughout their careers. One of the things that makes the American Dream so remarkable is that it\u2019s accessible to people from all backgrounds and walks of life. Today, as businesses become more tech-driven, it\u2019s up to companies to make investments in education and workforce training to make sure that promise always holds true. <i>The views reflected in this article are the views of the author and do not necessarily reflect the views of the global EY organization or its member firms.<\/i>",
+    "format": "rich_text",
+    "processed": "<i><b>To drive shared prosperity, we need to make sure that everyone can get the education and lifelong training he or she needs to succeed in the 21st century.<\/b><\/i> I first set foot on American soil when I was three years old. Like so many immigrant families, mine left Italy to pursue opportunity and a better life. And when they imagined that better life for me, they always told me the same thing: It starts with a good education. When I was in school, my parents let me know when they were proud, but they always pushed me to be better. (In my house, there was never an A-minus that shouldn\u2019t have been an A-plus.) And thanks to them, I became the first person in my family to go to college. Stories like this affirm a central plank of the American dream\u2014that if you work hard and get an education, you can prosper. But, as technology advances, certain jobs become obsolete, the skills required for success evolve, and many Americans\u2019 belief in that dream has been shaken. To drive shared prosperity, we need to make sure that everyone can get the education and lifelong training they need to succeed in the 21st century. Our education system has a critical role to play in that, of course, but the business community must step up, too. In particular, we can help to prepare the next generation of workers in three critical ways. <b>Partnering with Colleges and Universities <\/b> First, companies and academic institutions should actively collaborate to ensure students are acquiring the knowledge and skills they\u2019ll need once they enter the workforce. At EY, for example, we are engaging with colleges and universities through two innovative public-private-partnerships: The Business Roundtable Workforce Partnership Initiative and the Greater Washington Partnership. Through these initiatives, some of America\u2019s leading companies are joining forces with colleges and universities to make sure their workforce readiness programs are aligned with the needs of local employers. That way, students graduate with the most in-demand skills, and businesses have a stronger talent pipeline. Beyond these partnerships, EY also works with schools to design courses and give students critical real-world experience. We\u2019ve collaborated with educators and professional services experts to create a free virtual library of curriculum modules on a variety of topics that are relevant to our business. While efforts like these can have a major impact, they only work if colleges and universities embrace them. In many cases, college faculty resist changing curriculums that worked in the past, even as the world changes rapidly outside of their doors. It\u2019s time to change that\u2014and for universities and businesses to work together. <b>Helping More Students Pursue Higher Education<\/b> Of course, what is taught at colleges and universities is only relevant to students who are able to enroll in the first place. That\u2019s why it\u2019s also important for businesses to invest in their communities and help reduce the barriers to higher education. This is particularly important at EY, where an informal internal survey found that roughly one-third of our US employees are first-generation college graduates. That\u2019s why we invest time and resources to help students across the country to see higher education as a realistic path. As part of our College MAP program, EY employees mentor students in underserved communities, helping them navigate the process of applying for colleges and scholarships. I\u2019ve also been personally involved with two amazing organizations, Prep for Prep and Oliver Scholars, which help students from underserved communities in New York City find placement at independent schools and prepare for a top college education. Like me, an incredible number of these students go on to become the first person in their families to earn a degree. <b>Promoting Continuous Learning in the Workplace <\/b> Finally, we often talk about education as it relates to students, but learning shouldn\u2019t end once your career begins. EY invests more than $500 million in training and nearly 13 million hours in classroom instruction each year. We also promote continuous learning through a program called EY Badges, which lets our people earn credentials for acquiring and applying new skills. These efforts help keep our workforce strong while giving our people ways to gain valuable skills that will benefit them throughout their careers. One of the things that makes the American Dream so remarkable is that it\u2019s accessible to people from all backgrounds and walks of life. Today, as businesses become more tech-driven, it\u2019s up to companies to make investments in education and workforce training to make sure that promise always holds true. <i>The views reflected in this article are the views of the author and do not necessarily reflect the views of the global EY organization or its member firms.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

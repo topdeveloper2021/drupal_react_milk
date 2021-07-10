@@ -1,0 +1,27 @@
+uuid: 8e05fc72-0215-4262-ac58-f9e09c742e89
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_slide_text
+  module:
+    - key_value_field
+id: slide.full_width_one_column.field_slide_text
+field_name: field_slide_text
+entity_type: slide
+bundle: full_width_one_column
+label: 'Slide Text'
+description: 'HTML tags will be stripped from the "value" fields below.'
+required: false
+translatable: false
+default_value:
+  -
+    key: h1
+    description: ''
+    value: "Now is the time for all good men to come to the aid of their country\r\n"
+    format: rich_text
+default_value_callback: ''
+settings:
+  default_format: plain_text
+field_type: key_value_long

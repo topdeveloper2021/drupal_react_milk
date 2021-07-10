@@ -1,0 +1,9 @@
+status: 2
+pattern: '[people:field_first_name] [people:field_middle_name] [people:field_last_name]'
+escape: false
+preserve_titles: false
+save: 0
+chunk: '50'
+dependencies:
+  config:
+    - eck.eck_type.people.person

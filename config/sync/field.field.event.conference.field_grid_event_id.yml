@@ -1,0 +1,19 @@
+uuid: 5a524bed-9058-4dae-b9e1-0d91cfdc4055
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_grid_event_id
+id: event.conference.field_grid_event_id
+field_name: field_grid_event_id
+entity_type: event
+bundle: conference
+label: 'GRID event id'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

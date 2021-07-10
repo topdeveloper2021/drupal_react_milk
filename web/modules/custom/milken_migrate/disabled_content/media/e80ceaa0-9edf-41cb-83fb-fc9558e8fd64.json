@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7184\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/W8bhQ0SEJKWncx-bbRwZpeVxnJ1kKgymDU9_amvBZqA.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7184
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e80ceaa0-9edf-41cb-83fb-fc9558e8fd64"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1618
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/W8bhQ0SEJKWncx-bbRwZpeVxnJ1kKgymDU9_amvBZqA.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "338d498e-e731-4f01-9393-956aaa1aa0d1"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Agritech, Vertical Farming and Food Security",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-03T16:45:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T14:50:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As our population continues to grow rapidly, we will need to produce 70 percent more food than we do today. However, the Food and Agriculture Organization of the United Nations projects that farmland can only be increased by another two percent. Entrepreneurs, investors, and agricultural leaders will discuss advancements in agricultural technology, including the tremendous opportunity around digital farming and the application of data-driven decision making to new production systems like vertical farming. Learn about the advancements helping growers increase yields as they work to supply the world with a sustainable, affordable, and nutritious food supply.",
+    "format": "rich_text",
+    "processed": "As our population continues to grow rapidly, we will need to produce 70 percent more food than we do today. However, the Food and Agriculture Organization of the United Nations projects that farmland can only be increased by another two percent. Entrepreneurs, investors, and agricultural leaders will discuss advancements in agricultural technology, including the tremendous opportunity around digital farming and the application of data-driven decision making to new production systems like vertical farming. Learn about the advancements helping growers increase yields as they work to supply the world with a sustainable, affordable, and nutritious food supply.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/u2JaZicAh7o",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/W8bhQ0SEJKWncx-bbRwZpeVxnJ1kKgymDU9_amvBZqA.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

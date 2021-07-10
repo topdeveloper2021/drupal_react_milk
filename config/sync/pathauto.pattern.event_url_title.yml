@@ -1,0 +1,25 @@
+uuid: 3c5da3e4-529e-4a02-9a14-bdb6cfa6f970
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - eck
+id: event_url_title
+label: 'Event URL Title'
+type: 'canonical_entities:event'
+pattern: 'event/[event:title]'
+selection_criteria:
+  23a6a229-1596-405a-bf61-e0ab31bda618:
+    id: 'entity_bundle:event'
+    bundles:
+      conference: conference
+      meeting: meeting
+      summit: summit
+    negate: false
+    context_mapping:
+      event: event
+    uuid: 23a6a229-1596-405a-bf61-e0ab31bda618
+selection_logic: and
+weight: -5
+relationships: {  }

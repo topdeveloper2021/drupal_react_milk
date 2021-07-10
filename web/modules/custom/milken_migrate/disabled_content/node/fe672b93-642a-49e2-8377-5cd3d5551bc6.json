@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-names-top-leaders-its-singapore-based-asia-center?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 724
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fe672b93-642a-49e2-8377-5cd3d5551bc6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 724
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute names top leaders to its Singapore-based Asia Center",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:49:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-names-top-leaders-its-singapore-based-asia-center",
+            "pid": 777,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014 Mike Klowden, CEO of the Milken Institute, today announced the appointment of two respected leaders to the Institute's Singapore-based Asia Center: Chan Heng Wing as Chairman and Laura Deal Lacey as Managing Director.Established last year, the Milken Institute\u2019s Asia Center will develop programs to bring leaders from the worlds of finance, business, government and academia to focus on solutions to crucial challenges, integrating with cutting-edge economic and financial research.\"We are delighted that Wing and Laura have joined our growing global team,<br>? said Klowden. \"Their dynamic leadership will translate the vision for our new Asia Center into reality.<br>?A native of Singapore, Chan had a distinguished career with the Ministry of Foreign Affairs, serving as Counsellor in Singapore's Permanent Mission to the United Nations, Commissioner to Hong Kong, Ambassador to Thailand, and Consul-General to Shanghai. After his retirement from the Ministry, he joined Temasek Holdings as Chief Representative to China and later Managing Director for International Relations at Temasek International.Formerly, Lacey was Executive Director of the American Chamber of Commerce in Singapore, where she advocated on behalf of U.S. companies, reinvigorated the membership rolls, and organized an extensive schedule of events, including two Asia Pacific conferences. Previously, she was Global Marketing Director for Edelman, the public relations firm, and worked in a variety of senior roles at the World Economic Forum in Geneva. At the WEF, Lacey co-founded the Women Leaders Programme, aimed at increasing the participation of women leaders in the Davos conference.\"The Milken Institute Asia Center will be an important addition to the architecture of ideas in Asia,<br>? said Chan. \"The Institute's ability to gather business thought leaders from the rest of the world will add dimension and depth to the exchange of ideas with Asia.<br>?\"The Milken Institute is known for producing high impact research and convening powerful networks,<br>? said Lacey. \"We are excited to extend the Institute's footprint to the Asia Pacific region. We plan to create platforms for decision makers to collaborate and advance innovative economic and policy solutions to improve societies in the region.<br>?\u00a0",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014 Mike Klowden, CEO of the Milken Institute, today announced the appointment of two respected leaders to the Institute's Singapore-based Asia Center: Chan Heng Wing as Chairman and Laura Deal Lacey as Managing Director.Established last year, the Milken Institute\u2019s Asia Center will develop programs to bring leaders from the worlds of finance, business, government and academia to focus on solutions to crucial challenges, integrating with cutting-edge economic and financial research.\"We are delighted that Wing and Laura have joined our growing global team,<br \/>? said Klowden. \"Their dynamic leadership will translate the vision for our new Asia Center into reality.<br \/>?A native of Singapore, Chan had a distinguished career with the Ministry of Foreign Affairs, serving as Counsellor in Singapore's Permanent Mission to the United Nations, Commissioner to Hong Kong, Ambassador to Thailand, and Consul-General to Shanghai. After his retirement from the Ministry, he joined Temasek Holdings as Chief Representative to China and later Managing Director for International Relations at Temasek International.Formerly, Lacey was Executive Director of the American Chamber of Commerce in Singapore, where she advocated on behalf of U.S. companies, reinvigorated the membership rolls, and organized an extensive schedule of events, including two Asia Pacific conferences. Previously, she was Global Marketing Director for Edelman, the public relations firm, and worked in a variety of senior roles at the World Economic Forum in Geneva. At the WEF, Lacey co-founded the Women Leaders Programme, aimed at increasing the participation of women leaders in the Davos conference.\"The Milken Institute Asia Center will be an important addition to the architecture of ideas in Asia,<br \/>? said Chan. \"The Institute's ability to gather business thought leaders from the rest of the world will add dimension and depth to the exchange of ideas with Asia.<br \/>?\"The Milken Institute is known for producing high impact research and convening powerful networks,<br \/>? said Lacey. \"We are excited to extend the Institute's footprint to the Asia Pacific region. We plan to create platforms for decision makers to collaborate and advance innovative economic and policy solutions to improve societies in the region.<br \/>?\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

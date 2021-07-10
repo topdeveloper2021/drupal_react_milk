@@ -1,0 +1,60 @@
+uuid: 029696b6-1a80-48af-9a81-70c73c31bb16
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+      - eck
+id: grid_panel_tracks
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - grid
+migration_group: milken
+label: 'Grid Panel-Tracks Joining Table'
+source:
+  plugin: url
+  urls: 'https://milken-dev.reapbooster.com:8443/jsonapi/panel/tracks/'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milken-dev.reapbooster.com:8443'
+  jsonapi_endpoint: /jsonapi/panel/tracks/
+  item_selector: data
+  fields:
+    -
+      name: id
+      label: ID
+      selector: /id
+    -
+      name: panel_id
+      label: 'Panel ID'
+      selector: /attributes/panel_id
+    -
+      name: track_id
+      label: 'Track ID'
+      selector: /attributes/track_id
+  constants:
+    title_label_separator_panel: Panel_ID
+    title_label_separator_track: Track_ID
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  title:
+    plugin: concat
+    source:
+      - constants/title_label_separator_panel
+      - panel_id
+      - constants/title_label_separator_track
+      - track_id
+    delimiter: ' : '
+  field_panel_track_id: id
+  field_panel_id: panel_id
+  field_track_id: track_id
+destination:
+  plugin: 'entity:grid_join_panel_track'
+  default_bundle: join_table
+migration_dependencies: {  }

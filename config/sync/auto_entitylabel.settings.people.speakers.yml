@@ -1,0 +1,6 @@
+status: 1
+pattern: '[people:field_last_name], [people:field_first_name]'
+escape: true
+dependencies:
+  config:
+    - eck.eck_type.people.speakers

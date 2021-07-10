@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/electronic-medical-records-bridge-faster-cures?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 205
+        }
+    ],
+    "uuid": [
+        {
+            "value": "33e0dcd1-a4d8-4a43-80b5-6eac969c9a92"
+        }
+    ],
+    "vid": [
+        {
+            "value": 205
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Electronic Medical Records:  A Bridge to Faster Cures",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/electronic-medical-records-bridge-faster-cures",
+            "pid": 258,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Washington, D.C. - Accelerating cures should be a goal of the emerging national health information network in addition to improving patient care, according to a report released today by FasterCures \/ The Center for Accelerating Medical Solutions. \"Our ability to deliver care is limited by our ability to deliver cures,\" said FasterCures President Greg Simon. \"Let EMRs be the bridge that links the two. If researchers could access the clinical information contained in millions of medical and personal health records - with appropriate privacy safeguards - their resulting work could speed the discovery of new therapies beyond today\u2032s imagination.\" In its new report, \"Think Research: Using Electronic Medical Records to Bridge Patient Care and Research,\" FasterCures encourages institutions to \"think research\" as they struggle with the adoption and implementation of EMR systems. While the focus of most efforts to do so has been on improving care by limiting costs and medical errors, the real savings, in terms of both reducing health-care costs and, more importantly, in eliminating human suffering, will come from curing disease and from limiting its damage. The report examines the current landscape of EMR adoption and profiles innovative health systems that are pioneering the use of EMRs as a research tool. Potential benefits of a research-inclusive EMR would be to: Speed clinical trials by quickly identifying potential enrollees Enhance the monitoring and identification of adverse drug reactions, creating \"virtual clinical trials\" to study the impact of approved drugs <b> Permit early identification of public health threats <br> Provide the research community access to a broader and more diverse patient population <br> Detect patterns of health and illness in a given population Help researchers form hypotheses about disease initiation and progression Since there is a long way to go before EMRs can be widely used in research, several institutions and government agencies have forged ahead to find ways to meld clinical data with research goals. Among the pioneers and innovators: Mayo Clinic converted completely to an EMR system in July 2004. It has 6.5 million patient records electronically indexed and more than 17 million clinical notes retrievable online. Many of the more than 4,000 clinical trials that Mayo conducts each year rely on information from medical records, mainly to identify potential research subjects. Regenstreif Institute, Indiana University School of Medicine developed over three decades one of the nation\u2032s first EMR systems. The records have been useful for prospective, retrospective, epidemiological, longitudinal, and cohort studies, and for enhancing clinical trials data sets. Kaiser Permanente has made a $3 billion investment to automate records for its 8.4 million members. It has created both a transactional system for patient care and a data warehouse with extracted data for use by researchers. Veterans Health Administration\u2032s pioneering VistA system is in the process of evolving to a new Web-based health data repository, HealtheVet, that would, among other things, support research and population analyses. The barriers to the adoption of EMRs generally - cost, security and privacy issues, physician skepticism and infrastructure issues - are well known. All of the problems that plague widespread adoption of EMRs for patient care apply to their use in research. And there are additional challenges: variations in the practice of medicine; the reliability and completeness of the record; limits of legacy databases (administrative and claims); the pervasiveness of unstructured text in patient records; the lack of specificity of patient data; and privacy and research regulations (HIPAA, Common Rule). But pioneering institutions are working to address these challenges. The report and an executive summary are both available at FasterCures\u2032 web site. <b>About FasterCures:<\/b> <br> FasterCures \/ The Center for Accelerating Medical Solutions is committed to accelerating the medical research process to find new treatments for deadly and debilitating diseases. FasterCures was founded by Mike Milken as an initiative of the Milken Institute and is nonpartisan, nonprofit and independent of interest groups. The board of directors includes Mike Milken, Nobel laureates David Baltimore and Gary Becker and Nancy Brinker, founder of the Susan G. Komen Breast Cancer Foundation. For more information, visit www.fastercures.org.",
+    "format": "rich_text",
+    "processed": "Washington, D.C. - Accelerating cures should be a goal of the emerging national health information network in addition to improving patient care, according to a report released today by FasterCures \/ The Center for Accelerating Medical Solutions. \"Our ability to deliver care is limited by our ability to deliver cures,\" said FasterCures President Greg Simon. \"Let EMRs be the bridge that links the two. If researchers could access the clinical information contained in millions of medical and personal health records - with appropriate privacy safeguards - their resulting work could speed the discovery of new therapies beyond today\u2032s imagination.\" In its new report, \"Think Research: Using Electronic Medical Records to Bridge Patient Care and Research,\" FasterCures encourages institutions to \"think research\" as they struggle with the adoption and implementation of EMR systems. While the focus of most efforts to do so has been on improving care by limiting costs and medical errors, the real savings, in terms of both reducing health-care costs and, more importantly, in eliminating human suffering, will come from curing disease and from limiting its damage. The report examines the current landscape of EMR adoption and profiles innovative health systems that are pioneering the use of EMRs as a research tool. Potential benefits of a research-inclusive EMR would be to: Speed clinical trials by quickly identifying potential enrollees Enhance the monitoring and identification of adverse drug reactions, creating \"virtual clinical trials\" to study the impact of approved drugs <b> Permit early identification of public health threats <br \/> Provide the research community access to a broader and more diverse patient population <br \/> Detect patterns of health and illness in a given population Help researchers form hypotheses about disease initiation and progression Since there is a long way to go before EMRs can be widely used in research, several institutions and government agencies have forged ahead to find ways to meld clinical data with research goals. Among the pioneers and innovators: Mayo Clinic converted completely to an EMR system in July 2004. It has 6.5 million patient records electronically indexed and more than 17 million clinical notes retrievable online. Many of the more than 4,000 clinical trials that Mayo conducts each year rely on information from medical records, mainly to identify potential research subjects. Regenstreif Institute, Indiana University School of Medicine developed over three decades one of the nation\u2032s first EMR systems. The records have been useful for prospective, retrospective, epidemiological, longitudinal, and cohort studies, and for enhancing clinical trials data sets. Kaiser Permanente has made a $3 billion investment to automate records for its 8.4 million members. It has created both a transactional system for patient care and a data warehouse with extracted data for use by researchers. Veterans Health Administration\u2032s pioneering VistA system is in the process of evolving to a new Web-based health data repository, HealtheVet, that would, among other things, support research and population analyses. The barriers to the adoption of EMRs generally - cost, security and privacy issues, physician skepticism and infrastructure issues - are well known. All of the problems that plague widespread adoption of EMRs for patient care apply to their use in research. And there are additional challenges: variations in the practice of medicine; the reliability and completeness of the record; limits of legacy databases (administrative and claims); the pervasiveness of unstructured text in patient records; the lack of specificity of patient data; and privacy and research regulations (HIPAA, Common Rule). But pioneering institutions are working to address these challenges. The report and an executive summary are both available at FasterCures\u2032 web site. <b>About FasterCures:<\/b> <br \/> FasterCures \/ The Center for Accelerating Medical Solutions is committed to accelerating the medical research process to find new treatments for deadly and debilitating diseases. FasterCures was founded by Mike Milken as an initiative of the Milken Institute and is nonpartisan, nonprofit and independent of interest groups. The board of directors includes Mike Milken, Nobel laureates David Baltimore and Gary Becker and Nancy Brinker, founder of the Susan G. Komen Breast Cancer Foundation. For more information, visit www.fastercures.org.<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

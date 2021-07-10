@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/ai-new-health-care-reform?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/96?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 577
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1d7bf755-031c-42dd-9245-49c53fcf0fff"
+        }
+    ],
+    "vid": [
+        {
+            "value": 577
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/96?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7a126b9e-2c26-4dbd-b15f-20360b4b0066"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Is AI the New Health-Care Reform?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T18:46:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/ai-new-health-care-reform",
+            "pid": 630,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Experts at McGraw Hill define artificial intelligence (AI) as the study of how to make computers do things that, at the moment, people do better. A number of AI techniques have transformed various enterprises over the last decade, catalyzing AI from something that was perennially \u201ca decade away from real use\u201d into a powerful force disrupting industry after industry. In health care, two AI techniques\u2014machine learning and natural language processing\u2014are of particular relevance. Pilot projects in medicine using these techniques are delivering insights today that not only mimic expert human intelligence, but in specific targeted applications actually outperform it. The power of AI in medicine is being driven by three important trends: 1) the simultaneous emergence of large, complex data sets drawing from hundreds of thousands to billions of patient interactions within the health-care system; 2) affordable access to high-performance computing capabilities, such as the Cloud and advanced graphical processing chips; and 3) new statistical techniques such as deep learning\u2014leveraging increased computing power to analyze health-care big data. Leading medical delivery centers, such as the Mayo Clinic, MD Anderson, and Geisinger, have all begun incorporating AI into current medical services and are looking to expand AI pilot programs in areas such as medical imaging, clinical decision support, and precision medicine for complex patient care. While AI holds great promise as an important tool for improving health care, it is not a \u201csilver bullet\u201d that will singularly transform clinical care and research. Atul Gawande, the new CEO of a nonprofit, health-care venture formed by Amazon, Berkshire Hathaway, and JPMorgan Chase and author of multiple award-winning, health-care books, points out that there are primarily two different types of challenges for improving health care. In the first type (Type 1), we do not know the best way to adequately treat a specific condition, either due to our lack of scientific understanding or effective treatments. In the second type (Type 2), we know how to treat a condition, but we do not consistently apply that knowledge to the practice of medicine and\/or lifestyle choices. In this situation, great improvements in outcomes can be achieved by consistently following simple checklists and evidence-based guidelines. Fundamentally, this is a change in how clinicians deliver care and people make healthy lifestyle choices. The key to using AI successfully in health care is to apply it to specific questions and situations in a manner that either increases our knowledge of how to treat a condition where the scientific knowledge is suboptimal (Type 1) or helps us drive better process changes (and hence outcomes) in conditions we know how to treat (Type 2). If we can do this well, we will enable what is commonly known as the health-care Triple Aim\u2014improving the health of populations, increasing quality, and decreasing costs. AI can be a key part of the health-care reform story. There are three central questions that should guide the exploration and development of AI platforms to enable these changes and address the Triple Aim with our health-care delivery partners. <b>Can artificial intelligence make health care more human?<\/b> There are several ways to answer this question, not least by asking how we can build intelligent systems that reduce physician clerical burden so more time can be spent interacting with patients, possibly reducing medical errors and related complications. Health care is one of the most data-rich industries, driven by digital health adoption, images, and medical records. Clinicians are often overwhelmed with the constant flood of data they must access and understand\u2014from detailed patient records to the constant introduction of new treatment protocols. Reducing physician data overload and making it easier for them to adopt best practices in their daily activities should be a central focus of bringing health-care AI to the clinic. If we can successfully do this, we will make it easier for providers to consistently follow checklists and evidenced-based guidelines, which will enable better outcomes. <b>Is artificial intelligence the cure for what ails health care?\u202f<\/b>What ails health care is legion, but there is low-hanging fruit to be picked if we build and implement machine learning technologies by remembering our Triple Aim of patients, quality, and costs. AI systems that improve the speed and accuracy of diagnosis, comparing the effectiveness of drugs, matching patients to clinical trials, and predicting outcomes for different treatment protocols would all go a long way towards reducing wasted spending and the burdens of unnecessary medical procedures. Evidence-based medicine is at the very heart of what AI for health care can do. <b>Is AI the next wave of health-care reform?<\/b> We strongly believe the answer is yes. If the heart of health-care reform is enabling the Triple Aim, then thoughtfully designed intelligent systems, built in true collaboration with physicians and patients, could enable what we have been unable to do through legislation and government intervention. The task is not easy, and the obvious hype regarding AI for disrupting health care has led, and will continue to lead, to a healthy amount of reasonable skepticism. We need to move beyond the hype\u2014the stakes are high, as are the potential rewards for the entire health-care ecosystem. If we focus our AI technology development efforts on using it to improve our understanding of conditions where there is a scientific knowledge gap (Type 1 problems) and optimizing the consistency of care delivery systems (Type 2 problems), we will not only create high-value products and services for patients and physicians, we will also realize the promise of technology for discovering novel treatments for unmet medical needs.",
+    "format": "rich_text",
+    "processed": "Experts at McGraw Hill define artificial intelligence (AI) as the study of how to make computers do things that, at the moment, people do better. A number of AI techniques have transformed various enterprises over the last decade, catalyzing AI from something that was perennially \u201ca decade away from real use\u201d into a powerful force disrupting industry after industry. In health care, two AI techniques\u2014machine learning and natural language processing\u2014are of particular relevance. Pilot projects in medicine using these techniques are delivering insights today that not only mimic expert human intelligence, but in specific targeted applications actually outperform it. The power of AI in medicine is being driven by three important trends: 1) the simultaneous emergence of large, complex data sets drawing from hundreds of thousands to billions of patient interactions within the health-care system; 2) affordable access to high-performance computing capabilities, such as the Cloud and advanced graphical processing chips; and 3) new statistical techniques such as deep learning\u2014leveraging increased computing power to analyze health-care big data. Leading medical delivery centers, such as the Mayo Clinic, MD Anderson, and Geisinger, have all begun incorporating AI into current medical services and are looking to expand AI pilot programs in areas such as medical imaging, clinical decision support, and precision medicine for complex patient care. While AI holds great promise as an important tool for improving health care, it is not a \u201csilver bullet\u201d that will singularly transform clinical care and research. Atul Gawande, the new CEO of a nonprofit, health-care venture formed by Amazon, Berkshire Hathaway, and JPMorgan Chase and author of multiple award-winning, health-care books, points out that there are primarily two different types of challenges for improving health care. In the first type (Type 1), we do not know the best way to adequately treat a specific condition, either due to our lack of scientific understanding or effective treatments. In the second type (Type 2), we know how to treat a condition, but we do not consistently apply that knowledge to the practice of medicine and\/or lifestyle choices. In this situation, great improvements in outcomes can be achieved by consistently following simple checklists and evidence-based guidelines. Fundamentally, this is a change in how clinicians deliver care and people make healthy lifestyle choices. The key to using AI successfully in health care is to apply it to specific questions and situations in a manner that either increases our knowledge of how to treat a condition where the scientific knowledge is suboptimal (Type 1) or helps us drive better process changes (and hence outcomes) in conditions we know how to treat (Type 2). If we can do this well, we will enable what is commonly known as the health-care Triple Aim\u2014improving the health of populations, increasing quality, and decreasing costs. AI can be a key part of the health-care reform story. There are three central questions that should guide the exploration and development of AI platforms to enable these changes and address the Triple Aim with our health-care delivery partners. <b>Can artificial intelligence make health care more human?<\/b> There are several ways to answer this question, not least by asking how we can build intelligent systems that reduce physician clerical burden so more time can be spent interacting with patients, possibly reducing medical errors and related complications. Health care is one of the most data-rich industries, driven by digital health adoption, images, and medical records. Clinicians are often overwhelmed with the constant flood of data they must access and understand\u2014from detailed patient records to the constant introduction of new treatment protocols. Reducing physician data overload and making it easier for them to adopt best practices in their daily activities should be a central focus of bringing health-care AI to the clinic. If we can successfully do this, we will make it easier for providers to consistently follow checklists and evidenced-based guidelines, which will enable better outcomes. <b>Is artificial intelligence the cure for what ails health care?\u202f<\/b>What ails health care is legion, but there is low-hanging fruit to be picked if we build and implement machine learning technologies by remembering our Triple Aim of patients, quality, and costs. AI systems that improve the speed and accuracy of diagnosis, comparing the effectiveness of drugs, matching patients to clinical trials, and predicting outcomes for different treatment protocols would all go a long way towards reducing wasted spending and the burdens of unnecessary medical procedures. Evidence-based medicine is at the very heart of what AI for health care can do. <b>Is AI the next wave of health-care reform?<\/b> We strongly believe the answer is yes. If the heart of health-care reform is enabling the Triple Aim, then thoughtfully designed intelligent systems, built in true collaboration with physicians and patients, could enable what we have been unable to do through legislation and government intervention. The task is not easy, and the obvious hype regarding AI for disrupting health care has led, and will continue to lead, to a healthy amount of reasonable skepticism. We need to move beyond the hype\u2014the stakes are high, as are the potential rewards for the entire health-care ecosystem. If we focus our AI technology development efforts on using it to improve our understanding of conditions where there is a scientific knowledge gap (Type 1 problems) and optimizing the consistency of care delivery systems (Type 2 problems), we will not only create high-value products and services for patients and physicians, we will also realize the promise of technology for discovering novel treatments for unmet medical needs.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,29 @@
+uuid: 1028bb65-2a84-446b-8def-b34ead7d6b71
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_topics
+    - taxonomy.vocabulary.topics
+id: people.staff.field_topics
+field_name: field_topics
+entity_type: people
+bundle: staff
+label: Topics
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

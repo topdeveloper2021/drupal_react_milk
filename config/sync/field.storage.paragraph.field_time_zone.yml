@@ -1,0 +1,33 @@
+uuid: 75059b21-3b01-4620-8e20-464bf3331705
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_time_zone
+field_name: field_time_zone
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: edt
+      label: EDT
+    -
+      value: est
+      label: EST
+    -
+      value: pdt
+      label: PDT
+    -
+      value: pst
+      label: PST
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 05fac32a-39b3-4a77-9939-6e21ac1bc06f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_private
+id: panel.panel.field_private
+field_name: field_private
+entity_type: panel
+bundle: panel
+label: Private
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Private
+  off_label: Public
+field_type: boolean

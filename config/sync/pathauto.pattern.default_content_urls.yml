@@ -1,0 +1,25 @@
+uuid: 80f4e064-6270-4828-b530-ed7e3f952872
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: default_content_urls
+label: 'Default Content Urls'
+type: 'canonical_entities:node'
+pattern: '/[node:content-type]/[node:title]'
+selection_criteria:
+  9dbdb321-aed0-4c2c-a6ae-f42ea1c0b6f3:
+    id: node_type
+    bundles:
+      article: article
+      career: career
+      event: event
+      report: report
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9dbdb321-aed0-4c2c-a6ae-f42ea1c0b6f3
+selection_logic: and
+weight: -5
+relationships: {  }

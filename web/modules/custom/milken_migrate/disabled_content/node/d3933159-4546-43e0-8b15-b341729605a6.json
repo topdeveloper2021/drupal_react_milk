@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-trade-evolving-not-going-away?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/54?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 519
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d3933159-4546-43e0-8b15-b341729605a6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 519
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/54?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "87ee2822-14d2-4128-b600-524e92c12fb6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Trade Is Evolving, Not Going Away ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T12:28:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T20:39:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-trade-evolving-not-going-away",
+            "pid": 572,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Anyone focused exclusively on the bold headlines and market moves of 2018 can be forgiven for concluding that trade is doing more than just rattling markets. To some, these moves signal the demise of an economic framework based on trade and globalization, which has underpinned economic growth and progress for decades. Overseeing the Asia Pacific region, and responsible for our fast-growing franchise in some of the world\u2019s most dynamic markets, I am inclined to take a less apocalyptic view. At Citi, we recognize that changes in trade policy\u2014both real and imagined\u2014are driving turbulence in global markets. But our outlook is that trade and globalization will not go away or even dramatically diminish. We envision trade flows will adapt and evolve to be more geographically diverse. They will shift towards markets where opportunities and costs are attractive, and local technologies and capabilities seem worthy of greater investment. Spurred on by this shift in trade flows, supply chains will have to become nimbler and more flexible, to allow for the dynamic allocation of production and the ability to manage technological advancement and changes in terms of trade between countries. Right now, the gap between rhetoric and reality of the demise of trade, is reflected in a few facts. First, at 4.7 percent, growth in global trade flows of goods on a <i>volume<\/i> basis was stronger last year than in any year since 2011. On a <i>dollar<\/i> basis, world exports and imports of goods in 2017 were valued at over $17 trillion, up more than 11 percent over 2016. Services exports also rose strongly, over 7 percent. Despite rising trade tensions, consensus estimates of global trade growth anticipate a similar leap forward this year of about 4 percent. With apologies to the late, great American author Mark Twain, reports of the death or demise of world trade and globalization appear to be greatly exaggerated. Second, while all eyes have been focused on trade tensions between the U.S. and its trading partners, the great bulk of world trade\u2014about 80 percent\u2014doesn\u2019t flow through the U.S. In 2017, high-growth Asian economies accounted for 60 percent of the volume increase in imports and 51 percent of the increase in exports. According to the International Chamber of Commerce, by 2020, Asia will account for 38 percent of global trade flows. Third, as I travel across Asia, it\u2019s plain to see that strong, deep <i>intraregional<\/i> trade and investment linkages are acting as a counterweight to policy uncertainty. Citi\u2019s key thematic observations are that investment flows from outside of and within Asia will grow further, moving in tandem with the expansion of new intra-Asia trade corridors. Already, two-thirds of China\u2019s outward FDI now flows to Asian countries. Concrete signs of this deepening integration are easy to spot on the ground. Korean giant Samsung recently marked the opening of a new facility\u2014the world\u2019s largest mobile phone factory\u2014in India. Also in India, Chinese firm Xiaomi has opened three new manufacturing facilities, adding to two that were already in operation. We expect to continue to see these types of investment flows in time to come, as it has throughout human history. Also fueling Citi\u2019s optimistic outlook on trade\u2014globally and regionally\u2014are the conversations we have with our clients. Corporations aren\u2019t making any large decisions on the realignment of complex supply chains just yet. Yes, policy concerns will remain front-and-center until new, more settled arrangements are hammered out among and between trading partners. But as a bank with more than two centuries of experience and deep roots in trade finance, we believe what we are witnessing is an <i>evolution<\/i>, not <i>contraction<\/i>, of trade. With a global network that spans over 100 countries and in-depth local expertise in each of our markets, we are uniquely positioned to advise our clients as they think through this evolutionary process and the potential future optimization of their operations and supply chains. While some are fastening their seatbelts in anticipation of a rough road ahead, we remain confident that trade will stay central to economic activity for decades if not centuries to come. That is because nations, regions, firms, and populations don\u2019t just <i>like<\/i> but <i>need<\/i> to trade with each other to grow and prosper. With a mission to enable growth and progress, Citi is supportive of the fair and free flow of trade of goods and services worldwide and dialogue that furthers those ends for the benefit of people and society at large.\u00a0",
+    "format": "rich_text",
+    "processed": "Anyone focused exclusively on the bold headlines and market moves of 2018 can be forgiven for concluding that trade is doing more than just rattling markets. To some, these moves signal the demise of an economic framework based on trade and globalization, which has underpinned economic growth and progress for decades. Overseeing the Asia Pacific region, and responsible for our fast-growing franchise in some of the world\u2019s most dynamic markets, I am inclined to take a less apocalyptic view. At Citi, we recognize that changes in trade policy\u2014both real and imagined\u2014are driving turbulence in global markets. But our outlook is that trade and globalization will not go away or even dramatically diminish. We envision trade flows will adapt and evolve to be more geographically diverse. They will shift towards markets where opportunities and costs are attractive, and local technologies and capabilities seem worthy of greater investment. Spurred on by this shift in trade flows, supply chains will have to become nimbler and more flexible, to allow for the dynamic allocation of production and the ability to manage technological advancement and changes in terms of trade between countries. Right now, the gap between rhetoric and reality of the demise of trade, is reflected in a few facts. First, at 4.7 percent, growth in global trade flows of goods on a <i>volume<\/i> basis was stronger last year than in any year since 2011. On a <i>dollar<\/i> basis, world exports and imports of goods in 2017 were valued at over $17 trillion, up more than 11 percent over 2016. Services exports also rose strongly, over 7 percent. Despite rising trade tensions, consensus estimates of global trade growth anticipate a similar leap forward this year of about 4 percent. With apologies to the late, great American author Mark Twain, reports of the death or demise of world trade and globalization appear to be greatly exaggerated. Second, while all eyes have been focused on trade tensions between the U.S. and its trading partners, the great bulk of world trade\u2014about 80 percent\u2014doesn\u2019t flow through the U.S. In 2017, high-growth Asian economies accounted for 60 percent of the volume increase in imports and 51 percent of the increase in exports. According to the International Chamber of Commerce, by 2020, Asia will account for 38 percent of global trade flows. Third, as I travel across Asia, it\u2019s plain to see that strong, deep <i>intraregional<\/i> trade and investment linkages are acting as a counterweight to policy uncertainty. Citi\u2019s key thematic observations are that investment flows from outside of and within Asia will grow further, moving in tandem with the expansion of new intra-Asia trade corridors. Already, two-thirds of China\u2019s outward FDI now flows to Asian countries. Concrete signs of this deepening integration are easy to spot on the ground. Korean giant Samsung recently marked the opening of a new facility\u2014the world\u2019s largest mobile phone factory\u2014in India. Also in India, Chinese firm Xiaomi has opened three new manufacturing facilities, adding to two that were already in operation. We expect to continue to see these types of investment flows in time to come, as it has throughout human history. Also fueling Citi\u2019s optimistic outlook on trade\u2014globally and regionally\u2014are the conversations we have with our clients. Corporations aren\u2019t making any large decisions on the realignment of complex supply chains just yet. Yes, policy concerns will remain front-and-center until new, more settled arrangements are hammered out among and between trading partners. But as a bank with more than two centuries of experience and deep roots in trade finance, we believe what we are witnessing is an <i>evolution<\/i>, not <i>contraction<\/i>, of trade. With a global network that spans over 100 countries and in-depth local expertise in each of our markets, we are uniquely positioned to advise our clients as they think through this evolutionary process and the potential future optimization of their operations and supply chains. While some are fastening their seatbelts in anticipation of a rough road ahead, we remain confident that trade will stay central to economic activity for decades if not centuries to come. That is because nations, regions, firms, and populations don\u2019t just <i>like<\/i> but <i>need<\/i> to trade with each other to grow and prosper. With a mission to enable growth and progress, Citi is supportive of the fair and free flow of trade of goods and services worldwide and dialogue that furthers those ends for the benefit of people and society at large.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

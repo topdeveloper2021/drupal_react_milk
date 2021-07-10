@@ -1,0 +1,26 @@
+uuid: be14f365-1b47-4cb9-ac30-0d4297781715
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_start_finish_time
+    - media.type.video_stream
+  module:
+    - datetime_range
+id: media.video_stream.field_start_finish_time
+field_name: field_start_finish_time
+entity_type: media
+bundle: video_stream
+label: 'Start Finish Time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+    default_end_date_type: relative
+    default_end_date: '+1 hour'
+default_value_callback: ''
+settings: {  }
+field_type: daterange

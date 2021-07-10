@@ -1,0 +1,29 @@
+uuid: 8e3973e2-9a7b-42b6-8c75-0fed16b0fa2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_tags
+    - media.type.video_stream
+    - taxonomy.vocabulary.milken_tags
+id: media.video_stream.field_tags
+field_name: field_tags
+entity_type: media
+bundle: video_stream
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

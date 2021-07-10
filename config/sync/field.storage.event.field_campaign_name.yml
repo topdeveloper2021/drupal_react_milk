@@ -1,0 +1,21 @@
+uuid: b8a0348b-341c-4057-b1fe-939dd57c47cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_campaign_name
+field_name: field_campaign_name
+entity_type: event
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 009c9ffc-1d6d-4628-add4-6f962f7ba7bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.hero_half_height
+    - field.storage.slide.field_slide_text
+  module:
+    - key_value_field
+id: slide.hero_half_height.field_slide_text
+field_name: field_slide_text
+entity_type: slide
+bundle: hero_half_height
+label: 'Slide Text'
+description: 'HTML Tags will be stripped from the "VALUES" below.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  default_format: plain_text
+field_type: key_value_long

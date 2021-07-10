@@ -1,0 +1,20 @@
+uuid: dcac2e3e-e3eb-44ab-af43-9ff7f754e4e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - paragraphs
+id: paragraph.field_event_references
+field_name: field_event_references
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: event
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

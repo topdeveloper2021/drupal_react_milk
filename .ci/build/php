@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -eo pipefail
+
+#
+# This script prepares the PHP build artifacts.
+# The web and vendor artifact directories will
+# need to be persisted to other jobs.
+#
+
+# Build Composer Assets
+
+composer -n build-assets
+
+#vendor/bin/pscss web/themes/custom/milken/scss/milken.scss \
+#  --load-path="web:web/themes/custom/milken/scss" \
+#  --sourcemap \
+#  --format=compressed > web/themes/custom/milken/css/milken.css
+
+cd web/core
+npm install && npm run build
+# npm install && gulp build  (gulp not found on CI)

@@ -1,0 +1,17 @@
+uuid: d7ea3d0d-3182-4985-b4fc-98c28e27b055
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.media_entity_browser_thumbnail
+    - image.style.medium
+id: small
+label: Small
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: medium
+breakpoint_group: responsive_image
+fallback_image_style: media_entity_browser_thumbnail

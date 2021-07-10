@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7820\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/-BfP9PJMsdDkRKJAJDSQwSDKI_1qtGIQX4fky-BlJSQ.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7820
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d1eb39f1-21f7-423b-bbd4-aba74f477d1e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 484
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/-BfP9PJMsdDkRKJAJDSQwSDKI_1qtGIQX4fky-BlJSQ.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "425c2ca2-dd34-405e-a6c4-adfaa93496d7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Boom or Bust: Opportunities and Risk in M&A",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:30:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "An improving U.S. economy, continued low interest rates and thousands of companies sitting on piles of cash provide an abundance of fuel for an upsurge in mergers and acquisitions. In 2014, global deal-making volume was up 47 percent over the previous year, and the momentum appears to be continuing in 2015. In addition, the flourishing activist investor movement is helping to shape some of the trends in the M&A landscape and is playing an increasingly important role in influencing board rooms around the world. But risks still lurk, including economic and political uncertainty in Europe and a slowing China which are having knock-on effects for the rest of the global economy. Join us as this panel of M&A experts share their insight on the outlook for M&A, including a focus on specific industries (such as energy, biopharma and technology) where the deal-making is hottest and where investors are shaking things up the most in corporate board rooms.",
+    "format": "rich_text",
+    "processed": "An improving U.S. economy, continued low interest rates and thousands of companies sitting on piles of cash provide an abundance of fuel for an upsurge in mergers and acquisitions. In 2014, global deal-making volume was up 47 percent over the previous year, and the momentum appears to be continuing in 2015. In addition, the flourishing activist investor movement is helping to shape some of the trends in the M&amp;A landscape and is playing an increasingly important role in influencing board rooms around the world. But risks still lurk, including economic and political uncertainty in Europe and a slowing China which are having knock-on effects for the rest of the global economy. Join us as this panel of M&amp;A experts share their insight on the outlook for M&amp;A, including a focus on specific industries (such as energy, biopharma and technology) where the deal-making is hottest and where investors are shaking things up the most in corporate board rooms.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ikUokSk8yfU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/-BfP9PJMsdDkRKJAJDSQwSDKI_1qtGIQX4fky-BlJSQ.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

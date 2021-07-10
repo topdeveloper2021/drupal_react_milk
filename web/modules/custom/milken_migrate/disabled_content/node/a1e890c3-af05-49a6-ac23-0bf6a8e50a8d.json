@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/partnering-cures-bring-together-hundreds-medical-research-leaders-nov-13-15-new-york?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 22
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a1e890c3-af05-49a6-ac23-0bf6a8e50a8d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 22
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Partnering for Cures to Bring Together Hundreds of Medical Research Leaders Nov. 13-15 in New York",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-11-11T13:54:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/partnering-cures-bring-together-hundreds-medical-research-leaders-nov-13-15-new-york",
+            "pid": 75,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON \u2013Leaders across medical research \u2013 from patients to policymakers, from academia to advocates, from philanthropists to federal regulators and from investors to industry \u2013 will gather at the Grant Hyatt New York, Nov. 13 to 15, for one purpose: Partnering for Cures.This meeting, hosted by FasterCures, will give participants an opportunity for hands-on problem-solving and candid conversations covering topics including investing in biomedicine and innovation opportunities for the president-elect.\u201cAcross the field of medical research, we are all focused on accelerating solutions for patients,\u201d said Margaret Anderson, executive director of FasterCures, a center of the Milken Institute. \u201cPartnering for Cures is a unique opportunity to harness that passion and our diverse perspectives into collaborative solutions that can make a real difference in advancing treatments and cures.\u201dDuring the meeting, FasterCures will release several reports and resources:Rx for Innovation: Recommendations for the New Administration: This report distills the findings from interviews with more than 150 thought leaders across the research spectrum. FasterCures staff analyzed the interviews and developed 26 discrete recommendations to help the next administration advance biomedical innovation. For more on this topic, attend Mixing Policy and Politics: Opportunities and Challenges for our President-Elect on Monday, Nov. 14 at 10:30 a.m.Expanding the Science of Patient Input: The Power of Language: To help us move collectively toward a common language that supports the science of patient input, FasterCures reviewed more than 100 public documents and Web sites and found nearly 200 terms related to patient engagement. This report shares key findings and recommendations. For more on this topic, attend More than a Seat at the Table: Creating a Culture of Patient Engagement on Monday, Nov. 14 at 9 a.m.\nPatients Count Network: This searchable, digital directory of patient-based organizations showcases research strategies, funding portfolios, resources and collaborations. Users can identify potential partners, learn about current trends in venture philanthropy and benchmark progress. For more on this topic, attend Tools of Engagement: How Patient-Centricity Can Advance Product Development on Monday, Nov. 14 at 2:45 p.m. and check out the kiosks displaying the network in the ballroom lobby.\nPatient Engagement Library: This online library aims to help users find a variety of annotated resources about patient engagement to help them launch patient-centered efforts, enhance existing programs or identify where more work is needed.\u00a0Resources cover clinical trials, patient-reported outcomes, benefit-risk assessment and more. For more on this topic, check out the kiosks displaying the library in the ballroom lobby.\nPower of Ideas: This collection of essays offers insights from thought leaders on how cross-sector collaboration can advance research and benefit patients. Essays include \u201cThe University of the Future\u201d and \u201cBe in the Business of Going out of Business.\u201d\nPatient Perspective Value Framework Draft Methodology: Over the past year, Avalere Health and FasterCures, in coordination with a Steering Committee of diverse stakeholders, have developed a draft methodology to create a value framework, which will be released next year. This report serves as a call to action for patients, patient advocates and other experts in this space to provide detailed feedback on this draft and offer suggestions as to how it might be applied. The draft framework will be released during a workshop, Who Tells Their Story? Determining Value from the Patient Perspective, on Monday, Nov. 14 at 2:45 p.m. and available on the Avalere and FasterCures Web sites after that time.\nVenturing into New Territory: In an article to be published in the first quarter 2017 issue of the Milken Institute Review, FasterCures\u2019 Maureen Japha explores a new paradigm of medical research: venture philanthropies are investing in identifying unmet needs in specific fields of research, along with figuring out how they can most effectively leverage their funding to maximize therapeutic advancement.\nFor the first time this year, the four plenary sessions of Partnering for Cures will be livestreamed:More than a Seat at the Table: Creating a Culture of Patient Engagement, Monday, Nov. 14, 9 a.m.\nMaking Waves: Trends and Technologies Transforming Health and Research, Monday, Nov. 14, 1:15 p.m.\nNew Frontiers in Preventive Medicine: From Faster Cures to Faster Health, Tuesday, Nov. 15, 9 a.m.\nBig Science: Does More Mean a Better Future?, Tuesday, Nov. 15, 1:15 p.m.\nTo view those sessions, visit https:\/\/livestream.com\/milkeninstitute. In addition, all sessions will be recorded and available online after the event.View the full agenda and speakers at http:\/\/www.partneringforcures.org\/agenda\/. Credentialed media may apply for a media registration to attend Partnering for Cures.<b>Contact<\/b>: Anne Schroeder | Media Advisor, Milken Institute | aschroeder@milkeninstitute.org",
+    "format": "rich_text",
+    "processed": "WASHINGTON \u2013Leaders across medical research \u2013 from patients to policymakers, from academia to advocates, from philanthropists to federal regulators and from investors to industry \u2013 will gather at the Grant Hyatt New York, Nov. 13 to 15, for one purpose: Partnering for Cures.This meeting, hosted by FasterCures, will give participants an opportunity for hands-on problem-solving and candid conversations covering topics including investing in biomedicine and innovation opportunities for the president-elect.\u201cAcross the field of medical research, we are all focused on accelerating solutions for patients,\u201d said Margaret Anderson, executive director of FasterCures, a center of the Milken Institute. \u201cPartnering for Cures is a unique opportunity to harness that passion and our diverse perspectives into collaborative solutions that can make a real difference in advancing treatments and cures.\u201dDuring the meeting, FasterCures will release several reports and resources:Rx for Innovation: Recommendations for the New Administration: This report distills the findings from interviews with more than 150 thought leaders across the research spectrum. FasterCures staff analyzed the interviews and developed 26 discrete recommendations to help the next administration advance biomedical innovation. For more on this topic, attend Mixing Policy and Politics: Opportunities and Challenges for our President-Elect on Monday, Nov. 14 at 10:30 a.m.Expanding the Science of Patient Input: The Power of Language: To help us move collectively toward a common language that supports the science of patient input, FasterCures reviewed more than 100 public documents and Web sites and found nearly 200 terms related to patient engagement. This report shares key findings and recommendations. For more on this topic, attend More than a Seat at the Table: Creating a Culture of Patient Engagement on Monday, Nov. 14 at 9 a.m.\nPatients Count Network: This searchable, digital directory of patient-based organizations showcases research strategies, funding portfolios, resources and collaborations. Users can identify potential partners, learn about current trends in venture philanthropy and benchmark progress. For more on this topic, attend Tools of Engagement: How Patient-Centricity Can Advance Product Development on Monday, Nov. 14 at 2:45 p.m. and check out the kiosks displaying the network in the ballroom lobby.\nPatient Engagement Library: This online library aims to help users find a variety of annotated resources about patient engagement to help them launch patient-centered efforts, enhance existing programs or identify where more work is needed.\u00a0Resources cover clinical trials, patient-reported outcomes, benefit-risk assessment and more. For more on this topic, check out the kiosks displaying the library in the ballroom lobby.\nPower of Ideas: This collection of essays offers insights from thought leaders on how cross-sector collaboration can advance research and benefit patients. Essays include \u201cThe University of the Future\u201d and \u201cBe in the Business of Going out of Business.\u201d\nPatient Perspective Value Framework Draft Methodology: Over the past year, Avalere Health and FasterCures, in coordination with a Steering Committee of diverse stakeholders, have developed a draft methodology to create a value framework, which will be released next year. This report serves as a call to action for patients, patient advocates and other experts in this space to provide detailed feedback on this draft and offer suggestions as to how it might be applied. The draft framework will be released during a workshop, Who Tells Their Story? Determining Value from the Patient Perspective, on Monday, Nov. 14 at 2:45 p.m. and available on the Avalere and FasterCures Web sites after that time.\nVenturing into New Territory: In an article to be published in the first quarter 2017 issue of the Milken Institute Review, FasterCures\u2019 Maureen Japha explores a new paradigm of medical research: venture philanthropies are investing in identifying unmet needs in specific fields of research, along with figuring out how they can most effectively leverage their funding to maximize therapeutic advancement.\nFor the first time this year, the four plenary sessions of Partnering for Cures will be livestreamed:More than a Seat at the Table: Creating a Culture of Patient Engagement, Monday, Nov. 14, 9 a.m.\nMaking Waves: Trends and Technologies Transforming Health and Research, Monday, Nov. 14, 1:15 p.m.\nNew Frontiers in Preventive Medicine: From Faster Cures to Faster Health, Tuesday, Nov. 15, 9 a.m.\nBig Science: Does More Mean a Better Future?, Tuesday, Nov. 15, 1:15 p.m.\nTo view those sessions, visit https:\/\/livestream.com\/milkeninstitute. In addition, all sessions will be recorded and available online after the event.View the full agenda and speakers at http:\/\/www.partneringforcures.org\/agenda\/. Credentialed media may apply for a media registration to attend Partnering for Cures.<b>Contact<\/b>: Anne Schroeder | Media Advisor, Milken Institute | aschroeder@milkeninstitute.org",
+    "summary": null,
+    "summary_processed": ""
+}

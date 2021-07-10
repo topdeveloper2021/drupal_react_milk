@@ -1,0 +1,19 @@
+uuid: 77eafa75-a1c6-4156-be6b-369ba43784f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - social_media
+id: people.field_social_media
+field_name: field_social_media
+entity_type: people
+type: social_media
+settings: {  }
+module: social_media
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

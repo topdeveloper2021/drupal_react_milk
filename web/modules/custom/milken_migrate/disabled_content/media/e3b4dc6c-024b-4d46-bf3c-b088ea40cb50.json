@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7192\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/xxNCZOshOuOn6B0ZZt5A5SiuyD4uG1Zp6A_EFhOPkfc.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7192
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e3b4dc6c-024b-4d46-bf3c-b088ea40cb50"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2353
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/xxNCZOshOuOn6B0ZZt5A5SiuyD4uG1Zp6A_EFhOPkfc.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9aebbb3c-454c-4098-a24a-79baab71434f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Combatting the Crisis of Opioids",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-03T17:30:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:37:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As the leading cause of accidental death in the United States, the opioid epidemic continues to ravage the nation, and there are no simple fixes. As we work to overcome this crisis, the U.S. Surgeon General recommends creating better partnerships with experts and communities to develop, implement, and share collaborative solutions at national and local levels. Government officials and experts will discuss action taken by Congress and the Administration to date, as well as policies we still need to pass. How can businesses, nonprofits, and communities more effectively support prevention programs and those suffering from substance use disorders, especially if funding and resources are scarce? What are successful models we can highlight and replicate?",
+    "format": "rich_text",
+    "processed": "As the leading cause of accidental death in the United States, the opioid epidemic continues to ravage the nation, and there are no simple fixes. As we work to overcome this crisis, the U.S. Surgeon General recommends creating better partnerships with experts and communities to develop, implement, and share collaborative solutions at national and local levels. Government officials and experts will discuss action taken by Congress and the Administration to date, as well as policies we still need to pass. How can businesses, nonprofits, and communities more effectively support prevention programs and those suffering from substance use disorders, especially if funding and resources are scarce? What are successful models we can highlight and replicate?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/q08-_JbY0g4",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/xxNCZOshOuOn6B0ZZt5A5SiuyD4uG1Zp6A_EFhOPkfc.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

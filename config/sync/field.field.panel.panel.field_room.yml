@@ -1,0 +1,28 @@
+uuid: 3b9efaec-ab6f-474a-aa7b-c2bc001a61a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - eck.eck_type.rooms.rooms
+    - field.storage.panel.field_room
+id: panel.panel.field_room
+field_name: field_room
+entity_type: panel
+bundle: panel
+label: room
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:rooms'
+  handler_settings:
+    target_bundles:
+      rooms: rooms
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

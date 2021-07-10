@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/dcs-failure-contain-medical-costs-could-deplete-gains-middle-class-according-stephen-nyce?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 130
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8f1634ca-307a-456d-84f9-0afd144484db"
+        }
+    ],
+    "vid": [
+        {
+            "value": 130
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "D.C.'s failure to contain medical costs could deplete gains of middle class, according to Stephen Nyce and Sylvester Schieber in latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/dcs-failure-contain-medical-costs-could-deplete-gains-middle-class-according-stephen-nyce",
+            "pid": 183,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - The rising costs of health care, combined with wage stagnation, are eating away at the middle-class living standard, argue <b>Steven Nyce<\/b> of Watson Wyatt Worldwide and <b>Syl Schieber<\/b>, chairman of the Social Security Advisory Board in the latest Milken Institute Review. \"The ballooning cost of employer-paid health insurance has claimed much of the gain associated with rising labor productivity in this decade,\" they conclude. \"Unless Washington gets serious about containing health-care inflation, escalating medical bills could easily absorb all the fruits of the future productivity gains of lower- and middle-income workers.\" This issue also includes articles from the following authors: <b>Len Burman<\/b>, an economist at Syracuse University\u2032s Maxwell School, thinks the unthinkable about Washington\u2032s addiction to deficit finance. \"None of the scenarios in which Americans wake up one day and decide that enough is enough seem very plausible,\" he writes. \"And that suggests it will take a traumatic event, a debt crisis that delivers a one-two-three punch in the form of inflation, deep recession and the collapse of the dollar, to alter the politics of deficit reduction.\" <b>Peter Reuter<\/b>, an economist at the University of Maryland\u2032s School of Public Policy, contemplates the fundamental dilemma in reforming policies toward illicit drugs. \"It is easy to describe what rational people don\u2032t like about the War on Drugs: half a million drug prisoners - the transformation of Afghanistan, Burma, Bolivia and, arguably, Mexico, into narco-states,\" he writes. \"But it is hard to describe what an unambiguously better drug policy would look like because every path has pitfalls.\" <b>Joel Smith<\/b>, a principal in Stratus Consulting in Colorado, shines a light on the little-considered issue of how to help poor countries cope with the consequences of climate change. \"Without an aggressive effort - and a tolerance for error as adaptation projects get up to speed - the challenges of global warming could become unmanageable in developing world,\" he writes. \"There could be widespread suffering from droughts, storms and the inundation of coastal areas. And what happens in developing countries could indirectly affect the developed world by increasing political instability and driving mass migration.\" Also in this issue: a cautiously optimistic take on Brazil\u2032s economy; a sobering view of Russia\u2032s future under Putin; an endorsement of U.S. railroads as a critical part of the answer to the nation\u2032s transportation system; a look at China\u2032s third attempt at a national health-care system; and an excerpt from Eli Berman's \"Radical, Religious and Violent: The New Economics of Terrorism.\" The Milken Institute Review is sent quarterly to the world\u2032s leading business and financial executives, senior policymakers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times.\nThe online edition is available here.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - The rising costs of health care, combined with wage stagnation, are eating away at the middle-class living standard, argue <b>Steven Nyce<\/b> of Watson Wyatt Worldwide and <b>Syl Schieber<\/b>, chairman of the Social Security Advisory Board in the latest Milken Institute Review. \"The ballooning cost of employer-paid health insurance has claimed much of the gain associated with rising labor productivity in this decade,\" they conclude. \"Unless Washington gets serious about containing health-care inflation, escalating medical bills could easily absorb all the fruits of the future productivity gains of lower- and middle-income workers.\" This issue also includes articles from the following authors: <b>Len Burman<\/b>, an economist at Syracuse University\u2032s Maxwell School, thinks the unthinkable about Washington\u2032s addiction to deficit finance. \"None of the scenarios in which Americans wake up one day and decide that enough is enough seem very plausible,\" he writes. \"And that suggests it will take a traumatic event, a debt crisis that delivers a one-two-three punch in the form of inflation, deep recession and the collapse of the dollar, to alter the politics of deficit reduction.\" <b>Peter Reuter<\/b>, an economist at the University of Maryland\u2032s School of Public Policy, contemplates the fundamental dilemma in reforming policies toward illicit drugs. \"It is easy to describe what rational people don\u2032t like about the War on Drugs: half a million drug prisoners - the transformation of Afghanistan, Burma, Bolivia and, arguably, Mexico, into narco-states,\" he writes. \"But it is hard to describe what an unambiguously better drug policy would look like because every path has pitfalls.\" <b>Joel Smith<\/b>, a principal in Stratus Consulting in Colorado, shines a light on the little-considered issue of how to help poor countries cope with the consequences of climate change. \"Without an aggressive effort - and a tolerance for error as adaptation projects get up to speed - the challenges of global warming could become unmanageable in developing world,\" he writes. \"There could be widespread suffering from droughts, storms and the inundation of coastal areas. And what happens in developing countries could indirectly affect the developed world by increasing political instability and driving mass migration.\" Also in this issue: a cautiously optimistic take on Brazil\u2032s economy; a sobering view of Russia\u2032s future under Putin; an endorsement of U.S. railroads as a critical part of the answer to the nation\u2032s transportation system; a look at China\u2032s third attempt at a national health-care system; and an excerpt from Eli Berman's \"Radical, Religious and Violent: The New Economics of Terrorism.\" The Milken Institute Review is sent quarterly to the world\u2032s leading business and financial executives, senior policymakers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times.\nThe online edition is available here.",
+    "summary": null,
+    "summary_processed": ""
+}

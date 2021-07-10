@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/9907\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/xe1HyhHns5hQNeSeFpqaw3TvHX2MWxCM5aaC7KRW2P4.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 9907
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d7edf514-71c9-4a5c-95d1-f70ca9fc6fc3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2248
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/xe1HyhHns5hQNeSeFpqaw3TvHX2MWxCM5aaC7KRW2P4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8398ba17-22c1-438a-9e90-2277ea35cb28"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Getting More From Biomedical Innovation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-29T19:10:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:16:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In 2018 the FDA approved a record number of new products, but pharmaceutical R&D returns have fallen to their lowest level in nine years. Biotech IPOs are still strong in an overall weakening market, but federal investment in biomedical R&D, which feeds the product and start-up pipeline, has declined almost 20 percent in real terms since 2003. How should we collectively be measuring the success of our R&D investments, and how are investment behaviors incentivized across the biomedical ecosystem? Can the economic and societal benefits of biomedical innovation outputs\u2014from basic science to patient access\u2014be measured from the patient perspective?",
+    "format": "rich_text",
+    "processed": "In 2018 the FDA approved a record number of new products, but pharmaceutical R&amp;D returns have fallen to their lowest level in nine years. Biotech IPOs are still strong in an overall weakening market, but federal investment in biomedical R&amp;D, which feeds the product and start-up pipeline, has declined almost 20 percent in real terms since 2003. How should we collectively be measuring the success of our R&amp;D investments, and how are investment behaviors incentivized across the biomedical ecosystem? Can the economic and societal benefits of biomedical innovation outputs\u2014from basic science to patient access\u2014be measured from the patient perspective?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/Dg6jb_pDdXc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/xe1HyhHns5hQNeSeFpqaw3TvHX2MWxCM5aaC7KRW2P4.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

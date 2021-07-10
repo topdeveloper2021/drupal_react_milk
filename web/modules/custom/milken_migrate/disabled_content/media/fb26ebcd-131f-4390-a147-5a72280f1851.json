@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10119\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/aPgnxZi8DU_5b2smXccz9Lvi0DAvnuSf65c-SeW6m-w.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10119
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fb26ebcd-131f-4390-a147-5a72280f1851"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1810
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/aPgnxZi8DU_5b2smXccz9Lvi0DAvnuSf65c-SeW6m-w.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b467061-15ba-469f-8284-e3a9774c5136"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Taking Travel, Leisure, and Transportation to the Next Level",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T16:32:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Recent research shows that changes in consumer values and spending habits are revolutionizing the travel, leisure, and transportation industries. Economic recovery, demographic shifts, and a millennial emphasis on investing in experiences over purchasing consumer goods are a welcome tailwind for the businesses of travel and transportation. This session will explore how companies are adapting their business strategies to ever-evolving consumer tastes, technological advancements, and policy regulations. Panelists will discuss how these industries are changing, challenging, and strengthening their services to deliver a decidedly refreshing and enriching travel experience for customers around the world.",
+    "format": "rich_text",
+    "processed": "Recent research shows that changes in consumer values and spending habits are revolutionizing the travel, leisure, and transportation industries. Economic recovery, demographic shifts, and a millennial emphasis on investing in experiences over purchasing consumer goods are a welcome tailwind for the businesses of travel and transportation. This session will explore how companies are adapting their business strategies to ever-evolving consumer tastes, technological advancements, and policy regulations. Panelists will discuss how these industries are changing, challenging, and strengthening their services to deliver a decidedly refreshing and enriching travel experience for customers around the world.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/L97_bOIYjp8",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/aPgnxZi8DU_5b2smXccz9Lvi0DAvnuSf65c-SeW6m-w.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

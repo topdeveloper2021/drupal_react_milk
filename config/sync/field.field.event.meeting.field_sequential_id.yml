@@ -1,0 +1,23 @@
+uuid: d558e6d3-f016-467c-9d86-d1b8c237e68a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_sequential_id
+id: event.meeting.field_sequential_id
+field_name: field_sequential_id
+entity_type: event
+bundle: meeting
+label: 'Sequential ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

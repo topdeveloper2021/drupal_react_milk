@@ -1,0 +1,115 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/104\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/asia"
+        }
+    },
+    "id": [
+        {
+            "value": 104
+        }
+    ],
+    "uuid": [
+        {
+            "value": "80ae2147-41c4-4c51-aa35-bc7c98edc052"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "asia"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Videos",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "Watch thought-provoking sessions from our events",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "asia"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/search?keywords=asia&f%5B0%5D=content_type%3Avideo&f%5B1%5D=topics_gral%3A32",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -48
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:a405552a-1efc-4cee-b032-e7370c4a6613"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T01:19:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "view_mode": [
+        {
+            "value": "default",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ]
+}

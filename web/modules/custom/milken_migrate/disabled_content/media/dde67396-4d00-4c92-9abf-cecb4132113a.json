@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10175\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/gIYeH3e1M80d4fL4O61Ay-JiyMXQSN3N2LqHYS5VL_c.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10175
+        }
+    ],
+    "uuid": [
+        {
+            "value": "dde67396-4d00-4c92-9abf-cecb4132113a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1780
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/gIYeH3e1M80d4fL4O61Ay-JiyMXQSN3N2LqHYS5VL_c.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6529f9e8-1de1-4b1a-93dc-ef55423d5cb6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Dealmakers: Show Me the M&A",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-03T16:29:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In a time that no longer seems to be the era of globalization and international supply chains, the outlook for dealmaking seems harsh; yet global M&A activity surpassed $4 trillion for only the second time since 2007. But where do we go from here? Are organic growth prospects and potential synergies strong enough to justify what many claim to be (too) high valuations? As China's foreign direct investment in North America and Europe slumped to a six-year low, will cross-border deals continue to play a major role? And with Silicon Valley facing increasing scrutiny over its perceived market control, are fears of concentration risk substantial and will this lead to obstacles for megadeals in 2019?<br \/> ",
+    "format": "rich_text",
+    "processed": "In a time that no longer seems to be the era of globalization and international supply chains, the outlook for dealmaking seems harsh; yet global M&amp;A activity surpassed $4 trillion for only the second time since 2007. But where do we go from here? Are organic growth prospects and potential synergies strong enough to justify what many claim to be (too) high valuations? As China's foreign direct investment in North America and Europe slumped to a six-year low, will cross-border deals continue to play a major role? And with Silicon Valley facing increasing scrutiny over its perceived market control, are fears of concentration risk substantial and will this lead to obstacles for megadeals in 2019?<br \/>",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/6zW9wsDyfIM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/gIYeH3e1M80d4fL4O61Ay-JiyMXQSN3N2LqHYS5VL_c.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

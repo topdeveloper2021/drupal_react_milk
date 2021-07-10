@@ -1,0 +1,80 @@
+uuid: d02c442f-5439-422a-a1aa-b022395338ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.media_entity_browser
+    - field.field.paragraph.tiles_sponsors.field_background_color
+    - field.field.paragraph.tiles_sponsors.field_display_size
+    - field.field.paragraph.tiles_sponsors.field_section_subheader
+    - field.field.paragraph.tiles_sponsors.field_sponsors
+    - field.field.paragraph.tiles_sponsors.field_title
+    - field.field.paragraph.tiles_sponsors.field_view_mode
+    - paragraphs.paragraphs_type.tiles_sponsors
+  module:
+    - color_field
+    - entity_browser
+id: paragraph.tiles_sponsors.default
+targetEntityType: paragraph
+bundle: tiles_sponsors
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_background_color:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: color_field_widget_html5
+    region: content
+  field_display_size:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_section_subheader:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sponsors:
+    type: entity_browser_entity_reference
+    weight: 6
+    settings:
+      entity_browser: media_entity_browser
+      field_widget_display: label
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_edit: false
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_view_mode:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

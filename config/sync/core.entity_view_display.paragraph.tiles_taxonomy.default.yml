@@ -1,0 +1,31 @@
+uuid: 5298eb2a-2391-43c1-83da-719385b58413
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tiles_taxonomy.field_entity_type
+    - field.field.paragraph.tiles_taxonomy.field_term
+    - paragraphs.paragraphs_type.tiles_taxonomy
+id: paragraph.tiles_taxonomy.default
+targetEntityType: paragraph
+bundle: tiles_taxonomy
+mode: default
+content:
+  field_entity_type:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_term:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  search_api_excerpt: true

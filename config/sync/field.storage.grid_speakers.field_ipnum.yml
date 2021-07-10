@@ -1,0 +1,21 @@
+uuid: f9f12a20-01ce-42e5-b456-7fc3859a0368
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_ipnum
+field_name: field_ipnum
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: c7d67c46-0422-44b7-b9ef-2a256723d4e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_date
+  module:
+    - datetime_range
+id: panel.panel.field_date
+field_name: field_date
+entity_type: panel
+bundle: panel
+label: Date
+description: 'Used only for sorting. Grid data has incorrect timezones on this field. '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

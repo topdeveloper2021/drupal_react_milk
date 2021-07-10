@@ -1,0 +1,21 @@
+uuid: c19a62ac-62df-42de-964f-0be57d2afed4
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_registration_deadline
+  module:
+    - datetime
+id: event.conference.field_registration_deadline
+field_name: field_registration_deadline
+entity_type: event
+bundle: conference
+label: 'Registration Deadline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

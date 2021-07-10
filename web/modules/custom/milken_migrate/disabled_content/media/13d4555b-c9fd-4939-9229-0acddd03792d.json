@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10094\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XVrUDk8wU0C9IX3BP03x6hm_qQq6FpRZUi4yFd_B038.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10094
+        }
+    ],
+    "uuid": [
+        {
+            "value": "13d4555b-c9fd-4939-9229-0acddd03792d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1824
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XVrUDk8wU0C9IX3BP03x6hm_qQq6FpRZUi4yFd_B038.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e64d97ed-6d2f-4283-b0e5-b0a3c7403d94"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Internationalization of Cannabis",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T21:45:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Cannabis legalization is going global, presenting the industry and investors with new opportunities and new risks. Medicinal use is now legal in such countries as Argentina, Australia, Germany, Israel, Italy, and Mexico, while both medicinal and recreational use are legal in Canada, several states in the United States, and Uruguay. Additionally, markets are starting to open in Europe, Latin America, and beyond. Worldwide, legal cannabis sales could reach $57 billion by 2027. What is the international cannabis landscape? How do markets differ in the US versus internationally? Is the cannabis industry heading toward a boom or bust?",
+    "format": "rich_text",
+    "processed": "Cannabis legalization is going global, presenting the industry and investors with new opportunities and new risks. Medicinal use is now legal in such countries as Argentina, Australia, Germany, Israel, Italy, and Mexico, while both medicinal and recreational use are legal in Canada, several states in the United States, and Uruguay. Additionally, markets are starting to open in Europe, Latin America, and beyond. Worldwide, legal cannabis sales could reach $57 billion by 2027. What is the international cannabis landscape? How do markets differ in the US versus internationally? Is the cannabis industry heading toward a boom or bust?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/FLsPiYAWi-I",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/XVrUDk8wU0C9IX3BP03x6hm_qQq6FpRZUi4yFd_B038.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

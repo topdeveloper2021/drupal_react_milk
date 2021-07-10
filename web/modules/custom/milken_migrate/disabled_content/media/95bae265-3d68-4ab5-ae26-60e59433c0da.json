@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10101\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XTKW3PCfvSYGmvsxcF-8k9K0514FdUY2fT83z8fYHoM.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10101
+        }
+    ],
+    "uuid": [
+        {
+            "value": "95bae265-3d68-4ab5-ae26-60e59433c0da"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1903
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XTKW3PCfvSYGmvsxcF-8k9K0514FdUY2fT83z8fYHoM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7d90e967-8216-4d9f-9be8-0997420207e5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "An Ounce of Prevention: New Prescriptions for Healthy Longevity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T01:26:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:06:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As countries across the globe face aging populations and increasing health-care costs, new attention is being focused on how to prevent life-altering illnesses in the first place. During this session, health leaders will discuss new strategies to move health systems away from sick care to one focused on prediction and prevention. How can increased emphasis on exercise, nutrition, and social connectivity reduce disparities and improve health across the lifespan? How can we use predictive analytics to better target drug therapies and lifestyle interventions to those at highest risk of disease? How can technology be used to engage consumers to be active participants in their own health and wellness?",
+    "format": "rich_text",
+    "processed": "As countries across the globe face aging populations and increasing health-care costs, new attention is being focused on how to prevent life-altering illnesses in the first place. During this session, health leaders will discuss new strategies to move health systems away from sick care to one focused on prediction and prevention. How can increased emphasis on exercise, nutrition, and social connectivity reduce disparities and improve health across the lifespan? How can we use predictive analytics to better target drug therapies and lifestyle interventions to those at highest risk of disease? How can technology be used to engage consumers to be active participants in their own health and wellness?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/eOcQCsOZHTM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/XTKW3PCfvSYGmvsxcF-8k9K0514FdUY2fT83z8fYHoM.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

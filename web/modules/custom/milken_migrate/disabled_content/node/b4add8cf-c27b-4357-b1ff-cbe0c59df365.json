@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/terrorist-attacks-stifle-global-economic-growth-especially-shift-more-civilian-targets?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 198
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b4add8cf-c27b-4357-b1ff-cbe0c59df365"
+        }
+    ],
+    "vid": [
+        {
+            "value": 198
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Terrorist Attacks Stifle Global Economic Growth, Especially With Shift to More Civilian Targets, Milken Institute Researchers Find",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/terrorist-attacks-stifle-global-economic-growth-especially-shift-more-civilian-targets",
+            "pid": 251,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In recent years, the goal of terrorists has become to not only cause political and social damage, but economic harm as well. And based on new research from the Milken Institute, they may be accomplishing their economic objective.\nA new paper, \"The Economic Impacts of Global Terrorism: From Munich to Bali,\" shows that, contrary to some research that has minimized or emphasized the transitory impact of these attacks, terrorism has had a large financial and economic impact - especially as terrorists have shifted their attacks from government to civilian targets. \"Economically speaking, terrorism may be winning,\" said Glenn Yago, Director of Capital Studies at the Institute. The paper, presented Sunday at the annual meeting of the American Economic Association in Boston, finds that: The frequency of terrorist attacks and their intensity (as measured by the number of fatalities and injuries) has a significantly negative effect on investments and stock market capitalization. <br> The marked increase in private-sector targets since the late-1990s had a consistently negative and significant impact on economic growth and investment across countries.<br> One variation from the negative findings is that the number of terrorist events have had a positive impact on traded value in stock markets as a result of either increased transactions or positive effects on defense and security industry stocks.<br> The U.S., United Kingdom, France and Spain are among the top 10 countries ranked by various terrorism measures, such as percent of incidents and percent of fatalities, in addition to Middle Eastern countries typically associated with terrorist attacks. A team of researchers from the Institute, using data from the MIPT Terrorism Knowledge Base, studied terrorism attacks in 149 countries from 1968 to 2004 and compared them with various financial market measurements, such as corporate investment, GDP and stock market valuations. During this time, there were 16,730 incidents resulting in more than 90,000 deaths and injuries, most of which occurred in a growing number of countries within the Middle East, but expanding to other regions. The research documents the changing pattern and intensity of terrorist attacks from governmental to civilian targets that have spiked since 1998. For example, in the 1970s, 41 percent of targets were governmental as opposed to only 2 percent since 2000. Private citizens and private property increased from 1 percent of the targets in 1970 to 30 percent since 2000. Overall, fatalities and injuries that were largely concentrated on governmental or military targets in the 1970s have overwhelmingly shifted to private, business and transportation targets. From the Munich Olympics in 1972 to the tourist attacks in Bali in 2005, targeting civilian populations to attain political aims has become more ubiquitous and effective in economic terms. \"The explicit strategy of economic jihad has been to weaken social and economic ties in countries through protracted attacks to achieve political gain not attainable in conventional military or political terms,\" the authors say. \"In this way, resources are misdirected from more productive uses in targeted countries to weaken them financially, politically and militarily.\" Generally, terrorists that have learned from them have had a generally negative and significant impact on GDP growth and capital formation, researchers found. Israel, Lebanon, Jordan, Spain, Turkey, Russia, Indonesia and Greece are among the countries that experienced a significant drop in investment from terrorist attacks. Previous studies argued that terrorist incidents could trigger adverse, short-lived reactions in financial markets. However, the Milken Institute research went further, examining more countries, distinguishing between different targets and looking at how the attacks affect the overall investment environment over a longer period of time. In addition to Glenn Yago, the authors of the paper are Senior Fellow James R. Barth, Research Analyst Tong Li and Senior Research Analysts Don McCarthy and Triphon Phumiwasana. View the paper. View slide presentation on the paper given at the annual meeting of the American Economic Association in Boston on Jan. 8, 2006.",
+    "format": "rich_text",
+    "processed": "In recent years, the goal of terrorists has become to not only cause political and social damage, but economic harm as well. And based on new research from the Milken Institute, they may be accomplishing their economic objective.\nA new paper, \"The Economic Impacts of Global Terrorism: From Munich to Bali,\" shows that, contrary to some research that has minimized or emphasized the transitory impact of these attacks, terrorism has had a large financial and economic impact - especially as terrorists have shifted their attacks from government to civilian targets. \"Economically speaking, terrorism may be winning,\" said Glenn Yago, Director of Capital Studies at the Institute. The paper, presented Sunday at the annual meeting of the American Economic Association in Boston, finds that: The frequency of terrorist attacks and their intensity (as measured by the number of fatalities and injuries) has a significantly negative effect on investments and stock market capitalization. <br \/> The marked increase in private-sector targets since the late-1990s had a consistently negative and significant impact on economic growth and investment across countries.<br \/> One variation from the negative findings is that the number of terrorist events have had a positive impact on traded value in stock markets as a result of either increased transactions or positive effects on defense and security industry stocks.<br \/> The U.S., United Kingdom, France and Spain are among the top 10 countries ranked by various terrorism measures, such as percent of incidents and percent of fatalities, in addition to Middle Eastern countries typically associated with terrorist attacks. A team of researchers from the Institute, using data from the MIPT Terrorism Knowledge Base, studied terrorism attacks in 149 countries from 1968 to 2004 and compared them with various financial market measurements, such as corporate investment, GDP and stock market valuations. During this time, there were 16,730 incidents resulting in more than 90,000 deaths and injuries, most of which occurred in a growing number of countries within the Middle East, but expanding to other regions. The research documents the changing pattern and intensity of terrorist attacks from governmental to civilian targets that have spiked since 1998. For example, in the 1970s, 41 percent of targets were governmental as opposed to only 2 percent since 2000. Private citizens and private property increased from 1 percent of the targets in 1970 to 30 percent since 2000. Overall, fatalities and injuries that were largely concentrated on governmental or military targets in the 1970s have overwhelmingly shifted to private, business and transportation targets. From the Munich Olympics in 1972 to the tourist attacks in Bali in 2005, targeting civilian populations to attain political aims has become more ubiquitous and effective in economic terms. \"The explicit strategy of economic jihad has been to weaken social and economic ties in countries through protracted attacks to achieve political gain not attainable in conventional military or political terms,\" the authors say. \"In this way, resources are misdirected from more productive uses in targeted countries to weaken them financially, politically and militarily.\" Generally, terrorists that have learned from them have had a generally negative and significant impact on GDP growth and capital formation, researchers found. Israel, Lebanon, Jordan, Spain, Turkey, Russia, Indonesia and Greece are among the countries that experienced a significant drop in investment from terrorist attacks. Previous studies argued that terrorist incidents could trigger adverse, short-lived reactions in financial markets. However, the Milken Institute research went further, examining more countries, distinguishing between different targets and looking at how the attacks affect the overall investment environment over a longer period of time. In addition to Glenn Yago, the authors of the paper are Senior Fellow James R. Barth, Research Analyst Tong Li and Senior Research Analysts Don McCarthy and Triphon Phumiwasana. View the paper. View slide presentation on the paper given at the annual meeting of the American Economic Association in Boston on Jan. 8, 2006.",
+    "summary": null,
+    "summary_processed": ""
+}

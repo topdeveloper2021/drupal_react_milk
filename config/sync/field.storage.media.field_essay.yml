@@ -1,0 +1,19 @@
+uuid: 6fbcccfe-cd73-4a0f-942c-843ebaa9953a
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - media
+id: media.field_essay
+field_name: field_essay
+entity_type: media
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/post-enron-accounting-fixes-miss-core-issue-says-economist-latest-milken-institute-review?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 239
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bc9b34f1-613e-4f95-a35d-43b430cfe6ba"
+        }
+    ],
+    "vid": [
+        {
+            "value": 239
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Post-Enron accounting fixes miss core issue, says economist in the latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/post-enron-accounting-fixes-miss-core-issue-says-economist-latest-milken-institute-review",
+            "pid": 292,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - In a detailed analysis of the many fixes for accounting issues exposed by Enron\u2032s collapse, Robert E. Litan, director of economic studies at the Brookings Institution, argues that the real job is yet to be done. <br>\nThe biggest obstacle to effective reform, Litan suggests in the latest issue of The Milken Institute Review, is the monopoly of the Financial Accounting Standards Board (FASB) over accounting rules. <br> \"The core problem with any monopoly standard-setter is that it has no incentive to respond to market forces, let alone to resist political influence,\" Litan argues. \"As in private markets, the solution to monopoly is competition.\" This could come in many forms, such as letting publicly listed firms choose one of the two main reporting standards now available - generally acceptable accounting principles set by the FASB or the international accounting standards set by the International Accounting Standards Board.<br> \"My hope is that policymakers will think more boldly, embracing a competition-based approach to accounting standards while pushing regulators and the private sector to disclose more nonfinancial information,\" he writes. <br> Also in this issue of the Milken Institute\u2032s quarterly economic journal, two of the world\u2032s leading supporters of globalization - billionaire philanthropist George Soros and Nobel Prize-winner Joseph Stiglitz - offer ideas on how to make it work better. Their views appear in separate excerpts from their latest books. <br> In On Globalization, Soros outlines an ambitious plan for reforming and increasing foreign aid to poor and transitional economies. In Globalization and its Discontents, Stiglitz takes on the International Monetary Fund and the consequences of some of its decisions during the 1990\u2032s Asian financial crisis.<br> Other highlights from the new Review: <br> o David A. Levine, former chief economist at Sanford C. Bernstein & Co., Inc., offers a bold solution for keeping Social Security viable as the huge Baby Boom generation approaches retirement: Raise the age of eligibility for full benefits. \"Since we are living longer and healthier lives, we could solve the entire problem with little trauma by working several more years,\" he writes. \"By delaying retirement commensurate with gains in longevity, benefits could be maintained without raising taxes because the ratio of workers to retirees would remain high enough to cover the bill.\" <br> o Gavin Buckley, a specialist in international finance at the U.S. Treasury Department, takes a close look at the agency in charge of cleaning up Japan\u2032s banking mess. \"While the Resolution and Collection Corporation has often been likened to America\u2032s Resolution Trust Corporation, which was instrumental in resolving the savings and loan crisis in the United States, neither the RCC\u2032s bureaucracy nor the government defines its mandate in a way that offers much hope of a fix anytime soon.\" <br> o Economists in the Milken Institute\u2032s Capital Studies group look at how well countries around the world are doing at allowing capital to flow to entrepreneurs - and what can be done to build a middle class and efficient financial markets in developing countries. <br> o Institute Chairman Michael Milken sits down with a panel of Nobel Laureates in economics in an edited excerpt from their discussion at the Milken Institute 2002 Global Conference. <br>\nFinally, Institute Senior Fellow and resident demographer Bill Frey highlights the good and bad news about higher education in America today based on the latest Census data. In this issue\u2032s Charticle, Frey illustrates what states have the greatest number of people with college degrees, and those with the highest percentage of dropouts - and how uneven these distributions are becoming across the United States. <br> The Milken Institute Review is distributed to some 10,000 corporate and financial executives, policy makers, academics and journalists throughout the world. Its editor is Peter Passell, former economics columnist for The New York Times.<BR>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - In a detailed analysis of the many fixes for accounting issues exposed by Enron\u2032s collapse, Robert E. Litan, director of economic studies at the Brookings Institution, argues that the real job is yet to be done. <br \/>\nThe biggest obstacle to effective reform, Litan suggests in the latest issue of The Milken Institute Review, is the monopoly of the Financial Accounting Standards Board (FASB) over accounting rules. <br \/> \"The core problem with any monopoly standard-setter is that it has no incentive to respond to market forces, let alone to resist political influence,\" Litan argues. \"As in private markets, the solution to monopoly is competition.\" This could come in many forms, such as letting publicly listed firms choose one of the two main reporting standards now available - generally acceptable accounting principles set by the FASB or the international accounting standards set by the International Accounting Standards Board.<br \/> \"My hope is that policymakers will think more boldly, embracing a competition-based approach to accounting standards while pushing regulators and the private sector to disclose more nonfinancial information,\" he writes. <br \/> Also in this issue of the Milken Institute\u2032s quarterly economic journal, two of the world\u2032s leading supporters of globalization - billionaire philanthropist George Soros and Nobel Prize-winner Joseph Stiglitz - offer ideas on how to make it work better. Their views appear in separate excerpts from their latest books. <br \/> In On Globalization, Soros outlines an ambitious plan for reforming and increasing foreign aid to poor and transitional economies. In Globalization and its Discontents, Stiglitz takes on the International Monetary Fund and the consequences of some of its decisions during the 1990\u2032s Asian financial crisis.<br \/> Other highlights from the new Review: <br \/> o David A. Levine, former chief economist at Sanford C. Bernstein &amp; Co., Inc., offers a bold solution for keeping Social Security viable as the huge Baby Boom generation approaches retirement: Raise the age of eligibility for full benefits. \"Since we are living longer and healthier lives, we could solve the entire problem with little trauma by working several more years,\" he writes. \"By delaying retirement commensurate with gains in longevity, benefits could be maintained without raising taxes because the ratio of workers to retirees would remain high enough to cover the bill.\" <br \/> o Gavin Buckley, a specialist in international finance at the U.S. Treasury Department, takes a close look at the agency in charge of cleaning up Japan\u2032s banking mess. \"While the Resolution and Collection Corporation has often been likened to America\u2032s Resolution Trust Corporation, which was instrumental in resolving the savings and loan crisis in the United States, neither the RCC\u2032s bureaucracy nor the government defines its mandate in a way that offers much hope of a fix anytime soon.\" <br \/> o Economists in the Milken Institute\u2032s Capital Studies group look at how well countries around the world are doing at allowing capital to flow to entrepreneurs - and what can be done to build a middle class and efficient financial markets in developing countries. <br \/> o Institute Chairman Michael Milken sits down with a panel of Nobel Laureates in economics in an edited excerpt from their discussion at the Milken Institute 2002 Global Conference. <br \/>\nFinally, Institute Senior Fellow and resident demographer Bill Frey highlights the good and bad news about higher education in America today based on the latest Census data. In this issue\u2032s Charticle, Frey illustrates what states have the greatest number of people with college degrees, and those with the highest percentage of dropouts - and how uneven these distributions are becoming across the United States. <br \/> The Milken Institute Review is distributed to some 10,000 corporate and financial executives, policy makers, academics and journalists throughout the world. Its editor is Peter Passell, former economics columnist for The New York Times.<br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

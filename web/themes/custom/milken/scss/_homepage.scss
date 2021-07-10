@@ -1,0 +1,640 @@
+
+
+
+.page-node-type-homepage{
+  .masterdiv-white {
+    .bkg-noimage-image-container.text-center {
+      h2 {
+        font-size: 36px;
+        font-family: "LatoWebBold";
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 20px;
+        font-family: "LatoWeb";
+        line-height: 26px;
+        margin-bottom: 20px;
+        padding: 0;
+        width: 70%;
+        margin: 0 auto 20px auto;
+      }
+
+      .bkg-noimage-image-container-action {
+        margin-top: 30px;
+      }
+
+      @media (max-width: $breakpointTableMD) {
+        h2 {
+          font-size: 30px;
+          font-family: "LatoWebBold";
+          line-height: 34px;
+        }
+
+        p {
+          font-size: 14px;
+          font-family: "LatoWeb";
+          line-height: 20px;
+        }
+      }
+
+      @media (max-width: $breakpointPhone - 1) {
+        h2 {
+          font-size: 24px;
+          font-family: "LatoWebBold";
+          line-height: 28px;
+        }
+      }
+    }
+  }
+
+  #home-centers {
+    margin-right: 0px;
+    margin-left: 0px;
+    .inner-wrapper {
+      @media (max-width: $breakpointTablet) {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #next-carousel-centers {
+        @media (min-width: $breakpointTablet) {
+          right: 85px;
+        }
+        @media (max-width: $breakpointTablet) {
+          right: 10px;
+        }
+      }
+      .upcoming-events-left {
+        .inner-upcoming-events {
+          .center-ul-home {
+            .center-home-li {
+              height: 54px;
+              @media (max-width: $breakpointTablet) {
+                height: 44px;
+              }
+            }
+          }
+        }
+      }
+      .upcoming-events-right {
+        @media (min-width: $breakpointTablet) {
+          padding-right: 85px;
+        }
+        .info-center-container {
+          h6 {
+            b {
+              .nodetitlecustom {
+                font-family: LatoWebBold;
+                @media (min-width: $breakpointTablet) {
+                  width: 138px;
+                  color: #35363C;
+                  font-size: 24px;
+                  line-height: 30px;
+                }
+              }
+            }
+          }
+          .extra-spacing-paragraph {
+            font-family: LatoWeb;
+            @media (min-width: $breakpointTablet) {
+              width: 689px;
+              color: $mainParagraphColor;
+              font-size: 20px;
+              line-height: 26px;
+            }
+          }
+          .orangeseemore-center {
+            font-family: LatoWebBold;
+            @media (min-width: $breakpointTablet) {
+              height: 44px;
+              width: 154px;
+              color: #FFFFFF;
+              font-size: 14px;
+              letter-spacing: 1.5px;
+              line-height: 16px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sponsor > .home-strategic-p {
+    margin: 0 auto;
+  }
+
+  .info-center-container .orangeseemore-center {
+    line-height: 1;
+    font-family: LatoWebBold;
+  }
+
+  .upcoming-events {
+    @media (max-width: $breakpointPhone) {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .upcoming-description-column {
+      @media (max-width: $breakpointTablet) {
+        .orangeseemore {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .events-button-phone {
+      .orangeseemore-phone {
+        @media (max-width: $breakpointPhone - 1) {
+          font-family: LatoWebBold;
+        }
+      }
+    }
+
+    .upcoming-events-inhome {
+      .events-copy {
+        align-items: flex-start;
+        .absolute-inner-upcoming-phone {
+          width: unset;
+          padding: 0 8px;
+          @media (max-width: $breakpointPhone - 1) {
+            font-family: LatoWebBold;
+          }
+        }
+      }
+    }
+  }
+  .upcoming-events .events-button-phone {
+    padding-top: 30px;
+  }
+}
+
+
+
+.page-node-type-homepage{
+  .masterdiv-white {
+    .bkg-noimage-image-container.text-center {
+      h2 {
+        font-size: 36px;
+        font-family: "LatoWebBold";
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 20px;
+        font-family: "LatoWeb";
+        line-height: 26px;
+        margin-bottom: 20px;
+        padding: 0;
+        width: 70%;
+        margin: 0 auto 20px auto;
+      }
+
+      .bkg-noimage-image-container-action {
+        margin-top: 30px;
+      }
+
+      @media (max-width: $breakpointTableMD) {
+        h2 {
+          font-size: 30px;
+          font-family: "LatoWebBold";
+          line-height: 34px;
+        }
+
+        p {
+          font-size: 14px;
+          font-family: "LatoWeb";
+          line-height: 20px;
+        }
+      }
+
+      @media (max-width: $breakpointPhone - 1) {
+        h2 {
+          font-size: 24px;
+          font-family: "LatoWebBold";
+          line-height: 28px;
+        }
+      }
+    }
+  }
+
+  #home-centers {
+    margin-right: 0px;
+    margin-left: 0px;
+    .inner-wrapper {
+      @media (max-width: $breakpointTablet) {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #next-carousel-centers {
+        @media (min-width: $breakpointTablet) {
+          right: 85px;
+        }
+        @media (max-width: $breakpointTablet) {
+          right: 10px;
+        }
+      }
+      .upcoming-events-left {
+        .inner-upcoming-events {
+          .center-ul-home {
+            .center-home-li {
+              height: 54px;
+              @media (max-width: $breakpointTablet) {
+                height: 44px;
+              }
+            }
+          }
+        }
+      }
+      .upcoming-events-right {
+        @media (min-width: $breakpointTablet) {
+          padding-right: 85px;
+        }
+        .info-center-container {
+          h6 {
+            b {
+              .nodetitlecustom {
+                font-family: "LatoWebBold";
+                @media (min-width: $breakpointTablet) {
+                  width: 138px;
+                  color: #35363C;
+                  font-size: 24px;
+                  line-height: 30px;
+                }
+              }
+            }
+          }
+          .extra-spacing-paragraph {
+            font-family: "LatoWeb";
+            @media (min-width: $breakpointTablet) {
+              width: 689px;
+              color: $mainParagraphColor;
+              font-size: 20px;
+              line-height: 26px;
+            }
+          }
+          .orangeseemore-center {
+            font-family: "LatoWebBold";
+            @media (min-width: $breakpointTablet) {
+              height: 44px;
+              width: 154px;
+              color: #FFFFFF;
+              font-size: 14px;
+              letter-spacing: 1.5px;
+              line-height: 16px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sponsor > .home-strategic-p {
+    margin: 0 auto;
+  }
+
+  .info-center-container .orangeseemore-center {
+    line-height: 1;
+    font-family: "LatoWebBold";
+  }
+
+  .upcoming-events {
+    @media (max-width: $breakpointPhone) {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .upcoming-description-column {
+      @media (max-width: $breakpointTablet) {
+        .orangeseemore {
+          font-size: 12px;
+        }
+      }
+    }
+
+    .events-button-phone {
+      .orangeseemore-phone {
+        @media (max-width: $breakpointPhone - 1) {
+          font-family: "LatoWebBold";
+        }
+      }
+    }
+
+    .upcoming-events-inhome {
+      .events-copy {
+        align-items: flex-start;
+        .absolute-inner-upcoming-phone {
+          width: unset;
+          padding: 0 8px;
+          @media (max-width: $breakpointPhone - 1) {
+            font-family: "LatoWebBold";
+          }
+        }
+      }
+    }
+  }
+  .upcoming-events .events-button-phone {
+    padding-top: 30px;
+  }
+}
+
+
+/***  BEGIN - HOMEPAGE STYLES ***/
+.path-frontpage, .page-node-type-homepage, .page-node-type-landing-page, .page-node-type-program-initiative {
+  .bkg-noimage-image-container {
+    width: 100%;
+
+    //height: 550px;
+
+    h2 {
+      font-family: "LatoWebBold";
+      color: $mainFontColor;
+      font-size: 36px;
+      margin-top: 53px;
+      margin-bottom: 19px;
+
+      @media (max-width: $breakpointTablet) {
+        font-size: 30px;
+      }
+
+    }
+    p {
+      color: $grayFont;
+      font-size: 20px;
+      font-family: "LatoWeb";
+      max-width: 65%;
+      margin: 19px auto 33px;
+      line-height: 26px;
+
+
+      @media (max-width: $breakpointTablet) {
+        max-width: 586px;
+        font-size: 16px;
+      }
+
+      @media (max-width: $breakpointPhone) {
+        max-width: 95%;
+        font-size: 14px;
+      }
+
+    }
+    a {
+      @include orangelink-clean();
+      font-size: 14px;
+    }
+    .bkg-noimage-image-container-action {
+      margin-top: 48px;
+    }
+  }
+
+
+
+  .strategic-partners-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .strategic-partners-section-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+
+      &:before, &:after {
+        content: none;
+      }
+
+      .sponsor {
+        width: auto;
+      }
+
+      @media only screen and (max-width: $breakpointPhone) {
+        display: block;
+
+        .sponsor {
+          width: 50%;
+        }
+      }
+    }
+
+    h3 {
+      padding-bottom: 50px;
+      text-align: center;
+      font-family: 'LatoWebBold';
+
+      @media only screen and (max-width: $breakpointTablet) {
+        font-size: 20px;
+      }
+
+      @media only screen and (max-width: $breakpointPhone) {
+        font-size: 18px;
+      }
+
+    }
+  }
+
+  .container-light-gray {
+    background-color: $backgroundLight;
+  }
+
+  .bkg-center-slider {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+  .orangeseemore-center {
+    color: $lightTitle;
+    font-size: 14px;
+    background-color: $orangeButtons;
+    padding: 14px;
+    vertical-align: middle;
+    line-height: 42px;
+    min-height: 43px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+  }
+
+  /*** BEGIN - CHANGES FOR CENTERS SLIDER ON MOBILE ***/
+  .center-slider {
+    display: none;
+    @media (max-width: $breakpointPhone) {
+      display: block;
+      width: 46%;
+      padding: 0px;
+      cursor: pointer;
+      position: relative;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 4%;
+
+      .row {
+        margin: 0;
+      }
+    }
+
+    .info-center-container {
+      @media (max-width: $breakpointPhone) {
+        position: absolute;
+        bottom: 0;
+        padding: 11px 10px;
+        width: 100%;
+      }
+
+      .nodetitlecustom {
+        @media (max-width: $breakpointPhone) {
+          color: #35363c;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 18px;
+          text-align: center;
+          display: block;
+        }
+      }
+
+    }
+
+    .bkg-center-slider {
+      @media (max-width: $breakpointPhone) {
+        height: 200px;
+      }
+    }
+  }
+
+  .info-center-container {
+    a.orangeseemore-center {
+      @media (max-width: $breakpointPhone) {
+        display: none;
+      }
+    }
+
+    .extra-spacing-paragraph {
+      @media (max-width: $breakpointPhone) {
+        display: none;
+      }
+      p {
+        @media (max-width: $breakpointPhone) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  /*** END - CHANGES FOR CENTERS SLIDER ON MOBILE ***/
+
+  .visible-center {
+    display: block;
+  }
+
+  .center-ul-home {
+    .center-home-li {
+      cursor: pointer;
+      padding: 0 15px;
+      border-bottom: 0;
+      color: $mainParagraphColor;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: 'LatoWeb';
+      @media (max-width: $breakpointTablet) {
+        font-size: 14px;
+      }
+    }
+    .selected-center, .center-home-li:hover {
+      font-family: 'LatoWebBold';
+      background-color: #f0f2f4;
+      border-left: 3px solid $orangeButtons;
+      color: $orangeButtons;
+      padding-left: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      @media only screen and (max-width: $breakpointTablet) {
+        height: 60px;
+      }
+    }
+  }
+
+  .info-center-container {
+    background-color: #f1f4f6;
+    padding: 17px 28px 33px;
+
+    h6 {
+      color: #35363c;
+      font-size: 24px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.25;
+      font-family: 'LatoWebBold';
+      margin: 0 2px 0 0;
+
+      @media (max-width: $breakpointTablet) {
+        font-size: 20px;
+      }
+    }
+    p {
+      font-family: 'LatoWeb';
+      font-size: 20px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.3;
+      letter-spacing: normal;
+      color: $mainParagraphColor;
+      margin-bottom: 13px;
+    }
+
+  }
+  .centers-slider-home-title, .upcoming-events-home-title {
+    font-size: 36px;
+    line-height: 44px;
+    margin: 74px 306px;
+    font-family: "LatoWebBold";
+
+    @media only screen and (max-width: $breakpointTablet) {
+      margin: 50px 50px 50px 25px;
+    }
+
+    @media only screen and (max-width: $breakpointPhone) {
+      margin: 36px 20px;
+    }
+
+    @media (max-width: $breakpointTablet) {
+      font-size: 30px;
+    }
+  }
+
+  .upcoming-events-home-title {
+    @media only screen and (max-width: $breakpointPhone) {
+      display: none;
+    }
+  }
+
+  //TODO - Remove important as part of the code consolidation of the Centers carrousel
+  .centers-slider-home-subtitle {
+    line-height: 1.25;
+    letter-spacing: 2px;
+    color: rgba(53, 54, 60, 0.54) !important;
+    font-size: 16px !important;
+    text-transform: uppercase;
+    margin-bottom: 30px !important;
+  }
+}
+/***  END - HOMEPAGE STYLES ***/
+
+
+
+#social-header-ctc {
+  a {
+    color: $grayFont;
+    &:hover {
+      color: $orangeButtons;
+    }
+  }
+}
+
+
+
+
+
+

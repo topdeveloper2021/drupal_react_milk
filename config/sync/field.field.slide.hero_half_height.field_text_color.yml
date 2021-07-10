@@ -1,0 +1,25 @@
+uuid: 3d2c8d1a-2ca6-4e92-bbff-b43ee5c448be
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.hero_half_height
+    - field.storage.slide.field_text_color
+  module:
+    - color_field
+id: slide.hero_half_height.field_text_color
+field_name: field_text_color
+entity_type: slide
+bundle: hero_half_height
+label: 'Text Color'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    color: '#000000'
+    opacity: !!float 1
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

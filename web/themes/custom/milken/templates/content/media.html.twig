@@ -1,0 +1,17 @@
+{{ attach_library('milken_base/MediaDetail') }}
+
+
+{%  set bundle = media.get('bundle').entity.id() %}
+
+<media-display
+  {{ attributes }}
+  id="{{ media.uuid.value }}"
+  data-id="{{ media.uuid.value }}"
+  data-type="{{ media.getEntityTypeId() }}--{{ bundle }}"
+  data-entity-type-id="{{ media.getEntityTypeId() }}"
+  data-drupal-internal-mid="{{ media.id.value }}"
+  data-bundle="{{ bundle }}"
+  data-view-mode="{{ view_mode }}"
+  data-can-edit="{{ user.hasPermission( edit_permission ) }}"
+>
+</media-display>

@@ -1,0 +1,19 @@
+uuid: f6fdf747-f24a-485a-89ff-cf3693b6373e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_campaign_name
+id: event.summit.field_campaign_name
+field_name: field_campaign_name
+entity_type: event
+bundle: summit
+label: 'Campaign Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 1da8a722-0933-443c-9825-16e5f0813f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_social_network_links
+  module:
+    - key_value_field
+id: event.summit.field_social_network_links
+field_name: field_social_network_links
+entity_type: event
+bundle: summit
+label: 'Social Network Links'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: key_value

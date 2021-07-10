@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-august-13-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/131?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 759
+        }
+    ],
+    "uuid": [
+        {
+            "value": "322ecd29-45dd-4b0e-9309-b5a643535e38"
+        }
+    ],
+    "vid": [
+        {
+            "value": 759
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/131?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "87790f8f-a50a-4f60-9825-b2fceb043aa2"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus August 13, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-08-13T13:07:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:18:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-august-13-2018",
+            "pid": 812,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Checking FinTech\u2019s Pulse KPMG is out with its biannual \u201cPulse of FinTech\u201d report, which finds that overall FinTech funding for 2018 is on pace to surpass 2017 levels halfway through the year. Ant Financial\u2019s $14 billion funding round and Vantiv\u2019s $12.9 billion acquisition of WorldPay helped to drive these figures. The report also finds that interest in InsurTech and RegTech has grown significantly among investors, with RegTech funding in 2018 outpacing every previous year except for 2016, and InsurTech seeing several significant deals and geographic growth into new markets. The report also finds regulatory responses to FinTech, such as the European Union\u2019s General Data Protection Regulation and Second Payment Services Directive, have themselves become drivers of FinTech investment. FinTech\u2019s newly mandated access to financial data in these jurisdictions is seen by investors as a significant opportunity for FinTechs, not to mention larger tech firms.<br \/> <br \/> Industry Headlines <i>AltFi:<\/i> Quarterly earnings season continued to yield mixed results for alternative lenders. To start with the good news: OnDeck raised its profit forecasts for 2018 from $10 million to up to $16 million. This performance was driven by greater loan volume and higher interest rates, and sent OnDeck\u2019s shares up by as much as 20 percent. On a less positive note: SoFi reported a second quarter loss of $200 million. According to a shareholder letter, this came about as a result of lower volume in the face of increasing prices. In other AltFi news, student loan specialist CommonBond issued its second AAA securitization, and GreenSky announced a partnership with American Express to offer point of sale financing solutions to merchants who accept American Express. <i>Big Tech:<\/i> Following on last week\u2019s news that Apple Pay volume was greater than that of Square, the tech giant launched a promotional discount in San Francisco. Apple Pay users will receive discounts of up to 50 percent at local merchants. Meanwhile, lawmakers in San Francisco are doing their own part to help out local merchants who they feel have been negatively impacted by the amenities tech companies offer to their workers. Newly introduced legislation would forbid new offices from having their own cafeterias. Many tech firms in San Francisco offer free food to their employees, which has become a drain on local restaurants. <i>Crypto and Blockchain:<\/i> It\u2019s been another rough week for cryptocurrencies, which plummeted once again on news that the Securities and Exchange Commission (SEC) in the U.S. was delaying its decision on a cryptocurrency exchange traded fund (ETF). This comes just after another ETF backed by the Gemini Exchange was rejected by the SEC. Elsewhere in crypto, Coinbase announced that it would renew its money transmitter license in Wyoming, and Robinhood made ethereum classic available on its crypto trading platform. Meanwhile, in blockchain, IBM and Maersk report that their blockchain platform for global trade now includes 94 firms. <i>Digital Banking:\u00a0<\/i>Starling Bank will begin offering its API infrastructure to third parties to launch its own financial services offerings. For its first customer, Starling recruited savings platform Raisin out of Berlin. Global Developments <i>International<\/i>: The United Nations Economic Commission for Africa (ECA), the International Finance Corporation (IFC), and Ant Financial announced a collaboration to promote digital financial inclusion in Africa last week, with a focus on investment and technical capacity building. ECA Executive Secretary Vera Songwe stated the partnership has \u201can opportunity to leapfrog technology for social, financial and political inclusion.\u201d <i>Australia:<\/i> A study by Accenture found that two-thirds of Australians aren\u2019t willing to share their financial data with non-banks, but there are significant generational differences among Australians on the matter. Australians under the age of 35 are 4.5 times more likely to be open to sharing their data than baby boomers. For all groups, the biggest hesitations uncovered around open banking were security and privacy concerns. <i>China:<\/i> As the fallout continues from the wave of alternative finance delinquencies in China, Chinese authorities locked down the financial district in Beijing to prevent protests. Investors who lost money in the industry\u2019s collapse had planned a protest last Monday. Ultimately, the few protesters who showed up were escorted away by police. <i>France:<\/i> France\u2019s public investment bank, Bpifrance, is looking into how to supporting the initial coin offering (ICO) ecosystem as a way to increase access to capital. Acknowledging the widespread fraud in the space, the bank is setting up a working group to determine the appropriate level of engagement and the role that Bpifrance can play in mitigating market failures. <i>India:<\/i> Bloomberg reports that India\u2019s peer-to-peer lending regulations have caused the industry to contract as smaller lenders have struggled to comply with certain requirements. According to the report, only five lenders have registered with the Reserve Bank of India, far less than the bank estimated to exist in the country at the time the regulations were promulgated. Many in India believe this will open the door for larger players to enter into the market, such as domestic giant Paytm. Meanwhile, a panel providing recommendations to the Indian government on cloud computing policy will recommend that data generated in India be locally stored. The panel is headed by the co-founder of Infosys, India\u2019s tech giant, and cites the importance of making data available to India\u2019s police and national security apparatus as being an important consideration. <i>Israel:<\/i>\u00a0The Bank of Israel is beginning an effort to push for open banking, publishing a request for information on launching APIs within Israel. Russia: According to the Russian Association of Cryptocurrencies and Blockchain, the number of cryptocurrency mining operations in Russia increased to 75,000, a 15 percent jump, in the first quarter of 2018. <i>Thailand:<\/i> Thailand\u2019s four largest banks, Siam Commercial Bank, Kasikorn Bank, Bangkok Bank, and Thai Military Bank, have joined Swift\u2019s Global Payment Initiative platform. <i>United States:<\/i> Life goes on in the aftermath of the Treasury FinTech report and the OCC\u2019s announcement about the special purpose national bank charter. The Independent Community Bankers Association (ICBA) has called for the Federal Deposit Insurance Corporation (FDIC) to impose a two-year moratorium on applications for industrial loan charters (ILCs). The ICBA notes that Nelnet, which recently applied for an ILC, engages in several activities that the Bank Holding Company Act (BHCA) prohibits. The FDIC seems to have other ideas, however, as Chair Jelena McWilliams recently told The Wall Street Journal that her top priorities include speeding up the FDIC\u2019s review of such applications, as well as easing regulations on small banks and better reaching underserved communities. There have been several developments in individual states as well. In South Carolina, a money transmitter licensing law came into effect, establishing a new office within the Attorney General\u2019s office. The law defines money transmission but remains vague on cryptocurrencies for the time being. Meanwhile, in Arizona, the big news is that the state\u2019s regulatory sandbox has begun to accept applications. Applicants to the sandbox must pay a $500 fee along with an application, in which they must define the type of innovative service they plan to offer in accordance with the legislation.\u00a0",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Checking FinTech\u2019s Pulse KPMG is out with its biannual \u201cPulse of FinTech\u201d report, which finds that overall FinTech funding for 2018 is on pace to surpass 2017 levels halfway through the year. Ant Financial\u2019s $14 billion funding round and Vantiv\u2019s $12.9 billion acquisition of WorldPay helped to drive these figures. The report also finds that interest in InsurTech and RegTech has grown significantly among investors, with RegTech funding in 2018 outpacing every previous year except for 2016, and InsurTech seeing several significant deals and geographic growth into new markets. The report also finds regulatory responses to FinTech, such as the European Union\u2019s General Data Protection Regulation and Second Payment Services Directive, have themselves become drivers of FinTech investment. FinTech\u2019s newly mandated access to financial data in these jurisdictions is seen by investors as a significant opportunity for FinTechs, not to mention larger tech firms.<br \/><br \/> Industry Headlines <i>AltFi:<\/i> Quarterly earnings season continued to yield mixed results for alternative lenders. To start with the good news: OnDeck raised its profit forecasts for 2018 from $10 million to up to $16 million. This performance was driven by greater loan volume and higher interest rates, and sent OnDeck\u2019s shares up by as much as 20 percent. On a less positive note: SoFi reported a second quarter loss of $200 million. According to a shareholder letter, this came about as a result of lower volume in the face of increasing prices. In other AltFi news, student loan specialist CommonBond issued its second AAA securitization, and GreenSky announced a partnership with American Express to offer point of sale financing solutions to merchants who accept American Express. <i>Big Tech:<\/i> Following on last week\u2019s news that Apple Pay volume was greater than that of Square, the tech giant launched a promotional discount in San Francisco. Apple Pay users will receive discounts of up to 50 percent at local merchants. Meanwhile, lawmakers in San Francisco are doing their own part to help out local merchants who they feel have been negatively impacted by the amenities tech companies offer to their workers. Newly introduced legislation would forbid new offices from having their own cafeterias. Many tech firms in San Francisco offer free food to their employees, which has become a drain on local restaurants. <i>Crypto and Blockchain:<\/i> It\u2019s been another rough week for cryptocurrencies, which plummeted once again on news that the Securities and Exchange Commission (SEC) in the U.S. was delaying its decision on a cryptocurrency exchange traded fund (ETF). This comes just after another ETF backed by the Gemini Exchange was rejected by the SEC. Elsewhere in crypto, Coinbase announced that it would renew its money transmitter license in Wyoming, and Robinhood made ethereum classic available on its crypto trading platform. Meanwhile, in blockchain, IBM and Maersk report that their blockchain platform for global trade now includes 94 firms. <i>Digital Banking:\u00a0<\/i>Starling Bank will begin offering its API infrastructure to third parties to launch its own financial services offerings. For its first customer, Starling recruited savings platform Raisin out of Berlin. Global Developments <i>International<\/i>: The United Nations Economic Commission for Africa (ECA), the International Finance Corporation (IFC), and Ant Financial announced a collaboration to promote digital financial inclusion in Africa last week, with a focus on investment and technical capacity building. ECA Executive Secretary Vera Songwe stated the partnership has \u201can opportunity to leapfrog technology for social, financial and political inclusion.\u201d <i>Australia:<\/i> A study by Accenture found that two-thirds of Australians aren\u2019t willing to share their financial data with non-banks, but there are significant generational differences among Australians on the matter. Australians under the age of 35 are 4.5 times more likely to be open to sharing their data than baby boomers. For all groups, the biggest hesitations uncovered around open banking were security and privacy concerns. <i>China:<\/i> As the fallout continues from the wave of alternative finance delinquencies in China, Chinese authorities locked down the financial district in Beijing to prevent protests. Investors who lost money in the industry\u2019s collapse had planned a protest last Monday. Ultimately, the few protesters who showed up were escorted away by police. <i>France:<\/i> France\u2019s public investment bank, Bpifrance, is looking into how to supporting the initial coin offering (ICO) ecosystem as a way to increase access to capital. Acknowledging the widespread fraud in the space, the bank is setting up a working group to determine the appropriate level of engagement and the role that Bpifrance can play in mitigating market failures. <i>India:<\/i> Bloomberg reports that India\u2019s peer-to-peer lending regulations have caused the industry to contract as smaller lenders have struggled to comply with certain requirements. According to the report, only five lenders have registered with the Reserve Bank of India, far less than the bank estimated to exist in the country at the time the regulations were promulgated. Many in India believe this will open the door for larger players to enter into the market, such as domestic giant Paytm. Meanwhile, a panel providing recommendations to the Indian government on cloud computing policy will recommend that data generated in India be locally stored. The panel is headed by the co-founder of Infosys, India\u2019s tech giant, and cites the importance of making data available to India\u2019s police and national security apparatus as being an important consideration. <i>Israel:<\/i>\u00a0The Bank of Israel is beginning an effort to push for open banking, publishing a request for information on launching APIs within Israel. Russia: According to the Russian Association of Cryptocurrencies and Blockchain, the number of cryptocurrency mining operations in Russia increased to 75,000, a 15 percent jump, in the first quarter of 2018. <i>Thailand:<\/i> Thailand\u2019s four largest banks, Siam Commercial Bank, Kasikorn Bank, Bangkok Bank, and Thai Military Bank, have joined Swift\u2019s Global Payment Initiative platform. <i>United States:<\/i> Life goes on in the aftermath of the Treasury FinTech report and the OCC\u2019s announcement about the special purpose national bank charter. The Independent Community Bankers Association (ICBA) has called for the Federal Deposit Insurance Corporation (FDIC) to impose a two-year moratorium on applications for industrial loan charters (ILCs). The ICBA notes that Nelnet, which recently applied for an ILC, engages in several activities that the Bank Holding Company Act (BHCA) prohibits. The FDIC seems to have other ideas, however, as Chair Jelena McWilliams recently told The Wall Street Journal that her top priorities include speeding up the FDIC\u2019s review of such applications, as well as easing regulations on small banks and better reaching underserved communities. There have been several developments in individual states as well. In South Carolina, a money transmitter licensing law came into effect, establishing a new office within the Attorney General\u2019s office. The law defines money transmission but remains vague on cryptocurrencies for the time being. Meanwhile, in Arizona, the big news is that the state\u2019s regulatory sandbox has begun to accept applications. Applicants to the sandbox must pay a $500 fee along with an application, in which they must define the type of innovative service they plan to offer in accordance with the legislation.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

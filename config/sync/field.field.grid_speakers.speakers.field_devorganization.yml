@@ -1,0 +1,19 @@
+uuid: 4360181a-def7-4a69-8042-4b3314dafe0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_devorganization
+id: grid_speakers.speakers.field_devorganization
+field_name: field_devorganization
+entity_type: grid_speakers
+bundle: speakers
+label: devorganization
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

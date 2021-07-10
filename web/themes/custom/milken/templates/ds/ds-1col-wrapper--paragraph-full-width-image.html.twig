@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Display Suite 1 column wrapper template.
+ *
+ * Available variables:
+ * - outer_wrapper: outer wrapper element
+ * - ds_content_wrapper: wrapper around content
+ * - attributes: outer wrapper attributes
+ * - ds_content_attributes: attributes for ds_content region
+ * - ds_content: content of ds_content region
+ */
+#}
+
+<{{ outer_wrapper }}
+  {{ attributes.addClass('jumbotron', 'd-block', 'align-items-center') }}
+  id="paragraph-{{ paragraph.uuid.value }}"
+  style="background-image: url({{ file_url(paragraph.get('field_image').entity.uri.value) }});
+         background-position: center;
+         background-clip: content-box;
+         background-repeat: no-repeat;
+         background-size: cover;
+         min-height: 650px;">
+  <div class="container" style="margin-bottom: auto !important; margin-top: auto !important">
+    <h1 class="display-3 text-white">{{ paragraph.get('field_title').value }}</h1>
+    <p class="lead text-white">{{ paragraph.get('field_subtitle').value }}</p>
+    <hr class="my-4">
+    <p><a href="{{ paragraph.get('field_link').uri }}" class="btn btn-primary btn-lg">{{ paragraph.get('field_link').title }}</a></p>
+  </div>
+</{{ outer_wrapper }}>

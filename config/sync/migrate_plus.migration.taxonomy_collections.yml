@@ -1,0 +1,89 @@
+uuid: 098e4725-c07f-4697-aaa7-161e4eb93f13
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: taxonomy_collections
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - taxonomy
+migration_group: milken
+label: 'Taxonomy Term => Collections VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/taxonomy_term/collections'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/taxonomy_term/collections
+  item_selector: data
+  fields:
+    -
+      name: id
+      label: TID
+      selector: /attributes/drupal_internal__tid
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: name
+      label: title/name
+      selector: /attributes/name
+    -
+      name: description
+      label: Description
+      selector: /attributes/description
+    -
+      name: langcode
+      label: Language
+      selector: /attirbutes/langcode
+    -
+      name: weight
+      label: Weight
+      selector: /attirbutes/weight
+    -
+      name: parent
+      label: Parent
+      selector: /relationships/parent/id
+  ids:
+    id:
+      type: integer
+process:
+  tid: id
+  uuid: uuid
+  name: name
+  weight:
+    -
+      plugin: get
+      source: weight
+    -
+      plugin: default_value
+      default_value: 0
+  description/value: description
+  description/format: format
+  vid:
+    plugin: default_value
+    default_value: collections
+  parent_id:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: parent
+    -
+      plugin: skip_on_value
+      method: process
+      value: virtual
+      source: parent
+    -
+      plugin: migration_lookup
+      migration: taxonomy_centers
+      source: parent
+destination:
+  plugin: 'entity:taxonomy_term'
+  default_bundle: collections
+migration_dependencies: {  }

@@ -1,0 +1,29 @@
+uuid: 511d9374-3ff5-4bf4-ab20-1480f58aacbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_collections
+    - taxonomy.vocabulary.collections
+id: panel.panel.field_collections
+field_name: field_collections
+entity_type: panel
+bundle: panel
+label: Collections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      collections: collections
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

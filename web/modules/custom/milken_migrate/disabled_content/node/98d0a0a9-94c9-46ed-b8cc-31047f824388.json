@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/financial-reforms-could-decrease-investment-risk-and-increase-economic-growth-according?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 148
+        }
+    ],
+    "uuid": [
+        {
+            "value": "98d0a0a9-94c9-46ed-b8cc-31047f824388"
+        }
+    ],
+    "vid": [
+        {
+            "value": 148
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Financial reforms could decrease investment risk and increase economic growth, according to the Opacity Index, released by Milken Institute",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/financial-reforms-could-decrease-investment-risk-and-increase-economic-growth-according",
+            "pid": 201,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - With more countries adopting international accounting standards, the global financial system has become more transparent in the past year, according to the latest Opacity Index. Thirty-three of the 48 countries included in the index improved their overall score since last year\u2032s rankings. \"This is the second year in a row that we have seen opacity scores decrease across the board,\" said Joel Kurtzman, Senior Fellow at the Milken Institute. \"This is primarily because countries are replacing homegrown accounting standards with formal, internationally accepted standards.\" However, many economies continue to be hurt by significant opacity in their credit markets and financial institutions, including inappropriately priced risk in the mortgage markets, lax regulatory oversight and a failure to apply existing regulations. In the 2009 rankings released today, Finland again comes in at No. 1, underlining the country\u2032s stable regulatory environment, low levels of corruption and high compliance with international standards for accounting rules and practices. The top 10 markets (with 2008 ranking):<br>\n<table> <tr>\n<b>Rank\n2009 Opacity Score\n<\/tr>\n<tr>\n<td>1. Finland (1)<\/td>\n<td>9<\/td>\n<\/tr>\n<tr>\n<td>2. Hong Kong (2)<\/td>\n<td>12<\/td>\n<\/tr>\n<tr>\n<td>3. Australia (4)<\/td>\n<td>14<\/td>\n<\/tr>\n<tr>\n<td>3. Singapore (3)<\/td>\n<td>14<\/td>\n<\/tr>\n<tr>\n<td>3. Sweden (4)<\/td>\n<td>14<\/td>\n<\/tr>\n<tr>\n<td>6. Denmark (6)<\/td>\n<td>15<\/td>\n<\/tr>\n<tr>\n<td>7. Ireland (6)<\/td>\n<td>15<\/td>\n<\/tr>\n<tr>\n<td>8. Austria (6)<\/td>\n<td>16<\/td>\n<\/tr>\n<tr>\n<td>9. Germany (9)<\/td>\n<td>17<\/td>\n<\/tr>\n<tr>\n<td>10. United Kingdom (9)<\/td>\n<td>18<\/td>\n<\/tr>\n<\/table> Italy (31st), India (37th) and China (38th) showed the greatest improvement, moving up three spots in the rankings and improving their overall scores. Looking at long-term trends, the United States has fallen to 13th from fourth in the first Opacity Index released in 2001. The United Kingdom fell from first to 10th in the same period. The report, released by the Milken Institute and Kurtzman Group, also notes that regulations now being considered to address the causes of the credit market meltdown could provide more transparency in the future. As described in the report, opacity is measured by small-scale but frequent risks, such as corruption and opacity in financial markets that work as deterrents to economic growth. Lower scores suggest a more transparent market. The Opacity Index methodology demonstrates the link between opacity and key economic growth potential. In this year\u2032s analysis, every additional point of opacity is equal to a loss of US$1,367 from the per capita GDP for a given market. Opacity also impacts an emerging market by reducing its ability to attract foreign direct investment, or FDI. According to the report, every additional point of opacity decreases FDI as a percent of GDP by 0.15 percentage points. Low-ranking countries such as Saudi Arabia, Lebanon, the Philippines (tied for 44th), Venezuela (47th) and Nigeria (48th) could greatly improve economic prosperity and development by addressing opacity issues. The Opacity Index measures five factors: corruption, legal system efficiency, accounting standards, regulatory effectiveness and economic and enforcement policies. Together, these factors form the acronym CLEAR. Higher levels of opacity in each of the CLEAR factors indicate a poorly functioning government, which increases the cost of doing business as well as the risk. The 2009 Opacity Index is available for download here.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - With more countries adopting international accounting standards, the global financial system has become more transparent in the past year, according to the latest Opacity Index. Thirty-three of the 48 countries included in the index improved their overall score since last year\u2032s rankings. \"This is the second year in a row that we have seen opacity scores decrease across the board,\" said Joel Kurtzman, Senior Fellow at the Milken Institute. \"This is primarily because countries are replacing homegrown accounting standards with formal, internationally accepted standards.\" However, many economies continue to be hurt by significant opacity in their credit markets and financial institutions, including inappropriately priced risk in the mortgage markets, lax regulatory oversight and a failure to apply existing regulations. In the 2009 rankings released today, Finland again comes in at No. 1, underlining the country\u2032s stable regulatory environment, low levels of corruption and high compliance with international standards for accounting rules and practices. The top 10 markets (with 2008 ranking):<br \/><table><tr><b>Rank\n2009 Opacity Score\n<\/b><\/tr><tr><td>1. Finland (1)<\/td>\n<td>9<\/td>\n<\/tr><tr><td>2. Hong Kong (2)<\/td>\n<td>12<\/td>\n<\/tr><tr><td>3. Australia (4)<\/td>\n<td>14<\/td>\n<\/tr><tr><td>3. Singapore (3)<\/td>\n<td>14<\/td>\n<\/tr><tr><td>3. Sweden (4)<\/td>\n<td>14<\/td>\n<\/tr><tr><td>6. Denmark (6)<\/td>\n<td>15<\/td>\n<\/tr><tr><td>7. Ireland (6)<\/td>\n<td>15<\/td>\n<\/tr><tr><td>8. Austria (6)<\/td>\n<td>16<\/td>\n<\/tr><tr><td>9. Germany (9)<\/td>\n<td>17<\/td>\n<\/tr><tr><td>10. United Kingdom (9)<\/td>\n<td>18<\/td>\n<\/tr><\/table> Italy (31st), India (37th) and China (38th) showed the greatest improvement, moving up three spots in the rankings and improving their overall scores. Looking at long-term trends, the United States has fallen to 13th from fourth in the first Opacity Index released in 2001. The United Kingdom fell from first to 10th in the same period. The report, released by the Milken Institute and Kurtzman Group, also notes that regulations now being considered to address the causes of the credit market meltdown could provide more transparency in the future. As described in the report, opacity is measured by small-scale but frequent risks, such as corruption and opacity in financial markets that work as deterrents to economic growth. Lower scores suggest a more transparent market. The Opacity Index methodology demonstrates the link between opacity and key economic growth potential. In this year\u2032s analysis, every additional point of opacity is equal to a loss of US$1,367 from the per capita GDP for a given market. Opacity also impacts an emerging market by reducing its ability to attract foreign direct investment, or FDI. According to the report, every additional point of opacity decreases FDI as a percent of GDP by 0.15 percentage points. Low-ranking countries such as Saudi Arabia, Lebanon, the Philippines (tied for 44th), Venezuela (47th) and Nigeria (48th) could greatly improve economic prosperity and development by addressing opacity issues. The Opacity Index measures five factors: corruption, legal system efficiency, accounting standards, regulatory effectiveness and economic and enforcement policies. Together, these factors form the acronym CLEAR. Higher levels of opacity in each of the CLEAR factors indicate a poorly functioning government, which increases the cost of doing business as well as the risk. The 2009 Opacity Index is available for download here.",
+    "summary": null,
+    "summary_processed": ""
+}

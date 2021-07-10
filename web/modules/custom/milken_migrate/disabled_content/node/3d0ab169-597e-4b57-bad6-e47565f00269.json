@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-november-21-2018-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/132?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 760
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3d0ab169-597e-4b57-bad6-e47565f00269"
+        }
+    ],
+    "vid": [
+        {
+            "value": 760
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/132?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "553f75fc-6c66-4aa3-b455-5f8a243702d2"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus: November 21, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-11-21T09:22:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:18:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-november-21-2018-0",
+            "pid": 813,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech in Mexico Two weeks ago in the Mexican Senate, a newly introduced bill that would compel banks to cut their fees triggered widespread dismay among investors. The bill came only days after President-elect Andres Manuel Lopez Obrador aggravated markets by announcing his intention to cancel Mexico City\u2019s $13 billion airport project. Taken together, such populist measures seem to offer a glimpse of the way Lopez Obrador, or \u201cAMLO,\u201d will govern. I know what you\u2019re thinking: \u201cWhat does this have to do with FinTech?\u201d Well, after a week spent meeting with policymakers and business leaders in Mexico City, I can report widespread optimism that FinTech might help to solve Mexico\u2019s financial inclusion challenges. For that to happen, however, dedicated policymakers will be needed to implement the necessary reforms. This year, the outgoing Mexican government enacted a FinTech law, which has become a centerpiece of the government\u2019s financial inclusion agenda. The law is ambitious in scope, creating everything from a regulatory sandbox to new rules for cryptocurrencies and crowdfunding. The law even covers open banking by requiring secondary rulemaking around the exchange of financial data. Expectations for the law are high, with many noting that FinTech is a natural solution in a country with little access to bank accounts but high access to mobile phones. Meeting these expectations would be difficult in the best of times, and a growing number of indicators seem to point to rough seas ahead. Take AMLO\u2019s promise to dramatically cut salaries for public sector officials. The measure is intended to appeal to voters who are, quite understandably, tired of corrupt public officials. However, it\u2019s easy to see how such a measure could prove counterproductive to the goal of eradicating corruption. Moreover, the measure led to a wave of resignations by highly qualified government officials. This does not bode well for Mexico\u2019s FinTech law. Successful implementation of such an ambitious program will require meticulous planning and execution by the best policymakers Mexico\u2019s financial regulators have to offer. If too many of those seek refuge in the private sector instead, the FinTech law could become another disappointment in a country that is ripe for success. Industry Headlines <i>AltFi:<\/i> U.K. peer-to-peer lender Zopa, one of the earliest lenders in the FinTech space, announced an additional \u00a316 in their latest fundraising round. Zopa hopes the latest capital injection will help them in their bid to acquire a banking license in the U.K. Meanwhile, OnDeck had a more profitable quarter than expected, sending its shares up 26 percent, and SoFi reported its second losing quarter in a row. <i>Big Tech:<\/i> Tencent, which really has been in the news quite a lot lately, announced a new division called Tencent Financial Technology. The division hopes to launch a blockchain-based supply chain finance platform. <i>Crypto:<\/i> Cryptocurrencies are in the midst of a dramatic selloff, with Bitcoin\u2019s price falling by more than 25 percent over the past week at the time of writing. According to CoinMarketCap.com, digital assets have lost nearly $700 million in value since their peak in January. <i>Data Intermediation:<\/i> Noddle, TransUnion\u2019s free credit reporting service in the U.K., was sold to Credit Karma. John Danaher of TransUnion said, \u201cNoddle and Credit Karma are well-matched, both embracing a \u2018consumer-first\u2019 approach to offering free information monitoring and financial health solutions.\u201d Meanwhile, Quovo became the first U.S. account data provider to be regulated by the Financial Conduct Authority as a Registered Account Information Service Provider. <i>Digital Banking:<\/i> U.K. based challenger bank Monzo announced the launch of an interest-earning savings account as a part of their \u201cmarketplace banking\u201d strategy. The account is offered via Investec Corporate & Investment Banking. Elsewhere, N26 announced it would launch in Denmark, Poland, Norway, and Sweden. <i>Payments:<\/i> Safaricom announced M-Pesa users will be able to send money to any of Western Union\u2019s 500,000 global agents as part of a new partnership. Additionally, transfers directly to bank accounts in Germany, the United Arab Emirates, and the U.K. will be rolled out to M-Pesa users in the coming weeks. Meanwhile, Dutch payments standout Adyen continues to recruit big name customers and expand its geographic reach. Adyen\u2019s latest achievements include expanding to Canada and adding Adidas and Dollar Shave Club as customers. Finally, Apple Pay is expanding to Belgium only a week after expanding to Germany, and American Express received approval to clear payments in China. <i>Wealth Management:<\/i> Nutmeg, the U.K.\u2019s largest robo-advisor, announced it will bolster its robo-advising platform with human advisors. The service will allow investors to speak with human advisors over the phone. Imagine that, folks, using the phone to call someone. Global Developments <i>International:<\/i> Speaking at the Singapore FinTech Festival, International Monetary Fund Managing Director Christine Lagarde said governments should consider adopting digital currencies themselves. Very few central banks have expressed optimism about central bank digital currencies (CBDCs), and other international organizations such as the Bank for International Settlements have been critical of them in the past. <i>European Union:<\/i> Speaking of CBDC skepticism, Benoit Coeure of the European Central Bank believes CBDCs are unlikely to be issued in the next decade. Meanwhile, Finland\u2019s Olli Rehn stated that European central bankers may take a hard look at big tech firms as they continue to move into financial services. <i>Israel:<\/i> An interdepartmental study group became the latest to join the chorus of financial regulators discouraging their central bank from adopting central bank digital currencies. <i>Norway:<\/i> Norway\u2019s Finance ministry announced the country will launch a regulatory sandbox by the end of 2019. <i>Singapore:<\/i> The Monetary Authority of Singapore (MAS) announced the launch of a \u201cSandbox Express.\u201d This will seek to complement MAS\u2019s existing sandbox by allowing specific types of firms to apply to operate in a pre-defined sandbox. The types of firms MAS envisions participating in the Sandbox Express include insurance brokers and remittance firms. <i>Thailand:<\/i> Thailand\u2019s portal for initial coin offerings is expected to launch by the end of November, as set forth by Thailand\u2019s digital asset decree. <i>United Arab Emirates:<\/i> The Dubai Financial Services Authority announced robo-advisor Sarwa has become the first firm to graduate from their regulatory sandbox after 12 months of testing. <i>United States:<\/i> The Department of Justice is investigating whether 2017\u2019s crypto bubble was driven by an elaborate spoofing operation involving cryptocurrency exchange Bitfinex and its stablecoin, Tether. If you\u2019re in the mood for financial fraud worthy of a Michael Lewis novel, this story really is worth a read. Meanwhile, FDIC Chairman Jelena McWilliams expressed concern about the growing importance of non-banks. McWilliams said, \u201cAs we look at the migration of activity away from banks, regulators and policymakers should consider the risks and benefits\u2026 Part of that process is asking questions: What happens to the systemic risk in the financial system when banking activities migrate to nonbanks? Are prudential banking and market regulators adequately positioned to deal with such shifts? How much exposure do banks have to nonbanks engaged in traditional banking activities?\u201d Chairman J. Christopher Giancarlo of the Commodity Futures Trading Commission (CFTC) stated in a speech at Georgetown FinTech week that he believes the CFTC should establish an office of data and analysis. Giancarlo said, \u201cThe new office would be headed by a Chief Data Officer with strong data science qualifications. And, of course, establishing such \u2018QuantReg\u2019 capabilities would be based on thoughtful and prudent technology and procurement strategies that ensure we satisfy the end-goal of more effective and efficient regulation.\u201d Giancarlo\u2019s speech was wide ranging and covered a number of RegTech topics, including the impact of artificial intelligence and distributed ledger technology. Meanwhile, policymakers at the state level made FinTech headlines of their own this week. Arizona\u2019s regulatory sandbox announced the addition of two more firms, both lenders. In Colorado, meanwhile, the sandbox is still in draft form. Nevertheless, state policymakers seem to have caught on.\u00a0",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech in Mexico Two weeks ago in the Mexican Senate, a newly introduced bill that would compel banks to cut their fees triggered widespread dismay among investors. The bill came only days after President-elect Andres Manuel Lopez Obrador aggravated markets by announcing his intention to cancel Mexico City\u2019s $13 billion airport project. Taken together, such populist measures seem to offer a glimpse of the way Lopez Obrador, or \u201cAMLO,\u201d will govern. I know what you\u2019re thinking: \u201cWhat does this have to do with FinTech?\u201d Well, after a week spent meeting with policymakers and business leaders in Mexico City, I can report widespread optimism that FinTech might help to solve Mexico\u2019s financial inclusion challenges. For that to happen, however, dedicated policymakers will be needed to implement the necessary reforms. This year, the outgoing Mexican government enacted a FinTech law, which has become a centerpiece of the government\u2019s financial inclusion agenda. The law is ambitious in scope, creating everything from a regulatory sandbox to new rules for cryptocurrencies and crowdfunding. The law even covers open banking by requiring secondary rulemaking around the exchange of financial data. Expectations for the law are high, with many noting that FinTech is a natural solution in a country with little access to bank accounts but high access to mobile phones. Meeting these expectations would be difficult in the best of times, and a growing number of indicators seem to point to rough seas ahead. Take AMLO\u2019s promise to dramatically cut salaries for public sector officials. The measure is intended to appeal to voters who are, quite understandably, tired of corrupt public officials. However, it\u2019s easy to see how such a measure could prove counterproductive to the goal of eradicating corruption. Moreover, the measure led to a wave of resignations by highly qualified government officials. This does not bode well for Mexico\u2019s FinTech law. Successful implementation of such an ambitious program will require meticulous planning and execution by the best policymakers Mexico\u2019s financial regulators have to offer. If too many of those seek refuge in the private sector instead, the FinTech law could become another disappointment in a country that is ripe for success. Industry Headlines <i>AltFi:<\/i> U.K. peer-to-peer lender Zopa, one of the earliest lenders in the FinTech space, announced an additional \u00a316 in their latest fundraising round. Zopa hopes the latest capital injection will help them in their bid to acquire a banking license in the U.K. Meanwhile, OnDeck had a more profitable quarter than expected, sending its shares up 26 percent, and SoFi reported its second losing quarter in a row. <i>Big Tech:<\/i> Tencent, which really has been in the news quite a lot lately, announced a new division called Tencent Financial Technology. The division hopes to launch a blockchain-based supply chain finance platform. <i>Crypto:<\/i> Cryptocurrencies are in the midst of a dramatic selloff, with Bitcoin\u2019s price falling by more than 25 percent over the past week at the time of writing. According to CoinMarketCap.com, digital assets have lost nearly $700 million in value since their peak in January. <i>Data Intermediation:<\/i> Noddle, TransUnion\u2019s free credit reporting service in the U.K., was sold to Credit Karma. John Danaher of TransUnion said, \u201cNoddle and Credit Karma are well-matched, both embracing a \u2018consumer-first\u2019 approach to offering free information monitoring and financial health solutions.\u201d Meanwhile, Quovo became the first U.S. account data provider to be regulated by the Financial Conduct Authority as a Registered Account Information Service Provider. <i>Digital Banking:<\/i> U.K. based challenger bank Monzo announced the launch of an interest-earning savings account as a part of their \u201cmarketplace banking\u201d strategy. The account is offered via Investec Corporate &amp; Investment Banking. Elsewhere, N26 announced it would launch in Denmark, Poland, Norway, and Sweden. <i>Payments:<\/i> Safaricom announced M-Pesa users will be able to send money to any of Western Union\u2019s 500,000 global agents as part of a new partnership. Additionally, transfers directly to bank accounts in Germany, the United Arab Emirates, and the U.K. will be rolled out to M-Pesa users in the coming weeks. Meanwhile, Dutch payments standout Adyen continues to recruit big name customers and expand its geographic reach. Adyen\u2019s latest achievements include expanding to Canada and adding Adidas and Dollar Shave Club as customers. Finally, Apple Pay is expanding to Belgium only a week after expanding to Germany, and American Express received approval to clear payments in China. <i>Wealth Management:<\/i> Nutmeg, the U.K.\u2019s largest robo-advisor, announced it will bolster its robo-advising platform with human advisors. The service will allow investors to speak with human advisors over the phone. Imagine that, folks, using the phone to call someone. Global Developments <i>International:<\/i> Speaking at the Singapore FinTech Festival, International Monetary Fund Managing Director Christine Lagarde said governments should consider adopting digital currencies themselves. Very few central banks have expressed optimism about central bank digital currencies (CBDCs), and other international organizations such as the Bank for International Settlements have been critical of them in the past. <i>European Union:<\/i> Speaking of CBDC skepticism, Benoit Coeure of the European Central Bank believes CBDCs are unlikely to be issued in the next decade. Meanwhile, Finland\u2019s Olli Rehn stated that European central bankers may take a hard look at big tech firms as they continue to move into financial services. <i>Israel:<\/i> An interdepartmental study group became the latest to join the chorus of financial regulators discouraging their central bank from adopting central bank digital currencies. <i>Norway:<\/i> Norway\u2019s Finance ministry announced the country will launch a regulatory sandbox by the end of 2019. <i>Singapore:<\/i> The Monetary Authority of Singapore (MAS) announced the launch of a \u201cSandbox Express.\u201d This will seek to complement MAS\u2019s existing sandbox by allowing specific types of firms to apply to operate in a pre-defined sandbox. The types of firms MAS envisions participating in the Sandbox Express include insurance brokers and remittance firms. <i>Thailand:<\/i> Thailand\u2019s portal for initial coin offerings is expected to launch by the end of November, as set forth by Thailand\u2019s digital asset decree. <i>United Arab Emirates:<\/i> The Dubai Financial Services Authority announced robo-advisor Sarwa has become the first firm to graduate from their regulatory sandbox after 12 months of testing. <i>United States:<\/i> The Department of Justice is investigating whether 2017\u2019s crypto bubble was driven by an elaborate spoofing operation involving cryptocurrency exchange Bitfinex and its stablecoin, Tether. If you\u2019re in the mood for financial fraud worthy of a Michael Lewis novel, this story really is worth a read. Meanwhile, FDIC Chairman Jelena McWilliams expressed concern about the growing importance of non-banks. McWilliams said, \u201cAs we look at the migration of activity away from banks, regulators and policymakers should consider the risks and benefits\u2026 Part of that process is asking questions: What happens to the systemic risk in the financial system when banking activities migrate to nonbanks? Are prudential banking and market regulators adequately positioned to deal with such shifts? How much exposure do banks have to nonbanks engaged in traditional banking activities?\u201d Chairman J. Christopher Giancarlo of the Commodity Futures Trading Commission (CFTC) stated in a speech at Georgetown FinTech week that he believes the CFTC should establish an office of data and analysis. Giancarlo said, \u201cThe new office would be headed by a Chief Data Officer with strong data science qualifications. And, of course, establishing such \u2018QuantReg\u2019 capabilities would be based on thoughtful and prudent technology and procurement strategies that ensure we satisfy the end-goal of more effective and efficient regulation.\u201d Giancarlo\u2019s speech was wide ranging and covered a number of RegTech topics, including the impact of artificial intelligence and distributed ledger technology. Meanwhile, policymakers at the state level made FinTech headlines of their own this week. Arizona\u2019s regulatory sandbox announced the addition of two more firms, both lenders. In Colorado, meanwhile, the sandbox is still in draft form. Nevertheless, state policymakers seem to have caught on.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

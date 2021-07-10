@@ -1,0 +1,203 @@
+uuid: 9a2e3e36-6963-4134-b983-9372a362f42e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - entity_browser.browser.browse_files
+    - field.field.slide.full_width_one_column.field_background_color
+    - field.field.slide.full_width_one_column.field_background_image
+    - field.field.slide.full_width_one_column.field_is_hero_image
+    - field.field.slide.full_width_one_column.field_link
+    - field.field.slide.full_width_one_column.field_promoted
+    - field.field.slide.full_width_one_column.field_published
+    - field.field.slide.full_width_one_column.field_slide_text
+    - field.field.slide.full_width_one_column.field_text_centered
+    - field.field.slide.full_width_one_column.field_text_color
+  module:
+    - color_field
+    - entity_browser
+    - field_group
+    - key_value_field
+    - link
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_text
+        - group_background
+        - group_publishing
+      parent_name: ''
+      weight: 1
+      format_type: tabs
+      format_settings:
+        id: slide_tabs
+        classes: ''
+        direction: horizontal
+      label: Tabs
+      region: content
+    group_text:
+      children:
+        - field_is_hero_image
+        - field_text_centered
+        - field_link
+        - field_text_color
+        - field_slide_text
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Text
+      region: content
+    group_background:
+      children:
+        - field_background_image
+        - field_background_color
+      parent_name: group_tabs
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Background
+      region: content
+    group_publishing:
+      children:
+        - field_promoted
+        - field_published
+        - langcode
+        - created
+      parent_name: group_tabs
+      weight: 23
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Publishing
+      region: content
+id: slide.full_width_one_column.default
+targetEntityType: slide
+bundle: full_width_one_column
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 23
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_background_color:
+    weight: 25
+    settings: {  }
+    third_party_settings: {  }
+    type: color_field_widget_html5
+    region: content
+  field_background_image:
+    weight: 23
+    settings:
+      entity_browser: browse_files
+      field_widget_remove: true
+      field_widget_replace: true
+      open: true
+      selection_mode: selection_append
+      preview_image_style: thumbnail
+      field_widget_edit: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_browser_file
+    region: content
+  field_is_hero_image:
+    weight: 22
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_link:
+    weight: 24
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_promoted:
+    weight: 20
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_published:
+    weight: 21
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_slide_text:
+    weight: 26
+    settings:
+      key_size: 60
+      key_label: Key
+      key_placeholder: ''
+      value_label: Value
+      description_enabled: true
+      description_label: Description
+      description_rows: 5
+      description_placeholder: ''
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: key_value_textarea
+    region: content
+  field_text_centered:
+    weight: 23
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_text_color:
+    weight: 25
+    settings: {  }
+    third_party_settings: {  }
+    type: color_field_widget_html5
+    region: content
+  langcode:
+    type: language_select
+    weight: 22
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 16
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

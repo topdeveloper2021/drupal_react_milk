@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7354\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/ioV11UNUVR2v-BFxfp1ZtlKcP5jUJu7DJILtKjc1PHc.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7354
+        }
+    ],
+    "uuid": [
+        {
+            "value": "48070e29-1708-4c3c-86cc-4198dec823b8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1972
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/ioV11UNUVR2v-BFxfp1ZtlKcP5jUJu7DJILtKjc1PHc.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "15b0fe2b-6e4a-4680-a4d0-789d9c928b70"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Medical Marijuana: Health and (Financial) Wellness",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-12T14:54:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:06:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Medical use of cannabis is legal in 28 states and many countries. It also represents a $100 billion industry that is expected to employ more than 200,000 people in the U.S. alone by 2020. Patients look to medical marijuana as part of their treatment for major illnesses, from cancer to HIV\/AIDS to epilepsy. The perceived health benefits have driven up demand. And with this demand comes an opportunity for investors to explore how the industry could generate strong financial returns. Panelists will discuss:<br><br>The growth of the medical marijuana market: Which countries have had the greatest expansion?<br>How has patient interest created a new opportunity for investors?<br>How can the medical community and investors measure health outcomes? And what product innovations have there been?<br>Given that medical marijuana is still illegal under federal law, what are the business risks? Is the regulatory environment favorable for investors?<br><br>With projected returns from 20 percent to 40 percent, does investing in medical marijuana have a truly double bottom line in terms of combining social and financial returns? How might this affect valuations of medical marijuana companies?\n",
+    "format": "rich_text",
+    "processed": "Medical use of cannabis is legal in 28 states and many countries. It also represents a $100 billion industry that is expected to employ more than 200,000 people in the U.S. alone by 2020. Patients look to medical marijuana as part of their treatment for major illnesses, from cancer to HIV\/AIDS to epilepsy. The perceived health benefits have driven up demand. And with this demand comes an opportunity for investors to explore how the industry could generate strong financial returns. Panelists will discuss:<br \/><br \/>The growth of the medical marijuana market: Which countries have had the greatest expansion?<br \/>How has patient interest created a new opportunity for investors?<br \/>How can the medical community and investors measure health outcomes? And what product innovations have there been?<br \/>Given that medical marijuana is still illegal under federal law, what are the business risks? Is the regulatory environment favorable for investors?<br \/><br \/>With projected returns from 20 percent to 40 percent, does investing in medical marijuana have a truly double bottom line in terms of combining social and financial returns? How might this affect valuations of medical marijuana companies?\n",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/sKOOyvo5zoM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/ioV11UNUVR2v-BFxfp1ZtlKcP5jUJu7DJILtKjc1PHc.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

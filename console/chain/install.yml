@@ -1,0 +1,58 @@
+command:
+  name: site:milken:install
+  description: "Install site locally"
+commands:
+  - command: "site:install"
+    options:
+      db-type: "mysql"
+      db-host: {{env("DB_HOST")}}
+      db-name: {{env("DB_NAME")}}
+      db-user: {{env("DB_USER")}}
+      db-pass: {{env("DB_PASSWORD")}}
+      db-port: {{env("DB_PORT")}}
+      site-name: "Milken Institute"
+      site-mail: "admin@themi.org"
+      langcode: "en"
+      account-name: "admin"
+      account-mail: "admin@themi.org"
+      account-pass: "password"
+      no-interaction: true
+      force: true
+    arguments:
+      profile: "minimal"
+
+  - command: 'exec'
+    arguments:
+      bin: "drush config:set system.site uuid e4336970-db2c-469f-94a0-80e28164dc24 --yes"
+    options:
+      working-directory: /var/www
+
+  - command: "module:install"
+    options:
+      uri: "http://default"
+      root: "/var/www/html"
+    arguments:
+      module:
+        - redis
+        - config_split
+        - config_filter
+
+  - command: "exec"
+    arguments:
+      bin: "drush config:import --yes"
+    options:
+      working-directory: /var/www
+
+    # now, import the split profile
+  - command: "exec"
+    arguments:
+      bin: "drush config-split:import --yes"
+    options:
+      working-directory: /var/www
+
+  - command: "cache:rebuild"
+    options:
+      uri: "http://default"
+      root: /var/www
+
+

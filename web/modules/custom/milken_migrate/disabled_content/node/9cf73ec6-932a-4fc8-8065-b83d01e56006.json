@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-expands-existing-philanthropy-services-establishes-center-strategic?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 46
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9cf73ec6-932a-4fc8-8065-b83d01e56006"
+        }
+    ],
+    "vid": [
+        {
+            "value": 46
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute expands existing philanthropy services, establishes Center for Strategic Philanthropy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-30T06:13:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-expands-existing-philanthropy-services-establishes-center-strategic",
+            "pid": 99,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- The Milken Institute today formally established the Center for Strategic Philanthropy to maximize impact and the return on philanthropic investment.\u201cWhether we\u2019re advising families on how to support high-impact research, convening donors to share lessons learned with their peers, or showcasing innovative financing mechanisms that leverage charitable giving, we are committed to improving the efficacy of philanthropy to address key social challenges,\u201d said Rich Ditizio, executive vice president and chief operating officer of the Milken Institute.The flagship program of the Center, the Philanthropy Advisory Service, enables donors to evaluate giving decisions and build a high-impact philanthropy portfolio across medical research, education and public health.\u201cIn the past few years, we\u2019ve seen an increased demand for our advisory services, tools and donor forums across a broad range of issues,\u201d said Melissa Stevens, executive director of the Center for Strategic Philanthropy. \u201cThis new center ensures that innovation used to address one social issue is translated to another.\u201d\u00a0",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- The Milken Institute today formally established the Center for Strategic Philanthropy to maximize impact and the return on philanthropic investment.\u201cWhether we\u2019re advising families on how to support high-impact research, convening donors to share lessons learned with their peers, or showcasing innovative financing mechanisms that leverage charitable giving, we are committed to improving the efficacy of philanthropy to address key social challenges,\u201d said Rich Ditizio, executive vice president and chief operating officer of the Milken Institute.The flagship program of the Center, the Philanthropy Advisory Service, enables donors to evaluate giving decisions and build a high-impact philanthropy portfolio across medical research, education and public health.\u201cIn the past few years, we\u2019ve seen an increased demand for our advisory services, tools and donor forums across a broad range of issues,\u201d said Melissa Stevens, executive director of the Center for Strategic Philanthropy. \u201cThis new center ensures that innovation used to address one social issue is translated to another.\u201d\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

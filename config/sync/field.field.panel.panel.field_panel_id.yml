@@ -1,0 +1,19 @@
+uuid: 6a48785f-ebcd-4e22-9637-ae012ce89cbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_panel_id
+id: panel.panel.field_panel_id
+field_name: field_panel_id
+entity_type: panel
+bundle: panel
+label: 'Panel ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

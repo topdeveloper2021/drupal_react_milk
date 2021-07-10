@@ -1,0 +1,38 @@
+uuid: 87a68c1a-e766-4e1c-abc7-52a2e4dcd647
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_image
+    - paragraphs.paragraphs_type.body_content
+  module:
+    - image
+id: paragraph.body_content.field_background_image
+field_name: field_background_image
+entity_type: paragraph
+bundle: body_content
+label: 'Background Image'
+description: 'Optional background image to use for this section'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: 'Section Background Image'
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

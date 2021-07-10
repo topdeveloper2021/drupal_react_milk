@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/hillary-and-her-age-no-disqualifier?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/88?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 562
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c2dc6dee-93fb-495e-a7f3-9e121f5e4492"
+        }
+    ],
+    "vid": [
+        {
+            "value": 562
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/88?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3d83e94-1335-464c-a82e-6eb2c91b2249"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hillary Is In -- And Her Age Is No Disqualifier",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-18T18:35:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-18T18:49:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/hillary-and-her-age-no-disqualifier",
+            "pid": 615,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Hillary is in, and questions are already surfacing about her age. While I'd rather talk policy than politics, let me take issue with that age question now. Americans deserve to know about a presidential prospect's health, and questions about experience, values, efficacy, and integrity are, of course, legitimate areas of inquiry. But to imply that Hillary -- or any candidate -- should be discounted based on advancing age goes too far. Age is an asset. It's no disqualifier. Hillary would begin her presidency at the same age as Ronald Reagan. Of course, no one can forget the memorable Reagan response to a question about age when the seventy something president said of fifty something Walter Mondale, \"I will not make age an issue of this campaign. I am not going to exploit, for political purposes, my opponent's youth and inexperience.\" It's time we come to terms with growing older in a rapidly aging America. Those mired in outmoded thinking and pre-conceived notions look at our age shift only in negative terms. But, like those who understand the benefits of diversity in race, gender and background, advanced thinkers are beginning to appreciate the potential of older people, and the vast opportunity for an upside of aging -- enhancing not only individual lives, but families, communities, workplaces, educational institutions, and societies at large. Predictions that aging societies inevitably lead to catastrophic outcomes of dependency and decline are yesterday's stories. Today's reality holds far more promise than these tired prognostications indicate. While aging certainly brings its challenges, it's time we changed the conversation to address a far more expansive and positive picture. As longevity has given rise to the great challenges of Alzheimer's and the chronic diseases of the elderly, so too is it witnessing the most vibrant and engaged group of older people in human history. Traditional retirement, a state that is variously defined as withdrawal, retreat, disengagement, and even \"the end,\" needs to be retired. A new generation of older people -- the largest the world has ever known -- is poised to follow a different path, distinct in most every way from the retirement dreams of their parents and grandparents. Powered by ability, wisdom and a desire for beneficial purpose, a new model of engaged aging is emerging, one that moves away from age-segregation, decline and mass leisure to a model that capitalizes on the value of accumulated knowledge, wisdom and experience. The evidence is all around us. Instead of \"retiring\" to the golf course, older Americans are launching start-ups, continuing their education, and contributing to their communities and their world through volunteerism and civic engagement. Mature individuals are pursuing encore careers -- second life acts providing opportunities for purpose, passion and a paycheck. A longevity economy is emerging as markets recognize the need, demand and opportunity for products and services for a changing demographic. Despite the prevalence of age bias, forward thinking companies are learning the bottom-line value and competitive advantage of inter-generational work forces. Innovations in medicine and technology present increasing prospects for healthy aging. Scholarly research is revealing the power of the aging brain and the potential to capitalize on older people's knowledge, experience, perspective, balance and capacity for conflict resolution and problem solving. More must be done to change the way older people are viewed by the policy sector, business and society at large. Attitudes and media portrayals must change to reflect not just the challenges but also the upside of aging. Successful and purposeful aging is a focus of longevity, just as concerns about healthy aging are. We need more attention on new possibilities for work, productivity and beneficial purpose that can enhance individual lives and improve the broader society. Baby boomers view their own lives and world through different eyes than those of their parents and grandparents. A new narrative is needed for this generation, which already has transformed every phase of life through which it has moved. We must abandon negative stereotypes that ignore the potential of older people and implement policies and practices to combat age discrimination. We must look to the upside of this demographic reality and the opportunity it presents for society to flourish productively and purposefully. We must define new pathways and set new examples for our children and their children to follow as they age. A change is coming, and with it the potential for ongoing engagement, an end to age discrimination, a growing economy, strengthened bonds across the age spectrum, and the development of a more civil and supportive society. The issues are big, the stakes are high, and the solutions may be complex. But the opportunities are profound. Hillary or, for that matter, an equally talented Republican or independent presidential prospect, should not be criticized for engaging and competing at older age. To the contrary, any such individual should be applauded for staying involved and for ongoing commitment and interest in purposeful contribution as a lifelong pursuit. That's the new model of aging, regardless of political persuasion. Age is an asset. It's no disqualifier. Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and Distinguished Scholar in Residence at the University of Southern California Davis School of Gerontology. <i>This article first appeared in the\u00a0Huffington Post\u00a0<\/i>",
+    "format": "rich_text",
+    "processed": "Hillary is in, and questions are already surfacing about her age. While I'd rather talk policy than politics, let me take issue with that age question now. Americans deserve to know about a presidential prospect's health, and questions about experience, values, efficacy, and integrity are, of course, legitimate areas of inquiry. But to imply that Hillary -- or any candidate -- should be discounted based on advancing age goes too far. Age is an asset. It's no disqualifier. Hillary would begin her presidency at the same age as Ronald Reagan. Of course, no one can forget the memorable Reagan response to a question about age when the seventy something president said of fifty something Walter Mondale, \"I will not make age an issue of this campaign. I am not going to exploit, for political purposes, my opponent's youth and inexperience.\" It's time we come to terms with growing older in a rapidly aging America. Those mired in outmoded thinking and pre-conceived notions look at our age shift only in negative terms. But, like those who understand the benefits of diversity in race, gender and background, advanced thinkers are beginning to appreciate the potential of older people, and the vast opportunity for an upside of aging -- enhancing not only individual lives, but families, communities, workplaces, educational institutions, and societies at large. Predictions that aging societies inevitably lead to catastrophic outcomes of dependency and decline are yesterday's stories. Today's reality holds far more promise than these tired prognostications indicate. While aging certainly brings its challenges, it's time we changed the conversation to address a far more expansive and positive picture. As longevity has given rise to the great challenges of Alzheimer's and the chronic diseases of the elderly, so too is it witnessing the most vibrant and engaged group of older people in human history. Traditional retirement, a state that is variously defined as withdrawal, retreat, disengagement, and even \"the end,\" needs to be retired. A new generation of older people -- the largest the world has ever known -- is poised to follow a different path, distinct in most every way from the retirement dreams of their parents and grandparents. Powered by ability, wisdom and a desire for beneficial purpose, a new model of engaged aging is emerging, one that moves away from age-segregation, decline and mass leisure to a model that capitalizes on the value of accumulated knowledge, wisdom and experience. The evidence is all around us. Instead of \"retiring\" to the golf course, older Americans are launching start-ups, continuing their education, and contributing to their communities and their world through volunteerism and civic engagement. Mature individuals are pursuing encore careers -- second life acts providing opportunities for purpose, passion and a paycheck. A longevity economy is emerging as markets recognize the need, demand and opportunity for products and services for a changing demographic. Despite the prevalence of age bias, forward thinking companies are learning the bottom-line value and competitive advantage of inter-generational work forces. Innovations in medicine and technology present increasing prospects for healthy aging. Scholarly research is revealing the power of the aging brain and the potential to capitalize on older people's knowledge, experience, perspective, balance and capacity for conflict resolution and problem solving. More must be done to change the way older people are viewed by the policy sector, business and society at large. Attitudes and media portrayals must change to reflect not just the challenges but also the upside of aging. Successful and purposeful aging is a focus of longevity, just as concerns about healthy aging are. We need more attention on new possibilities for work, productivity and beneficial purpose that can enhance individual lives and improve the broader society. Baby boomers view their own lives and world through different eyes than those of their parents and grandparents. A new narrative is needed for this generation, which already has transformed every phase of life through which it has moved. We must abandon negative stereotypes that ignore the potential of older people and implement policies and practices to combat age discrimination. We must look to the upside of this demographic reality and the opportunity it presents for society to flourish productively and purposefully. We must define new pathways and set new examples for our children and their children to follow as they age. A change is coming, and with it the potential for ongoing engagement, an end to age discrimination, a growing economy, strengthened bonds across the age spectrum, and the development of a more civil and supportive society. The issues are big, the stakes are high, and the solutions may be complex. But the opportunities are profound. Hillary or, for that matter, an equally talented Republican or independent presidential prospect, should not be criticized for engaging and competing at older age. To the contrary, any such individual should be applauded for staying involved and for ongoing commitment and interest in purposeful contribution as a lifelong pursuit. That's the new model of aging, regardless of political persuasion. Age is an asset. It's no disqualifier. Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and Distinguished Scholar in Residence at the University of Southern California Davis School of Gerontology. <i>This article first appeared in the\u00a0Huffington Post\u00a0<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

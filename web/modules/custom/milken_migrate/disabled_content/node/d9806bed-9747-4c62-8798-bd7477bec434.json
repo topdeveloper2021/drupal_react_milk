@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/mixed-signals-businesses-send-older-workers?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/21?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 480
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d9806bed-9747-4c62-8798-bd7477bec434"
+        }
+    ],
+    "vid": [
+        {
+            "value": 480
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/21?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8c6d78f9-4c06-4646-bf1f-2f40af8488e2"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Mixed Signals Businesses Send Older Workers",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-12T14:16:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/mixed-signals-businesses-send-older-workers",
+            "pid": 533,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "I recently read an article in The New York Times about tennis great Roger Federer and how he, at 36 years old, is experiencing a late-career resurgence. It is as though age is no longer a limiting definer.[1] No one in pro tennis, save maybe his opponents, is pushing Federer to leave or asking him when he\u2019ll retire. His age is just another data point for his Greatest of All Time (GOAT) status. So, age both matters and it does not matter.This got me thinking about the mixed messages we\u2019re sending about older workers, i.e. those over 55 years old, in business and society more broadly.The Say\/Do Gap of Five Generations at WorkMany business leaders demonstrate say\/do gaps about workers, especially how they view older workers (i.e. Traditionalists and Baby Boomers). Some send mixed messages about how their organizations value experience vs. the new. Other leaders visibly change how they approach Millennials and Gen Z without considering what older workers may see. Some business leaders send indirect signals that it\u2019s time for older workers to go. Too many condone practices that discriminate against older applicants, resist engaging employees with shorter time horizons, and develop programs to encourage older workers to leave (and take all of their knowledge out the door with them).If you need an example of this say\/do gap, think about what diversity and inclusion look like at your organization, and whether your organization has an affinity group (Employee or Business Resource Group) for older workers. Most do not. Aging at work is the last frontier for diversity and inclusion.As populations in the world\u2019s largest economies age and as older workers are staying in the workforce, either by choice or out of necessity because they haven\u2019t saved enough to retire, business leaders need to decide whether their organizations will fully embrace older workers, or just show them the door. The so-called \u201cSilver Tsunami\u201d is well-named. Like it or not, all organizations need to come to terms with the aging population: as workers, as customers, or as members of the communities in which they operate.Older Workers: Asset or Liability?Are older workers an asset or a liability? Too often they\u2019re treated as both. I see this every day, in the organizations I advise, in the businesses I run, and in the career that I manage. Like many Boomers, I continue working because I love what I do. And I\u2019m lucky that my employer supports my extended ambition. But this doesn\u2019t happen everywhere.\u00a0Productivity is the most common measure to gauge workers\u2019 contribution. Traditional economic approaches to measuring the productivity of older workers focus on measures of individual productivity. But this may miss a big part of the story. Older workers may be less productive due to diminished cognitive or physical capability, but spillover effects may be large enough to offset any drop in individual performance. For instance, older workers:\u00a0Are less likely to leave voluntarilyAs supervisors, tend to help workers \u201cstick\u201d and lower voluntary leave of their teams\nIncrease productivity of those around them through knowledge sharing\nHelp develop and enhance career progress of their direct reports and mentees\nEnable innovation and customer connectivity\nStrengthen group cohesion, collaboration, resiliency, among other things\nIs all of this enough to offset the costs of older workers: from high compensation (due to level\/tenure) to employer-sponsored healthcare costs, to ergonomic and flex-work adjustments needed to not just help older workers survive, but thrive at work?The answer isn\u2019t one-size-fits all.\u00a0What can business leaders do?Here are five suggestions:Determine an overall workforce strategy including the needed mix of various demographics, including years of experience. Use this strategy as a basis for how you recruit, retain and recognize the contributions workers make. At every age.\nDiagnose how your business can and should use older, more seasoned workers as part of this strategy. As you consider your talent needs, look for those pockets of opportunity that may best benefit from those employees who can handle surprise\u2014and who are less likely to leave.\nDetail how to connect older workers with those less experienced to ensure institutional memory is captured, and to provide reverse mentoring for skills like digital.\nDevelop creative ways to work with older workers before (or even after) they\u2019ve retired, such as reduced schedules, flex work, alumni networks, etc.\nDeliver relevant value to older workers from the experiences you offer, to the relationships your foster, and the recognition you provide. This keeps workers motivated, and that\u2019s good business.\nAn approach that considers workforce strategy will help business leaders decide whether they need older workers, or if they are prepared to let them walk out the door\u2014to either play golf or join together to start firms that complete with the businesses they were forced to leave.And clearing up how to approach older workers will help businesses engage workers of every age.\u00a0<br>\n[1] Peter de Jonge, \u201cWonder Year: How Roger Federer Upgraded His Game,\u201d The New York Times, August 24, 2017. <table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "I recently read an article in The New York Times about tennis great Roger Federer and how he, at 36 years old, is experiencing a late-career resurgence. It is as though age is no longer a limiting definer.[1] No one in pro tennis, save maybe his opponents, is pushing Federer to leave or asking him when he\u2019ll retire. His age is just another data point for his Greatest of All Time (GOAT) status. So, age both matters and it does not matter.This got me thinking about the mixed messages we\u2019re sending about older workers, i.e. those over 55 years old, in business and society more broadly.The Say\/Do Gap of Five Generations at WorkMany business leaders demonstrate say\/do gaps about workers, especially how they view older workers (i.e. Traditionalists and Baby Boomers). Some send mixed messages about how their organizations value experience vs. the new. Other leaders visibly change how they approach Millennials and Gen Z without considering what older workers may see. Some business leaders send indirect signals that it\u2019s time for older workers to go. Too many condone practices that discriminate against older applicants, resist engaging employees with shorter time horizons, and develop programs to encourage older workers to leave (and take all of their knowledge out the door with them).If you need an example of this say\/do gap, think about what diversity and inclusion look like at your organization, and whether your organization has an affinity group (Employee or Business Resource Group) for older workers. Most do not. Aging at work is the last frontier for diversity and inclusion.As populations in the world\u2019s largest economies age and as older workers are staying in the workforce, either by choice or out of necessity because they haven\u2019t saved enough to retire, business leaders need to decide whether their organizations will fully embrace older workers, or just show them the door. The so-called \u201cSilver Tsunami\u201d is well-named. Like it or not, all organizations need to come to terms with the aging population: as workers, as customers, or as members of the communities in which they operate.Older Workers: Asset or Liability?Are older workers an asset or a liability? Too often they\u2019re treated as both. I see this every day, in the organizations I advise, in the businesses I run, and in the career that I manage. Like many Boomers, I continue working because I love what I do. And I\u2019m lucky that my employer supports my extended ambition. But this doesn\u2019t happen everywhere.\u00a0Productivity is the most common measure to gauge workers\u2019 contribution. Traditional economic approaches to measuring the productivity of older workers focus on measures of individual productivity. But this may miss a big part of the story. Older workers may be less productive due to diminished cognitive or physical capability, but spillover effects may be large enough to offset any drop in individual performance. For instance, older workers:\u00a0Are less likely to leave voluntarilyAs supervisors, tend to help workers \u201cstick\u201d and lower voluntary leave of their teams\nIncrease productivity of those around them through knowledge sharing\nHelp develop and enhance career progress of their direct reports and mentees\nEnable innovation and customer connectivity\nStrengthen group cohesion, collaboration, resiliency, among other things\nIs all of this enough to offset the costs of older workers: from high compensation (due to level\/tenure) to employer-sponsored healthcare costs, to ergonomic and flex-work adjustments needed to not just help older workers survive, but thrive at work?The answer isn\u2019t one-size-fits all.\u00a0What can business leaders do?Here are five suggestions:Determine an overall workforce strategy including the needed mix of various demographics, including years of experience. Use this strategy as a basis for how you recruit, retain and recognize the contributions workers make. At every age.\nDiagnose how your business can and should use older, more seasoned workers as part of this strategy. As you consider your talent needs, look for those pockets of opportunity that may best benefit from those employees who can handle surprise\u2014and who are less likely to leave.\nDetail how to connect older workers with those less experienced to ensure institutional memory is captured, and to provide reverse mentoring for skills like digital.\nDevelop creative ways to work with older workers before (or even after) they\u2019ve retired, such as reduced schedules, flex work, alumni networks, etc.\nDeliver relevant value to older workers from the experiences you offer, to the relationships your foster, and the recognition you provide. This keeps workers motivated, and that\u2019s good business.\nAn approach that considers workforce strategy will help business leaders decide whether they need older workers, or if they are prepared to let them walk out the door\u2014to either play golf or join together to start firms that complete with the businesses they were forced to leave.And clearing up how to approach older workers will help businesses engage workers of every age.\u00a0<br \/>\n[1] Peter de Jonge, \u201cWonder Year: How Roger Federer Upgraded His Game,\u201d The New York Times, August 24, 2017. <table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

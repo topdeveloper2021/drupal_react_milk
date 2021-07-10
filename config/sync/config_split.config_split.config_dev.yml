@@ -1,0 +1,26 @@
+uuid: 0316e16d-686b-4842-82a1-4b6b3ca1f3c6
+langcode: en
+status: false
+dependencies: {  }
+id: config_dev
+label: config_dev
+description: ''
+folder: ../config/splits/dev
+module:
+  devel: 0
+  devel_generate: 0
+  search_api: 50
+  search_api_solr: 51
+  search_api_attachments: 52
+theme: {  }
+blacklist:
+  - devel.settings
+  - search_api.index.milken_solr
+  - search_api.server.solr_dev
+  - system.performance
+  - views.view.search
+  - devel.toolbar
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -1,0 +1,23 @@
+uuid: 3106c2c9-cd59-4466-93ef-6724b7418e15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_visibility
+    - taxonomy.vocabulary.ph_hub
+id: taxonomy_term.ph_hub.field_visibility
+field_name: field_visibility
+entity_type: taxonomy_term
+bundle: ph_hub
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

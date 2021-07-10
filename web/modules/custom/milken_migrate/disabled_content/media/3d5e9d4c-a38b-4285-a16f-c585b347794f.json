@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/13414\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/a4biuROG_ljKh--gHjH7h-hl14gWGmXaaaVmf6HT-Bk.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13414
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3d5e9d4c-a38b-4285-a16f-c585b347794f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2401
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/a4biuROG_ljKh--gHjH7h-hl14gWGmXaaaVmf6HT-Bk.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "39f60ebc-eca1-48b6-95e2-03952a6b8a64"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Power of Cities Interview",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T01:26:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-15T01:44:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Mayor of Helsinki, Jan Vapaavuori, and the founder of Blue Zones, Dan Buettner interviewed by Paul Irving, Chairman, Milken Institute Center for the Future of Aging. By 2030, there will be more people over the age of 60 worldwide than there will be under the age of 10. The United States, like the rest of the world, is experiencing a demographic age shift that is both urban and distinctly diverse. The Milken Institute Center for the Future of Aging\u2019s Age-Forward 2030 initiative challenges cities and communities prepare for an older, increasingly diverse, and economically stratified population by integrating population aging into strategies for economic growth, inclusion, and resiliency. Jan Vapaavuori and Dan Buettner are two experts in transforming communities and introducing innovative programs to promote and advance the health of older populations.\u00a0",
+    "format": "rich_text",
+    "processed": "Mayor of Helsinki, Jan Vapaavuori, and the founder of Blue Zones, Dan Buettner interviewed by Paul Irving, Chairman, Milken Institute Center for the Future of Aging. By 2030, there will be more people over the age of 60 worldwide than there will be under the age of 10. The United States, like the rest of the world, is experiencing a demographic age shift that is both urban and distinctly diverse. The Milken Institute Center for the Future of Aging\u2019s Age-Forward 2030 initiative challenges cities and communities prepare for an older, increasingly diverse, and economically stratified population by integrating population aging into strategies for economic growth, inclusion, and resiliency. Jan Vapaavuori and Dan Buettner are two experts in transforming communities and introducing innovative programs to promote and advance the health of older populations.\u00a0",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/vI8QTxEbxdw",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/a4biuROG_ljKh--gHjH7h-hl14gWGmXaaaVmf6HT-Bk.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

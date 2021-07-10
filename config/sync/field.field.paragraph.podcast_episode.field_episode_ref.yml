@@ -1,0 +1,28 @@
+uuid: 9359ba8e-6841-4a8b-b854-ea58aef43f86
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_episode_ref
+    - media.type.podcast_episode
+    - paragraphs.paragraphs_type.podcast_episode
+id: paragraph.podcast_episode.field_episode_ref
+field_name: field_episode_ref
+entity_type: paragraph
+bundle: podcast_episode
+label: 'Episode Ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      podcast_episode: podcast_episode
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

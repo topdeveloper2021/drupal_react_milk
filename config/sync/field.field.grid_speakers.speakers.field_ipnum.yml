@@ -1,0 +1,19 @@
+uuid: 604696b5-39ac-4e9b-9e24-1cf69b7895e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_ipnum
+id: grid_speakers.speakers.field_ipnum
+field_name: field_ipnum
+entity_type: grid_speakers
+bundle: speakers
+label: ipnum
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

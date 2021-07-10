@@ -1,0 +1,23 @@
+uuid: e37acd26-147b-471b-92ae-a9812f301f2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_index_weight
+    - node.type.article
+  module:
+    - options
+id: node.article.field_index_weight
+field_name: field_index_weight
+entity_type: node
+bundle: article
+label: 'Index Weight'
+description: 'Specify how high on the search results this item should be, where 0 is at the top of the list, followed by 1,2,3,....'
+required: true
+translatable: false
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

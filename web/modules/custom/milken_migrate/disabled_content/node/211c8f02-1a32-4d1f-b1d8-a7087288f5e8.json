@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/balancing-innovation-premium-quality-health-care-us?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/214?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 842
+        }
+    ],
+    "uuid": [
+        {
+            "value": "211c8f02-1a32-4d1f-b1d8-a7087288f5e8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 842
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/214?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "015ffc5b-8ff5-4b8c-b10e-91940f205ffc"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Balancing the Innovation Premium with the Quality of Health Care in the US",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T03:05:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:03:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/balancing-innovation-premium-quality-health-care-us",
+            "pid": 895,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The US health-care system is unique. It can offer the best medical care, including the most innovative treatment options. At the same time, it can deny access to basic care or may drive patients into personal bankruptcy. It is perplexing that these two contradictory tracks co-exist within the same system. A key question to address is: How can we help improve access to affordable and quality health care while maintaining medical innovation? The fragmented nature of the US health-care system emanates from its historical origins in the 19th century. While European workers received their first health-care benefits through their respective governments, American workers were first provided medical benefits by their employers. This practice began in earnest with railroad companies, which needed to attract manual labor. Over the next 150 years, the US health-care system evolved from this original idea into a fragmented structure of payers, providers, and manufacturers of drugs. Each of these groups is driven by the need to produce returns for their respective stakeholders. The result is that, today, Americans are paying for these services and products at approximately 18 percent of GDP, a number about 50 percent higher when compared to other developed nations. The majority of this US$3.5 trillion annual bill is attributed to cost of care by hospitals and providers, while medications make up about 12 percent. The US government is still responsible for about half of this burden through its Medicare, Medicaid, and Department of Defense programs. We have made remarkable progress in medical science. Recent discoveries of new biological pathways, individualized cell and gene therapies, and biotechnology capabilities all have led to the development of breakthrough therapeutic interventions targeting various forms of cancer, autoimmune disorders, and rare diseases. In parallel, during the last decade, the advance of big data, artificial intelligence, machine learning, cloud storage, blockchain, and immensely faster computational capabilities hold the promise to disrupt the system\u2019s inefficiencies, reduce administrative costs, improve diagnoses, and prevent fraud. In addition, major undertakings have been done to digitize America\u2019s health records. The\u00a0HITECH Act\u00a0of 2009 was created as part of the economic stimulus bill to motivate the implementation of electronic health records. The goal is to establish a system to allow health information to flow appropriately so that different health systems, payers, and patients can share data across the ecosystem to make informed health-care decisions. Of course, all this progress does not come issue-free. For example, many of the new therapies, such as the individualized cell and gene therapies or treatments for rare diseases, tend to be much costlier per treatment cycle. Policy debate continues whether this expense can be justified when only one patient benefits from it. In addition, there are many problems with the ongoing health-care digitization effort. There is currently no enforced standard in place for interoperability between parties. The discourse about health-care costs will no doubt intensify as the public policy debate escalates with 2020 elections in sight. Yet none of the proposed solutions, such as Medicare negotiation, increasing generic competition, or capping out-of-pocket costs, seem to address the underlying fundamental challenges to match the clinical outcomes to health-care costs. Our health-care system developed over time. Likewise, it is going to take time, resources, and massive political will to unravel some of the practices that no longer benefit the stakeholders. There will be naysayers who will try to stand in the way of progress and maintain the status quo. Nevertheless, there are several opportunities to start balancing the innovation premium with the cost of innovation. Medical schools need to increase their residency quotas to allow more physicians to graduate to help address the projected physician shortage. The same applies to accelerate hospitalist and nurse practitioner\/physician\u2019s assistant programs. Tax incentives or other means should be created to encourage more care facilities in rural areas. Hospital systems should acknowledge and address their inherent administrative inefficiencies in their patient care processes. They should strive to become self-sustaining institutions by applying lean management techniques that for-profit corporations have been utilizing for decades. Health-care providers can establish price transparency for patients so that they can make informed decisions for certain procedures by frequenting more affordable hospitals and thus avoid a sticker shock upon discharge from hospitals. Government and private payers need to collaborate to enable value-based schemes to negotiate drug prices. The pharma industry should find a new policy solution in its value chain so that the pharmacy benefit managers no longer benefit from favoring higher-priced medications due to the rebate structure. The government can continue incentives for the uninsured population to get coverage and avoid using the emergency room for primary care services. In summary, there is a reasonable set of policy changes that can start moving the needle to balance the innovation premium with the cost of care. Recent technological advances offer a unique opportunity to help expedite these measures to gain traction when coupled with the political will to do the right thing. <i>The views expressed by the presenters are their own and not necessarily those of Ernst & Young LLP or other members of the global EY.<\/i>",
+    "format": "rich_text",
+    "processed": "The US health-care system is unique. It can offer the best medical care, including the most innovative treatment options. At the same time, it can deny access to basic care or may drive patients into personal bankruptcy. It is perplexing that these two contradictory tracks co-exist within the same system. A key question to address is: How can we help improve access to affordable and quality health care while maintaining medical innovation? The fragmented nature of the US health-care system emanates from its historical origins in the 19th century. While European workers received their first health-care benefits through their respective governments, American workers were first provided medical benefits by their employers. This practice began in earnest with railroad companies, which needed to attract manual labor. Over the next 150 years, the US health-care system evolved from this original idea into a fragmented structure of payers, providers, and manufacturers of drugs. Each of these groups is driven by the need to produce returns for their respective stakeholders. The result is that, today, Americans are paying for these services and products at approximately 18 percent of GDP, a number about 50 percent higher when compared to other developed nations. The majority of this US$3.5 trillion annual bill is attributed to cost of care by hospitals and providers, while medications make up about 12 percent. The US government is still responsible for about half of this burden through its Medicare, Medicaid, and Department of Defense programs. We have made remarkable progress in medical science. Recent discoveries of new biological pathways, individualized cell and gene therapies, and biotechnology capabilities all have led to the development of breakthrough therapeutic interventions targeting various forms of cancer, autoimmune disorders, and rare diseases. In parallel, during the last decade, the advance of big data, artificial intelligence, machine learning, cloud storage, blockchain, and immensely faster computational capabilities hold the promise to disrupt the system\u2019s inefficiencies, reduce administrative costs, improve diagnoses, and prevent fraud. In addition, major undertakings have been done to digitize America\u2019s health records. The\u00a0HITECH Act\u00a0of 2009 was created as part of the economic stimulus bill to motivate the implementation of electronic health records. The goal is to establish a system to allow health information to flow appropriately so that different health systems, payers, and patients can share data across the ecosystem to make informed health-care decisions. Of course, all this progress does not come issue-free. For example, many of the new therapies, such as the individualized cell and gene therapies or treatments for rare diseases, tend to be much costlier per treatment cycle. Policy debate continues whether this expense can be justified when only one patient benefits from it. In addition, there are many problems with the ongoing health-care digitization effort. There is currently no enforced standard in place for interoperability between parties. The discourse about health-care costs will no doubt intensify as the public policy debate escalates with 2020 elections in sight. Yet none of the proposed solutions, such as Medicare negotiation, increasing generic competition, or capping out-of-pocket costs, seem to address the underlying fundamental challenges to match the clinical outcomes to health-care costs. Our health-care system developed over time. Likewise, it is going to take time, resources, and massive political will to unravel some of the practices that no longer benefit the stakeholders. There will be naysayers who will try to stand in the way of progress and maintain the status quo. Nevertheless, there are several opportunities to start balancing the innovation premium with the cost of innovation. Medical schools need to increase their residency quotas to allow more physicians to graduate to help address the projected physician shortage. The same applies to accelerate hospitalist and nurse practitioner\/physician\u2019s assistant programs. Tax incentives or other means should be created to encourage more care facilities in rural areas. Hospital systems should acknowledge and address their inherent administrative inefficiencies in their patient care processes. They should strive to become self-sustaining institutions by applying lean management techniques that for-profit corporations have been utilizing for decades. Health-care providers can establish price transparency for patients so that they can make informed decisions for certain procedures by frequenting more affordable hospitals and thus avoid a sticker shock upon discharge from hospitals. Government and private payers need to collaborate to enable value-based schemes to negotiate drug prices. The pharma industry should find a new policy solution in its value chain so that the pharmacy benefit managers no longer benefit from favoring higher-priced medications due to the rebate structure. The government can continue incentives for the uninsured population to get coverage and avoid using the emergency room for primary care services. In summary, there is a reasonable set of policy changes that can start moving the needle to balance the innovation premium with the cost of care. Recent technological advances offer a unique opportunity to help expedite these measures to gain traction when coupled with the political will to do the right thing. <i>The views expressed by the presenters are their own and not necessarily those of Ernst &amp; Young LLP or other members of the global EY.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

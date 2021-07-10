@@ -1,0 +1,16 @@
+uuid: 64e19491-66b1-45bc-bf7a-cb98e3827332
+langcode: en
+status: true
+dependencies: {  }
+id: hubs
+label: Hubs
+description: "Use this to add a path to a new Opportunity Hub.\r\nOpportunity Hubs are used for displaying concise useful information about a collection of topics and links. "
+use_admin_theme: false
+path: '/hub/{args}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  args:
+    machine_name: args
+    type: string
+    label: hubargs

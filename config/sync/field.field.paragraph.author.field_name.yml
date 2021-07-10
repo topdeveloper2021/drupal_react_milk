@@ -1,0 +1,19 @@
+uuid: 38e4dcdd-2ecb-4fcf-b453-3f804d3370fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_name
+    - paragraphs.paragraphs_type.author
+id: paragraph.author.field_name
+field_name: field_name
+entity_type: paragraph
+bundle: author
+label: Name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

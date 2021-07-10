@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/achieving-mind-body-balance?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/4?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 463
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7a43d655-f760-4faa-be1a-28d05310706a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 463
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/4?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c25ddf4f-7cdb-4064-bfa6-9d242e12f8e7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Achieving Mind-Body Balance",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:28:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/achieving-mind-body-balance",
+            "pid": 516,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Deepak Chopra is a pioneer in integrative medicine and personal transformation. Time magazine has described him as \"one of the top 100 heroes and icons of the century.\u201d In an interview with the Milken Institute Center for the Future of Aging, Chopra spoke about his lifestyle choices for well-being and healthy aging and how people can use their brains to achieve health and happiness.<\/i><b>Why did you decide to launch Jiyo? What is the mission and your vision for its impact?<\/b>I launched\u00a0Jiyo\u00a0to create a global community for total well-being. I refer to\u00a0Jiyo.com\u00a0as the \u201cinternet of well-being,\u201d a platform for people all over the world to get knowledge from experts in multiple areas: physical, emotional, professional, social, financial, and spiritual. The experts are personally chosen and curated by me, and online courses are offered on everything essential to enhanced well-being and personal evolution\u2014self-awareness, higher consciousness, sleep, stress management, meditation, movement, yoga, breathing exercises, nutrition, love, relationships, and\u00a0grounding. My hope for Jiyo is to help create a critical mass of people engaged in personal and social transformation. Only then can we achieve what everyone desires, a more peaceful, just, sustainable, healthier, and joyful world.<b>How can we strive to find purpose and meaning in our lives?<\/b>Finding purpose and meaning in our lives demands that each of us reflect on fundamental questions: Who am I? What are the core values of my life? What do I want for myself and the world? And what am I grateful for? If we really investigate and are committed to these questions, life has a way of providing the answers.<b>What lifestyle choices have you made for your well-being and healthy aging?<\/b>I\u2019ve adopted the things that I recommend to anyone who wants enhanced well-being.I sleep 8 hours every night.I practice meditation and yoga daily.\nI walk 10,000 steps every day.\nI cultivate healthy emotions like love, compassion, joy, gratitude, and equanimity.\nI make sure my diet has a maximum diversity of plant-based foods. I avoid food that is manufactured, refined, processed, and high in fat and sugar.\nI take a week of silence every year.\nLately, as an experiment, I also ground myself to the earth through devices when I am in urban settings and am not in direct contact with nature.\n<b>In our society where some people do not get\u00a0enough\u00a0sleep, how important is having a restful night to the practice of meditation?<\/b>A good night\u2019s sleep of 8 to 9 hours for the average adult is very important for experiencing the full benefit of meditation, beginning with inner stillness and alertness but also physical enhancements like improved self-regulation. If we have not slept properly, meditation generally turns into naptime. Sleep, therefore, comes first. Along with\u00a0Rudolph E. Tanzi\u00a0at Harvard Medical School, we have created a brain entrainment device called\u00a0Dream Weaver\u00a0that helps people who have trouble falling asleep by getting them into the brain wave frequency that induces both the dream and deep sleep states.<b>How can people properly use their brains to achieve health and happiness?<\/b>The human brain has three components\u2014the lower or instinctive brain, the emotional or limbic brain, and the cortical or intellectual brain. By practicing meditation and self-inquiry, by cultivating healthy emotions, and by not being impulsive and reactive, we can integrate our three brains\u2014this is conscious evolution. <i>Homo sapiens<\/i> alone have the capacity to transcend genetic programming, which controls physical evolution. By pursuing evolution in a conscious way, we also enhance our capacity for insights, intuition, imagination, and creativity.\u00a0<b>Are we missing key information about improving brain health?<\/b>Brain health was an obscure field 20 years ago, and many findings are still provisional. For example, it is strongly suggested that low-level chronic inflammation and treatable infections in the brain may be vital to preventing and perhaps curing Alzheimer\u2019s disease\u2014only time will tell.In the meantime, the recommendations for brain health don\u2019t vary greatly from general wellness practices.Healthy sleep habits.\nStress management.\nHealthy emotions.\nHealthy nutrition.\nRemaining curious, alert, and mentally challenged throughout life.\n<b>What is brain plasticity and what impact does it have on disease prevention?<\/b>Brain plasticity means that the brain isn\u2019t fixed and static. It has the capacity to increase the number of neurons, known as neurogenesis, and also the connections between neurons, known as synaptogenesis. Rehabilitation from strokes, for example, has been revolutionized since my days in medical school thanks to this new knowledge. But for healthy people, brain plasticity can be enhanced through mental practices. I call these practices metacognition. Metacognition is conscious awareness of experience as it is happening, along with mindful awareness of our choices as we make them. These possibilities are discussed in\u00a0<i>Super Brain<\/i>, coauthored by Rudy Tanzi.<b>How would you advise people who are going through difficult times?<\/b>First, recognize that all experience is impermanent. The only invariant or non-changing factor in every experience is awareness. Cultivating self-awareness through a daily spiritual practice helps us navigate difficult times. But everyone is different, and we have to be realistic. Advising someone suffering from chronic depression to be more self-aware is probably impractical when what\u2019s needed immediately is to improve their symptoms and relieve their mental pain.\u00a0The real secret to happiness, however, is universal: seek your source in pure consciousness, and you will find that happiness is included in the ground plan of existence. Such an agenda is a tall order, I know, but this has been the ultimate cure for centuries and hasn\u2019t worn out.",
+    "format": "rich_text",
+    "processed": "<i>Deepak Chopra is a pioneer in integrative medicine and personal transformation. Time magazine has described him as \"one of the top 100 heroes and icons of the century.\u201d In an interview with the Milken Institute Center for the Future of Aging, Chopra spoke about his lifestyle choices for well-being and healthy aging and how people can use their brains to achieve health and happiness.<\/i><b>Why did you decide to launch Jiyo? What is the mission and your vision for its impact?<\/b>I launched\u00a0Jiyo\u00a0to create a global community for total well-being. I refer to\u00a0Jiyo.com\u00a0as the \u201cinternet of well-being,\u201d a platform for people all over the world to get knowledge from experts in multiple areas: physical, emotional, professional, social, financial, and spiritual. The experts are personally chosen and curated by me, and online courses are offered on everything essential to enhanced well-being and personal evolution\u2014self-awareness, higher consciousness, sleep, stress management, meditation, movement, yoga, breathing exercises, nutrition, love, relationships, and\u00a0grounding. My hope for Jiyo is to help create a critical mass of people engaged in personal and social transformation. Only then can we achieve what everyone desires, a more peaceful, just, sustainable, healthier, and joyful world.<b>How can we strive to find purpose and meaning in our lives?<\/b>Finding purpose and meaning in our lives demands that each of us reflect on fundamental questions: Who am I? What are the core values of my life? What do I want for myself and the world? And what am I grateful for? If we really investigate and are committed to these questions, life has a way of providing the answers.<b>What lifestyle choices have you made for your well-being and healthy aging?<\/b>I\u2019ve adopted the things that I recommend to anyone who wants enhanced well-being.I sleep 8 hours every night.I practice meditation and yoga daily.\nI walk 10,000 steps every day.\nI cultivate healthy emotions like love, compassion, joy, gratitude, and equanimity.\nI make sure my diet has a maximum diversity of plant-based foods. I avoid food that is manufactured, refined, processed, and high in fat and sugar.\nI take a week of silence every year.\nLately, as an experiment, I also ground myself to the earth through devices when I am in urban settings and am not in direct contact with nature.\n<b>In our society where some people do not get\u00a0enough\u00a0sleep, how important is having a restful night to the practice of meditation?<\/b>A good night\u2019s sleep of 8 to 9 hours for the average adult is very important for experiencing the full benefit of meditation, beginning with inner stillness and alertness but also physical enhancements like improved self-regulation. If we have not slept properly, meditation generally turns into naptime. Sleep, therefore, comes first. Along with\u00a0Rudolph E. Tanzi\u00a0at Harvard Medical School, we have created a brain entrainment device called\u00a0Dream Weaver\u00a0that helps people who have trouble falling asleep by getting them into the brain wave frequency that induces both the dream and deep sleep states.<b>How can people properly use their brains to achieve health and happiness?<\/b>The human brain has three components\u2014the lower or instinctive brain, the emotional or limbic brain, and the cortical or intellectual brain. By practicing meditation and self-inquiry, by cultivating healthy emotions, and by not being impulsive and reactive, we can integrate our three brains\u2014this is conscious evolution. <i>Homo sapiens<\/i> alone have the capacity to transcend genetic programming, which controls physical evolution. By pursuing evolution in a conscious way, we also enhance our capacity for insights, intuition, imagination, and creativity.\u00a0<b>Are we missing key information about improving brain health?<\/b>Brain health was an obscure field 20 years ago, and many findings are still provisional. For example, it is strongly suggested that low-level chronic inflammation and treatable infections in the brain may be vital to preventing and perhaps curing Alzheimer\u2019s disease\u2014only time will tell.In the meantime, the recommendations for brain health don\u2019t vary greatly from general wellness practices.Healthy sleep habits.\nStress management.\nHealthy emotions.\nHealthy nutrition.\nRemaining curious, alert, and mentally challenged throughout life.\n<b>What is brain plasticity and what impact does it have on disease prevention?<\/b>Brain plasticity means that the brain isn\u2019t fixed and static. It has the capacity to increase the number of neurons, known as neurogenesis, and also the connections between neurons, known as synaptogenesis. Rehabilitation from strokes, for example, has been revolutionized since my days in medical school thanks to this new knowledge. But for healthy people, brain plasticity can be enhanced through mental practices. I call these practices metacognition. Metacognition is conscious awareness of experience as it is happening, along with mindful awareness of our choices as we make them. These possibilities are discussed in\u00a0<i>Super Brain<\/i>, coauthored by Rudy Tanzi.<b>How would you advise people who are going through difficult times?<\/b>First, recognize that all experience is impermanent. The only invariant or non-changing factor in every experience is awareness. Cultivating self-awareness through a daily spiritual practice helps us navigate difficult times. But everyone is different, and we have to be realistic. Advising someone suffering from chronic depression to be more self-aware is probably impractical when what\u2019s needed immediately is to improve their symptoms and relieve their mental pain.\u00a0The real secret to happiness, however, is universal: seek your source in pure consciousness, and you will find that happiness is included in the ground plan of existence. Such an agenda is a tall order, I know, but this has been the ultimate cure for centuries and hasn\u2019t worn out.",
+    "summary": null,
+    "summary_processed": ""
+}

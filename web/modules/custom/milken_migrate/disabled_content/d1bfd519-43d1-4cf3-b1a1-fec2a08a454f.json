@@ -1,0 +1,130 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/47\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/main-menu---strategic-phila"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/main-menu---strategic-phila\/field_menu_logo_mobile": [
+            {
+                "href": "http:\/\/dev-milken-institute.pantheonsite.io\/sites\/default\/files\/MI_CSP%20logo_Web%20%26%20Mobile-04.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 47
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d1bfd519-43d1-4cf3-b1a1-fec2a08a454f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "main-menu---strategic-phila"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Style",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main-menu---strategic-phila"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/centers\/center-for-strategic-philanthropy",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-13T00:21:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "view_mode": [
+        {
+            "value": "default",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/main-menu---strategic-phila\/field_menu_logo_mobile": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/dev-milken-institute.pantheonsite.io\/sites\/default\/files\/MI_CSP%20logo_Web%20%26%20Mobile-04.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f3e00697-c6ad-44a9-8742-9e5d86858bc3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    }
+}

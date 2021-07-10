@@ -1,0 +1,19 @@
+uuid: d2fc2ea8-d428-4575-a7c8-f81d0c890624
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_event_type
+id: event.meeting.field_event_type
+field_name: field_event_type
+entity_type: event
+bundle: meeting
+label: 'Event Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

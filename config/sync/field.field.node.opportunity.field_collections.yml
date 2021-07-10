@@ -1,0 +1,29 @@
+uuid: 24031424-a9c4-4fef-89c4-77043f962181
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_collections
+    - node.type.opportunity
+    - taxonomy.vocabulary.collections
+id: node.opportunity.field_collections
+field_name: field_collections
+entity_type: node
+bundle: opportunity
+label: Collections
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      collections: collections
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

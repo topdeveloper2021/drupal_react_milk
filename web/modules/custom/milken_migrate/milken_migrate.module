@@ -1,0 +1,405 @@
+<?php
+
+/**
+ * @file
+ * Contains milken_migrate.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\migrate\Row;
+use Drupal\migrate\Plugin\MigrateSourceInterface;
+use Drupal\migrate\Plugin\MigrationInterface;
+use Drupal\media\Entity\Media;
+use GuzzleHttp\Exception\RequestException;
+use Drupal\Component\Serialization\Json;
+use Drupal\milken_migrate\Controller\MilkenMigrateController;
+
+/**
+ * Implements hook_help().
+ */
+function milken_migrate_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the milken_migrate module.
+    case 'help.page.milken_migrate':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Migration classes and data for move to re-organized d8 site') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_migrate_prepare_row().
+ */
+function milken_migrate_migrate_prepare_row(Row $row, MigrateSourceInterface $source, MigrationInterface $migration) {
+
+}
+
+/**
+ * Add log function.
+ */
+function _log_migrate_debug_info($message) {
+  if (function_exists('drush_print')) {
+    drush_print($message);
+  }
+  else {
+    \Drupal::logger('migrate_jsonapi')->info($message);
+  }
+}
+
+/**
+ * Implements hook_cron().
+ */
+function milken_migrate_cron() {
+  module_load_include('inc', 'milken_migrate', "milken_migrate.cron");
+  return milken_migrate_cron_run_migrations();
+}
+
+/**
+ * Custom function to pull thumbnails from oEmbed service.
+ */
+function milken_migrate_update_video() {
+
+  $result = \Drupal::entityQuery("media")
+    ->condition('bundle', 'video')
+    // ->condition('uid', 1, '<>')
+    ->execute();
+  $i = 0;
+
+  foreach ($result as $id) {
+    $valid = FALSE;
+    $video = Media::load($id);
+    $url = $video->get('field_media_oembed_video')->getValue();
+    $pos = strpos($url[0]['value'], 'https://www.youtube.com/embed/');
+    $uri = 'na';
+    if ($pos === FALSE) {
+
+    }
+    else {
+      $uri = str_replace("https://www.youtube.com/embed/", "https://www.youtube.com/watch?v=", $url[0]['value']);
+
+      try {
+        $client = \Drupal::httpClient();
+        $request = $client->get('https://www.youtube.com/oembed?url=' . $uri);
+        list($format) = $request->getHeader('Content-Type');
+        $content = (string) $request->getBody();
+        if (strstr($format, 'text/xml') || strstr($format, 'application/xml')) {
+          if (!$this->parseResourceXml($content, $uri)) {
+            $valid = FALSE;
+          }
+          else {
+            $valid = TRUE;
+          }
+        }
+        elseif (strstr($format, 'text/javascript') || strstr($format, 'application/json')) {
+          if (!Json::decode($content)) {
+            $valid = FALSE;
+          }
+          else {
+            $valid = TRUE;
+          }
+        }
+        // If the response is neither XML nor JSON, we are in bat country.
+        else {
+          echo 'The fetched resource did not have a valid Content-Type header.';
+          $valid = FALSE;
+        }
+      }
+      catch (RequestException $e) {
+        echo 'Could not retrieve the oEmbed resource.';
+      }
+      $video->set('field_media_oembed_video', $uri);
+    }
+
+    $video->set('uid', 1);
+    if ($valid) {
+      $video->save();
+    }
+    else {
+      echo $id;
+      echo " ";
+      echo $url[0]['value'];
+      echo "\n";
+    }
+
+    $i++;
+    // }
+  }
+  echo $i;
+}
+
+/**
+ * Custom function to bulk tag Articles, Reports and Videos.
+ */
+function milken_migrate_content_update() {
+  $csv_source = drupal_get_path('module', 'milken_migrate') . '/assets/bulk-tagging.csv';
+
+  $num_lines = (int) `wc -l $csv_source`;
+  print 'Total Records to Update: ' . $num_lines;
+  $current_line = 0;
+  $migrate = new MilkenMigrateController();
+  if (($fp = fopen($csv_source, "r")) !== FALSE) {
+    while (($data = fgetcsv($fp, NULL, ",", "|",)) !== FALSE) {
+      $current_line++;
+      print "\n";
+      print 'Current record: ' . $current_line;
+      if (strcasecmp($data[0], 'Article') == 0) {
+        // Update Articles.
+        print ', type: Article';
+        $migrate->update_articles($data);
+      }
+      elseif (strcasecmp($data[0], 'Video') == 0) {
+        // Update Videos.
+        print ', type: Video';
+        $migrate->update_media($data);
+      }
+      elseif (strcasecmp($data[0], 'Report') == 0) {
+        // Update Reports.
+        print ', type: Report';
+        $migrate->update_media($data);
+      }
+      else {
+        // Skip.
+      }
+    }
+  }
+
+}
+
+/**
+ * Custom function to link Speakers to Panel_Speaker records.
+ */
+function milken_migrate_update_grid_join_panel_speaker() {
+
+  $results = \Drupal::entityTypeManager()->getStorage('grid_join_panel_speaker')->loadByProperties(['type' => 'join_table']);
+
+  // print_r($results);
+  foreach ($results as $key => $item) {
+
+    print('Current Panel_Speakers Record: ' . $key . '; ');
+
+    // Get value of grid_join_panel_speaker.field_panel_id.
+    $field_panel_id_value = $item->get('field_panel_id')->getValue()[0]['value'];
+
+    if ($field_panel_id_value == NULL) {
+      print('NULL ITEM FOUND field_panel_id_value in ' . $key);
+      continue;
+    }
+
+    // Load the Panel by ID.
+    print('field_panel_id_value: ' . $field_panel_id_value . '; ');
+    $panel_record = \Drupal::entityTypeManager()->getStorage('panel')->load((int) $field_panel_id_value);
+
+    if ($panel_record == NULL) {
+      print('NULL ITEM FOUND panel_record in ' . $key);
+      continue;
+    }
+
+    // Get event_id from Panel.
+    print('panel_record: ' . gettype($panel_record) . '; ');
+    $event_id = $panel_record->get('field_event')->getValue()[0]['target_id'];
+    print('event_id: ' . $event_id . '; ');
+
+    // Load current Panel_Speakers entity.
+    $grid_join_panel_speaker_rw = \Drupal::entityTypeManager()->getStorage('grid_join_panel_speaker')->load($key);
+    $grid_join_panel_speaker_rw->set('field_event', ['target_id' => $event_id]);
+    $grid_join_panel_speaker_rw->save();
+    print('panel_speaker_id: ' . $key . ' event_id: ' . $event_id . "; \n");
+  }
+}
+
+/**
+ * Custom function to link Speaker & Track records to a Panel.
+ *
+ * Usage: drush php:eval 'milken_migrate_update_grid_panel(10)'.
+ */
+function milken_migrate_update_grid_panel($max_iterations = 0) {
+
+  print("Start of milken_migrate_update_grid_panel \n\n");
+
+  // Get all Panel records.
+  $panels = \Drupal::entityTypeManager()->getStorage('panel')->loadByProperties(['type' => 'panel']);
+
+  // Count takes for ever...
+  // print("Total Panels loaded: " . count($panels) . " \n");.
+  $i = 0;
+
+  foreach ($panels as $key => $item) {
+    if ($i > $max_iterations && $max_iterations != 0) {
+      break;
+    }
+    else {
+      $i++;
+    }
+
+    $array_speaker_ids = [];
+    $array_speaker_ids_string = '';
+    $array_panel_speakers_entities = NULL;
+
+    $array_speaker_roles = [];
+
+    $array_track_ids = [];
+    $array_track_ids_string = '';
+    $array_panel_tracks_entities = NULL;
+
+    print('Current Panel Record: ' . $key . "\n");
+
+    // BEGIN Speaker Reference Linking Block
+    // Get Panel_Speaker Records by Panel ID.
+    $array_panel_speakers_entities = \Drupal::entityTypeManager()
+      ->getStorage('grid_join_panel_speaker')
+      ->loadByProperties(['type' => 'join_table', 'field_panel_id' => $key]);
+
+    if ($array_panel_speakers_entities == NULL) {
+      print('No Panel_Speaker entries for Panel: ' . $key) . "\n";
+      // Don't skip this loop iteration because it will skip adding Tracks
+      // continue;.
+    }
+    else {
+      foreach ($array_panel_speakers_entities as $panel_speaker_key => $panel_speaker_entity) {
+        // Reset all variables.
+        $panel_speaker_field_speaker_id_values = NULL;
+        $grid_speaker_record = NULL;
+        $speaker_role = NULL;
+
+        // Get and loop grid_join_panel_speaker.field_speaker_id.
+        $panel_speaker_field_speaker_id_values = $panel_speaker_entity->get('field_speaker_id')->getValue();
+
+        // Also need field_role from Panel_Speaker for Speaker Role.
+        $panel_speaker_field_role_values = $panel_speaker_entity->get('field_role')->getValue();
+
+        if ($panel_speaker_field_speaker_id_values == NULL) {
+          print('NULL field_speaker_id for Panel_Speaker: ' . $panel_speaker_key . ' at Panel ID: ' . $key . "\n");
+          continue;
+        }
+        else {
+          foreach ($panel_speaker_field_speaker_id_values as $speaker_key => $speaker_value) {
+            // Only add a Speaker ID if the Speaker actually exists.
+            $grid_speaker_record = \Drupal::entityTypeManager()->getStorage('grid_speakers')->load((int) $speaker_value['value']);
+            if ($grid_speaker_record == NULL) {
+              print('Could not load Speaker[' . $speaker_key . '] ' . $speaker_value['value'] . ' at Panel ID: ' . $key . "\n");
+              continue;
+            }
+            else {
+              array_push($array_speaker_ids, ['target_id' => $speaker_value['value']]);
+              $array_speaker_ids_string .= $speaker_value['value'] . ',';
+
+              if ($panel_speaker_field_role_values == NULL) {
+                print('NULL field_role for Panel_Speaker: ' . $panel_speaker_key . ' at Panel ID: ' . $key . "\n");
+              }
+              else {
+                $speaker_role = $panel_speaker_field_role_values[0]['value'];
+                array_push($array_speaker_roles, [
+                  'key' => $speaker_value['value'],
+                  'value' => $speaker_role,
+                  'description' => '',
+                ]);
+                print($speaker_role . ' is the value of field_role for Panel_Speaker: ' . $panel_speaker_key . ' at Panel ID: ' . $key . "\n");
+              }
+            }
+          }
+        }
+      }
+    }
+    // END Speaker Reference Linking Block.
+    // BEGIN Track Reference Linking Block
+    // Get Panel_Track Records by Panel ID.
+    $array_panel_tracks_entities = \Drupal::entityTypeManager()
+      ->getStorage('grid_join_panel_track')
+      ->loadByProperties(['type' => 'join_table', 'field_panel_id' => $key]);
+    if ($array_panel_tracks_entities == NULL) {
+      print('No Panel_Track entries for Panel: ' . $key) . "\n";
+      // Don't skip this loop iteration because it will skip adding Tracks
+      // continue;.
+    }
+    else {
+      foreach ($array_panel_tracks_entities as $panel_track_key => $panel_track_entity) {
+        // Reset all variables.
+        $panel_track_field_track_id_values = NULL;
+        $grid_track_record = NULL;
+
+        // Get and loop grid_join_panel_track.field_track_id.
+        $panel_track_field_track_id_values = $panel_track_entity->get('field_track_id')->getValue();
+        if ($panel_track_field_track_id_values == NULL) {
+          print('NULL field_track_id for Panel_Track: ' . $panel_track_key . ' at Panel ID: ' . $key . "\n");
+          continue;
+        }
+        else {
+          foreach ($panel_track_field_track_id_values as $track_key => $track_value) {
+            // Only add a Track ID if the Track actually exists.
+            $grid_track_record = \Drupal::entityTypeManager()->getStorage('grid_tracks')->load((int) $track_value['value']);
+            if ($grid_track_record == NULL) {
+              print('Could not load Track[' . $track_key . '] ' . $track_value['value'] . ' at Panel ID: ' . $key . "\n");
+              continue;
+            }
+            else {
+              array_push($array_track_ids, ['target_id' => $track_value['value']]);
+              $array_track_ids_string .= $track_value['value'] . ',';
+            }
+          }
+        }
+      }
+    }
+    // END Track Reference Linking Block.
+    // If panel_speakers and panel_tracks BOTH returned NULL,
+    // Then skip updating and log warning.
+    if ($array_panel_speakers_entities == NULL && $array_panel_tracks_entities == NULL) {
+      print('No records found on BOTH Join tables for Panel ID: ' . $key . "\n");
+      continue;
+    }
+
+    // Load the Panel by ID and check if null.
+    $panel_record_rw = \Drupal::entityTypeManager()->getStorage('panel')->load((int) $key);
+    if ($panel_record_rw == NULL) {
+      print('Could not load Panel ID: ' . $key . " for Read-Write \n");
+      continue;
+    }
+
+    // Set Speaker values.
+    $panel_record_rw->set('field_speakers', $array_speaker_ids);
+    // Set Speaker  => Role values.
+    $panel_record_rw->set('field_speaker_roles', $array_speaker_roles);
+    // Set Track values.
+    $panel_record_rw->set('field_tracks', $array_track_ids);
+    // Save updated Panel record.
+    $panel_record_rw->save();
+    print("Speaker IDs: " . $array_speaker_ids_string . "\n");
+    print("Track IDs: " . $array_track_ids_string . "\n");
+    // print_r($array_speaker_ids);
+    print('End of Loop Iteration, Panel ID: ' . $key . "; \n\n");
+    // Thank you come again.
+  }
+  $total_panels_processed = $i - 1;
+  print('Looped through a total of ' . $total_panels_processed . " Panel records. \n\n");
+  print("Thank you come again :) \n\n");
+
+}
+
+/**
+ * Default index_weight to 5 for Node items.
+ */
+function milken_migrate_bulk_set_index_weight(
+  $entity_type = 'node',
+  $entity_bundle = 'article',
+  $field_name = 'field_index_weight',
+  $field_value = '5') {
+
+  if ($entity_type == 'node' || $entity_type == 'people') {
+    $results = \Drupal::entityTypeManager()->getStorage($entity_type)->loadByProperties(['type' => $entity_bundle]);
+  }
+  else {
+    $results = \Drupal::entityTypeManager()->getStorage($entity_type)->loadByProperties(['bundle' => $entity_bundle]);
+  }
+
+  foreach ($results as $key => $item) {
+
+    print('Current Node Record: ' . $key . '; ');
+
+    // Load item by ID.
+    $item_rw = \Drupal::entityTypeManager()->getStorage($entity_type)->load((int) $key);
+    $item_rw->set($field_name, $field_value);
+    $item_rw->save();
+  }
+}

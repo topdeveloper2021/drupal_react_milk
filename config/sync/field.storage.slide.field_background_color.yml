@@ -1,0 +1,20 @@
+uuid: 9d368fb8-a693-46cc-89a8-8c049e2b216a
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - eck
+id: slide.field_background_color
+field_name: field_background_color
+entity_type: slide
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

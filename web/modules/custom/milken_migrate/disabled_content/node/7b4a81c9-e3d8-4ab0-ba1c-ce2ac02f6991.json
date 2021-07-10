@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/how-data-can-drive-shared-prosperity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/65?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 530
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7b4a81c9-e3d8-4ab0-ba1c-ce2ac02f6991"
+        }
+    ],
+    "vid": [
+        {
+            "value": 530
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/65?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e21763a4-5746-4604-ad8f-5b3bb32d8558"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How Data Can Drive Shared Prosperity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T07:19:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-07T15:27:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/how-data-can-drive-shared-prosperity",
+            "pid": 583,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Data and data tools empower individuals and are pivotal to helping all of us overcome the challenges we face as a society.<\/b><\/i> Prosperity is commonly thought of as a synonym for wealth, but it\u2019s also defined as a successful, flourishing, or thriving condition. Wealth is nice, but flourishing and thriving is a bigger deal: It speaks to the dimensions that make us happy, safe, connected, and free. A prosperous society is one in which people have access to food, water, and shelter; have a voice in their community; have access to knowledge and education; and have the tools to function within, and contribute to, their society. The opposite of prosperity is poverty, lack, and disadvantage. Historically, the darkest and most impoverished times have coincided with uneven playing fields in which essential elements of success were absent or hoarded by the few. An essential component of prosperity is the idea of a platform that provides society as a whole with the basic ingredients from which we each have the opportunity to flourish and thrive. Think of the prosperity, innovation, and social development unleashed in 1440 by the printing press and widespread literacy. In the last 150 years, the arrival of electricity has lifted communities and nations, and to this day, there are significant areas of deprivation attributable to a lack of access to electric power. In this century, we\u2019ve struggled to bring the internet to less-advantaged areas, and its arrival has consistently been a game-changer. I believe that access to data will become the next essential element to individual and global prosperity. Data, and the data tools to help people understand and drive outcomes through data, empower individuals and are pivotal to helping all of us overcome the challenges we face as a society. Last year, <i>The New York Times<\/i> ran a compelling, data-driven article about racial disparities in social mobility that challenge the perception of America as a land of equal opportunity. The ability to ask vexing, data-driven questions that then enable us to dig into systemic problems to identify root causes and foundationally grounded solutions is instrumental to making smarter decisions around education, legislation, and public investment to more effectively drive positive societal outcomes. <b>Principles of Data-Driven Prosperity<\/b> To that end, I think there are three essential ways in which the proliferation of data and the artificial intelligence and analytical tools that leverage it are essential to a more prosperous and just future: <b>Data literacy:<\/b> Being able to read and do basic math are fundamental to success and prosperity for the individual and for society. Being able to understand data and work with data tools will become equally fundamental and must be as actively encouraged. <b>Data-driven solutions:<\/b> To combat catastrophic climate change, systemic social inequity, and persistent economic inequality, we must be able to use \u201call of the data\u201d through approachable and powerful tools. Homo sapiens are \u201cstory processors\u201d not \u201clogic processors.\u201d Well-told stories that are grounded in broad-based and inclusive fact, driven by thoughtful data analysis, are key to our success as a species. We won\u2019t have the opportunity to thrive without data-driven solutions. <b>Democratization of data tools:<\/b> Just as cell phones are changing lives in rural countries where wired Internet access, or even a reliable electrical grid, have yet to reach, we must give people access to the tools that will help them use data to understand their circumstances and their opportunities to increase their own prosperity. And those tools must increasingly be approachable and usable by the average citizen. <b>The Commitment to Prosperity<\/b> I titled this essay \u201cHow Data Can Drive Shared Prosperity.\u201d <i>Can<\/i>, not <i>will<\/i>. Whether, and to what degree, data drives prosperity will be determined by the values we embrace and the actions we take to bring them to society as a whole. Remember that most of the technologies now elemental to our daily lives started out in privileged hands. The first computers were room-sized behemoths exclusive to academics and governments. The free, public internet started out as a US military project. Today, the most cutting-edge data tools and data sets are in the hands of commercial giants. Google, Facebook, and Amazon amaze us with their ability to leverage data for success. Yet increasingly, smaller companies and tech-savvy individuals are taking advantage of tools that draw insights from data. Splunk is committed to creating tools that democratize access to data by making it easier for literate, but less technical, users to access and understand data. That\u2019s a trend that must continue and expand because data literacy and data tools can drive prosperity for billions and help improve a playing field in which equal access to technology increases every vector of social prosperity.",
+    "format": "rich_text",
+    "processed": "<i><b>Data and data tools empower individuals and are pivotal to helping all of us overcome the challenges we face as a society.<\/b><\/i> Prosperity is commonly thought of as a synonym for wealth, but it\u2019s also defined as a successful, flourishing, or thriving condition. Wealth is nice, but flourishing and thriving is a bigger deal: It speaks to the dimensions that make us happy, safe, connected, and free. A prosperous society is one in which people have access to food, water, and shelter; have a voice in their community; have access to knowledge and education; and have the tools to function within, and contribute to, their society. The opposite of prosperity is poverty, lack, and disadvantage. Historically, the darkest and most impoverished times have coincided with uneven playing fields in which essential elements of success were absent or hoarded by the few. An essential component of prosperity is the idea of a platform that provides society as a whole with the basic ingredients from which we each have the opportunity to flourish and thrive. Think of the prosperity, innovation, and social development unleashed in 1440 by the printing press and widespread literacy. In the last 150 years, the arrival of electricity has lifted communities and nations, and to this day, there are significant areas of deprivation attributable to a lack of access to electric power. In this century, we\u2019ve struggled to bring the internet to less-advantaged areas, and its arrival has consistently been a game-changer. I believe that access to data will become the next essential element to individual and global prosperity. Data, and the data tools to help people understand and drive outcomes through data, empower individuals and are pivotal to helping all of us overcome the challenges we face as a society. Last year, <i>The New York Times<\/i> ran a compelling, data-driven article about racial disparities in social mobility that challenge the perception of America as a land of equal opportunity. The ability to ask vexing, data-driven questions that then enable us to dig into systemic problems to identify root causes and foundationally grounded solutions is instrumental to making smarter decisions around education, legislation, and public investment to more effectively drive positive societal outcomes. <b>Principles of Data-Driven Prosperity<\/b> To that end, I think there are three essential ways in which the proliferation of data and the artificial intelligence and analytical tools that leverage it are essential to a more prosperous and just future: <b>Data literacy:<\/b> Being able to read and do basic math are fundamental to success and prosperity for the individual and for society. Being able to understand data and work with data tools will become equally fundamental and must be as actively encouraged. <b>Data-driven solutions:<\/b> To combat catastrophic climate change, systemic social inequity, and persistent economic inequality, we must be able to use \u201call of the data\u201d through approachable and powerful tools. Homo sapiens are \u201cstory processors\u201d not \u201clogic processors.\u201d Well-told stories that are grounded in broad-based and inclusive fact, driven by thoughtful data analysis, are key to our success as a species. We won\u2019t have the opportunity to thrive without data-driven solutions. <b>Democratization of data tools:<\/b> Just as cell phones are changing lives in rural countries where wired Internet access, or even a reliable electrical grid, have yet to reach, we must give people access to the tools that will help them use data to understand their circumstances and their opportunities to increase their own prosperity. And those tools must increasingly be approachable and usable by the average citizen. <b>The Commitment to Prosperity<\/b> I titled this essay \u201cHow Data Can Drive Shared Prosperity.\u201d <i>Can<\/i>, not <i>will<\/i>. Whether, and to what degree, data drives prosperity will be determined by the values we embrace and the actions we take to bring them to society as a whole. Remember that most of the technologies now elemental to our daily lives started out in privileged hands. The first computers were room-sized behemoths exclusive to academics and governments. The free, public internet started out as a US military project. Today, the most cutting-edge data tools and data sets are in the hands of commercial giants. Google, Facebook, and Amazon amaze us with their ability to leverage data for success. Yet increasingly, smaller companies and tech-savvy individuals are taking advantage of tools that draw insights from data. Splunk is committed to creating tools that democratize access to data by making it easier for literate, but less technical, users to access and understand data. That\u2019s a trend that must continue and expand because data literacy and data tools can drive prosperity for billions and help improve a playing field in which equal access to technology increases every vector of social prosperity.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/businesses-can-be-financially-successful-while-also-doing-good?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/67?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 532
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6ea71b50-4e55-40a2-b118-c33ead2204a9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 532
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/67?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b6bd8191-c224-4a5d-8d19-fd3ee2ac2a86"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Businesses Can be Financially Successful While Also Doing Good ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-09T10:49:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-07T16:57:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/businesses-can-be-financially-successful-while-also-doing-good",
+            "pid": 585,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Our One for One business model was a revolutionary idea when we created it. Hundreds of companies have since adopted it<\/b><b>.<\/b><\/i> I appreciate that there are a variety of ways to view prosperity and that it has different meanings to different people. For me, prosperity means that we thrive collectively; that we, as a community, feel connected, healthy, and growing in an important aspect of our lives. That could be measured by good health, a job, a safe place to live, the opportunity to serve others, or a number of other conditions that give an individual a sense of thriving life. Although it may sound altruistic, I truly feel most prosperous when I am serving others. I\u2019ve been in a variety of sectors (technology, startup, and nonprofit), and the common thread in all of these experiences has been how can I be a part of making the world better. I am fortunate that I have been able to build my career around the idea of prosperity. As the chief giving officer at TOMS, it is my role to make sure our mission is top of mind across the business. TOMS\u2019 founder, Blake Mycoskie, started TOMS in 2006 with the mission to use business to improve lives. He created the first ever One for One business model\u2014for every pair of shoes sold, a new pair is given to a person in need. This created a sustainable way for consumers to become an integral part of creating a better life for someone else, a platform so <i>they<\/i> could be in service to others. It also demonstrated that businesses can be financially successful while also doing good. At the time, One for One was a revolutionary idea. It has since been adapted by hundreds of companies, which is something we are very proud of. We know that creating positive change is a shared effort. It takes a community. We support others to do good, which will help our communities flourish. At TOMS, we measure our success by our impact, and we know that we could not reach the scale it has on our own. Together, with our partners, we have been able to impact over 88 million lives around the world. This impact is possible because of our customers, our Giving Partners who are experts in the regions we serve, our business partners, the TOMS team, and others who have joined the movement over the past 13 years. TOMS has supported this idea of shared prosperity from the beginning through shoe, sight, and safe water giving. The world around us is changing quickly, and we feel as though we can and should respond. Because of growing needs in local communities, we are expanding our reach into new impact areas, most recently through the End Gun Violence Together initiative. With this initiative, we gathered the voices of over 730,000 Americans to share their message of making our communities safer by calling on Congress to pass a bill in support of universal background checks. We are also investing $5 million in organizations that are working every day to end gun violence. This is a human issue that can be only be solved if we come together. As we meet more people in more communities from different backgrounds who were willing to share their story, we realize this issue is similar to the others we have worked to tackle; everyone has the ability to be part of the change. We all want safe communities; we all want to thrive and be prosperous. These efforts that I have the great honor and responsibility to lead have made my life prosperous, and I hope, through the work we do together as a community, continue to be part of creating a thriving humanity. Together, we stand for building a better and more prosperous tomorrow.",
+    "format": "rich_text",
+    "processed": "<i><b>Our One for One business model was a revolutionary idea when we created it. Hundreds of companies have since adopted it<\/b><b>.<\/b><\/i> I appreciate that there are a variety of ways to view prosperity and that it has different meanings to different people. For me, prosperity means that we thrive collectively; that we, as a community, feel connected, healthy, and growing in an important aspect of our lives. That could be measured by good health, a job, a safe place to live, the opportunity to serve others, or a number of other conditions that give an individual a sense of thriving life. Although it may sound altruistic, I truly feel most prosperous when I am serving others. I\u2019ve been in a variety of sectors (technology, startup, and nonprofit), and the common thread in all of these experiences has been how can I be a part of making the world better. I am fortunate that I have been able to build my career around the idea of prosperity. As the chief giving officer at TOMS, it is my role to make sure our mission is top of mind across the business. TOMS\u2019 founder, Blake Mycoskie, started TOMS in 2006 with the mission to use business to improve lives. He created the first ever One for One business model\u2014for every pair of shoes sold, a new pair is given to a person in need. This created a sustainable way for consumers to become an integral part of creating a better life for someone else, a platform so <i>they<\/i> could be in service to others. It also demonstrated that businesses can be financially successful while also doing good. At the time, One for One was a revolutionary idea. It has since been adapted by hundreds of companies, which is something we are very proud of. We know that creating positive change is a shared effort. It takes a community. We support others to do good, which will help our communities flourish. At TOMS, we measure our success by our impact, and we know that we could not reach the scale it has on our own. Together, with our partners, we have been able to impact over 88 million lives around the world. This impact is possible because of our customers, our Giving Partners who are experts in the regions we serve, our business partners, the TOMS team, and others who have joined the movement over the past 13 years. TOMS has supported this idea of shared prosperity from the beginning through shoe, sight, and safe water giving. The world around us is changing quickly, and we feel as though we can and should respond. Because of growing needs in local communities, we are expanding our reach into new impact areas, most recently through the End Gun Violence Together initiative. With this initiative, we gathered the voices of over 730,000 Americans to share their message of making our communities safer by calling on Congress to pass a bill in support of universal background checks. We are also investing $5 million in organizations that are working every day to end gun violence. This is a human issue that can be only be solved if we come together. As we meet more people in more communities from different backgrounds who were willing to share their story, we realize this issue is similar to the others we have worked to tackle; everyone has the ability to be part of the change. We all want safe communities; we all want to thrive and be prosperous. These efforts that I have the great honor and responsibility to lead have made my life prosperous, and I hope, through the work we do together as a community, continue to be part of creating a thriving humanity. Together, we stand for building a better and more prosperous tomorrow.",
+    "summary": null,
+    "summary_processed": ""
+}

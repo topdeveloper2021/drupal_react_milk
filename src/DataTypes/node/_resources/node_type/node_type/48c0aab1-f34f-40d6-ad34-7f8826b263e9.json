@@ -1,0 +1,34 @@
+{
+  "type": "node_type--node_type",
+  "id": "48c0aab1-f34f-40d6-ad34-7f8826b263e9",
+  "links": {
+    "describedby": {
+      "href": "http://localhost:8080/jsonapi/node_type/node_type/resource/schema"
+    },
+    "self": {
+      "href": "http://localhost:8080/jsonapi/node_type/node_type/48c0aab1-f34f-40d6-ad34-7f8826b263e9"
+    }
+  },
+  "attributes": {
+    "langcode": "en",
+    "status": true,
+    "dependencies": {
+      "module": [
+        "menu_ui"
+      ]
+    },
+    "third_party_settings": {
+      "menu_ui": {
+        "available_menus": [],
+        "parent": ""
+      }
+    },
+    "name": "Session",
+    "drupal_internal__type": "session",
+    "description": "Event => Event Tab => Program Day Paragraph => Session\r\n\r\n( e.g. GLOBAL CONF 2020 => PROGRAM TAB => DAY 1 => Oprah symposium )",
+    "help": "",
+    "new_revision": true,
+    "preview_mode": 1,
+    "display_submitted": true
+  }
+}

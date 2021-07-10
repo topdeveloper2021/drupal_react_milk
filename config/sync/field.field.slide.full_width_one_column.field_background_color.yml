@@ -1,0 +1,25 @@
+uuid: b33d1a01-a111-4e78-b17a-d078eb4757b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_background_color
+  module:
+    - color_field
+id: slide.full_width_one_column.field_background_color
+field_name: field_background_color
+entity_type: slide
+bundle: full_width_one_column
+label: 'Background Color'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    color: '#ffffff'
+    opacity: !!float 1
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

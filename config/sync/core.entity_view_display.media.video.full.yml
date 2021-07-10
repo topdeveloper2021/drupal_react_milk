@@ -1,0 +1,133 @@
+uuid: a4466bd2-cd4c-45db-a0f6-db7f502c584a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.full
+    - field.field.media.video.field_body
+    - field.field.media.video.field_centers
+    - field.field.media.video.field_collections
+    - field.field.media.video.field_embedded_id
+    - field.field.media.video.field_embedded_oembed
+    - field.field.media.video.field_embedded_service
+    - field.field.media.video.field_event_reference
+    - field.field.media.video.field_events
+    - field.field.media.video.field_height
+    - field.field.media.video.field_index_weight
+    - field.field.media.video.field_media_oembed_video
+    - field.field.media.video.field_meta_tags
+    - field.field.media.video.field_people
+    - field.field.media.video.field_program_initiatives
+    - field.field.media.video.field_regions
+    - field.field.media.video.field_subheader
+    - field.field.media.video.field_tags
+    - field.field.media.video.field_term_collection
+    - field.field.media.video.field_thumbnail_uri
+    - field.field.media.video.field_topics
+    - field.field.media.video.field_video_height
+    - field.field.media.video.field_video_width
+    - field.field.media.video.field_width
+    - media.type.video
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - media
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      whitelisted_blocks: {  }
+      blacklisted_blocks: {  }
+      allowed_layouts: {  }
+id: media.video.full
+targetEntityType: media
+bundle: video
+mode: full
+content:
+  field_body:
+    type: text_default
+    weight: 3
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_media_oembed_video:
+    type: oembed
+    label: visually_hidden
+    weight: 1
+    settings:
+      max_width: 0
+      max_height: 0
+    third_party_settings: {  }
+    region: content
+  field_subheader:
+    type: string
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_thumbnail_height:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_thumbnail_uri:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_thumbnail_width:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  name:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_centers: true
+  field_collections: true
+  field_embedded_id: true
+  field_embedded_oembed: true
+  field_embedded_service: true
+  field_event_reference: true
+  field_events: true
+  field_height: true
+  field_index_weight: true
+  field_meta_tags: true
+  field_people: true
+  field_program_initiatives: true
+  field_regions: true
+  field_tags: true
+  field_term_collection: true
+  field_topics: true
+  field_video_height: true
+  field_video_width: true
+  field_width: true
+  langcode: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

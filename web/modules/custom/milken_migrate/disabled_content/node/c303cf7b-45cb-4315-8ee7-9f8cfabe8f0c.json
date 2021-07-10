@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fastercures-adds-innovation-experts-senior-fellows?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 78
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c303cf7b-45cb-4315-8ee7-9f8cfabe8f0c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 78
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FasterCures adds innovation experts as senior fellows",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fastercures-adds-innovation-experts-senior-fellows",
+            "pid": 131,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Washington, DC -- FasterCures, a center of the Milken Institute, is expanding its work by adding two highly respected innovators\u2014 biopharmaceutical industry expert Bernard Munos and open science leader John Wilbanks\u2014 as senior fellows.Munos and Wilbanks will work on projects that will help FasterCures build consensus around innovative solutions to important public policy challenges in the life sciences industry and medical research and development (R&D) ecosystem. Munos will focus on trends in the biopharmaceutical industry that enable or curtail innovation while Wilbanks will spotlight how open science and data-driven initiatives are paving a more effective path toward therapies.\"We are delighted to have both Bernard and John join the FasterCures team,\" said Margaret Anderson, executive director of FasterCures. \"Their strategic insights, objective analyses, and focus on disruptive solutions will be a tremendous value-add to an organization with a laser-sharp focus on getting things done.\"\u2022 Bernard Munos is founder and chief apostle of InnoThink, a consultancy dedicated to bringing evidence-based innovation models to the pharmaceutical industry. Previously an advisor for corporate strategy at Eli Lilly, he has long focused on disruptive innovation in drug development, and the radical redesign of R&D. Munos' research has been published in Nature and Science, and he has presented his findings to the National Academies, the Institute of Medicine, the President's Cancer Panel, the National Institutes of Health Leadership Forum, the World Health Organization, the OECD, the Kauffman Foundation, the U.S. Patent and Trademark Office, the Council for American Medical Innovation, and many others. He received his M.B.A from Stanford University, and holds other graduate degrees in economics and animal science from the University of California at Davis and the Paris Institute of Technology for Life, Food and Environmental Sciences. \"I have interacted with FasterCures for three years, and have been amazed by their focus, passion, and effectiveness,\" said Munos. \"They really make a difference, and I look forward to joining forces with them.\"\u2022 John Wilbanks is the Chief Commons Officer at Sage Bionetwork, and a data commons expert and advocate. He has spent his career working to advance open content, open data, and open innovation systems. Wilbanks also serves as a senior fellow at the Ewing Marion Kauffman Foundation and as a senior advisor for big data to the National Coordination Office. Previously, Wilbanks worked as a legislative aide to Congressman Fortney \"Pete\" Stark, served as the first assistant director at the Berkman Center for Internet & Society, founded and led to acquisition bioinformatics company Incellico, Inc., and was vice president of science at Creative Commons. In February 2013, the US government responded to a We the People petition spearheaded by Wilbanks and signed by 65,000 people, and announced a plan to open up taxpayer-funded research data and make it available for free. Wilbanks received his bachelor of arts in philosophy from Tulane University.\"I've long admired FasterCures' commitment to translate discoveries into therapies and diagnostics for people,\" said Wilbanks. \"It's not enough to make the basic science open, whether it's wet lab, dry computers, or publications. We also have to work to make sure that science makes lives better.\"\"Bernard and John are go-to experts for innovation in the biopharmaceutical industry and data sharing,\" said Michael Klowden, CEO of the Milken Institute. \"We look forward to working with them to advance the FasterCures mission of speeding up the process of getting new medicines from discovery to patients.\"About FasterCures<br> FasterCures, a center of the Milken Institute, is an action tank, determined to remove barriers to medical progress. We have only one goal: to save lives as rapidly as possible. We work to improve the medical research system<br>\"so that we can speed up the time it takes to get important new medicines from discovery to patients. (www.fastercures.org)About the Milken Institute<br> A nonprofit, nonpartisan think tank, the Milken Institute believes in the power of capital markets to solve urgent social and economic challenges. Its mission is to improve lives around the world by advancing innovative economic and policy solutions that create jobs, widen access to capital and enhance health. (www.milkeninstitute.org)Contact<br> Cecilia Arradaza, Director of Policy and Communications<br> (202) 336-8912; E-mail: carradaza@fastercures.org",
+    "format": "rich_text",
+    "processed": "Washington, DC -- FasterCures, a center of the Milken Institute, is expanding its work by adding two highly respected innovators\u2014 biopharmaceutical industry expert Bernard Munos and open science leader John Wilbanks\u2014 as senior fellows.Munos and Wilbanks will work on projects that will help FasterCures build consensus around innovative solutions to important public policy challenges in the life sciences industry and medical research and development (R&amp;D) ecosystem. Munos will focus on trends in the biopharmaceutical industry that enable or curtail innovation while Wilbanks will spotlight how open science and data-driven initiatives are paving a more effective path toward therapies.\"We are delighted to have both Bernard and John join the FasterCures team,\" said Margaret Anderson, executive director of FasterCures. \"Their strategic insights, objective analyses, and focus on disruptive solutions will be a tremendous value-add to an organization with a laser-sharp focus on getting things done.\"\u2022 Bernard Munos is founder and chief apostle of InnoThink, a consultancy dedicated to bringing evidence-based innovation models to the pharmaceutical industry. Previously an advisor for corporate strategy at Eli Lilly, he has long focused on disruptive innovation in drug development, and the radical redesign of R&amp;D. Munos' research has been published in Nature and Science, and he has presented his findings to the National Academies, the Institute of Medicine, the President's Cancer Panel, the National Institutes of Health Leadership Forum, the World Health Organization, the OECD, the Kauffman Foundation, the U.S. Patent and Trademark Office, the Council for American Medical Innovation, and many others. He received his M.B.A from Stanford University, and holds other graduate degrees in economics and animal science from the University of California at Davis and the Paris Institute of Technology for Life, Food and Environmental Sciences. \"I have interacted with FasterCures for three years, and have been amazed by their focus, passion, and effectiveness,\" said Munos. \"They really make a difference, and I look forward to joining forces with them.\"\u2022 John Wilbanks is the Chief Commons Officer at Sage Bionetwork, and a data commons expert and advocate. He has spent his career working to advance open content, open data, and open innovation systems. Wilbanks also serves as a senior fellow at the Ewing Marion Kauffman Foundation and as a senior advisor for big data to the National Coordination Office. Previously, Wilbanks worked as a legislative aide to Congressman Fortney \"Pete\" Stark, served as the first assistant director at the Berkman Center for Internet &amp; Society, founded and led to acquisition bioinformatics company Incellico, Inc., and was vice president of science at Creative Commons. In February 2013, the US government responded to a We the People petition spearheaded by Wilbanks and signed by 65,000 people, and announced a plan to open up taxpayer-funded research data and make it available for free. Wilbanks received his bachelor of arts in philosophy from Tulane University.\"I've long admired FasterCures' commitment to translate discoveries into therapies and diagnostics for people,\" said Wilbanks. \"It's not enough to make the basic science open, whether it's wet lab, dry computers, or publications. We also have to work to make sure that science makes lives better.\"\"Bernard and John are go-to experts for innovation in the biopharmaceutical industry and data sharing,\" said Michael Klowden, CEO of the Milken Institute. \"We look forward to working with them to advance the FasterCures mission of speeding up the process of getting new medicines from discovery to patients.\"About FasterCures<br \/> FasterCures, a center of the Milken Institute, is an action tank, determined to remove barriers to medical progress. We have only one goal: to save lives as rapidly as possible. We work to improve the medical research system<br \/>\"so that we can speed up the time it takes to get important new medicines from discovery to patients. (www.fastercures.org)About the Milken Institute<br \/> A nonprofit, nonpartisan think tank, the Milken Institute believes in the power of capital markets to solve urgent social and economic challenges. Its mission is to improve lives around the world by advancing innovative economic and policy solutions that create jobs, widen access to capital and enhance health. (www.milkeninstitute.org)Contact<br \/> Cecilia Arradaza, Director of Policy and Communications<br \/> (202) 336-8912; E-mail: carradaza@fastercures.org",
+    "summary": null,
+    "summary_processed": ""
+}

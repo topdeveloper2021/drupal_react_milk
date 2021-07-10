@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/new-milken-institutekauffman-foundation-report-examines-back-basics-solutions-address?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 123
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e1d6cac4-2950-44c5-aff1-df98b1c60b86"
+        }
+    ],
+    "vid": [
+        {
+            "value": 123
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "New Milken Institute\/Kauffman Foundation report examines back-to-basics solutions to address shortfalls in state and municipal budgets",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/new-milken-institutekauffman-foundation-report-examines-back-basics-solutions-address",
+            "pid": 176,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Cutting back on services and increasing taxes won\u2032t be enough to stabilize state and municipal finances, even when the economy fully recovers. According to a new report from the Milken Institute and the Ewing Marion Kauffman Foundation, it\u2032s going to require real paradigm shifts: a fundamental restructuring of budgets and the entire budgeting process, sustainable revenue generation, new efficiencies and federal\/state partnerships. <b>\"Ensuring State and Municipal Solvency\"<\/b> outlines the tremendous fiscal challenges facing states and municipalities, including long-term structural issues like unfunded pension and health-care obligations, and outlines several options to stabilize the situation. \"We\u2032re past the point where furloughs, a round or two of layoffs and a some service cutbacks can provide anything but a short-term respite,\" said Betsy Zeidman, Senior Fellow at the Milken Institute and co-author of the report. \"It\u2032s time to dig deep and find the civic and political will to address the financial health of our states and cities. The sooner governments address the long-term structural challenges, the better.\" \"With everyone focused on the federal government\u2032s fiscal challenges, it\u2032s easy to ignore the fundamental structural imbalances in state and local budgets,\" said co-author Robert Litan, Vice President for Research and Policy at the Kauffman Foundation. \"But these budgets directly impact businesses and entrepreneurs. They can\u2032t plan for the future without knowing what their tax liabilities will be and what services will still be around for them and their employees.\" The report notes that there isn\u2032t a one-size-fits-all solution for the more than 91,000 local governmental units in the U.S. To vet the various potential remedies, the Milken Institute and the Kauffman Foundation pulled together a diverse group of state and local officials, union representatives, experts from the capital markets, money managers, academics, public-sector attorneys, and representatives from bond rating agencies for a Financial Innovations LabTM. The report captures the potential solutions that were discussed during the lab. The report includes an overview of the current state and municipal budget challenges, key background information on the municipal bond market and Chapter 9 bankruptcy provisions, and an analysis of back-to-basics solutions. <b>Key data points on the state and municipal budget situation include:<\/b><b>\nAt the aggregate level, state and local government pensions suffered losses of $835 billion during the 2007-08 financial meltdown. Through the first quarter of 2010, less than 50 percent of those losses had been recouped.<br>\nIn FY2000, half the states had fully funded pensions; by FY2008 only four (Florida, New York, Washington and Wisconsin) had fully funded plans.<br>\nHealth-care costs at the state and local level are expected to double by 2050.<br> <b>Proposed solutions include: <\/b><br>\nPreemptive and collective burden sharing - all key stakeholders (bondholders, union representatives, public-sector employees and taxpayers) take a financial hit to ensure long-term stability\nAdopt standardized actuarial assumptions, more similar to corporate-sector accounting standards, to ensure more realistic rate-of-return scenarios when determining public-sector pension liabilities\nImplement multi-year budgeting plans\/rainy-day funds Reassess possible economies of scale from shared services\/consolidation with other governmental entities Establish control boards as a last resort for states and municipalities in extreme distress Provide short-term federal aid to states and municipalities that actively implement steps to restructure their finances, possibly using a \"Race to Solvency\" modeled after the Department of Education\u2032s \"Race to the Top\" \"Ensuring State and Municipal Solvency\" is available for free download here, and also at www.kauffman.org. Financial Innovations Labs are part of the Milken Institute\u2032s continuing leadership in promoting financial innovations to help solve ongoing social, economic and environmental challenges.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Cutting back on services and increasing taxes won\u2032t be enough to stabilize state and municipal finances, even when the economy fully recovers. According to a new report from the Milken Institute and the Ewing Marion Kauffman Foundation, it\u2032s going to require real paradigm shifts: a fundamental restructuring of budgets and the entire budgeting process, sustainable revenue generation, new efficiencies and federal\/state partnerships. <b>\"Ensuring State and Municipal Solvency\"<\/b> outlines the tremendous fiscal challenges facing states and municipalities, including long-term structural issues like unfunded pension and health-care obligations, and outlines several options to stabilize the situation. \"We\u2032re past the point where furloughs, a round or two of layoffs and a some service cutbacks can provide anything but a short-term respite,\" said Betsy Zeidman, Senior Fellow at the Milken Institute and co-author of the report. \"It\u2032s time to dig deep and find the civic and political will to address the financial health of our states and cities. The sooner governments address the long-term structural challenges, the better.\" \"With everyone focused on the federal government\u2032s fiscal challenges, it\u2032s easy to ignore the fundamental structural imbalances in state and local budgets,\" said co-author Robert Litan, Vice President for Research and Policy at the Kauffman Foundation. \"But these budgets directly impact businesses and entrepreneurs. They can\u2032t plan for the future without knowing what their tax liabilities will be and what services will still be around for them and their employees.\" The report notes that there isn\u2032t a one-size-fits-all solution for the more than 91,000 local governmental units in the U.S. To vet the various potential remedies, the Milken Institute and the Kauffman Foundation pulled together a diverse group of state and local officials, union representatives, experts from the capital markets, money managers, academics, public-sector attorneys, and representatives from bond rating agencies for a Financial Innovations LabTM. The report captures the potential solutions that were discussed during the lab. The report includes an overview of the current state and municipal budget challenges, key background information on the municipal bond market and Chapter 9 bankruptcy provisions, and an analysis of back-to-basics solutions. <b>Key data points on the state and municipal budget situation include:<\/b><b>\nAt the aggregate level, state and local government pensions suffered losses of $835 billion during the 2007-08 financial meltdown. Through the first quarter of 2010, less than 50 percent of those losses had been recouped.<br \/>\nIn FY2000, half the states had fully funded pensions; by FY2008 only four (Florida, New York, Washington and Wisconsin) had fully funded plans.<br \/>\nHealth-care costs at the state and local level are expected to double by 2050.<br \/><b>Proposed solutions include: <\/b><br \/>\nPreemptive and collective burden sharing - all key stakeholders (bondholders, union representatives, public-sector employees and taxpayers) take a financial hit to ensure long-term stability\nAdopt standardized actuarial assumptions, more similar to corporate-sector accounting standards, to ensure more realistic rate-of-return scenarios when determining public-sector pension liabilities\nImplement multi-year budgeting plans\/rainy-day funds Reassess possible economies of scale from shared services\/consolidation with other governmental entities Establish control boards as a last resort for states and municipalities in extreme distress Provide short-term federal aid to states and municipalities that actively implement steps to restructure their finances, possibly using a \"Race to Solvency\" modeled after the Department of Education\u2032s \"Race to the Top\" \"Ensuring State and Municipal Solvency\" is available for free download here, and also at www.kauffman.org. Financial Innovations Labs are part of the Milken Institute\u2032s continuing leadership in promoting financial innovations to help solve ongoing social, economic and environmental challenges.<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

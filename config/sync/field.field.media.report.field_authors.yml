@@ -1,0 +1,31 @@
+uuid: 03d9315d-e48a-4f1a-adba-07bf5b86fff9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - eck.eck_type.people.staff
+    - field.storage.media.field_authors
+    - media.type.report
+id: media.report.field_authors
+field_name: field_authors
+entity_type: media
+bundle: report
+label: Authors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles:
+      person: person
+      staff: staff
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: person
+field_type: entity_reference

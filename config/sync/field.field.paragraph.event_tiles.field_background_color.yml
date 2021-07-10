@@ -1,0 +1,25 @@
+uuid: 82ec9ebc-2820-436a-9e51-46048dd98c68
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background_color
+    - paragraphs.paragraphs_type.event_tiles
+  module:
+    - color_field
+id: paragraph.event_tiles.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+bundle: event_tiles
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    color: '#FFFFFF'
+    opacity: !!float 1
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

@@ -1,0 +1,29 @@
+uuid: 102cd1a4-2459-45ae-bc18-f1b9fddb5b5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_regions
+    - media.type.image
+    - taxonomy.vocabulary.region
+id: media.image.field_regions
+field_name: field_regions
+entity_type: media
+bundle: image
+label: Regions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

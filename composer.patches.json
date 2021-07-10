@@ -1,0 +1,24 @@
+{
+  "patches": {
+    "drupal/core": {
+      "Drupal\\language\\LanguageNegotiator::updateConfiguration() is passed a NULL": "patches/language-2718657-3.patch",
+      "Deleted Table Cleanup Error": "patches/2836539-34.patch",
+      "Call to a member function getLabel()": "patches/2985882-field-85.patch"
+    },
+    "drupal/migrate_plus": {
+      "support paging in migration api requests": "patches/migrate_plus-support_paging-2640516-72.patch"
+    },
+    "drupal/eck": {
+      "Fix for error in content list": "patches/3106184-1-eck-entitylistbuilder-null-bundle.patch"
+    },
+    "drupal/page_manager": {
+      "Fix issue with default language": "patches/no_language_interface_context-3100095-2.patch"
+    },
+    "drupal/simple_oauth": {
+      "fix issue with permissions on oAuth cert": "patches/bypass-permissions.patch"
+    },
+    "drupal/publication_date": {
+      "Publication date with media": "patches/publication-date-for-media.patch"
+    }
+  }
+}

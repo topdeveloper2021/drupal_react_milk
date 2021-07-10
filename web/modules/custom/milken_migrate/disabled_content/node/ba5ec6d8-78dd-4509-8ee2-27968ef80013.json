@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-global-conference-opens-april-28?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/173?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 801
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ba5ec6d8-78dd-4509-8ee2-27968ef80013"
+        }
+    ],
+    "vid": [
+        {
+            "value": 801
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/173?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "99efbbce-5234-4bcb-8da6-21727d9b4509"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Global Conference opens April 28",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-06T15:13:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-11T18:03:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-global-conference-opens-april-28",
+            "pid": 854,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES, April 28, 2019 \u2013 More than 4,000 leaders in business, government, science, philanthropy, and the arts from more than 60 nations will pursue solutions to the world\u2019s critical political, economic, and health challenges during the Milken Institute Global Conference beginning Sunday, April 28. Senior government officials, CEOs, and scientists will join innovators and creators, as well as leading figures in entertainment, sports, and media, to focus on \u201cDriving Shared Prosperity.\u201d Speakers include IMF chief <b>Christine Lagarde<\/b>, White House advisor <b>Ivanka Trump<\/b>, Lockheed Martin CEO <b>Marillyn Hewson<\/b>, Obama Foundation advisor <b>Valerie Jarrett<\/b>, Transportation Secretary <b>Elaine Chao<\/b>, television journalists <b>Gayle King<\/b> and <b>Maria Bartiromo<\/b>, filmmaker and activist <b>Abigail Disney<\/b>, among others. \u201cA global transformation is disrupting social and economic norms around the world, heralding an era of rapid change and challenge,\u201d explains <b>Richard Ditizio<\/b>, Milken Institute President & COO. \u201cLeaders must understand how shifting culture and demography affect the challenges ahead. We can be a catalyst toward expanding prosperity and improving health by connecting those with social, human and financial capital to those who desperately need it.\u201d In addition to the conference sessions, the Milken Institute Global Conference features several additional elements, including an Equality Lounge, hosted by Citi. It will feature programming in partnership with Female Quotient that is devoted to diversity and equality. There will also be a Wellness Garden offering meditation, yoga, sound baths, and puppies. The Milken Institute Global Conference may be monitored through social media with the hashtag #MIGlobal. Several sessions are also available to view via live-stream. The Milken Institute is also publishing a collection of thought-provoking essays to amplify the conversations taking place at the Global Conference. The Power of Ideas features contributions from corporate executives like Siemens\u2019 <b>Barbara Humpton<\/b> to children\u2019s advocates <b>Chelsea Clinton<\/b> and <b>Kathy Higgins<\/b> with topics ranging from achieving gender parity to promoting mental health, financial inclusion and economic opportunity. \u201cFrom the main stage presentations to informal, personal conversations throughout the conference, we are pleased to bring powerful voices from diverse perspectives together for thoughtful dialogue to help chart a better future for all,\u201d said <b>Michael Klowden<\/b>, Milken Institute CEO. \u201cIt is going to be a remarkable gathering that will help advance our commitment to driving shared prosperity.\u201d For a complete agenda, live-stream schedule and more details, visit www.globalconference.org About the Milken Institute The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs, and improve health. We do this through independent, data-driven research, action-oriented meetings, and realistic policy initiatives. For more information, visit www.milkeninstitute.org Contact <b>Geoffrey Baum <\/b><b> <strong>Milken Institute Director of Media Relations <\/b><br \/> <strong>(310) 570-4689; ",
+    "format": "rich_text",
+    "processed": "LOS ANGELES, April 28, 2019 \u2013 More than 4,000 leaders in business, government, science, philanthropy, and the arts from more than 60 nations will pursue solutions to the world\u2019s critical political, economic, and health challenges during the Milken Institute Global Conference beginning Sunday, April 28. Senior government officials, CEOs, and scientists will join innovators and creators, as well as leading figures in entertainment, sports, and media, to focus on \u201cDriving Shared Prosperity.\u201d Speakers include IMF chief <b>Christine Lagarde<\/b>, White House advisor <b>Ivanka Trump<\/b>, Lockheed Martin CEO <b>Marillyn Hewson<\/b>, Obama Foundation advisor <b>Valerie Jarrett<\/b>, Transportation Secretary <b>Elaine Chao<\/b>, television journalists <b>Gayle King<\/b> and <b>Maria Bartiromo<\/b>, filmmaker and activist <b>Abigail Disney<\/b>, among others. \u201cA global transformation is disrupting social and economic norms around the world, heralding an era of rapid change and challenge,\u201d explains <b>Richard Ditizio<\/b>, Milken Institute President &amp; COO. \u201cLeaders must understand how shifting culture and demography affect the challenges ahead. We can be a catalyst toward expanding prosperity and improving health by connecting those with social, human and financial capital to those who desperately need it.\u201d In addition to the conference sessions, the Milken Institute Global Conference features several additional elements, including an Equality Lounge, hosted by Citi. It will feature programming in partnership with Female Quotient that is devoted to diversity and equality. There will also be a Wellness Garden offering meditation, yoga, sound baths, and puppies. The Milken Institute Global Conference may be monitored through social media with the hashtag #MIGlobal. Several sessions are also available to view via live-stream. The Milken Institute is also publishing a collection of thought-provoking essays to amplify the conversations taking place at the Global Conference. The Power of Ideas features contributions from corporate executives like Siemens\u2019 <b>Barbara Humpton<\/b> to children\u2019s advocates <b>Chelsea Clinton<\/b> and <b>Kathy Higgins<\/b> with topics ranging from achieving gender parity to promoting mental health, financial inclusion and economic opportunity. \u201cFrom the main stage presentations to informal, personal conversations throughout the conference, we are pleased to bring powerful voices from diverse perspectives together for thoughtful dialogue to help chart a better future for all,\u201d said <b>Michael Klowden<\/b>, Milken Institute CEO. \u201cIt is going to be a remarkable gathering that will help advance our commitment to driving shared prosperity.\u201d For a complete agenda, live-stream schedule and more details, visit www.globalconference.org About the Milken Institute The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs, and improve health. We do this through independent, data-driven research, action-oriented meetings, and realistic policy initiatives. For more information, visit www.milkeninstitute.org Contact <b>Geoffrey Baum <\/b><b> <strong>Milken Institute Director of Media Relations <\/strong><\/b><br \/><strong>(310) 570-4689; <\/strong>",
+    "summary": null,
+    "summary_processed": ""
+}

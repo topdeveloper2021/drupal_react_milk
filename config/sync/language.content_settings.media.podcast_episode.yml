@@ -1,0 +1,11 @@
+uuid: aa4c1bbe-73bd-42ab-9d16-8711f83f7b25
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.podcast_episode
+id: media.podcast_episode
+target_entity_type_id: media
+target_bundle: podcast_episode
+default_langcode: site_default
+language_alterable: false

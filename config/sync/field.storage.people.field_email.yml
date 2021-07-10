@@ -1,0 +1,18 @@
+uuid: 6d1c3943-c12a-486e-9849-7e4abebeb9f8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_email
+field_name: field_email
+entity_type: people
+type: email
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

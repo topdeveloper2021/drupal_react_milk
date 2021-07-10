@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/benefits-connecting-young-people?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/11?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 470
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c1c9a2cc-3bcd-4801-82ff-6b3747470331"
+        }
+    ],
+    "vid": [
+        {
+            "value": 470
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/11?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ba3c5bf5-fdb1-475e-8054-2077c8c4fc78"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Benefits of Connecting with Young People",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:41:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/benefits-connecting-young-people",
+            "pid": 523,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Trish Lopez founded Teeniors\u2122, a multi-award-winning startup that includes tech-savvy teens and young adults who help older adults learn technology through one-on-one, personalized coaching. In an interview with the Milken Institute Center for the Future of Aging, Lopez explains the impact of intergenerational connections and how companies can change the future of aging.<\/i><b>Why did you start Teeniors?<\/b>The idea that became Teeniors came to mind because of the way I see older adults marginalized and somewhat alienated in our society. My mom, Lillian is an example\u2014she\u2019s 79 and loves technology. She likes reading CNN on her smartphone, checking out Facebook photos of our family. She also hates technology. There are several times a month when my brothers or I get a phone call. She loses her password, loses documents, and has trouble understanding some technologies; the reality is, we can\u2019t always be there to help. It turns out, of course, that we\u2019re not alone in this problem. There are millions of Lillians out there. For these people, and those of us who love them, we created Teeniors.<b>What surprising lessons have you learned regarding intergenerational connections?<\/b>The first surprising lesson is how this program benefits the kids and young adults just as much as it benefits the seniors. We hear quite a bit from the teens and their parents about the significant impact it\u2019s had on their own lives, mostly in the way of developing higher self-esteem and self-confidence, especially for those who are shy, introverted, or socially awkward.We\u2019ve also learned how ignorant our society is of the way we isolate and disregard people as they age. The discrimination older people face is horrible; the isolation and loneliness that aging people experience cause profound emotional and health issues. On the other end of the spectrum, many young people who crave human connection can find friendship and great wisdom from older adults.Older adults who are happier and healthier help our society becoming happier and healthier. They are more valuable and engaged in entering the workforce, volunteering, and taking care of young relatives or others. The greater diversity in our society, the better it is for all of our communities. That diversity does not just come in the way of race or gender; it comes in including people of different ages, cultures, skill sets, special needs, etc. The more we can see this diversity in our communities and recognize its value, the better off we will be.<b>Apart from adapting to the digital world, what other benefits do older adults receive from intergenerational connection?<\/b>There\u2019s a human connection element for sure. One example happened between Terri, an older adult, seeking help during one of our first ever group coaching events, and a new teenior, Katie. Terri wanted to learn how to access her boarding passes online. When she had finished her session with Katie, I walked up to do my usual customer feedback review. Terri burst into tears and said:\u201cFor someone who\u2019s alone, who has no young people in her life. You all have given me hope. Someone will help us and not yell at us? You welcomed me the moment I walked in. You didn\u2019t make me feel stupid or condescended to. I hope you realize the impact of what you\u2019re doing here for people like me.\u201dThat conversation, both for Katie and me, was so meaningful that it was one of the things that inspired me to keep going with this project for the rest of that first year. I somehow knew exactly how she felt.<b>In our youth-obsessed culture, is it possible for intergenerational connections to have a large and lasting impact?<\/b>Yes. We\u2019ve seen it. We\u2019ve had clients and coaches who\u2019ve become friends, stayed to talk to each other past their \u201cwork time,\u201d and every single coach we\u2019ve had and nearly every client we\u2019ve had (over 1,000) have provided us feedback about the impact this has had on their lives.<b>How can companies work to challenge conventional wisdom and change the future of aging?<\/b>Simply ignore the conventional wisdom. If what is conventional wisdom to you about older adults is the same that was conventional wisdom to me (the older you get, the less you \u201cget it,\u201d etc.), ignore it. Change that conventional wisdom by acting as though that boundary, that limit, that generalization does not exist. Create things for\u00a0human beings, not for age groups.\u00a0<b>What do young people gain from working with the older adults? Moreover, how do the older adults contribute in their own ways?\u00a0<\/b>Young people love this work. That\u2019s what we have seen. Why do they love it? Because they immediately go from being underestimated, to the most valued person in the room. They\u2019re respected for their knowledge, and they\u2019re appreciated for their help. One example of that appreciation is the Terri story above, and we have dozens more like that.\u00a0<b>What do you say to those who are not aware of the power of intergenerational connections?<\/b>My response would be similar to any other question of a lack of awareness about anything. Whether it\u2019s the power of intergenerational connections, diversity in who you spend time with, open-mindedness in thought\u2014it\u2019s all a matter of educating yourself about things you don\u2019t know about. If you choose to do that, you can live such a richer, fuller life.",
+    "format": "rich_text",
+    "processed": "<i>Trish Lopez founded Teeniors\u2122, a multi-award-winning startup that includes tech-savvy teens and young adults who help older adults learn technology through one-on-one, personalized coaching. In an interview with the Milken Institute Center for the Future of Aging, Lopez explains the impact of intergenerational connections and how companies can change the future of aging.<\/i><b>Why did you start Teeniors?<\/b>The idea that became Teeniors came to mind because of the way I see older adults marginalized and somewhat alienated in our society. My mom, Lillian is an example\u2014she\u2019s 79 and loves technology. She likes reading CNN on her smartphone, checking out Facebook photos of our family. She also hates technology. There are several times a month when my brothers or I get a phone call. She loses her password, loses documents, and has trouble understanding some technologies; the reality is, we can\u2019t always be there to help. It turns out, of course, that we\u2019re not alone in this problem. There are millions of Lillians out there. For these people, and those of us who love them, we created Teeniors.<b>What surprising lessons have you learned regarding intergenerational connections?<\/b>The first surprising lesson is how this program benefits the kids and young adults just as much as it benefits the seniors. We hear quite a bit from the teens and their parents about the significant impact it\u2019s had on their own lives, mostly in the way of developing higher self-esteem and self-confidence, especially for those who are shy, introverted, or socially awkward.We\u2019ve also learned how ignorant our society is of the way we isolate and disregard people as they age. The discrimination older people face is horrible; the isolation and loneliness that aging people experience cause profound emotional and health issues. On the other end of the spectrum, many young people who crave human connection can find friendship and great wisdom from older adults.Older adults who are happier and healthier help our society becoming happier and healthier. They are more valuable and engaged in entering the workforce, volunteering, and taking care of young relatives or others. The greater diversity in our society, the better it is for all of our communities. That diversity does not just come in the way of race or gender; it comes in including people of different ages, cultures, skill sets, special needs, etc. The more we can see this diversity in our communities and recognize its value, the better off we will be.<b>Apart from adapting to the digital world, what other benefits do older adults receive from intergenerational connection?<\/b>There\u2019s a human connection element for sure. One example happened between Terri, an older adult, seeking help during one of our first ever group coaching events, and a new teenior, Katie. Terri wanted to learn how to access her boarding passes online. When she had finished her session with Katie, I walked up to do my usual customer feedback review. Terri burst into tears and said:\u201cFor someone who\u2019s alone, who has no young people in her life. You all have given me hope. Someone will help us and not yell at us? You welcomed me the moment I walked in. You didn\u2019t make me feel stupid or condescended to. I hope you realize the impact of what you\u2019re doing here for people like me.\u201dThat conversation, both for Katie and me, was so meaningful that it was one of the things that inspired me to keep going with this project for the rest of that first year. I somehow knew exactly how she felt.<b>In our youth-obsessed culture, is it possible for intergenerational connections to have a large and lasting impact?<\/b>Yes. We\u2019ve seen it. We\u2019ve had clients and coaches who\u2019ve become friends, stayed to talk to each other past their \u201cwork time,\u201d and every single coach we\u2019ve had and nearly every client we\u2019ve had (over 1,000) have provided us feedback about the impact this has had on their lives.<b>How can companies work to challenge conventional wisdom and change the future of aging?<\/b>Simply ignore the conventional wisdom. If what is conventional wisdom to you about older adults is the same that was conventional wisdom to me (the older you get, the less you \u201cget it,\u201d etc.), ignore it. Change that conventional wisdom by acting as though that boundary, that limit, that generalization does not exist. Create things for\u00a0human beings, not for age groups.\u00a0<b>What do young people gain from working with the older adults? Moreover, how do the older adults contribute in their own ways?\u00a0<\/b>Young people love this work. That\u2019s what we have seen. Why do they love it? Because they immediately go from being underestimated, to the most valued person in the room. They\u2019re respected for their knowledge, and they\u2019re appreciated for their help. One example of that appreciation is the Terri story above, and we have dozens more like that.\u00a0<b>What do you say to those who are not aware of the power of intergenerational connections?<\/b>My response would be similar to any other question of a lack of awareness about anything. Whether it\u2019s the power of intergenerational connections, diversity in who you spend time with, open-mindedness in thought\u2014it\u2019s all a matter of educating yourself about things you don\u2019t know about. If you choose to do that, you can live such a richer, fuller life.",
+    "summary": null,
+    "summary_processed": ""
+}

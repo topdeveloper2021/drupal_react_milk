@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/dont-let-outdated-laws-shackle-credit-innovation?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/158?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 786
+        }
+    ],
+    "uuid": [
+        {
+            "value": "eb91d9c0-cce1-4324-8173-4019067e7af3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 786
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/158?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b716a6f0-f204-49f4-9da1-7069e8699490"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Don't Let Outdated Laws Shackle Credit Innovation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T21:03:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:39:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/dont-let-outdated-laws-shackle-credit-innovation",
+            "pid": 839,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Marketplace lending\u00a0is helping hundreds of thousands of consumers save money, refinance debt, and obtain credit on better terms than previously possible. While the industry has made do under the current system, an outdated legal and regulatory regime is preventing consumers from enjoying the full benefits of financial services innovation, and as a recent court case shows, may stifle it entirely. Marketplace lending \u2014 also known as peer-to-peer lending \u2014 is a general description for online lenders that use cutting-edge proprietary algorithms and more efficient processes to extend credit. Like banks, they are subject to considerable consumer protection regulations at the state and federal levels. Unlike banks, they do not rely on deposits for investment funds, which instead come from investors. Usually, marketplace lenders partner with banks to originate loans, which the lender then buys and services. Research\u00a0by the Federal Reserve Bank of Cleveland shows that consumers pay lower interest rates on marketplace loans compared to traditional bank debt (including credit cards), and that marketplace loans are primarily used by borrowers to refinance credit cards and other sources of debt. Unfortunately, our lending laws are outdated, as highlighted by the\u00a0<i>Madden v. Midland Funding<\/i>\u00a0decision\u00a0at the influential U.S. Court of Appeals for the Second Circuit, which held that only banks can take advantage of certain laws essential to facilitating a national credit market. This recent ruling and the obsolete laws it reflects threaten to squelch the promise of marketplace lending and arbitrarily favor banks to the detriment of consumers. Federal law permits banks to \"export\" the interest rate they are allowed to charge in their home state to customers nationwide, without regard for other states' limits. Without this, banks would be forced to comply with the varying standards of every state, making a national credit market, with all of the benefits of access and scale that it provides, potentially impossible. Marketplace lenders partner with banks in part for the interest rate export, which is essential to allowing a consistent and scalable service. In the\u00a0<i>Madden\u00a0<\/i>case, the Second Circuit held that a nonbank debt collector that purchased nonperforming debt from a bank was not legally entitled to collect the same interest rate as the bank that initially issued the debt. Rather, the court found that the collector could presumptively only charge up to the legal limit of the borrower's state of residence. This ruling presents a serious problem for marketplace lenders. Without the ability to take on the loan while maintaining consistent interest rates it will be very difficult, if not impossible, for marketplace lenders to provide credit for borrowers nationwide, due to the increased complexity and inability to compete with banks in states with strict interest rate caps. The issue isn't the merit of laws capping interest rates, but rather the need for\u00a0<i>consistent\u00a0<\/i>application of those laws. There is no reason why a bank should be able to issue a loan and enjoy one set of rules while a marketplace lender, which essentially issues the exact same loan, must deal with a morass of conflicting state standards. Nor will subjecting marketplace lenders to different rules protect consumers, because banks are under no such restrictions. As such, to the extent an interest rate is \"usurious\" a bank located in a state that allows that rate to be charged can still do so nationwide. It would be truly unfortunate if the innovative means of credit that many people use to refinance their debts at a lower rate was excluded while the debt options they are trying to get out from under remain readily available. Further, by preventing marketplace lenders from competing with banks nationwide, we risk preventing them from achieving economies of scale that will permit them to lower rates even further, to the benefit of consumers. As marketplace lenders have grown \u2014 quarterly growth has averaged more than 80% in the last seven years \u2014 they have been able to access capital more and more cheaply, which has resulted in decreased costs to consumers. One lender, Lending Club, has dropped the rates it charges consumers by about 1.5% from 2014 to 2015. The industry is young, and there are likely greater savings to be achieved, but it requires the ability to compete nationally on a level playing field. Even if the\u00a0<i>Madden\u00a0<\/i>decision is reversed \u2014 and it should be \u2014 our lending laws are outdated and should be modernized by allowing consistent treatment of banks and nonbank lenders. At a minimum, Congress should amend the law to explicitly permit nonbanks that purchase bank debt to benefit from the interest-rate export provision. Far better would be a broader modernization to ensure that innovative nonbank lenders can compete on equal terms with banks, ensuring that consumers are ultimately the ones controlling their credit. <i>This article first appeared in\u00a0American Banker\u00a0on July 28.<\/i>",
+    "format": "rich_text",
+    "processed": "Marketplace lending\u00a0is helping hundreds of thousands of consumers save money, refinance debt, and obtain credit on better terms than previously possible. While the industry has made do under the current system, an outdated legal and regulatory regime is preventing consumers from enjoying the full benefits of financial services innovation, and as a recent court case shows, may stifle it entirely. Marketplace lending \u2014 also known as peer-to-peer lending \u2014 is a general description for online lenders that use cutting-edge proprietary algorithms and more efficient processes to extend credit. Like banks, they are subject to considerable consumer protection regulations at the state and federal levels. Unlike banks, they do not rely on deposits for investment funds, which instead come from investors. Usually, marketplace lenders partner with banks to originate loans, which the lender then buys and services. Research\u00a0by the Federal Reserve Bank of Cleveland shows that consumers pay lower interest rates on marketplace loans compared to traditional bank debt (including credit cards), and that marketplace loans are primarily used by borrowers to refinance credit cards and other sources of debt. Unfortunately, our lending laws are outdated, as highlighted by the\u00a0<i>Madden v. Midland Funding<\/i>\u00a0decision\u00a0at the influential U.S. Court of Appeals for the Second Circuit, which held that only banks can take advantage of certain laws essential to facilitating a national credit market. This recent ruling and the obsolete laws it reflects threaten to squelch the promise of marketplace lending and arbitrarily favor banks to the detriment of consumers. Federal law permits banks to \"export\" the interest rate they are allowed to charge in their home state to customers nationwide, without regard for other states' limits. Without this, banks would be forced to comply with the varying standards of every state, making a national credit market, with all of the benefits of access and scale that it provides, potentially impossible. Marketplace lenders partner with banks in part for the interest rate export, which is essential to allowing a consistent and scalable service. In the\u00a0<i>Madden\u00a0<\/i>case, the Second Circuit held that a nonbank debt collector that purchased nonperforming debt from a bank was not legally entitled to collect the same interest rate as the bank that initially issued the debt. Rather, the court found that the collector could presumptively only charge up to the legal limit of the borrower's state of residence. This ruling presents a serious problem for marketplace lenders. Without the ability to take on the loan while maintaining consistent interest rates it will be very difficult, if not impossible, for marketplace lenders to provide credit for borrowers nationwide, due to the increased complexity and inability to compete with banks in states with strict interest rate caps. The issue isn't the merit of laws capping interest rates, but rather the need for\u00a0<i>consistent\u00a0<\/i>application of those laws. There is no reason why a bank should be able to issue a loan and enjoy one set of rules while a marketplace lender, which essentially issues the exact same loan, must deal with a morass of conflicting state standards. Nor will subjecting marketplace lenders to different rules protect consumers, because banks are under no such restrictions. As such, to the extent an interest rate is \"usurious\" a bank located in a state that allows that rate to be charged can still do so nationwide. It would be truly unfortunate if the innovative means of credit that many people use to refinance their debts at a lower rate was excluded while the debt options they are trying to get out from under remain readily available. Further, by preventing marketplace lenders from competing with banks nationwide, we risk preventing them from achieving economies of scale that will permit them to lower rates even further, to the benefit of consumers. As marketplace lenders have grown \u2014 quarterly growth has averaged more than 80% in the last seven years \u2014 they have been able to access capital more and more cheaply, which has resulted in decreased costs to consumers. One lender, Lending Club, has dropped the rates it charges consumers by about 1.5% from 2014 to 2015. The industry is young, and there are likely greater savings to be achieved, but it requires the ability to compete nationally on a level playing field. Even if the\u00a0<i>Madden\u00a0<\/i>decision is reversed \u2014 and it should be \u2014 our lending laws are outdated and should be modernized by allowing consistent treatment of banks and nonbank lenders. At a minimum, Congress should amend the law to explicitly permit nonbanks that purchase bank debt to benefit from the interest-rate export provision. Far better would be a broader modernization to ensure that innovative nonbank lenders can compete on equal terms with banks, ensuring that consumers are ultimately the ones controlling their credit. <i>This article first appeared in\u00a0American Banker\u00a0on July 28.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

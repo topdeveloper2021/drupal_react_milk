@@ -1,0 +1,29 @@
+uuid: 7d2bf761-489c-471b-94ae-9249f4ae5f0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_speakers
+id: panel.panel.field_speakers
+field_name: field_speakers
+entity_type: panel
+bundle: panel
+label: Speakers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:grid_speakers'
+  handler_settings:
+    target_bundles:
+      speakers: speakers
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

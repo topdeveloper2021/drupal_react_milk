@@ -1,0 +1,19 @@
+uuid: 55d33d7e-ee96-4dff-b3fd-85b3855b26ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_panel_alt_text
+id: panel.panel.field_panel_alt_text
+field_name: field_panel_alt_text
+entity_type: panel
+bundle: panel
+label: 'Panel Alt Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

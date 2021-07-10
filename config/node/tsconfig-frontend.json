@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true
+    },
+    "include": [
+      ".",
+      "./src",
+      "./web/themes/custom/milken",
+      "./web/themes/custom/milken/js"
+    ],
+    "lib": [
+        "es2016"
+    ],
+    "exclude": [
+        "../../node_modules",
+        "../../typings"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+      "forkChecker": true,
+      "useWebpackText": true,
+      "useCache": true,
+      "cacheDirectory": ".gulp/ts",
+      "useTranspileModule": true,
+      "silent": true,
+      "useBabel": true,
+      "babelOptions": {
+        "presets": ["stage-0", ["env", { "targets": { "node": "current" } }]],
+        "plugins": ["closure-elimination", "loop-optimizer"]
+      }
+    }
+}

@@ -1,0 +1,27 @@
+uuid: d668376a-de50-4318-84e3-677a4bd96ee6
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: events
+label: Events
+handler: multiple
+handler_configuration: {  }
+entity_settings:
+  target_type: event
+  handler: 'default:event'
+  handler_settings:
+    target_bundles:
+      conference: conference
+      meeting: meeting
+      summit: summit
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: meeting
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

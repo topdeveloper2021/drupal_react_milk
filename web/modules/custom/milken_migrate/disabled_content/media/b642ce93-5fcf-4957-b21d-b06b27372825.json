@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7025\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/cNXDl4k-TgNBXmXGIw_sjKjU0SPdSCgJepaRcBCMLhw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7025
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b642ce93-5fcf-4957-b21d-b06b27372825"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2272
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/cNXDl4k-TgNBXmXGIw_sjKjU0SPdSCgJepaRcBCMLhw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7cab96af-5352-4d03-b7d8-b2660a41c678"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Race, Gender, and Work: The Economics of Healthy Aging",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-25T00:38:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:32:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Living healthy and economically-secure lives through old age is a goal shared by all, but aging can pose unique hurdles for women and members of racial and ethnic minority groups. Because of disadvantageous wage gaps, care-giving responsibilities, and life-expectancy trends, women often reach age 65 with fewer financial resources to support them in retirement. Overall, women receive almost $4,000 less per year in Social Security payments than do men. Women of color face an even greater disparity. How do these factors affect their health? This session will explore the inter-sectional issues facing women as they age and opportunities to address them.",
+    "format": "rich_text",
+    "processed": "Living healthy and economically-secure lives through old age is a goal shared by all, but aging can pose unique hurdles for women and members of racial and ethnic minority groups. Because of disadvantageous wage gaps, care-giving responsibilities, and life-expectancy trends, women often reach age 65 with fewer financial resources to support them in retirement. Overall, women receive almost $4,000 less per year in Social Security payments than do men. Women of color face an even greater disparity. How do these factors affect their health? This session will explore the inter-sectional issues facing women as they age and opportunities to address them.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/6vWAg_Rbb8k",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/cNXDl4k-TgNBXmXGIw_sjKjU0SPdSCgJepaRcBCMLhw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

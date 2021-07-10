@@ -1,0 +1,196 @@
+uuid: 34a2c89b-9223-4ba5-aa6a-534c6eb078b8
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: null
+template: false
+archive: false
+id: tra
+title: 'TRAIN Application'
+description: ''
+category: ''
+elements: "container:\n  '#type': container\n  '#attributes':\n    class:\n      - container\n  custom_text:\n    '#type': processed_text\n    '#display_on': both\n    '#text': |\n      <p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><a><span style=\"font-family:Helvetica\"><span style=\"color:#222222\">The Research Acceleration and Innovation Network (TRAIN) was established by&nbsp;<em><span style=\"font-family:Helvetica\">FasterCures</span></em>&nbsp;in 2005 to recognize organizations that are pioneering principles of venture philanthropy to catalyze development of new therapies and cures, and to encourage more foundations to adopt such approaches to de-risk translation and commercialization of research in their respective disease areas. Organizations participating in TRAIN have found it a valuable platform for learning from the experiences and practices of other nonprofit research funders and for building relationships with stakeholders in industry, academia, government, and finance. There is no cost to participating in or applying to TRAIN.&nbsp;<br />\n      <br />\n      While the organizations that participate in TRAIN are individually unique, all TRAIN organizations demonstrate an ongoing commitment to&nbsp;<strong><span style=\"font-family:Helvetica\">accountability</span></strong>,&nbsp;<strong><span style=\"font-family:Helvetica\">collaboration</span></strong>,&nbsp;<strong><span style=\"font-family:Helvetica\">research effectiveness</span></strong>,&nbsp;<strong><span style=\"font-family:Helvetica\">resource building</span></strong>, and&nbsp;<strong><span style=\"font-family:Helvetica\">patient centeredness</span></strong>. The criteria for participation are based on a<em><span style=\"font-family:Helvetica\">&nbsp;FasterCures</span></em>' publication&nbsp;</span></span></a><a href=\"https://milkeninstitute.org/sites/default/files/2020-09/VPtoolkit.pdf\" style=\"color:blue; text-decoration:underline\" target=\"_blank\"><span style=\"font-family:Helvetica\">Measuring and Improving Impact: A Toolkit for Nonprofit Funders of Medical Research,</span></a><span style=\"font-family:Helvetica\"><span style=\"color:#222222\"> which was intended to provide nonprofit disease research organizations with a self-evaluation framework by which to assess and improve organizational effectiveness.</span></span></span></span></p>\n\n      <p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-family:Helvetica\"><span style=\"color:#222222\">Through the questions below, please describe and give examples of the ways in which your organization demonstrates an ongoing commitment to the characteristics that make TRAIN a unique network. The examples provided after questions are meant to underscore the variety of activities that meet the requirements of each category. Innovative and new methods of demonstrating commitment to the TRAIN characteristics are welcomed.</span></span></span></span></p>\n\n      <p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-family:Helvetica\"><span style=\"color:#222222\">We estimate the form will take 20-45 minutes to complete. Once you begin to enter information into the online form, you will&nbsp;<em><span style=\"font-family:Helvetica\">not</span></em>&nbsp;be able to save your work and return to it later. You may want to draft your responses in another format first, then copy and paste them into the form.&nbsp;</span></span></span></span></p>\n\n      <p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><a href=\"https://train.fastercures.org/%5bfile_link,id=256%5d\" style=\"color:blue; text-decoration:underline\" target=\"_blank\"><span style=\"font-family:Helvetica\"><span style=\"color:#2e73b3\"><span style=\"text-decoration:none\"><span style=\"text-underline:none\">I</span></span></span></span></a><span style=\"font-family:Helvetica\"><span style=\"color:#222222\">f you have any questions, please don't hesitate to contact&nbsp;</span></span><a href=\"mailto:train@milkeninstitute.org\" style=\"color:blue; text-decoration:underline\"><span style=\"font-family:Helvetica\"><span style=\"color:#2e73b3\"><span style=\"text-decoration:none\"><span style=\"text-underline:none\">train@milkeninstitute.org</span></span></span></span></a><span style=\"font-family:Helvetica\"><span style=\"color:#222222\">. Thank you for your interest in TRAIN!</span></span></span></span></p>\n    '#format': full_html\n  first_name:\n    '#type': textfield\n    '#title': 'First Name'\n    '#required': true\n  last_name:\n    '#type': textfield\n    '#title': 'Last Name'\n    '#required': true\n  title:\n    '#type': textfield\n    '#title': Title\n    '#required': true\n  organization:\n    '#type': textfield\n    '#title': Organization\n    '#required': true\n  email:\n    '#type': email\n    '#title': Email\n  phone:\n    '#type': tel\n    '#title': Phone\n    '#required': true\n  address:\n    '#type': webform_address\n    '#title': Address\n    '#required': true\n    '#address__placeholder': Address\n    '#address__title_display': invisible\n    '#address__required': true\n    '#address_2__access': false\n    '#city__placeholder': City/Town\n    '#city__title_display': invisible\n    '#city__required': true\n    '#state_province__placeholder': State/Province\n    '#state_province__title_display': invisible\n    '#state_province__required': true\n    '#postal_code__placeholder': 'ZIP/Postal Code'\n    '#postal_code__title_display': invisible\n    '#postal_code__required': true\n    '#country__placeholder': Country\n    '#country__title_display': invisible\n    '#country__required': true\n  website:\n    '#type': textfield\n    '#title': Website\n  staff:\n    '#type': radios\n    '#title': Staff\n    '#description': 'How many full or part-time professional staff does your organization employ?'\n    '#description_display': before\n    '#options':\n      0: '0'\n      1-10: 1-10\n      11-50: 11-50\n      51-100: 51-100\n      101-250: 101-250\n      251-500: 251-500\n      'More than 500': 'More than 500'\n    '#required': true\n  total_expenditures:\n    '#type': radios\n    '#title': 'Total Expenditures'\n    '#description': 'In the most recent fiscal year for which you have data, what were your organization&#39;s annual expenditures on all activities?'\n    '#description_display': before\n    '#options':\n      '<$100,000': '<$100,000'\n      '$100,000-$999,999': '$100,000-$999,999'\n      '$1,000,000-$1,999,999': '$1,000,000-$1,999,999'\n      '2,000,000-$9,999,999': '2,000,000-$9,999,999'\n      '$10,000,000-$100,000,000': '$10,000,000-$100,000,000'\n      '>$100,000,000': '>$100,000,000'\n    '#required': true\n  expenditures:\n    '#type': radios\n    '#title': Expenditures\n    '#description': 'In the most recent fiscal year for which you have data, what were your organization&#39;s annual expenditures devoted to research?'\n    '#description_display': before\n    '#options':\n      '<$100,000': '<$100,000'\n      '$100,000-$999,999': '$100,000-$999,999'\n      '$1,000,000-$1,999,999': '$1,000,000-$1,999,999'\n      '2,000,000-$9,999,999': '2,000,000-$9,999,999'\n      '$10,000,000-$100,000,000': '$10,000,000-$100,000,000'\n      '>$100,000,000': '>$100,000,000'\n    '#required': true\n  why_does_your_organization_want_to_join_train_:\n    '#type': textarea\n    '#title': 'Why does your organization want to join TRAIN?'\n  what_does_your_organization_hope_to_learn_or_accomplish_as_a_mem:\n    '#type': textarea\n    '#title': 'What does your organization hope to learn or accomplish as a member of TRAIN?'\n  what_can_other_train_member_organizations_learn_from_your_organi:\n    '#type': textarea\n    '#title': 'What can other TRAIN member organizations learn from your organization?'\n    '#description': 'Please limit this to 250 words or 2000 characters)'\n    '#counter_type': character\n    '#counter_minimum': 1\n    '#counter_maximum': 2000\n  accountability:\n    '#type': textarea\n    '#title': Accountability\n    '#description': |\n      How does your organization remain accountable to your mission? How do you engage in planning, demonstrate transparency, and uphold stakeholder responsibility?<br />\n      <br />\n      Examples may include conducting regular strategic planning and monitoring, employing milestones to measure and manage staff and grantees, having policies in place to promote knowledge sharing as well as technology commercialization, and actively engaging with internal and external experts to gain objective guidance and monitor progress.<br />\n      <br />\n      Please limit this to 250 words or 2000 characters)\n    '#description_display': before\n    '#counter_type': character\n    '#counter_minimum': 1\n    '#counter_maximum': 2000\n  collaboration:\n    '#type': textarea\n    '#title': Collaboration\n    '#description': |\n      Describe the collaborative activities your organization undertakes. Indicate examples of engaging in and nurturing relationships with a wide range of partners that can accelerate the overall funding and research cycle.<br />\n      <br />\n      Examples may include arrangements with industry to support product development, policies and practices that facilitate data- and knowledge-sharing among researchers and with other stakeholders, participating in research consortia, funding team science and multidisciplinary projects, and funding or collaborating on international research initiatives.<br />\n      <br />\n      Please limit this to 250 words or 2000 characters)\n    '#description_display': before\n    '#counter_type': character\n    '#counter_minimum': 1\n    '#counter_maximum': 2000\n  research_effectiveness:\n    '#type': textarea\n    '#title': 'Research Effectiveness'\n    '#description': |\n      How does your research portfolio yield data and deliverables to achieve your mission? What outcomes has your financial support created?<br />\n      <br />\n      Examples may include generation of new data, knowledge, and scientific deliverables that address the needs of the field, as well as a portfolio that ensures sufficient volume of scientific discoveries and therapeutic candidates moving into later-stage testing (such as funding/supporting translational research).<br />\n      <br />\n      Please limit this to 250 words or 2000 characters)\n    '#description_display': before\n    '#counter_type': character\n    '#counter_minimum': 1\n    '#counter_maximum': 2000\n  resource_building:\n    '#type': textarea\n    '#title': 'Resource Building'\n    '#description': |\n      In what ways do you fill critical resource gaps that limit scientific progress in your field?<br />\n      <br />\n      Examples may include funding creation, maintenance, and expansion of infrastructure and resources such as animal models, biobanks, registries, or clinical trials networks; and funding training and career development programs to develop future generations of researchers in the field.<br />\n      <br />\n      Please limit this to 250 words or 2000 characters)\n    '#description_display': before\n    '#counter_type': character\n    '#counter_minimum': 1\n    '#counter_maximum': 2000\n  patient_centeredness:\n    '#type': textarea\n    '#title': Patient-Centeredness\n    '#description': |\n      Describe ways in which your organization works to make the research and development enterprise more patient-centered. How are the needs of patients, caregivers, and family members understood and reflected in your strategic approaches and programs? How are you working to integrate patient perspectives and priorities with the other stakeholders in the system?<br />\n      <br />\n      Examples may include connecting patients to relevant clinical trials, educating policymakers about patient priorities and the science in your field, and actively including patients and/or caregivers in organizational governance.<br />\n      <br />\n      Please limit this to 250 words or 2000 characters)\n    '#description_display': before\n    '#counter_type': character\n    '#counter_minimum': 1\n    '#counter_maximum': 2000\n  anything_else:\n    '#type': textarea\n    '#title': 'Anything else'\n    '#description': 'Is there anything else that you want us to know?'\n    '#description_display': before\n  send_copy:\n    '#type': checkbox\n    '#title': 'Send me a copy of my responses'\n    '#description_display': invisible\n  actions:\n    '#type': webform_actions\n    '#title': 'Submit button(s)'"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  ajax_progress_type: ''
+  ajax_effect: ''
+  ajax_speed: null
+  page: true
+  page_submit_path: /form/train
+  page_confirm_path: ''
+  page_theme_name: ''
+  form_title: both
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_progress_states: false
+  wizard_auto_forward: true
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  wizard_prev_button_label: ''
+  wizard_next_button_label: ''
+  wizard_toggle: false
+  wizard_toggle_show_label: ''
+  wizard_toggle_hide_label: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  draft_pending_single_message: ''
+  draft_pending_multiple_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  confirmation_update: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  results_customize: false
+  token_view: false
+  token_update: false
+  form_disable_remote_addr: false
+  wizard_auto_forward_hide_next_button: false
+  wizard_keyboard: true
+  token_delete: false
+  serial_disabled: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }
+variants: {  }

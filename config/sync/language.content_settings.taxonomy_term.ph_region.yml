@@ -1,0 +1,11 @@
+uuid: 562dca0a-de84-42e9-9a37-626ea8a7e576
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ph_region
+id: taxonomy_term.ph_region
+target_entity_type_id: taxonomy_term
+target_bundle: ph_region
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,139 @@
+uuid: 7fb2d89a-fc01-4de0-b97c-41e6d3d08cb2
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: node_opportunity
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - philanthropy_hub
+  - node
+migration_group: milken
+label: 'Opportunities VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/taxonomy_term/philanthropy_hub'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/taxonomy_term/philanthropy_hub
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - vid
+  fields:
+    -
+      name: id
+      label: 'Taxonomy ID'
+      selector: /drupal_internal__tid
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: name
+      label: title/name
+      selector: /name
+    -
+      name: body
+      label: 'body array'
+      selector: /description
+    -
+      name: body_value
+      label: 'Body Value'
+      selector: /description/value
+    -
+      name: body_format
+      label: 'Body Format'
+      selector: /description/format
+    -
+      name: path
+      label: 'Product price'
+      selector: /path/alias
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: actions
+      label: Actions
+      selector: /field_philhub_actions
+    -
+      name: focus
+      label: Focus
+      selector: /field_philhub_focus
+    -
+      name: region
+      label: Region
+      selector: /field_philhub_region
+    -
+      name: terms
+      label: 'Alt Content'
+      selector: /field_philhub_terms
+    -
+      name: url
+      label: 'opportunity url'
+      selector: field_philhub_url
+  ids:
+    id:
+      type: integer
+    uuid:
+      type: string
+  defaults:
+    hub: philanthropy
+process:
+  id: id
+  title: name
+  uuid: uuid
+  name: name
+  langcode:
+    plugin: default_value
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: true
+  uid:
+    plugin: default_value
+    default_value: 2
+  path/alias: path
+  field_short_summary: body_value
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+  field_actions:
+    plugin: 'milken_migrate:taxonomy_by_name'
+    vocabulary: ph_actions
+    source: actions
+  field_focus:
+    plugin: 'milken_migrate:taxonomy_by_name'
+    vocabulary: ph_focus
+    source: focus
+  field_region:
+    plugin: 'milken_migrate:taxonomy_by_name'
+    vocabulary: ph_region
+    source: region
+  field_terms:
+    plugin: 'milken_migrate:taxonomy_by_name'
+    vocabulary: ph_terms
+    source: terms
+  field_hub:
+    plugin: 'milken_migrate:taxonomy_by_name'
+    vocabulary: ph_hub
+    source: defaults/hub
+  field_url/uri: url/0/uri
+  field_url/title: url/0/title
+destination:
+  plugin: 'entity:node'
+  default_bundle: opportunity
+migration_dependencies: {  }

@@ -1,0 +1,12 @@
+uuid: 5fd79cff-bf27-4585-a4cf-5178771d09fb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:f30c7da9-73cf-4553-b2f7-23846b782b30'
+id: link_bar
+label: 'Link Bar'
+icon_uuid: f30c7da9-73cf-4553-b2f7-23846b782b30
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+IDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA2NCA2NCI+PGxpbmUgeDI9IjY0IiB5MT0iMjYiIHkyPSIyNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDEwMTAxIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iNCIvPjxsaW5lIHgyPSI2NCIgeTE9IjM4IiB5Mj0iMzgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjQiLz48L3N2Zz4='
+description: 'Adds a thick bar containing equally spaced and sized links'
+behavior_plugins: {  }

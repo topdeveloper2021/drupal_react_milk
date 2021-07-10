@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/quality-not-quantity-years-matters-most?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 464
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f05ef180-17da-45a1-a086-1c0a4d674d4c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 464
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "278b0d00-3d1d-41d1-94c7-db9662000bb5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Quality, Not Quantity, of Years Matters Most",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:31:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/quality-not-quantity-years-matters-most",
+            "pid": 517,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>From spearheading the Affordable Care Act to opposing the legalization of euthanasia, Ezekiel Emanuel continues to make his mark in the world of health. He is a globally recognized oncologist and bioethicist, and author and contributor to numerous media outlets. In an interview with the Milken Institute Center for the Future of Aging, Emanuel explains the urgent need to improve <\/i>quality<i> of life and why we are getting further from an honest conversation about aging.\u00a0<\/i><b>In your attention-getting\u00a0piece in <i>The Atlantic<\/i>, you identified the age of 75 as a personal cut-off point for health interventions. You state: \u201cOnce I have lived to 75, my approach to my health care will completely change. I won\u2019t actively end my life. But I won\u2019t try to prolong it, either.\u201d With what\u2019s known about the distinction between chronological and biological age, why 75?<\/b>I think there are five or six different criteria. The first thing almost all of us will say is \u201cI really care about quality of life, not quantity of life.\u201d The question then becomes: when does quality of life begin to deteriorate? Whether it\u2019s cognitive or physical, 75 is a very important threshold. As we get older, our cognitive abilities decline\u2014there\u2019s a natural slowing down of the brain, a natural decrease in processing speed, a natural decrease in creativity. So, if you are interested in mental acuity, 75 is where you see a dramatic slowdown. Similarly, you have a lot of physical decline and an increase in physical morbidity the older you become. For example, the inability to climb stairs or the inability to walk a quarter of a mile, these things begin to increase. And if you look at the rates for Alzheimer\u2019s and other dementias, they are relatively low pre-75, higher at 75, and then dramatically increase after 75. So, by 80, between a third and a half of people have dementia of some kind. And finally, I would say if you look at the world\u2019s literature on creativity and productivity and generating and thinking new thoughts, it\u2019s very hard to find anyone after 75 who has done anything positive.I can think of four people in all of history where we see good evidence of their creativity, productivity, and generation of thought post-75. You have\u00a0Michelangelo,\u00a0Benjamin Franklin,\u00a0Goethe, and\u00a0Verdi. What ends up happening in life is that you switch from being engaged with life to being much more passive.<b>Are we too focused on living longer?<\/b>Yes, and I think we delude ourselves about the wonderfulness of living long, and I think the advertising industry and others want us to be somewhat deluded. Right after I published that article in The Atlantic, there was a big advertising campaign by AARP about how the beat goes on forever and so can my life. Then they show these very vigorous people, not very old, hiking in what looks like Montana. Around the same time, <i>The New York Times<\/i> wrote a big article on people in their 80s doing things like driving motorcycles and snorkeling. Those people exist, those activities exist, but they don\u2019t show you the flip side. In these ads, you didn\u2019t have the full picture of just how many people are in nursing homes, people who were just sitting around in vegetative states, or people who are unable to leave their houses. So, you get a much-distorted view of what it\u2019s like to age. If you read the literature of what\u2019s happening in Japan, you get a lot of people who are lonely, their spouses died off, their friends have died off, their kids are off doing their kid things, and they are left very much alone. That doesn\u2019t seem to be a wonderful life. So I think we need a much more accurate view of what it is to live a long life into your 80s and 90s. I would say that for many, maybe even the majority of people, it isn\u2019t so wonderful. Almost anyone you ask will say, \u201cYes, you\u2019re right. I don\u2019t want to just record the number of years, I want to have a high quality of life.\u201d But, in the end, the average lifespan in the U.S. has gone up another three months. What does that tell you? Well, we\u2019re just counting numbers, we\u2019re not counting quality. The average lifespan is not a quality measure.<b>Regardless of age, what health characteristics people should consider as they make care and treatment decisions and weigh age-prolonging options?<\/b>First, I think the most important thing is for people to consider, well before they get close to the end of life, or well before they even get to 70 or 75, is how they want their life to go. It\u2019s the kind of thing you should consider when you\u2019re 20, 30, 40, 50. Henry David Thoreau talks about sucking the marrow out of life, and I think that\u2019s what people ought to do\u2014to stop worrying about \u201cam I going to make it to 80 or a 120.\u201d I think when you start thinking that you\u2019ll make it to 100, that may be a recognition that my previous or current life wasn\u2019t that valuable or meaningful, and I sort of squandered it. Be focused more on living a rich life rather than trying to get to 120\u2014that might be more valuable in my opinion.<b>How should public and private payers evaluate the returns on their investment in treatment and care?<\/b>An evaluation on care that does not prolong life over disease symptoms is hard to measure, and that could be very helpful to people at the end of life. We don\u2019t want to waste money, so the return is either prolonging life, reducing symptoms, increasing convenience, or reducing costs. We need to see those things from our medical interventions.<b>There is a growing effort for communities to be more age-friendly and celebrate the value and\u00a0potential\u00a0of older adults. Do you think these efforts are misguided?\u00a0<\/b>The reality for <i>all<\/i> older adults paints the full picture of aging. Most people who age will tell you that growing old is not for sissies. It\u2019s hard. The face falls, the body begins to fall apart, and the mind slows down. It\u2019s not an ageist view. That\u2019s just what happens when the body begins to age and deteriorate. That\u2019s also the way people\u2019s mental capacity works\u2014processing speed declines, memory capacity declines, and the ability to find creative solutions to problems declines. Yes, we\u2019ve got a spectrum of people, of course, but it is true of the average, it\u2019s true of the median, and it\u2019s true of everyone that it\u2019s going to happen at slightly different rates. I don\u2019t think that\u2019s ageist. It\u2019s an easy charge for people to make when they\u2019re trying to preempt a serious discussion about meaningful aging.<b>As a society, are we getting closer to or further from an honest conversation about aging?<\/b>I think in general we\u2019re getting further away from honest conversations about everything in our society, because we\u2019re unwilling to look at the facts and too willing to dismiss people with ad hominems and overall charges like ageism or discrimination.",
+    "format": "rich_text",
+    "processed": "<i>From spearheading the Affordable Care Act to opposing the legalization of euthanasia, Ezekiel Emanuel continues to make his mark in the world of health. He is a globally recognized oncologist and bioethicist, and author and contributor to numerous media outlets. In an interview with the Milken Institute Center for the Future of Aging, Emanuel explains the urgent need to improve <\/i>quality<i> of life and why we are getting further from an honest conversation about aging.\u00a0<\/i><b>In your attention-getting\u00a0piece in <i>The Atlantic<\/i>, you identified the age of 75 as a personal cut-off point for health interventions. You state: \u201cOnce I have lived to 75, my approach to my health care will completely change. I won\u2019t actively end my life. But I won\u2019t try to prolong it, either.\u201d With what\u2019s known about the distinction between chronological and biological age, why 75?<\/b>I think there are five or six different criteria. The first thing almost all of us will say is \u201cI really care about quality of life, not quantity of life.\u201d The question then becomes: when does quality of life begin to deteriorate? Whether it\u2019s cognitive or physical, 75 is a very important threshold. As we get older, our cognitive abilities decline\u2014there\u2019s a natural slowing down of the brain, a natural decrease in processing speed, a natural decrease in creativity. So, if you are interested in mental acuity, 75 is where you see a dramatic slowdown. Similarly, you have a lot of physical decline and an increase in physical morbidity the older you become. For example, the inability to climb stairs or the inability to walk a quarter of a mile, these things begin to increase. And if you look at the rates for Alzheimer\u2019s and other dementias, they are relatively low pre-75, higher at 75, and then dramatically increase after 75. So, by 80, between a third and a half of people have dementia of some kind. And finally, I would say if you look at the world\u2019s literature on creativity and productivity and generating and thinking new thoughts, it\u2019s very hard to find anyone after 75 who has done anything positive.I can think of four people in all of history where we see good evidence of their creativity, productivity, and generation of thought post-75. You have\u00a0Michelangelo,\u00a0Benjamin Franklin,\u00a0Goethe, and\u00a0Verdi. What ends up happening in life is that you switch from being engaged with life to being much more passive.<b>Are we too focused on living longer?<\/b>Yes, and I think we delude ourselves about the wonderfulness of living long, and I think the advertising industry and others want us to be somewhat deluded. Right after I published that article in The Atlantic, there was a big advertising campaign by AARP about how the beat goes on forever and so can my life. Then they show these very vigorous people, not very old, hiking in what looks like Montana. Around the same time, <i>The New York Times<\/i> wrote a big article on people in their 80s doing things like driving motorcycles and snorkeling. Those people exist, those activities exist, but they don\u2019t show you the flip side. In these ads, you didn\u2019t have the full picture of just how many people are in nursing homes, people who were just sitting around in vegetative states, or people who are unable to leave their houses. So, you get a much-distorted view of what it\u2019s like to age. If you read the literature of what\u2019s happening in Japan, you get a lot of people who are lonely, their spouses died off, their friends have died off, their kids are off doing their kid things, and they are left very much alone. That doesn\u2019t seem to be a wonderful life. So I think we need a much more accurate view of what it is to live a long life into your 80s and 90s. I would say that for many, maybe even the majority of people, it isn\u2019t so wonderful. Almost anyone you ask will say, \u201cYes, you\u2019re right. I don\u2019t want to just record the number of years, I want to have a high quality of life.\u201d But, in the end, the average lifespan in the U.S. has gone up another three months. What does that tell you? Well, we\u2019re just counting numbers, we\u2019re not counting quality. The average lifespan is not a quality measure.<b>Regardless of age, what health characteristics people should consider as they make care and treatment decisions and weigh age-prolonging options?<\/b>First, I think the most important thing is for people to consider, well before they get close to the end of life, or well before they even get to 70 or 75, is how they want their life to go. It\u2019s the kind of thing you should consider when you\u2019re 20, 30, 40, 50. Henry David Thoreau talks about sucking the marrow out of life, and I think that\u2019s what people ought to do\u2014to stop worrying about \u201cam I going to make it to 80 or a 120.\u201d I think when you start thinking that you\u2019ll make it to 100, that may be a recognition that my previous or current life wasn\u2019t that valuable or meaningful, and I sort of squandered it. Be focused more on living a rich life rather than trying to get to 120\u2014that might be more valuable in my opinion.<b>How should public and private payers evaluate the returns on their investment in treatment and care?<\/b>An evaluation on care that does not prolong life over disease symptoms is hard to measure, and that could be very helpful to people at the end of life. We don\u2019t want to waste money, so the return is either prolonging life, reducing symptoms, increasing convenience, or reducing costs. We need to see those things from our medical interventions.<b>There is a growing effort for communities to be more age-friendly and celebrate the value and\u00a0potential\u00a0of older adults. Do you think these efforts are misguided?\u00a0<\/b>The reality for <i>all<\/i> older adults paints the full picture of aging. Most people who age will tell you that growing old is not for sissies. It\u2019s hard. The face falls, the body begins to fall apart, and the mind slows down. It\u2019s not an ageist view. That\u2019s just what happens when the body begins to age and deteriorate. That\u2019s also the way people\u2019s mental capacity works\u2014processing speed declines, memory capacity declines, and the ability to find creative solutions to problems declines. Yes, we\u2019ve got a spectrum of people, of course, but it is true of the average, it\u2019s true of the median, and it\u2019s true of everyone that it\u2019s going to happen at slightly different rates. I don\u2019t think that\u2019s ageist. It\u2019s an easy charge for people to make when they\u2019re trying to preempt a serious discussion about meaningful aging.<b>As a society, are we getting closer to or further from an honest conversation about aging?<\/b>I think in general we\u2019re getting further away from honest conversations about everything in our society, because we\u2019re unwilling to look at the facts and too willing to dismiss people with ad hominems and overall charges like ageism or discrimination.",
+    "summary": null,
+    "summary_processed": ""
+}

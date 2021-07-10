@@ -1,0 +1,19 @@
+uuid: bedee4fb-3c3e-4c00-8757-048c32676ec2
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_instagram
+id: grid_speakers.speakers.field_instagram
+field_name: field_instagram
+entity_type: grid_speakers
+bundle: speakers
+label: instagram
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

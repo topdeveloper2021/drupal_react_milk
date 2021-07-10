@@ -1,0 +1,29 @@
+uuid: 5c1bdec4-4bad-4911-bf2d-b6183c717c09
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_events
+    - taxonomy.vocabulary.events
+id: people.person.field_events
+field_name: field_events
+entity_type: people
+bundle: person
+label: Events
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      events: events
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

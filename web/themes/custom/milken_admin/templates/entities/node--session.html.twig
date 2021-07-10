@@ -1,0 +1,20 @@
+{{ attach_library('milken_base/node_session') }}
+
+{% set node_value =  []
+  | merge({ 'entityTypeId': node.getEntityTypeId })
+  | merge({ 'id': node.uuid.value })
+  | merge({ 'drupal_internal__id': node.id })
+  | merge({ 'type': node.bundle })
+  | merge({ 'includes': "field_hero_image" })
+
+%}
+
+
+<node-session
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ node_value | jsonapi }}"
+>
+
+</node-session>

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/london-tops-list-best-performing-cities-europe?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4831bee7-d84c-4b37-9941-07a6c1f344b1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 12
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "London Tops List of Best-Performing Cities in Europe",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-03T19:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/london-tops-list-best-performing-cities-europe",
+            "pid": 65,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LONDON, December 4, 2017 \u2013 Inner London-East, with its dynamic economy, flourishing information and communication technology sectors, and skilled international workforce is Europe\u2019s Best-Performing City, according to the Milken Institute\u2019s inaugural Best-Performing Cities Europe Index. In fact, three of London\u2019s component regions classified by Eurostat\u2019s Nomenclature of Territorial Units for Statistics ranked among the top tier of 279 regions evaluated in the report released today.Stockholm, with its thriving tech community and advanced manufacturing sector, ranked a close second, while Budapest, which has been creating new jobs at an unparalleled pace, came in third. Overall, five U.K. cities\/regions ranked in the top-20 while four were in Poland.Best-Performing Cities-Europe Rankings<table><tr><td>Rank\n<\/td>\n<td>\nLarge Cities\/Regions\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nInner London-East, United Kingdom\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nStockholm, Sweden\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nBudapest, Hungary\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nPomorskie, Poland (includes Gda\u0144sk)\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nNord-Vest, Romania\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nDolnoslaskie, Poland (includes Wroc\u0142aw)\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nBerkshire, Buckinghamshire, and Oxfordshire, United Kingdom\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nOberbayern, Germany (includes Munich)\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nOuter London-West and North West, United Kingdom\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nYugozapaden, Bulgaria (includes Sofia)\n<\/td>\n<\/tr><tr><td>\n11\n<\/td>\n<td>\n\u00d6stra Mellansverige, Sweden\n<\/td>\n<\/tr><tr><td>\n12\n<\/td>\n<td>\nJihov\u00fdchod, Czech Republic\n<\/td>\n<\/tr><tr><td>\n13\n<\/td>\n<td>\nBerlin, Germany\n<\/td>\n<\/tr><tr><td>\n14\n<\/td>\n<td>\nLeicestershire, Rutland, and Northamptonshire, United Kingdom\n<\/td>\n<\/tr><tr><td>\n15\n<\/td>\n<td>\nEastern and Midland, Ireland (includes Dublin)\n<\/td>\n<\/tr><tr><td>\n16\n<\/td>\n<td>\nBucuresti, Romania (includes Bucharest)\n<\/td>\n<\/tr><tr><td>\n17\n<\/td>\n<td>\nWielkopolskie, Poland (includes Pozna\u0144)\n<\/td>\n<\/tr><tr><td>\n18\n<\/td>\n<td>\nDerbyshire and Nottinghamshire, United Kingdom\n<\/td>\n<\/tr><tr><td>\n19\n<\/td>\n<td>\nHovedstaden, Denmark (includes Copenhagen)\n<\/td>\n<\/tr><tr><td>\n20\n<\/td>\n<td>\nMalopolskie, Poland (includes Krakow)\n<\/td>\n<\/tr><\/table>\u00a0\u201cInner London-East is among the most dynamic economies in Europe, leading all large metro areas in job growth over the last five years,\u201d said Minoli Ratnatunga, Milken Institute director of regional economic research and co-author of the study. \u201cWe trace its economic rejuvenation to a combination of direct policy implementation\u2014including the Big Bang that aided financial services and related growth in Canary Wharf\u2014and organic entrepreneurial-led growth in a variety of digital content and technology areas.\u201d She notes, however, the majority of the data was drawn prior to the Brexit vote and the economic impact of that upcoming transition is yet to be fully assessed.\u00a0\u201cBeing recognised as the best performing city in Europe by the Milken Institute is testament to London's economic dynamism, diversity, and position as a global investment hub,\" said Jasmine Whitbread, CEO of London First. \"East London's particular success shows how political will can underpin entrepreneurial zeal to create growth, investment, and jobs across a number of major sectors. But, as we navigate Brexit, we will have to work hard to keep our capital at the top\u2014and that means Government delivering the right policies for continued access to talented people and building the homes and transport links they need. Not just in London, but across the whole of the U.K.\u201dThe Milken Institute\u2019s Best-Performing Cities (BPC) Europe index provides an objective benchmark for examining which regional strategies are succeeding. Based on the Milken Institute\u2019s long-standing evaluation of U.S. metropolitan areas (www.best-cities.org), BPC Europe uses outcomes-based metrics including job creation, wage gains, manufacturing, and skilled service industry concentration to evaluate the relative performance of European regions.\u201cWhile global politics and business cycles are key external forces acting on regional economies, top performing regions invest in strategies that capitalize on competitive advantages and weather challenges better than their peers,\u201d explains Kevin Klowden, executive director of the Milken Institute\u2019s Center for Regional Economics. \u201cOur goal is to help businesses, investors, industry associations, development agencies, government officials, academics, and public-policy groups monitor and evaluate how well their region is adapting to and planning for both current and future economic trends.\u201dThe full report, including tables of all 279 large and small regions evaluated, is available online at www.milkeninstitute.org.London\u2019s future post-Brexit will be the focus of a session at the Milken Institute London Summit on Tuesday, December 5, 2017. Bruce Carnegie-Brown, chairman of Lloyd\u2019s, Hubertus V\u00e4th, managing director of Frankfurt Main Finance, Howard Shore, executive chairman of Shore Capital Group will join Ms. Whitbread and Mr. Klowden for a conversation moderated by Francisco Guerrera of Dow Jones Media Group. For more information, visit www.londonsummit.org\u00a0### ",
+    "format": "rich_text",
+    "processed": "LONDON, December 4, 2017 \u2013 Inner London-East, with its dynamic economy, flourishing information and communication technology sectors, and skilled international workforce is Europe\u2019s Best-Performing City, according to the Milken Institute\u2019s inaugural Best-Performing Cities Europe Index. In fact, three of London\u2019s component regions classified by Eurostat\u2019s Nomenclature of Territorial Units for Statistics ranked among the top tier of 279 regions evaluated in the report released today.Stockholm, with its thriving tech community and advanced manufacturing sector, ranked a close second, while Budapest, which has been creating new jobs at an unparalleled pace, came in third. Overall, five U.K. cities\/regions ranked in the top-20 while four were in Poland.Best-Performing Cities-Europe Rankings<table><tr><td>Rank\n<\/td>\n<td>\nLarge Cities\/Regions\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nInner London-East, United Kingdom\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nStockholm, Sweden\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nBudapest, Hungary\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nPomorskie, Poland (includes Gda\u0144sk)\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nNord-Vest, Romania\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nDolnoslaskie, Poland (includes Wroc\u0142aw)\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nBerkshire, Buckinghamshire, and Oxfordshire, United Kingdom\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nOberbayern, Germany (includes Munich)\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nOuter London-West and North West, United Kingdom\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nYugozapaden, Bulgaria (includes Sofia)\n<\/td>\n<\/tr><tr><td>\n11\n<\/td>\n<td>\n\u00d6stra Mellansverige, Sweden\n<\/td>\n<\/tr><tr><td>\n12\n<\/td>\n<td>\nJihov\u00fdchod, Czech Republic\n<\/td>\n<\/tr><tr><td>\n13\n<\/td>\n<td>\nBerlin, Germany\n<\/td>\n<\/tr><tr><td>\n14\n<\/td>\n<td>\nLeicestershire, Rutland, and Northamptonshire, United Kingdom\n<\/td>\n<\/tr><tr><td>\n15\n<\/td>\n<td>\nEastern and Midland, Ireland (includes Dublin)\n<\/td>\n<\/tr><tr><td>\n16\n<\/td>\n<td>\nBucuresti, Romania (includes Bucharest)\n<\/td>\n<\/tr><tr><td>\n17\n<\/td>\n<td>\nWielkopolskie, Poland (includes Pozna\u0144)\n<\/td>\n<\/tr><tr><td>\n18\n<\/td>\n<td>\nDerbyshire and Nottinghamshire, United Kingdom\n<\/td>\n<\/tr><tr><td>\n19\n<\/td>\n<td>\nHovedstaden, Denmark (includes Copenhagen)\n<\/td>\n<\/tr><tr><td>\n20\n<\/td>\n<td>\nMalopolskie, Poland (includes Krakow)\n<\/td>\n<\/tr><\/table>\u00a0\u201cInner London-East is among the most dynamic economies in Europe, leading all large metro areas in job growth over the last five years,\u201d said Minoli Ratnatunga, Milken Institute director of regional economic research and co-author of the study. \u201cWe trace its economic rejuvenation to a combination of direct policy implementation\u2014including the Big Bang that aided financial services and related growth in Canary Wharf\u2014and organic entrepreneurial-led growth in a variety of digital content and technology areas.\u201d She notes, however, the majority of the data was drawn prior to the Brexit vote and the economic impact of that upcoming transition is yet to be fully assessed.\u00a0\u201cBeing recognised as the best performing city in Europe by the Milken Institute is testament to London's economic dynamism, diversity, and position as a global investment hub,\" said Jasmine Whitbread, CEO of London First. \"East London's particular success shows how political will can underpin entrepreneurial zeal to create growth, investment, and jobs across a number of major sectors. But, as we navigate Brexit, we will have to work hard to keep our capital at the top\u2014and that means Government delivering the right policies for continued access to talented people and building the homes and transport links they need. Not just in London, but across the whole of the U.K.\u201dThe Milken Institute\u2019s Best-Performing Cities (BPC) Europe index provides an objective benchmark for examining which regional strategies are succeeding. Based on the Milken Institute\u2019s long-standing evaluation of U.S. metropolitan areas (www.best-cities.org), BPC Europe uses outcomes-based metrics including job creation, wage gains, manufacturing, and skilled service industry concentration to evaluate the relative performance of European regions.\u201cWhile global politics and business cycles are key external forces acting on regional economies, top performing regions invest in strategies that capitalize on competitive advantages and weather challenges better than their peers,\u201d explains Kevin Klowden, executive director of the Milken Institute\u2019s Center for Regional Economics. \u201cOur goal is to help businesses, investors, industry associations, development agencies, government officials, academics, and public-policy groups monitor and evaluate how well their region is adapting to and planning for both current and future economic trends.\u201dThe full report, including tables of all 279 large and small regions evaluated, is available online at www.milkeninstitute.org.London\u2019s future post-Brexit will be the focus of a session at the Milken Institute London Summit on Tuesday, December 5, 2017. Bruce Carnegie-Brown, chairman of Lloyd\u2019s, Hubertus V\u00e4th, managing director of Frankfurt Main Finance, Howard Shore, executive chairman of Shore Capital Group will join Ms. Whitbread and Mr. Klowden for a conversation moderated by Francisco Guerrera of Dow Jones Media Group. For more information, visit www.londonsummit.org\u00a0### ",
+    "summary": null,
+    "summary_processed": ""
+}

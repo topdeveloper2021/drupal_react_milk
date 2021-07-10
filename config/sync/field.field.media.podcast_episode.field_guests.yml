@@ -1,0 +1,31 @@
+uuid: 56ab3c56-c57a-4a08-a44c-3789f618c5a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - eck.eck_type.people.staff
+    - field.storage.media.field_guests
+    - media.type.podcast_episode
+id: media.podcast_episode.field_guests
+field_name: field_guests
+entity_type: media
+bundle: podcast_episode
+label: guests
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles:
+      person: person
+      staff: staff
+    sort:
+      field: field_last_name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: person
+field_type: entity_reference

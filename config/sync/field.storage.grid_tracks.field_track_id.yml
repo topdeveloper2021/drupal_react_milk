@@ -1,0 +1,20 @@
+uuid: be270b4e-0d59-4c3b-9bd8-4c31bd618758
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_tracks.field_track_id
+field_name: field_track_id
+entity_type: grid_tracks
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

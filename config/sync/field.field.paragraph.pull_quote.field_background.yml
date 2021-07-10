@@ -1,0 +1,23 @@
+uuid: db2c4244-42ef-4f86-8332-76e87f1184d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.pull_quote
+  module:
+    - options
+id: paragraph.pull_quote.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: pull_quote
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '#FFF'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

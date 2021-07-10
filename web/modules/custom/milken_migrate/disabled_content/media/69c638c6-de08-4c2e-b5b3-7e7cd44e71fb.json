@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7364\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/MCla35JMZgYZMawpxIy0xNoa8VfINJESzShcbDwJo-M.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7364
+        }
+    ],
+    "uuid": [
+        {
+            "value": "69c638c6-de08-4c2e-b5b3-7e7cd44e71fb"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2154
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/MCla35JMZgYZMawpxIy0xNoa8VfINJESzShcbDwJo-M.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a83dca0f-edbc-464e-aea8-41b5f2fc765e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Forces Shaping Asia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-12T18:11:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-25T16:41:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In the 20th century, the United States emerged as the global economic powerhouse that it remains today. In the 21st, Asia's economic and geopolitical influence has increased tremendously, inspiring optimism in an uncertain global arena. But will potential trade barriers, demographic shifts and geopolitical anxieties detract from its progress? This panel will discuss questions including:<br><br>What opportunities lie within Asia in the near future and how can the region capitalize on these openings?<br>Can Asia adapt to a new landscape and leverage its forces to herald an age of sustained prosperity?<br>Will we begin to catch a glimpse of the end of the Asian century?",
+    "format": "rich_text",
+    "processed": "In the 20th century, the United States emerged as the global economic powerhouse that it remains today. In the 21st, Asia's economic and geopolitical influence has increased tremendously, inspiring optimism in an uncertain global arena. But will potential trade barriers, demographic shifts and geopolitical anxieties detract from its progress? This panel will discuss questions including:<br \/><br \/>What opportunities lie within Asia in the near future and how can the region capitalize on these openings?<br \/>Can Asia adapt to a new landscape and leverage its forces to herald an age of sustained prosperity?<br \/>Will we begin to catch a glimpse of the end of the Asian century?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/mKxdf0vGVRk",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/MCla35JMZgYZMawpxIy0xNoa8VfINJESzShcbDwJo-M.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

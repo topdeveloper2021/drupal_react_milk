@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/are-millennials-ready-100-plus-year-life?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/162?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 790
+        }
+    ],
+    "uuid": [
+        {
+            "value": "528d2844-d607-4fda-baa5-952d285244a4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 790
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/162?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bf572789-b2f3-49a3-9d4b-9ab25859e939"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Are Millennials Ready for a 100-Plus-Year Life?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T23:04:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:55:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/are-millennials-ready-100-plus-year-life",
+            "pid": 843,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Dear Millennial, Are You Ready for a 100+ Year Life? I usually write about aging and older adults, but lately I've been thinking about the implications of longer lives for millennials. We're in the midst of a global demographic shift resulting from increasing longevity and low birth rates. Life-spans have nearly doubled in the last century due to advances in science, sanitation, and safety, and lives grow longer each year. The odds are that millennials and the generations that follow will experience significantly longer lives. So conversation about the future of aging is not just about \"boomers.\" It's about all of us. Many see aging only in negative terms, with the talk about entitlement costs, dependency ratios, and the challenges of disease and financial insecurity. But increased longevity has contributed to unprecedented economic growth and opportunities for personal fulfillment that previous generations could only dream of. Innovations in genomics, personalized medicine, and digital health will mean more time to work, learn, contribute, and recreate. Respected leaders in science are focused on the possibilities of dramatic life extension. Arthur Levinson, former head of Genentech, has assembled a team at Calico, supported by Google, to harness advanced technologies to understand the biology that controls lifespan. Craig Venter, the pioneering scientist, and Peter Diamandis, founder of the X Prize Foundation, have launched Human Longevity Inc. to employ genomic sequencing, computing, cell therapy technologies, and other know-how to develop the market for human longevity. From David Sinclair and his lab at Harvard Medical School to Brian Kennedy and his team at the Buck Institute for Research on Aging, the search for longer lives is intensifying. To stimulate the field, Joon Yun, president of Palo Alto Investors, established the Palo Alto Longevity Prize, a million-dollar competition to increase longevity. While there is no certainty that scientists will succeed in enabling radical life extension, that possibility alone should change the thinking of millennials about their futures. What if lives of 100, 110, or even more years become the norm? To paraphrase Charles Darwin, it's not the strongest or the most intelligent that survive, but the one most responsive to change. If the progress of millennials, hit hard by the Great Recession, is any indication of adaptability, there's reason for optimism. But aging brings its challenges, and it's important to plan early. How will millennials respond? How should members of this generation prepare? Here are a few points to consider: Plan for lifelong learning. Whether on campus or on-line, millennials will return to school several times in their lives to learn new skills, develop fresh perspectives, and expand their general knowledge and relationship networks. They'll benefit by learning with and from older adults, and older adults will, in turn, benefit from lessons they learn from millennial teachers. The habit of establishing intergenerational relationships and shared learning experiences will bring lifetime benefits. Plan for lifelong work. Traditional retirement is ready to be retired. Millennials will continue to work for financial security in longer life and because the stimulus of work can enhance both health and well-being. Many millennials already understand the challenges of changing workplaces and professions. Flexibility and comfort with new environments will serve this generation well. Millennials should join with older adults to fight workplace ageism and advocate for part-time, shared, and flexible work options, knowing they'll be the beneficiaries of progressive workplace policies as they age. Save and invest for the long term. Many in the current generation of older adults have not saved enough to support themselves and their families, with devastating consequences. Millennials came of age during the Great Recession, and many carry the burden of student loan debt. But by planning responsibly and effectively, and investing early, millennials can be better prepared than their parents for longer lives. Big cars and bigger houses may be appealing to some, but there are far more important priorities in life for all of us. Take care of personal health. Focusing now on disease prevention and wellness will increase millennials' odds of enjoying a long health span to match a longer life. Millennials can take advantage of developing innovations in personalized medicine, digital tools, and mobile health. And, like adults of all ages, millennials can develop better health habits, including improved nutrition, weight management, and daily exercise. Make our cities age-friendly. Improvements in infrastructure, transportation, health, work environments, and safety take time. If millennials get involved in improving their communities today, they'll lead the development of great, age-friendly cities for their own future and the future of residents across the age spectrum. Get involved in the Longevity Economy. Millions of older adults seek new products and services to enhance their lives. Millennials can take advantage of this growing longevity market and apply the innovation and creativity they're known for. The ideas advanced and businesses developed will transform millions of lives for the better. We're on the ground floor of massive change, and this could be the business opportunity of a lifetime for millennials. Find purpose. Research confirms that beneficial purpose is not only good for the broader society, it's good for personal health. Millennials are already involved in charitable and civic life, volunteering, and investing for beneficial impact, and they're beginning to think about the opportunities for later life transition to purposeful encore careers. We're in the early stages of an important conversation about the meaning of longer lives for individuals and the broader society. The issues are multifaceted and complex, but the large millennial generation will play a key role in shaping a very different future of aging. Despite the challenges, I'm optimistic that with preparation, planning and leadership, millennials will develop new approaches to enable successful aging, set examples that coming generations will follow, and create a brighter future for us all. Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and Distinguished Scholar in Residence at the University of Southern California Davis School of Gerontology. <i>This article first appeared in the\u00a0Huffington Post.<\/i>",
+    "format": "rich_text",
+    "processed": "Dear Millennial, Are You Ready for a 100+ Year Life? I usually write about aging and older adults, but lately I've been thinking about the implications of longer lives for millennials. We're in the midst of a global demographic shift resulting from increasing longevity and low birth rates. Life-spans have nearly doubled in the last century due to advances in science, sanitation, and safety, and lives grow longer each year. The odds are that millennials and the generations that follow will experience significantly longer lives. So conversation about the future of aging is not just about \"boomers.\" It's about all of us. Many see aging only in negative terms, with the talk about entitlement costs, dependency ratios, and the challenges of disease and financial insecurity. But increased longevity has contributed to unprecedented economic growth and opportunities for personal fulfillment that previous generations could only dream of. Innovations in genomics, personalized medicine, and digital health will mean more time to work, learn, contribute, and recreate. Respected leaders in science are focused on the possibilities of dramatic life extension. Arthur Levinson, former head of Genentech, has assembled a team at Calico, supported by Google, to harness advanced technologies to understand the biology that controls lifespan. Craig Venter, the pioneering scientist, and Peter Diamandis, founder of the X Prize Foundation, have launched Human Longevity Inc. to employ genomic sequencing, computing, cell therapy technologies, and other know-how to develop the market for human longevity. From David Sinclair and his lab at Harvard Medical School to Brian Kennedy and his team at the Buck Institute for Research on Aging, the search for longer lives is intensifying. To stimulate the field, Joon Yun, president of Palo Alto Investors, established the Palo Alto Longevity Prize, a million-dollar competition to increase longevity. While there is no certainty that scientists will succeed in enabling radical life extension, that possibility alone should change the thinking of millennials about their futures. What if lives of 100, 110, or even more years become the norm? To paraphrase Charles Darwin, it's not the strongest or the most intelligent that survive, but the one most responsive to change. If the progress of millennials, hit hard by the Great Recession, is any indication of adaptability, there's reason for optimism. But aging brings its challenges, and it's important to plan early. How will millennials respond? How should members of this generation prepare? Here are a few points to consider: Plan for lifelong learning. Whether on campus or on-line, millennials will return to school several times in their lives to learn new skills, develop fresh perspectives, and expand their general knowledge and relationship networks. They'll benefit by learning with and from older adults, and older adults will, in turn, benefit from lessons they learn from millennial teachers. The habit of establishing intergenerational relationships and shared learning experiences will bring lifetime benefits. Plan for lifelong work. Traditional retirement is ready to be retired. Millennials will continue to work for financial security in longer life and because the stimulus of work can enhance both health and well-being. Many millennials already understand the challenges of changing workplaces and professions. Flexibility and comfort with new environments will serve this generation well. Millennials should join with older adults to fight workplace ageism and advocate for part-time, shared, and flexible work options, knowing they'll be the beneficiaries of progressive workplace policies as they age. Save and invest for the long term. Many in the current generation of older adults have not saved enough to support themselves and their families, with devastating consequences. Millennials came of age during the Great Recession, and many carry the burden of student loan debt. But by planning responsibly and effectively, and investing early, millennials can be better prepared than their parents for longer lives. Big cars and bigger houses may be appealing to some, but there are far more important priorities in life for all of us. Take care of personal health. Focusing now on disease prevention and wellness will increase millennials' odds of enjoying a long health span to match a longer life. Millennials can take advantage of developing innovations in personalized medicine, digital tools, and mobile health. And, like adults of all ages, millennials can develop better health habits, including improved nutrition, weight management, and daily exercise. Make our cities age-friendly. Improvements in infrastructure, transportation, health, work environments, and safety take time. If millennials get involved in improving their communities today, they'll lead the development of great, age-friendly cities for their own future and the future of residents across the age spectrum. Get involved in the Longevity Economy. Millions of older adults seek new products and services to enhance their lives. Millennials can take advantage of this growing longevity market and apply the innovation and creativity they're known for. The ideas advanced and businesses developed will transform millions of lives for the better. We're on the ground floor of massive change, and this could be the business opportunity of a lifetime for millennials. Find purpose. Research confirms that beneficial purpose is not only good for the broader society, it's good for personal health. Millennials are already involved in charitable and civic life, volunteering, and investing for beneficial impact, and they're beginning to think about the opportunities for later life transition to purposeful encore careers. We're in the early stages of an important conversation about the meaning of longer lives for individuals and the broader society. The issues are multifaceted and complex, but the large millennial generation will play a key role in shaping a very different future of aging. Despite the challenges, I'm optimistic that with preparation, planning and leadership, millennials will develop new approaches to enable successful aging, set examples that coming generations will follow, and create a brighter future for us all. Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and Distinguished Scholar in Residence at the University of Southern California Davis School of Gerontology. <i>This article first appeared in the\u00a0Huffington Post.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

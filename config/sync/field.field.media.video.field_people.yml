@@ -1,0 +1,28 @@
+uuid: cad4ab7e-01f7-4b0f-9c0c-6b02a527235d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.media.field_people
+    - media.type.video
+id: media.video.field_people
+field_name: field_people
+entity_type: media
+bundle: video
+label: People
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles:
+      staff: staff
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: null
+field_type: entity_reference

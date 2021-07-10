@@ -1,0 +1,14 @@
+{#
+/**
+  * @file
+  * Template for Component HTML.
+  *
+  * Available variables:
+  * - html_template: Component html file..
+  */
+#}
+{% set library_to_attach = content_attributes['data-attach-library'].__toString() %}
+{{ attach_library(library_to_attach) }}
+<{{ content_attributes['data-tag']}} {{ content_attributes.removeAttribute('data-tag').removeAttribute('data-attach-library') }}>
+  {{ html_template|raw }}
+</{{ content_attributes['data-tag']}}>

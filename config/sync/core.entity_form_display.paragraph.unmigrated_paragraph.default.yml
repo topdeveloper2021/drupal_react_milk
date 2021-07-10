@@ -1,0 +1,49 @@
+uuid: 0be3a60b-60ce-4737-b6f1-a156940b2b0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.unmigrated_paragraph.field_id
+    - field.field.paragraph.unmigrated_paragraph.field_revision_id
+    - field.field.paragraph.unmigrated_paragraph.field_type
+    - paragraphs.paragraphs_type.unmigrated_paragraph
+id: paragraph.unmigrated_paragraph.default
+targetEntityType: paragraph
+bundle: unmigrated_paragraph
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_id:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_revision_id:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_type:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

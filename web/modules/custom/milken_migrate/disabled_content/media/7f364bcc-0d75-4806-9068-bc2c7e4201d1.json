@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7856\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/sXSyBuycxyvmlmNr8AO_H0G72b0TskH4CYWVeuTTT1Y.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7856
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7f364bcc-0d75-4806-9068-bc2c7e4201d1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 513
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/sXSyBuycxyvmlmNr8AO_H0G72b0TskH4CYWVeuTTT1Y.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e4edd546-f03f-42e3-87e0-689eeeb8ad4d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Saving the World From Us: Strategies for Conservation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T22:43:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "We need nature to live, eat and work, but nature does not need us. Each year, we burn more than 15 million hectares of forest. We have overfished nearly a third of the world's fisheries and nearly driven many species including elephants, rhinos and gorillas to extinction. But as the global population grows, so will our reliance on nature. The time for change is now. From eliminating poaching, protecting rainforests and renewing our oceans, efforts are underway to reverse the damage we have done to the environment. But what are the most successful models for collaboration and how can more donors, companies and investors get involved? The answer includes strategic philanthropy, government initiatives and investment funds directed toward conservation-oriented companies. Our panelists will discuss how they were galvanized to promote conservation and the trends they see for scaling up resources to conserve our flora and fauna for generations to come.",
+    "format": "rich_text",
+    "processed": "We need nature to live, eat and work, but nature does not need us. Each year, we burn more than 15 million hectares of forest. We have overfished nearly a third of the world's fisheries and nearly driven many species including elephants, rhinos and gorillas to extinction. But as the global population grows, so will our reliance on nature. The time for change is now. From eliminating poaching, protecting rainforests and renewing our oceans, efforts are underway to reverse the damage we have done to the environment. But what are the most successful models for collaboration and how can more donors, companies and investors get involved? The answer includes strategic philanthropy, government initiatives and investment funds directed toward conservation-oriented companies. Our panelists will discuss how they were galvanized to promote conservation and the trends they see for scaling up resources to conserve our flora and fauna for generations to come.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/UqynahAYssE",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/sXSyBuycxyvmlmNr8AO_H0G72b0TskH4CYWVeuTTT1Y.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

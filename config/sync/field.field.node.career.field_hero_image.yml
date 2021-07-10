@@ -1,0 +1,27 @@
+uuid: 78bffa63-1706-46d1-86f8-6197695589a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_image
+    - node.type.career
+id: node.career.field_hero_image
+field_name: field_hero_image
+entity_type: node
+bundle: career
+label: 'Hero Image'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: created
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,29 @@
+uuid: 999e875c-6654-4909-ae2f-eb1fdc12d43d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_tracks
+    - taxonomy.vocabulary.tracks
+id: event.meeting.field_tracks
+field_name: field_tracks
+entity_type: event
+bundle: meeting
+label: Tracks
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tracks: tracks
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

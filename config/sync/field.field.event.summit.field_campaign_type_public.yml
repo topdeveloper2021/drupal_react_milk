@@ -1,0 +1,19 @@
+uuid: a08a780a-5da6-4613-9b9e-206789236525
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_campaign_type_public
+id: event.summit.field_campaign_type_public
+field_name: field_campaign_type_public
+entity_type: event
+bundle: summit
+label: 'Campaign Type Public'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

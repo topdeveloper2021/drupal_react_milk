@@ -1,0 +1,21 @@
+uuid: 75fe9beb-69a1-4d17-a82d-c4500def0ea8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_join_panel_speaker.field_role
+field_name: field_role
+entity_type: grid_join_panel_speaker
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

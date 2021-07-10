@@ -1,0 +1,28 @@
+uuid: 71c78ccd-4f6f-4717-b0e1-a21d08e84406
+langcode: en
+status: true
+dependencies: {  }
+id: staff_reviewer
+label: 'Staff reviewer'
+weight: 66
+is_admin: false
+permissions:
+  - 'create event entities'
+  - 'create panel entities'
+  - 'create people entities'
+  - 'create rooms entities'
+  - 'delete any event entities'
+  - 'delete any missing_migration entities'
+  - 'delete any panel entities'
+  - 'delete any people entities'
+  - 'delete any rooms entities'
+  - 'delete own panel entities'
+  - 'delete own rooms entities'
+  - 'edit any event entities'
+  - 'edit any missing_migration entities'
+  - 'edit any panel entities'
+  - 'edit any people entities'
+  - 'edit any rooms entities'
+  - 'edit own panel entities'
+  - 'edit own rooms entities'
+  - 'view any people entities'

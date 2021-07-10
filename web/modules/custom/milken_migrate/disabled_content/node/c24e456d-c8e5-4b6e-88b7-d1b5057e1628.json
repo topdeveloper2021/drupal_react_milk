@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/biobank-central-launches-online-forum-drive-global-connectivity-among-biobanking-community?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 178
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c24e456d-c8e5-4b6e-88b7-d1b5057e1628"
+        }
+    ],
+    "vid": [
+        {
+            "value": 178
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "BioBank Central Launches Online Forum to Drive Global Connectivity Among Biobanking Community",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/biobank-central-launches-online-forum-drive-global-connectivity-among-biobanking-community",
+            "pid": 231,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>Washington, D.C., May 30, 2007 <\/b> - BioBank Central, a web-based portal that provides information and news about the importance of biospecimens to research, announced today the launch of its BioBank Forum, an online forum to frame the debate and encourage new ideas on the critical issues in the field. High-quality biospecimens annotated with clinical data are foundational to the advancement of personalized medicine. The process of collecting, storing, and distributing biospecimens is complex and many issues arise throughout the process, including ethical and privacy concerns; logistical, financial, and IP issues; the need for standardization; and the need for connectivity across many constituencies. The BioBank Forum - easily accessible via the internet and open to all audiences - is an interactive vehicle developed as a first step towards real-time global connectivity within the community. The connectivity enabled by the Forum could facilitate international harmonization by bringing together all corners of the globe to raise issues and share ideas and solutions. The Forum is part of BioBank Central which aims to link researchers with resources, encourage the donation of specimens, and educate the public about scientific advancements. \"We\u2032ve established the BioBank Forum as a neutral environment where we can frame the debate and enable all sides of the issues to be raised and discussed openly,\" said Greg Simon, President, FasterCures. \"This open dialogue is crucial to identifying the barriers slowing the adoption of personalized medicine, sharing thoughts on actions that can be taken to overcome these barriers, and collaborating on best practices for the field. Our ultimate goal is to accelerate the process of bringing better treatments to patients.\" The first Forum delves into the question of \"Who owns your tissue?\" Thought leaders from both the U.S. and the U.K. offer their viewpoints, discussing what control, if any, the patient should have over his tissue once he has granted authorization for it to be used in research. The subsequent Forum \"Who has the right to know?\" will discuss whether or not health-related information discovered during research should be passed back to the patient. The BioBank Forum can be accessed at http:\/\/www.biobankcentral.org\/resource\/forum. Visitors are encouraged to submit their thoughts on the issues raised, submit suggestions for future Forum topics, and are given the opportunity to \"vote\" on a related poll question, after which real-time results are tallied and posted. <b>About BioBank Central:<\/b>\nBioBank Central was established to link researchers with resources, encourage the donation of specimens, and educate the public about the benefits possible from the study of biological materials. BioBank Central supports and facilitates collaboration on implementing best practices in the biorepository community that will enable the acceleration of the discovery and development of new diagnostics and therapeutics. Site sponsors include IBM, Bioaccelerate Holdings Inc., Invitrogen Corporation, and Affymetrix. For more information, visit http:\/\/www.biobankcentral.org. <b>About FasterCures: <\/b>\nFasterCures \/ The Center for Accelerating Medical Solutions is committed to saving lives by saving time in the research, discovery and development of new treatments for deadly and debilitating diseases. FasterCures, as a center of the Milken Institute, is nonpartisan, nonprofit and independent of interest groups. For more information, visit http:\/\/www.fastercures.org.",
+    "format": "rich_text",
+    "processed": "<b>Washington, D.C., May 30, 2007 <\/b> - BioBank Central, a web-based portal that provides information and news about the importance of biospecimens to research, announced today the launch of its BioBank Forum, an online forum to frame the debate and encourage new ideas on the critical issues in the field. High-quality biospecimens annotated with clinical data are foundational to the advancement of personalized medicine. The process of collecting, storing, and distributing biospecimens is complex and many issues arise throughout the process, including ethical and privacy concerns; logistical, financial, and IP issues; the need for standardization; and the need for connectivity across many constituencies. The BioBank Forum - easily accessible via the internet and open to all audiences - is an interactive vehicle developed as a first step towards real-time global connectivity within the community. The connectivity enabled by the Forum could facilitate international harmonization by bringing together all corners of the globe to raise issues and share ideas and solutions. The Forum is part of BioBank Central which aims to link researchers with resources, encourage the donation of specimens, and educate the public about scientific advancements. \"We\u2032ve established the BioBank Forum as a neutral environment where we can frame the debate and enable all sides of the issues to be raised and discussed openly,\" said Greg Simon, President, FasterCures. \"This open dialogue is crucial to identifying the barriers slowing the adoption of personalized medicine, sharing thoughts on actions that can be taken to overcome these barriers, and collaborating on best practices for the field. Our ultimate goal is to accelerate the process of bringing better treatments to patients.\" The first Forum delves into the question of \"Who owns your tissue?\" Thought leaders from both the U.S. and the U.K. offer their viewpoints, discussing what control, if any, the patient should have over his tissue once he has granted authorization for it to be used in research. The subsequent Forum \"Who has the right to know?\" will discuss whether or not health-related information discovered during research should be passed back to the patient. The BioBank Forum can be accessed at http:\/\/www.biobankcentral.org\/resource\/forum. Visitors are encouraged to submit their thoughts on the issues raised, submit suggestions for future Forum topics, and are given the opportunity to \"vote\" on a related poll question, after which real-time results are tallied and posted. <b>About BioBank Central:<\/b>\nBioBank Central was established to link researchers with resources, encourage the donation of specimens, and educate the public about the benefits possible from the study of biological materials. BioBank Central supports and facilitates collaboration on implementing best practices in the biorepository community that will enable the acceleration of the discovery and development of new diagnostics and therapeutics. Site sponsors include IBM, Bioaccelerate Holdings Inc., Invitrogen Corporation, and Affymetrix. For more information, visit http:\/\/www.biobankcentral.org. <b>About FasterCures: <\/b>\nFasterCures \/ The Center for Accelerating Medical Solutions is committed to saving lives by saving time in the research, discovery and development of new treatments for deadly and debilitating diseases. FasterCures, as a center of the Milken Institute, is nonpartisan, nonprofit and independent of interest groups. For more information, visit http:\/\/www.fastercures.org.",
+    "summary": null,
+    "summary_processed": ""
+}

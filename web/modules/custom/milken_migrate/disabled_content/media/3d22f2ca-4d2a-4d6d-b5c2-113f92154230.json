@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7391\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/X_a4wqZC5eL5sSJEcbWwdWWaSenSjkla0iWBZvjZQlc.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7391
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3d22f2ca-4d2a-4d6d-b5c2-113f92154230"
+        }
+    ],
+    "vid": [
+        {
+            "value": 174
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/X_a4wqZC5eL5sSJEcbWwdWWaSenSjkla0iWBZvjZQlc.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "66c76a6d-044c-46b6-b631-d14bdaf6ac8a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Unbound: Retraining the American Workforce\u00a0",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-13T13:06:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The future of work and the shape of employment are both changing at dizzying speed. Millions of Americans have lost the jobs they were trained for as the employment needs of entire industries have shifted, and millions still in the workforce lack the skill set for tomorrow's jobs.<br><br>What can businesses do to build and scale the retraining programs that can best prepare Americans for well-paying jobs and fulfilling careers?<br>What programs can local leaders and educators adopt to this end?<br>What's happening on the ground across the country that can serve as national models?",
+    "format": "rich_text",
+    "processed": "The future of work and the shape of employment are both changing at dizzying speed. Millions of Americans have lost the jobs they were trained for as the employment needs of entire industries have shifted, and millions still in the workforce lack the skill set for tomorrow's jobs.<br \/><br \/>What can businesses do to build and scale the retraining programs that can best prepare Americans for well-paying jobs and fulfilling careers?<br \/>What programs can local leaders and educators adopt to this end?<br \/>What's happening on the ground across the country that can serve as national models?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/i9q18kWRjWk",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/X_a4wqZC5eL5sSJEcbWwdWWaSenSjkla0iWBZvjZQlc.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

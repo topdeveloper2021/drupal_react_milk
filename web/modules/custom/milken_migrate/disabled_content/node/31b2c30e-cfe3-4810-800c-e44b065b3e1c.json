@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/habits-can-help-you-live-longer?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/30?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 491
+        }
+    ],
+    "uuid": [
+        {
+            "value": "31b2c30e-cfe3-4810-800c-e44b065b3e1c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 491
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/30?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cfcea296-d56b-4a79-9dc0-a393b621554a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Habits That Can Help You Live Longer",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:26:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-06T05:45:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/habits-can-help-you-live-longer",
+            "pid": 544,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Elizabeth Blackburn is one of only 12 women to have won a Nobel Prize in physiology or medicine for her co-discovery of telomerase, the enzyme that replenishes the telomere, an area of the chromosome related to the process of aging. In an interview with the Milken Institute Center for the Future of Aging, Blackburn emphasizes the importance of healthy habits, why telomeres are essential for healthier lives, and how stress can be a positive experience<\/i>. <b>Can you explain what a telomere is and its role in our living longer, healthier lives?<\/b> Telomeres are like the protective caps on the ends of shoelaces. They prevent the ends of a shoelace\u2014a metaphor for a chromosome\u2014from fraying, which chromosomes often do as cells divide. Telomeres absorb the wear and tear themselves, and so each time the cell divides, these telomeres often become a little shorter. When they get too short, they signal the cell to die. Now, we know that telomeres dynamically protect chromosome ends, so our genes stay intact and our cells continue to work well. We have come to understand that if that protection is compromised, it prevents our cells from thriving and growing properly. Unless replenished\u2014by a special molecular mechanism called telomerase that we discovered in my lab\u2014the tendency of telomeres in humans is to become compromised over time. Indeed, in humans, telomeres wear down with age and through many other influences. More and more, we understand the nuances of the balance between these opposing forces of telomere attrition and replenishment. The balance\u2014or lack of it\u2014affects cellular health and the entire body\u2019s propensity for various diseases that increasingly plague humans as we age. <b>What\u2019s the function of telomerase? How is it linked to healthy living?<\/b> Telomerase is the enzyme that replenishes telomeres. In humans, we now know that a proper \u201cGoldilocks\u201d balance of telomerase is needed. Too much telomerase action in some of our cells can tip the balance over into real risks for cancers. So, it is imperative not to be tempted to stray into misguided over-use of, for example, unproven substances that claim to increase telomere maintenance. In contrast, we have learned\u2014by directly studying humans\u2014what works safely for telomere maintenance. Luckily there is a great deal that we individually and as a society can do to improve telomere health safely: getting enough sleep and exercise, finding and learning ways to cope with chronic psychological stressors, Mediterranean-diet-type eating habits, various forms of social improvements, unpolluted environments\u2014they all add up. These good influences on telomere maintenance are things that are actionable right now and do not increase cancer risks. <b>How can we make disease prevention a priority?<\/b> We can use our ever-increasing knowledge about the biology that underlies the slow development of these diseases\u2014prominently, heart disease, diabetes, cancers, neurodegeneration, and depression. Such diseases and conditions do not happen overnight, immediately before they are clinically diagnosed. Rather, they can take months and usually years to develop and manifest. Thus, there are many points at which their progression can be potentially intercepted or even reversed. We can use the knowledge we have about aspects of disease biology\u2014such as the contributions made by telomere attrition in our cells (which is only one part of the whole story)\u2014to decide what will actually improve health and mitigate disease risks.\u00a0As an example, in human cohort studies, we can measure how well telomere function is maintained. This provides one objective kind of assessment for the effectiveness of what we can do in our lives to promote health and determine which societal policies have health impacts, and to optimize clinical and pharmacological interventions. <b>Since behavior change is hard, how can we get people, even in small doses, to see the importance of not ignoring healthy habits?<\/b> Sometimes having an understanding of what goes on in our bodies can help. People have repeatedly mentioned to me and other researchers that having a mental image of their telomeres wearing down actually helps them to be motivated to adopt or keep up healthier actions. (I know this is true for me, personally!) This is a fruitful area to explore for developing optimal strategies that help people expand their health-giving habits. <b>How can stress be seen as a positive challenge? Can you explain?<\/b> My colleague and co-author of our\u00a0book, Elissa Epel, explains this research in the book. Essentially, it means when you think: \u201cI can take this on.\u201d It means you can learn to get yourself into the habit of reframing your responses to stressful things as challenges, rather than as simply threats over which you will have no control. It is not denying or minimizing the reality of the stresses, but presenting them to yourself in a different way, so that you can respond in ways that, interestingly, have been associated with better telomere maintenance (among other benefits).",
+    "format": "rich_text",
+    "processed": "<i>Elizabeth Blackburn is one of only 12 women to have won a Nobel Prize in physiology or medicine for her co-discovery of telomerase, the enzyme that replenishes the telomere, an area of the chromosome related to the process of aging. In an interview with the Milken Institute Center for the Future of Aging, Blackburn emphasizes the importance of healthy habits, why telomeres are essential for healthier lives, and how stress can be a positive experience<\/i>. <b>Can you explain what a telomere is and its role in our living longer, healthier lives?<\/b> Telomeres are like the protective caps on the ends of shoelaces. They prevent the ends of a shoelace\u2014a metaphor for a chromosome\u2014from fraying, which chromosomes often do as cells divide. Telomeres absorb the wear and tear themselves, and so each time the cell divides, these telomeres often become a little shorter. When they get too short, they signal the cell to die. Now, we know that telomeres dynamically protect chromosome ends, so our genes stay intact and our cells continue to work well. We have come to understand that if that protection is compromised, it prevents our cells from thriving and growing properly. Unless replenished\u2014by a special molecular mechanism called telomerase that we discovered in my lab\u2014the tendency of telomeres in humans is to become compromised over time. Indeed, in humans, telomeres wear down with age and through many other influences. More and more, we understand the nuances of the balance between these opposing forces of telomere attrition and replenishment. The balance\u2014or lack of it\u2014affects cellular health and the entire body\u2019s propensity for various diseases that increasingly plague humans as we age. <b>What\u2019s the function of telomerase? How is it linked to healthy living?<\/b> Telomerase is the enzyme that replenishes telomeres. In humans, we now know that a proper \u201cGoldilocks\u201d balance of telomerase is needed. Too much telomerase action in some of our cells can tip the balance over into real risks for cancers. So, it is imperative not to be tempted to stray into misguided over-use of, for example, unproven substances that claim to increase telomere maintenance. In contrast, we have learned\u2014by directly studying humans\u2014what works safely for telomere maintenance. Luckily there is a great deal that we individually and as a society can do to improve telomere health safely: getting enough sleep and exercise, finding and learning ways to cope with chronic psychological stressors, Mediterranean-diet-type eating habits, various forms of social improvements, unpolluted environments\u2014they all add up. These good influences on telomere maintenance are things that are actionable right now and do not increase cancer risks. <b>How can we make disease prevention a priority?<\/b> We can use our ever-increasing knowledge about the biology that underlies the slow development of these diseases\u2014prominently, heart disease, diabetes, cancers, neurodegeneration, and depression. Such diseases and conditions do not happen overnight, immediately before they are clinically diagnosed. Rather, they can take months and usually years to develop and manifest. Thus, there are many points at which their progression can be potentially intercepted or even reversed. We can use the knowledge we have about aspects of disease biology\u2014such as the contributions made by telomere attrition in our cells (which is only one part of the whole story)\u2014to decide what will actually improve health and mitigate disease risks.\u00a0As an example, in human cohort studies, we can measure how well telomere function is maintained. This provides one objective kind of assessment for the effectiveness of what we can do in our lives to promote health and determine which societal policies have health impacts, and to optimize clinical and pharmacological interventions. <b>Since behavior change is hard, how can we get people, even in small doses, to see the importance of not ignoring healthy habits?<\/b> Sometimes having an understanding of what goes on in our bodies can help. People have repeatedly mentioned to me and other researchers that having a mental image of their telomeres wearing down actually helps them to be motivated to adopt or keep up healthier actions. (I know this is true for me, personally!) This is a fruitful area to explore for developing optimal strategies that help people expand their health-giving habits. <b>How can stress be seen as a positive challenge? Can you explain?<\/b> My colleague and co-author of our\u00a0book, Elissa Epel, explains this research in the book. Essentially, it means when you think: \u201cI can take this on.\u201d It means you can learn to get yourself into the habit of reframing your responses to stressful things as challenges, rather than as simply threats over which you will have no control. It is not denying or minimizing the reality of the stresses, but presenting them to yourself in a different way, so that you can respond in ways that, interestingly, have been associated with better telomere maintenance (among other benefits).",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,17 @@
+uuid: b8965a01-4f13-4768-9c11-de7b45303e14
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:ed902182-a713-4574-8f3b-50578b461a1d'
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: sites/default/files/paragraphs_type_icon/block-default-icon.svg
+id: block
+label: Block
+icon_uuid: ed902182-a713-4574-8f3b-50578b461a1d
+icon_default: 'data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJjaGltbmV5IiBjbGFzcz0ic3ZnLWlubGluZS0tZmEgZmEtY2hpbW5leSBmYS13LTE2IiByb2xlPSJpbWciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDUxMiA1MTIiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTQ4MCAwSDMyQzE0LjMgMCAwIDE0LjMgMCAzMnYxMjhjMCAxNy43IDE0LjMgMzIgMzIgMzJoNDQ4YzE3LjcgMCAzMi0xNC4zIDMyLTMyVjMyYzAtMTcuNy0xNC4zLTMyLTMyLTMyek0zMiA1MTJoMjg4VjM4NEgzMnYxMjh6bTE2MC0xNjBoMjg4VjIyNEgxOTJ2MTI4ek0zMiAyMjR2MTI4aDEyOFYyMjRIMzJ6bTMyMCAyODhoMTI4VjM4NEgzNTJ2MTI4eiI+PC9wYXRoPjwvc3ZnPg=='
+description: ''
+behavior_plugins: {  }

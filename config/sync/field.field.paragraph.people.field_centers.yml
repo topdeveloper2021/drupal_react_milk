@@ -1,0 +1,29 @@
+uuid: 6ebfb49b-debb-4ae5-a165-986017aab73a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_centers
+    - paragraphs.paragraphs_type.people
+    - taxonomy.vocabulary.centers
+id: paragraph.people.field_centers
+field_name: field_centers
+entity_type: paragraph
+bundle: people
+label: Centers
+description: 'Center to filter Persons by.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

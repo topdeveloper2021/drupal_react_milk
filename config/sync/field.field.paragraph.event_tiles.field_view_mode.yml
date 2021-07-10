@@ -1,0 +1,23 @@
+uuid: a786bc02-7a24-4d26-90ab-2460254aa55d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.event_tiles
+  module:
+    - options
+id: paragraph.event_tiles.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: event_tiles
+label: 'View Mode'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: tile
+default_value_callback: ''
+settings: {  }
+field_type: list_string

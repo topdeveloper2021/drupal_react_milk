@@ -1,0 +1,67 @@
+uuid: 1db2734f-3633-4e0b-9b42-60f8e3cf324a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.people.field_centers
+    - field.field.paragraph.people.field_section_header
+    - field.field.paragraph.people.field_teams
+    - field.field.paragraph.people.field_type_of_people
+    - field.field.paragraph.people.field_view_mode
+    - paragraphs.paragraphs_type.people
+id: paragraph.people.default
+targetEntityType: paragraph
+bundle: people
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_centers:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_section_header:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_teams:
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_type_of_people:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_view_mode:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

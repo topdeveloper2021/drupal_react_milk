@@ -1,0 +1,21 @@
+uuid: 928653a4-21da-42b4-88f3-e26c5eac22f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_event_id
+    - paragraphs.paragraphs_type.event_display
+id: paragraph.event_display.field_grid_event_id
+field_name: field_grid_event_id
+entity_type: paragraph
+bundle: event_display
+label: 'Grid Event ID'
+description: 'The exact Grid Event ID i.e. ASIA19 or GC20'
+required: true
+translatable: true
+default_value:
+  -
+    value: GC20
+default_value_callback: ''
+settings: {  }
+field_type: string

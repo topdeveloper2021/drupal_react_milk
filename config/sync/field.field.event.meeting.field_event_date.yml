@@ -1,0 +1,21 @@
+uuid: 77c27fab-690b-4044-877d-2c47fefb618a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_event_date
+  module:
+    - datetime
+id: event.meeting.field_event_date
+field_name: field_event_date
+entity_type: event
+bundle: meeting
+label: 'Event Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

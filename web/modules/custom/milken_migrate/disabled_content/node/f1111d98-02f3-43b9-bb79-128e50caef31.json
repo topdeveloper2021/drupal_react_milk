@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/yago-appointed-senior-koret-fellow?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 219
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f1111d98-02f3-43b9-bb79-128e50caef31"
+        }
+    ],
+    "vid": [
+        {
+            "value": 219
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Yago Appointed Senior Koret Fellow",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "1970-01-01T00:00:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/yago-appointed-senior-koret-fellow",
+            "pid": 272,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Glenn Yago, a leading authority on capital markets and financial innovations, has been named a Senior Koret Fellow as part of an initiative to help advance market-based economic reforms and policies in Israel. Dr. Yago, Director of Capital Studies at the Milken Institute, will focus on financial innovations for public policy while supervising the research initiatives of seven Koret Fellows - graduate students awarded year-long fellowships to assist members of the Knesset and government ministries on economic matters - and to conduct independent research that could contribute to market-oriented economic restructuring of the Israeli economy. He will maintain his current position at the Institute. Funding for the Koret Fellows Program, including a grant to the Milken Institute to allow Dr. Yago\u2032s involvement, is provided by the Koret Foundation to the American Friends of the Koret Israel Economic Development Funds. AFKIEDF is dedicated to raising funds to support the work of KIEDF [www.kiedf.org], an Israeli non-profit corporation established to promote private-sector economic development and employment opportunity. Supported by Koret, federations and private donors, KIEDF operates loan programs that have facilitated more than $65 million in loan guarantees to nearly 2,000 small and microfinance businesses in Israel while creating and supporting over 10,000 jobs. \"KIEDF's focus on generic solutions to credit conditions in general and small-business problems in particular in Israel will be enhanced greatly by the extensive experience Dr. Yago has from developing solutions to similar issues in the United States,\" said KIEDF Managing Director Carl Kaplan. Over the next year, Dr. Yago will work with Kaplan and Koret Fellows Staff Director Zvi Golan in Jerusalem on supervising the Fellows research and on specific measures in capital markets reform, banking regulation, urban revitalization, and small-business finance. Dr. Yago has a long history of involvement in Israel, teaching at Tel-Aviv University and Interdisciplinary Center-Herzliya, and working with the Jerusalem Center for Public Affairs, municipal leaders in Tel Aviv, and other government, business and academic leaders in the region to promote economic reform. These efforts have resulted in legislation to reform Israel\u2032s capital markets, the issuance of the first revenue bond for urban infrastructure in the history of the State of Israel and proposals to establish an urban revitalization fund to develop Jaffa and distressed communities in South Tel-Aviv. \"We've followed the Milken Institute's contributions to creative thinking in solving Israel's long-standing economic issues for some time,\" said Dr. Sandra Edwards of the Koret Foundation. \"We're confident that Dr. Yago will help guide the work of the KIEDF student fellows and contribute to market-based solutions that will finance Israel's next century of economic development.\"",
+    "format": "rich_text",
+    "processed": "Glenn Yago, a leading authority on capital markets and financial innovations, has been named a Senior Koret Fellow as part of an initiative to help advance market-based economic reforms and policies in Israel. Dr. Yago, Director of Capital Studies at the Milken Institute, will focus on financial innovations for public policy while supervising the research initiatives of seven Koret Fellows - graduate students awarded year-long fellowships to assist members of the Knesset and government ministries on economic matters - and to conduct independent research that could contribute to market-oriented economic restructuring of the Israeli economy. He will maintain his current position at the Institute. Funding for the Koret Fellows Program, including a grant to the Milken Institute to allow Dr. Yago\u2032s involvement, is provided by the Koret Foundation to the American Friends of the Koret Israel Economic Development Funds. AFKIEDF is dedicated to raising funds to support the work of KIEDF [www.kiedf.org], an Israeli non-profit corporation established to promote private-sector economic development and employment opportunity. Supported by Koret, federations and private donors, KIEDF operates loan programs that have facilitated more than $65 million in loan guarantees to nearly 2,000 small and microfinance businesses in Israel while creating and supporting over 10,000 jobs. \"KIEDF's focus on generic solutions to credit conditions in general and small-business problems in particular in Israel will be enhanced greatly by the extensive experience Dr. Yago has from developing solutions to similar issues in the United States,\" said KIEDF Managing Director Carl Kaplan. Over the next year, Dr. Yago will work with Kaplan and Koret Fellows Staff Director Zvi Golan in Jerusalem on supervising the Fellows research and on specific measures in capital markets reform, banking regulation, urban revitalization, and small-business finance. Dr. Yago has a long history of involvement in Israel, teaching at Tel-Aviv University and Interdisciplinary Center-Herzliya, and working with the Jerusalem Center for Public Affairs, municipal leaders in Tel Aviv, and other government, business and academic leaders in the region to promote economic reform. These efforts have resulted in legislation to reform Israel\u2032s capital markets, the issuance of the first revenue bond for urban infrastructure in the history of the State of Israel and proposals to establish an urban revitalization fund to develop Jaffa and distressed communities in South Tel-Aviv. \"We've followed the Milken Institute's contributions to creative thinking in solving Israel's long-standing economic issues for some time,\" said Dr. Sandra Edwards of the Koret Foundation. \"We're confident that Dr. Yago will help guide the work of the KIEDF student fellows and contribute to market-based solutions that will finance Israel's next century of economic development.\"",
+    "summary": null,
+    "summary_processed": ""
+}

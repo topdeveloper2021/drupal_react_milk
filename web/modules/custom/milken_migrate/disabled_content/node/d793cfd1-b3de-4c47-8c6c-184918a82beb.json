@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/purposeful-aging-model-new-life-course?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/151?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 779
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d793cfd1-b3de-4c47-8c6c-184918a82beb"
+        }
+    ],
+    "vid": [
+        {
+            "value": 779
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/151?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "db7fa4e4-239a-4886-a377-106639bac629"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Purposeful Aging: A Model for a New Life Course",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-11T22:27:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:08:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/purposeful-aging-model-new-life-course",
+            "pid": 832,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Marc Freedman, founder and CEO of Encore.org, offers an insightful observation about the promise and potential of longer lives. \u201cThousands of baby boomers each day surge into their 60s and 70s,\u201d he wrote in a recent article for The Wall Street Journal. \u201cIt\u2019s time to focus on enriching lives, not just lengthening them; on providing purpose and productivity, not just perpetuity.\u201d While population aging brings health, financial and social risks, an understanding of the opportunities is emerging. At the Milken Institute Center for the Future of Aging, we study, convene, report on and respond to these risks and opportunities, searching for solutions to bring beneficial change. Joining with others who share our vision, we believe that it\u2019s time to challenge conventional wisdom and established norms\u2014that new possibilities for older adults hold promise for strengthening societies, expanding economies and improving life for all ages. Traditional retirement is being re-imagined as older adults reject age segregation, decline and mass leisure to work, pursue learning, launch businesses and contribute to their communities through volunteerism and civic engagement. A longevity economy is developing as markets recognize the demand for products and services to meet the needs of the emerging aging demographic. Innovations in medicine and technology present hope for increasing life and health spans, while advanced research is revealing the power of the aging brain. <b>The Power of Purpose<\/b> So many new opportunities are unfolding to enrich aging lives. But none is more hopeful than the possibility of elevating beneficial purpose as a new life course model for aging populations across the world.Purpose enhances psychological and physical health, and is correlated with greater productivity, creativity and resilience. People with purpose tend to be more involved with their families, communities and colleagues. Purpose is uplifting, providing the fuel for enhanced engagement, effort and contribution. Sherry Lansing, the pioneering entertainment industry leader, whose eponymous foundation supports encore career opportunities and other causes, says, \u201cI always thought if I was lucky enough to achieve the dreams I had in the movie business \u2026 I wanted to have a third chapter that was about giving back and about the things I cared about.\u201d Purpose is powerful medicine. In his study of \u201cBlue Zones\u201d (communities in which people are more likely to live past 100), Next Avenue Influencer in Aging Dan Buettner identified factors that centenarians share, including a strong sense of purpose. People with purpose were also less likely to develop impairments in daily living. Yale researcher Becca Levy and her colleagues found that older individuals with a positive self-perception of aging lived 7.5 years longer than those who are less positive. Patricia Boyle of Rush University Medical Center found that participants with a high level of purpose were 2.4 times more likely to remain free of Alzheimer\u2019s disease. Purpose is a buffer. The pain and frustration of ageism, illness and loneliness can be mitigated by purpose. In Man\u2019s Search for Meaning, the remarkable memoir on his experience in Auschwitz, psychiatrist Victor Frankl wrote that \u201clife is never made unbearable by circumstances, but only by lack of meaning and purpose.\u201d Purpose is family-changing, community-changing and world-changing. It\u2019s about reaching out, getting involved and acting on those instincts and inclinations to add value for others and meaning to life. As Nelson Mandela said, \u201cA fundamental concern for others in our individual and community lives would go a long way in making the world the better place we so passionately dreamt of.\u201d We are at an inflection point, at the intersection of a fundamental demographic change and a search for meaning. We have the opportunity to elevate purposeful aging as a goal for older adults across America and the world, and in doing so, marshal a powerful human resource to make change. Purposeful aging \u2014 a model for a new life course, and a better world. <i>This article originally appeared in Next Avenue October 30th, 2015\u00a0<\/i>",
+    "format": "rich_text",
+    "processed": "Marc Freedman, founder and CEO of Encore.org, offers an insightful observation about the promise and potential of longer lives. \u201cThousands of baby boomers each day surge into their 60s and 70s,\u201d he wrote in a recent article for The Wall Street Journal. \u201cIt\u2019s time to focus on enriching lives, not just lengthening them; on providing purpose and productivity, not just perpetuity.\u201d While population aging brings health, financial and social risks, an understanding of the opportunities is emerging. At the Milken Institute Center for the Future of Aging, we study, convene, report on and respond to these risks and opportunities, searching for solutions to bring beneficial change. Joining with others who share our vision, we believe that it\u2019s time to challenge conventional wisdom and established norms\u2014that new possibilities for older adults hold promise for strengthening societies, expanding economies and improving life for all ages. Traditional retirement is being re-imagined as older adults reject age segregation, decline and mass leisure to work, pursue learning, launch businesses and contribute to their communities through volunteerism and civic engagement. A longevity economy is developing as markets recognize the demand for products and services to meet the needs of the emerging aging demographic. Innovations in medicine and technology present hope for increasing life and health spans, while advanced research is revealing the power of the aging brain. <b>The Power of Purpose<\/b> So many new opportunities are unfolding to enrich aging lives. But none is more hopeful than the possibility of elevating beneficial purpose as a new life course model for aging populations across the world.Purpose enhances psychological and physical health, and is correlated with greater productivity, creativity and resilience. People with purpose tend to be more involved with their families, communities and colleagues. Purpose is uplifting, providing the fuel for enhanced engagement, effort and contribution. Sherry Lansing, the pioneering entertainment industry leader, whose eponymous foundation supports encore career opportunities and other causes, says, \u201cI always thought if I was lucky enough to achieve the dreams I had in the movie business \u2026 I wanted to have a third chapter that was about giving back and about the things I cared about.\u201d Purpose is powerful medicine. In his study of \u201cBlue Zones\u201d (communities in which people are more likely to live past 100), Next Avenue Influencer in Aging Dan Buettner identified factors that centenarians share, including a strong sense of purpose. People with purpose were also less likely to develop impairments in daily living. Yale researcher Becca Levy and her colleagues found that older individuals with a positive self-perception of aging lived 7.5 years longer than those who are less positive. Patricia Boyle of Rush University Medical Center found that participants with a high level of purpose were 2.4 times more likely to remain free of Alzheimer\u2019s disease. Purpose is a buffer. The pain and frustration of ageism, illness and loneliness can be mitigated by purpose. In Man\u2019s Search for Meaning, the remarkable memoir on his experience in Auschwitz, psychiatrist Victor Frankl wrote that \u201clife is never made unbearable by circumstances, but only by lack of meaning and purpose.\u201d Purpose is family-changing, community-changing and world-changing. It\u2019s about reaching out, getting involved and acting on those instincts and inclinations to add value for others and meaning to life. As Nelson Mandela said, \u201cA fundamental concern for others in our individual and community lives would go a long way in making the world the better place we so passionately dreamt of.\u201d We are at an inflection point, at the intersection of a fundamental demographic change and a search for meaning. We have the opportunity to elevate purposeful aging as a goal for older adults across America and the world, and in doing so, marshal a powerful human resource to make change. Purposeful aging \u2014 a model for a new life course, and a better world. <i>This article originally appeared in Next Avenue October 30th, 2015\u00a0<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

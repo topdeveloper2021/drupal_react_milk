@@ -1,0 +1,15 @@
+uuid: ade968a7-ea93-440a-b69b-100080cce2b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - milken_migrate
+  enforced:
+    module:
+      - milken_migrate
+id: milken
+label: Milken
+description: 'import from previous Milken Site'
+source_type: 'Drupal 8'
+module: null
+shared_configuration: null

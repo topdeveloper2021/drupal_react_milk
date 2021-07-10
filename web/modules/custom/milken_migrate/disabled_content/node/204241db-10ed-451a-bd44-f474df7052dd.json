@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/weak-income-gains-and-strong-investment-help-dissipate-inflation-pressures?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/41?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 506
+        }
+    ],
+    "uuid": [
+        {
+            "value": "204241db-10ed-451a-bd44-f474df7052dd"
+        }
+    ],
+    "vid": [
+        {
+            "value": 506
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/41?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f234c719-0a26-4a41-a1cd-8815d261151e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Weak Income Gains and Strong Investment Help Dissipate Inflation Pressures",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T17:06:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-30T19:08:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/weak-income-gains-and-strong-investment-help-dissipate-inflation-pressures",
+            "pid": 559,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Strong expenditure growth and tightening labor markets are spooking financial markets by intensifying fears that the Federal Reserve may shift to a faster pace of monetary tightening to stave off inflation. Inflation concerns have contributed to the rise in ten-year US Treasury rates to their highest levels since 2014 and the stumble in equity markets this year. Yet markets may be over-estimating the threat to price stability from the tightening labor market and faster pace of household and investment spending. That is because strong post-Crisis employment growth has not raised incomes fast enough to match the rapid pace of household spending during the last two years. Indeed, a sharp decline in the household saving rate financed much of last year\u2019s strong spending. Unusually large stock-market gains during the last year likely depressed the saving rate to a historically low level. The saving rate\u2019s rapid decline to 2.4\u00a0percent in December 2017, compared with 3.7 percent in January, may reverse if the outsized stock market gains evaporate. Also, the saving rate\u2019s decline during the second half of 2017 may have reflected rising optimism and confidence in the anticipated, but politically uncertain, passage of President Trump\u2019s tax-cut bill. Rather than being a source of rising inflation pressure, the contribution to faster GDP growth from increased investment spending likely has been disinflationary. The additional spending on equipment and software contributed to technological advances, which have limited rather than spurred the rate of price increases. Job Gains Skewed Toward Low Wage Sectors Are Not Likely to Generate Sustained Inflation-Boosting Spending The addition of 200K to payrolls in January 2018 continues the post-Crisis trend of strong and persistent job growth that has been concentrated largely in lower-wage paying sectors. Private-sector payrolls grew at a two percent pace from 2010 through 2017, adding 18 million jobs. However, 8.4 million of these jobs were created in the low-paying sectors of hospitality, retail, and health care (see figure). At the end of 2017, private-sector average weekly earnings of nonsupervisory and production workers stood at $752, but were considerably lower in these three sectors: $340 (hospitality), $469 (retail) and $750 (health care).[1] Many post-Crisis jobs (47 percent) have been created in these three consistently low-paying sectors. Even if outsized job gains in these sectors continued, it is unlikely that these new jobs would generate the required sustained acceleration in costs and aggregate demand to raise inflation so much faster, or to such a high level, that the Fed will accelerate its pace of rate increases and \/ or balance sheet tightening. The post-Crisis recovery has demonstrated that rapid job creation does not always lead to accelerating inflation in the near term. Increased Investment Spending Adds to Productive Capacity and Supply\u2014Not Inflation Newly released data on orders for durable goods for December show that the long-awaited revival in investment spending in 2017 will continue. This foreshadows supply-side changes that will likely dissipate rather than contribute to inflationary pressures. The acceleration in nonresidential investment spending, which rose by 7.2\u00a0percent in 2017, presages more efficient supply chains, better logistics and inventory controls. Much of the increased investment spending in 2017 was directed toward buying better equipment and software to modernize production and delivery systems. Inflation-limiting effects are already evident from the impact of online retailers on traditional \u201cbrick and mortar\u201d stores. We see that although online sales have accelerated, price increases were contained because mobile apps facilitated price comparisons between online and traditional retailers, thereby increasing price competition. Tax reform also brings new incentives for firms to invest more in new technologies rather than merely expanding existing means of production (see my note \u201cSeeds to Higher Productivity Planted in Tax Reform Bill\u201d). The Administration\u2019s tax bill limiting the tax deductibility of business interest expense is a welcome step toward reducing the bias favoring debt financing and encouraging more equity funding, which may spur investments that improve productivity growth in the medium term. Concluding Thoughts: Strong Growth and Tight Labor Markets are Not Sufficient Reasons to Expect Inflation to Rise Fast Enough to Shift Fed Policy Financial market fears of rapidly rising inflation that will accelerate the pace of Fed tightening are palpable but likely unfounded. There is little doubt that inflation will rise toward, and possibly exceed, the Fed\u2019s target for price stability in the medium term\u2014but not anytime soon. Tightening labor markets should raise labor costs imminently, but there are few, if any, signs such cost increases are spurring price increases. Indeed, the apparently broken Phillips curve inflation model has underestimated the dampening effect from increased price competition. These new inflation-dampening influences have been enabled by investment-induced technological changes that are disrupting traditional supply chains, increasing productivity, and delaying inflationary price increases. <i>Assisted by Jakob Wilhelmus.<\/i> <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i> <i>[1] The health care average hides the wide disparity in pay among a relatively small number of skilled workers compared with a considerably larger number of less-skilled health care workers.<\/i>",
+    "format": "rich_text",
+    "processed": "Strong expenditure growth and tightening labor markets are spooking financial markets by intensifying fears that the Federal Reserve may shift to a faster pace of monetary tightening to stave off inflation. Inflation concerns have contributed to the rise in ten-year US Treasury rates to their highest levels since 2014 and the stumble in equity markets this year. Yet markets may be over-estimating the threat to price stability from the tightening labor market and faster pace of household and investment spending. That is because strong post-Crisis employment growth has not raised incomes fast enough to match the rapid pace of household spending during the last two years. Indeed, a sharp decline in the household saving rate financed much of last year\u2019s strong spending. Unusually large stock-market gains during the last year likely depressed the saving rate to a historically low level. The saving rate\u2019s rapid decline to 2.4\u00a0percent in December 2017, compared with 3.7 percent in January, may reverse if the outsized stock market gains evaporate. Also, the saving rate\u2019s decline during the second half of 2017 may have reflected rising optimism and confidence in the anticipated, but politically uncertain, passage of President Trump\u2019s tax-cut bill. Rather than being a source of rising inflation pressure, the contribution to faster GDP growth from increased investment spending likely has been disinflationary. The additional spending on equipment and software contributed to technological advances, which have limited rather than spurred the rate of price increases. Job Gains Skewed Toward Low Wage Sectors Are Not Likely to Generate Sustained Inflation-Boosting Spending The addition of 200K to payrolls in January 2018 continues the post-Crisis trend of strong and persistent job growth that has been concentrated largely in lower-wage paying sectors. Private-sector payrolls grew at a two percent pace from 2010 through 2017, adding 18 million jobs. However, 8.4 million of these jobs were created in the low-paying sectors of hospitality, retail, and health care (see figure). At the end of 2017, private-sector average weekly earnings of nonsupervisory and production workers stood at $752, but were considerably lower in these three sectors: $340 (hospitality), $469 (retail) and $750 (health care).[1] Many post-Crisis jobs (47 percent) have been created in these three consistently low-paying sectors. Even if outsized job gains in these sectors continued, it is unlikely that these new jobs would generate the required sustained acceleration in costs and aggregate demand to raise inflation so much faster, or to such a high level, that the Fed will accelerate its pace of rate increases and \/ or balance sheet tightening. The post-Crisis recovery has demonstrated that rapid job creation does not always lead to accelerating inflation in the near term. Increased Investment Spending Adds to Productive Capacity and Supply\u2014Not Inflation Newly released data on orders for durable goods for December show that the long-awaited revival in investment spending in 2017 will continue. This foreshadows supply-side changes that will likely dissipate rather than contribute to inflationary pressures. The acceleration in nonresidential investment spending, which rose by 7.2\u00a0percent in 2017, presages more efficient supply chains, better logistics and inventory controls. Much of the increased investment spending in 2017 was directed toward buying better equipment and software to modernize production and delivery systems. Inflation-limiting effects are already evident from the impact of online retailers on traditional \u201cbrick and mortar\u201d stores. We see that although online sales have accelerated, price increases were contained because mobile apps facilitated price comparisons between online and traditional retailers, thereby increasing price competition. Tax reform also brings new incentives for firms to invest more in new technologies rather than merely expanding existing means of production (see my note \u201cSeeds to Higher Productivity Planted in Tax Reform Bill\u201d). The Administration\u2019s tax bill limiting the tax deductibility of business interest expense is a welcome step toward reducing the bias favoring debt financing and encouraging more equity funding, which may spur investments that improve productivity growth in the medium term. Concluding Thoughts: Strong Growth and Tight Labor Markets are Not Sufficient Reasons to Expect Inflation to Rise Fast Enough to Shift Fed Policy Financial market fears of rapidly rising inflation that will accelerate the pace of Fed tightening are palpable but likely unfounded. There is little doubt that inflation will rise toward, and possibly exceed, the Fed\u2019s target for price stability in the medium term\u2014but not anytime soon. Tightening labor markets should raise labor costs imminently, but there are few, if any, signs such cost increases are spurring price increases. Indeed, the apparently broken Phillips curve inflation model has underestimated the dampening effect from increased price competition. These new inflation-dampening influences have been enabled by investment-induced technological changes that are disrupting traditional supply chains, increasing productivity, and delaying inflationary price increases. <i>Assisted by Jakob Wilhelmus.<\/i> <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i> <i>[1] The health care average hides the wide disparity in pay among a relatively small number of skilled workers compared with a considerably larger number of less-skilled health care workers.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

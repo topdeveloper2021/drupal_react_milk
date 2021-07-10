@@ -1,0 +1,23 @@
+uuid: 3494458a-67fd-425a-acfb-ec7a71e0de6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.slide_tiles
+  module:
+    - options
+id: paragraph.slide_tiles.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: slide_tiles
+label: 'View Mode'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: tile
+default_value_callback: ''
+settings: {  }
+field_type: list_string

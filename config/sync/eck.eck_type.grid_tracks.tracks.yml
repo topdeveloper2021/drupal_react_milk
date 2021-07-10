@@ -1,0 +1,9 @@
+uuid: bfc3b0c6-316e-43ca-aca5-c2c248888c75
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.grid_tracks
+type: tracks
+name: Tracks
+description: 'Panel Tracks for Grid Event Data'

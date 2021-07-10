@@ -1,0 +1,26 @@
+uuid: 342fef6e-3c03-4415-a5b9-beb601b4e694
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: featured_videos
+label: 'Featured Videos'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: media
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: changed
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 4
+  max_size: 4
+  act_as_queue: false
+  reverse: false

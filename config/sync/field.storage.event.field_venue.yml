@@ -1,0 +1,19 @@
+uuid: 916c35b8-ae2a-4cff-bcac-831574397f32
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_venue
+field_name: field_venue
+entity_type: event
+type: entity_reference
+settings:
+  target_type: location
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

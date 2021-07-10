@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/learning-ropes-later-life?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/15?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 474
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5e85cbdf-b7c5-48d7-8b2b-979f2baf73d0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 474
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/15?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dbc8ad3c-f344-49ae-ab8d-b4c5c61cd091"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Learning the Ropes Later in Life",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:10:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/learning-ropes-later-life",
+            "pid": 527,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "A growing number\u00a0of people\u00a0feel like an old carton of milk, with an expiration date stamped on their wrinkled foreheads.\u00a0One paradox of our time is that Boomers enjoy better health than ever, remain young and stay in the workplace longer, but feel less and less relevant. They\u00a0worry that bosses or potential employers may see their age more as a liability than an asset. Yet we workers \u201cof a certain age\u201d are less like a carton of milk and more like a bottle of fine wine\u2014especially now, in the digital era.I started a boutique hotel company when I was 26 and after 24 years as CEO, sold the company. That\u2019s when Airbnb came calling. In early 2013 co-founder and CEO Brian Chesky and his two Millennial co-founders asked me to help turn their growing tech startup into a hospitality\u00a0giant, as their head of global hospitality and strategy. Sounded good. But I was an \u201cold-school\u201d hotel guy and had never used Airbnb. I didn\u2019t have an\u00a0Uber or Lyft app on my phone. I was 52 years old, I\u2019d never worked in a tech company, I was twice the age of the average Airbnb employee, and, after running my own company for well over two decades, I\u2019d be reporting to a smart guy 21 years my junior. I was a little intimidated. But I took the job.On my first day I heard an existential tech question in a meeting and didn\u2019t know how to answer it: \u201cIf you shipped a feature and no one used it, did it really ship?\u201d Bewildered, I realized I was in deep \u201cship,\u201d as I didn\u2019t know what it meant to \u201cship product.\u201d Brian had asked me to be his mentor, but I also felt like an intern. I realized I\u2019d have to figure out a way to be both.First, I quickly learned that I needed to evolve my historical work identity. The company didn\u2019t need two CEOs, or me pontificating wisdom from the elder\u2019s pulpit. More than anything, I listened and watched intently like a cultural anthropologist, intrigued by this new habitat. Often I would leave a meeting and discreetly ask one of my fellow leaders, who might be two decades younger than I\u00a0was, if they were open to some private feedback on how to read the emotions in the room a little more effectively.My next lesson can be summarized in a one-line trade agreement: \u201cI\u2019ll offer you some emotional intelligence for your digital intelligence.\u201d Many young people can read the face of their iPhone better than the face of the person sitting next to them. I was surrounded by folks who were tech-savvy\u2014but were perhaps unaware that being \u201cemo-savvy\u201d could be just the thing to help them grow into great leaders. I realized that we expect young digital-era leaders to miraculously embody relationship wisdom, with very little training, that we elders had twice as long to learn. Over time, I learned how to intern publicly and a mentor privately.I also reconceived my bewilderment as curiosity, and gave free rein to it. I asked a lot of \u201cwhy\u201d and \u201cwhat if\u201d questions, forsaking the \u201cwhat\u201d and \u201chow\u201d questions on which most senior leaders focus. My beginner\u2019s mind helped us see our blind spots a little better. Paradoxically, this curiosity kept me feeling young.Management theorist Peter Drucker was famously curious. He lived to age 95, and one of the ways he thrived later in life was by diving deeply into a new subject that intrigued him, from Japanese flower arranging to medieval war strategy.I\u2019ve spent a lifetime being curious about people and things, which, I guess, means I\u2019m well-read and well connected. I\u2019m not sure there\u2019s anyone in Airbnb who\u2019s been asked to chat by a more diverse collection of employees. I always responded with an enthusiastic yes to these invitations because if I were to plot all of those conversations across the various islands (or departments) of the company, you\u2019d see a rich web of relationships and knowledge. This served me even more as a strategic advisor to the founders since I had a real sense of the pulse of the company and its various teams. And, I felt a sense of meaning being a confidante to so many.Boomers and Millennials have a lot to offer and learn from each other. Enter the \u201cModern Elder,\u201d who serves and learns, as both mentor and intern, and relishes being both student and sage. The opportunity for intergenerational learning is especially important to Boomers, as we are likely to live 10 years longer than our parents, yet power in a digital society has moved 10 younger. This means Boomers could experience 20 additional years of irrelevance and obsolescence.Wisdom is about pattern recognition. And the older you are, the more patterns you\u2019ve seen. There\u2019s an old saying I love:\"When an elder dies, it\u2019s like a library has burned down.\u201dIn the digital era, libraries\u2014and elders\u2014aren\u2019t quite as popular as they used to be. But wisdom never grows old.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "A growing number\u00a0of people\u00a0feel like an old carton of milk, with an expiration date stamped on their wrinkled foreheads.\u00a0One paradox of our time is that Boomers enjoy better health than ever, remain young and stay in the workplace longer, but feel less and less relevant. They\u00a0worry that bosses or potential employers may see their age more as a liability than an asset. Yet we workers \u201cof a certain age\u201d are less like a carton of milk and more like a bottle of fine wine\u2014especially now, in the digital era.I started a boutique hotel company when I was 26 and after 24 years as CEO, sold the company. That\u2019s when Airbnb came calling. In early 2013 co-founder and CEO Brian Chesky and his two Millennial co-founders asked me to help turn their growing tech startup into a hospitality\u00a0giant, as their head of global hospitality and strategy. Sounded good. But I was an \u201cold-school\u201d hotel guy and had never used Airbnb. I didn\u2019t have an\u00a0Uber or Lyft app on my phone. I was 52 years old, I\u2019d never worked in a tech company, I was twice the age of the average Airbnb employee, and, after running my own company for well over two decades, I\u2019d be reporting to a smart guy 21 years my junior. I was a little intimidated. But I took the job.On my first day I heard an existential tech question in a meeting and didn\u2019t know how to answer it: \u201cIf you shipped a feature and no one used it, did it really ship?\u201d Bewildered, I realized I was in deep \u201cship,\u201d as I didn\u2019t know what it meant to \u201cship product.\u201d Brian had asked me to be his mentor, but I also felt like an intern. I realized I\u2019d have to figure out a way to be both.First, I quickly learned that I needed to evolve my historical work identity. The company didn\u2019t need two CEOs, or me pontificating wisdom from the elder\u2019s pulpit. More than anything, I listened and watched intently like a cultural anthropologist, intrigued by this new habitat. Often I would leave a meeting and discreetly ask one of my fellow leaders, who might be two decades younger than I\u00a0was, if they were open to some private feedback on how to read the emotions in the room a little more effectively.My next lesson can be summarized in a one-line trade agreement: \u201cI\u2019ll offer you some emotional intelligence for your digital intelligence.\u201d Many young people can read the face of their iPhone better than the face of the person sitting next to them. I was surrounded by folks who were tech-savvy\u2014but were perhaps unaware that being \u201cemo-savvy\u201d could be just the thing to help them grow into great leaders. I realized that we expect young digital-era leaders to miraculously embody relationship wisdom, with very little training, that we elders had twice as long to learn. Over time, I learned how to intern publicly and a mentor privately.I also reconceived my bewilderment as curiosity, and gave free rein to it. I asked a lot of \u201cwhy\u201d and \u201cwhat if\u201d questions, forsaking the \u201cwhat\u201d and \u201chow\u201d questions on which most senior leaders focus. My beginner\u2019s mind helped us see our blind spots a little better. Paradoxically, this curiosity kept me feeling young.Management theorist Peter Drucker was famously curious. He lived to age 95, and one of the ways he thrived later in life was by diving deeply into a new subject that intrigued him, from Japanese flower arranging to medieval war strategy.I\u2019ve spent a lifetime being curious about people and things, which, I guess, means I\u2019m well-read and well connected. I\u2019m not sure there\u2019s anyone in Airbnb who\u2019s been asked to chat by a more diverse collection of employees. I always responded with an enthusiastic yes to these invitations because if I were to plot all of those conversations across the various islands (or departments) of the company, you\u2019d see a rich web of relationships and knowledge. This served me even more as a strategic advisor to the founders since I had a real sense of the pulse of the company and its various teams. And, I felt a sense of meaning being a confidante to so many.Boomers and Millennials have a lot to offer and learn from each other. Enter the \u201cModern Elder,\u201d who serves and learns, as both mentor and intern, and relishes being both student and sage. The opportunity for intergenerational learning is especially important to Boomers, as we are likely to live 10 years longer than our parents, yet power in a digital society has moved 10 younger. This means Boomers could experience 20 additional years of irrelevance and obsolescence.Wisdom is about pattern recognition. And the older you are, the more patterns you\u2019ve seen. There\u2019s an old saying I love:\"When an elder dies, it\u2019s like a library has burned down.\u201dIn the digital era, libraries\u2014and elders\u2014aren\u2019t quite as popular as they used to be. But wisdom never grows old.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

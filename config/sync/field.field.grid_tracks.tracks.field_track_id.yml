@@ -1,0 +1,23 @@
+uuid: 3cc8f159-341e-4c8b-b09b-f42461362e63
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_tracks.tracks
+    - field.storage.grid_tracks.field_track_id
+id: grid_tracks.tracks.field_track_id
+field_name: field_track_id
+entity_type: grid_tracks
+bundle: tracks
+label: 'Track Id'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

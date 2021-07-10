@@ -1,0 +1,97 @@
+uuid: fd1a016a-1ab2-4f7d-b3ff-9f61b817cf5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tiles_taxonomy.field_entity_type
+    - field.field.paragraph.tiles_taxonomy.field_term
+    - paragraphs.paragraphs_type.tiles_taxonomy
+  module:
+    - field_group
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_authoring
+        - group_content
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_authoring:
+      children:
+        - created
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Authoring
+    group_content:
+      children:
+        - field_term
+        - field_entity_type
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: Content
+id: paragraph.tiles_taxonomy.default
+targetEntityType: paragraph
+bundle: tiles_taxonomy
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_entity_type:
+    weight: -8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  field_term:
+    weight: -9
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  status:
+    type: boolean_checkbox
+    weight: -10
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

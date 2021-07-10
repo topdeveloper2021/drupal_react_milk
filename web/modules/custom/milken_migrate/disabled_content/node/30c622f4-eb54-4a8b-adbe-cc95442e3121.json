@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/technology-catalyst-new-era-aging-place?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/152?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 780
+        }
+    ],
+    "uuid": [
+        {
+            "value": "30c622f4-eb54-4a8b-adbe-cc95442e3121"
+        }
+    ],
+    "vid": [
+        {
+            "value": 780
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/152?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a5a71a72-1f78-4c23-8b40-abbcc8643953"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Technology: Catalyst for a New Era of Aging in Place",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T16:55:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:13:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/technology-catalyst-new-era-aging-place",
+            "pid": 833,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In Stanley Kubrick\u2019s 1968 film \u201c2001: A Space Odyssey,\u201d Hal, the defiant onboard computer, foreshadows a future of runaway artificial intelligence. More recently, fears about machines making work obsolete and apocalyptic visions of robot revolts have been subjects of discussion in think tanks, academic institutions and media outlets. As futurists debate the merits and risks of new technologies, we know today that technological progress is providing solutions for a new generation of older adults who seek to remain active, contributing and connected to their families, friends and communities. As we noted in our recent Milken Institute\u00a0<i>Best Cities for Successful Aging<\/i>\u00a0report, an overwhelming majority of older adults express a desire to age at home and in place. Technological advances may be an answer to that challenge. The proliferation of the \u201cInternet of things\u201d is in full swing, and older adults will be beneficiaries. Wearables and digital devices monitor health and movement data and enhance safety. Phones, computers and social networks provide connections to family, friends, physicians and caregivers, and almost instant access to a wide range of products and services. Virtual workplaces and distance learning elevate knowledge, productivity and purpose. Thoughtful architecture and computer-assisted design create new-generation homes that are built to accommodate aging, with navigable floors, doorways and rooms, counter heights for standing or sitting, thermostats that are easy to set and entertainment options that would have been unimaginable a generation ago. Older adults can look to technology for help in preparing meals and ensuring that the right medicine is taken at the right time. Tuned to particular needs and preferences, home environments will be customized and personalized as technological innovation brings out the best of both human and machine. The next frontier of aging in place and technology is just outside the front door\u2014the city. A city provides support systems that enable older adults to interact with others, maintain their health, enjoy mobility and enrich their lives and minds. We know that cities are centers of ideas, experimentation and innovation. Local leaders can effect change, often more rapidly than their counterparts on the national stage. This has been recognized through the work of many organizations, including our own, that focus on improving cities for aging populations. All recognize that an effective city for older adults is a good city for all ages. Technological advances can clearly enhance aging in the city, as they do in the home. An example is transportation solutions that enable physical connections\u2014to work, volunteer opportunities, health systems, educational institutions, cultural amenities and the like\u2014connections that are just as critical as the virtual connections in the home. Effective leaders are not only advocates for proven transportation technologies such as public transit systems and evolving ideas for personal mobility, but they are actively exploring the potential of autonomous cars and other innovations enabled by the sharing economy. For older adults, a wide range of effective transit options could be the difference between engaged and healthy later years and loneliness and lack of access to services. Advancing technology will improve aging lives, but availability, democratization, adoption and integration will take time. All ages have a stake in these developments\u2014and the true beneficiaries may well be aging generations to come. In the meantime, as concerns about the impacts of technology weigh on some, we should celebrate technology\u2019s potential to empower older adults and brighten the future of aging. <i>This piece originally appeared in the Bipartisan Policy Center, Health and Housing Expert Forum October 6th, 2015\u00a0<\/i>",
+    "format": "rich_text",
+    "processed": "In Stanley Kubrick\u2019s 1968 film \u201c2001: A Space Odyssey,\u201d Hal, the defiant onboard computer, foreshadows a future of runaway artificial intelligence. More recently, fears about machines making work obsolete and apocalyptic visions of robot revolts have been subjects of discussion in think tanks, academic institutions and media outlets. As futurists debate the merits and risks of new technologies, we know today that technological progress is providing solutions for a new generation of older adults who seek to remain active, contributing and connected to their families, friends and communities. As we noted in our recent Milken Institute\u00a0<i>Best Cities for Successful Aging<\/i>\u00a0report, an overwhelming majority of older adults express a desire to age at home and in place. Technological advances may be an answer to that challenge. The proliferation of the \u201cInternet of things\u201d is in full swing, and older adults will be beneficiaries. Wearables and digital devices monitor health and movement data and enhance safety. Phones, computers and social networks provide connections to family, friends, physicians and caregivers, and almost instant access to a wide range of products and services. Virtual workplaces and distance learning elevate knowledge, productivity and purpose. Thoughtful architecture and computer-assisted design create new-generation homes that are built to accommodate aging, with navigable floors, doorways and rooms, counter heights for standing or sitting, thermostats that are easy to set and entertainment options that would have been unimaginable a generation ago. Older adults can look to technology for help in preparing meals and ensuring that the right medicine is taken at the right time. Tuned to particular needs and preferences, home environments will be customized and personalized as technological innovation brings out the best of both human and machine. The next frontier of aging in place and technology is just outside the front door\u2014the city. A city provides support systems that enable older adults to interact with others, maintain their health, enjoy mobility and enrich their lives and minds. We know that cities are centers of ideas, experimentation and innovation. Local leaders can effect change, often more rapidly than their counterparts on the national stage. This has been recognized through the work of many organizations, including our own, that focus on improving cities for aging populations. All recognize that an effective city for older adults is a good city for all ages. Technological advances can clearly enhance aging in the city, as they do in the home. An example is transportation solutions that enable physical connections\u2014to work, volunteer opportunities, health systems, educational institutions, cultural amenities and the like\u2014connections that are just as critical as the virtual connections in the home. Effective leaders are not only advocates for proven transportation technologies such as public transit systems and evolving ideas for personal mobility, but they are actively exploring the potential of autonomous cars and other innovations enabled by the sharing economy. For older adults, a wide range of effective transit options could be the difference between engaged and healthy later years and loneliness and lack of access to services. Advancing technology will improve aging lives, but availability, democratization, adoption and integration will take time. All ages have a stake in these developments\u2014and the true beneficiaries may well be aging generations to come. In the meantime, as concerns about the impacts of technology weigh on some, we should celebrate technology\u2019s potential to empower older adults and brighten the future of aging. <i>This piece originally appeared in the Bipartisan Policy Center, Health and Housing Expert Forum October 6th, 2015\u00a0<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/digital-ecosystems-are-future-successful-companies?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/185?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 813
+        }
+    ],
+    "uuid": [
+        {
+            "value": "236a7674-a47b-47e6-8bd8-557b56ce7e38"
+        }
+    ],
+    "vid": [
+        {
+            "value": 813
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/185?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eb5880a6-36e2-4f1b-b85d-62957f9e7625"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Digital Ecosystems Are the Future for Successful Companies",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-01T12:25:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-12T23:26:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/digital-ecosystems-are-future-successful-companies",
+            "pid": 866,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "When the average company life span on the S&P 500 has dropped from 61 years to 18, spotting change is more critical than ever for a company\u2019s long-term stability and growth. Disruption has made old business models redundant and bankrupted a list of former Wall Street titans across industries. Once bound by geography or sector, companies are now leveraging digital technology to build borderless entities and launch expansion into online ecosystems\u2014crossing geographies and blurring industry lines. Today\u2019s ecosystems allow a diverse range of companies of all sizes to create, scale, and serve markets beyond the capabilities of any single organization. Companies can interact and innovate with other ecosystem members in increasingly sophisticated ways to the benefit of their clients. All participants are bonded by shared interests and values that give incentive to collectively develop the ecosystem, ensuring the longevity of the ecosystem as well as the companies. The most successful ecosystem players leverage an always-on consumer base. There are currently 5 billion mobile users worldwide, and research shows that, on average, we spend around 100 days of each year online. These elements enable companies to expand more rapidly and focus on value-add outside the pre-existing industry confinements. Leading global hotel brands like Marriott took 69 years to enter 26 countries; it took Hilton 72 years for 69 countries. Airbnb took three years to enter 89\u2014and it doesn\u2019t own a single hotel. Alipay, started 15 years ago, now has 1 billion users worldwide\u2014250 million more than Visa has credit cards globally. The rise of digitally native companies has transformed modern industry, enabling new competition from banks and non-banks alike in the financial services industry. This has raised the bar. Clients have come to expect banks to provide the same seamless, frictionless experiences that they are receiving from Spotify, Grab, Amazon, and Uber rather than another bank. To remain relevant, banks have responded\u2014not by building more branches but by building more bridges into these relevant ecosystems. Partnerships have created new business models and, in some cases, strengthened old ones. The notion of business ecosystems is nothing new; people long have bought and sold goods within loosely connected networks that collectively comprise marketplaces. A market in Ancient Rome was just as much an ecosystem as Alipay\u2014it just didn\u2019t stretch as far. Over half of Citi\u2019s credit cards in China are now settled via Alipay, and nearly half of new credit cards in Asia Pacific are acquired via digital channels. Digital banking, including partnerships, and the growth of FinTech will continue to shape the future of the financial services industry. This will demand more agility and the use of newer and emerging technologies as they become more feasible. Banks are up for the challenge, and integration and partnership between banks and digital natives is more the story than disruption for now. In this digital world, we are moving towards digital money at an unprecedented pace. We need to ensure that we are solving real-world problems by creating real-world solutions to the benefit of consumers. Digital money, through partnerships, is transforming access to the banking sector. Foremost among the social benefits of digital money is its power to create new opportunities for the unbanked and underbanked and drive higher levels of financial inclusion. As we navigate the transformation of our industry, we must ensure that we balance the business benefits of these innovations with investments to create true value-add in delivering a better quality of life to millions who need them. Much further change lies ahead. One thing will remain constant: As change continues, more and more consumers will continue to reap the benefits.",
+    "format": "rich_text",
+    "processed": "When the average company life span on the S&amp;P 500 has dropped from 61 years to 18, spotting change is more critical than ever for a company\u2019s long-term stability and growth. Disruption has made old business models redundant and bankrupted a list of former Wall Street titans across industries. Once bound by geography or sector, companies are now leveraging digital technology to build borderless entities and launch expansion into online ecosystems\u2014crossing geographies and blurring industry lines. Today\u2019s ecosystems allow a diverse range of companies of all sizes to create, scale, and serve markets beyond the capabilities of any single organization. Companies can interact and innovate with other ecosystem members in increasingly sophisticated ways to the benefit of their clients. All participants are bonded by shared interests and values that give incentive to collectively develop the ecosystem, ensuring the longevity of the ecosystem as well as the companies. The most successful ecosystem players leverage an always-on consumer base. There are currently 5 billion mobile users worldwide, and research shows that, on average, we spend around 100 days of each year online. These elements enable companies to expand more rapidly and focus on value-add outside the pre-existing industry confinements. Leading global hotel brands like Marriott took 69 years to enter 26 countries; it took Hilton 72 years for 69 countries. Airbnb took three years to enter 89\u2014and it doesn\u2019t own a single hotel. Alipay, started 15 years ago, now has 1 billion users worldwide\u2014250 million more than Visa has credit cards globally. The rise of digitally native companies has transformed modern industry, enabling new competition from banks and non-banks alike in the financial services industry. This has raised the bar. Clients have come to expect banks to provide the same seamless, frictionless experiences that they are receiving from Spotify, Grab, Amazon, and Uber rather than another bank. To remain relevant, banks have responded\u2014not by building more branches but by building more bridges into these relevant ecosystems. Partnerships have created new business models and, in some cases, strengthened old ones. The notion of business ecosystems is nothing new; people long have bought and sold goods within loosely connected networks that collectively comprise marketplaces. A market in Ancient Rome was just as much an ecosystem as Alipay\u2014it just didn\u2019t stretch as far. Over half of Citi\u2019s credit cards in China are now settled via Alipay, and nearly half of new credit cards in Asia Pacific are acquired via digital channels. Digital banking, including partnerships, and the growth of FinTech will continue to shape the future of the financial services industry. This will demand more agility and the use of newer and emerging technologies as they become more feasible. Banks are up for the challenge, and integration and partnership between banks and digital natives is more the story than disruption for now. In this digital world, we are moving towards digital money at an unprecedented pace. We need to ensure that we are solving real-world problems by creating real-world solutions to the benefit of consumers. Digital money, through partnerships, is transforming access to the banking sector. Foremost among the social benefits of digital money is its power to create new opportunities for the unbanked and underbanked and drive higher levels of financial inclusion. As we navigate the transformation of our industry, we must ensure that we balance the business benefits of these innovations with investments to create true value-add in delivering a better quality of life to millions who need them. Much further change lies ahead. One thing will remain constant: As change continues, more and more consumers will continue to reap the benefits.",
+    "summary": null,
+    "summary_processed": ""
+}

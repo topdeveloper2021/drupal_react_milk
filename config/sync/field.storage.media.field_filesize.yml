@@ -1,0 +1,21 @@
+uuid: c246c214-947d-42cf-9d3d-8727d787a9ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_filesize
+field_name: field_filesize
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

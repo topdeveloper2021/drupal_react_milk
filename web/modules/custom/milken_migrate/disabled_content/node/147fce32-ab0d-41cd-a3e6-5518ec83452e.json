@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/setting-course-positive-future-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/98?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 579
+        }
+    ],
+    "uuid": [
+        {
+            "value": "147fce32-ab0d-41cd-a3e6-5518ec83452e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 579
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/98?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f10b4e1c-3bf5-4fcf-8484-c90cbfc4cc0e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Setting the Course for a Positive Future of Health",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T19:14:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/setting-course-positive-future-health",
+            "pid": 632,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The fundamental health-care challenge of the 21st century is no longer only infectious disease. Globally more than twice as many people die from chronic diseases that could have been prevented by a change in lifestyle than infectious disease. Chronic, lifestyle-preventable disease will cost the global economy $47 trillion over 20 years. In the U.S., nearly 20 percent of our GDP is spent on health care, 84 percent of which is for chronic disease. The majority of this disease burden\u2014cardiovascular disease, Type 2 Diabetes, dementia, and cancer\u2014is caused by poor diet and the social, political, and economic conditions that give rise to our current food system. Against this backdrop, there are six big trends in science, technology, food systems, and health-care delivery that have the potential to shift this trajectory and reverse the loss of human, economic, and natural capital. <b>1. Systems Biology\/Personalized Medicine:<\/b> Advances in systems biology\/personalized medicine\u2014including, but not only pharmacogenomics\u2014will revolutionize our understanding of disease and move it from being symptom-focused toward an understanding of the causes and mechanisms of disease. The focus of diagnosis and treatment will be based on understanding our bodies\u2019 complex, dynamic adaptive systems. The clinical application of this model is called Functional Medicine. We will move away from ICD-10 (International Classification of Diseases-10) labels based on symptoms and geography or the medicine of WHAT (what disease, what drug), to the medicine of WHY (cause and mechanisms). This new paradigm provides a roadmap for health creation and optimization, as well as disease reversal along the entire continuum of disease. <b>2. Big Data, Artificial Intelligence, Quantified Self:<\/b> The advances in big data, quantified self, and artificial intelligence will help us map the omics revolution (especially the microbiome and metabolome, and even the metabolome of the microbiome) and advance our understanding and application of systems biology and medicine. It will enable the mapping of biological networks, defining patterns and dysfunction, and support decision making for providers. Systems theory and medicine will illuminate our complex, dynamic, adaptive biological networks. Rather than treating diseases and symptoms, the focus will be how to restore the body to optimal function. This will replace reductionist disease-based inputs into AI. Google and other tech companies are aggressively moving into this space and will leave traditional health-care institutions behind. <b>3. Consumer-Driven Health Care:<\/b> The shifts in consumer-driven health care will disintermediate existing health-care systems and institutions. Today, for example, Vida, Omada, and Virta Health all deliver superior results to conventional medical systems with digital solutions, filling in major gaps in health care while providing far better outcomes at lower costs. <b>4. Value-Based Health Care:<\/b> Changes in health-care reimbursement from volume to value will shift incentives and promote innovation around both prevention and lifestyle\/functional medicine as treatment for chronic disease. This will also require new delivery models\u2014something we are focused on at Cleveland Clinic with pilot programs for shared medical appointments. Food pharmacies have been proven to reduce health-care costs by 80 percent simply by giving food insecure Type 2 Diabetes patients $2,400 in food and support to implement lifestyle changes. When we get paid for better outcomes delivered at lower costs using disruptive models of care and care delivery, innovation will drive big shifts in health care practice and delivery. <b>5. Disruptive Health-Care Delivery Models:<\/b> Health-care delivery models will shift from antiquated 1:1 visits, which are appropriate for acute care, to group models, online programs, community models, and faith-based wellness models such as The Daniel Plan. We will be forced to redesign health care to include the science of behavioral change. Telling our patients to lose weight and exercise is counterproductive unless we focus on the social determinants of health\u2014far more important than any other health metric, and virtually ignored in medical practice. Think health care without walls. This includes much needed changes in our food system, which drives most of our chronic disease epidemic. <b>6. Food as Medicine\/Food System Changes:<\/b> There is science establishing food as medicine for both the prevention and treatment of disease, including chronic disease. First, science has established the central role our processed, industrialized diet (and the food system, including policy, agriculture, production, distribution, and marketing) plays in the creation of our global chronic disease pandemic. And second, science as medicine has shown food acts as a biological response modifier that influences gene expression, hormones, immune function, brain chemistry, the microbiome, and more to reverse disease and create health. This understanding will drive changes in health care, but will require structural change in our food production, processing, and distribution systems, supported by policies, business innovation, and consumer demand. Taken together these trends have the potential to radically transform our notions of how to prevent and treat chronic disease, how health care is delivered, and how we can reverse the loss of human, economic, and natural capital resulting from our current food and health-care systems.",
+    "format": "rich_text",
+    "processed": "The fundamental health-care challenge of the 21st century is no longer only infectious disease. Globally more than twice as many people die from chronic diseases that could have been prevented by a change in lifestyle than infectious disease. Chronic, lifestyle-preventable disease will cost the global economy $47 trillion over 20 years. In the U.S., nearly 20 percent of our GDP is spent on health care, 84 percent of which is for chronic disease. The majority of this disease burden\u2014cardiovascular disease, Type 2 Diabetes, dementia, and cancer\u2014is caused by poor diet and the social, political, and economic conditions that give rise to our current food system. Against this backdrop, there are six big trends in science, technology, food systems, and health-care delivery that have the potential to shift this trajectory and reverse the loss of human, economic, and natural capital. <b>1. Systems Biology\/Personalized Medicine:<\/b> Advances in systems biology\/personalized medicine\u2014including, but not only pharmacogenomics\u2014will revolutionize our understanding of disease and move it from being symptom-focused toward an understanding of the causes and mechanisms of disease. The focus of diagnosis and treatment will be based on understanding our bodies\u2019 complex, dynamic adaptive systems. The clinical application of this model is called Functional Medicine. We will move away from ICD-10 (International Classification of Diseases-10) labels based on symptoms and geography or the medicine of WHAT (what disease, what drug), to the medicine of WHY (cause and mechanisms). This new paradigm provides a roadmap for health creation and optimization, as well as disease reversal along the entire continuum of disease. <b>2. Big Data, Artificial Intelligence, Quantified Self:<\/b> The advances in big data, quantified self, and artificial intelligence will help us map the omics revolution (especially the microbiome and metabolome, and even the metabolome of the microbiome) and advance our understanding and application of systems biology and medicine. It will enable the mapping of biological networks, defining patterns and dysfunction, and support decision making for providers. Systems theory and medicine will illuminate our complex, dynamic, adaptive biological networks. Rather than treating diseases and symptoms, the focus will be how to restore the body to optimal function. This will replace reductionist disease-based inputs into AI. Google and other tech companies are aggressively moving into this space and will leave traditional health-care institutions behind. <b>3. Consumer-Driven Health Care:<\/b> The shifts in consumer-driven health care will disintermediate existing health-care systems and institutions. Today, for example, Vida, Omada, and Virta Health all deliver superior results to conventional medical systems with digital solutions, filling in major gaps in health care while providing far better outcomes at lower costs. <b>4. Value-Based Health Care:<\/b> Changes in health-care reimbursement from volume to value will shift incentives and promote innovation around both prevention and lifestyle\/functional medicine as treatment for chronic disease. This will also require new delivery models\u2014something we are focused on at Cleveland Clinic with pilot programs for shared medical appointments. Food pharmacies have been proven to reduce health-care costs by 80 percent simply by giving food insecure Type 2 Diabetes patients $2,400 in food and support to implement lifestyle changes. When we get paid for better outcomes delivered at lower costs using disruptive models of care and care delivery, innovation will drive big shifts in health care practice and delivery. <b>5. Disruptive Health-Care Delivery Models:<\/b> Health-care delivery models will shift from antiquated 1:1 visits, which are appropriate for acute care, to group models, online programs, community models, and faith-based wellness models such as The Daniel Plan. We will be forced to redesign health care to include the science of behavioral change. Telling our patients to lose weight and exercise is counterproductive unless we focus on the social determinants of health\u2014far more important than any other health metric, and virtually ignored in medical practice. Think health care without walls. This includes much needed changes in our food system, which drives most of our chronic disease epidemic. <b>6. Food as Medicine\/Food System Changes:<\/b> There is science establishing food as medicine for both the prevention and treatment of disease, including chronic disease. First, science has established the central role our processed, industrialized diet (and the food system, including policy, agriculture, production, distribution, and marketing) plays in the creation of our global chronic disease pandemic. And second, science as medicine has shown food acts as a biological response modifier that influences gene expression, hormones, immune function, brain chemistry, the microbiome, and more to reverse disease and create health. This understanding will drive changes in health care, but will require structural change in our food production, processing, and distribution systems, supported by policies, business innovation, and consumer demand. Taken together these trends have the potential to radically transform our notions of how to prevent and treat chronic disease, how health care is delivered, and how we can reverse the loss of human, economic, and natural capital resulting from our current food and health-care systems.",
+    "summary": null,
+    "summary_processed": ""
+}

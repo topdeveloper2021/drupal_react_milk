@@ -1,0 +1,9 @@
+status: 0
+pattern: '[grid_speakers:field_first_name] [grid_speakers:field_middle_name] [grid_speakers:field_last_name]'
+escape: false
+preserve_titles: false
+save: 0
+chunk: '50'
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers

@@ -1,0 +1,29 @@
+uuid: cd29b238-e6a4-4203-889e-288b1db23cb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_regions
+    - taxonomy.vocabulary.region
+id: panel.panel.field_regions
+field_name: field_regions
+entity_type: panel
+bundle: panel
+label: Regions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

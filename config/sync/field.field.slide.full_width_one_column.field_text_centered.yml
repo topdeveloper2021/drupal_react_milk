@@ -1,0 +1,23 @@
+uuid: f54399b4-79c6-44d4-befc-a4fcf6afb44f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_text_centered
+id: slide.full_width_one_column.field_text_centered
+field_name: field_text_centered
+entity_type: slide
+bundle: full_width_one_column
+label: 'Text Centered'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Centered Text'
+  off_label: 'Default Alignment'
+field_type: boolean

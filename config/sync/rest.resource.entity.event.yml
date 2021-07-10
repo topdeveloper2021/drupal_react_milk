@@ -1,0 +1,25 @@
+uuid: 6c276181-c3d8-4180-a6f0-7a2475e588a9
+langcode: en
+status: false
+dependencies:
+  module:
+    - eck
+    - hal
+    - schemata_json_schema
+    - serialization
+    - simple_oauth
+    - user
+id: entity.event
+plugin_id: 'entity:event'
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      1: hal_json
+      2: 'schema_json:json'
+      3: json
+      4: xml
+      5: schema_json
+    supported_auth:
+      - oauth2
+      - cookie

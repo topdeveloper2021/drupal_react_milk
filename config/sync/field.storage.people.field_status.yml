@@ -1,0 +1,18 @@
+uuid: 43dcabf2-5e1f-4344-af8d-36183d2b44ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_status
+field_name: field_status
+entity_type: people
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 4ddb2290-716d-46fc-8606-33fc73703c72
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_blurb
+id: event.meeting.field_blurb
+field_name: field_blurb
+entity_type: event
+bundle: meeting
+label: Blurb
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

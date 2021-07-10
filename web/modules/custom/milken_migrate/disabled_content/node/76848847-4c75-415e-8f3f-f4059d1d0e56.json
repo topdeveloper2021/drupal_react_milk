@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-releases-2017-best-cities-successful-aging-rankings?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 16
+        }
+    ],
+    "uuid": [
+        {
+            "value": "76848847-4c75-415e-8f3f-f4059d1d0e56"
+        }
+    ],
+    "vid": [
+        {
+            "value": 16
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Milken Institute Releases 2017 \"Best Cities for Successful Aging\" Rankings",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-03-14T11:02:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-releases-2017-best-cities-successful-aging-rankings",
+            "pid": 69,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014The Milken Institute today released the third edition of its \"Best Cities for Successful Aging\" report and index, a collaboration between the Institute's Center for the Future of Aging and its Research Department. The report evaluates 381 U.S. metropolitan areas to determine how well they serve the needs of the nation's growing population of mature adults, enabling them to age productively, securely, and in optimal health.<b>The top 10 large and small metropolitan areas for 2017 are:<\/b><table><tr><td><b> Rankings \u2013 Large Metros <\/b>\n<\/td>\n<td>\n<b>Rankings \u2013 Small Metros<\/b>\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nProvo-Orem, UT\n<\/td>\n<td>\n1\n<\/td>\n<td>\nIowa City, IA\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nMadison, WI\n<\/td>\n<td>\n2\n<\/td>\n<td>\nManhattan, KS\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nDurham-Chapel Hill, NC\n<\/td>\n<td>\n3\n<\/td>\n<td>\nAmes, IA\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nSalt Lake City, UT\n<\/td>\n<td>\n4\n<\/td>\n<td>\nColumbia, MO\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nDes Moines-West Des Moines, IA\n<\/td>\n<td>\n5\n<\/td>\n<td>\nSioux Falls, SD\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nAustin-Round Rock, TX\n<\/td>\n<td>\n6\n<\/td>\n<td>\nAnn Arbor, MI\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nOmaha-Council Bluffs, NE-IA\n<\/td>\n<td>\n7\n<\/td>\n<td>\nIthaca, NY\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nJackson, MS\n<\/td>\n<td>\n8\n<\/td>\n<td>\nLawrence, KS\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nBoston-Cambridge-Newton, MA-NH\n<\/td>\n<td>\n9\n<\/td>\n<td>\nLogan, UT-ID\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nSan Francisco-Oakland-Hayward, CA\n<\/td>\n<td>\n10\n<\/td>\n<td>\nFairbanks, AK\n<\/td>\n<\/tr><\/table>More than 80 percent of Americans age 65-plus live in metropolitan areas,1\u00a0and nearly 90 percent of older adults in the U.S. want to age in their homes and communities.2\u00a0Thus, the \"Best Cities for Successful Aging\" index is not intended to identify the locales to which older adults should retire. Instead, the index and report are designed to highlight the nation's most livable metropolitan areas\u2014those that enable an optimal quality of life for their aging citizens.\u00a0\"Cities are on the front lines of the largest demographic shift in history,\" said\u00a0Paul Irving, Chairman of the Center for the Future of Aging. \"Lifespans are extending into eight, nine, and ten decades, and older adults increasingly are seeking lifelong engagement and purpose. They expect their cities and communities to support their changing needs.\"To evaluate the metropolitan areas that foster the best overall quality of life for older adults, the Milken Institute utilized public data--83 indicators across nine categories. These categories included general livability, health care, wellness, financial security, living arrangements, employment, education, transportation and convenience, and community engagement.<b>The Mayor's Pledge<\/b>Recognizing the pivotal role of mayors and other local government officials in championing a supportive environment for an aging population, the Milken Institute Center for the Future of Aging in 2014 launched\u00a0The Mayor's Pledge. Since its inception, nearly 200 mayors across\u00a0the United States\u00a0have joined this movement for purposeful, healthy aging and committed to making their cities work better for older residents.\u00a0View the list of pledging mayors.<b>Programs With Purpose<\/b>In addition, the Milken Institute canvassed the country to discover programs and projects spearheaded by nonprofit organizations, public agencies, and businesses that engage older adults and bring positive change to their lives and communities. The Programs With Purpose detailed in the new edition of the report represent a few of the initiatives that serve as examples for others to emulate.\"The policies, programs, and features that we highlight in 'Best Cities for Successful Aging' are not just important for older adults,\" said Irving. \"Throughout our lives, we seek meaning and purpose. A vibrant economy, efficient transportation, effective health services, learning opportunities, and accessible housing enable all individuals and communities to prosper.\"To read \"Best Cities for Successful Aging\" and explore the interactive data site, visit\u00a0successfulaging.milkeninstitute.org.<b>About the Milken Institute<\/b><b> The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.<strong>About the Center for the Future of Aging<\/b><br> The mission of the Milken Institute's Center for the Future of Aging is to improve lives and strengthen societies by promoting healthy, productive and purposeful aging.<br>milkeninstitute.org\u00a0<br>@milkeninstitute\u00a0<br>@MIAging\u00a0Contact<br> Jill Posnick<br> Executive Director, Communications\u00a0<br> (310) 570-4661;\u00a0jposnick@milkeninstitute.orgTania Pantoja<br> (714) 883-6555;\u00a0tania@ivycmg.com1\u00a0United States Department of Health and Human Services<br>2\u00a0AARP",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014The Milken Institute today released the third edition of its \"Best Cities for Successful Aging\" report and index, a collaboration between the Institute's Center for the Future of Aging and its Research Department. The report evaluates 381 U.S. metropolitan areas to determine how well they serve the needs of the nation's growing population of mature adults, enabling them to age productively, securely, and in optimal health.<b>The top 10 large and small metropolitan areas for 2017 are:<\/b><table><tr><td><b> Rankings \u2013 Large Metros <\/b>\n<\/td>\n<td>\n<b>Rankings \u2013 Small Metros<\/b>\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nProvo-Orem, UT\n<\/td>\n<td>\n1\n<\/td>\n<td>\nIowa City, IA\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nMadison, WI\n<\/td>\n<td>\n2\n<\/td>\n<td>\nManhattan, KS\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nDurham-Chapel Hill, NC\n<\/td>\n<td>\n3\n<\/td>\n<td>\nAmes, IA\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nSalt Lake City, UT\n<\/td>\n<td>\n4\n<\/td>\n<td>\nColumbia, MO\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nDes Moines-West Des Moines, IA\n<\/td>\n<td>\n5\n<\/td>\n<td>\nSioux Falls, SD\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nAustin-Round Rock, TX\n<\/td>\n<td>\n6\n<\/td>\n<td>\nAnn Arbor, MI\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nOmaha-Council Bluffs, NE-IA\n<\/td>\n<td>\n7\n<\/td>\n<td>\nIthaca, NY\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nJackson, MS\n<\/td>\n<td>\n8\n<\/td>\n<td>\nLawrence, KS\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nBoston-Cambridge-Newton, MA-NH\n<\/td>\n<td>\n9\n<\/td>\n<td>\nLogan, UT-ID\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nSan Francisco-Oakland-Hayward, CA\n<\/td>\n<td>\n10\n<\/td>\n<td>\nFairbanks, AK\n<\/td>\n<\/tr><\/table>More than 80 percent of Americans age 65-plus live in metropolitan areas,1\u00a0and nearly 90 percent of older adults in the U.S. want to age in their homes and communities.2\u00a0Thus, the \"Best Cities for Successful Aging\" index is not intended to identify the locales to which older adults should retire. Instead, the index and report are designed to highlight the nation's most livable metropolitan areas\u2014those that enable an optimal quality of life for their aging citizens.\u00a0\"Cities are on the front lines of the largest demographic shift in history,\" said\u00a0Paul Irving, Chairman of the Center for the Future of Aging. \"Lifespans are extending into eight, nine, and ten decades, and older adults increasingly are seeking lifelong engagement and purpose. They expect their cities and communities to support their changing needs.\"To evaluate the metropolitan areas that foster the best overall quality of life for older adults, the Milken Institute utilized public data--83 indicators across nine categories. These categories included general livability, health care, wellness, financial security, living arrangements, employment, education, transportation and convenience, and community engagement.<b>The Mayor's Pledge<\/b>Recognizing the pivotal role of mayors and other local government officials in championing a supportive environment for an aging population, the Milken Institute Center for the Future of Aging in 2014 launched\u00a0The Mayor's Pledge. Since its inception, nearly 200 mayors across\u00a0the United States\u00a0have joined this movement for purposeful, healthy aging and committed to making their cities work better for older residents.\u00a0View the list of pledging mayors.<b>Programs With Purpose<\/b>In addition, the Milken Institute canvassed the country to discover programs and projects spearheaded by nonprofit organizations, public agencies, and businesses that engage older adults and bring positive change to their lives and communities. The Programs With Purpose detailed in the new edition of the report represent a few of the initiatives that serve as examples for others to emulate.\"The policies, programs, and features that we highlight in 'Best Cities for Successful Aging' are not just important for older adults,\" said Irving. \"Throughout our lives, we seek meaning and purpose. A vibrant economy, efficient transportation, effective health services, learning opportunities, and accessible housing enable all individuals and communities to prosper.\"To read \"Best Cities for Successful Aging\" and explore the interactive data site, visit\u00a0successfulaging.milkeninstitute.org.<b>About the Milken Institute<\/b><b> The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.<strong>About the Center for the Future of Aging<\/strong><\/b><br \/> The mission of the Milken Institute's Center for the Future of Aging is to improve lives and strengthen societies by promoting healthy, productive and purposeful aging.<br \/>milkeninstitute.org\u00a0<br \/>@milkeninstitute\u00a0<br \/>@MIAging\u00a0Contact<br \/> Jill Posnick<br \/> Executive Director, Communications\u00a0<br \/> (310) 570-4661;\u00a0jposnick@milkeninstitute.orgTania Pantoja<br \/> (714) 883-6555;\u00a0tania@ivycmg.com1\u00a0United States Department of Health and Human Services<br \/>2\u00a0AARP",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10176\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/IThfRVJhjoXRxty0LygJYn_JAATYTOhXHFjq_96J-7Q.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10176
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ff737e3e-8fbf-4e84-916b-9961e27330bd"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1779
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/IThfRVJhjoXRxty0LygJYn_JAATYTOhXHFjq_96J-7Q.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5cb4e526-bc0a-4155-80f9-d84559683ba3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "First Step, and Not the Last: Criminal Justice Reform",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-03T16:33:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The United States is home to 5 percent of the world's total population, and 25 percent of the world's total prison population. In recent years, criminal justice reform has taken center stage in our national political and social discourse, bringing together activists, academics, and legislators from both sides of the aisle in the name of change. This past year, bipartisan leadership championed and ushered the passage of the FIRST STEP Act in an effort to reform our federal prison system and reduce recidivism. This legislation was an important step toward repairing a broken system, yet much work is yet to be done. Who are the leaders at the forefront of criminal justice reform? Is there a future for bipartisan and cross-industry leadership on this issue? What are the social, economic, and political costs of a broken system? And how can we translate bipartisan support into national progress?",
+    "format": "rich_text",
+    "processed": "The United States is home to 5 percent of the world's total population, and 25 percent of the world's total prison population. In recent years, criminal justice reform has taken center stage in our national political and social discourse, bringing together activists, academics, and legislators from both sides of the aisle in the name of change. This past year, bipartisan leadership championed and ushered the passage of the FIRST STEP Act in an effort to reform our federal prison system and reduce recidivism. This legislation was an important step toward repairing a broken system, yet much work is yet to be done. Who are the leaders at the forefront of criminal justice reform? Is there a future for bipartisan and cross-industry leadership on this issue? What are the social, economic, and political costs of a broken system? And how can we translate bipartisan support into national progress?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/WsefKIZlvQY",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/IThfRVJhjoXRxty0LygJYn_JAATYTOhXHFjq_96J-7Q.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

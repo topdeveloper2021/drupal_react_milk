@@ -1,0 +1,29 @@
+uuid: ce67542e-07b3-4794-86d5-96cd447c9e00
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_video
+    - media.type.video
+id: panel.panel.field_video
+field_name: field_video
+entity_type: panel
+bundle: panel
+label: Video
+description: 'Link a video to this Event Panel'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

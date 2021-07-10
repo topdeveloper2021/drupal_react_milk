@@ -1,0 +1,33 @@
+uuid: f7e5af4e-24e3-46ef-83f6-4568ef975a80
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.media.field_people
+    - media.type.podcast_episode
+  content:
+    - 'people:staff:1983fceb-3d65-4439-bb3f-08c6fd8e4a7f'
+id: media.podcast_episode.field_people
+field_name: field_people
+entity_type: media
+bundle: podcast_episode
+label: Author
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: 1983fceb-3d65-4439-bb3f-08c6fd8e4a7f
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles:
+      staff: staff
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: speakers
+field_type: entity_reference

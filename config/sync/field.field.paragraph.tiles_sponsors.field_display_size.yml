@@ -1,0 +1,23 @@
+uuid: 3307d766-b985-4d27-a573-0bdcff22eb22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_display_size
+    - paragraphs.paragraphs_type.tiles_sponsors
+  module:
+    - options
+id: paragraph.tiles_sponsors.field_display_size
+field_name: field_display_size
+entity_type: paragraph
+bundle: tiles_sponsors
+label: 'Display Size'
+description: 'The size the logo should render'
+required: true
+translatable: false
+default_value:
+  -
+    value: small
+default_value_callback: ''
+settings: {  }
+field_type: list_string

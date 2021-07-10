@@ -1,0 +1,18 @@
+uuid: 1884a26a-c292-4d24-a09f-319af79ec264
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: slide.field_is_hero_image
+field_name: field_is_hero_image
+entity_type: slide
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

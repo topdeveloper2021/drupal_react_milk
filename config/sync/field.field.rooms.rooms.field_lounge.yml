@@ -1,0 +1,19 @@
+uuid: 13730568-d50b-4535-bdad-b910455bffa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_lounge
+id: rooms.rooms.field_lounge
+field_name: field_lounge
+entity_type: rooms
+bundle: rooms
+label: lounge
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

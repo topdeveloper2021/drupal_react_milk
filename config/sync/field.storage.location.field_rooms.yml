@@ -1,0 +1,19 @@
+uuid: 76b686ba-aa4c-4be8-9abc-e64f65157100
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: location.field_rooms
+field_name: field_rooms
+entity_type: location
+type: entity_reference
+settings:
+  target_type: rooms
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

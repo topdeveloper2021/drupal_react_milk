@@ -1,0 +1,28 @@
+uuid: 03479984-3737-486d-a015-d66c2a686bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tiles_social.field_icon_link
+    - paragraphs.paragraphs_type.tiles_social
+  module:
+    - link
+id: paragraph.tiles_social.default
+targetEntityType: paragraph
+bundle: tiles_social
+mode: default
+content:
+  field_icon_link:
+    weight: 0
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  search_api_excerpt: true

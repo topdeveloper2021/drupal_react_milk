@@ -1,0 +1,21 @@
+uuid: 167950b2-4ae2-43dd-97b1-ba187877b169
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_long_description
+    - node.type.opportunity
+  module:
+    - text
+id: node.opportunity.field_long_description
+field_name: field_long_description
+entity_type: node
+bundle: opportunity
+label: 'Long Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

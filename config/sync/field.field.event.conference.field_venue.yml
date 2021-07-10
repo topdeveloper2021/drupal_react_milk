@@ -1,0 +1,28 @@
+uuid: fb319c76-4479-4b95-8c02-f9e9665fa52f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - eck.eck_type.location.conference_center
+    - field.storage.event.field_venue
+id: event.conference.field_venue
+field_name: field_venue
+entity_type: event
+bundle: conference
+label: Venue
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:location'
+  handler_settings:
+    target_bundles:
+      conference_center: conference_center
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

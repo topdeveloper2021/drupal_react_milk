@@ -1,0 +1,85 @@
+<?php
+
+/**
+ * @file
+ * Contains milken_base.module.
+ */
+
+use Solarium\Core\Query\QueryInterface as SolarQueryInterface;
+use Drupal\Core\Entity\ContentEntityTypeInterface;
+use Drupal\Core\Config\Entity\ConfigEntityType;
+use Drupal\search_api\Query\QueryInterface as SearchAPIQueryInterface;
+
+/**
+ * Implements hook_entity_type_alter().
+ */
+function milken_base_entity_type_alter(array &$entity_types) {
+  if ($entity_types['media_type'] instanceof ConfigEntityType) {
+    $entity_types['media_type']->setHandlerClass('access', 'Drupal\milken_base\AccessControlHandler\OverrideMediaTypeAccessControlHandler');
+  }
+  if ($entity_types['event_type'] instanceof ConfigEntityType) {
+    $entity_types['event_type']->setHandlerClass('access', 'Drupal\milken_base\AccessControlHandler\OverrideEventTypeAccessControlHandler');
+  }
+  if ($entity_types['node_type'] instanceof ConfigEntityType) {
+    $entity_types['node_type']->setHandlerClass('access', 'Drupal\milken_base\AccessControlHandler\OverrideNodeTypeAccessControlHandler');
+  }
+  if ($entity_types['slide_type'] instanceof ConfigEntityType) {
+    $entity_types['slide_type']->setHandlerClass('access', 'Drupal\milken_base\AccessControlHandler\OverrideSlideTypeAccessControlHandler');
+  }
+  if ($entity_types['menu'] instanceof ConfigEntityType) {
+    $entity_types['menu']->setHandlerClass('access', 'Drupal\milken_base\AccessControlHandler\OverrideMenuAccessControlHandler');
+  }
+  if ($entity_types['menu_link_content'] instanceof ContentEntityTypeInterface) {
+    $entity_types['menu_link_content']->setHandlerClass('access', 'Drupal\milken_base\AccessControlHandler\OverrideMenuLinkContentControlHandler');
+  }
+}
+
+/**
+ * To add a CSS library to the admin theme.
+ */
+function milken_base_page_attachments(array &$attachments) {
+  $config = \Drupal::config('system.theme');
+  $theme = \Drupal::theme()->getActiveTheme()->getName();
+  if ($theme == $config->get('admin')) {
+    $attachments['#attached']['library'][] = 'milken_base/extra.admin';
+  }
+}
+
+/**
+ * Implements hook_search_api_solr_query_alter().
+ */
+function milken_base_search_api_solr_query_alter(SolarQueryInterface $solarium_query, SearchAPIQueryInterface $query) {
+  // To get a list of solrium events:
+  // @see http://solarium.readthedocs.io/en/stable/customizing-solarium/#plugin-system
+  // $solr_field_names maps search_api fields Solr index fields.
+  // The 3.16e-11 is the inverse number of milliseconds in one year ( 1 / ms ).
+  // 6.3411541e-11 ms in 6 months, 1.2683917e-10 in 3 months
+  // 1.58e-11 in 2 years, 1.06e-11 in 3 years, 7.93e-12 in 4 years
+  // 6.3411541e-12 ms in 60 months
+  // this number acts as the cut-off for the boost
+  // https://solr.apache.org/guide/8_0/function-queries.html#recip-function
+  // https://www.hashbangcode.com/article/drupal-8-date-search-boosting-search-api-and-solr-search
+  $solr_field_names = $query->getIndex()->getServerInstance()->getBackend()->getSolrFieldNames($query->getIndex());
+  \Drupal::logger('milken_migrate')->debug('SOLR Hook: milken_base_search_api_solr_query_alter');
+
+  $solr_date_field = !empty($solr_field_names['media_created']) ? $solr_field_names['media_created'] : '';
+
+  if ($solr_date_field) {
+    $solarium_query->addParam('bf', "recip(abs(ms(NOW/HOUR," . $solr_date_field . ")),7.93e-12,1000,0.1)");
+    \Drupal::logger('milken_migrate')->debug('SOLR Hook: Query Param media_created Added ' . $solr_date_field);
+  }
+
+  $solr_date_field = !empty($solr_field_names['node_created']) ? $solr_field_names['node_created'] : '';
+
+  if ($solr_date_field) {
+    $solarium_query->addParam('bf', "recip(abs(ms(NOW/HOUR," . $solr_date_field . ")),7.93e-12,1000,0.1)");
+    \Drupal::logger('milken_migrate')->debug('SOLR Hook: Query Param node_created Added ' . $solr_date_field);
+  }
+
+  $solr_date_field = !empty($solr_field_names['aggregated_field_published']) ? $solr_field_names['aggregated_field_published'] : '';
+
+  if ($solr_date_field) {
+    $solarium_query->addParam('bf', "recip(abs(ms(NOW/HOUR," . $solr_date_field . ")),7.93e-12,1000,0.1)");
+    \Drupal::logger('milken_migrate')->debug('SOLR Hook: Query Param created Added ' . $solr_date_field);
+  }
+}

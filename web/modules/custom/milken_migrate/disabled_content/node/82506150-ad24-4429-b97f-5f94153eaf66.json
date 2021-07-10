@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/canada-claims-top-spot-milken-institute-capital-access-index?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 146
+        }
+    ],
+    "uuid": [
+        {
+            "value": "82506150-ad24-4429-b97f-5f94153eaf66"
+        }
+    ],
+    "vid": [
+        {
+            "value": 146
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Canada claims top spot in Milken Institute Capital Access Index",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/canada-claims-top-spot-milken-institute-capital-access-index",
+            "pid": 199,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - In an age of restricted credit, entrepreneurs in some regions may find it increasingly difficult to secure access to capital for growth and development. However, Canada, with its stable equity market and a sound economic policy framework, was able to withstand some of the evolving credit market issues and moved to first place in the Milken Institute\u2032s 2008 Capital Access Index, an annual ranking of entrepreneurial access to capital around the world. The report notes that emerging markets and, in particular, Asian economies that have rebuilt since the 1997-1998 crisis, may be in a better position to contain the impact and continue to improve their ability to provide capital to growing industries and businesses. Some of the more well-established markets will need additional time to recover lost ground. The credit and mortgage market turmoil created a drag on bond markets, which impacted the rankings of many markets. Hong Kong, which had held the top spot for two years running, shifted down to 2nd place, mainly due to lower international reserves and higher currency volatility. Hong Kong's international reserves dropped in 2007 as compared to 2006 levels. Reserves have since caught up and this will be reflected in the next issue of the Index. Currency volatility is calculated using effective exchange rate. The United States found its place back among the top 10, having fallen to 11th in last year\u2032s rankings, and showed improvement in alternative capital and international funding components. However, a drag in bond markets stemming from the credit and housing market turmoil, kept them parked at 6th for the year. The biggest improvement this year was from Spain, which jumped up 16 places (27th, up from 43rd). Spain\u2032s jump reflects improvements in alternative sources of capital, financial and banking institutions and international funding over the prior year. The top 10 markets (with 2007 ranking): <b>1. Canada (4) <br>\n2. Hong Kong SAR (1) <br>\n3. Switzerland (7) <br>\n4. United Kingdom (2) <br>\n5. Singapore (4) <br>\n6. United States (11) <br>\n7. Netherlands (15) <br>\n8. Norway (9) <br>\n9. Australia (8) <br>\n10. Finland (9) <\/b> First developed in 1998, the Milken Institute Capital Access Index ranks countries around the world in terms of their ability to support entrepreneurial activity by providing access to capital. The rankings take into account in a variety of factors: macroeconomic environments, financial and banking institutions, the development of the equity and bond markets and alternative capital sources (such as venture capital, credit cards and private placements--all of which are increasingly important in emerging markets). The Milken Institute Capital Access Index is a unique measure that accurately reflects a broad picture of the entire economy in each nation. The use of hard, quantitative data ensures an objective ranking, providing investors and policy makers with valuable insights not available from other rankings. Other highlights from this year\u2032s index include: China remained stable at 45th, limited by its underdeveloped bond market despite increases in alternative sources of capital. <br>\nLatin American countries saw some of the steepest declines in this year\u2032s rankings, with El Salvador, Jamaica, Argentina and Bolivia all experiencing declines in institutional environment, alternative access to capital and bond market development. <br>\nMiddle Eastern markets improved significantly, on average holding higher scores in institutional environment, equity market development and alternative capital. Israel, however, lost most of its gains from last year, dropping nine spots to 21st, due to lower scores in financial and banking institutions and international funding. <br>\nAfrican countries, although still significantly clustered in the bottom of the rankings, demonstrated significant progress in institutional environment and equity market development, which was noted as the area of greatest potential improvement in last year\u2032s index. The 2008 Capital Access Index is here..",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - In an age of restricted credit, entrepreneurs in some regions may find it increasingly difficult to secure access to capital for growth and development. However, Canada, with its stable equity market and a sound economic policy framework, was able to withstand some of the evolving credit market issues and moved to first place in the Milken Institute\u2032s 2008 Capital Access Index, an annual ranking of entrepreneurial access to capital around the world. The report notes that emerging markets and, in particular, Asian economies that have rebuilt since the 1997-1998 crisis, may be in a better position to contain the impact and continue to improve their ability to provide capital to growing industries and businesses. Some of the more well-established markets will need additional time to recover lost ground. The credit and mortgage market turmoil created a drag on bond markets, which impacted the rankings of many markets. Hong Kong, which had held the top spot for two years running, shifted down to 2nd place, mainly due to lower international reserves and higher currency volatility. Hong Kong's international reserves dropped in 2007 as compared to 2006 levels. Reserves have since caught up and this will be reflected in the next issue of the Index. Currency volatility is calculated using effective exchange rate. The United States found its place back among the top 10, having fallen to 11th in last year\u2032s rankings, and showed improvement in alternative capital and international funding components. However, a drag in bond markets stemming from the credit and housing market turmoil, kept them parked at 6th for the year. The biggest improvement this year was from Spain, which jumped up 16 places (27th, up from 43rd). Spain\u2032s jump reflects improvements in alternative sources of capital, financial and banking institutions and international funding over the prior year. The top 10 markets (with 2007 ranking): <b>1. Canada (4) <br \/>\n2. Hong Kong SAR (1) <br \/>\n3. Switzerland (7) <br \/>\n4. United Kingdom (2) <br \/>\n5. Singapore (4) <br \/>\n6. United States (11) <br \/>\n7. Netherlands (15) <br \/>\n8. Norway (9) <br \/>\n9. Australia (8) <br \/>\n10. Finland (9) <\/b> First developed in 1998, the Milken Institute Capital Access Index ranks countries around the world in terms of their ability to support entrepreneurial activity by providing access to capital. The rankings take into account in a variety of factors: macroeconomic environments, financial and banking institutions, the development of the equity and bond markets and alternative capital sources (such as venture capital, credit cards and private placements--all of which are increasingly important in emerging markets). The Milken Institute Capital Access Index is a unique measure that accurately reflects a broad picture of the entire economy in each nation. The use of hard, quantitative data ensures an objective ranking, providing investors and policy makers with valuable insights not available from other rankings. Other highlights from this year\u2032s index include: China remained stable at 45th, limited by its underdeveloped bond market despite increases in alternative sources of capital. <br \/>\nLatin American countries saw some of the steepest declines in this year\u2032s rankings, with El Salvador, Jamaica, Argentina and Bolivia all experiencing declines in institutional environment, alternative access to capital and bond market development. <br \/>\nMiddle Eastern markets improved significantly, on average holding higher scores in institutional environment, equity market development and alternative capital. Israel, however, lost most of its gains from last year, dropping nine spots to 21st, due to lower scores in financial and banking institutions and international funding. <br \/>\nAfrican countries, although still significantly clustered in the bottom of the rankings, demonstrated significant progress in institutional environment and equity market development, which was noted as the area of greatest potential improvement in last year\u2032s index. The 2008 Capital Access Index is here..",
+    "summary": null,
+    "summary_processed": ""
+}

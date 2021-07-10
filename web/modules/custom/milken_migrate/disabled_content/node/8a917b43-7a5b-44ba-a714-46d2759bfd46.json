@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-releases-positive-us-economic-forecast?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 124
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8a917b43-7a5b-44ba-a714-46d2759bfd46"
+        }
+    ],
+    "vid": [
+        {
+            "value": 124
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute releases positive U.S. economic forecast",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-releases-positive-us-economic-forecast",
+            "pid": 177,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Tangible signs of U.S. economic turnaround are evident, and the recovery is already on its way, according to economic analysis released today by the Milken Institute. The forecast, From Recession to Recovery: Analyzing America\u2032s Return to Growth, by Ross DeVol, Executive Director of Economic Research, calls for modest but sustainable growth in GDP, consumer spending and jobs. According to DeVol, strong recovery in business investment in equipment, more robust exports, a more upbeat consumer and continued low interest rates will fuel the growing recovery. \"It might be in vogue to chime in with the doom and gloom, but the historical record and key indicators provide a much more positive outlook,\" said DeVol. \"We\u2032ve got the economic engines including business purchases, growing demand in Asia, consumers making those deferred purchases and record-low interest rates all humming along. Once you get rid of the negative sound bites, the data are quite clear that we can expect moderate but real growth.\" Key points in the forecast: Real GDP will grow at 3.5 percent in 2010, 3.7 percent in 2011 and 3.8 percent in 2012. Growth returns to slightly less than 3 percent from 2013 to 2015. <br>\nThe U.S. will add 1.8 million jobs in 2010, 3.1 million in 2011 and 2.6 million in 2012.<br>\nReal consumer spending is projected to increase 2.8 percent in 2010, 3.5 percent in 2011 and 3.0 percent in 2012.<br>\nNew home construction won\u2032t aid economic growth in 2010, but residential fixed investment should jump 26.0 percent in 2011 and 25.7 percent in 2012. The recovery is fueled by: Economic growth in developing countries, which supports U.S. exports<br>\nImproved business confidence that fosters strong investment in equipment and software<br>\nConsumers making previously deferred purchases of durable goods <br>\nRecord-low long-term interest rates <br>\nA benign inflationary environment that will allow Fed to keep short-term interest rates at zero until late 2010 or even into 2011<br> According to the forecast, well-established patterns in the postwar period demonstrate that the rate of economic recovery after a recession is usually proportional to the depth of the decline experienced. Combining an examination of this precedent with a detailed analysis of the existing momentum and activity in key economic sectors, the report paints a decent recovery picture, even with a conservative projection. According to DeVol, the resurgence of business investment in equipment, particularly in IT and software, is the overlooked story of this recovery. The full forecast includes projections for consumer and labor markets, housing and nonresidential construction, the federal deficit, state and local government purchases, and interest rates. It is available here.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Tangible signs of U.S. economic turnaround are evident, and the recovery is already on its way, according to economic analysis released today by the Milken Institute. The forecast, From Recession to Recovery: Analyzing America\u2032s Return to Growth, by Ross DeVol, Executive Director of Economic Research, calls for modest but sustainable growth in GDP, consumer spending and jobs. According to DeVol, strong recovery in business investment in equipment, more robust exports, a more upbeat consumer and continued low interest rates will fuel the growing recovery. \"It might be in vogue to chime in with the doom and gloom, but the historical record and key indicators provide a much more positive outlook,\" said DeVol. \"We\u2032ve got the economic engines including business purchases, growing demand in Asia, consumers making those deferred purchases and record-low interest rates all humming along. Once you get rid of the negative sound bites, the data are quite clear that we can expect moderate but real growth.\" Key points in the forecast: Real GDP will grow at 3.5 percent in 2010, 3.7 percent in 2011 and 3.8 percent in 2012. Growth returns to slightly less than 3 percent from 2013 to 2015. <br \/>\nThe U.S. will add 1.8 million jobs in 2010, 3.1 million in 2011 and 2.6 million in 2012.<br \/>\nReal consumer spending is projected to increase 2.8 percent in 2010, 3.5 percent in 2011 and 3.0 percent in 2012.<br \/>\nNew home construction won\u2032t aid economic growth in 2010, but residential fixed investment should jump 26.0 percent in 2011 and 25.7 percent in 2012. The recovery is fueled by: Economic growth in developing countries, which supports U.S. exports<br \/>\nImproved business confidence that fosters strong investment in equipment and software<br \/>\nConsumers making previously deferred purchases of durable goods <br \/>\nRecord-low long-term interest rates <br \/>\nA benign inflationary environment that will allow Fed to keep short-term interest rates at zero until late 2010 or even into 2011<br \/> According to the forecast, well-established patterns in the postwar period demonstrate that the rate of economic recovery after a recession is usually proportional to the depth of the decline experienced. Combining an examination of this precedent with a detailed analysis of the existing momentum and activity in key economic sectors, the report paints a decent recovery picture, even with a conservative projection. According to DeVol, the resurgence of business investment in equipment, particularly in IT and software, is the overlooked story of this recovery. The full forecast includes projections for consumer and labor markets, housing and nonresidential construction, the federal deficit, state and local government purchases, and interest rates. It is available here.",
+    "summary": null,
+    "summary_processed": ""
+}

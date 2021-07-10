@@ -1,0 +1,9 @@
+uuid: 048ac025-b39e-45b5-9e28-b29eec6cbdbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.grid_join_panel_speaker
+type: join_table
+name: 'Join Table'
+description: ''

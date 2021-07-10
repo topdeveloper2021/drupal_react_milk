@@ -1,0 +1,10 @@
+uuid: e068b6a0-b104-4b5d-bb72-255883111f5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: slide.entity_browser
+label: 'Entity Browser'
+targetEntityType: slide
+cache: true

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/financial-innovations-can-help-produce-new-medicines-through-funding-early-stage-drug?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 191
+        }
+    ],
+    "uuid": [
+        {
+            "value": "db657644-bd2a-4461-8d71-30b825694702"
+        }
+    ],
+    "vid": [
+        {
+            "value": 191
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Financial innovations can help produce new medicines through funding of early-stage drug development, Milken Institute report says",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/financial-innovations-can-help-produce-new-medicines-through-funding-early-stage-drug",
+            "pid": 244,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Despite the enormous potential of biomedical research to cure disease, public and private funding has declined - a trend that could jeopardize efforts to find improved treatments for people with life-threatening illnesses. But as a new report from the Milken Institute makes clear, this funding shortfall can be fixed using innovative financial tools to lower the risk to investors and increase the flow of capital to research for promising new drugs. \"The current shortage of capital in new drug development can be resolved through public-private partnerships,\" said Glenn Yago, Director of Capital Studies at the Milken Institute. \"By creating new financial tools and incentives, we can increase the funding for this research and help improve global health.\" The findings are contained in the report \"Financial Innovations for Accelerating Medical Solutions,\" which is based on a pair of workshops hosted by the Milken Institute for key stakeholders. The report offers six innovative solutions to the growing gap between research discovery and early-stage funding: Reduce the scientific risk through diversification (pooling) of intellectual capital. <br> Use foundation funds to enhance credit quality and attract potential investors. <br> Use directors and officers (D&O) liability insurance to enhance credit quality. <br> Tap into the emerging market for intellectual property-backed securities. <br> Use advanced purchases to underwrite medical research and drug delivery to under-funded patient groups. <br> Use donor bonds to underwrite medical research and drug delivery to under-funded patient groups. Much of the focus of the labs was on securitization, or the pooling of assets that can be sold as a security or some other means of structured finance - a financial instrument strongly supported by Milken Institute research. \"If there is a way, for example, to estimate the value of royalties over time from a portfolio of patents relevant to a particular disease group or medical problem,\" the report states, \"then the portfolio could be turned into a marketable security, which would in turn provide capital to accelerate research.\" The report\u2032s recommendations incorporate lessons learned from previous experiments with early-stage drug research, as well as from other industries - such as the film industry, which has learned to reduce investor risk by pooling capital to fund a group of films - and from new financial technologies that have worked in other areas. The workshops, called Financial Innovations Labs, took place in Santa Monica, Calif., and New York City late last year. They were called to address the crisis of diminished funding for biomedical research and development. The workshops are part of the Milken Institute\u2032s continuing leadership in promoting financial innovations to help solve ongoing social, economic and environmental challenges. Participants included members of foundations, patent brokers, intellectual property lawyers, private-equity investors and analysts, insurance consultants, valuation and strategy consultants, biotech entrepreneurs, pharmaceutical representatives and academics. These key stakeholders explored new channels for attracting capital to drug development, and identified market vehicles that could reduce risk, attract investors and accelerate commercialization in a broad range of diseases. Participants identified the main concerns that have slowed biotech research in recent years: Large drug companies have seen their equity valuations drop and business models change, and have pulled back from early-stage drug discovery and development. <br> Biomedical research-and-development output has declined. <br> The shortage of investment capital remains most acute at the very early stage in drug discovery R&D through Phase II clinical trials. The report follows on the heels of another Milken Institute study, \"Mind to Market: A Global Analysis of University Biotechnology Transfer and Commercialization,\" released last month, which shows that a number of leading universities do not always make the most of their valuable research assets. Having the right tools in place - such as a strong office of technology transfer - can make a big difference in getting research out to the private sector. Together, the two reports show that given the right incentives and financial instruments that reduce risk, the gap between biomedical R&D and early-stage funding can be overcome - and, potentially, new drugs will be discovered sooner. The Financial Innovations Labs and the \"Mind to Market\" study were supported, in part, by Inflect Technologies and its founder, Lee Cole. View the report. ",
+    "format": "rich_text",
+    "processed": "Despite the enormous potential of biomedical research to cure disease, public and private funding has declined - a trend that could jeopardize efforts to find improved treatments for people with life-threatening illnesses. But as a new report from the Milken Institute makes clear, this funding shortfall can be fixed using innovative financial tools to lower the risk to investors and increase the flow of capital to research for promising new drugs. \"The current shortage of capital in new drug development can be resolved through public-private partnerships,\" said Glenn Yago, Director of Capital Studies at the Milken Institute. \"By creating new financial tools and incentives, we can increase the funding for this research and help improve global health.\" The findings are contained in the report \"Financial Innovations for Accelerating Medical Solutions,\" which is based on a pair of workshops hosted by the Milken Institute for key stakeholders. The report offers six innovative solutions to the growing gap between research discovery and early-stage funding: Reduce the scientific risk through diversification (pooling) of intellectual capital. <br \/> Use foundation funds to enhance credit quality and attract potential investors. <br \/> Use directors and officers (D&amp;O) liability insurance to enhance credit quality. <br \/> Tap into the emerging market for intellectual property-backed securities. <br \/> Use advanced purchases to underwrite medical research and drug delivery to under-funded patient groups. <br \/> Use donor bonds to underwrite medical research and drug delivery to under-funded patient groups. Much of the focus of the labs was on securitization, or the pooling of assets that can be sold as a security or some other means of structured finance - a financial instrument strongly supported by Milken Institute research. \"If there is a way, for example, to estimate the value of royalties over time from a portfolio of patents relevant to a particular disease group or medical problem,\" the report states, \"then the portfolio could be turned into a marketable security, which would in turn provide capital to accelerate research.\" The report\u2032s recommendations incorporate lessons learned from previous experiments with early-stage drug research, as well as from other industries - such as the film industry, which has learned to reduce investor risk by pooling capital to fund a group of films - and from new financial technologies that have worked in other areas. The workshops, called Financial Innovations Labs, took place in Santa Monica, Calif., and New York City late last year. They were called to address the crisis of diminished funding for biomedical research and development. The workshops are part of the Milken Institute\u2032s continuing leadership in promoting financial innovations to help solve ongoing social, economic and environmental challenges. Participants included members of foundations, patent brokers, intellectual property lawyers, private-equity investors and analysts, insurance consultants, valuation and strategy consultants, biotech entrepreneurs, pharmaceutical representatives and academics. These key stakeholders explored new channels for attracting capital to drug development, and identified market vehicles that could reduce risk, attract investors and accelerate commercialization in a broad range of diseases. Participants identified the main concerns that have slowed biotech research in recent years: Large drug companies have seen their equity valuations drop and business models change, and have pulled back from early-stage drug discovery and development. <br \/> Biomedical research-and-development output has declined. <br \/> The shortage of investment capital remains most acute at the very early stage in drug discovery R&amp;D through Phase II clinical trials. The report follows on the heels of another Milken Institute study, \"Mind to Market: A Global Analysis of University Biotechnology Transfer and Commercialization,\" released last month, which shows that a number of leading universities do not always make the most of their valuable research assets. Having the right tools in place - such as a strong office of technology transfer - can make a big difference in getting research out to the private sector. Together, the two reports show that given the right incentives and financial instruments that reduce risk, the gap between biomedical R&amp;D and early-stage funding can be overcome - and, potentially, new drugs will be discovered sooner. The Financial Innovations Labs and the \"Mind to Market\" study were supported, in part, by Inflect Technologies and its founder, Lee Cole. View the report. ",
+    "summary": null,
+    "summary_processed": ""
+}

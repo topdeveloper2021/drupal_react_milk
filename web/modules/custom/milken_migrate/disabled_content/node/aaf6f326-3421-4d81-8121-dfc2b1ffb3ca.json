@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/flat-world-fat-world?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 91
+        }
+    ],
+    "uuid": [
+        {
+            "value": "aaf6f326-3421-4d81-8121-dfc2b1ffb3ca"
+        }
+    ],
+    "vid": [
+        {
+            "value": 91
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Flat World = Fat World?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/flat-world-fat-world",
+            "pid": 144,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Milken Institute study probes link between \"screen time\" and rising obesity rates across the world\nLOS ANGELES -- Information and communications technologies have improved living standards around the world. But the increased amount of time that people devote to using computers, watching TV and playing video games -- so-called \"screen time\" -- is a significant factor in the global rise of obesity, says a new study from the Milken Institute. In \"Waistlines of the World: the Effect of Information and Communications Technology on Obesity,\" Institute researchers establish a direct connection between spikes in technology adoption and subsequent increases in obesity rates. The report charts the dramatic rise in obesity in 27 OECD countries. \"Technological innovations, more processed foods, a greater amount of 'screen time,' less exercise, and higher consumption of snack foods have all played a role,\" says Anusuya Chatterjee, Milken Institute economist and co-author of the report. \"These are all the adverse effects of a knowledge-based society.\" Worldwide, more than 200 million men and nearly 300 million women are obese. According to the report, the United States tops the global list with 33.8 percent of its adults obese, followed by Mexico (30 percent), New Zealand (26.5 percent), Australia (24.6 percent) and Canada (24.2 percent). Other countries are catching up fast: while U.S. obesity rates rose by 45 percent from 1991 to 2008, rates in the United Kingdom went up 64.5 percent. Rates in rapidly developing countries are rising quickly as well. For instance, China's obesity rate more than doubled from 2002 to 2008, from 2.5 percent to 5.7 percent. The human and economic cost for the increasing weight of the world is high. Obesity in particular, and being overweight in general, are triggers for disability and many chronic diseases, with obesity being the fifth leading cause of death worldwide. In the United States, the medical-cost burden due to obesity climbed to 9.1 percent of annual medical spending in 2006, from 6.5 percent in 1998. The causes for the obesity bulge are various, but the Milken Institute researchers chart the effect that the worldwide transition toward an information-based economy has had on work habits and lifestyle. The Milken Institute report quantified the effect of knowledge-based technology on the prevalence of obesity rates for 27 OECD countries from 1988 -- 2009 by using the level of investment and communication technology (ICT) for every country, establishing causality between ICT investment and the prevalence of obesity rates. Specifically, for every 10 percentage point increase in ICT investment as a share of gross capital formation, the obesity rate climbs 1.4 percentage point on average. \"Increased prevalence of obesity in emerging countries with large populations, such as China and India, could dwarf the rise in associated diseases and medical costs witnessed in the United States and other parts of the developed world. Pre-emptive strikes are necessary to avoid this outcome,\" says report co-author Ross DeVol, the Institute's chief research officer. The good news? The study also found that in countries with high ICT investment rates, a 1 percentage point increase in the number of physically active people can prevent a 0.2 percent rise in obesity. The report makes recommendations for strategic solutions, and provides information about a number of programs and policies that governments, corporations, and non-profit groups around the world have pioneered to keep obesity in check. To download \"Waistlines of the World: the Effect of Information and Communications Technology on Obesity,\" go to http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801357&cat=resrep.",
+    "format": "rich_text",
+    "processed": "Milken Institute study probes link between \"screen time\" and rising obesity rates across the world\nLOS ANGELES -- Information and communications technologies have improved living standards around the world. But the increased amount of time that people devote to using computers, watching TV and playing video games -- so-called \"screen time\" -- is a significant factor in the global rise of obesity, says a new study from the Milken Institute. In \"Waistlines of the World: the Effect of Information and Communications Technology on Obesity,\" Institute researchers establish a direct connection between spikes in technology adoption and subsequent increases in obesity rates. The report charts the dramatic rise in obesity in 27 OECD countries. \"Technological innovations, more processed foods, a greater amount of 'screen time,' less exercise, and higher consumption of snack foods have all played a role,\" says Anusuya Chatterjee, Milken Institute economist and co-author of the report. \"These are all the adverse effects of a knowledge-based society.\" Worldwide, more than 200 million men and nearly 300 million women are obese. According to the report, the United States tops the global list with 33.8 percent of its adults obese, followed by Mexico (30 percent), New Zealand (26.5 percent), Australia (24.6 percent) and Canada (24.2 percent). Other countries are catching up fast: while U.S. obesity rates rose by 45 percent from 1991 to 2008, rates in the United Kingdom went up 64.5 percent. Rates in rapidly developing countries are rising quickly as well. For instance, China's obesity rate more than doubled from 2002 to 2008, from 2.5 percent to 5.7 percent. The human and economic cost for the increasing weight of the world is high. Obesity in particular, and being overweight in general, are triggers for disability and many chronic diseases, with obesity being the fifth leading cause of death worldwide. In the United States, the medical-cost burden due to obesity climbed to 9.1 percent of annual medical spending in 2006, from 6.5 percent in 1998. The causes for the obesity bulge are various, but the Milken Institute researchers chart the effect that the worldwide transition toward an information-based economy has had on work habits and lifestyle. The Milken Institute report quantified the effect of knowledge-based technology on the prevalence of obesity rates for 27 OECD countries from 1988 -- 2009 by using the level of investment and communication technology (ICT) for every country, establishing causality between ICT investment and the prevalence of obesity rates. Specifically, for every 10 percentage point increase in ICT investment as a share of gross capital formation, the obesity rate climbs 1.4 percentage point on average. \"Increased prevalence of obesity in emerging countries with large populations, such as China and India, could dwarf the rise in associated diseases and medical costs witnessed in the United States and other parts of the developed world. Pre-emptive strikes are necessary to avoid this outcome,\" says report co-author Ross DeVol, the Institute's chief research officer. The good news? The study also found that in countries with high ICT investment rates, a 1 percentage point increase in the number of physically active people can prevent a 0.2 percent rise in obesity. The report makes recommendations for strategic solutions, and provides information about a number of programs and policies that governments, corporations, and non-profit groups around the world have pioneered to keep obesity in check. To download \"Waistlines of the World: the Effect of Information and Communications Technology on Obesity,\" go to http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801357&amp;cat=resrep.",
+    "summary": null,
+    "summary_processed": ""
+}

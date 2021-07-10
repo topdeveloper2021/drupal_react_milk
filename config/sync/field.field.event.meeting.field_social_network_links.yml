@@ -1,0 +1,21 @@
+uuid: 44d78894-6a95-4f04-9d75-b61f9b0ed0b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_social_network_links
+  module:
+    - key_value_field
+id: event.meeting.field_social_network_links
+field_name: field_social_network_links
+entity_type: event
+bundle: meeting
+label: 'Social Network Links'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: key_value

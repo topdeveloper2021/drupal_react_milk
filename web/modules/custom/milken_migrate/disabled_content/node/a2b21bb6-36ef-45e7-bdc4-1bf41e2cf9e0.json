@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-appoints-william-lee-chief-economist?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 505
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a2b21bb6-36ef-45e7-bdc4-1bf41e2cf9e0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 505
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Appoints William Lee as Chief Economist",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-04-11T08:38:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-30T05:46:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-appoints-william-lee-chief-economist",
+            "pid": 558,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 April 11, 2017 \u2013 The Milken Institute today announced the appointment of William Lee as Executive Director and Chief Economist, based in Santa Monica, CA. In this role, Lee will be responsible for analyzing U.S. and global macroeconomic developments and policy risks. Prior to joining the Milken Institute, Lee was Managing Director and Head of North America Economics at Citibank\u2019s Institutional Clients Group in New York. Earlier in his career, he spent 19 years at the International Monetary Fund in a variety of roles in Washington, D.C., Asia and Europe, and was senior economist and division chief of the financial markets division at the Federal Reserve Bank of New York. From its founding 25 years ago, the Milken Institute has focused on broadening access to capital, creating jobs and ensuring financial stability. Lee\u2019s knowledge of, and experience in the capital markets and with funding and regulatory organizations make him ideally suited to support the Institute\u2019s mission. As Chief Economist, Lee will help shape the Institute\u2019s recommendations for changes to capital market practices and policies that have restrained economic growth. \u201cBill\u2019s experience will be invaluable for developing and communicating our views on how markets may react to monetary policy, tax and regulatory reform, fiscal stimulus, and rising geopolitical uncertainty,\u201d said Richard Ditizio, President and Chief Operating Officer, Milken Institute. \u201cLee has arrived at the right time to expand the Institute\u2019s analysis into issues that may threaten the soundness and integrity of global markets and institutions.\u201d",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 April 11, 2017 \u2013 The Milken Institute today announced the appointment of William Lee as Executive Director and Chief Economist, based in Santa Monica, CA. In this role, Lee will be responsible for analyzing U.S. and global macroeconomic developments and policy risks. Prior to joining the Milken Institute, Lee was Managing Director and Head of North America Economics at Citibank\u2019s Institutional Clients Group in New York. Earlier in his career, he spent 19 years at the International Monetary Fund in a variety of roles in Washington, D.C., Asia and Europe, and was senior economist and division chief of the financial markets division at the Federal Reserve Bank of New York. From its founding 25 years ago, the Milken Institute has focused on broadening access to capital, creating jobs and ensuring financial stability. Lee\u2019s knowledge of, and experience in the capital markets and with funding and regulatory organizations make him ideally suited to support the Institute\u2019s mission. As Chief Economist, Lee will help shape the Institute\u2019s recommendations for changes to capital market practices and policies that have restrained economic growth. \u201cBill\u2019s experience will be invaluable for developing and communicating our views on how markets may react to monetary policy, tax and regulatory reform, fiscal stimulus, and rising geopolitical uncertainty,\u201d said Richard Ditizio, President and Chief Operating Officer, Milken Institute. \u201cLee has arrived at the right time to expand the Institute\u2019s analysis into issues that may threaten the soundness and integrity of global markets and institutions.\u201d",
+    "summary": null,
+    "summary_processed": ""
+}

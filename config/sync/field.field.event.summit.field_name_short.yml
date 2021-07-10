@@ -1,0 +1,19 @@
+uuid: 9fb38b27-865d-4ef7-b90a-79f4d9caf2be
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_name_short
+id: event.summit.field_name_short
+field_name: field_name_short
+entity_type: event
+bundle: summit
+label: 'Name Short'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

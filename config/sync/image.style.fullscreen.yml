@@ -1,0 +1,15 @@
+uuid: ad791e9c-2efc-4406-b3af-28c2bc88f902
+langcode: en
+status: true
+dependencies: {  }
+name: fullscreen
+label: Fullscreen
+effects:
+  1c33965a-a5c9-48da-9e36-f43e46ec3911:
+    uuid: 1c33965a-a5c9-48da-9e36-f43e46ec3911
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      anchor: center-center

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/hong-kong-uk-us-again-top-milken-institute-capital-access-index-annual-ranking-global?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 232
+        }
+    ],
+    "uuid": [
+        {
+            "value": "308133e9-51ad-4ceb-8e0d-00a1617f6f80"
+        }
+    ],
+    "vid": [
+        {
+            "value": 232
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hong Kong, U.K., U.S. again top Milken Institute Capital Access Index, the Annual Ranking of Global Capital Market Openness",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/hong-kong-uk-us-again-top-milken-institute-capital-access-index-annual-ranking-global",
+            "pid": 285,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Hong Kong, the United Kingdom and the United States remain the top-ranked countries on the Milken Institute\u2032s annual Capital Access Index, an annual ranking of the openness and efficiency of capital markets worldwide. Unlike last year, when a large majority of countries showed improvement in their ability to make capital more accessible to their entrepreneurs - and thus fuel economic growth - instability in the world economy has slowed that trend. According to the 2003 Index, about as many countries scored higher as lower than their ranking in 2002. While the top 10 countries remained relatively unchanged from 2002, there were some notable changes this year. The biggest improvements this year came from Bulgaria - up 15 spots from last year - and Indonesia and Turkey - up 14 places. The most striking change is the dramatic decrease in Argentina\u2032s score - dropping 23 points, from 45th in 2002 to 68th this year, out of 89 countries. The end of the policy of convertibility and the default on government debt fueled a collapse in Argentine credit markets, and its product markets suffered from the resulting sharp increase in inflation. The top 10 countries in the 2003 survey (and last year\u2032s ranking): 1.\tHong Kong (1)\t<br> 2.\tUnited Kingdom (2)\t<br> 3.\tUnited States (3)\t<br> 4.\tSingapore (4) <br> 5.\tNetherlands (6)<br> 6.\tSwitzerland (5)<br> 7.\tCanada (7)<br> 8.\tLuxembourg (8 - tie)<br> 9.\tNew Zealand (8 - tie) <br> 10.\t[tie] Australia (10), Ireland (13) and Denmark (15) Other countries that dropped significantly from their 2002 score were Moldova - down 18 positions - and Sri Lanka and El Salvador - down 12 slots. The focus of this year\u2032s report is Europe, whose combined GDP represents more than 30 percent of the world economy. The report looks at the many challenges facing the European Union and the 10 countries joining the EU in the next 18 months, including demographic trends that have serious fiscal ramifications, high public debt and labor market rigidities. This year\u2032s Index added five countries, but dropped 14 because of insufficient data, bringing the total to 89. Begun in 1998, the Index is a comprehensive analysis of the breadth, depth and vitality of capital markets around the world. It is based on the simple premise that efficient financial markets - making capital accessible to the entrepreneurs who can use it to grow and sustain companies and generate jobs - are the key for long-term growth and reducing income polarization. It ranks countries on more than 50 measurements, from the strength of their banking systems and the diversity and efficiency of financial markets to general economic conditions like inflation and tax rates. The 2003 Index saw a slight decline in the number of countries scoring in the upper-ranges. The main reason for that was deterioration of the world economy, instability in the overall financial sector and added uncertainty brought on by the threat of war and terrorism, which adversely affected capital access across the globe. However, overall scores did go up in the majority of the broad measurements used in the Index - a sign that things are moving in the right direction. \"The trend in Global Capital Access is broadly positive,\" says the study. \"This improvement reflects the successful macroeconomic and institutional reform efforts many countries have carried out of the past several years.\" Glenn Yago, Director of Capital Studies at the Milken Institute, says that if countries are to grow their economies, they must institute reforms that will allow capital to reach the entrepreneurs who can use it to build companies, create jobs and finance development. \"They must create conditions enabling a lower cost and greater access to capital to finance ideas for job growth,\" he said. \"The Index taps the level of democratization of capital a country has achieved, and how far reform must still go to fuel development.\" View the 2003 Capital Access Index.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Hong Kong, the United Kingdom and the United States remain the top-ranked countries on the Milken Institute\u2032s annual Capital Access Index, an annual ranking of the openness and efficiency of capital markets worldwide. Unlike last year, when a large majority of countries showed improvement in their ability to make capital more accessible to their entrepreneurs - and thus fuel economic growth - instability in the world economy has slowed that trend. According to the 2003 Index, about as many countries scored higher as lower than their ranking in 2002. While the top 10 countries remained relatively unchanged from 2002, there were some notable changes this year. The biggest improvements this year came from Bulgaria - up 15 spots from last year - and Indonesia and Turkey - up 14 places. The most striking change is the dramatic decrease in Argentina\u2032s score - dropping 23 points, from 45th in 2002 to 68th this year, out of 89 countries. The end of the policy of convertibility and the default on government debt fueled a collapse in Argentine credit markets, and its product markets suffered from the resulting sharp increase in inflation. The top 10 countries in the 2003 survey (and last year\u2032s ranking): 1.\tHong Kong (1)\t<br \/> 2.\tUnited Kingdom (2)\t<br \/> 3.\tUnited States (3)\t<br \/> 4.\tSingapore (4) <br \/> 5.\tNetherlands (6)<br \/> 6.\tSwitzerland (5)<br \/> 7.\tCanada (7)<br \/> 8.\tLuxembourg (8 - tie)<br \/> 9.\tNew Zealand (8 - tie) <br \/> 10.\t[tie] Australia (10), Ireland (13) and Denmark (15) Other countries that dropped significantly from their 2002 score were Moldova - down 18 positions - and Sri Lanka and El Salvador - down 12 slots. The focus of this year\u2032s report is Europe, whose combined GDP represents more than 30 percent of the world economy. The report looks at the many challenges facing the European Union and the 10 countries joining the EU in the next 18 months, including demographic trends that have serious fiscal ramifications, high public debt and labor market rigidities. This year\u2032s Index added five countries, but dropped 14 because of insufficient data, bringing the total to 89. Begun in 1998, the Index is a comprehensive analysis of the breadth, depth and vitality of capital markets around the world. It is based on the simple premise that efficient financial markets - making capital accessible to the entrepreneurs who can use it to grow and sustain companies and generate jobs - are the key for long-term growth and reducing income polarization. It ranks countries on more than 50 measurements, from the strength of their banking systems and the diversity and efficiency of financial markets to general economic conditions like inflation and tax rates. The 2003 Index saw a slight decline in the number of countries scoring in the upper-ranges. The main reason for that was deterioration of the world economy, instability in the overall financial sector and added uncertainty brought on by the threat of war and terrorism, which adversely affected capital access across the globe. However, overall scores did go up in the majority of the broad measurements used in the Index - a sign that things are moving in the right direction. \"The trend in Global Capital Access is broadly positive,\" says the study. \"This improvement reflects the successful macroeconomic and institutional reform efforts many countries have carried out of the past several years.\" Glenn Yago, Director of Capital Studies at the Milken Institute, says that if countries are to grow their economies, they must institute reforms that will allow capital to reach the entrepreneurs who can use it to build companies, create jobs and finance development. \"They must create conditions enabling a lower cost and greater access to capital to finance ideas for job growth,\" he said. \"The Index taps the level of democratization of capital a country has achieved, and how far reform must still go to fuel development.\" View the 2003 Capital Access Index.",
+    "summary": null,
+    "summary_processed": ""
+}

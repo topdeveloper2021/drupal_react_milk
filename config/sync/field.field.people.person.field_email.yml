@@ -1,0 +1,19 @@
+uuid: dc41716b-c082-41e9-a444-20b35fd9b44c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_email
+id: people.person.field_email
+field_name: field_email
+entity_type: people
+bundle: person
+label: Email
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

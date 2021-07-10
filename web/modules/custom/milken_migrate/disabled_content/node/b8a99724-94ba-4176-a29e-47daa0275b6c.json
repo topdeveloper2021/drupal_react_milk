@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fulfilling-promise-bioscience-report-milken-institute-outlines-steps-overcoming-barriers?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 98
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b8a99724-94ba-4176-a29e-47daa0275b6c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 98
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Fulfilling the promise of bioscience: report from Milken Institute outlines steps for overcoming barriers to innovation in medical research",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fulfilling-promise-bioscience-report-milken-institute-outlines-steps-overcoming-barriers",
+            "pid": 151,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- It's been almost a decade since the Human Genome Project was completed, yet despite the best efforts of thousands of scientists around the world, hopes for cures for a wide range of diseases remain unfulfilled. Last fall, a remarkable group of leaders came together to find new ways of overcoming the barriers that have prevented more progress in medical research. A report from the Milken Institute, released today, Accelerating Innovation in the Bioscience Revolution, recaps the discussions from that gathering- the 2011 Milken Institute Lake Tahoe Retreat. The meeting brought together forward-thinking leaders in medicine, business, and government who pledged to rethink the way research in the sector is conducted, the way risks are assessed and the way companies are structured. Participants included leaders from DARPA, the U.S. Food and Drug Administration, GE Global Research, Kleiner Perkins Caulfield & Byers, the National Institutes of Health, Quintiles, Sanofi, the X Prize Foundation, and many more. \"The hallmark of the retreat was a shared sense of urgency,\" said Mike Klowden, President and CEO of the Milken Institute. \"Participants were focused on how obstacles to innovation could best be addressed.\" Why the sense of urgency? One in three Americans suffers from deadly or debilitating diseases for which there are no cures and often few meaningful treatment options. At the same time, the pace of development of new medicines lags. FDA approved 35 new drugs in 2011, despite combined private and public spending of roughly $100 billion on research and development. The Lake Tahoe participants focused on ways to jumpstart innovation in the biosciences and accelerate the process of turning scientific discoveries into therapies- from harnessing the power of crowdsourcing to creating multidisciplinary networks to establishing open collaboration and safe-harbor environments in medical research and development. The report provides important context on the need to spur greater advances in medical research and lays out dozens of actionable policies, including: \u2022 Supporting public-policy initiatives that bolster U.S. leadership in biomedical research and innovation<br>\n\u2022 Revamping the U.S. tax code to encourage investment in biomedical research and development<br>\n\u2022 Streamlining and modernizing the FDA's regulatory review processes \u2022 Providing U.S. visas for students with potential to contribute to medical research<br>\n\u2022 Expanding funding for high-risk, early-stage research projects<br>\n\u2022 Investing more resources in science, technology, engineering, and math education programs \"The Lake Tahoe Retreat was meant to do much more than outline the problem. It was focused on identifying concrete solutions,\" said Margaret Anderson, Executive Director of the Institute's Faster Cures\/The Center for Accelerating Medical Solutions. \"Where we go from here depends on a collective commitment to getting things done.\" This ambitious event was a successful first step toward a long-term revival of innovations that will save lives. An Advisory Committee on Biomedical Innovation, co-chaired by Michael Milken, Chairman of the Milken Institute, and Chris Viehbacher, CEO of Sanofi, is being convened to begin implementing the key recommendations detailed in this report. Get a copy here: http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801325&cat=finlab",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- It's been almost a decade since the Human Genome Project was completed, yet despite the best efforts of thousands of scientists around the world, hopes for cures for a wide range of diseases remain unfulfilled. Last fall, a remarkable group of leaders came together to find new ways of overcoming the barriers that have prevented more progress in medical research. A report from the Milken Institute, released today, Accelerating Innovation in the Bioscience Revolution, recaps the discussions from that gathering- the 2011 Milken Institute Lake Tahoe Retreat. The meeting brought together forward-thinking leaders in medicine, business, and government who pledged to rethink the way research in the sector is conducted, the way risks are assessed and the way companies are structured. Participants included leaders from DARPA, the U.S. Food and Drug Administration, GE Global Research, Kleiner Perkins Caulfield &amp; Byers, the National Institutes of Health, Quintiles, Sanofi, the X Prize Foundation, and many more. \"The hallmark of the retreat was a shared sense of urgency,\" said Mike Klowden, President and CEO of the Milken Institute. \"Participants were focused on how obstacles to innovation could best be addressed.\" Why the sense of urgency? One in three Americans suffers from deadly or debilitating diseases for which there are no cures and often few meaningful treatment options. At the same time, the pace of development of new medicines lags. FDA approved 35 new drugs in 2011, despite combined private and public spending of roughly $100 billion on research and development. The Lake Tahoe participants focused on ways to jumpstart innovation in the biosciences and accelerate the process of turning scientific discoveries into therapies- from harnessing the power of crowdsourcing to creating multidisciplinary networks to establishing open collaboration and safe-harbor environments in medical research and development. The report provides important context on the need to spur greater advances in medical research and lays out dozens of actionable policies, including: \u2022 Supporting public-policy initiatives that bolster U.S. leadership in biomedical research and innovation<br \/>\n\u2022 Revamping the U.S. tax code to encourage investment in biomedical research and development<br \/>\n\u2022 Streamlining and modernizing the FDA's regulatory review processes \u2022 Providing U.S. visas for students with potential to contribute to medical research<br \/>\n\u2022 Expanding funding for high-risk, early-stage research projects<br \/>\n\u2022 Investing more resources in science, technology, engineering, and math education programs \"The Lake Tahoe Retreat was meant to do much more than outline the problem. It was focused on identifying concrete solutions,\" said Margaret Anderson, Executive Director of the Institute's Faster Cures\/The Center for Accelerating Medical Solutions. \"Where we go from here depends on a collective commitment to getting things done.\" This ambitious event was a successful first step toward a long-term revival of innovations that will save lives. An Advisory Committee on Biomedical Innovation, co-chaired by Michael Milken, Chairman of the Milken Institute, and Chris Viehbacher, CEO of Sanofi, is being convened to begin implementing the key recommendations detailed in this report. Get a copy here: http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801325&amp;cat=finlab",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/microfinance-oversold-bankers-underappreciated-and-k-pop-overlooked-join-discussion-latest?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 569
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d8812719-ab5b-4b31-8ec0-5986fb341f6b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 569
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Microfinance oversold, bankers underappreciated, and K-pop overlooked -- join the discussion with the latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-06-10T11:39:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T13:40:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/microfinance-oversold-bankers-underappreciated-and-k-pop-overlooked-join-discussion-latest",
+            "pid": 622,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- Jonathan Morduch, director of New York University's Financial Access Initiative, challenges the conventional wisdom of what microfinance can do for developing countries. \"Micro-lending has been sold as a practical means to get capital into the hands of small-scale entrepreneurs who can then earn their way out of poverty,\" he writes. \"The evidence suggests that better financial access does, indeed, give families improved ways to cope with poverty, but -- counter to the narrative -- seldom offers the means to escape it.\"Also in this issue:Ross Levine, an economist at Berkeley and senior fellow at the Milken Institute, offers hard evidence showing that bankers are your friends. \"While it is popular to demonize Wall Street, there's considerable evidence that a well-functioning financial system is vital for all manner of good things ranging from faster growth to the reduction of racial bias in hiring,\" he writes. \"Of course, the 'well-functioning' part matters -- and there's evidence that the system is deeply flawed. But there's no getting around the reality that sustained improvements in living standards are much less likely when regulation impedes competition in the financial services industry.\"Mark James Russell, a former correspondent for Billboard in Korea, sees method in the madness of K-Pop. \"There's more to South Korea's global reach in popular culture than an irresistible Asian equivalent of the Macarena,\" he concludes. \"It's a sign of deep changes affecting the world economy. Linking culture and commerce is hardly a uniquely Korean achievement. What is new, however, is the phenomenon of a small country becoming so influential so quickly, effectively rebranding its national identity.\"Glenn Yago, a senior director at the Milken Institute and its Israel Center, finds a silver lining in Israel's seeming endless struggle for survival. \"The technologies that are key to global growth -- those in energy, water, agriculture and health -- are precisely the ones that Israel has relied on to flourish in the harsh environment of the region,\" he notes. \"Hence Israel's daunting challenges also constitute an opportunity, a chance to apply technological and entrepreneurial strategies that double the rate of economic growth to six percent.\"Thor Gylfason of the University of Iceland compares the parallel disasters that beset the Icelandic and Irish economies when the global financial bubble burst. \"It's pretty clear why Iceland and Ireland adopted very different approaches to managing their financial crises,\" says; \"they had little choice in the matter.\" But \"Iceland was spared the consequences of the EU's Dickensian austerity because it wasn't a member of the euro zone and was small enough to fly under the radar of deficit hawks who might have insisted that the I.M.F. play hardball. Ireland wasn't so lucky.\"Bob Hahn (Oxford) and Hal Singer (Navigant Economics) attack the vogue for regulating giant Internet companies. \"Innovation on the Internet is qualitatively different from that in most industries,\" they write. \"Content providers often leapfrog rivals by offering new technologies rather than by making established products better or cheaper.\" Accordingly, \"competition on the Internet and other supercharged industries that live or die through innovation cannot be analyzed without accounting for the possibility of big changes that are not readily foreseeable.\"Robert Looney of the Naval Postgraduate School in California offers a primer on resurrecting the economies of countries (like Afghanistan) that are collateral damage in modern wars. \"What is the point of spending trillions of dollars and hundreds of thousands of lives (American and Afghan) to secure hostile countries, if the economic mess we leave is as bad as the one we inherited?\" he writes. \"Hence, the emergence of a new field in economics that focuses on the development side of the equation. The U.S. military, often the dominant player in such environments, must sharpen its ability to encourage indigenous entrepreneurship.\"The Financial Times called Benn Steil's new book, The Battle of Bretton Woods, a triumph of economic and diplomatic history.\" The New York Times labeled it the \"gold standard on its topic.\" To find out what the fuss is about, check out a special excerpt from the Council on Foreign Relations Senior Fellow's book in this issue of the Review.Finally, \"for conservatives and liberals who'd like a taste of how thoughtful people on the other side view economic and social policy,\" Peter Passell offers five books for each opposing side.The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=list&cat=mir, where you can also download the app for iPhone and iPad.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- Jonathan Morduch, director of New York University's Financial Access Initiative, challenges the conventional wisdom of what microfinance can do for developing countries. \"Micro-lending has been sold as a practical means to get capital into the hands of small-scale entrepreneurs who can then earn their way out of poverty,\" he writes. \"The evidence suggests that better financial access does, indeed, give families improved ways to cope with poverty, but -- counter to the narrative -- seldom offers the means to escape it.\"Also in this issue:Ross Levine, an economist at Berkeley and senior fellow at the Milken Institute, offers hard evidence showing that bankers are your friends. \"While it is popular to demonize Wall Street, there's considerable evidence that a well-functioning financial system is vital for all manner of good things ranging from faster growth to the reduction of racial bias in hiring,\" he writes. \"Of course, the 'well-functioning' part matters -- and there's evidence that the system is deeply flawed. But there's no getting around the reality that sustained improvements in living standards are much less likely when regulation impedes competition in the financial services industry.\"Mark James Russell, a former correspondent for Billboard in Korea, sees method in the madness of K-Pop. \"There's more to South Korea's global reach in popular culture than an irresistible Asian equivalent of the Macarena,\" he concludes. \"It's a sign of deep changes affecting the world economy. Linking culture and commerce is hardly a uniquely Korean achievement. What is new, however, is the phenomenon of a small country becoming so influential so quickly, effectively rebranding its national identity.\"Glenn Yago, a senior director at the Milken Institute and its Israel Center, finds a silver lining in Israel's seeming endless struggle for survival. \"The technologies that are key to global growth -- those in energy, water, agriculture and health -- are precisely the ones that Israel has relied on to flourish in the harsh environment of the region,\" he notes. \"Hence Israel's daunting challenges also constitute an opportunity, a chance to apply technological and entrepreneurial strategies that double the rate of economic growth to six percent.\"Thor Gylfason of the University of Iceland compares the parallel disasters that beset the Icelandic and Irish economies when the global financial bubble burst. \"It's pretty clear why Iceland and Ireland adopted very different approaches to managing their financial crises,\" says; \"they had little choice in the matter.\" But \"Iceland was spared the consequences of the EU's Dickensian austerity because it wasn't a member of the euro zone and was small enough to fly under the radar of deficit hawks who might have insisted that the I.M.F. play hardball. Ireland wasn't so lucky.\"Bob Hahn (Oxford) and Hal Singer (Navigant Economics) attack the vogue for regulating giant Internet companies. \"Innovation on the Internet is qualitatively different from that in most industries,\" they write. \"Content providers often leapfrog rivals by offering new technologies rather than by making established products better or cheaper.\" Accordingly, \"competition on the Internet and other supercharged industries that live or die through innovation cannot be analyzed without accounting for the possibility of big changes that are not readily foreseeable.\"Robert Looney of the Naval Postgraduate School in California offers a primer on resurrecting the economies of countries (like Afghanistan) that are collateral damage in modern wars. \"What is the point of spending trillions of dollars and hundreds of thousands of lives (American and Afghan) to secure hostile countries, if the economic mess we leave is as bad as the one we inherited?\" he writes. \"Hence, the emergence of a new field in economics that focuses on the development side of the equation. The U.S. military, often the dominant player in such environments, must sharpen its ability to encourage indigenous entrepreneurship.\"The Financial Times called Benn Steil's new book, The Battle of Bretton Woods, a triumph of economic and diplomatic history.\" The New York Times labeled it the \"gold standard on its topic.\" To find out what the fuss is about, check out a special excerpt from the Council on Foreign Relations Senior Fellow's book in this issue of the Review.Finally, \"for conservatives and liberals who'd like a taste of how thoughtful people on the other side view economic and social policy,\" Peter Passell offers five books for each opposing side.The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=list&amp;cat=mir, where you can also download the app for iPhone and iPad.",
+    "summary": null,
+    "summary_processed": ""
+}

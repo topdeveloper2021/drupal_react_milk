@@ -1,0 +1,10 @@
+uuid: 62ca4156-9300-470a-967a-8a4f53cb14fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.small
+label: Small
+targetEntityType: media
+cache: true

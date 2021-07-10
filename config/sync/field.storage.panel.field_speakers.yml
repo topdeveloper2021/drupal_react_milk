@@ -1,0 +1,19 @@
+uuid: a3320b21-7800-46bc-88b9-733f37cad568
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_speakers
+field_name: field_speakers
+entity_type: panel
+type: entity_reference
+settings:
+  target_type: grid_speakers
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

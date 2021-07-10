@@ -1,0 +1,29 @@
+uuid: c87cf0cb-7c7e-479b-9e49-111e4053d554
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_centers_general
+    - node.type.career
+    - taxonomy.vocabulary.centers
+id: node.career.field_centers_general
+field_name: field_centers_general
+entity_type: node
+bundle: career
+label: 'Tag: Center'
+description: 'Assign this node/entry to the appropriate center(s) for search purposes and to restrict edit access.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

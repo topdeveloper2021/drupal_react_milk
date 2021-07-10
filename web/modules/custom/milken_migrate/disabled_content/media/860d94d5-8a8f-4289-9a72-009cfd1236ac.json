@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7846\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/MTxR9qFc3VA5zyPFfk22nqBuvwpYcZerIdpPbIQmdSE.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7846
+        }
+    ],
+    "uuid": [
+        {
+            "value": "860d94d5-8a8f-4289-9a72-009cfd1236ac"
+        }
+    ],
+    "vid": [
+        {
+            "value": 503
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/MTxR9qFc3VA5zyPFfk22nqBuvwpYcZerIdpPbIQmdSE.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f64191ea-ab04-4b44-a58a-36213509fe06"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Blue Economy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T19:36:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "With the right technologies, the ocean can become the source of clean energy and a sustainable food supply for the world's growing population. In the process, our seas can also generate jobs in new industries that don't threaten the environment. Advocates of the Blue Economy suggest that sea-based energy projects, using tidal, current and wave-based technologies, will attract $190 billion in new investments over the next 20 years. But whether investors center on energy, food production, or biomedicine, developing a deeper understanding of the ocean can lead to solutions that are environmentally beneficial while providing significant financial and social benefits. This panel brings together marine scientists, business leaders and policymakers to preview the most creative proposals for using the ocean to improve the quality of life.",
+    "format": "rich_text",
+    "processed": "With the right technologies, the ocean can become the source of clean energy and a sustainable food supply for the world's growing population. In the process, our seas can also generate jobs in new industries that don't threaten the environment. Advocates of the Blue Economy suggest that sea-based energy projects, using tidal, current and wave-based technologies, will attract $190 billion in new investments over the next 20 years. But whether investors center on energy, food production, or biomedicine, developing a deeper understanding of the ocean can lead to solutions that are environmentally beneficial while providing significant financial and social benefits. This panel brings together marine scientists, business leaders and policymakers to preview the most creative proposals for using the ocean to improve the quality of life.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ZRMjr7wxJro",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/MTxR9qFc3VA5zyPFfk22nqBuvwpYcZerIdpPbIQmdSE.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

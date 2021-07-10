@@ -1,0 +1,53 @@
+uuid: e7963ea8-f8cb-4718-83c8-e7f14588a3f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.media_tiles.field_background_color
+    - field.field.paragraph.media_tiles.field_media_refs
+    - field.field.paragraph.media_tiles.field_title
+    - field.field.paragraph.media_tiles.field_view_mode
+    - paragraphs.paragraphs_type.media_tiles
+  module:
+    - color_field
+    - options
+id: paragraph.media_tiles.default
+targetEntityType: paragraph
+bundle: media_tiles
+mode: default
+content:
+  field_background_color:
+    weight: 3
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_media_refs:
+    type: entity_reference_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_view_mode:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  search_api_excerpt: true

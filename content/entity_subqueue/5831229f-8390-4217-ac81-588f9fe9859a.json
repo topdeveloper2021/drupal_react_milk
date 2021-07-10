@@ -1,0 +1,213 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/admin\/structure\/entityqueue\/homepage_videos\/homepage_videos?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/entity_subqueue\/homepage_videos"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/entity_subqueue\/homepage_videos\/revision_user": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/entity_subqueue\/homepage_videos\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/entity_subqueue\/homepage_videos\/items": [
+            {
+                "href": "http:\/\/localhost:8080\/media\/7470\/edit?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/localhost:8080\/media\/7067\/edit?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/localhost:8080\/media\/13915\/edit?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/localhost:8080\/media\/10163\/edit?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "5831229f-8390-4217-ac81-588f9fe9859a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "queue": [
+        {
+            "target_id": "homepage_videos"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-04-27T20:53:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/entity_subqueue\/homepage_videos\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8cbad94-9497-4e8c-aa7e-e881a49081ef"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/entity_subqueue\/homepage_videos\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8cbad94-9497-4e8c-aa7e-e881a49081ef"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/entity_subqueue\/homepage_videos\/items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/media\/7470\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "22d06fdc-aa18-4248-bf90-43e4b3fc4d79"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/media\/7067\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0efe483a-d7ec-477b-b6b1-0ed1e629bf8a"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/media\/13915\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "add7b401-e610-453f-bc5b-380ffe767b05"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/media\/10163\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "725654a7-b47d-4a43-be8e-98ce1e83bd4c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "homepage_videos",
+            "lang": "en"
+        }
+    ],
+    "name": [
+      {
+        "value": "homepage_videos",
+        "lang": "en"
+      }
+    ],
+    "created": [
+        {
+            "value": "2020-04-27T20:53:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-04T16:02:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ]
+}

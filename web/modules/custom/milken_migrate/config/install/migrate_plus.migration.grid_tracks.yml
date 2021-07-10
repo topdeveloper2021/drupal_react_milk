@@ -1,0 +1,61 @@
+id: grid_tracks
+label: Grid Tracks
+class: null
+migration_group: milken
+migration_tags:
+  - grid
+source:
+  plugin: url
+  urls: 'https://milken-dev.reapbooster.com:8443/jsonapi/tracks/'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milken-dev.reapbooster.com:8443'
+  jsonapi_endpoint: /jsonapi/tracks/
+  item_selector: data
+  fields:
+    -
+      name: id
+      lablel: ID
+      selector: /id
+    -
+      name: trackname
+      label: Track Name
+      selector: /attributes/trackname
+    -
+      name: trackdescription
+      label: Track Description
+      selector: /attributes/trackdescription
+    -
+      name: eventid
+      label: eventId
+      selector: /attributes/eventId
+    -
+      name: tracktype
+      label: Track Type
+      selector: /attributes/tracktype
+    -
+      name: created
+      label: Created
+      selector: /attributes/datecreated
+    -
+      name: updated
+      label: Updated
+      selector: /attributes/datemodified
+  ids:
+    id:
+      type: integer
+process:
+  id: id
+  title: trackname
+  field_description: trackdescription
+  field_event_id: eventid
+  field_track_id: id
+  field_track_type: tracktype
+destination:
+  plugin: 'entity:grid_tracks'
+  default_bundle: tracks
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+      - eck

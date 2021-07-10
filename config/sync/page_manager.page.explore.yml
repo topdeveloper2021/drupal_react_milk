@@ -1,0 +1,16 @@
+uuid: 4b1ca1ab-c7e9-4484-a9b0-d53b374a31f2
+langcode: en
+status: true
+dependencies: {  }
+id: explore
+label: Explore
+description: 'Explore pages are basic entity lists.'
+use_admin_theme: false
+path: '/explore/{args}'
+access_logic: and
+access_conditions: {  }
+parameters:
+  args:
+    machine_name: args
+    type: string
+    label: exploreargs

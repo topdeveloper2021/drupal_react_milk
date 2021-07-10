@@ -1,0 +1,21 @@
+uuid: d3a6db51-c81c-4cb2-ac7c-9bcc61b974a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_twitternotes
+field_name: field_twitternotes
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

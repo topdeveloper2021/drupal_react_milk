@@ -1,0 +1,29 @@
+entity.events.list:
+  title: Events
+  route_name: eck.entity.event.list
+  base_route: system.admin_content
+  weight: 20
+
+entity.slides.list:
+  title: Slides
+  route_name: eck.entity.slide.list
+  base_route: system.admin_content
+  weight: 30
+
+entity.people.list:
+  title: People
+  route_name: eck.entity.people.list
+  base_route: system.admin_content
+  weight: 40
+
+entity.panels.list:
+  title: Panels
+  route_name: eck.entity.panel.list
+  base_route: system.admin_content
+  weight: 50
+
+entity.location.list:
+  title: Locations
+  route_name: eck.entity.location.list
+  base_route: system.admin_content
+  weight: 60

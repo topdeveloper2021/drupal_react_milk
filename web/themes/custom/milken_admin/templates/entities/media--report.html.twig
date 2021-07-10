@@ -1,0 +1,19 @@
+{{ attach_library('milken_base/media_report') }}
+
+{% set media_value =  []
+  | merge({ 'entityTypeId': media.getEntityTypeId })
+  | merge({ 'id': media.uuid.value })
+  | merge({ 'drupal_internal__id': media.id })
+  | merge({ 'type': media.bundle })
+  | merge({ 'includes': "field_cover,field_content,thumbnail" })
+%}
+
+
+<media-report
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ media_value | jsonapi }}"
+>
+
+</media-report>

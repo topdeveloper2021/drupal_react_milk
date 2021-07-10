@@ -1,0 +1,21 @@
+uuid: a30e81d2-d3bb-40cc-8759-ef29c2026114
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_meta_tags
+  module:
+    - metatag
+id: people.person.field_meta_tags
+field_name: field_meta_tags
+entity_type: people
+bundle: person
+label: field_meta_tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

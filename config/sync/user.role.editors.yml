@@ -1,0 +1,18 @@
+uuid: 7bb23e4b-9f2a-4e6f-aa89-8fae83e249ed
+langcode: en
+status: true
+dependencies: {  }
+id: editors
+label: Editors
+weight: 64
+is_admin: null
+permissions:
+  - 'administer display modes'
+  - 'administer event fields'
+  - 'administer media fields'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer paragraph fields'
+  - 'administer people fields'
+  - 'administer slide fields'
+  - 'administer taxonomy_term fields'

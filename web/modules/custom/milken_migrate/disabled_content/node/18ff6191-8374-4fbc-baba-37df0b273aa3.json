@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/latest-milken-institute-review-george-mason-university-economist-ken-button-takes-hard-look?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 35
+        }
+    ],
+    "uuid": [
+        {
+            "value": "18ff6191-8374-4fbc-baba-37df0b273aa3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 35
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In the latest Milken Institute Review: George Mason University Economist Ken Button Takes a Hard Look at America\u2019s Rapidly Consolidating Airline Industry\u2014and Offers a Bold Prescription for Saving Competition",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-02-01T14:13:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/latest-milken-institute-review-george-mason-university-economist-ken-button-takes-hard-look",
+            "pid": 88,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014<b>Ken Button<\/b> points out that the giant legacy carriers that stumbled through the first decades of deregulation are finally covering their operating costs and are better positioned to confront future economic storms. But the slew of mergers that have made this possible have also opened the door to anti-competitive behavior that could undermine consumers\u2019 gains. The answer: Allow lean and hungry foreign carriers to compete directly in the U.S. domestic airline market.Also in this issue:<b>Melissa Stevens<\/b>, executive director of the Milken Institute\u2019s Center for Strategic Philanthropy, outlines a plan for leveraging philanthropic dollars to manage risk in the development of life-saving drugs. \u201cThe idea is to mix and match three types of investors\u2014market investors, pharmaceutical companies, and venture philanthropists\u2014all of whom are stakeholders in developing new treatments.\u201d<b>Larry Fisher<\/b>, a former New York Times business reporter, examines California\u2019s flirtation with seawater desalination, a technology long dismissed as somewhere between \u201ciffy and Hail Mary\u2026 There\u2019s no question that desalination plants are costly and have some impact on the environment,\u201d he writes, \u201cbut that has been true of every water supply project since the Roman aqueducts.\u201d<b>Sutirtha Bagchi<\/b> of Villanova University and <b>Jan Svejnar<\/b> of Columbia University ask whether the extraordinary rise in extreme wealth in recent decades stimulates or undermines economic growth. \u201cBillionaires who make their money through hard work, innovation (or, for that matter, luck) don\u2019t have much impact on average productivity,\u201d they conclude. \u201cBut those who make their money through political connections tend to reduce productivity because they typically prosper by virtue of monopoly power that distorts resource allocation\u201d\u2014and perhaps more important, \u201cthey have a strong interest in using their influence to retard innovation by potential competitors.\u201d<b>Bob Looney<\/b>, an economist at the Naval Postgraduate School in California, takes a hard look at Ethiopia\u2019s ballyhooed economic miracle. \u201cEthiopia\u2019s government credits its impressive growth to the adoption of the \u2018developmental state\u2019 model of the East Asian tigers,\u201d he writes. \u201cThis, on its face, is suspect since development economists have long been skeptical that an East Asian strategy could be sustained in the teeth of ethnic heterogeneity, widespread corruption and rent-seeking, and woefully deficient governance.\u201d<b>Gene Steuerle<\/b>, an economist at the Urban Institute in Washington, explains how long-dead policymakers haunt the federal budget. \u201cEver less is invested in our future, even as programs designed decades ago balloon in size and lose focus on the problems they were intended to solve,\u201d he writes. \u201cIt has significantly weakened recent presidents and congresses, and it will completely hobble future ones unless we collectively confront the fiscal legacy that locks us into decline.\u201d<b>Eren Inci<\/b>, an economist at Sabanci University in Istanbul, examines the consequences of free street parking on the quality of urban life. Free is not free, he points out: \u201cOne way or another, someone always pays, often indirectly, in the form of higher prices for something else. Moreover, the enormous amounts of land and structures needed for parking almost guarantees that mispricing parking spaces will undermine economic efficiency.\u201dIn an excerpt from his new book, The Rise and Fall of American Growth, contrarian economist <b>Robert Gordon<\/b> argues that technology won\u2019t save us from stagnation. And in his latest analysis, Brookings Institution demographer <b>Bill Frey<\/b> documents the startling reality that emigration from Asia has eclipsed the more controversial emigration from Latin America.Find the latest Milken Institute Review here: <b>http:\/\/www.milkeninstitute.org\/publications\/view\/765<\/b>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014<b>Ken Button<\/b> points out that the giant legacy carriers that stumbled through the first decades of deregulation are finally covering their operating costs and are better positioned to confront future economic storms. But the slew of mergers that have made this possible have also opened the door to anti-competitive behavior that could undermine consumers\u2019 gains. The answer: Allow lean and hungry foreign carriers to compete directly in the U.S. domestic airline market.Also in this issue:<b>Melissa Stevens<\/b>, executive director of the Milken Institute\u2019s Center for Strategic Philanthropy, outlines a plan for leveraging philanthropic dollars to manage risk in the development of life-saving drugs. \u201cThe idea is to mix and match three types of investors\u2014market investors, pharmaceutical companies, and venture philanthropists\u2014all of whom are stakeholders in developing new treatments.\u201d<b>Larry Fisher<\/b>, a former New York Times business reporter, examines California\u2019s flirtation with seawater desalination, a technology long dismissed as somewhere between \u201ciffy and Hail Mary\u2026 There\u2019s no question that desalination plants are costly and have some impact on the environment,\u201d he writes, \u201cbut that has been true of every water supply project since the Roman aqueducts.\u201d<b>Sutirtha Bagchi<\/b> of Villanova University and <b>Jan Svejnar<\/b> of Columbia University ask whether the extraordinary rise in extreme wealth in recent decades stimulates or undermines economic growth. \u201cBillionaires who make their money through hard work, innovation (or, for that matter, luck) don\u2019t have much impact on average productivity,\u201d they conclude. \u201cBut those who make their money through political connections tend to reduce productivity because they typically prosper by virtue of monopoly power that distorts resource allocation\u201d\u2014and perhaps more important, \u201cthey have a strong interest in using their influence to retard innovation by potential competitors.\u201d<b>Bob Looney<\/b>, an economist at the Naval Postgraduate School in California, takes a hard look at Ethiopia\u2019s ballyhooed economic miracle. \u201cEthiopia\u2019s government credits its impressive growth to the adoption of the \u2018developmental state\u2019 model of the East Asian tigers,\u201d he writes. \u201cThis, on its face, is suspect since development economists have long been skeptical that an East Asian strategy could be sustained in the teeth of ethnic heterogeneity, widespread corruption and rent-seeking, and woefully deficient governance.\u201d<b>Gene Steuerle<\/b>, an economist at the Urban Institute in Washington, explains how long-dead policymakers haunt the federal budget. \u201cEver less is invested in our future, even as programs designed decades ago balloon in size and lose focus on the problems they were intended to solve,\u201d he writes. \u201cIt has significantly weakened recent presidents and congresses, and it will completely hobble future ones unless we collectively confront the fiscal legacy that locks us into decline.\u201d<b>Eren Inci<\/b>, an economist at Sabanci University in Istanbul, examines the consequences of free street parking on the quality of urban life. Free is not free, he points out: \u201cOne way or another, someone always pays, often indirectly, in the form of higher prices for something else. Moreover, the enormous amounts of land and structures needed for parking almost guarantees that mispricing parking spaces will undermine economic efficiency.\u201dIn an excerpt from his new book, The Rise and Fall of American Growth, contrarian economist <b>Robert Gordon<\/b> argues that technology won\u2019t save us from stagnation. And in his latest analysis, Brookings Institution demographer <b>Bill Frey<\/b> documents the startling reality that emigration from Asia has eclipsed the more controversial emigration from Latin America.Find the latest Milken Institute Review here: <b>http:\/\/www.milkeninstitute.org\/publications\/view\/765<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

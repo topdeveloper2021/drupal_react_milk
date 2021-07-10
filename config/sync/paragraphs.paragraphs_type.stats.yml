@@ -1,0 +1,12 @@
+uuid: ac9283b1-84eb-4d42-9767-da2077dab706
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:c482576a-e26c-44d6-b1b9-b85cd8b8d17b'
+id: stats
+label: Stats
+icon_uuid: c482576a-e26c-44d6-b1b9-b85cd8b8d17b
+icon_default: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+IDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgPGc+CiAgICAgICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgogICAgICAgIDxwYXRoIGQ9Ik0zIDNoMThhMSAxIDAgMCAxIDEgMXYxNmExIDEgMCAwIDEtMSAxSDNhMSAxIDAgMCAxLTEtMVY0YTEgMSAwIDAgMSAxLTF6bTEgMnYxNGgxNlY1SDR6bTMgOGgydjRIN3YtNHptNC02aDJ2MTBoLTJWN3ptNCAzaDJ2N2gtMnYtN3oiLz4KICAgIDwvZz4KPC9zdmc+Cg=='
+description: 'Place a statistics "By The Numbers" section. '
+behavior_plugins: {  }

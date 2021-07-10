@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/hurricane-katrina-could-cost-400000-jobs-say-economists-most-will-return-2006?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 206
+        }
+    ],
+    "uuid": [
+        {
+            "value": "62ff7e38-3cb9-48c2-8e65-b80873b15b21"
+        }
+    ],
+    "vid": [
+        {
+            "value": 206
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hurricane Katrina Could Cost 400,000 Jobs, Say Economists, but Most Will Return by 2006 With Reconstruction Efforts",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/hurricane-katrina-could-cost-400000-jobs-say-economists-most-will-return-2006",
+            "pid": 259,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The devastation left by Hurricane Katrina could cost the U.S. economy an initial loss of 400,000 jobs in September and reduce monthly average job creation by 30,000 jobs for the rest of 2005. It could also increase the price of oil by $10 a barrel and lead to a nearly one percent decline in GDP growth in the fourth quarter of this year. But next year, reconstruction efforts will turn things around - adding back those 30,000 jobs per month, easing the price of oil and increasing the GDP by more than a percentage point during the second and third quarters. These are the preliminary findings of two Milken Institute regional economists who\u2032ve studied the potential impact of Katrina on the U.S. and Gulf Coast economies. Their insights are based on extensive research and knowledge of the economic impacts of natural disasters and terrorist attacks, such as 9\/11. Ross DeVol, Director of Regional Economics, and Perry Wong, Senior Research Economist, say that based on what has happened after previous natural disasters, the 400,000 short-term job losses in the Gulf will start coming back as early as next month. And the monthly loss in U.S. job creation - due to Katrina\u2032s impact on the rest of the U.S. economy, such as higher gas prices - will be made up by an increase in employment in such areas as construction once rebuilding is fully under way. \"There will be an immediate impact on jobs and economic growth this quarter,\" DeVol said, \"but with the federal government and insurance carriers expected to spend billions of dollars to rebuild the region, the reconstruction efforts will prove a boon to the economy in 2006.\" Insurance payouts for Katrina are expected to be the most for any hurricane cleanup in U.S. history - anywhere from $20 billion to $45 billion. The federal government could end up spending as much as $150 billion. One of the key questions is how to rebuild New Orleans, which is dependent on tourism and lacks the knowledge-based workforce that is crucial for economic growth. Wong said it\u2032s important for local and federal officials to think about how to build a 21st century economy in the region. \"It\u2032s not just the rebuilding that's important, but what kind of rebuilding we do,\" he said. \"The danger is if we try to put it back just as it was.\"",
+    "format": "rich_text",
+    "processed": "The devastation left by Hurricane Katrina could cost the U.S. economy an initial loss of 400,000 jobs in September and reduce monthly average job creation by 30,000 jobs for the rest of 2005. It could also increase the price of oil by $10 a barrel and lead to a nearly one percent decline in GDP growth in the fourth quarter of this year. But next year, reconstruction efforts will turn things around - adding back those 30,000 jobs per month, easing the price of oil and increasing the GDP by more than a percentage point during the second and third quarters. These are the preliminary findings of two Milken Institute regional economists who\u2032ve studied the potential impact of Katrina on the U.S. and Gulf Coast economies. Their insights are based on extensive research and knowledge of the economic impacts of natural disasters and terrorist attacks, such as 9\/11. Ross DeVol, Director of Regional Economics, and Perry Wong, Senior Research Economist, say that based on what has happened after previous natural disasters, the 400,000 short-term job losses in the Gulf will start coming back as early as next month. And the monthly loss in U.S. job creation - due to Katrina\u2032s impact on the rest of the U.S. economy, such as higher gas prices - will be made up by an increase in employment in such areas as construction once rebuilding is fully under way. \"There will be an immediate impact on jobs and economic growth this quarter,\" DeVol said, \"but with the federal government and insurance carriers expected to spend billions of dollars to rebuild the region, the reconstruction efforts will prove a boon to the economy in 2006.\" Insurance payouts for Katrina are expected to be the most for any hurricane cleanup in U.S. history - anywhere from $20 billion to $45 billion. The federal government could end up spending as much as $150 billion. One of the key questions is how to rebuild New Orleans, which is dependent on tourism and lacks the knowledge-based workforce that is crucial for economic growth. Wong said it\u2032s important for local and federal officials to think about how to build a 21st century economy in the region. \"It\u2032s not just the rebuilding that's important, but what kind of rebuilding we do,\" he said. \"The danger is if we try to put it back just as it was.\"",
+    "summary": null,
+    "summary_processed": ""
+}

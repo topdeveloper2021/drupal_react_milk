@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-isnt-innovation-booming-aging-boomers?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/27?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 486
+        }
+    ],
+    "uuid": [
+        {
+            "value": "81a78c09-b339-4741-abc2-5904b6dd3745"
+        }
+    ],
+    "vid": [
+        {
+            "value": 486
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/27?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b622c008-f687-4d44-b3f6-a2781b55cca6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Isn't Innovation Booming for Aging Boomers?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T11:33:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-isnt-innovation-booming-aging-boomers",
+            "pid": 539,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Baby Boomers (born between 1946 and 1964) have and will continue to reshape the population\u2014we should be reshaping business to meet their changing needs as they age.We are completely under-investing in and under-serving older adults in this country and around the world\u2014and it\u2019s wild because the opportunities for great social benefit while building large, sustainable businesses are massive. The question is, why?\u00a0We all know that the over-65 population is rapidly growing. Today, there are approximately 46 million people aged 65-and-over living in the United States. That population is projected to more than double to 98 million by 2060. The market is exploding and so is the opportunity.You don\u2019t have to look 40 years ahead to capitalize on those opportunities.About 10,000 Baby Boomers are turning 65 every single day\u2014and will through 2029. They\u2019re more active than ever with massive spending power, controlling 70 percent of the nation\u2019s disposable income.But there\u2019s very little innovation for that population happening now.In 2014, only 0.7 percent of VC funding went to companies developing products or services for older adults. Yet, $1 trillion of our $18 trillion GDP comes from those over 65. That\u2019s almost six percent of GDP! Given the population growth, we\u2019re underinvesting in older adults by a mere 20x.Why isn\u2019t new business and innovation booming for aging Baby Boomers? Two simple problems\u2014that are easy to fix.Venture investors need businesses to grow quickly, and tech makes it happen. Unfortunately, most people think that technology and the 65+ population don\u2019t mix. That\u2019s just not true. Think of the automobile, telephone, ATM, and microwave\u2014these are just a few examples of new technologies that were rapidly and widely accepted because they fulfilled a real need\u2014making people\u2019s lives better every day. We\u2019ve got to change how we think about our older population and their willingness and desire to adopt new technology. If technology doesn\u2019t feel like technology, but rather a much needed service, that\u2019s better for everyone\u2014regardless of age. The technology needs to disappear into the background.The second issue is that most entrepreneurs are in their twenties, thirties, or forties, decades away from 65. They\u2019re not seeing this enormous business opportunity because they haven\u2019t lived it yet. Usually, people build to solve their own problems. They\u2019re looking at their own lives and ways to innovate, then developing new products and services for themselves and their friends.Men and women over 65 have very unique needs and desires.If you just spend time with older people, go into their communities and really talk with them, observe, and listen, you can figure out many of their real problems and needs. And real innovation comes from addressing real needs.It\u2019s also important to know for what segment of this market you\u2019re building. It\u2019s too broad to say, \u201cI\u2019m building a product for older people.\u201d People in their late sixties have different needs from people in their seventies or eighties. And each one of those population segments is looking for its own products, its own solutions. There\u2019s no substitute for spending time with your customers.We started Honor, an online marketplace for home care workers and clients because we saw a clear and urgent need: much better care for people who want to stay in their homes as they age\u2014often called aging in place. But there are so many more things that older adults will need as they age, everything from fun social activities\u2014because wellness is all about staying active\u2014to better safety and security innovations and even new education opportunities.\u00a0There is real venture capital available for entrepreneurs who have a good idea and solid business plan. I hope that Honor\u2019s presence has helped open up this category. And I sincerely hope that we\u2019ll continue to see new and innovative product built for our collective audience.\u00a0<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Baby Boomers (born between 1946 and 1964) have and will continue to reshape the population\u2014we should be reshaping business to meet their changing needs as they age.We are completely under-investing in and under-serving older adults in this country and around the world\u2014and it\u2019s wild because the opportunities for great social benefit while building large, sustainable businesses are massive. The question is, why?\u00a0We all know that the over-65 population is rapidly growing. Today, there are approximately 46 million people aged 65-and-over living in the United States. That population is projected to more than double to 98 million by 2060. The market is exploding and so is the opportunity.You don\u2019t have to look 40 years ahead to capitalize on those opportunities.About 10,000 Baby Boomers are turning 65 every single day\u2014and will through 2029. They\u2019re more active than ever with massive spending power, controlling 70 percent of the nation\u2019s disposable income.But there\u2019s very little innovation for that population happening now.In 2014, only 0.7 percent of VC funding went to companies developing products or services for older adults. Yet, $1 trillion of our $18 trillion GDP comes from those over 65. That\u2019s almost six percent of GDP! Given the population growth, we\u2019re underinvesting in older adults by a mere 20x.Why isn\u2019t new business and innovation booming for aging Baby Boomers? Two simple problems\u2014that are easy to fix.Venture investors need businesses to grow quickly, and tech makes it happen. Unfortunately, most people think that technology and the 65+ population don\u2019t mix. That\u2019s just not true. Think of the automobile, telephone, ATM, and microwave\u2014these are just a few examples of new technologies that were rapidly and widely accepted because they fulfilled a real need\u2014making people\u2019s lives better every day. We\u2019ve got to change how we think about our older population and their willingness and desire to adopt new technology. If technology doesn\u2019t feel like technology, but rather a much needed service, that\u2019s better for everyone\u2014regardless of age. The technology needs to disappear into the background.The second issue is that most entrepreneurs are in their twenties, thirties, or forties, decades away from 65. They\u2019re not seeing this enormous business opportunity because they haven\u2019t lived it yet. Usually, people build to solve their own problems. They\u2019re looking at their own lives and ways to innovate, then developing new products and services for themselves and their friends.Men and women over 65 have very unique needs and desires.If you just spend time with older people, go into their communities and really talk with them, observe, and listen, you can figure out many of their real problems and needs. And real innovation comes from addressing real needs.It\u2019s also important to know for what segment of this market you\u2019re building. It\u2019s too broad to say, \u201cI\u2019m building a product for older people.\u201d People in their late sixties have different needs from people in their seventies or eighties. And each one of those population segments is looking for its own products, its own solutions. There\u2019s no substitute for spending time with your customers.We started Honor, an online marketplace for home care workers and clients because we saw a clear and urgent need: much better care for people who want to stay in their homes as they age\u2014often called aging in place. But there are so many more things that older adults will need as they age, everything from fun social activities\u2014because wellness is all about staying active\u2014to better safety and security innovations and even new education opportunities.\u00a0There is real venture capital available for entrepreneurs who have a good idea and solid business plan. I hope that Honor\u2019s presence has helped open up this category. And I sincerely hope that we\u2019ll continue to see new and innovative product built for our collective audience.\u00a0<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

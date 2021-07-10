@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/let-people-choose-how-they-age-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/25?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 484
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ec5c896a-843b-4124-8a9e-27397787b99c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 484
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/25?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "022abd71-e712-49fc-bea9-068b91009615"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Let People Choose How They Age",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:20:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/let-people-choose-how-they-age-0",
+            "pid": 537,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "My mother lived well into her 90\u2019s, beating her life expectancy by almost 40 years. Her generation followed an established life path\u2014work at one job or career until retirement. Then, with your few remaining years, travel and spend time with the grandchildren.When I think about my life and what\u2019s in store for my daughter, my grandchildren and the nearly 38 million members of AARP, I see many different paths filled with adventures, challenges, and great opportunities. I see all of us taking control over how we live at every age\u2014mixing travel, retooling, career changes, volunteering and crossing off bucket list items along the way.We have been given the gift of time. In 1900, average life expectancy was 47. Today it\u2019s 78. Every day more than 10,000 people in the United States turn 65. By 2050, more than 20 percent of the population will be over 65 and more than a million Americans will be over 100. My young grandchildren have a 60 percent chance of living past the 100-year mark.AARP is \u201cdisrupting aging\u201d by changing the conversation around what it means to age. We are challenging outdated beliefs and sparking new solutions so people can choose how they live and age.Today, the total economic activity of Americans over age 50 totals $7.6 trillion. While these consumers represent 35 percent of today\u2019s population, they control more than half of the country\u2019s investable assets. If this were a separate economy, it would rank third in the world behind only the United States and China.Businesses have a golden opportunity to tap into this longevity economy through technology solutions ranging from new ways to communicate to new ways to manage finances, health, and day-to-day living. Seniors are not technophobic. Most adults over 50 are active users of digital devices and are comfortable with mobile commerce.While increases in life expectancy are obviously a plus, a look behind the numbers reveals that while we are living longer, lifespans continue to expand faster than health spans. In the United States, for example, the gap between life expectancy and a healthy life expectancy is 5.7 years. The larger that gap, the more significant the economic implications, including increased healthcare costs and fewer productive years for an individual. We can decrease this gap through healthy living and access to better healthcare\u2014especially preventive care\u2014throughout our lives.My mother was fortunate to live in a small town where people watched out for each other. But not everyone lives in such a watchful community. And even if they do, there is only so much that good neighbors and vigilant public servants can do. Businesses can develop products and services to fill this void. Government must partner with stakeholders to craft policies and pass laws that enable older people to actively participate in this longevity gift.Robotics and eHealth are examples where technology addresses these ever-increasing needs. Japan, for example, has been experimenting with robots as caregivers. Israel\u2019s \u201cHere We Live\u201d program connects college students who need low-cost housing with isolated older adults who have a spare bedroom.Financial resilience is critical to having control over how we age. We often focus on how to save for retirement when we also need to think about how to continue making money.Traditional retirement is not likely to exist in the near future. It will be replaced with phased retirement, part-time or reduced hours, internships and returnships, and freelance gigs.Continued participation in the workforce is good for business and the economy. It is also good news for employers who are having difficulty filling jobs. Fewer younger workers in the employment pipeline, lower birth rates and slowing immigration signal a continuing tight labor market.Today, 25 percent of the workforce is age 50 plus and experts predict that by 2024, 35 percent of the workforce will be over 50. In addition to needing the money, the over 50 crowd continues to work because they enjoy the job and working with others. Yet, many older people who want to work are having difficulty getting jobs.It is time for employers to deliberately tap the potential of experienced workers and invest in older people who are close to, or past, traditional retirement age. Intergenerational work teams are better performers and generations learn naturally from each other. For example, I am as astute as any eight-year-old on video games and social media, having been taught by an expert\u2014my grandson. He, on the other hand, learns strategy and patience as we play chess.Each generation will design its own path through the longevity economy. There isn\u2019t one cookie-cutter approach. But we all need to recognize that when aging is viewed as a win, we all win!<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "My mother lived well into her 90\u2019s, beating her life expectancy by almost 40 years. Her generation followed an established life path\u2014work at one job or career until retirement. Then, with your few remaining years, travel and spend time with the grandchildren.When I think about my life and what\u2019s in store for my daughter, my grandchildren and the nearly 38 million members of AARP, I see many different paths filled with adventures, challenges, and great opportunities. I see all of us taking control over how we live at every age\u2014mixing travel, retooling, career changes, volunteering and crossing off bucket list items along the way.We have been given the gift of time. In 1900, average life expectancy was 47. Today it\u2019s 78. Every day more than 10,000 people in the United States turn 65. By 2050, more than 20 percent of the population will be over 65 and more than a million Americans will be over 100. My young grandchildren have a 60 percent chance of living past the 100-year mark.AARP is \u201cdisrupting aging\u201d by changing the conversation around what it means to age. We are challenging outdated beliefs and sparking new solutions so people can choose how they live and age.Today, the total economic activity of Americans over age 50 totals $7.6 trillion. While these consumers represent 35 percent of today\u2019s population, they control more than half of the country\u2019s investable assets. If this were a separate economy, it would rank third in the world behind only the United States and China.Businesses have a golden opportunity to tap into this longevity economy through technology solutions ranging from new ways to communicate to new ways to manage finances, health, and day-to-day living. Seniors are not technophobic. Most adults over 50 are active users of digital devices and are comfortable with mobile commerce.While increases in life expectancy are obviously a plus, a look behind the numbers reveals that while we are living longer, lifespans continue to expand faster than health spans. In the United States, for example, the gap between life expectancy and a healthy life expectancy is 5.7 years. The larger that gap, the more significant the economic implications, including increased healthcare costs and fewer productive years for an individual. We can decrease this gap through healthy living and access to better healthcare\u2014especially preventive care\u2014throughout our lives.My mother was fortunate to live in a small town where people watched out for each other. But not everyone lives in such a watchful community. And even if they do, there is only so much that good neighbors and vigilant public servants can do. Businesses can develop products and services to fill this void. Government must partner with stakeholders to craft policies and pass laws that enable older people to actively participate in this longevity gift.Robotics and eHealth are examples where technology addresses these ever-increasing needs. Japan, for example, has been experimenting with robots as caregivers. Israel\u2019s \u201cHere We Live\u201d program connects college students who need low-cost housing with isolated older adults who have a spare bedroom.Financial resilience is critical to having control over how we age. We often focus on how to save for retirement when we also need to think about how to continue making money.Traditional retirement is not likely to exist in the near future. It will be replaced with phased retirement, part-time or reduced hours, internships and returnships, and freelance gigs.Continued participation in the workforce is good for business and the economy. It is also good news for employers who are having difficulty filling jobs. Fewer younger workers in the employment pipeline, lower birth rates and slowing immigration signal a continuing tight labor market.Today, 25 percent of the workforce is age 50 plus and experts predict that by 2024, 35 percent of the workforce will be over 50. In addition to needing the money, the over 50 crowd continues to work because they enjoy the job and working with others. Yet, many older people who want to work are having difficulty getting jobs.It is time for employers to deliberately tap the potential of experienced workers and invest in older people who are close to, or past, traditional retirement age. Intergenerational work teams are better performers and generations learn naturally from each other. For example, I am as astute as any eight-year-old on video games and social media, having been taught by an expert\u2014my grandson. He, on the other hand, learns strategy and patience as we play chess.Each generation will design its own path through the longevity economy. There isn\u2019t one cookie-cutter approach. But we all need to recognize that when aging is viewed as a win, we all win!<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

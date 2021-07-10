@@ -1,0 +1,21 @@
+uuid: 9e24a89c-5e0a-4a68-83ab-29f362d402aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_speaker_roles
+  module:
+    - key_value_field
+id: panel.panel.field_speaker_roles
+field_name: field_speaker_roles
+entity_type: panel
+bundle: panel
+label: 'Speaker Roles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: key_value

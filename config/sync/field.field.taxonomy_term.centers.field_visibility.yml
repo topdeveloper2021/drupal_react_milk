@@ -1,0 +1,23 @@
+uuid: bdcca318-ffc4-44f6-8307-841b4609c202
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_visibility
+    - taxonomy.vocabulary.centers
+id: taxonomy_term.centers.field_visibility
+field_name: field_visibility
+entity_type: taxonomy_term
+bundle: centers
+label: Visibility
+description: 'If un-checked, the Center will not be visible in various places such as the homepage''s Our Centers carousel.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Visible
+  off_label: Hidden
+field_type: boolean

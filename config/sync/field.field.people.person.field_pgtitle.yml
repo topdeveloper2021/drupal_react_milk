@@ -1,0 +1,19 @@
+uuid: 24e4dd7e-42d7-45f4-877a-4992f05cf4f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_pgtitle
+id: people.person.field_pgtitle
+field_name: field_pgtitle
+entity_type: people
+bundle: person
+label: 'Professional Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

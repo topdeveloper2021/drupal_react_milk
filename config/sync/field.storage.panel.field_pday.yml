@@ -1,0 +1,21 @@
+uuid: cc4e41c6-0da2-40f6-992b-c6ae8b8b3f8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_pday
+field_name: field_pday
+entity_type: panel
+type: string
+settings:
+  max_length: 10
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

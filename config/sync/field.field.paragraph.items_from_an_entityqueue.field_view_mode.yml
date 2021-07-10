@@ -1,0 +1,21 @@
+uuid: c1c650f5-907e-4134-82ad-60554e583896
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.items_from_an_entityqueue
+  module:
+    - options
+id: paragraph.items_from_an_entityqueue.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: items_from_an_entityqueue
+label: 'View Mode'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

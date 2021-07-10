@@ -1,0 +1,19 @@
+uuid: f3714d50-75f1-453b-9b75-2965fdf7ed1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_theatercap
+id: rooms.rooms.field_theatercap
+field_name: field_theatercap
+entity_type: rooms
+bundle: rooms
+label: theatercap
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

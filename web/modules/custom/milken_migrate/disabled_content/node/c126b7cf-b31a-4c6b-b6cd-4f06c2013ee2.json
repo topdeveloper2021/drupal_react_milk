@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/derivatives-can-be-good-growth-says-new-milken-institute-study?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 70
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c126b7cf-b31a-4c6b-b6cd-4f06c2013ee2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 70
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Derivatives can be good for growth, says new Milken Institute study",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-06-10T11:39:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/derivatives-can-be-good-growth-says-new-milken-institute-study",
+            "pid": 123,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- A new study by the Milken Institute shows the benefits to the wider economy from the use of financial derivatives. \"Deriving the Economic Impact of Derivatives: Growth Through Risk Management\" is a first-of-its-kind study of derivatives' quantitative impact on economic growth; it charts the positive effects in the U.S. economy from their use, both in the financial and non-financial sectors.The study found that:\u2022 Banks' use of derivatives, by permitting greater extension of credit to the private sector, combined with the use of derivatives by non-financial firms, expanded U.S. real GDP for about $3.7 billion each quarter from 2003 to 2012.<br> \u2022 The total increase in economic activity was 1.1 percent ($149.5 billion) between 2003 and 2012.<br> \u2022 By the end of 2012, employment had been boosted in these years by 530,400 (0.6 percent) and industrial production 2.1 percent, due to the use of derivatives.\"When properly used, many derivative products can mitigate the escalation of uncertainty that can freeze investment or hiring plans, says Ross DeVol, chief research officer at the Institute. \"The statistical evidence supporting derivatives' ability to promote growth is overwhelming.\"To understand the study's findings, it is important to understand how they were derived. The use of derivatives by banks and non-financial firms has an indirect impact on economic growth via multiple channels. To gauge the overall impact, the analysis is divided into two steps. First, researchers estimated the influence of banks' use of derivatives in lending and also the effects stemming from their use by non-financial firms on the value of those firms. Second, researchers linked these results to the economy overall.Although derivatives influence the U.S. economy in several ways, the Milken Institute research focuses especially on credit extension and firm value. The Institute's statistical analysis demonstrates that the use of derivatives by banks allows for a larger volume of commercial and industrial loans, increasing business investment. It also confirms that investors assign higher valuations to non-financial firms that use derivative products -- valuations that boost their willingness and ability to expand operations.The report points out that trading of derivatives takes place in two types of markets: organized exchanges and over the counter. Exchange-traded derivatives employ a clearinghouse that serves as a counterparty. Derivatives traded through the OTC market are privately negotiated and customized to the specifications of the counterparties involved.Many mistakenly fault derivatives for the disruptions that were in fact caused by overleverage. For example, the U.S. Financial Crisis Inquiry Commission (FCIC) identified credit default swaps, an OTC derivative, as one of eight major factors that contributed to the financial crisis. One principal factor identified by the FCIC was leverage -- the use of borrowed funds for making investments -- that permeated the financial system.The outlook for derivatives is veiled by regulatory changes taking place in the United States and other major markets, conclude the authors of the new study. But the past suggests that derivatives will continue to play a key role in finance; their continued contribution to economic growth will depend on the markets becoming more transparent and liquid, enabling end users to generate competitive returns while effectively hedging risk.\"Deriving the Economic Impact of Derivatives: Growth Through Risk Management,\" is by Apanard (Penny) Prabha, Keith Savard and Heather Wickramarachi, with project direction from Ross DeVol and Perry Wong. This research was supported, in part, by the CME Group. The report is available for download at no charge at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801468&cat=resrep.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- A new study by the Milken Institute shows the benefits to the wider economy from the use of financial derivatives. \"Deriving the Economic Impact of Derivatives: Growth Through Risk Management\" is a first-of-its-kind study of derivatives' quantitative impact on economic growth; it charts the positive effects in the U.S. economy from their use, both in the financial and non-financial sectors.The study found that:\u2022 Banks' use of derivatives, by permitting greater extension of credit to the private sector, combined with the use of derivatives by non-financial firms, expanded U.S. real GDP for about $3.7 billion each quarter from 2003 to 2012.<br \/> \u2022 The total increase in economic activity was 1.1 percent ($149.5 billion) between 2003 and 2012.<br \/> \u2022 By the end of 2012, employment had been boosted in these years by 530,400 (0.6 percent) and industrial production 2.1 percent, due to the use of derivatives.\"When properly used, many derivative products can mitigate the escalation of uncertainty that can freeze investment or hiring plans, says Ross DeVol, chief research officer at the Institute. \"The statistical evidence supporting derivatives' ability to promote growth is overwhelming.\"To understand the study's findings, it is important to understand how they were derived. The use of derivatives by banks and non-financial firms has an indirect impact on economic growth via multiple channels. To gauge the overall impact, the analysis is divided into two steps. First, researchers estimated the influence of banks' use of derivatives in lending and also the effects stemming from their use by non-financial firms on the value of those firms. Second, researchers linked these results to the economy overall.Although derivatives influence the U.S. economy in several ways, the Milken Institute research focuses especially on credit extension and firm value. The Institute's statistical analysis demonstrates that the use of derivatives by banks allows for a larger volume of commercial and industrial loans, increasing business investment. It also confirms that investors assign higher valuations to non-financial firms that use derivative products -- valuations that boost their willingness and ability to expand operations.The report points out that trading of derivatives takes place in two types of markets: organized exchanges and over the counter. Exchange-traded derivatives employ a clearinghouse that serves as a counterparty. Derivatives traded through the OTC market are privately negotiated and customized to the specifications of the counterparties involved.Many mistakenly fault derivatives for the disruptions that were in fact caused by overleverage. For example, the U.S. Financial Crisis Inquiry Commission (FCIC) identified credit default swaps, an OTC derivative, as one of eight major factors that contributed to the financial crisis. One principal factor identified by the FCIC was leverage -- the use of borrowed funds for making investments -- that permeated the financial system.The outlook for derivatives is veiled by regulatory changes taking place in the United States and other major markets, conclude the authors of the new study. But the past suggests that derivatives will continue to play a key role in finance; their continued contribution to economic growth will depend on the markets becoming more transparent and liquid, enabling end users to generate competitive returns while effectively hedging risk.\"Deriving the Economic Impact of Derivatives: Growth Through Risk Management,\" is by Apanard (Penny) Prabha, Keith Savard and Heather Wickramarachi, with project direction from Ross DeVol and Perry Wong. This research was supported, in part, by the CME Group. The report is available for download at no charge at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801468&amp;cat=resrep.",
+    "summary": null,
+    "summary_processed": ""
+}

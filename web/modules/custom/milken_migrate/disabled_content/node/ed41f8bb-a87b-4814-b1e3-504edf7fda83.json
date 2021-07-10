@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/prosperity-equality?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/68?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 533
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ed41f8bb-a87b-4814-b1e3-504edf7fda83"
+        }
+    ],
+    "vid": [
+        {
+            "value": 533
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/68?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c8dd63d-3126-49c6-9eed-f00da4d62f64"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Prosperity of Equality",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T06:55:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-07T17:11:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/prosperity-equality",
+            "pid": 586,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>We all prosper when inclusive storytelling succeeds.<\/b><\/i> 2018 was a revolutionary year for film. According to the MPAA, global box office receipts climbed to $41.1 billion, with revenue from theaters in the US and Canada reaching a new high. This revenue was not built on \u201cbusiness as usual\u201d either. No, the top films from 2018 were dramatically different from years past in at least one notable way: They featured stories built around women and people of color. Source: Annenberg Inclusion Initiative At the Annenberg Inclusion Initiative, we have been studying issues of inclusion in film for over a decade. For most of that time, there has been no change in the inclusion profile of top-grossing movies. At least, until 2018. Last year, a total of 40 of the 100 top films featured a female lead or co-lead. This is double the number we observed in 2007 and a 12-year record high. Not only were there more females driving the action, but also these females were notably diverse. <i>Crazy Rich Asians <\/i>was one of 11 movies that featured a leading female actor from an underrepresented racial\/ethnic group\u2014nearly three times as many as the previous year (4). Additionally, 11 films had women 45 years of age or older at the center. This is more than double the number we saw in 2017 (5). Source: Annenberg Inclusion Initiative In parallel to the increase of films with female leads, movies starring men and women of color rose in 2018. <i>Black Panther<\/i> may leap to mind initially, but the film was among the 28 in the top 100 that featured an actor from an underrepresented group in a lead or co-lead role. Again, this is more than twice as many films than we saw in 2007 (13). Behind the camera, 2018 was also a watershed moment for Black\/African American directors. Sixteen films in the top 100 were helmed by a Black director, a doubling from the number in 2007 (8) and nearly three times as many as 2017 (6). Source: Annenberg Inclusion Initiative It would be easy to stop here and argue that the increases we observe argue directly for the relationship between inclusion and profitability\u2014we need more complicated analyses to establish this and are working on those now. Additionally, prosperity means more than the financial returns these films post for studios and financiers. The benefits of inclusive entertainment are diffused throughout our society. We all prosper when inclusive storytelling succeeds. We encounter new protagonists whose stories introduce us to fresh communities and traditions. We glimpse worlds we\u2019ve never seen before or find new treasures in old haunts. This is why it is crucial to ensure that the momentum for inclusive storytelling continues in 2019 and beyond. To accomplish this, in partnership with TIME\u2019S UP, we launched the #4percentchallenge. Aimed at increasing the number of female directors working in Hollywood, to date 120 actors, producers, and seven of the most notable film companies in the world have committed to it. Through their pledges, we believe the next few years will continue to be transformative. The entertainment industry can serve as a model for other industries and create change on a global scale. Women and people of color working on screen and behind the camera will have greater access and opportunity to positions previously closed to them. And as audiences, we all benefit from the opportunity to be absorbed into stories that provide fresh perspective and new heroes.",
+    "format": "rich_text",
+    "processed": "<i><b>We all prosper when inclusive storytelling succeeds.<\/b><\/i> 2018 was a revolutionary year for film. According to the MPAA, global box office receipts climbed to $41.1 billion, with revenue from theaters in the US and Canada reaching a new high. This revenue was not built on \u201cbusiness as usual\u201d either. No, the top films from 2018 were dramatically different from years past in at least one notable way: They featured stories built around women and people of color. Source: Annenberg Inclusion Initiative At the Annenberg Inclusion Initiative, we have been studying issues of inclusion in film for over a decade. For most of that time, there has been no change in the inclusion profile of top-grossing movies. At least, until 2018. Last year, a total of 40 of the 100 top films featured a female lead or co-lead. This is double the number we observed in 2007 and a 12-year record high. Not only were there more females driving the action, but also these females were notably diverse. <i>Crazy Rich Asians <\/i>was one of 11 movies that featured a leading female actor from an underrepresented racial\/ethnic group\u2014nearly three times as many as the previous year (4). Additionally, 11 films had women 45 years of age or older at the center. This is more than double the number we saw in 2017 (5). Source: Annenberg Inclusion Initiative In parallel to the increase of films with female leads, movies starring men and women of color rose in 2018. <i>Black Panther<\/i> may leap to mind initially, but the film was among the 28 in the top 100 that featured an actor from an underrepresented group in a lead or co-lead role. Again, this is more than twice as many films than we saw in 2007 (13). Behind the camera, 2018 was also a watershed moment for Black\/African American directors. Sixteen films in the top 100 were helmed by a Black director, a doubling from the number in 2007 (8) and nearly three times as many as 2017 (6). Source: Annenberg Inclusion Initiative It would be easy to stop here and argue that the increases we observe argue directly for the relationship between inclusion and profitability\u2014we need more complicated analyses to establish this and are working on those now. Additionally, prosperity means more than the financial returns these films post for studios and financiers. The benefits of inclusive entertainment are diffused throughout our society. We all prosper when inclusive storytelling succeeds. We encounter new protagonists whose stories introduce us to fresh communities and traditions. We glimpse worlds we\u2019ve never seen before or find new treasures in old haunts. This is why it is crucial to ensure that the momentum for inclusive storytelling continues in 2019 and beyond. To accomplish this, in partnership with TIME\u2019S UP, we launched the #4percentchallenge. Aimed at increasing the number of female directors working in Hollywood, to date 120 actors, producers, and seven of the most notable film companies in the world have committed to it. Through their pledges, we believe the next few years will continue to be transformative. The entertainment industry can serve as a model for other industries and create change on a global scale. Women and people of color working on screen and behind the camera will have greater access and opportunity to positions previously closed to them. And as audiences, we all benefit from the opportunity to be absorbed into stories that provide fresh perspective and new heroes.",
+    "summary": null,
+    "summary_processed": ""
+}

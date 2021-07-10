@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/sept-11-terror-attacks-cost-us-metros-more-16-million-jobs-2002-new-milken-institute-study?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 248
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9db83504-7a5a-4892-89d0-ad3b70e0c3df"
+        }
+    ],
+    "vid": [
+        {
+            "value": 248
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sept. 11 terror attacks to cost U.S. metros more than 1.6 million jobs in 2002, new Milken Institute study shows",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/sept-11-terror-attacks-cost-us-metros-more-16-million-jobs-2002-new-milken-institute-study",
+            "pid": 301,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>Examination of 315 metro areas shows tourist destinations like Las Vegas, Orlando and Honolulu will suffer major losses in 2002 due to cutbacks in travel; New York, L.A. and other big cities will also lose many jobs, study finds. <\/b><BR> LOS ANGELES - Which cities in the United States will suffer the biggest job losses as a result of the Sept. 11 terrorist attacks? <BR> According to a new study from the Milken Institute, some of this country\u2032s biggest tourist destinations - Las Vegas, Reno, Atlantic City, Orlando and Honolulu - and its biggest cities - New York, Los Angeles and Chicago - will suffer heavy job losses as a direct result of the terrorist attacks of Sept. 11. <BR> Percentage-wise, Las Vegas will suffer more than any other metro in the country in 2002. It is expected to have nearly 5 percent fewer jobs this year than it would have had without the terrorist attacks, the study found. Myrtle Beach, S.C. is second, with a projected loss of 3.6 percent, and New York City - site of the worst terrorist attacks - is third with a decline of 3.42 percent in jobs. <BR> The remaining top 10 hardest hit are: 4. Reno (3.15%), 5. Atlantic City (2.98%), 6. Orlando (2.85%), 7. Wichita, KA (2.81%), 8. Flagstaff, AZ (2.61%), 9. Honolulu (2.57%) and 10. Forth Worth (2.45%).<BR> In overall numbers, New York will suffer the most job losses in 2002 - nearly 150,000 fewer than it was expected to have in 2002 prior to the events of Sept. 11. Second-worst hit will be Los Angeles, with a predicted loss of 69,000 jobs this year. Chicago is third with a projected loss of more than 68,000 jobs. <BR> The others in the top 10 are: 4. Las Vegas (40,770 jobs lost), 5. Boston (36,080), 6. Seattle (33,940), 7. Atlanta (32,170), 8. Washington, D.C. (31,600), 9. Detroit (31,430) and 10. Dallas (29,300). <BR> All told, metropolitan areas across the U.S. will lose an estimated 1.64 million jobs this year as a direct result of the attacks of Sept. 11, the Institute found. Most of those - almost half - will come from industries hardest hit by the attacks, such as air transportation, hotels, amusement and dining. <BR> \"The shock waves of the Sept. 11 attacks on the World Trade Center and the Pentagon are still pulsing through the American economy,\" the report states. \"And with the economic injury focused predominantly on a handful of sectors - travel, tourism, lodging, dining and recreation - the consequences for individuals and unique localities have been profound.\" <BR> Hardest hit have been cities that are heavily dependent on tourism and travel, and, of course, the city that suffered the most damage from the attacks, New York, which is expected to suffer significant job losses through 2004. <BR> Las Vegas, a prime tourist destination, will be especially hard hit by Sept. 11, the study found. \"With its large gambling industry and related infrastructure primarily accessible by air, Las Vegas is the single most vulnerable metropolitan economy,\" the study found. <BR> While not top tourist destinations themselves, some of the cities high on the Institute\u2032s list of most-impacted metros include those whose economies depend heavily on industries hardest hit by the Sept. 11-related slowdown, such as airlines and aerospace (Seattle and Wichita), airports (Fort Worth, St. Louis and Atlanta) or financial industries (New York, Chicago and San Francisco). <BR> The study looked at all 315 metro areas (MSAs) in the U.S. and analyzed their economic trends prior to Sept. 11. Institute scholars then examined hundreds of industries in those cities to see what\u2032s happened since the terrorist attacks. Using its economic models, Institute economists looked at the before-and-after scenarios to forecast the long-term employment losses expected in each metro as a result of the attacks. <BR> \"The attacks of September 11 devastated several key industries and the cities dependent on them,\" said Ross DeVol, Director of Regional Studies and principal author of the report. \"The good news is that many of those jobs should come back by next year.\" <BR> The report predicts that the U.S. economy will remain in a recession until the second quarter 2002, when recovery will begin. <BR> The report includes a detailed analysis of those industries and metropolitan areas hardest hit by Sept. 11, and examines the overall U.S. economy in light of the attacks and recession. <BR> View the full report. (pdf)\nView the executive summary.(pdf)\nView update. (pdf)\nView updated tables.(pdf)",
+    "format": "rich_text",
+    "processed": "<b>Examination of 315 metro areas shows tourist destinations like Las Vegas, Orlando and Honolulu will suffer major losses in 2002 due to cutbacks in travel; New York, L.A. and other big cities will also lose many jobs, study finds. <\/b><br \/> LOS ANGELES - Which cities in the United States will suffer the biggest job losses as a result of the Sept. 11 terrorist attacks? <br \/> According to a new study from the Milken Institute, some of this country\u2032s biggest tourist destinations - Las Vegas, Reno, Atlantic City, Orlando and Honolulu - and its biggest cities - New York, Los Angeles and Chicago - will suffer heavy job losses as a direct result of the terrorist attacks of Sept. 11. <br \/> Percentage-wise, Las Vegas will suffer more than any other metro in the country in 2002. It is expected to have nearly 5 percent fewer jobs this year than it would have had without the terrorist attacks, the study found. Myrtle Beach, S.C. is second, with a projected loss of 3.6 percent, and New York City - site of the worst terrorist attacks - is third with a decline of 3.42 percent in jobs. <br \/> The remaining top 10 hardest hit are: 4. Reno (3.15%), 5. Atlantic City (2.98%), 6. Orlando (2.85%), 7. Wichita, KA (2.81%), 8. Flagstaff, AZ (2.61%), 9. Honolulu (2.57%) and 10. Forth Worth (2.45%).<br \/> In overall numbers, New York will suffer the most job losses in 2002 - nearly 150,000 fewer than it was expected to have in 2002 prior to the events of Sept. 11. Second-worst hit will be Los Angeles, with a predicted loss of 69,000 jobs this year. Chicago is third with a projected loss of more than 68,000 jobs. <br \/> The others in the top 10 are: 4. Las Vegas (40,770 jobs lost), 5. Boston (36,080), 6. Seattle (33,940), 7. Atlanta (32,170), 8. Washington, D.C. (31,600), 9. Detroit (31,430) and 10. Dallas (29,300). <br \/> All told, metropolitan areas across the U.S. will lose an estimated 1.64 million jobs this year as a direct result of the attacks of Sept. 11, the Institute found. Most of those - almost half - will come from industries hardest hit by the attacks, such as air transportation, hotels, amusement and dining. <br \/> \"The shock waves of the Sept. 11 attacks on the World Trade Center and the Pentagon are still pulsing through the American economy,\" the report states. \"And with the economic injury focused predominantly on a handful of sectors - travel, tourism, lodging, dining and recreation - the consequences for individuals and unique localities have been profound.\" <br \/> Hardest hit have been cities that are heavily dependent on tourism and travel, and, of course, the city that suffered the most damage from the attacks, New York, which is expected to suffer significant job losses through 2004. <br \/> Las Vegas, a prime tourist destination, will be especially hard hit by Sept. 11, the study found. \"With its large gambling industry and related infrastructure primarily accessible by air, Las Vegas is the single most vulnerable metropolitan economy,\" the study found. <br \/> While not top tourist destinations themselves, some of the cities high on the Institute\u2032s list of most-impacted metros include those whose economies depend heavily on industries hardest hit by the Sept. 11-related slowdown, such as airlines and aerospace (Seattle and Wichita), airports (Fort Worth, St. Louis and Atlanta) or financial industries (New York, Chicago and San Francisco). <br \/> The study looked at all 315 metro areas (MSAs) in the U.S. and analyzed their economic trends prior to Sept. 11. Institute scholars then examined hundreds of industries in those cities to see what\u2032s happened since the terrorist attacks. Using its economic models, Institute economists looked at the before-and-after scenarios to forecast the long-term employment losses expected in each metro as a result of the attacks. <br \/> \"The attacks of September 11 devastated several key industries and the cities dependent on them,\" said Ross DeVol, Director of Regional Studies and principal author of the report. \"The good news is that many of those jobs should come back by next year.\" <br \/> The report predicts that the U.S. economy will remain in a recession until the second quarter 2002, when recovery will begin. <br \/> The report includes a detailed analysis of those industries and metropolitan areas hardest hit by Sept. 11, and examines the overall U.S. economy in light of the attacks and recession. <br \/> View the full report. (pdf)\nView the executive summary.(pdf)\nView update. (pdf)\nView updated tables.(pdf)",
+    "summary": null,
+    "summary_processed": ""
+}

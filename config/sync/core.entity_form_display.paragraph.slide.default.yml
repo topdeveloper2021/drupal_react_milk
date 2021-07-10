@@ -1,0 +1,98 @@
+uuid: 284bb347-23f9-4554-8b2a-7fba2a047c74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.slide.field_background
+    - field.field.paragraph.slide.field_slides
+    - paragraphs.paragraphs_type.slide
+  module:
+    - field_group
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_content
+        - group_authoring
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_content:
+      children:
+        - field_slides
+        - field_background
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: Content
+    group_authoring:
+      children:
+        - status
+        - created
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Authoring
+id: paragraph.slide.default
+targetEntityType: paragraph
+bundle: slide
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_background:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_slides:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

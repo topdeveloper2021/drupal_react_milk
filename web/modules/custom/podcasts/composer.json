@@ -1,0 +1,22 @@
+{
+    "name": "podcasts",
+    "type": "drupal-module",
+    "description": "Milken Podcast Integration",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/podcasts",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/podcasts",
+        "source": "http://cgit.drupalcode.org/podcasts"
+    },
+    "require": {
+        "drupal/js_component": "^1.0@alpha"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7108\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/-x-dc_F5HqEGuarlSgWtnHoPVmKonjzq14ebh2gnUe4.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7108
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ed2530dd-ec4a-4ad3-b06b-4c3311748351"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2311
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/-x-dc_F5HqEGuarlSgWtnHoPVmKonjzq14ebh2gnUe4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e1cade38-c385-4bb5-b4c6-6f29b4cddb41"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Strategic Investing in the Middle East and North Africa",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-05T07:27:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:40:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As economic growth and political change continue in the Middle East and North Africa (MENA) region, many of those countries have been compelled to accelerate advancements that diversify away from hydrocarbons, boost the role of the private sector, and create jobs for rapidly growing labor forces. A clear road map that identifies and prioritizes the necessary reforms to support these developments is essential. But it all cannot be done at once, and change of this magnitude is a lengthy trial-and-error process. Financial policy, business, cultural, and government leaders from the region will examine the innovations modernizing their countries. What lessons can be learned from developing economies across the globe? Will the presence of art, and the infrastructure around it, attract tourism and catalyze the adjacent economic opportunities? And how will these nations meet the human capital demands from expanding non-oil industries?",
+    "format": "rich_text",
+    "processed": "As economic growth and political change continue in the Middle East and North Africa (MENA) region, many of those countries have been compelled to accelerate advancements that diversify away from hydrocarbons, boost the role of the private sector, and create jobs for rapidly growing labor forces. A clear road map that identifies and prioritizes the necessary reforms to support these developments is essential. But it all cannot be done at once, and change of this magnitude is a lengthy trial-and-error process. Financial policy, business, cultural, and government leaders from the region will examine the innovations modernizing their countries. What lessons can be learned from developing economies across the globe? Will the presence of art, and the infrastructure around it, attract tourism and catalyze the adjacent economic opportunities? And how will these nations meet the human capital demands from expanding non-oil industries?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/wUV2bEbubRg",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/-x-dc_F5HqEGuarlSgWtnHoPVmKonjzq14ebh2gnUe4.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

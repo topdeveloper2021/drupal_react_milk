@@ -1,0 +1,19 @@
+uuid: febfe1b5-8a87-4c51-8fa4-fefc7d7c7d96
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_secondarytrack
+id: grid_speakers.speakers.field_secondarytrack
+field_name: field_secondarytrack
+entity_type: grid_speakers
+bundle: speakers
+label: secondarytrack
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

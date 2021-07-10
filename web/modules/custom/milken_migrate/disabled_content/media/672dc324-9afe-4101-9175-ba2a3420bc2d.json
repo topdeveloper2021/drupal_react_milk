@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7365\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XEqg3sydMxD4QVE-FYiuELLEnmgCs3Byyq4waQQOcd0.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7365
+        }
+    ],
+    "uuid": [
+        {
+            "value": "672dc324-9afe-4101-9175-ba2a3420bc2d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2271
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XEqg3sydMxD4QVE-FYiuELLEnmgCs3Byyq4waQQOcd0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1af11a88-7ac6-4f2e-90ef-a2099c33d61b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "How to Accelerate Gender Diversity on Boards",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-12T18:16:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:30:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Slow progress in adding women to boards dominates the conversation on gender diversity in the corporate world. Much of the discussion is understandably pessimistic. Women hold only 19 percent of board positions in the U.S. and 30 percent in Europe. That said, several progressive companies are taking the lead, looking for female board members in new places and placing them in new ways. Panelists will share their successes and offer advice on what needs to happen. Questions will range from:<br><br>What has convinced companies to increase female board representation?<br>What is the pipeline like for female board members and what unconventional paths exist for finding great talent?<br>How have we overcome the challenges that exist?<br>What benefits are companies seeing from higher female board representation? Have these efforts translated to the management teams?",
+    "format": "rich_text",
+    "processed": "Slow progress in adding women to boards dominates the conversation on gender diversity in the corporate world. Much of the discussion is understandably pessimistic. Women hold only 19 percent of board positions in the U.S. and 30 percent in Europe. That said, several progressive companies are taking the lead, looking for female board members in new places and placing them in new ways. Panelists will share their successes and offer advice on what needs to happen. Questions will range from:<br \/><br \/>What has convinced companies to increase female board representation?<br \/>What is the pipeline like for female board members and what unconventional paths exist for finding great talent?<br \/>How have we overcome the challenges that exist?<br \/>What benefits are companies seeing from higher female board representation? Have these efforts translated to the management teams?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/3mg2wNAtXL8",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/XEqg3sydMxD4QVE-FYiuELLEnmgCs3Byyq4waQQOcd0.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-may-29-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/128?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 745
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d1df2e24-4d43-4a1b-ae0b-7c587f5f3e86"
+        }
+    ],
+    "vid": [
+        {
+            "value": 745
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/128?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "33ab6782-f762-4edf-bda4-f8aad1e7972b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - May 29, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-04T12:35:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:17:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-may-29-2019",
+            "pid": 798,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: From the Advisory Committee \u00bb Industry Headlines \u00bb Global Developments \u00bb Encouraging Innovative Banking It has been a busy month or so for the Office of the Comptroller of the Currency (OCC). In early May, the OCC received the disappointing news that its request to dismiss a lawsuit from the New York Department of Financial Services had been denied, effectively defeating its proposed FinTech charter. Yet while many believe this to be a missed opportunity, the OCC has proven to be nothing if not persistent in its dedication to promoting responsible innovation in financial services. In its latest Semiannual Risk Perspective, the OCC redoubled its focus on innovation. The report calls banks\u2019 attention to the emerging risks and opportunities posed by financial innovation and encourages them to get into the game. According to the OCC, financial innovation poses new operational, strategic, and compliance risks for banks. These include increased reliance on third parties, consolidation among core providers, and fair lending risk stemming from the use of artificial intelligence and alternative data for underwriting. However, the OCC also sees opportunities for banks to set themselves apart by innovating internally and partnering with strategically aligned third parties. In order to encourage them to do this, the OCC recently issued a request for comments on its proposed Innovation Pilot Program. As FinTech expert Jonah Crane has recently argued, this program has the potential to erode \u201cimplicit regulatory obstacles\u201d within the banking system. This is critical, and may ultimately be quite impactful. While the OCC discusses many risks in its latest report, the risk it seems most concerned about is the risk of inaction. The OCC\u2019s Innovation Pilot Program is specifically designed to mitigate that risk by encouraging banks not to stand idle. From the Advisory Committee This week, in the second edition of our series of interviews with members of the Milken Institute\u2019s FinTech Advisory Committee, we spoke to Colin Walsh, CEO and Co-founder of Varo Money. Varo was granted a preliminary approval for a national bank charter by the OCC back in 2018 and knows the challenges and opportunities of digital banking in the United States better than anyone. A PDF of our discussion with Colin can be found here. Industry Headlines <i>Big Tech<\/i>: There were several developments last week in Facebook\u2019s bid to launch its own currency, which is apparently being called \u201cGlobalCoin.\u201d The BBC reported that the currency is expected to be rolled out in 2020 as part of a digital payments system in about a dozen countries, and the company is already busy meeting with senior regulators around the world. Facebook has been talking to more than just regulators, however. According to the Financial Times, the social network has also been in discussions with high-frequency trading firms and cryptocurrency exchanges. It\u2019s unclear where these talks have led at this point, as all parties involved have signed non-disclosure agreements. Whatever the case may be, one only needs to look at Tencent, China\u2019s social media juggernaut, to understand why Facebook is keen to get in on the FinTech action. Tencent posted a record profit in the first quarter of 2019, with FinTech helping to lead the way with a 44 percent improvement over the previous quarter. <i>Blockchain and Crypto<\/i>: The big news, of course, is that cryptocurrency prices have been heading northwards fast. At the time of writing, Bitcoin is hovering around $8,650, which is about 68 percent higher than it was this time last month. There are no shortage of theories for what caused the surge, with some pointing to increased interest from institutional investors, and others suspecting nefarious activity from cryptocurrency exchanges like Bitfinex. Elsewhere, Circle eliminated 10 percent of its staff, blaming a \u201crestrictive regulatory climate\u201d in the US, and some non-profits are using cryptocurrency to send aid to Venezuela. <i>Data Intermediation<\/i>: The Financial Data Exchange announced that over the last several months it has added 11 new members, bringing its current total to 47 members from across the financial services ecosystem. The new members are A.T. Kearney, Cequence Security, Emburse, Early Warning Services, FICO, Financial Apps, Finovera, H&R Block, Levvel, MX, and The ID Co. Plaid announced the launch of Plaid Direct last week, a new product that will give FinTech applications the option to connect to each other, rather than only being able to connect to a traditional bank account. The product will be particularly advantageous for challenger banks, many of whom will now be able to act as a data source for other FinTech applications. That wasn\u2019t all for the data aggregator, however. Just before FinTech in Focus went to press, Plaid announced its launch in the United Kingdom as a registered Account Information Service Provider. <i>Digital Banking<\/i>: Monzo reached a major milestone last week, announcing that it has now brought 2 million users onto its platform. Its footprint is largest in the UK, where 3 percent of consumers are Monzo customers. Monzo wasn\u2019t the only challenger bank to make the news, however. Revolut is reportedly looking to expand its business into Russia, news that comes several months after a strange series of unfortunate developments from Revolut. Meanwhile, the number of ATMs in the world declined for the first time last year, falling 1 percent as digital transactions continued to take hold and banks closed more branches. <i>Payments<\/i>: Consolidation continues in payments this week, this time with Global Payments and Total System Services Inc. (TSYS) merging in a deal worth $21.5 billion. The deal comes after FIS\u2019s acquisition of WorldPay as well as Fiserv\u2019s acquisition of First Data, and will bring 3.5 million merchants and 1,300 financial institutions from over 100 countries under the same roof. In other payments news, TransferWise doubled its valuation to $3.5 billion after closing a $292 funding round, and Marqeta brought its valuation to $2 billion after a $260 million funding round. <i>Wealth Management<\/i>: There was good news and bad news in wealth management last week. To start with the bad news, Investec closed its Click and Invest robo-advisory service after losing over \u00a312 million two years in a row. Meanwhile, Wealthfront\u2019s Risk Parity Fund is down about 5 percent. As for the good news, Robinhood is said to be nearing a valuation of around $7 billion after its next funding round, and Wealthsimple raised $75 million in its latest funding round. Global Developments <i>Germany<\/i>: Germany\u2019s Federal Financial Supervisory Authority is concerned about N26\u2019s anti-money laundering practices, and ordered the challenger bank to improve its processes, hire more staff, eliminate backlogs, and even recheck some existing customers. <i>India<\/i>: The Securities and Exchange Board and the Insurance Regulatory and Development Authority announced the launch of regulatory sandboxes, following the Reserve Bank of India\u2019s lead. <i>South Korea<\/i>: South Korea\u2019s Financial Services Commission admitted eight new entrants into the country\u2019s regulatory sandbox, the third batch of firms announced in the last two months. <i>United Kingdom<\/i>: The Financial Conduct Authority published a \u201ccall for input\u201d on a new cross-sector sandbox initiative. Feedback on the initiative is due August 30, 2019. <i>United States<\/i>: Kentucky is now the home to the newest insurance sandbox in the US after Governor Matt Bevin signed a bill into law last week.",
+    "format": "rich_text",
+    "processed": "In this issue: From the Advisory Committee \u00bb Industry Headlines \u00bb Global Developments \u00bb Encouraging Innovative Banking It has been a busy month or so for the Office of the Comptroller of the Currency (OCC). In early May, the OCC received the disappointing news that its request to dismiss a lawsuit from the New York Department of Financial Services had been denied, effectively defeating its proposed FinTech charter. Yet while many believe this to be a missed opportunity, the OCC has proven to be nothing if not persistent in its dedication to promoting responsible innovation in financial services. In its latest Semiannual Risk Perspective, the OCC redoubled its focus on innovation. The report calls banks\u2019 attention to the emerging risks and opportunities posed by financial innovation and encourages them to get into the game. According to the OCC, financial innovation poses new operational, strategic, and compliance risks for banks. These include increased reliance on third parties, consolidation among core providers, and fair lending risk stemming from the use of artificial intelligence and alternative data for underwriting. However, the OCC also sees opportunities for banks to set themselves apart by innovating internally and partnering with strategically aligned third parties. In order to encourage them to do this, the OCC recently issued a request for comments on its proposed Innovation Pilot Program. As FinTech expert Jonah Crane has recently argued, this program has the potential to erode \u201cimplicit regulatory obstacles\u201d within the banking system. This is critical, and may ultimately be quite impactful. While the OCC discusses many risks in its latest report, the risk it seems most concerned about is the risk of inaction. The OCC\u2019s Innovation Pilot Program is specifically designed to mitigate that risk by encouraging banks not to stand idle. From the Advisory Committee This week, in the second edition of our series of interviews with members of the Milken Institute\u2019s FinTech Advisory Committee, we spoke to Colin Walsh, CEO and Co-founder of Varo Money. Varo was granted a preliminary approval for a national bank charter by the OCC back in 2018 and knows the challenges and opportunities of digital banking in the United States better than anyone. A PDF of our discussion with Colin can be found here. Industry Headlines <i>Big Tech<\/i>: There were several developments last week in Facebook\u2019s bid to launch its own currency, which is apparently being called \u201cGlobalCoin.\u201d The BBC reported that the currency is expected to be rolled out in 2020 as part of a digital payments system in about a dozen countries, and the company is already busy meeting with senior regulators around the world. Facebook has been talking to more than just regulators, however. According to the Financial Times, the social network has also been in discussions with high-frequency trading firms and cryptocurrency exchanges. It\u2019s unclear where these talks have led at this point, as all parties involved have signed non-disclosure agreements. Whatever the case may be, one only needs to look at Tencent, China\u2019s social media juggernaut, to understand why Facebook is keen to get in on the FinTech action. Tencent posted a record profit in the first quarter of 2019, with FinTech helping to lead the way with a 44 percent improvement over the previous quarter. <i>Blockchain and Crypto<\/i>: The big news, of course, is that cryptocurrency prices have been heading northwards fast. At the time of writing, Bitcoin is hovering around $8,650, which is about 68 percent higher than it was this time last month. There are no shortage of theories for what caused the surge, with some pointing to increased interest from institutional investors, and others suspecting nefarious activity from cryptocurrency exchanges like Bitfinex. Elsewhere, Circle eliminated 10 percent of its staff, blaming a \u201crestrictive regulatory climate\u201d in the US, and some non-profits are using cryptocurrency to send aid to Venezuela. <i>Data Intermediation<\/i>: The Financial Data Exchange announced that over the last several months it has added 11 new members, bringing its current total to 47 members from across the financial services ecosystem. The new members are A.T. Kearney, Cequence Security, Emburse, Early Warning Services, FICO, Financial Apps, Finovera, H&amp;R Block, Levvel, MX, and The ID Co. Plaid announced the launch of Plaid Direct last week, a new product that will give FinTech applications the option to connect to each other, rather than only being able to connect to a traditional bank account. The product will be particularly advantageous for challenger banks, many of whom will now be able to act as a data source for other FinTech applications. That wasn\u2019t all for the data aggregator, however. Just before FinTech in Focus went to press, Plaid announced its launch in the United Kingdom as a registered Account Information Service Provider. <i>Digital Banking<\/i>: Monzo reached a major milestone last week, announcing that it has now brought 2 million users onto its platform. Its footprint is largest in the UK, where 3 percent of consumers are Monzo customers. Monzo wasn\u2019t the only challenger bank to make the news, however. Revolut is reportedly looking to expand its business into Russia, news that comes several months after a strange series of unfortunate developments from Revolut. Meanwhile, the number of ATMs in the world declined for the first time last year, falling 1 percent as digital transactions continued to take hold and banks closed more branches. <i>Payments<\/i>: Consolidation continues in payments this week, this time with Global Payments and Total System Services Inc. (TSYS) merging in a deal worth $21.5 billion. The deal comes after FIS\u2019s acquisition of WorldPay as well as Fiserv\u2019s acquisition of First Data, and will bring 3.5 million merchants and 1,300 financial institutions from over 100 countries under the same roof. In other payments news, TransferWise doubled its valuation to $3.5 billion after closing a $292 funding round, and Marqeta brought its valuation to $2 billion after a $260 million funding round. <i>Wealth Management<\/i>: There was good news and bad news in wealth management last week. To start with the bad news, Investec closed its Click and Invest robo-advisory service after losing over \u00a312 million two years in a row. Meanwhile, Wealthfront\u2019s Risk Parity Fund is down about 5 percent. As for the good news, Robinhood is said to be nearing a valuation of around $7 billion after its next funding round, and Wealthsimple raised $75 million in its latest funding round. Global Developments <i>Germany<\/i>: Germany\u2019s Federal Financial Supervisory Authority is concerned about N26\u2019s anti-money laundering practices, and ordered the challenger bank to improve its processes, hire more staff, eliminate backlogs, and even recheck some existing customers. <i>India<\/i>: The Securities and Exchange Board and the Insurance Regulatory and Development Authority announced the launch of regulatory sandboxes, following the Reserve Bank of India\u2019s lead. <i>South Korea<\/i>: South Korea\u2019s Financial Services Commission admitted eight new entrants into the country\u2019s regulatory sandbox, the third batch of firms announced in the last two months. <i>United Kingdom<\/i>: The Financial Conduct Authority published a \u201ccall for input\u201d on a new cross-sector sandbox initiative. Feedback on the initiative is due August 30, 2019. <i>United States<\/i>: Kentucky is now the home to the newest insurance sandbox in the US after Governor Matt Bevin signed a bill into law last week.",
+    "summary": null,
+    "summary_processed": ""
+}

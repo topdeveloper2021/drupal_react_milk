@@ -1,0 +1,29 @@
+uuid: c595a779-f61d-402f-8061-45664aeb634f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_regions
+    - taxonomy.vocabulary.region
+id: event.meeting.field_regions
+field_name: field_regions
+entity_type: event
+bundle: meeting
+label: Regions
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

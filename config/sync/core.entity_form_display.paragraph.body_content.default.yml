@@ -1,0 +1,134 @@
+uuid: 12fa9a90-dfb9-42ff-b1d6-ece313741543
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.browse_files
+    - field.field.paragraph.body_content.field_background
+    - field.field.paragraph.body_content.field_background_image
+    - field.field.paragraph.body_content.field_body
+    - field.field.paragraph.body_content.field_num_text_columns
+    - field.field.paragraph.body_content.field_show_title
+    - paragraphs.paragraphs_type.body_content
+  module:
+    - entity_browser
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_text:
+      children:
+        - field_num_text_columns
+        - field_background
+        - field_background_image
+        - field_body
+      parent_name: group_tabs
+      weight: 15
+      format_type: tab
+      format_settings:
+        formatter: closed
+        description: ''
+        classes: ''
+        id: ''
+        required_fields: true
+      label: Text
+      region: content
+    group_tabs:
+      children:
+        - group_text
+        - group_authoring
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+      region: content
+    group_authoring:
+      children:
+        - status
+        - created
+      parent_name: group_tabs
+      weight: 25
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Authoring
+      region: content
+id: paragraph.body_content.default
+targetEntityType: paragraph
+bundle: body_content
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_background:
+    weight: 25
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_background_image:
+    weight: 26
+    settings:
+      entity_browser: browse_files
+      field_widget_remove: true
+      field_widget_replace: true
+      selection_mode: selection_append
+      preview_image_style: thumbnail
+      field_widget_edit: true
+      open: false
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_browser_file
+    region: content
+  field_body:
+    weight: 27
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_num_text_columns:
+    weight: 24
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_show_title:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  status:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

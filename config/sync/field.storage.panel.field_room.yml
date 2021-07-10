@@ -1,0 +1,19 @@
+uuid: 2826f514-9887-4540-bbad-b6f1c2836983
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_room
+field_name: field_room
+entity_type: panel
+type: entity_reference
+settings:
+  target_type: rooms
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

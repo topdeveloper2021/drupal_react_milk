@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/hong-kong-takes-1st-place-milken-institute-2002-capital-access-index?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 245
+        }
+    ],
+    "uuid": [
+        {
+            "value": "30ad4f91-4fc8-46fe-ba93-764987b2cd8b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 245
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hong Kong Takes 1st Place in Milken Institute 2002 Capital Access Index",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/hong-kong-takes-1st-place-milken-institute-2002-capital-access-index",
+            "pid": 298,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - The United States, just pulling out of a year-long recession, fell out of first place as Hong Kong and the United Kingdom took over the two top spots in the Milken Institute\u2032s annual ranking of the openness and efficiency of capital markets worldwide. <b> The 2002 Capital Access Index saw the U.S. fall to third place, primarily for three reasons: 1) a reduction in venture-capital activity; 2) a decline in IPOs; and 3) a decline in foreign investment because of the economic downturn. <BR> Hong Kong, meanwhile, went from fourth place in 2001 to this year\u2032s top spot because of a decrease in the concentration of bank assets, and a reduction in the volatility of its financial markets. (Hong Kong is included in the index apart from China because international organizations still identify its economy separately.) The United Kingdom remained at number two. <BR> <B>The top 10 countries in the 2002 survey (and last year\u2032s ranking): <BR>\n1. Hong Kong (4) <BR>\n2. United Kingdom (2) <BR>\n3. United States (1) <BR>\n4. Singapore (7) <BR>\n5. Switzerland (6)<BR>\n6. Netherlands (5)<BR>\n7. Canada (8)<BR>\n8. [tie] Luxembourg (3) and New Zealand (9) <BR>\n10.\t[tie] Australia (12), Finland (13) and Taiwan (15) <\/b><BR> Surprises include Portugal ranking higher than France; finding that South Africa and Chile\u2032s markets are more open than Italy\u2032s; Jordan beating out Greece; and countries like Latvia scoring higher than India, Mexico and Brazil. Zambia was ranked last. <BR> Big winners this year were Denmark, Poland and Uruguay, all of which saw their scores increase dramatically from 2001. Countries with large declines included the United States, Argentina, Bolivia and Indonesia.<BR> The Capital Access Index, which the Institute began in 1998, is a comprehensive analysis of the breadth, depth and vitality of capital markets around the world. It is based on a simple premise: efficient financial markets - making capital accessible to the entrepreneurs who can use it to create, grow and sustain companies and generate jobs - are the key for long-term growth. <BR> This year\u2032s Index added 16 countries, bringing the total to 98. (Vietnam was deleted this year for lack of data.) The Index ranks countries on more than 50 measurements, from the strength of their banking systems and the diversity and efficiency of financial markets to general economic conditions like inflation, tax rates and the amount of government regulation. <BR> This year\u2032s Index saw an overall decline in scores from the previous year. The main reason for that was the turbulence in global financial markets, which has caused world capital to flow away from developing countries back into developed nations. <BR> Overall scores for the 2002 Index declined for 57 countries - a reversal from last year when scores for 57 countries increased from the previous year. The result is that access to capital - the lifeblood of entrepreneurs, businesses and countries - declined in the last year worldwide. <BR> \"The increasing integration of the world\u2032s economies, which characterized the last decade of the 20th century, appears to have stalled and threatens the prospects for the 21st century,\" says the study that accompanies the 2002 Index. That has only exacerbated the gap between the haves and have-nots around the world, it states. <BR> Glenn Yago, Director of Capital Studies at the Milken Institute and principal author of the Index, says it\u2032s important to attack that gap, but not in the way anti-globalists want. <BR> \"Critics of globalization are right when they claim that the world has a hugely unequal distribution of wealth and that this inequality is important,\" Dr. Yago said. \"However, they are wrong when they assert that a retreat from globalization is the remedy.\" <BR> The key, the report says, is to create a middle class in developing countries by expanding economic participation in home and business ownership. <BR> The other key - and this goes to the heart of the Capital Access Index and the work of the Institute - is to create conditions that allow for the efficient and free-flow of capital. There is a direct link, Institute research has found, between the openness and efficiency of a country\u2032s capital markets and the health of its economy. <BR> View the Capital Access Index report (pdf) and rankings. <BR>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - The United States, just pulling out of a year-long recession, fell out of first place as Hong Kong and the United Kingdom took over the two top spots in the Milken Institute\u2032s annual ranking of the openness and efficiency of capital markets worldwide. <b> The 2002 Capital Access Index saw the U.S. fall to third place, primarily for three reasons: 1) a reduction in venture-capital activity; 2) a decline in IPOs; and 3) a decline in foreign investment because of the economic downturn. <br \/> Hong Kong, meanwhile, went from fourth place in 2001 to this year\u2032s top spot because of a decrease in the concentration of bank assets, and a reduction in the volatility of its financial markets. (Hong Kong is included in the index apart from China because international organizations still identify its economy separately.) The United Kingdom remained at number two. <br \/><b>The top 10 countries in the 2002 survey (and last year\u2032s ranking): <br \/>\n1. Hong Kong (4) <br \/>\n2. United Kingdom (2) <br \/>\n3. United States (1) <br \/>\n4. Singapore (7) <br \/>\n5. Switzerland (6)<br \/>\n6. Netherlands (5)<br \/>\n7. Canada (8)<br \/>\n8. [tie] Luxembourg (3) and New Zealand (9) <br \/>\n10.\t[tie] Australia (12), Finland (13) and Taiwan (15) <\/b><br \/> Surprises include Portugal ranking higher than France; finding that South Africa and Chile\u2032s markets are more open than Italy\u2032s; Jordan beating out Greece; and countries like Latvia scoring higher than India, Mexico and Brazil. Zambia was ranked last. <br \/> Big winners this year were Denmark, Poland and Uruguay, all of which saw their scores increase dramatically from 2001. Countries with large declines included the United States, Argentina, Bolivia and Indonesia.<br \/> The Capital Access Index, which the Institute began in 1998, is a comprehensive analysis of the breadth, depth and vitality of capital markets around the world. It is based on a simple premise: efficient financial markets - making capital accessible to the entrepreneurs who can use it to create, grow and sustain companies and generate jobs - are the key for long-term growth. <br \/> This year\u2032s Index added 16 countries, bringing the total to 98. (Vietnam was deleted this year for lack of data.) The Index ranks countries on more than 50 measurements, from the strength of their banking systems and the diversity and efficiency of financial markets to general economic conditions like inflation, tax rates and the amount of government regulation. <br \/> This year\u2032s Index saw an overall decline in scores from the previous year. The main reason for that was the turbulence in global financial markets, which has caused world capital to flow away from developing countries back into developed nations. <br \/> Overall scores for the 2002 Index declined for 57 countries - a reversal from last year when scores for 57 countries increased from the previous year. The result is that access to capital - the lifeblood of entrepreneurs, businesses and countries - declined in the last year worldwide. <br \/> \"The increasing integration of the world\u2032s economies, which characterized the last decade of the 20th century, appears to have stalled and threatens the prospects for the 21st century,\" says the study that accompanies the 2002 Index. That has only exacerbated the gap between the haves and have-nots around the world, it states. <br \/> Glenn Yago, Director of Capital Studies at the Milken Institute and principal author of the Index, says it\u2032s important to attack that gap, but not in the way anti-globalists want. <br \/> \"Critics of globalization are right when they claim that the world has a hugely unequal distribution of wealth and that this inequality is important,\" Dr. Yago said. \"However, they are wrong when they assert that a retreat from globalization is the remedy.\" <br \/> The key, the report says, is to create a middle class in developing countries by expanding economic participation in home and business ownership. <br \/> The other key - and this goes to the heart of the Capital Access Index and the work of the Institute - is to create conditions that allow for the efficient and free-flow of capital. There is a direct link, Institute research has found, between the openness and efficiency of a country\u2032s capital markets and the health of its economy. <br \/> View the Capital Access Index report (pdf) and rankings. <br \/><\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

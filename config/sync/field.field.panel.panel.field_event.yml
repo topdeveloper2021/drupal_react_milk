@@ -1,0 +1,33 @@
+uuid: b6c1c56d-0c64-4535-bc0c-f7aa6213779c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - eck.eck_type.event.meeting
+    - eck.eck_type.event.summit
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_event
+id: panel.panel.field_event
+field_name: field_event
+entity_type: panel
+bundle: panel
+label: Event
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:event'
+  handler_settings:
+    target_bundles:
+      conference: conference
+      meeting: meeting
+      summit: summit
+    sort:
+      field: field_grid_event_id
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: conference
+field_type: entity_reference

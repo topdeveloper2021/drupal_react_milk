@@ -1,0 +1,11 @@
+name: milken
+type: theme
+description: 'Milken Institute'
+package: milken
+core_version_requirement: ^8 || ^9
+
+base theme: bootstrap_barrio
+libraries:
+  - milken/global-styling
+  - bootstrap_barrio/global-styling
+  - milken/bootstrap_cdn

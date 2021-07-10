@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10112\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/qrWlntDDN489FOd4ivcNZdsJ5VPoArwyt3FmDwdVLvM.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10112
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8c99f019-ab25-4fb3-803b-555766b38903"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1769
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/qrWlntDDN489FOd4ivcNZdsJ5VPoArwyt3FmDwdVLvM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e0866f35-7fe7-49c5-9c5f-414d4e2a9222"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Fighting the Cycle of Poverty Through Industry Intervention: A Conversation With Lynda Resnick",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T14:14:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": " While California is often associated with major coastal cities like Los Angeles and San Francisco, the state's Central Valley has long been one of the poorest places in the country. Today, many of the region's 6.7 million residents are struggling to overcome food insecurity, inadequate schools, and growing health risks. In response to these challenges, one of the region's largest employers, The Wonderful Company, has undertaken an ambitious and philanthropic effort to break the cycle of poverty. Under the leadership of Lynda and Stewart Resnick, the company has put an emphasis on creating better educational opportunities for the next generation, including an innovative Ag Prep program that enables students to simultaneously earn a high school diploma and college degree. In this session, Mike Milken will be joined by Lynda Resnick, along with Ag Prep students, to discuss how the program is transforming the educational experience and empowering Central Valley students to succeed.",
+    "format": "rich_text",
+    "processed": " While California is often associated with major coastal cities like Los Angeles and San Francisco, the state's Central Valley has long been one of the poorest places in the country. Today, many of the region's 6.7 million residents are struggling to overcome food insecurity, inadequate schools, and growing health risks. In response to these challenges, one of the region's largest employers, The Wonderful Company, has undertaken an ambitious and philanthropic effort to break the cycle of poverty. Under the leadership of Lynda and Stewart Resnick, the company has put an emphasis on creating better educational opportunities for the next generation, including an innovative Ag Prep program that enables students to simultaneously earn a high school diploma and college degree. In this session, Mike Milken will be joined by Lynda Resnick, along with Ag Prep students, to discuss how the program is transforming the educational experience and empowering Central Valley students to succeed.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/-VyTmuNv6N0",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/qrWlntDDN489FOd4ivcNZdsJ5VPoArwyt3FmDwdVLvM.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

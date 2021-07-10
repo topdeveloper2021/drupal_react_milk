@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/matching-workplaces-needs-older-workers-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/23?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 482
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4a27e980-da3f-4e4f-8fe7-6512f6a46b04"
+        }
+    ],
+    "vid": [
+        {
+            "value": 482
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/23?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "31589626-fcc2-4859-9c7a-93334db25919"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Matching Workplaces to the Needs of Older Workers",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T11:21:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/matching-workplaces-needs-older-workers-0",
+            "pid": 535,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Perceptions about age and the workplace are evolving. Just a handful of years ago, it was the expectation that older workers should leave the workplace at 65 years\u2014a \u201cretirement age\u201d that dates back to the late 19th century. The recently released 17th Annual Retirement Survey from the Transamerica Center for Retirement Studies that interviewed more than 1800 employers of for-profit companies with five or more employees notes that many of today's workers envision working beyond 65 or not retiring at all. Many also seek a flexible retirement that could include numerous re-entries to the workplace (so-called \u201cbridge employment\u201d). Indeed, 72 percent of employers recognize that many employees expect to work beyond 65, and 81 percent of employers consider themselves supportive of having older employees in their workplace. Employers recognize that older employees bring more knowledge, wisdom and life experience to the workplace and that they are often more responsible, reliable and dependable. Further, older workers are more valuable for mentoring and training\u2014underscoring the value of intergenerational learning and teaching. On the other hand, a number of negative perceptions about older workers still prevail, including concerns about injuries and illness, the higher cost of wages, and healthcare disability costs.It is increasingly clear that there are changing goals and needs of older workers and employers. This changing paradigm is captured in gerontology and lifespan psychology research as \u201csuccessful aging at work.\u201d This emerging field of developmental psychology builds on earlier models of successful aging and can be extended to the positive attributes and behaviors that could promote the successful aging at work. This is defined as including a subjective domain (i.e., a perception of job satisfaction)[1] coupled with psychological well-being and objective measures, including personal factors (genetics and lifestyle) and contextual factors (autonomy and social support) that impact successful aging.[2] This helps shape the \u201cperson-environment\u201d or \u201cperson-job\u201d fit which can delineate opportunities for older workers to pursue new or different jobs or careers that more optimally align their personal skills and attributes with the changing expectations and requirements of the workplace. This requires both employers and employees to foster changes in goals and focus, coupled with innovations around roles and jobs that include proactive career planning, self renewal, the acquisition of strategically valued training together with networking and social resources. To increase the likelihood of success in working beyond 65, employers recommend that employees need to stay healthy, keep up or renew their skills and perform well. These and other proactive behaviors emerging from studies in organizational psychology lead to a new paradigm that I will refer to as the person- education\/training-transition triad for aging workers.Changes in the workplace for older workers currently manifest in a number of ways. One is \u201cbridge employment,\u201d defined as \u201ca labor force participation by older workers after they leave a career job and before they completely and permanently withdraw from the labor force.\u201d[3]Bridge employment includes any paid employment, whether full-time or part-time, but can also include jobs or positions that lead to social impact or personal fulfillment. Of note, 70 percent of workers say that they plan to work after they \u201cretire\u201d\u2014whether work similar to their primary career or something different. This does not take into account those workers who lost their jobs in their mid-fifties and who encounter significant difficulty re-entering the workplace. There are emerging predictors for successful bridge employment that relate to the \u201cperson\u201d (age, wealth, health status, past education, and gender) and \u201cjob\u201d (work attitudes, stressors, organization commitment, compensation, and migration for managerial or operational or other roles). Given the goals of employees and employers, seeking ways to further optimize success is important and includes for the \u201cperson\u201d (saving for retirement, developing a retirement strategy, being proactive to ensure continued employment, and having backup plans). For the \u201cjob\u201d part of the dyad, this can include the offering of health and welfare benefits to older workers, extending eligibility to part-time workers, fostering age-friendly and safe work environments and creating opportunities to phase into retirement.With the likelihood of work lives extending well beyond the traditional retirement age, it seems reasonable to ask whether a return to higher education could be a platform for personal renewal, providing opportunities for extending and deepening a primary career path, while also fostering social engagement and recalibrating wellness. This provides the opportunity to promote a person-education\/training-transition triad that can help optimize midlife transitions and benefit both the aging worker and the workplace. Currently, we are exploring the role of higher education as a bridge between the person and the workplace regardless of whether it leads to compensated employment or other forms of engagement in the public or private sectors. Recognizing that the needs of individuals, work settings and communities are highly variegated, it seems plausible that universities, colleges and community colleges can develop opportunities for individuals in midlife that will take different forms but share in common a renewal of purpose, fostering social engagement and recalibrating wellness that have a positive impact on the lifespan and concordant health span of individuals and society.<br>[1] Hannes Zacher, Work, Aging and Retirement (2015): 1:4-25. [2] J.W. Rowe and R.L. Kahn, Science (1987): 237:143-149; J.W. Rowe and R.L. Kahn, The Gerontologist (1997): 37:443-440. [3] Terry A. Beehr and Misty M. Bennet, Work, Aging and Retirement (2015): 1:112-128. <table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Perceptions about age and the workplace are evolving. Just a handful of years ago, it was the expectation that older workers should leave the workplace at 65 years\u2014a \u201cretirement age\u201d that dates back to the late 19th century. The recently released 17th Annual Retirement Survey from the Transamerica Center for Retirement Studies that interviewed more than 1800 employers of for-profit companies with five or more employees notes that many of today's workers envision working beyond 65 or not retiring at all. Many also seek a flexible retirement that could include numerous re-entries to the workplace (so-called \u201cbridge employment\u201d). Indeed, 72 percent of employers recognize that many employees expect to work beyond 65, and 81 percent of employers consider themselves supportive of having older employees in their workplace. Employers recognize that older employees bring more knowledge, wisdom and life experience to the workplace and that they are often more responsible, reliable and dependable. Further, older workers are more valuable for mentoring and training\u2014underscoring the value of intergenerational learning and teaching. On the other hand, a number of negative perceptions about older workers still prevail, including concerns about injuries and illness, the higher cost of wages, and healthcare disability costs.It is increasingly clear that there are changing goals and needs of older workers and employers. This changing paradigm is captured in gerontology and lifespan psychology research as \u201csuccessful aging at work.\u201d This emerging field of developmental psychology builds on earlier models of successful aging and can be extended to the positive attributes and behaviors that could promote the successful aging at work. This is defined as including a subjective domain (i.e., a perception of job satisfaction)[1] coupled with psychological well-being and objective measures, including personal factors (genetics and lifestyle) and contextual factors (autonomy and social support) that impact successful aging.[2] This helps shape the \u201cperson-environment\u201d or \u201cperson-job\u201d fit which can delineate opportunities for older workers to pursue new or different jobs or careers that more optimally align their personal skills and attributes with the changing expectations and requirements of the workplace. This requires both employers and employees to foster changes in goals and focus, coupled with innovations around roles and jobs that include proactive career planning, self renewal, the acquisition of strategically valued training together with networking and social resources. To increase the likelihood of success in working beyond 65, employers recommend that employees need to stay healthy, keep up or renew their skills and perform well. These and other proactive behaviors emerging from studies in organizational psychology lead to a new paradigm that I will refer to as the person- education\/training-transition triad for aging workers.Changes in the workplace for older workers currently manifest in a number of ways. One is \u201cbridge employment,\u201d defined as \u201ca labor force participation by older workers after they leave a career job and before they completely and permanently withdraw from the labor force.\u201d[3]Bridge employment includes any paid employment, whether full-time or part-time, but can also include jobs or positions that lead to social impact or personal fulfillment. Of note, 70 percent of workers say that they plan to work after they \u201cretire\u201d\u2014whether work similar to their primary career or something different. This does not take into account those workers who lost their jobs in their mid-fifties and who encounter significant difficulty re-entering the workplace. There are emerging predictors for successful bridge employment that relate to the \u201cperson\u201d (age, wealth, health status, past education, and gender) and \u201cjob\u201d (work attitudes, stressors, organization commitment, compensation, and migration for managerial or operational or other roles). Given the goals of employees and employers, seeking ways to further optimize success is important and includes for the \u201cperson\u201d (saving for retirement, developing a retirement strategy, being proactive to ensure continued employment, and having backup plans). For the \u201cjob\u201d part of the dyad, this can include the offering of health and welfare benefits to older workers, extending eligibility to part-time workers, fostering age-friendly and safe work environments and creating opportunities to phase into retirement.With the likelihood of work lives extending well beyond the traditional retirement age, it seems reasonable to ask whether a return to higher education could be a platform for personal renewal, providing opportunities for extending and deepening a primary career path, while also fostering social engagement and recalibrating wellness. This provides the opportunity to promote a person-education\/training-transition triad that can help optimize midlife transitions and benefit both the aging worker and the workplace. Currently, we are exploring the role of higher education as a bridge between the person and the workplace regardless of whether it leads to compensated employment or other forms of engagement in the public or private sectors. Recognizing that the needs of individuals, work settings and communities are highly variegated, it seems plausible that universities, colleges and community colleges can develop opportunities for individuals in midlife that will take different forms but share in common a renewal of purpose, fostering social engagement and recalibrating wellness that have a positive impact on the lifespan and concordant health span of individuals and society.<br \/>[1] Hannes Zacher, Work, Aging and Retirement (2015): 1:4-25. [2] J.W. Rowe and R.L. Kahn, Science (1987): 237:143-149; J.W. Rowe and R.L. Kahn, The Gerontologist (1997): 37:443-440. [3] Terry A. Beehr and Misty M. Bennet, Work, Aging and Retirement (2015): 1:112-128. <table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

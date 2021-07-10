@@ -1,0 +1,18 @@
+uuid: 6711a1d1-e127-42f1-b152-9b0cb34a12d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_pfinal
+field_name: field_pfinal
+entity_type: panel
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

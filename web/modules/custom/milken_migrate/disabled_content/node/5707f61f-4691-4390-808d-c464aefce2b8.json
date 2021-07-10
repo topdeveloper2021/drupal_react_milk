@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/healthy-body-healthy-mind-makings-prosperous-future?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/91?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 572
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5707f61f-4691-4390-808d-c464aefce2b8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 572
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/91?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4378f05c-0d1f-41ad-85f0-b7e99d26850f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Healthy Body, Healthy Mind: The Makings of a Prosperous Future",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-08T11:08:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/healthy-body-healthy-mind-makings-prosperous-future",
+            "pid": 625,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "When we think of success, we often think of the future. Will our communities thrive over the long term? Will our children and our grandchildren grow to be engaged, productive citizens? At the Alliance for a Healthier Generation, we seek to answer these questions long before those future years are upon us. We know a strong future starts with the development and support of healthy habits at a young age. From when children enter their first classroom to the time they walk across the graduation stage, every moment can play a pivotal role in positioning them for long-term success, including improved health and well-being. Just ask Brikaya, an eighth-grade student at Afya Public Charter School in Baltimore, Maryland. Brikaya dreams of becoming a scientist. An avid cross-country runner and basketball player, Brikaya radiates health, and she inspires those around her to follow suit. At Afya, which means \u201chealth\u201d in Swahili, Brikaya isn\u2019t just learning math and biology but also how to best move her body and fuel her mind. While our work has always been driven by the latest research and data, the core of our mission at Healthier Generation has always been simple: We empower kids like Brikaya to build the healthy futures they deserve. For more than a decade, we\u2019ve worked to reduce the growing epidemic of childhood obesity by guiding over 42,000 schools and 3,500 out-of-school programs in all 50 states and the District of Columbia to improve nutrition and increase physical activity in kids and adults. Despite this progress, we realize that, today, the latest research is telling us something more\u2014that \u201chealth\u201d can\u2019t just be defined by what we put into our bodies and how much we move them; it also has to include how we nurture them\u00a0emotionally and mentally. This led us to\u00a0broaden our scope\u00a0of work so that\u2014together with our partners,\u00a0local\u00a0communities,\u00a0and the food and beverage industry\u2014we could address\u00a0<i>multiple<\/i>, critical child and adolescent health issues including nutrition, physical activity,\u00a0social-emotional health, and sleep. As we asked ourselves how we can better meet the health needs of the whole child, we turned to our longest guiding principle\u2014science. For example, emerging evidence in nutritional psychiatry shows a connection between a <b>healthy diet<\/b> and reduced symptoms of ADHD and depression. Through our Healthy Schools Program, we\u2019ve seen first-hand that when schools offer a healthy breakfast to their students, they experience increases in attendance and academic achievement. Furthermore, starting the day with a nutritious breakfast correlates to lower levels of stress. We have to continue to engage this work that is good for kids physically, emotionally, and mentally. We also know that <b>sleep<\/b> is highly interrelated with mood, academic achievement, and health outcomes. Even moderate disruptions in sleep can impact overall temperament and the ability to control emotions. Additionally, children and adolescents who do not get enough sleep have a higher risk of obesity, diabetes, injuries, poor mental health, and problems with attention and behavior that impair academic achievement. The good news is that families, educators, administrators, and school boards can work together to make sure that healthier sleep is a family priority and school start times are allowing students in a community to reach the goal of at least eight hours of sleep per night. For decades we\u2019ve known the importance of regular <b>physical activity<\/b> to protect against chronic health conditions like heart disease and Type 2 diabetes. But what if a walk with the dog or simple classroom fitness break could do even <i>more<\/i> for our overall health? Turns out, they can! Consistent, moderate exercise peppered throughout the day acts as a buffer against anxiety and depression and helps kids feel more alert and engaged. Most of all, we\u2019ve learned that all of these things <b>build connections and support a positive sense of self <\/b>for our kids, which also influences mood and behavior. In order to empower a healthier next generation of kids and the adults they will grow up to be, we need to start by ensuring we meet all aspects of their health needs\u2014because <i>every child<\/i> deserves the opportunity to grow and thrive, in school and in life. <i>--<\/i> ",
+    "format": "rich_text",
+    "processed": "When we think of success, we often think of the future. Will our communities thrive over the long term? Will our children and our grandchildren grow to be engaged, productive citizens? At the Alliance for a Healthier Generation, we seek to answer these questions long before those future years are upon us. We know a strong future starts with the development and support of healthy habits at a young age. From when children enter their first classroom to the time they walk across the graduation stage, every moment can play a pivotal role in positioning them for long-term success, including improved health and well-being. Just ask Brikaya, an eighth-grade student at Afya Public Charter School in Baltimore, Maryland. Brikaya dreams of becoming a scientist. An avid cross-country runner and basketball player, Brikaya radiates health, and she inspires those around her to follow suit. At Afya, which means \u201chealth\u201d in Swahili, Brikaya isn\u2019t just learning math and biology but also how to best move her body and fuel her mind. While our work has always been driven by the latest research and data, the core of our mission at Healthier Generation has always been simple: We empower kids like Brikaya to build the healthy futures they deserve. For more than a decade, we\u2019ve worked to reduce the growing epidemic of childhood obesity by guiding over 42,000 schools and 3,500 out-of-school programs in all 50 states and the District of Columbia to improve nutrition and increase physical activity in kids and adults. Despite this progress, we realize that, today, the latest research is telling us something more\u2014that \u201chealth\u201d can\u2019t just be defined by what we put into our bodies and how much we move them; it also has to include how we nurture them\u00a0emotionally and mentally. This led us to\u00a0broaden our scope\u00a0of work so that\u2014together with our partners,\u00a0local\u00a0communities,\u00a0and the food and beverage industry\u2014we could address\u00a0<i>multiple<\/i>, critical child and adolescent health issues including nutrition, physical activity,\u00a0social-emotional health, and sleep. As we asked ourselves how we can better meet the health needs of the whole child, we turned to our longest guiding principle\u2014science. For example, emerging evidence in nutritional psychiatry shows a connection between a <b>healthy diet<\/b> and reduced symptoms of ADHD and depression. Through our Healthy Schools Program, we\u2019ve seen first-hand that when schools offer a healthy breakfast to their students, they experience increases in attendance and academic achievement. Furthermore, starting the day with a nutritious breakfast correlates to lower levels of stress. We have to continue to engage this work that is good for kids physically, emotionally, and mentally. We also know that <b>sleep<\/b> is highly interrelated with mood, academic achievement, and health outcomes. Even moderate disruptions in sleep can impact overall temperament and the ability to control emotions. Additionally, children and adolescents who do not get enough sleep have a higher risk of obesity, diabetes, injuries, poor mental health, and problems with attention and behavior that impair academic achievement. The good news is that families, educators, administrators, and school boards can work together to make sure that healthier sleep is a family priority and school start times are allowing students in a community to reach the goal of at least eight hours of sleep per night. For decades we\u2019ve known the importance of regular <b>physical activity<\/b> to protect against chronic health conditions like heart disease and Type 2 diabetes. But what if a walk with the dog or simple classroom fitness break could do even <i>more<\/i> for our overall health? Turns out, they can! Consistent, moderate exercise peppered throughout the day acts as a buffer against anxiety and depression and helps kids feel more alert and engaged. Most of all, we\u2019ve learned that all of these things <b>build connections and support a positive sense of self <\/b>for our kids, which also influences mood and behavior. In order to empower a healthier next generation of kids and the adults they will grow up to be, we need to start by ensuring we meet all aspects of their health needs\u2014because <i>every child<\/i> deserves the opportunity to grow and thrive, in school and in life. <i>--<\/i> ",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7088\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/NFKgpWOWDvEeX9HCEyRntXcfdFZ-mJlr766Xdc2G-NQ.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7088
+        }
+    ],
+    "uuid": [
+        {
+            "value": "17e1c639-4767-42b8-a70c-fe43d970ebf5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 45
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/NFKgpWOWDvEeX9HCEyRntXcfdFZ-mJlr766Xdc2G-NQ.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2a795c58-264c-4126-8598-02b842668a6a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Luxury Brands: When Radical Transparency Is the Best Look",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-05T06:59:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Once upon a time luxury was predicated on mystery; the less consumers knew about the brands they bought, the greater the allure and mystique attached to the product. Now, however, a new generation is changing all that, demanding even the most gilded names reveal the value systems that drive not just their style and their sales but their sourcing, staffing, and spirit. How far back does the velvet curtain need to go? Does taking a public stand, political or social, risk alienating a swathe of potential customers, even as it creates loyalty among others? How should a brand weight the risks and rewards of disclosure?",
+    "format": "rich_text",
+    "processed": "Once upon a time luxury was predicated on mystery; the less consumers knew about the brands they bought, the greater the allure and mystique attached to the product. Now, however, a new generation is changing all that, demanding even the most gilded names reveal the value systems that drive not just their style and their sales but their sourcing, staffing, and spirit. How far back does the velvet curtain need to go? Does taking a public stand, political or social, risk alienating a swathe of potential customers, even as it creates loyalty among others? How should a brand weight the risks and rewards of disclosure?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/7cj5ZrRIvvc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/NFKgpWOWDvEeX9HCEyRntXcfdFZ-mJlr766Xdc2G-NQ.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

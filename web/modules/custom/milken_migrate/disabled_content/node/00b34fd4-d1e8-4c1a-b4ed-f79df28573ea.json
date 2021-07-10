@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/bold-diversification-new-standard-promote-longevity-and-prosperity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/59?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 524
+        }
+    ],
+    "uuid": [
+        {
+            "value": "00b34fd4-d1e8-4c1a-b4ed-f79df28573ea"
+        }
+    ],
+    "vid": [
+        {
+            "value": 524
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/59?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4ff92482-e70b-456d-a7fc-1581a5fab329"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Bold Diversification: A New Standard to Promote Longevity and Prosperity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T14:09:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-06T16:03:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/bold-diversification-new-standard-promote-longevity-and-prosperity",
+            "pid": 577,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Our views on diversification must be both bold and all-encompassing, spanning across our talent, portfolios, and corporate purpose.<\/b><\/i> The traditional definition of success has changed dramatically in business and society. The most impactful shift is that diversification and the effective integration of different strategies, points of view, and partnerships have become a competitive differentiator and a requirement. Companies and leaders who have taken bold steps in this effort have driven change at scale. As a global leader who splits her time across multiple continents, I strive to incorporate this mission throughout our company, investment process, and societal impact. The definition of \"diversity\" extends beyond one business function. To drive impact and find success on a global scale, we need to holistically apply diversity across our strategic differentiators: people, portfolio, and purpose. <b>Leading with People: Harnessing Inclusion as a Tentpole for Talent <\/b> From associates to the executive board, companies must embrace and prioritize diversity and inclusion to bring new voices to the table. Beyond gender diversity, let\u2019s take it one step further: To curate a diverse environment, we need to consider not only gender and cultural backgrounds but also academics, age, geography, and professional experience. As a global firm with offices across four continents, one of our main initiatives is rooted in bringing global talent to our team. Each day, we actively work to challenge our views and incorporate new schools of thought to our business and investment strategies. Diversification in thought is a gateway to opportunity. <b>Curating a Diverse Portfolio<\/b> A company\u2019s business model must also incorporate diversification in many ways. Talented teams that collect various viewpoints during investment decisions have the ability to identify opportunities within strategies and build a diverse portfolio across geographies and sectors. To achieve global prosperity, our investments need to reach past borders to drive shared value and reinvigorate the global economy. Private equity (PE) simultaneously elevates local businesses through financial investments and hands-on partnership while creating stronger economies. Diversification also enables PE to sustain momentum regardless of the market cycle, investing in various sectors and geographies and thus supporting investors and shareholders. <b>Finding Purpose in Corporate Citizenship <\/b> Let\u2019s redefine prosperity to go beyond the bottom line and focus on economic empowerment. When we infuse capital into a company, we must ask the question: \u201cWhat impact is the business making on economy, society, and the environment?\u201d In 2017, of the $88 trillion global professionally managed assets, more than 25 percent was invested in environmental, social, and government principles, and that number continues to rise.[i] We must lead the way to show that corporate citizenship is a requirement to thrive globally. At Eurazeo, we have put a standard in place to evaluate our companies on global impact. We can leverage external partners and resources in this mission. My role as co-chair of the Paris Committee of the Human Rights Watch continues to be a fresh perspective, which keeps me energized and focused on Eurazeo\u2019s purpose. As we continue to redefine the definition of diversity, we collectively need to challenge the current standards. To make a lasting impact, our views on diversification must be both bold and all-encompassing, spanning across our talent, portfolios, and corporate purpose. Channeling and operationalizing diversification is a large investment of time and resources, but it is the foundation for creating a strong global economy. As leaders and global citizens, to create a course of lasting change we must work to set the new standard and reimagine our view of global inclusion. [i] McKinsey & Company, https:\/\/www.mckinsey.com\/industries\/private-equity-and-principal-investors\/our-insights\/from-why-to-why-not-sustainable-investing-as-the-new-normal",
+    "format": "rich_text",
+    "processed": "<i><b>Our views on diversification must be both bold and all-encompassing, spanning across our talent, portfolios, and corporate purpose.<\/b><\/i> The traditional definition of success has changed dramatically in business and society. The most impactful shift is that diversification and the effective integration of different strategies, points of view, and partnerships have become a competitive differentiator and a requirement. Companies and leaders who have taken bold steps in this effort have driven change at scale. As a global leader who splits her time across multiple continents, I strive to incorporate this mission throughout our company, investment process, and societal impact. The definition of \"diversity\" extends beyond one business function. To drive impact and find success on a global scale, we need to holistically apply diversity across our strategic differentiators: people, portfolio, and purpose. <b>Leading with People: Harnessing Inclusion as a Tentpole for Talent <\/b> From associates to the executive board, companies must embrace and prioritize diversity and inclusion to bring new voices to the table. Beyond gender diversity, let\u2019s take it one step further: To curate a diverse environment, we need to consider not only gender and cultural backgrounds but also academics, age, geography, and professional experience. As a global firm with offices across four continents, one of our main initiatives is rooted in bringing global talent to our team. Each day, we actively work to challenge our views and incorporate new schools of thought to our business and investment strategies. Diversification in thought is a gateway to opportunity. <b>Curating a Diverse Portfolio<\/b> A company\u2019s business model must also incorporate diversification in many ways. Talented teams that collect various viewpoints during investment decisions have the ability to identify opportunities within strategies and build a diverse portfolio across geographies and sectors. To achieve global prosperity, our investments need to reach past borders to drive shared value and reinvigorate the global economy. Private equity (PE) simultaneously elevates local businesses through financial investments and hands-on partnership while creating stronger economies. Diversification also enables PE to sustain momentum regardless of the market cycle, investing in various sectors and geographies and thus supporting investors and shareholders. <b>Finding Purpose in Corporate Citizenship <\/b> Let\u2019s redefine prosperity to go beyond the bottom line and focus on economic empowerment. When we infuse capital into a company, we must ask the question: \u201cWhat impact is the business making on economy, society, and the environment?\u201d In 2017, of the $88 trillion global professionally managed assets, more than 25 percent was invested in environmental, social, and government principles, and that number continues to rise.[i] We must lead the way to show that corporate citizenship is a requirement to thrive globally. At Eurazeo, we have put a standard in place to evaluate our companies on global impact. We can leverage external partners and resources in this mission. My role as co-chair of the Paris Committee of the Human Rights Watch continues to be a fresh perspective, which keeps me energized and focused on Eurazeo\u2019s purpose. As we continue to redefine the definition of diversity, we collectively need to challenge the current standards. To make a lasting impact, our views on diversification must be both bold and all-encompassing, spanning across our talent, portfolios, and corporate purpose. Channeling and operationalizing diversification is a large investment of time and resources, but it is the foundation for creating a strong global economy. As leaders and global citizens, to create a course of lasting change we must work to set the new standard and reimagine our view of global inclusion. [i] McKinsey &amp; Company, https:\/\/www.mckinsey.com\/industries\/private-equity-and-principal-investors\/our-insights\/from-why-to-why-not-sustainable-investing-as-the-new-normal",
+    "summary": null,
+    "summary_processed": ""
+}

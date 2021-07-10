@@ -1,0 +1,34 @@
+uuid: a974ca05-16e3-4a54-95d4-2d11000a705f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.50_50_text_on_left
+    - eck.eck_type.slide.50_50_text_on_right
+    - eck.eck_type.slide.full_width_one_column
+    - eck.eck_type.slide.hero_half_height
+    - field.storage.paragraph.field_slide_refs
+    - paragraphs.paragraphs_type.slide_tiles
+id: paragraph.slide_tiles.field_slide_refs
+field_name: field_slide_refs
+entity_type: paragraph
+bundle: slide_tiles
+label: 'Slide Refs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:slide'
+  handler_settings:
+    target_bundles:
+      50_50_text_on_left: 50_50_text_on_left
+      50_50_text_on_right: 50_50_text_on_right
+      full_width_one_column: full_width_one_column
+      hero_half_height: hero_half_height
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: full_width_one_column
+field_type: entity_reference

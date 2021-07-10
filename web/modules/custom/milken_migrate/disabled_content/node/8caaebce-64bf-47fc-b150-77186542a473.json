@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/us-recession-here-impact-california-be-more-severe-rest-us-according-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 160
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8caaebce-64bf-47fc-b150-77186542a473"
+        }
+    ],
+    "vid": [
+        {
+            "value": 160
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "U.S. recession is here; impact on California to be more severe than for rest of U.S., according to Milken Institute",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/us-recession-here-impact-california-be-more-severe-rest-us-according-milken-institute",
+            "pid": 213,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "(Los Angeles) Whether or not the National Bureau of Economic Research calls it a recession, consumers, homeowners, investors and businesses won't waste any time on the semantics because it will certainly feel like one. A new report from the Milken Institute states that the recession has arrived, with real GDP declining at an annual rate of 0.6 percent in the first quarter of 2008, followed by 0.9 percent in the second. The study states that the Commerce Department's \"advance\" report on first-quarter GDP will be revised to show a decline rather than the scant 0.6 percent gain currently estimated. According to the report, The Economic Outlook for the United States and California: Slow Growth or Recession?, the combined forces of a housing market correction, soaring oil prices, a weak labor market, overextended consumers and turmoil in the credit markets outweigh any gains seen in the export markets. However, the report also notes that quick actions at the federal level to enact fiscal stimulus measures should mitigate the depth and duration of the problem, making it the mildest recession in the post-World War II period. \"The headlines about subprime and oil prices tell part of the story,\" said Ross DeVol, director of Regional Economics at the Milken Institute. \"But looking at the ripple effects throughout the economy illustrates the real impact that Americans will feel at the ground level. We're fortunate, however, that timely Fed intervention and globally integrated markets can help ease both the severity and the duration of the down cycle.\" The analysis shows:<br>\nEach 10 percent decline in housing sales correlates in an 0.8 percent decline in real GDP.<br>\nEach $10 increase in oil price reduces real GDP by 0.2 percent. The report also takes an in-depth look at what the national recession means for California. Still mild by historical standards, the impact on California will be more pronounced than in other states because of the high concentration of mortgage originations (both traditional and subprime), targeted job losses in the construction and financial services sectors, and decreased import activity in the state's ports and logistics operations. California's economic issues will have a direct impact on the budget. In addition to falling personal income tax revenues, estimated at 4.2 percent in 2007-2008 and 3.5 percent in 2008-2009, stock market declines will have an impact on capital gains and stock option proceeds. The weakening economy will harm profits, as well. And increasing mortgage resets and shrinking credit availability will result in lower sales tax receipts for the state. According to the report, at the current rate of expenditures, the 2007-2008 general fund would be $9.7 billion in deficit, and at the current growth rate of expenditures, the gap between general fund revenue versus expenditures for the 2008-2009 fiscal year could reach $20.2 billion. Hard choices lie ahead for California, as noted in the report's budget outlook. It is highly improbable that voters will accept the deep expenditure cuts required to address the budget gap, and while the Legislature is currently at a political stalemate, alternative methods of generating revenue, including tax exemption redefinitions and tax increases, may be the only way forward for a budget compromise. ",
+    "format": "rich_text",
+    "processed": "(Los Angeles) Whether or not the National Bureau of Economic Research calls it a recession, consumers, homeowners, investors and businesses won't waste any time on the semantics because it will certainly feel like one. A new report from the Milken Institute states that the recession has arrived, with real GDP declining at an annual rate of 0.6 percent in the first quarter of 2008, followed by 0.9 percent in the second. The study states that the Commerce Department's \"advance\" report on first-quarter GDP will be revised to show a decline rather than the scant 0.6 percent gain currently estimated. According to the report, The Economic Outlook for the United States and California: Slow Growth or Recession?, the combined forces of a housing market correction, soaring oil prices, a weak labor market, overextended consumers and turmoil in the credit markets outweigh any gains seen in the export markets. However, the report also notes that quick actions at the federal level to enact fiscal stimulus measures should mitigate the depth and duration of the problem, making it the mildest recession in the post-World War II period. \"The headlines about subprime and oil prices tell part of the story,\" said Ross DeVol, director of Regional Economics at the Milken Institute. \"But looking at the ripple effects throughout the economy illustrates the real impact that Americans will feel at the ground level. We're fortunate, however, that timely Fed intervention and globally integrated markets can help ease both the severity and the duration of the down cycle.\" The analysis shows:<br \/>\nEach 10 percent decline in housing sales correlates in an 0.8 percent decline in real GDP.<br \/>\nEach $10 increase in oil price reduces real GDP by 0.2 percent. The report also takes an in-depth look at what the national recession means for California. Still mild by historical standards, the impact on California will be more pronounced than in other states because of the high concentration of mortgage originations (both traditional and subprime), targeted job losses in the construction and financial services sectors, and decreased import activity in the state's ports and logistics operations. California's economic issues will have a direct impact on the budget. In addition to falling personal income tax revenues, estimated at 4.2 percent in 2007-2008 and 3.5 percent in 2008-2009, stock market declines will have an impact on capital gains and stock option proceeds. The weakening economy will harm profits, as well. And increasing mortgage resets and shrinking credit availability will result in lower sales tax receipts for the state. According to the report, at the current rate of expenditures, the 2007-2008 general fund would be $9.7 billion in deficit, and at the current growth rate of expenditures, the gap between general fund revenue versus expenditures for the 2008-2009 fiscal year could reach $20.2 billion. Hard choices lie ahead for California, as noted in the report's budget outlook. It is highly improbable that voters will accept the deep expenditure cuts required to address the budget gap, and while the Legislature is currently at a political stalemate, alternative methods of generating revenue, including tax exemption redefinitions and tax increases, may be the only way forward for a budget compromise. ",
+    "summary": null,
+    "summary_processed": ""
+}

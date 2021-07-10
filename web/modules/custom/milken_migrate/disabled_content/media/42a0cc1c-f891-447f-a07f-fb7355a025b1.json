@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10080\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/IuqR7cFFMajxDyUg4UwBwWVLIzNB4KklbLx96bnSKc8.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10080
+        }
+    ],
+    "uuid": [
+        {
+            "value": "42a0cc1c-f891-447f-a07f-fb7355a025b1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2285
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/IuqR7cFFMajxDyUg4UwBwWVLIzNB4KklbLx96bnSKc8.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "808596da-8da1-4f5b-a395-56485b37c6be"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Development Through Women's Economic Empowerment",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T17:52:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:37:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Women's economic empowerment is a prerequisite for inclusive and equitable economic growth as well as global peace and security. Individualized solutions to this global challenge require collaboration across the public and private sectors to expand access to capital, increase labor force participation, and ensure safe and secure work environments as women both enter and advance within the formal economy. However, commitment to these issues cannot rest with short-term financial mechanisms alone. Equally as consequential are the structural barriers that prevent women around the world from reaching their economic potential and contributing to local and global prosperity. How are international actors positioning women at the heart of their development strategy and embedding gender expertise within their government programs, economic models, and policy priorities?",
+    "format": "rich_text",
+    "processed": "Women's economic empowerment is a prerequisite for inclusive and equitable economic growth as well as global peace and security. Individualized solutions to this global challenge require collaboration across the public and private sectors to expand access to capital, increase labor force participation, and ensure safe and secure work environments as women both enter and advance within the formal economy. However, commitment to these issues cannot rest with short-term financial mechanisms alone. Equally as consequential are the structural barriers that prevent women around the world from reaching their economic potential and contributing to local and global prosperity. How are international actors positioning women at the heart of their development strategy and embedding gender expertise within their government programs, economic models, and policy priorities?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/HK56iZpYbks",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/IuqR7cFFMajxDyUg4UwBwWVLIzNB4KklbLx96bnSKc8.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+uuid: 076a243a-43b4-4254-a985-a2b74d5283d7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: media_image
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - media
+migration_group: milken
+label: 'migrate media image entities'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/media/image'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/media/image
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - image
+  fields:
+    -
+      name: mid
+      label: 'Media ID'
+      selector: /drupal_internal__mid
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: name
+      label: title/name
+      selector: /name
+    -
+      name: langcode
+      label: 'Language Code'
+      selector: /langcode
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: status
+      label: Status
+      selector: /status
+    -
+      name: filesize
+      label: 'File Size'
+      selector: /field_filesize
+    -
+      name: filemime
+      label: 'File Mime'
+      selector: /field_filemime
+    -
+      name: height
+      label: Height
+      selector: /field_height
+    -
+      name: width
+      label: Width
+      selector: /field_width
+    -
+      name: media_in_library
+      label: 'Media in Library'
+      selector: /field_media_in_library
+    -
+      name: photo_subject_name
+      label: 'Photo Subject Name'
+      selector: /field_photo_subject_name
+    -
+      name: photo_subject_org
+      label: 'Photo Subject Org'
+      selector: /field_photo_subject_org
+    -
+      name: photo_subject_title
+      label: 'Photo Subject Title'
+      selector: /field_photo_subject_title
+    -
+      name: image
+      label: Image
+      selector: /image
+    -
+      name: image_uri
+      label: ImageURI
+      selector: /image/uri/value
+    -
+      name: image_url
+      label: 'Image Url'
+      selector: /image/uri/url
+  constants:
+    source_url_base: 'https://milkeninstitute.org'
+  ids:
+    mid:
+      type: integer
+    uuid:
+      type: string
+process:
+  id: mid
+  uuid: uuid
+  name: name
+  langcode:
+    plugin: default_value
+    default_value: en
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  status:
+    plugin: default_value
+    default_value: true
+  field_filesize: filesize
+  field_filemime: filemime
+  field_photo_subject_name: photo_subject_name
+  field_photo_subject_org: photo_subject_org
+  field_photo_subject_title: photo_subject_title
+  field_media_image:
+    plugin: 'milken_migrate:remote_file'
+    source: image
+  field_width: width
+  field_height: height
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+destination:
+  plugin: 'entity:media'
+  default_bundle: image
+migration_dependencies: {  }

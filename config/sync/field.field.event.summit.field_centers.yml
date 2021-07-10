@@ -1,0 +1,29 @@
+uuid: 5a54176d-8598-4fa5-a89a-1b9b6b705921
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_centers
+    - taxonomy.vocabulary.centers
+id: event.summit.field_centers
+field_name: field_centers
+entity_type: event
+bundle: summit
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

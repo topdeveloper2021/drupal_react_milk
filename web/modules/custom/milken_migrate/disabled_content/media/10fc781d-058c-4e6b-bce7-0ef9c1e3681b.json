@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7851\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/fPE5BfFiapsvVpB4pUThqzOivbzIBSYXajtAbwJpiwQ.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7851
+        }
+    ],
+    "uuid": [
+        {
+            "value": "10fc781d-058c-4e6b-bce7-0ef9c1e3681b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 508
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/fPE5BfFiapsvVpB4pUThqzOivbzIBSYXajtAbwJpiwQ.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d959fd9-0bcf-46a4-a850-cf7dad045a8b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Fountain of Age: Unlocking the Secrets of Longer Life",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T22:37:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The last century produced advances in science that would be unimaginable to earlier generations, and no achievement had more impact than the extension of human life. Innovations in medicine and sanitation saw a radical increase in lifespan leading to unprecedented global economic growth and individual opportunity. But researchers are not resting on their laurels and the search for new scientific pathways is accelerating. Advances in genomics, proteomics, informatics, computing and cell therapy technologies bring with them the likelihood of extending lifespan further -- very possibly, much further. Dr. Craig Venter and Dr. Peter Diamandis, pioneers in this emerging field, join us to explain the opportunities and challenges ahead in the search for longer and healthier lives.",
+    "format": "rich_text",
+    "processed": "The last century produced advances in science that would be unimaginable to earlier generations, and no achievement had more impact than the extension of human life. Innovations in medicine and sanitation saw a radical increase in lifespan leading to unprecedented global economic growth and individual opportunity. But researchers are not resting on their laurels and the search for new scientific pathways is accelerating. Advances in genomics, proteomics, informatics, computing and cell therapy technologies bring with them the likelihood of extending lifespan further -- very possibly, much further. Dr. Craig Venter and Dr. Peter Diamandis, pioneers in this emerging field, join us to explain the opportunities and challenges ahead in the search for longer and healthier lives.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/D3nIIKwwiLc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/fPE5BfFiapsvVpB4pUThqzOivbzIBSYXajtAbwJpiwQ.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7827\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/IFiYln3rOWHocgHAWr1NFibhDPhnmGuXFB7keAY5Jus.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7827
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ee280d03-0224-4156-9840-ad0bbf4b3a70"
+        }
+    ],
+    "vid": [
+        {
+            "value": 488
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/IFiYln3rOWHocgHAWr1NFibhDPhnmGuXFB7keAY5Jus.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44240c38-6faa-44e2-a057-dc02dd273eff"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Silver Strategies: Capitalizing on the Longevity Economy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:42:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "With 10,000 baby boomers turning 65 every day in the United States, investors and business leaders are recognizing the extraordinary potential of the longevity economy. From North America and Europe to Asia and Latin America, lower birth rates and longer life spans are changing the way we live. This massive demographic shift means new markets for innovative products and services. From health technologies and autonomous cars to financial services and fashion, the emerging population of older consumers will reward the inventive. What are the big ideas for business? Who will be the winners - and who will lose? This panel of thought leaders will reveal the possibilities for older adults - and for those savvy enough to appreciate the opportunity they represent.",
+    "format": "rich_text",
+    "processed": "With 10,000 baby boomers turning 65 every day in the United States, investors and business leaders are recognizing the extraordinary potential of the longevity economy. From North America and Europe to Asia and Latin America, lower birth rates and longer life spans are changing the way we live. This massive demographic shift means new markets for innovative products and services. From health technologies and autonomous cars to financial services and fashion, the emerging population of older consumers will reward the inventive. What are the big ideas for business? Who will be the winners - and who will lose? This panel of thought leaders will reveal the possibilities for older adults - and for those savvy enough to appreciate the opportunity they represent.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/smgLuHH9wZ4",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/IFiYln3rOWHocgHAWr1NFibhDPhnmGuXFB7keAY5Jus.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

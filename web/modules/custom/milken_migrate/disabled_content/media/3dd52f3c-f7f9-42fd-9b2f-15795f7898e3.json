@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10118\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8ybkqkjmsTw-tgbls0hjWxYmtgjofWIRoBLlF7n8Zf4.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10118
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3dd52f3c-f7f9-42fd-9b2f-15795f7898e3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1811
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8ybkqkjmsTw-tgbls0hjWxYmtgjofWIRoBLlF7n8Zf4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4603d0ed-0da0-42c4-8f3b-82bac53653e6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Price of Dementia: Innovative Strategies to Reduce Risk",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T15:40:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Today, one in three older adults dies with Alzheimer\u2019s or another dementia. It kills more people than do breast cancer and prostate cancer combined, yet only 16 percent of older adults receive regular cognitive assessments during routine checkups. The economic and emotional costs on families, caregivers, and society are staggering. During this session, a panel of experts will discuss the direct and indirect costs of dementia\u2014especially how it disproportionately impacts women and minorities. New research will be revealed regarding the importance of brain health to delay onset, improve overall health, lower costs, and increase clinical trial participation. The discussion will also focus on ways to improve rates of early detection and diagnosis, as well as how to reduce disparities based on gender, race, and income.",
+    "format": "rich_text",
+    "processed": "Today, one in three older adults dies with Alzheimer\u2019s or another dementia. It kills more people than do breast cancer and prostate cancer combined, yet only 16 percent of older adults receive regular cognitive assessments during routine checkups. The economic and emotional costs on families, caregivers, and society are staggering. During this session, a panel of experts will discuss the direct and indirect costs of dementia\u2014especially how it disproportionately impacts women and minorities. New research will be revealed regarding the importance of brain health to delay onset, improve overall health, lower costs, and increase clinical trial participation. The discussion will also focus on ways to improve rates of early detection and diagnosis, as well as how to reduce disparities based on gender, race, and income.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/NkS8YvFMlBM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/8ybkqkjmsTw-tgbls0hjWxYmtgjofWIRoBLlF7n8Zf4.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

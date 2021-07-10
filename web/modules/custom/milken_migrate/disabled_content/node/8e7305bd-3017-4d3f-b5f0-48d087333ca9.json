@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/growing-international-competition-threatens-us-leadership-biomedical-innovation-according?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 107
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8e7305bd-3017-4d3f-b5f0-48d087333ca9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 107
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Growing international competition threatens U.S. leadership in biomedical innovation, according to new Milken Institute report",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/growing-international-competition-threatens-us-leadership-biomedical-innovation-according",
+            "pid": 160,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>LOS ANGELES<\/b> - The United States is still the global leader in the biomedical industry, but countries across Europe and Asia are pursuing aggressive plans to close the gap and take the high-value jobs and capital this sector creates. To protect its leadership position, U.S. policymakers need to take a series of actions, according to a new report from the Milken Institute.The stakes are high: The biomedical sector directly and indirectly accounts for some 5 million U.S. jobs (including 1.2 million high-wage private-sector jobs in pharmaceuticals, biotech, medical devices, research and testing).\nMultiple factors leave the U.S. vulnerable to growing international competition: increasing complexity and uncertainty in the FDA\u2032s approval processes, especially as these relate to medical devices; government funding cuts; and federal tax policies that are not globally competitive.\nThe report, \"The Global Biomedical Industry: Preserving U.S. Leadership,\" released today, identifies specific policy changes that will support American innovation and speed the delivery of new drugs to the patients who need them.\n\"We're already seeing other countries gain a bigger share in this industry - it's critical to our future that we maintain leadership,\" said Ross DeVol, the Institute's chief research officer and the report's lead author. \"It took a sustained, thoughtful effort to build the environment that allowed innovation to flourish in the U.S., and it will take vigilance to retain it.\"\nEuropean and Asian nations are investing heavily in research as well as improving access to capital for biotech start-ups. They are also taking a page from the U.S. playbook as they standardize their regulatory regimes and offer better incentives for innovation.\n\"Other nations are copying or improving upon the formula that originally worked for the U.S. If one of them makes a major scientific breakthrough in, say, nanotechnology or personalized medicine, they are poised to capitalize on it through policies that favor the biomedical sector,\" emphasized Debra Lappin, president of the Council for American Medical Innovation. CAMI, which is co-chaired by Former House Majority Leader Dick Gephardt and Governor Mike Leavitt, is a partnership of leaders in research, medicine, patient advocacy, academia, education, labor and business dedicated to advancing medical innovation.\nBeyond the established biopharmaceutical leaders in Europe and Japan, China, India and Singapore are making impressive strides in building their capacity for research, clinical testing and manufacturing. The world's best scientific talent traditionally flocked to the U.S., but today these highly prized knowledge workers are finding new job opportunities at home.\nThe report urges U.S. policymakers to take decisive steps to retain its lead in biomedical innovation:<b> <strong>Increase R&D tax incentives and make them permanent. <\/b>R&D in the biomedical industry carries substantial risk of product failure and investment losses, but tax incentives can mitigate these risks. The U.S., which pioneered this policy, has now fallen behind most other developed nations in the generosity of its tax credit - and its program has been \"temporary\" for decades, creating uncertainty for investors.<b> <strong>Cut corporate tax rates to match the OECD average. <\/b>Talent and investment dollars are more mobile than ever before - and the U.S. now has the second-highest corporate tax rate among OECD nations. The report recommends cutting the federal corporate tax rate to match the OECD average.<b><br\/> <\/b> <b>Enhance support for emerging fields. <\/b>The federal government should invest in basic science and offer tax breaks to companies investing in translational research in fields such as nanotechnology, personalized medicine and regenerative medicine.<b> <strong>Provide adequate resources for the FDA and the NIH. <\/b>The FDA needs additional staff to better manage the review process and institute flexible approaches such as adaptive trials, while increased funding for the NIH would support clinical trials and translational research.<b> <br\/> <\/b> <b>Leverage existing strengths in medical devices. <\/b>The FDA must again be given a firm mandate to create an efficient system for medical device approvals. Its European counterpart approves many devices in half the time it takes the FDA.<b> <br\/> <\/b> <b>Build human capital. <\/b>STEM education must be a national priority to encourage U.S. students to become the scientists of tomorrow. Foreign researchers should be granted an expedited pathway to permanent residence status and then a green card in exchange for participation in biomedical R&D.<b> <strong>Promote and expand the role of universities. <\/b>The U.S. can step up to create a favorable environment for collaboration between r university scientists and officials and investors and experts from biomedical firms to promote best practices in technology transfer and commercialization. \"Our seven recommendations are critical to the continued growth, sustainability and preeminence of an industry that is crucial to the U.S. economy,\" noted DeVol.\n\"The Global Biomedical Industry: Preserving U.S. Leadership\" was funded in part by a grant from the Council for American Medical Innovation. The views expressed in the report are solely those of the Milken Institute.",
+    "format": "rich_text",
+    "processed": "<b>LOS ANGELES<\/b> - The United States is still the global leader in the biomedical industry, but countries across Europe and Asia are pursuing aggressive plans to close the gap and take the high-value jobs and capital this sector creates. To protect its leadership position, U.S. policymakers need to take a series of actions, according to a new report from the Milken Institute.The stakes are high: The biomedical sector directly and indirectly accounts for some 5 million U.S. jobs (including 1.2 million high-wage private-sector jobs in pharmaceuticals, biotech, medical devices, research and testing).\nMultiple factors leave the U.S. vulnerable to growing international competition: increasing complexity and uncertainty in the FDA\u2032s approval processes, especially as these relate to medical devices; government funding cuts; and federal tax policies that are not globally competitive.\nThe report, \"The Global Biomedical Industry: Preserving U.S. Leadership,\" released today, identifies specific policy changes that will support American innovation and speed the delivery of new drugs to the patients who need them.\n\"We're already seeing other countries gain a bigger share in this industry - it's critical to our future that we maintain leadership,\" said Ross DeVol, the Institute's chief research officer and the report's lead author. \"It took a sustained, thoughtful effort to build the environment that allowed innovation to flourish in the U.S., and it will take vigilance to retain it.\"\nEuropean and Asian nations are investing heavily in research as well as improving access to capital for biotech start-ups. They are also taking a page from the U.S. playbook as they standardize their regulatory regimes and offer better incentives for innovation.\n\"Other nations are copying or improving upon the formula that originally worked for the U.S. If one of them makes a major scientific breakthrough in, say, nanotechnology or personalized medicine, they are poised to capitalize on it through policies that favor the biomedical sector,\" emphasized Debra Lappin, president of the Council for American Medical Innovation. CAMI, which is co-chaired by Former House Majority Leader Dick Gephardt and Governor Mike Leavitt, is a partnership of leaders in research, medicine, patient advocacy, academia, education, labor and business dedicated to advancing medical innovation.\nBeyond the established biopharmaceutical leaders in Europe and Japan, China, India and Singapore are making impressive strides in building their capacity for research, clinical testing and manufacturing. The world's best scientific talent traditionally flocked to the U.S., but today these highly prized knowledge workers are finding new job opportunities at home.\nThe report urges U.S. policymakers to take decisive steps to retain its lead in biomedical innovation:<b> <strong>Increase R&amp;D tax incentives and make them permanent. <\/strong><\/b>R&amp;D in the biomedical industry carries substantial risk of product failure and investment losses, but tax incentives can mitigate these risks. The U.S., which pioneered this policy, has now fallen behind most other developed nations in the generosity of its tax credit - and its program has been \"temporary\" for decades, creating uncertainty for investors.<b> <strong>Cut corporate tax rates to match the OECD average. <\/strong><\/b>Talent and investment dollars are more mobile than ever before - and the U.S. now has the second-highest corporate tax rate among OECD nations. The report recommends cutting the federal corporate tax rate to match the OECD average.<b><br \/><\/b> <b>Enhance support for emerging fields. <\/b>The federal government should invest in basic science and offer tax breaks to companies investing in translational research in fields such as nanotechnology, personalized medicine and regenerative medicine.<b> <strong>Provide adequate resources for the FDA and the NIH. <\/strong><\/b>The FDA needs additional staff to better manage the review process and institute flexible approaches such as adaptive trials, while increased funding for the NIH would support clinical trials and translational research.<b> <br \/><\/b> <b>Leverage existing strengths in medical devices. <\/b>The FDA must again be given a firm mandate to create an efficient system for medical device approvals. Its European counterpart approves many devices in half the time it takes the FDA.<b> <br \/><\/b> <b>Build human capital. <\/b>STEM education must be a national priority to encourage U.S. students to become the scientists of tomorrow. Foreign researchers should be granted an expedited pathway to permanent residence status and then a green card in exchange for participation in biomedical R&amp;D.<b> <strong>Promote and expand the role of universities. <\/strong><\/b>The U.S. can step up to create a favorable environment for collaboration between r university scientists and officials and investors and experts from biomedical firms to promote best practices in technology transfer and commercialization. \"Our seven recommendations are critical to the continued growth, sustainability and preeminence of an industry that is crucial to the U.S. economy,\" noted DeVol.\n\"The Global Biomedical Industry: Preserving U.S. Leadership\" was funded in part by a grant from the Council for American Medical Innovation. The views expressed in the report are solely those of the Milken Institute.",
+    "summary": null,
+    "summary_processed": ""
+}

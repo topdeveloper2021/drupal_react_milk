@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7804\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/wmxpoEwEs7gLSmupfX0XVbSMOK4MqgQgo_timVgBO1s.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7804
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4fd3ef30-3352-4941-9648-faca8bed6df6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 472
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/wmxpoEwEs7gLSmupfX0XVbSMOK4MqgQgo_timVgBO1s.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bd940343-f628-4b8b-80e5-7e3cf515f79f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Digital Future: The Internet of Things",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-28T21:39:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Smart grid, smart phone.... smart toaster? In the near future, theorists say, virtually every kind of object and device will be digitized and Web-enabled. That's a simple synopsis of the ballyhooed Internet of Things. You'll not only command your appliances remotely, but they'll be striking up conversations among themselves. Eventually, trillions of objects will be networked, each one animated by information, and generating plenty of it as well. In the Internet of Things era, Big Data will get much, much bigger. Who will control this data, and how will it be used? Another risk: With everything online, the terrain of hacking expands. Who'll be privy to your medical alerts? Will your TV see what's happening on the sofa? From the user's point of view, will there be a technical standard or will you have to program your increasingly complex car, watch, lamps and massage chair in different ways? If IOT represents a true transformation, it may also present a whopping investment opportunity. And who will make it happen? Apple, Cisco, Google or trailblazers we haven't yet heard of?",
+    "format": "rich_text",
+    "processed": "Smart grid, smart phone.... smart toaster? In the near future, theorists say, virtually every kind of object and device will be digitized and Web-enabled. That's a simple synopsis of the ballyhooed Internet of Things. You'll not only command your appliances remotely, but they'll be striking up conversations among themselves. Eventually, trillions of objects will be networked, each one animated by information, and generating plenty of it as well. In the Internet of Things era, Big Data will get much, much bigger. Who will control this data, and how will it be used? Another risk: With everything online, the terrain of hacking expands. Who'll be privy to your medical alerts? Will your TV see what's happening on the sofa? From the user's point of view, will there be a technical standard or will you have to program your increasingly complex car, watch, lamps and massage chair in different ways? If IOT represents a true transformation, it may also present a whopping investment opportunity. And who will make it happen? Apple, Cisco, Google or trailblazers we haven't yet heard of?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/qWR32v5uaI8",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/wmxpoEwEs7gLSmupfX0XVbSMOK4MqgQgo_timVgBO1s.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

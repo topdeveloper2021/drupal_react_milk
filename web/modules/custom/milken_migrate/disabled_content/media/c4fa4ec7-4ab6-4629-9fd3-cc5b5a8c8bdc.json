@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7251\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/f7DGI4w96A2_SFl8gGQzv5PwXeIZWapNGlpm9IQ5yTY.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7251
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c4fa4ec7-4ab6-4629-9fd3-cc5b5a8c8bdc"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1681
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/f7DGI4w96A2_SFl8gGQzv5PwXeIZWapNGlpm9IQ5yTY.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "17ed5a2b-a62c-47a5-ae42-36288803c363"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Blockchain for Social Impact",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-03T14:50:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T20:13:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Blockchain has become a poster child for what we talk about when we talk about disruptive technology. It may soon change the nature of global commerce by creating a new platform for secure financial and legal transactions like land entitlements, supply chain and asset management and so-called \"smart contracts.\" By providing a decentralized, transparent and virtually hack-proof digital ledger, blockchains provide greater public accountability for and accessibility to public and private exchanges. Blockchain has already proven to be a platform for the explosion in cryptocurrencies and a market for ICOs \u2013 Initial Coin Offerings that raise money for unproven ventures and that remain unbeholden to regulatory scrutiny. How can California continue to foster responsible blockchain innovation, and where does will the market lead? Moderator Matthew Spence, Partner, Andreessen Horowitz; Former U.S. Deputy Assistant Secretary of Defense for Middle East Policy, Senior Advisor, California Center, Milken Institute Speakers Brian Forde, Senior Lecturer for Bitcoin and Blockchain, MIT Sloan School of Management; Former Senior Advisor for Mobile and Data Innovation, The White House Hugh Gordon, CTO, Akido Labs, Inc.; Director, USC Digital Health Lab Robert Hertzberg, California State Senator; Member, Think Long Committee for California Lily Liu, Chief Financial Officer, 21, Inc.",
+    "format": "rich_text",
+    "processed": "Blockchain has become a poster child for what we talk about when we talk about disruptive technology. It may soon change the nature of global commerce by creating a new platform for secure financial and legal transactions like land entitlements, supply chain and asset management and so-called \"smart contracts.\" By providing a decentralized, transparent and virtually hack-proof digital ledger, blockchains provide greater public accountability for and accessibility to public and private exchanges. Blockchain has already proven to be a platform for the explosion in cryptocurrencies and a market for ICOs \u2013 Initial Coin Offerings that raise money for unproven ventures and that remain unbeholden to regulatory scrutiny. How can California continue to foster responsible blockchain innovation, and where does will the market lead? Moderator Matthew Spence, Partner, Andreessen Horowitz; Former U.S. Deputy Assistant Secretary of Defense for Middle East Policy, Senior Advisor, California Center, Milken Institute Speakers Brian Forde, Senior Lecturer for Bitcoin and Blockchain, MIT Sloan School of Management; Former Senior Advisor for Mobile and Data Innovation, The White House Hugh Gordon, CTO, Akido Labs, Inc.; Director, USC Digital Health Lab Robert Hertzberg, California State Senator; Member, Think Long Committee for California Lily Liu, Chief Financial Officer, 21, Inc.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/Xd_pVCg-U2U",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/f7DGI4w96A2_SFl8gGQzv5PwXeIZWapNGlpm9IQ5yTY.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

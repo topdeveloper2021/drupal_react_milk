@@ -1,0 +1,40 @@
+uuid: dd919452-b52e-492e-bf23-f8285b15011d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.program_day.field_grid_event_id
+    - field.field.paragraph.program_day.field_program_date
+    - paragraphs.paragraphs_type.program_day
+  module:
+    - datetime
+id: paragraph.program_day.default
+targetEntityType: paragraph
+bundle: program_day
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_grid_event_id:
+    weight: -9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_program_date:
+    weight: -8
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden:
+  created: true
+  status: true

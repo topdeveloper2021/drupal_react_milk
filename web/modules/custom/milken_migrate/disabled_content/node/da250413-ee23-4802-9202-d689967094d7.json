@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/right-road-better-future-aging?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/165?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 793
+        }
+    ],
+    "uuid": [
+        {
+            "value": "da250413-ee23-4802-9202-d689967094d7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 793
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/165?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cbd78059-0942-4909-a5a3-b6f97f116edc"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Right Road For A Better Future Of Aging",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T00:15:19+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-16T16:35:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/right-road-better-future-aging",
+            "pid": 846,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "It's become common knowledge that populations are rapidly aging across the world. Increasing longevity during the last century has contributed to unprecedented global economic growth--and new opportunities for personal fulfillment that previous generations could only dream of. A result of advances in medicine, sanitation, and safety, the longevity dividend may, in fact, be the most extraordinary accomplishment in human history. Between 2000 and 2050, the number of people age 60 years and over is projected to increase from 605 million to 2 billion, according to the World Health Organization. Over the same period, the number of people age 80 years and older will have almost quadrupled to 395 million, and adults aged 65 and over will outnumber children under the age of 14. Country by country, the longevity phenomenon continues its progression. In the U.S., 10,000 people turn 65 each day. In 1910, the life expectancy for a Chilean female was 33 years; today, it is over 82. Japan has the highest life expectancy of any major country, and its population grows older and older. The market for adult diapers in Japan is now larger than the market for baby diapers. There is no more certain development before us than the continuing march of global aging. Facts don't lie, and the consequences are clear. For good or bad, the demographic shift will have massive long-term impacts on government budgets, living standards, individual health and well being, and economic and social stability. While longer lives mean new possibilities for individuals, families, and communities, increasing longevity also brings great challenges--from financial insecurity and disease to growing strains on social and financial safety nets and health-care systems. Can't we see that enlightened changes in policies, practices, and attitudes about aging will significantly elevate the breathtaking possibilities stemming from longer life, and that failure to adapt to the evolving landscape will dramatically magnify the risks and costs? Choices must be made, and the stakes could not be higher. Isn't it time to change course? Two very different roads lie ahead.<br \/> <br \/> The road we've traveled can lead to a future of economic malaise and crushing financial burdens at a system level, and decline, disease, disability, dependency, and loss of dignity at an individual level. A different road -the right road-can lead to a future of innovation, opportunity, intergenerational collaboration, and lifelong value. This road realizes the value of healthy aging for individuals and institutions. It recognizes the growing population of older adults as an abundant human capital resource, ready to be unleashed to improve businesses, communities, societies, and lives around the world. We can fail to respond, remain on our current course, and continue policies, practices, and norms that too often hinder older adults from living their lives in healthy, meaningful, productive, and purposeful ways. We can isolate our aging population, ignoring its potential to contribute to a growing economy and a better world. We can encourage retirement and withdrawal during a lengthening period of life in which so much important contribution is possible--and essential. Or we can shape a new future of aging that advances public health, creates age friendly homes and communities, enables and encourages lifelong learning, work, and entrepreneurship, and promotes purposeful engagement and volunteerism. We can speed the development of empowering technologies, social networks, and accessible transit systems, and build a vibrant longevity economy to increase access and opportunity for the current generation of older adults and for generations to come. We can harness the experience and wisdom of our aging population--calling on older adults to remain actively and valuably involved by contributing to the lives of younger people as educators, mentors, advisors, and coaches. If we do what's needed, and do it faster, we'll improve lives across the age spectrum. If we ignore or mismanage the challenges before us, the price will be extraordinary on both an individual and societal level. We have urgent choices to make and an opportunity to act, and we all have a stake in the outcome. Now is the time to change course and travel a different road -the right road for a better future of aging. <i>This article originally appeared in The Huffington Post on January 15th, 2016<\/i>",
+    "format": "rich_text",
+    "processed": "It's become common knowledge that populations are rapidly aging across the world. Increasing longevity during the last century has contributed to unprecedented global economic growth--and new opportunities for personal fulfillment that previous generations could only dream of. A result of advances in medicine, sanitation, and safety, the longevity dividend may, in fact, be the most extraordinary accomplishment in human history. Between 2000 and 2050, the number of people age 60 years and over is projected to increase from 605 million to 2 billion, according to the World Health Organization. Over the same period, the number of people age 80 years and older will have almost quadrupled to 395 million, and adults aged 65 and over will outnumber children under the age of 14. Country by country, the longevity phenomenon continues its progression. In the U.S., 10,000 people turn 65 each day. In 1910, the life expectancy for a Chilean female was 33 years; today, it is over 82. Japan has the highest life expectancy of any major country, and its population grows older and older. The market for adult diapers in Japan is now larger than the market for baby diapers. There is no more certain development before us than the continuing march of global aging. Facts don't lie, and the consequences are clear. For good or bad, the demographic shift will have massive long-term impacts on government budgets, living standards, individual health and well being, and economic and social stability. While longer lives mean new possibilities for individuals, families, and communities, increasing longevity also brings great challenges--from financial insecurity and disease to growing strains on social and financial safety nets and health-care systems. Can't we see that enlightened changes in policies, practices, and attitudes about aging will significantly elevate the breathtaking possibilities stemming from longer life, and that failure to adapt to the evolving landscape will dramatically magnify the risks and costs? Choices must be made, and the stakes could not be higher. Isn't it time to change course? Two very different roads lie ahead.<br \/><br \/> The road we've traveled can lead to a future of economic malaise and crushing financial burdens at a system level, and decline, disease, disability, dependency, and loss of dignity at an individual level. A different road -the right road-can lead to a future of innovation, opportunity, intergenerational collaboration, and lifelong value. This road realizes the value of healthy aging for individuals and institutions. It recognizes the growing population of older adults as an abundant human capital resource, ready to be unleashed to improve businesses, communities, societies, and lives around the world. We can fail to respond, remain on our current course, and continue policies, practices, and norms that too often hinder older adults from living their lives in healthy, meaningful, productive, and purposeful ways. We can isolate our aging population, ignoring its potential to contribute to a growing economy and a better world. We can encourage retirement and withdrawal during a lengthening period of life in which so much important contribution is possible--and essential. Or we can shape a new future of aging that advances public health, creates age friendly homes and communities, enables and encourages lifelong learning, work, and entrepreneurship, and promotes purposeful engagement and volunteerism. We can speed the development of empowering technologies, social networks, and accessible transit systems, and build a vibrant longevity economy to increase access and opportunity for the current generation of older adults and for generations to come. We can harness the experience and wisdom of our aging population--calling on older adults to remain actively and valuably involved by contributing to the lives of younger people as educators, mentors, advisors, and coaches. If we do what's needed, and do it faster, we'll improve lives across the age spectrum. If we ignore or mismanage the challenges before us, the price will be extraordinary on both an individual and societal level. We have urgent choices to make and an opportunity to act, and we all have a stake in the outcome. Now is the time to change course and travel a different road -the right road for a better future of aging. <i>This article originally appeared in The Huffington Post on January 15th, 2016<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

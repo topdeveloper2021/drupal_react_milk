@@ -1,0 +1,20 @@
+uuid: c6086e61-b4a4-4a59-a92c-3220eef2f751
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_join_panel_track.field_panel_track_id
+field_name: field_panel_track_id
+entity_type: grid_join_panel_track
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

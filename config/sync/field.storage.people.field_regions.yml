@@ -1,0 +1,20 @@
+uuid: 3c8e4384-d789-415e-9ac9-9b48e39d38a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - taxonomy
+id: people.field_regions
+field_name: field_regions
+entity_type: people
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

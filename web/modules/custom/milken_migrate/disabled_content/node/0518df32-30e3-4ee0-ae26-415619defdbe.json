@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-expands-london-appointment-james-morgon?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 40
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0518df32-30e3-4ee0-ae26-415619defdbe"
+        }
+    ],
+    "vid": [
+        {
+            "value": 40
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Expands in London with Appointment of James Morgon",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-10-20T08:32:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-expands-london-appointment-james-morgon",
+            "pid": 93,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2014 The Milken Institute today announced the appointment of James Morgon as managing director for Europe. In this new position, Morgon will be responsible for accelerating the Institute\u2019s growth in the UK and continental Europe, part of its expanding global presence.\u201cWe are delighted to welcome James Morgon to the Milken Institute team,\u201d says Katie O\u2019Reilly, executive director, business and program development. \u201cHis addition is a key part of our strategic expansion into Europe. As our relationships increasingly span the globe, it is critical that we have talent in local markets.\u201dIn recent years, the Milken Institute \u2013 known for its flagship Global Conference, held in Los Angeles each spring \u2013 has greatly expanded its international presence and profile. The Institute\u2019s Asia Center was established in Singapore in 2012.As a U.S.-based think tank, the Institute has worked for over twenty years on the application of market-based solutions to some of the world\u2019s most pressing social and economic challenges, including the development of innovative finance models for everything from global health funding, to food access and the delivery of humanitarian relief in developing countries to energy infrastructure. Since 2011, the Institute\u2019s London Summit has brought approximately 1,000 leaders from the region and the world to London each year; this year\u2019s London Summit took place on October 13 at the Grand Connaught Rooms at Covent Garden.\u201cThe Institute is committed to leveraging capital markets to further global prosperity and London is arguably the world\u2019s financial capital. A more formal presence in that market has been an interest of ours for some time\u201d says O\u2019Reilly. \u201cWith the addition of James Morgon, we look forward to advancing our mission into Europe\u201d.James Morgon has been a partner at GP10 Capital Partners in LLP, a director of Desna Capital Ltd, and an executive at Ladenberg Thalmann & Co.<b>About the Milken Institute<\/b><b> The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It conducts data-driven research, convenes action-oriented meetings and promotes meaningful policy initiatives.www.milkeninstitute.org <br>@milkeninstitute\u00a0<strong>Contact<\/b><br> Conrad Kiechel, Director of Communications<br> (310) 570-4668; ckiechel@milkeninstitute.org\u00a0# # #",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2014 The Milken Institute today announced the appointment of James Morgon as managing director for Europe. In this new position, Morgon will be responsible for accelerating the Institute\u2019s growth in the UK and continental Europe, part of its expanding global presence.\u201cWe are delighted to welcome James Morgon to the Milken Institute team,\u201d says Katie O\u2019Reilly, executive director, business and program development. \u201cHis addition is a key part of our strategic expansion into Europe. As our relationships increasingly span the globe, it is critical that we have talent in local markets.\u201dIn recent years, the Milken Institute \u2013 known for its flagship Global Conference, held in Los Angeles each spring \u2013 has greatly expanded its international presence and profile. The Institute\u2019s Asia Center was established in Singapore in 2012.As a U.S.-based think tank, the Institute has worked for over twenty years on the application of market-based solutions to some of the world\u2019s most pressing social and economic challenges, including the development of innovative finance models for everything from global health funding, to food access and the delivery of humanitarian relief in developing countries to energy infrastructure. Since 2011, the Institute\u2019s London Summit has brought approximately 1,000 leaders from the region and the world to London each year; this year\u2019s London Summit took place on October 13 at the Grand Connaught Rooms at Covent Garden.\u201cThe Institute is committed to leveraging capital markets to further global prosperity and London is arguably the world\u2019s financial capital. A more formal presence in that market has been an interest of ours for some time\u201d says O\u2019Reilly. \u201cWith the addition of James Morgon, we look forward to advancing our mission into Europe\u201d.James Morgon has been a partner at GP10 Capital Partners in LLP, a director of Desna Capital Ltd, and an executive at Ladenberg Thalmann &amp; Co.<b>About the Milken Institute<\/b><b> The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It conducts data-driven research, convenes action-oriented meetings and promotes meaningful policy initiatives.www.milkeninstitute.org <br \/>@milkeninstitute\u00a0<strong>Contact<\/strong><\/b><br \/> Conrad Kiechel, Director of Communications<br \/> (310) 570-4668; ckiechel@milkeninstitute.org\u00a0# # #",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/investing-longer-life-lived-well?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/22?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 481
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f0883b12-edb9-48b7-99e5-2fffd5d7a69a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 481
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/22?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "209a8b55-985f-49c6-9938-de04c841060f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Investing in a Longer Life, Lived Well",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T11:17:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/investing-longer-life-lived-well",
+            "pid": 534,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Consider the perfect storm brewing on the retirement planning horizon.\u00a0A recent Google consumer survey found that 33 percent of Americans have no retirement savings. Another 23 percent have saved less than $10,000.A TIME study showed that 77 percent of Americans want to live to 100, and more than a third believe they will live past 90.In the survey, however, only one-third of respondents said they are \u201chappy with their current body weight and their financial situation.\u201d Of those under age 65 who want to retire by age 65, just more than 40 percent concede they will not have the financial means to live to 100.These harrowing statistics comprise what may be the most significant challenge facing our society: a population that is living longer than ever while saving for retirement at record lows.\u00a0<b>Disrupting Retirement for the Next Generation<\/b>For too long we have measured life expectancy in number of years\u2014this is longevity. But longevity ignores two more important factors.One is health expectancy, the quality of our lives as we age. We all have a friend or loved one who may live to 95 but are in poor health, debilitated by disease, and barely ambulatory for the final decade of life.The other factor is wealth expectancy.We shudder at the thought of living long in poor health, but it may be even worse to live long without the means to live life well. Enhancing wealth expectancy is all about living a long life filled with passion, purpose, wisdom, and engagement and having the financial resources to fund it.Living longer does create pressure to save more to fund a longer life in a manner that aligns with our desired lifestyle. Unfortunately, based on the current trend, most Americans are ill-prepared to afford a long life, lived well.\u00a0To appreciate the importance of wealth expectancy, it requires us to discard traditional views of planning for retirement.\u00a0Instead of sailing into the sunset with our gold watch and easy chair, we now seek ways to rewire, not retire. To reboot, not retread.To embrace wellderly, not elderly. To turn recreation into re-creation. We want to relish the opportunity of doing something we\u2019ve always dreamed of doing, so we can wake up and feel good about each coming day.The resources we have to enhance health and wealth expectancy are better and more plentiful than ever. Medical technology, genetic testing, DNA sequencing, a variety of therapies (pharmaceuticals, diet, activity), and a workplace re-engagement between the 65+ crowd and business opportunities across a variety of sectors, are elevating the quality of life in the 80s, 90s, and beyond.\u00a0We can find purpose by lending our wisdom and expertise to startups and nonprofits, as well as established enterprises. After all, we are more active than ever; hiking, cycling, and exploring new places around the globe. And we can find our purpose, our reasons to get up in the morning and be there for people who are depending on us for the impact we continue to have.But the funding component is real. Retiring at 65 with 15 years of retirement assets coupled with a desire to live to 100 (and a belief you will make it until at least 90), creates a gap\u2014a wealth expectancy gap. After working so hard to save, not only do you not have the money to live the life you want in retirement, you may run out of money altogether. After working so hard to create the life you want for you and your family, there has to be a better way.<b>A Natural Place for Change: Lesson Learned from the Life Insurance Industry<\/b>While engaging in conversations about life insurance and annuities are not a priority for most, they do offer lessons as we rethink retirement and seek to enhance wealth expectancy.\u00a0Enhancing wealth expectancy requires an investment and the life insurance industry does offer products that protect against dying too soon (death benefits of life insurance) and living too long (income payouts of annuities).But there has to be more. With the foundation of these products, and the actuarial horsepower required to price a solution that will effectively enhance wealth expectancy, the life insurance industry has an opportunity to redefine what it means to retire.Through the M Center of Excellence at The American College of Financial Services, we are working to seize this opportunity by serving as a collaboration conduit between a multitude of sciences (medical, actuarial, mega-data, and behavioral), financial theory and design, and individual planning, to facilitate longer lives, lived well. Our focus is clear. To:Better articulate the importance of getting started now. It is never too soon to take steps to enhance health and wealth expectancy.Create a solution that offers protection, motivation to live healthier, and provides inflation-adjusted income that funds the life we want.\nCollaborate with the medical community to encourage consumers to be more active\u2014physically and mentally\u2014in ways that elevate value in the products we offer.\nDemonstrate the benefits of genetic sequencing offered by Human Longevity, Inc., Interpreta, DNA Genotek, and others to provide personalized insight that identifies potential issues and offer guidance on how to mitigate elevated risks.\nEngage the business community in ways that create paths for the 65+ crowd to re-engage in mutually beneficial ways. The partner from an accounting firm who had mandatory retirement at age 60 surely has much to offer. From mentoring younger employees to providing valuable perspective on key strategic initiatives, we must work to ensure that those who seek purpose and engagement have the opportunity to make meaningful contributions in other businesses.\nIt\u2019s not about how long we live. It\u2019s about how vibrantly we will live long. By supporting transformational products, services, and ideas to empower enhanced health and wealth expectancy, longer lives, lived well, will be the new retirement goal for all.<table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Consider the perfect storm brewing on the retirement planning horizon.\u00a0A recent Google consumer survey found that 33 percent of Americans have no retirement savings. Another 23 percent have saved less than $10,000.A TIME study showed that 77 percent of Americans want to live to 100, and more than a third believe they will live past 90.In the survey, however, only one-third of respondents said they are \u201chappy with their current body weight and their financial situation.\u201d Of those under age 65 who want to retire by age 65, just more than 40 percent concede they will not have the financial means to live to 100.These harrowing statistics comprise what may be the most significant challenge facing our society: a population that is living longer than ever while saving for retirement at record lows.\u00a0<b>Disrupting Retirement for the Next Generation<\/b>For too long we have measured life expectancy in number of years\u2014this is longevity. But longevity ignores two more important factors.One is health expectancy, the quality of our lives as we age. We all have a friend or loved one who may live to 95 but are in poor health, debilitated by disease, and barely ambulatory for the final decade of life.The other factor is wealth expectancy.We shudder at the thought of living long in poor health, but it may be even worse to live long without the means to live life well. Enhancing wealth expectancy is all about living a long life filled with passion, purpose, wisdom, and engagement and having the financial resources to fund it.Living longer does create pressure to save more to fund a longer life in a manner that aligns with our desired lifestyle. Unfortunately, based on the current trend, most Americans are ill-prepared to afford a long life, lived well.\u00a0To appreciate the importance of wealth expectancy, it requires us to discard traditional views of planning for retirement.\u00a0Instead of sailing into the sunset with our gold watch and easy chair, we now seek ways to rewire, not retire. To reboot, not retread.To embrace wellderly, not elderly. To turn recreation into re-creation. We want to relish the opportunity of doing something we\u2019ve always dreamed of doing, so we can wake up and feel good about each coming day.The resources we have to enhance health and wealth expectancy are better and more plentiful than ever. Medical technology, genetic testing, DNA sequencing, a variety of therapies (pharmaceuticals, diet, activity), and a workplace re-engagement between the 65+ crowd and business opportunities across a variety of sectors, are elevating the quality of life in the 80s, 90s, and beyond.\u00a0We can find purpose by lending our wisdom and expertise to startups and nonprofits, as well as established enterprises. After all, we are more active than ever; hiking, cycling, and exploring new places around the globe. And we can find our purpose, our reasons to get up in the morning and be there for people who are depending on us for the impact we continue to have.But the funding component is real. Retiring at 65 with 15 years of retirement assets coupled with a desire to live to 100 (and a belief you will make it until at least 90), creates a gap\u2014a wealth expectancy gap. After working so hard to save, not only do you not have the money to live the life you want in retirement, you may run out of money altogether. After working so hard to create the life you want for you and your family, there has to be a better way.<b>A Natural Place for Change: Lesson Learned from the Life Insurance Industry<\/b>While engaging in conversations about life insurance and annuities are not a priority for most, they do offer lessons as we rethink retirement and seek to enhance wealth expectancy.\u00a0Enhancing wealth expectancy requires an investment and the life insurance industry does offer products that protect against dying too soon (death benefits of life insurance) and living too long (income payouts of annuities).But there has to be more. With the foundation of these products, and the actuarial horsepower required to price a solution that will effectively enhance wealth expectancy, the life insurance industry has an opportunity to redefine what it means to retire.Through the M Center of Excellence at The American College of Financial Services, we are working to seize this opportunity by serving as a collaboration conduit between a multitude of sciences (medical, actuarial, mega-data, and behavioral), financial theory and design, and individual planning, to facilitate longer lives, lived well. Our focus is clear. To:Better articulate the importance of getting started now. It is never too soon to take steps to enhance health and wealth expectancy.Create a solution that offers protection, motivation to live healthier, and provides inflation-adjusted income that funds the life we want.\nCollaborate with the medical community to encourage consumers to be more active\u2014physically and mentally\u2014in ways that elevate value in the products we offer.\nDemonstrate the benefits of genetic sequencing offered by Human Longevity, Inc., Interpreta, DNA Genotek, and others to provide personalized insight that identifies potential issues and offer guidance on how to mitigate elevated risks.\nEngage the business community in ways that create paths for the 65+ crowd to re-engage in mutually beneficial ways. The partner from an accounting firm who had mandatory retirement at age 60 surely has much to offer. From mentoring younger employees to providing valuable perspective on key strategic initiatives, we must work to ensure that those who seek purpose and engagement have the opportunity to make meaningful contributions in other businesses.\nIt\u2019s not about how long we live. It\u2019s about how vibrantly we will live long. By supporting transformational products, services, and ideas to empower enhanced health and wealth expectancy, longer lives, lived well, will be the new retirement goal for all.<table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

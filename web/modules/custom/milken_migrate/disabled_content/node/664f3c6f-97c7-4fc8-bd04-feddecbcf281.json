@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-launches-inaugural-best-performing-cities-china-report?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 651
+        }
+    ],
+    "uuid": [
+        {
+            "value": "664f3c6f-97c7-4fc8-bd04-feddecbcf281"
+        }
+    ],
+    "vid": [
+        {
+            "value": 651
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Milken Institute Launches Inaugural Best-Performing Cities China Report",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-09-11T16:17:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:06:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-launches-inaugural-best-performing-cities-china-report",
+            "pid": 704,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "BEIJING \u2013 Which cities in China have the most dynamic economies and why? The Milken Institute\u2019s inaugural Best-Performing Cities China Report, unveiled today at a press briefing in the Sofitel Wanda Beijing Hotel, identifies the urban areas with the most exceptional economic performance in the country.The institute\u2019s research provides a data-based ranking of 266 Chinese cities at the prefecture level and above. The index rankings are divided into two categories: the largest-cities group includes 34 first- and second-tier cities; the small and medium-sized group includes 232 third-tier cities. The two groups are separately ranked based on actual economic performance, rather than projected success.The Best-Performing Cities China index has nine components, taking into account both short term (one year) and middle term (five years) measurements. To better measure future growth, the index weighs jobs and income growth, gross regional product (GRP), foreign direct investment (FDI), and the strength of high value-added industries in each city. This approach yields a more detailed assessment and sheds light on the factors behind the cities\u2019 growth.Chengdu surpasses Shanghai, Beijing and Shenzhen to be the strong No. 1 among first- and second-tier cities with its outstanding and unrivalled performance: the capital of Sichuan Province secured Top 10 positions in seven of the index\u2019s nine components. Advantages such as human capital, central government support, established industries in high-end aerospace and aircraft design and a more recently developed electronics manufacturing sector are driving Chengdu\u2019s recent success in economic growth. Except for Chongqing, most of the top ten first- and second-tier cities in economic performance are part of the urban clusters of the Yangtze River Delta, the Pearl River Delta, and the Jing-Jin-Tang. The Institute concludes that the future will largely depend on the development of urban clusters and small and medium-sized cities. As a result, inland China still possesses great potential for growth.As for the ranking of third-tier cities, Jiangsu Province surpasses Zhejiang and Guangdong provinces to dominate in the Top 10, with Suzhou at No. 1. Seven of the Top 10 best-performing third-tier cities are in this coastal province and all are part of the Yangtze River Delta economic zone. They have all benefited from Shanghai\u2019s proximity, as well as an influx of talent and technologies. The remaining three cities in the Top 10 third-tier cities (Qingyang, Ji\u2019an, and Yichang) are inland but serve as transition points between west and coastal China. The majority of the Top 10 cities in this group fared well in the index components for recent job and wage growth. This indicates that their lower business costs, larger market potential and strategic locations together explain their recent economic success.\u201cOur data-driven analysis reveals that Chinese cities with the most dynamic economics share some important factors,\u201d says Perry Wong, Managing Director, Research at the Milken Institute and co-author of the report. \u201cAmong them are diversified industries, a focus on high-tech, improved transportation networks, continued efforts to develop infrastructure and the talent pool, and the ability to attract foreign investment.\u201dThis year marks the first time the Milken Institute has launched its Best-Performing Cities series with a report focused on China. The Milken Institute has long recognized cities and urban regions as an engine of growth for national economies. In 1999, the Institute launched one of its most recognized publications, the annual Best-Performing Cities ranking in the United States, providing an objective measurement of regional economic performance in the U.S. With the establishment of the Singapore-based Milken Institute Asia Center, and supplemented by the China Report, the Institute firmly believes that Asia and China will contribute an ever-larger portion of growth in global prosperity in the 21st century.\u201cChina will contribute an ever-larger portion of growth in global prosperity for the rest of the century,\u201d says Wong. \u201cThe recent slowdown of China\u2019s economy indicates that a new approach for economic development \u2013 one centered on technology, private investment, and consumption \u2013 should take a leading role in the future. By benchmarking the performance of Chinese cities and regions, the Milken Institute hopes to highlight China\u2019s growth opportunities.\u201dThe inaugural China Report provides fresh insights into Chinese cities\u2019 economic dynamics and their performance. Although east coast cities still dominate the best performance rankings, with government support and further urbanization development prospects, Chinese inland cities possess great potential for growth as well.\u201cWe plan to update Best-Performing Cities China each year,\u201d says Wong. \u201cJust as the Milken Institute\u2019s annual analysis of the economic performance of U.S. cities has helped inform regional development for nearly 20 years, we expect Best-Performing Cities China to find a unique and valued informational role in China and beyond.\u201dTo download the full report, including an interactive table of all 266 cities, go to www.best-cities-china.orgThe Rankings<table><tr><td>Rank\n<\/td>\n<td>\nFirst- and Second-tier cities\n<\/td>\n<td>\nRank\n<\/td>\n<td>\nThird-tier cities\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nChengdu, Sichuan (\u56db\u5ddd\u7701\uff0c\u6210\u90fd\u5e02)\n<\/td>\n<td>\n1\n<\/td>\n<td>\nSuzhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u82cf\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nShanghai (\u4e0a\u6d77\u5e02)\n<\/td>\n<td>\n2\n<\/td>\n<td>\nNantong, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5357\u901a\u5e02)\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nTianjin (\u5929\u6d25\u5e02)\n<\/td>\n<td>\n3\n<\/td>\n<td>\nYangzhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u626c\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nDalian, Liaoning (\u8fbd\u5b81\u7701\uff0c\u5927\u8fde\u5e02)\n<\/td>\n<td>\n4\n<\/td>\n<td>\nSuqian, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5bbf\u8fc1\u5e02)\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nNanjing, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5357\u4eac\u5e02)\n<\/td>\n<td>\n5\n<\/td>\n<td>\nTaizhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u6cf0\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nHefei, Anhui (\u5b89\u5fbd\u7701\uff0c\u5408\u80a5\u5e02)\n<\/td>\n<td>\n6\n<\/td>\n<td>\nQingyang, Gansu (\u7518\u8083\u7701\uff0c\u5e86\u9633\u5e02)\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nXiamen, Fujian (\u798f\u5efa\u7701\uff0c\u53a6\u95e8\u5e02)\n<\/td>\n<td>\n7\n<\/td>\n<td>\nChangzhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5e38\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nChangchun, Jilin (\u5409\u6797\u7701\uff0c\u957f\u6625\u5e02)\n<\/td>\n<td>\n8\n<\/td>\n<td>\nWuxi, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u65e0\u9521\u5e02)\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nChongqing (\u91cd\u5e86\u5e02)\n<\/td>\n<td>\n9\n<\/td>\n<td>\nJi\u2019an, Jiangxi (\u6c5f\u897f\u7701\uff0c\u5409\u5b89\u5e02)\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nShenzhen, Guangdong (\u5e7f\u4e1c\u7701\uff0c\u6df1\u5733\u5e02)\n<\/td>\n<td>\n10\n<\/td>\n<td>\nYichang, Hubei (\u6e56\u5317\u7701\uff0c\u5b9c\u660c\u5e02)\n<\/td>\n<\/tr><\/table>Components of the Index<table><tr><td>\nComponent\n<\/td>\n<td>\nWeight\n<\/td>\n<\/tr><tr><td>\n1-year job growth (2012-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n5-year job growth (2008-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n1-year wage growth (2012-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n5-year wage growth (2008-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n1-year GRP per-capita growth (2012-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n5-year GRP per-capita growth (2008-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n3-year FDI growth (2010-2013)\n<\/td>\n<td>\n0.125\n<\/td>\n<\/tr><tr><td>\nFDI\/GRP (2013)\n<\/td>\n<td>\n0.125\n<\/td>\n<\/tr><tr><td>\nLQ for high value-added industry employment (2013)\n<\/td>\n<td>\n0.150\n<\/td>\n<\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "BEIJING \u2013 Which cities in China have the most dynamic economies and why? The Milken Institute\u2019s inaugural Best-Performing Cities China Report, unveiled today at a press briefing in the Sofitel Wanda Beijing Hotel, identifies the urban areas with the most exceptional economic performance in the country.The institute\u2019s research provides a data-based ranking of 266 Chinese cities at the prefecture level and above. The index rankings are divided into two categories: the largest-cities group includes 34 first- and second-tier cities; the small and medium-sized group includes 232 third-tier cities. The two groups are separately ranked based on actual economic performance, rather than projected success.The Best-Performing Cities China index has nine components, taking into account both short term (one year) and middle term (five years) measurements. To better measure future growth, the index weighs jobs and income growth, gross regional product (GRP), foreign direct investment (FDI), and the strength of high value-added industries in each city. This approach yields a more detailed assessment and sheds light on the factors behind the cities\u2019 growth.Chengdu surpasses Shanghai, Beijing and Shenzhen to be the strong No. 1 among first- and second-tier cities with its outstanding and unrivalled performance: the capital of Sichuan Province secured Top 10 positions in seven of the index\u2019s nine components. Advantages such as human capital, central government support, established industries in high-end aerospace and aircraft design and a more recently developed electronics manufacturing sector are driving Chengdu\u2019s recent success in economic growth. Except for Chongqing, most of the top ten first- and second-tier cities in economic performance are part of the urban clusters of the Yangtze River Delta, the Pearl River Delta, and the Jing-Jin-Tang. The Institute concludes that the future will largely depend on the development of urban clusters and small and medium-sized cities. As a result, inland China still possesses great potential for growth.As for the ranking of third-tier cities, Jiangsu Province surpasses Zhejiang and Guangdong provinces to dominate in the Top 10, with Suzhou at No. 1. Seven of the Top 10 best-performing third-tier cities are in this coastal province and all are part of the Yangtze River Delta economic zone. They have all benefited from Shanghai\u2019s proximity, as well as an influx of talent and technologies. The remaining three cities in the Top 10 third-tier cities (Qingyang, Ji\u2019an, and Yichang) are inland but serve as transition points between west and coastal China. The majority of the Top 10 cities in this group fared well in the index components for recent job and wage growth. This indicates that their lower business costs, larger market potential and strategic locations together explain their recent economic success.\u201cOur data-driven analysis reveals that Chinese cities with the most dynamic economics share some important factors,\u201d says Perry Wong, Managing Director, Research at the Milken Institute and co-author of the report. \u201cAmong them are diversified industries, a focus on high-tech, improved transportation networks, continued efforts to develop infrastructure and the talent pool, and the ability to attract foreign investment.\u201dThis year marks the first time the Milken Institute has launched its Best-Performing Cities series with a report focused on China. The Milken Institute has long recognized cities and urban regions as an engine of growth for national economies. In 1999, the Institute launched one of its most recognized publications, the annual Best-Performing Cities ranking in the United States, providing an objective measurement of regional economic performance in the U.S. With the establishment of the Singapore-based Milken Institute Asia Center, and supplemented by the China Report, the Institute firmly believes that Asia and China will contribute an ever-larger portion of growth in global prosperity in the 21st century.\u201cChina will contribute an ever-larger portion of growth in global prosperity for the rest of the century,\u201d says Wong. \u201cThe recent slowdown of China\u2019s economy indicates that a new approach for economic development \u2013 one centered on technology, private investment, and consumption \u2013 should take a leading role in the future. By benchmarking the performance of Chinese cities and regions, the Milken Institute hopes to highlight China\u2019s growth opportunities.\u201dThe inaugural China Report provides fresh insights into Chinese cities\u2019 economic dynamics and their performance. Although east coast cities still dominate the best performance rankings, with government support and further urbanization development prospects, Chinese inland cities possess great potential for growth as well.\u201cWe plan to update Best-Performing Cities China each year,\u201d says Wong. \u201cJust as the Milken Institute\u2019s annual analysis of the economic performance of U.S. cities has helped inform regional development for nearly 20 years, we expect Best-Performing Cities China to find a unique and valued informational role in China and beyond.\u201dTo download the full report, including an interactive table of all 266 cities, go to www.best-cities-china.orgThe Rankings<table><tr><td>Rank\n<\/td>\n<td>\nFirst- and Second-tier cities\n<\/td>\n<td>\nRank\n<\/td>\n<td>\nThird-tier cities\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nChengdu, Sichuan (\u56db\u5ddd\u7701\uff0c\u6210\u90fd\u5e02)\n<\/td>\n<td>\n1\n<\/td>\n<td>\nSuzhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u82cf\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nShanghai (\u4e0a\u6d77\u5e02)\n<\/td>\n<td>\n2\n<\/td>\n<td>\nNantong, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5357\u901a\u5e02)\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nTianjin (\u5929\u6d25\u5e02)\n<\/td>\n<td>\n3\n<\/td>\n<td>\nYangzhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u626c\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nDalian, Liaoning (\u8fbd\u5b81\u7701\uff0c\u5927\u8fde\u5e02)\n<\/td>\n<td>\n4\n<\/td>\n<td>\nSuqian, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5bbf\u8fc1\u5e02)\n<\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nNanjing, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5357\u4eac\u5e02)\n<\/td>\n<td>\n5\n<\/td>\n<td>\nTaizhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u6cf0\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nHefei, Anhui (\u5b89\u5fbd\u7701\uff0c\u5408\u80a5\u5e02)\n<\/td>\n<td>\n6\n<\/td>\n<td>\nQingyang, Gansu (\u7518\u8083\u7701\uff0c\u5e86\u9633\u5e02)\n<\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nXiamen, Fujian (\u798f\u5efa\u7701\uff0c\u53a6\u95e8\u5e02)\n<\/td>\n<td>\n7\n<\/td>\n<td>\nChangzhou, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u5e38\u5dde\u5e02)\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nChangchun, Jilin (\u5409\u6797\u7701\uff0c\u957f\u6625\u5e02)\n<\/td>\n<td>\n8\n<\/td>\n<td>\nWuxi, Jiangsu (\u6c5f\u82cf\u7701\uff0c\u65e0\u9521\u5e02)\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nChongqing (\u91cd\u5e86\u5e02)\n<\/td>\n<td>\n9\n<\/td>\n<td>\nJi\u2019an, Jiangxi (\u6c5f\u897f\u7701\uff0c\u5409\u5b89\u5e02)\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nShenzhen, Guangdong (\u5e7f\u4e1c\u7701\uff0c\u6df1\u5733\u5e02)\n<\/td>\n<td>\n10\n<\/td>\n<td>\nYichang, Hubei (\u6e56\u5317\u7701\uff0c\u5b9c\u660c\u5e02)\n<\/td>\n<\/tr><\/table>Components of the Index<table><tr><td>\nComponent\n<\/td>\n<td>\nWeight\n<\/td>\n<\/tr><tr><td>\n1-year job growth (2012-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n5-year job growth (2008-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n1-year wage growth (2012-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n5-year wage growth (2008-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n1-year GRP per-capita growth (2012-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n5-year GRP per-capita growth (2008-2013)\n<\/td>\n<td>\n0.100\n<\/td>\n<\/tr><tr><td>\n3-year FDI growth (2010-2013)\n<\/td>\n<td>\n0.125\n<\/td>\n<\/tr><tr><td>\nFDI\/GRP (2013)\n<\/td>\n<td>\n0.125\n<\/td>\n<\/tr><tr><td>\nLQ for high value-added industry employment (2013)\n<\/td>\n<td>\n0.150\n<\/td>\n<\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

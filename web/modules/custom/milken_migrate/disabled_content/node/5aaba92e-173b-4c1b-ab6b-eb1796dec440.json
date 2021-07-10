@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/real-secret-successful-aging-women?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/56?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 521
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5aaba92e-173b-4c1b-ab6b-eb1796dec440"
+        }
+    ],
+    "vid": [
+        {
+            "value": 521
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/56?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7e01b233-3d60-477d-8a65-962d71510bc7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Real Secret to Successful Aging for Women",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T12:48:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T22:44:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/real-secret-successful-aging-women",
+            "pid": 574,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "W hen we talk to women about aging, the conversation typically focuses on secrets for looking younger or aging gracefully.\u00a0Sustained by popular culture and a $532 billion global cosmetics industry, unrealistic perceptions of age, beauty, and the worth of women undermine the more serious conversation women should have about aging. Far more important than face creams and serums are government and employer policies that enable women to age with confidence. Among the biggest challenges confronting women in the Asia-Pacific region is that they face a lifetime of earning less than men. This lower pay, coupled with greater longevity \u2013 74 years on average for Asian women versus 71 for men \u2013 handicaps women\u2019s ability to prepare for financial security as they age. At the Milken Institute, we have been studying the state of aging and its impact across Asia and have found that the decline in multigenerational households across the region, which provided a degree of security for older family members has contributed to the challenge. But the bigger problem is how society values the contribution of women in the workplace. Here are just a few examples of how this affects the ability of women to prepare adequately for the retirement. Women in Asia are paid 15 percent less than men on average. The consequences of lower pay are amplified by retirement policies that remove women from the workplace at earlier ages. For example, in Vietnam and China, men retire at 60 but women must leave their jobs at 55. Limited opportunities for advancement also reduce women\u2019s lifetime earnings. Men hold 80 percent of top positions in the workplace, as well as the majority of lower-level management positions. Because of these barriers, female labor-force participation in Asia drops sharply at the age of 60. An important first step to equalizing pay and retirement age will require that policymakers and corporate leaders work together to overcome the cultural views of age and gender that enable workplace discrimination. They will need to challenge outdated social and economic paradigms created in an era when workforces in Asian countries were younger and predominantly male. They will need to reconsider policies such as mandatory retirement which were made in an era of declining birth rates and shrinking labour pools. And they will need to embrace the concept that older people \u2013 men and women alike \u2013should be encouraged to work as long as they have the desire and the ability. Several Asian countries are working to address the problems created by age and gender disparities. Singapore provides legal recourse to workers who feel they have been dismissed unfairly and for rehiring workers 65 and older, employers receive as much as 3 percent subsidies of the salaries of workers earning up to SGD$4,000 a month. Japan raised its mandatory retirement age to 65 and requires companies to report how many women are hired and promoted, as well as remedy any inequities that are found. Not only should governments and employers across Asia emulate these regional examples, they also should consider what is being done in other parts of the world. Iceland requires companies to undergo independent audits of pay equity, and fines those that fail. In the private sector, US-based software maker Salesforce conducts its own audits and voluntarily has spent $2.7 million this year to address pay disparities revealed by an internal audit. And across the world, the beauty industry has recognized that women are seeking opportunities to work well into their sixties. Last year, Covergirl \u2013 one of the world\u2019s most valuable cosmetics brands - tapped Maye Musk, a 69 year old model, to be its newest brand ambassador. Although the battle is far from over, we are making some progress toward reducing age and gender disparities from the workplace. Much more is yet to be done to tackle the long-term consequences that these disparities have wrought upon the financial well-being of older Asian women. Acknowledging the problem \u2013 and taking the steps necessary to eliminate it \u2013 are long overdue. <i>This article originally appeared in The Straits Times on September 14, 2018.<\/i>",
+    "format": "rich_text",
+    "processed": "W hen we talk to women about aging, the conversation typically focuses on secrets for looking younger or aging gracefully.\u00a0Sustained by popular culture and a $532 billion global cosmetics industry, unrealistic perceptions of age, beauty, and the worth of women undermine the more serious conversation women should have about aging. Far more important than face creams and serums are government and employer policies that enable women to age with confidence. Among the biggest challenges confronting women in the Asia-Pacific region is that they face a lifetime of earning less than men. This lower pay, coupled with greater longevity \u2013 74 years on average for Asian women versus 71 for men \u2013 handicaps women\u2019s ability to prepare for financial security as they age. At the Milken Institute, we have been studying the state of aging and its impact across Asia and have found that the decline in multigenerational households across the region, which provided a degree of security for older family members has contributed to the challenge. But the bigger problem is how society values the contribution of women in the workplace. Here are just a few examples of how this affects the ability of women to prepare adequately for the retirement. Women in Asia are paid 15 percent less than men on average. The consequences of lower pay are amplified by retirement policies that remove women from the workplace at earlier ages. For example, in Vietnam and China, men retire at 60 but women must leave their jobs at 55. Limited opportunities for advancement also reduce women\u2019s lifetime earnings. Men hold 80 percent of top positions in the workplace, as well as the majority of lower-level management positions. Because of these barriers, female labor-force participation in Asia drops sharply at the age of 60. An important first step to equalizing pay and retirement age will require that policymakers and corporate leaders work together to overcome the cultural views of age and gender that enable workplace discrimination. They will need to challenge outdated social and economic paradigms created in an era when workforces in Asian countries were younger and predominantly male. They will need to reconsider policies such as mandatory retirement which were made in an era of declining birth rates and shrinking labour pools. And they will need to embrace the concept that older people \u2013 men and women alike \u2013should be encouraged to work as long as they have the desire and the ability. Several Asian countries are working to address the problems created by age and gender disparities. Singapore provides legal recourse to workers who feel they have been dismissed unfairly and for rehiring workers 65 and older, employers receive as much as 3 percent subsidies of the salaries of workers earning up to SGD$4,000 a month. Japan raised its mandatory retirement age to 65 and requires companies to report how many women are hired and promoted, as well as remedy any inequities that are found. Not only should governments and employers across Asia emulate these regional examples, they also should consider what is being done in other parts of the world. Iceland requires companies to undergo independent audits of pay equity, and fines those that fail. In the private sector, US-based software maker Salesforce conducts its own audits and voluntarily has spent $2.7 million this year to address pay disparities revealed by an internal audit. And across the world, the beauty industry has recognized that women are seeking opportunities to work well into their sixties. Last year, Covergirl \u2013 one of the world\u2019s most valuable cosmetics brands - tapped Maye Musk, a 69 year old model, to be its newest brand ambassador. Although the battle is far from over, we are making some progress toward reducing age and gender disparities from the workplace. Much more is yet to be done to tackle the long-term consequences that these disparities have wrought upon the financial well-being of older Asian women. Acknowledging the problem \u2013 and taking the steps necessary to eliminate it \u2013 are long overdue. <i>This article originally appeared in The Straits Times on September 14, 2018.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

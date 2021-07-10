@@ -1,0 +1,45 @@
+uuid: 9f892c1e-deea-4d52-8395-5d1db2064432
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-5
+label: Conferences
+variant: block_display
+variant_settings:
+  blocks:
+    fb2e2525-b249-46a7-ab2e-8fdf3f1c9ab8:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: fb2e2525-b249-46a7-ab2e-8fdf3f1c9ab8
+      form_configuration:
+        id: events_browser
+        type: event--conference
+        view_mode: card
+        url: /jsonapi/event/conference
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: aa323d85-4ff5-4272-aa50-ec1519dcc83e
+  label: null
+  weight: 0
+  page_title: 'Explore Conferences'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: "/explore/conference\r\n/explore/conferences"
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

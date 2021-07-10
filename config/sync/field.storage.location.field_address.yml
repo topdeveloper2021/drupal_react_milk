@@ -1,0 +1,19 @@
+uuid: e5d5fd08-b27e-4cc1-97b8-e35cfbea15b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - address
+    - eck
+id: location.field_address
+field_name: field_address
+entity_type: location
+type: address
+settings: {  }
+module: address
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

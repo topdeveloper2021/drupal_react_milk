@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/chengdu-tops-list-best-performing-cities-china?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 648
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2963dabe-e619-4ef3-8a44-f641adea68b5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 648
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Chengdu Tops List of Best Performing Cities in China",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-09-10T22:34:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:06:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/chengdu-tops-list-best-performing-cities-china",
+            "pid": 701,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "\u00a0Milken Institute analysis demonstrates impact of policymaking on jobs, wages, gross regional product and other measures in China\u2019s citiesBEIJING, September 11, 2017 \u2013 Chengdu, the booming capital of Sichuan province in Western China, is that country\u2019s best-performing city, according to the Milken Institute.Chengdu\u2019s development of diverse and high value-added industries, encouragement of innovation and entrepreneurship, abundant talent pool, and lower land and labor costs, places it first among the larger cities in the Milken Institute\u2019s annual report of the Best Performing Cities in China, which was released on Monday, September 11 at the Yale Center in Beijing. Chongqing and Guiyang followed in second and third place, respectively.\u00a0The Rankings<table><tr><td> <\/td>\n<td>\n<b>First- and Second-Tier Cities<\/b>\n<\/td>\n<td> <\/td>\n<td> <\/td>\n<td>\n<b>Third-Tier\u00a0Cities\u00a0<\/b>\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nChengdu, Sichuan <\/td>\n<td> <\/td>\n<td>\n1\n<\/td>\n<td>\nNantong, Jiangsu <\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nChongqing\n<\/td>\n<td> <\/td>\n<td>\n2\n<\/td>\n<td>\nBengbu, Anhui\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nGuiyang, Guizhou\n<\/td>\n<td> <\/td>\n<td>\n3\n<\/td>\n<td>\nFoshan, Guangdong\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nShenzhen, Guangdong <\/td>\n<td> <\/td>\n<td>\n4\n<\/td>\n<td>\nJi\u2019an, Jiangxi <\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nNanjing, Jiangsu\n<\/td>\n<td> <\/td>\n<td>\n5\n<\/td>\n<td>\nZunyi, Guizhou\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nShanghai\n<\/td>\n<td> <\/td>\n<td>\n6\n<\/td>\n<td>\nTaizhou, Jiangsu <\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nZhengzhou, Henan\n<\/td>\n<td> <\/td>\n<td>\n7\n<\/td>\n<td>\nLuche, Henan\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nKunming, Yunnan\n<\/td>\n<td> <\/td>\n<td>\n8\n<\/td>\n<td>\nYangzhou, Jiangsu\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nNanchang, Jiangxi\n<\/td>\n<td> <\/td>\n<td>\n9\n<\/td>\n<td>\nYichang, Hubei\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nQingdao, Shandong <\/td>\n<td> <\/td>\n<td>\n10\n<\/td>\n<td>\nSuzhou, Jiangsu <\/td>\n<\/tr><\/table>\u201cThe Best Performing Cities China Index provides new evidence of the economic dynamism and strong performance of Chinese cities,\u201d explains Perry Wong, Managing Director of Research at the Milken Institute and co-author of the report. \u201cThe Belt and Road initiative, together with the creation of regional economic clusters, demonstrate the central government\u2019s determination to improve the growth prospects of Chinese inland cities as well as enhance the performance of the country\u2019s large east coast urban areas.\u201dChengdu rose from fifth place in 2016 to number one among \u2018first- and second-tier cities\u2019 with its outstanding performance in the growth of jobs, wages, gross regional product (GRP), and foreign direct investment (FDI), mainly driven by government support, particularly related to with its One Belt, One Road (OBOR) initiative and an intensified effort to fill development gaps among East \u2013 West regions.\u00a0In the large city group, Chengdu was followed by Chongqing. Both cities have diverse and high value-added industries, a high-quality talent pool, and lower business costs compared with other metropolitan areas such as Beijing, Shanghai and Shenzhen. In addition, these two cities are the twin anchors for China\u2019s \u201cGreat Western Development\u201d strategy, launched in the early 2000s.\u201cOur data-driven analysis reveals that the top ranked cities are responding robustly to the central government\u2019s directives, which has led to overall economic improvement and development in China,\u201d says Mr. Wong. \u201cWith some of the economic challenges currently faced by China as well as other countries around the region, this analysis of the drivers of growth becomes all the more important.\u201d\u00a0The Best-Performing Cities China Index offers a comparative snapshot of the economic performance of 260 Chinese cities in two categories. The largest-cities group includes 34 \u2018first- and second-tier cities;\u2019 the small and medium-sized group includes 226 \u2018third-tier cities.\u2019 To provide insights into urban economic and development trends in China, the index takes nine factors into account: one-year (2014-2015) and five-year (2010-2015) job growth, one- and five-year wage growth, one- and five-year gross regional product (GRP) per capita growth, three-year (2012-2015) foreign FDI growth, share of FDI and GRP (2015), and the location quotient (LQ) for high value-added industry (2015).Two other cities \u2013 Kunming and Xi\u2019an \u2013 in the Diamond Economic Zone, are ranked No. 8 and No. 11, respectively. This signals the growing economic power of this regional cluster, according to the data. Shenzhen remains in fourth place for the second year in a row, followed by Nanjing, Shanghai, Zhengzhou, Kunming, Nanchang and Qingdao.\u00a0In the category of \u2018third-tier cities,\u2019 Nantong vaults from No. 9 to No.1, thanks to the fastest five-year job and wage growth in its category. Bengbu, in Anhui province, earned second place on the strength of one-year wage growth, five-year GRP per capital growth, and its FDI\/GRP ratio. Foshan, an important manufacturing hub in Guangdong, claimed the third place, followed by Ji\u2019an, Zunyi, Taizhou, Luche, Yangzhou, Yichang on the Yangtze River, and Suzhou in the top-10.\u00a0This year\u2019s index reflects the impact of China\u2019s creation of regional economic clusters. For example, Chengdu, Chongqing and Guiyang are on China\u2019s Belt and Road pathway. Foshan is part of the Pearl River Delta Economic Zone, also known as the \u201cBay Area,\u201d as well as part of the Yue-Gui-Qian High Speed Rail Economic Belt. This regional cluster consists of three provinces \u2013 Guangdong (Yue), Guangxi (Gui) and Guizhou (Qian).\u00a0Cities from China\u2019s Northeast, except Dalian, continue to display lackluster representation in the ranking, which shows China\u2019s difficulty in restructuring an older industrial base that relies on energy, steel production and less diversified heavy industries, according to the authors.To download the full report, including an interactive table of all 260 cities, please visit<b> best-citieschina.org<\/b>.About the Best Performing Cities China IndexThe Milken Institute\u2019s Best-Performing Cities (BPC) China Index analyzes the latest and most comprehensive official data, found in the China City Statistical Yearbook to track the recent economic performance of Chinese cities. The main purpose of this series is to offer a tool to policymakers to monitor and evaluate the economic dynamics of cities in China and improve their performance. In addition, this work provides businesses with insight into economic trends to explore potential investment opportunities in China.ContactFor media inquiries, please contact:<b><br><strong>Hamilton Advisors Limited<\/b><b><strong>Robert T. Grieves<\/b><b>Tel: +852 2488 8866<br>Dir: +852 2487 8070<br>Email:\u00a0rgrieves@hamiltonadvisorsltd.com<br><br><strong>Milken Institute<\/b><b><strong>Ann Marie Eu<\/b><br>Communications Associate, Asia\u00a0<br>Phone: +65 9879 8125<br>Email:\u00a0aeu@milkeninstitute.org",
+    "format": "rich_text",
+    "processed": "\u00a0Milken Institute analysis demonstrates impact of policymaking on jobs, wages, gross regional product and other measures in China\u2019s citiesBEIJING, September 11, 2017 \u2013 Chengdu, the booming capital of Sichuan province in Western China, is that country\u2019s best-performing city, according to the Milken Institute.Chengdu\u2019s development of diverse and high value-added industries, encouragement of innovation and entrepreneurship, abundant talent pool, and lower land and labor costs, places it first among the larger cities in the Milken Institute\u2019s annual report of the Best Performing Cities in China, which was released on Monday, September 11 at the Yale Center in Beijing. Chongqing and Guiyang followed in second and third place, respectively.\u00a0The Rankings<table><tr><td> <\/td>\n<td>\n<b>First- and Second-Tier Cities<\/b>\n<\/td>\n<td> <\/td>\n<td> <\/td>\n<td>\n<b>Third-Tier\u00a0Cities\u00a0<\/b>\n<\/td>\n<\/tr><tr><td>\n1\n<\/td>\n<td>\nChengdu, Sichuan <\/td>\n<td> <\/td>\n<td>\n1\n<\/td>\n<td>\nNantong, Jiangsu <\/td>\n<\/tr><tr><td>\n2\n<\/td>\n<td>\nChongqing\n<\/td>\n<td> <\/td>\n<td>\n2\n<\/td>\n<td>\nBengbu, Anhui\n<\/td>\n<\/tr><tr><td>\n3\n<\/td>\n<td>\nGuiyang, Guizhou\n<\/td>\n<td> <\/td>\n<td>\n3\n<\/td>\n<td>\nFoshan, Guangdong\n<\/td>\n<\/tr><tr><td>\n4\n<\/td>\n<td>\nShenzhen, Guangdong <\/td>\n<td> <\/td>\n<td>\n4\n<\/td>\n<td>\nJi\u2019an, Jiangxi <\/td>\n<\/tr><tr><td>\n5\n<\/td>\n<td>\nNanjing, Jiangsu\n<\/td>\n<td> <\/td>\n<td>\n5\n<\/td>\n<td>\nZunyi, Guizhou\n<\/td>\n<\/tr><tr><td>\n6\n<\/td>\n<td>\nShanghai\n<\/td>\n<td> <\/td>\n<td>\n6\n<\/td>\n<td>\nTaizhou, Jiangsu <\/td>\n<\/tr><tr><td>\n7\n<\/td>\n<td>\nZhengzhou, Henan\n<\/td>\n<td> <\/td>\n<td>\n7\n<\/td>\n<td>\nLuche, Henan\n<\/td>\n<\/tr><tr><td>\n8\n<\/td>\n<td>\nKunming, Yunnan\n<\/td>\n<td> <\/td>\n<td>\n8\n<\/td>\n<td>\nYangzhou, Jiangsu\n<\/td>\n<\/tr><tr><td>\n9\n<\/td>\n<td>\nNanchang, Jiangxi\n<\/td>\n<td> <\/td>\n<td>\n9\n<\/td>\n<td>\nYichang, Hubei\n<\/td>\n<\/tr><tr><td>\n10\n<\/td>\n<td>\nQingdao, Shandong <\/td>\n<td> <\/td>\n<td>\n10\n<\/td>\n<td>\nSuzhou, Jiangsu <\/td>\n<\/tr><\/table>\u201cThe Best Performing Cities China Index provides new evidence of the economic dynamism and strong performance of Chinese cities,\u201d explains Perry Wong, Managing Director of Research at the Milken Institute and co-author of the report. \u201cThe Belt and Road initiative, together with the creation of regional economic clusters, demonstrate the central government\u2019s determination to improve the growth prospects of Chinese inland cities as well as enhance the performance of the country\u2019s large east coast urban areas.\u201dChengdu rose from fifth place in 2016 to number one among \u2018first- and second-tier cities\u2019 with its outstanding performance in the growth of jobs, wages, gross regional product (GRP), and foreign direct investment (FDI), mainly driven by government support, particularly related to with its One Belt, One Road (OBOR) initiative and an intensified effort to fill development gaps among East \u2013 West regions.\u00a0In the large city group, Chengdu was followed by Chongqing. Both cities have diverse and high value-added industries, a high-quality talent pool, and lower business costs compared with other metropolitan areas such as Beijing, Shanghai and Shenzhen. In addition, these two cities are the twin anchors for China\u2019s \u201cGreat Western Development\u201d strategy, launched in the early 2000s.\u201cOur data-driven analysis reveals that the top ranked cities are responding robustly to the central government\u2019s directives, which has led to overall economic improvement and development in China,\u201d says Mr. Wong. \u201cWith some of the economic challenges currently faced by China as well as other countries around the region, this analysis of the drivers of growth becomes all the more important.\u201d\u00a0The Best-Performing Cities China Index offers a comparative snapshot of the economic performance of 260 Chinese cities in two categories. The largest-cities group includes 34 \u2018first- and second-tier cities;\u2019 the small and medium-sized group includes 226 \u2018third-tier cities.\u2019 To provide insights into urban economic and development trends in China, the index takes nine factors into account: one-year (2014-2015) and five-year (2010-2015) job growth, one- and five-year wage growth, one- and five-year gross regional product (GRP) per capita growth, three-year (2012-2015) foreign FDI growth, share of FDI and GRP (2015), and the location quotient (LQ) for high value-added industry (2015).Two other cities \u2013 Kunming and Xi\u2019an \u2013 in the Diamond Economic Zone, are ranked No. 8 and No. 11, respectively. This signals the growing economic power of this regional cluster, according to the data. Shenzhen remains in fourth place for the second year in a row, followed by Nanjing, Shanghai, Zhengzhou, Kunming, Nanchang and Qingdao.\u00a0In the category of \u2018third-tier cities,\u2019 Nantong vaults from No. 9 to No.1, thanks to the fastest five-year job and wage growth in its category. Bengbu, in Anhui province, earned second place on the strength of one-year wage growth, five-year GRP per capital growth, and its FDI\/GRP ratio. Foshan, an important manufacturing hub in Guangdong, claimed the third place, followed by Ji\u2019an, Zunyi, Taizhou, Luche, Yangzhou, Yichang on the Yangtze River, and Suzhou in the top-10.\u00a0This year\u2019s index reflects the impact of China\u2019s creation of regional economic clusters. For example, Chengdu, Chongqing and Guiyang are on China\u2019s Belt and Road pathway. Foshan is part of the Pearl River Delta Economic Zone, also known as the \u201cBay Area,\u201d as well as part of the Yue-Gui-Qian High Speed Rail Economic Belt. This regional cluster consists of three provinces \u2013 Guangdong (Yue), Guangxi (Gui) and Guizhou (Qian).\u00a0Cities from China\u2019s Northeast, except Dalian, continue to display lackluster representation in the ranking, which shows China\u2019s difficulty in restructuring an older industrial base that relies on energy, steel production and less diversified heavy industries, according to the authors.To download the full report, including an interactive table of all 260 cities, please visit<b> best-citieschina.org<\/b>.About the Best Performing Cities China IndexThe Milken Institute\u2019s Best-Performing Cities (BPC) China Index analyzes the latest and most comprehensive official data, found in the China City Statistical Yearbook to track the recent economic performance of Chinese cities. The main purpose of this series is to offer a tool to policymakers to monitor and evaluate the economic dynamics of cities in China and improve their performance. In addition, this work provides businesses with insight into economic trends to explore potential investment opportunities in China.ContactFor media inquiries, please contact:<b><br \/><strong>Hamilton Advisors Limited<\/strong><\/b><b><strong>Robert T. Grieves<\/strong><\/b><b>Tel: +852 2488 8866<br \/>Dir: +852 2487 8070<br \/>Email:\u00a0rgrieves@hamiltonadvisorsltd.com<br \/><br \/><strong>Milken Institute<\/strong><\/b><b><strong>Ann Marie Eu<\/strong><\/b><br \/>Communications Associate, Asia\u00a0<br \/>Phone: +65 9879 8125<br \/>Email:\u00a0aeu@milkeninstitute.org",
+    "summary": null,
+    "summary_processed": ""
+}

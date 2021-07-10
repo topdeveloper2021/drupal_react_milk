@@ -1,0 +1,19 @@
+uuid: f235ce91-559e-4ade-95e7-faca9e141493
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_photo_subject_title
+    - media.type.image
+id: media.image.field_photo_subject_title
+field_name: field_photo_subject_title
+entity_type: media
+bundle: image
+label: 'Photo Subject Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

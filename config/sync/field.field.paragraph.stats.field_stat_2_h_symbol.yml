@@ -1,0 +1,19 @@
+uuid: d1b2447a-db24-40cf-8ad4-b9bbfccd9794
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stat_2_h_symbol
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_stat_2_h_symbol
+field_name: field_stat_2_h_symbol
+entity_type: paragraph
+bundle: stats
+label: 'Stat 2 Header Symbol'
+description: 'Very short text to show before the first stat number value.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

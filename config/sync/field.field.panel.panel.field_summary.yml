@@ -1,0 +1,21 @@
+uuid: d72cfd9a-3c85-45d1-afc3-4468d18fcd52
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_summary
+  module:
+    - text
+id: panel.panel.field_summary
+field_name: field_summary
+entity_type: panel
+bundle: panel
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

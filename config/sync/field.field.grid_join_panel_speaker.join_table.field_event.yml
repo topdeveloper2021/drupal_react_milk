@@ -1,0 +1,33 @@
+uuid: 1bb87140-669c-4972-809d-624eb8892289
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - eck.eck_type.event.meeting
+    - eck.eck_type.event.summit
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - field.storage.grid_join_panel_speaker.field_event
+id: grid_join_panel_speaker.join_table.field_event
+field_name: field_event
+entity_type: grid_join_panel_speaker
+bundle: join_table
+label: Event
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:event'
+  handler_settings:
+    target_bundles:
+      conference: conference
+      meeting: meeting
+      summit: summit
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: conference
+field_type: entity_reference

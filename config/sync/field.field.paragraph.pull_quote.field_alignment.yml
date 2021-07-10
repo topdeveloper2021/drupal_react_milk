@@ -1,0 +1,23 @@
+uuid: 7ead70fe-b18b-4490-b844-9e5deebf6a82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_alignment
+    - paragraphs.paragraphs_type.pull_quote
+  module:
+    - options
+id: paragraph.pull_quote.field_alignment
+field_name: field_alignment
+entity_type: paragraph
+bundle: pull_quote
+label: Alignment
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

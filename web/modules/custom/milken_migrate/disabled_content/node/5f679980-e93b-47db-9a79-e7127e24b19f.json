@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/balancing-scales-opportunity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/63?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 528
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5f679980-e93b-47db-9a79-e7127e24b19f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 528
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/63?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "98aaf351-b568-4598-b0c7-513ec7ce7ad5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Balancing the Scales of Opportunity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T08:27:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-07T13:53:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/balancing-scales-opportunity",
+            "pid": 581,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Those who have the advantages and resources have a responsibility to help level the playing field.<\/b><\/i> The recent college admissions scandal has accomplished something positive: It has prompted people to talk in a more honest way about unequal access to education and other building blocks of prosperity. It starts with access to things such as better schools, tutors, or test prep and extends to means of building strong careers, such as access to alumni and other connections who can provide opportunities and introductions and offer guidance and mentoring. And there\u2019s the fact that, in our society, some of us benefit from\u2014or are disadvantaged by\u2014our gender, race, economic background, or other factors. For all those reasons, Americans are increasingly questioning whether the American Dream is equally within the reach of all. This is a serious issue. So are the pronounced gender wealth gap and the huge\u2014 and widening\u2014racial wealth gap related in part to these inequities. Those who have the advantages and resources have a responsibility to help level the playing field. What are the risks to the stability of our society if we allow gross inequities to go unchecked and continue to grow? What changes can we make within the spheres of our work to minimize or offset these inequities so that great talent from all walks of life can access the education, opportunity, and training they need to get a good job? The financial services industry needs to accelerate progress in strengthening diversity at all levels. While the industry has good intentions, this hasn\u2019t yet translated into the needed level of change. It is now becoming a US policy issue. The newly formed House Financial Services Subcommittee on Diversity and Inclusion is taking this on, arguing that having more women and more minorities serve in top levels of our industry will not only help the industry at a time when we are competing against smaller, more nimble entrants, but also that, by improving access to high-paying jobs, it will help combat income inequality and the growing wealth gap nationwide. To illustrate the opportunity gap, women and minorities manage just a tiny fraction of all assets under management industry-wide, despite the fact that the performance of their funds is as least as strong as those managed by non-diverse fund managers. Part of the issue is that women and people of color don\u2019t pursue careers managing money because they don\u2019t believe the industry is open to them, which should concern us all. Change will not happen unless leaders are held accountable for making the tough decisions. At BNY Mellon, I am holding our Executive Committee accountable for achieving strengthened diversity and inclusion goals, with their incentive compensation tied to performance against these goals. We have to look at all of our teams\u2014even the high-performance teams\u2014and ask ourselves if we have the right diversity of thought and experience for the future. There is expected to be increased pressure on companies to disclose demographic data and information about their approach to diversity and inclusion, something BNY Mellon has been sharing with our regulators for the past few years. And there will be pressure to show strong progress. According to the US Bureau of Labor Statistics, in the next 10 to 20 years, artificial intelligence, robotics and other advanced technologies could replace up to 47 percent of US jobs that existed in 2010. Those at lower socio-economic levels will be disproportionately affected, widening the income disparity. These people need retraining. To help them\u2014and develop the talent we will need in the future\u2014corporations have to play a role. BNY Mellon is investing in programs that provide education, training, and support to help people build viable, rewarding careers in the digital world. For example, we\u2019ve committed $1 million to the City University of New York to equip high-achieving, underrepresented students with the knowledge and skills necessary to adapt. We are looking at what more we can do to help our communities and our people. The 2019 Milken Institute Global Conference is an opportunity to reflect on the disparity of opportunity and our responsibility as leaders. We all have to be a part of the solution.",
+    "format": "rich_text",
+    "processed": "<i><b>Those who have the advantages and resources have a responsibility to help level the playing field.<\/b><\/i> The recent college admissions scandal has accomplished something positive: It has prompted people to talk in a more honest way about unequal access to education and other building blocks of prosperity. It starts with access to things such as better schools, tutors, or test prep and extends to means of building strong careers, such as access to alumni and other connections who can provide opportunities and introductions and offer guidance and mentoring. And there\u2019s the fact that, in our society, some of us benefit from\u2014or are disadvantaged by\u2014our gender, race, economic background, or other factors. For all those reasons, Americans are increasingly questioning whether the American Dream is equally within the reach of all. This is a serious issue. So are the pronounced gender wealth gap and the huge\u2014 and widening\u2014racial wealth gap related in part to these inequities. Those who have the advantages and resources have a responsibility to help level the playing field. What are the risks to the stability of our society if we allow gross inequities to go unchecked and continue to grow? What changes can we make within the spheres of our work to minimize or offset these inequities so that great talent from all walks of life can access the education, opportunity, and training they need to get a good job? The financial services industry needs to accelerate progress in strengthening diversity at all levels. While the industry has good intentions, this hasn\u2019t yet translated into the needed level of change. It is now becoming a US policy issue. The newly formed House Financial Services Subcommittee on Diversity and Inclusion is taking this on, arguing that having more women and more minorities serve in top levels of our industry will not only help the industry at a time when we are competing against smaller, more nimble entrants, but also that, by improving access to high-paying jobs, it will help combat income inequality and the growing wealth gap nationwide. To illustrate the opportunity gap, women and minorities manage just a tiny fraction of all assets under management industry-wide, despite the fact that the performance of their funds is as least as strong as those managed by non-diverse fund managers. Part of the issue is that women and people of color don\u2019t pursue careers managing money because they don\u2019t believe the industry is open to them, which should concern us all. Change will not happen unless leaders are held accountable for making the tough decisions. At BNY Mellon, I am holding our Executive Committee accountable for achieving strengthened diversity and inclusion goals, with their incentive compensation tied to performance against these goals. We have to look at all of our teams\u2014even the high-performance teams\u2014and ask ourselves if we have the right diversity of thought and experience for the future. There is expected to be increased pressure on companies to disclose demographic data and information about their approach to diversity and inclusion, something BNY Mellon has been sharing with our regulators for the past few years. And there will be pressure to show strong progress. According to the US Bureau of Labor Statistics, in the next 10 to 20 years, artificial intelligence, robotics and other advanced technologies could replace up to 47 percent of US jobs that existed in 2010. Those at lower socio-economic levels will be disproportionately affected, widening the income disparity. These people need retraining. To help them\u2014and develop the talent we will need in the future\u2014corporations have to play a role. BNY Mellon is investing in programs that provide education, training, and support to help people build viable, rewarding careers in the digital world. For example, we\u2019ve committed $1 million to the City University of New York to equip high-achieving, underrepresented students with the knowledge and skills necessary to adapt. We are looking at what more we can do to help our communities and our people. The 2019 Milken Institute Global Conference is an opportunity to reflect on the disparity of opportunity and our responsibility as leaders. We all have to be a part of the solution.",
+    "summary": null,
+    "summary_processed": ""
+}

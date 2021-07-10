@@ -1,0 +1,17 @@
+{{ attach_library('milken_base/EntityDisplay') }}
+
+{% set node_landing_page_value =  []
+  | merge({ 'entityTypeId': node.getEntityTypeId })
+  | merge({ 'id': node.uuid.value })
+  | merge({ 'drupal_internal__id': node.id })
+  | merge({ 'includes': "field_hero_image,field_secondary_menu" })
+
+%}
+
+
+<entity-display
+  data-view-mode="{{ view_mode | default("card") }}"
+  data-data="{{ node_landing_page_value | jsonapi }}"
+  data-type="node--{{node.bundle}}"
+>
+</entity-display>

@@ -1,0 +1,23 @@
+uuid: 469791c2-6404-4174-ab39-850fef940191
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.hero_half_height
+    - field.storage.slide.field_promoted
+id: slide.hero_half_height.field_promoted
+field_name: field_promoted
+entity_type: slide
+bundle: hero_half_height
+label: Promoted
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

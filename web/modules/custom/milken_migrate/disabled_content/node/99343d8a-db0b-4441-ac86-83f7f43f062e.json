@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/more-135-mayors-sign-milken-institute-best-cities-successful-aging-mayors-pledge?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 58
+        }
+    ],
+    "uuid": [
+        {
+            "value": "99343d8a-db0b-4441-ac86-83f7f43f062e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 58
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "More than 135 Mayors sign Milken Institute \u201cBest Cities for Successful Aging\u201d Mayor\u2019s Pledge",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-10-31T13:58:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/more-135-mayors-sign-milken-institute-best-cities-successful-aging-mayors-pledge",
+            "pid": 111,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 One-hundred thirty-seven U.S. mayors from across the political spectrum have signed the Milken Institute\u2019s Best Cities for Successful Aging Mayor\u2019s Pledge, committing to make their cities work better for older adults and to enable older adults to strengthen their cities and improve lives for all generations through purposeful work and volunteerism. More mayors are signing the Pledge every week. The mayors and their cities are listed on a site devoted to the Mayor\u2019s Pledge: http:\/\/successfulaging.milkeninstitute.org\/mayors-pledge\/The Pledge comes from the Institute\u2019s Best Cities for Successful Aging Advisory Committee, an important group of thought leaders and experts who are advising the Institute in its work on healthy, productive and purposeful aging. See the Pledge here: http:\/\/www.milkeninstitute.org\/publications\/view\/662\u201cChange begins at home \u2013 that\u2019s what drives the Milken Institute's focus on Best Cities for Successful Aging. We\u2019re pleased that so many forward thinking mayors have demonstrated their commitment to making their cities better places for aging,\u201d says Milken Institute President Paul Irving. \u201cCities can be engines of innovation and change. That\u2019s why we are asking these urban leaders to make their cities work better for older adults and to enable older adults to help their cities create a brighter future for all ages.\u201dBy signing the Pledge, mayors agree to take such steps as increasing housing, health and transportation options that suit the aging population\u2019s varied needs. They also commit to providing opportunities for older adults to work for their city, through volunteer activity and purposeful encore careers across the government, nonprofit and private sectors.In the coming days the Institute will publish its 2014 edition of Best Cities for Successful Aging. Launched in 2012, the widely recognized report measures, compares and ranks U.S. metropolitan areas for their capacity to enable successful aging. The methodology makes use of publicly available data on health care, wellness, living arrangements, financial well-being, transportation, employment and educational opportunities and community engagement.\u201cEnabling successful aging is a central issue of our time, and urban communities are at the forefront,\u201d says Irving. \u201cThe Best Cities for Successful Aging Mayor\u2019s Pledge unites mayors in a commitment to enhance life for the largest-ever population of older adults in the U.S., and to ensure a better future for lives across the age spectrum. The ideas and innovations advanced by U.S. mayors will open the door to solutions that can be scaled and replicated at the state, national and global levels. And their leadership will inspire other policy makers to act.\u201d# # #",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 One-hundred thirty-seven U.S. mayors from across the political spectrum have signed the Milken Institute\u2019s Best Cities for Successful Aging Mayor\u2019s Pledge, committing to make their cities work better for older adults and to enable older adults to strengthen their cities and improve lives for all generations through purposeful work and volunteerism. More mayors are signing the Pledge every week. The mayors and their cities are listed on a site devoted to the Mayor\u2019s Pledge: http:\/\/successfulaging.milkeninstitute.org\/mayors-pledge\/The Pledge comes from the Institute\u2019s Best Cities for Successful Aging Advisory Committee, an important group of thought leaders and experts who are advising the Institute in its work on healthy, productive and purposeful aging. See the Pledge here: http:\/\/www.milkeninstitute.org\/publications\/view\/662\u201cChange begins at home \u2013 that\u2019s what drives the Milken Institute's focus on Best Cities for Successful Aging. We\u2019re pleased that so many forward thinking mayors have demonstrated their commitment to making their cities better places for aging,\u201d says Milken Institute President Paul Irving. \u201cCities can be engines of innovation and change. That\u2019s why we are asking these urban leaders to make their cities work better for older adults and to enable older adults to help their cities create a brighter future for all ages.\u201dBy signing the Pledge, mayors agree to take such steps as increasing housing, health and transportation options that suit the aging population\u2019s varied needs. They also commit to providing opportunities for older adults to work for their city, through volunteer activity and purposeful encore careers across the government, nonprofit and private sectors.In the coming days the Institute will publish its 2014 edition of Best Cities for Successful Aging. Launched in 2012, the widely recognized report measures, compares and ranks U.S. metropolitan areas for their capacity to enable successful aging. The methodology makes use of publicly available data on health care, wellness, living arrangements, financial well-being, transportation, employment and educational opportunities and community engagement.\u201cEnabling successful aging is a central issue of our time, and urban communities are at the forefront,\u201d says Irving. \u201cThe Best Cities for Successful Aging Mayor\u2019s Pledge unites mayors in a commitment to enhance life for the largest-ever population of older adults in the U.S., and to ensure a better future for lives across the age spectrum. The ideas and innovations advanced by U.S. mayors will open the door to solutions that can be scaled and replicated at the state, national and global levels. And their leadership will inspire other policy makers to act.\u201d# # #",
+    "summary": null,
+    "summary_processed": ""
+}

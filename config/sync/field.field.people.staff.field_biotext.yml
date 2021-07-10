@@ -1,0 +1,19 @@
+uuid: a1977c22-6068-4f62-80fe-caa76f53d3ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_biotext
+id: people.staff.field_biotext
+field_name: field_biotext
+entity_type: people
+bundle: staff
+label: Biotext
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-august-5-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/169?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 797
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5b28b454-67a9-473e-a607-cbc5b3f22a48"
+        }
+    ],
+    "vid": [
+        {
+            "value": 797
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/169?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5e83b337-845a-4e23-bdcc-a05938a7b804"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - August 5, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-08-05T20:59:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-08-05T23:42:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-august-5-2019",
+            "pid": 850,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: From the Advisory Committee \u00bb Industry Headlines \u00bb Global Developments \u00bb The Promise of Cash-Flow Underwriting FinRegLab, a partner of the Milken Institute led by our Senior Advisor and Vice-Chair of the Milken Institute FinTech Advisory Committee, Melissa Koide, released their inaugural report a few weeks ago. FinRegLab undertook a rigorous analysis of the value of cash-flow data for underwriting both consumer and small business loans. Their analysis used cash-flow variables and scores from Accion, Brigit, Kabbage, LendUp, Oportun, and Petal; and found several important findings relevant to policymakers. First, the study shows that cash flow scores and attributes were comparable to traditional credit scores in terms of predictive power. What\u2019s even more interesting, however, is that FinRegLab\u2019s findings indicate that using cash-flow underwriting improves risk-sorting among borrowers that traditional metrics perceive as being similar. That is, cash-flow underwriting separates risk differently than traditional underwriting, such that using a combination of both methods yields even greater predictive power. The analysis also shows that cash-flow underwriting is useful for underwriting applicants without traditional credit histories. This is an important finding as well, in that it demonstrates the potential for using such variables to reach historically underserved communities. FinRegLab\u2019s findings are quite timely, given lawmakers\u2019 recent interest in the challenges and opportunities of using alternative data for credit underwriting. By focusing specifically on cash-flow data, FinRegLab has taken a crucial first step towards evaluating alternative underwriting methods and provided an invaluable resource for policymakers and market participants interested in expanding access to credit for underserved consumers and small businesses. From the Advisory Committee This week, Jackson Mueller continued our interview series with Akber Jaffer, Chief Strategy Officer and Chief of Staff at Finastra, and a valued member of the Milken Institute FinTech Advisory Committee. Jackson and Akber discussed a range of topics, from industry consolidation to open banking and cloud computing. Read more here. Industry Headlines <i>AltFi: <\/i>The big news here is that the partnership between JPMorgan Chase and OnDeck has come to an end. Since launching in 2016, this partnership has come to be one of the most well known in the FinTech world. OnDeck CEO Noah Breslow describes the end of the partnership as a setback. For its part, JPMorgan said that OnDeck \u201chelped us create and launch an online loan application process that gave business owners faster decisions and easier access to credit, something we will continue to do on our own platform.\u201d <i>Big Tech: <\/i>After an absolutely brutal July, Facebook may be tempering expectations for Libra. In its latest quarterly report, the social media giant told investors that regulatory hurdles and unproven technology might cause significant delays for Libra, or even prevent it from launching. This comes just as Facebook is coming under a wave of antitrust scrutiny, and following a $5 billion fine from the Federal Trade Commission for privacy violations. <i>Blockchain\/Crypto: <\/i>Speaking of stable coins, while most of us watched the Libra hearings with some degree of incredulity, Walmart seems to have watched them with envy. Last week, the retailer applied for a patent for its own stable coin, which bears some similarities to Libra. We\u2019ll be keeping our eyes on this to see how it goes, but if the Libra hearings and the Walmart\u2019s application for an industrial loan company charter in the early 2000s are any indication, we may yet have some more contentious stable coin hearings to look forward to. Elsewhere, the Blockchain cryptocurrency wallet announced the launch of an exchange to rival Coinbase. <i>Data Governance: <\/i>Data breaches were all the rage last week. First, Capital One announced that a former employee of Amazon Web Services (AWS) had accessed personal information for 106 million customers, one of the largest breaches in recent history. According to Capital One, it is unlikely that the hacker had gotten around to distributing the stolen information, but that was certainly the intent. What\u2019s particularly striking about this hack is Capital One is known for having been an early adopter of cloud computing. Suffice to say, a breach of this magnitude involving AWS will not go unnoticed among policymakers. Next, the FTC has cautioned consumers seeking remuneration from Equifax to consider the company\u2019s free credit monitoring instead, given the overwhelming response from consumers hoping for a $125 payout. Some consumer advocates disagree with this take, however, and recommend freezing your credit report instead. <i>Payments: <\/i>While last week\u2019s big payments news from the United States is covered below, there was big news in India as well. WhatsApp made a much-anticipated announcement that it will begin offering payments services to its users in India by the end of the year. The announcement comes after a great deal of back and forth with regulators, but is predicted to make quite a splash due to WhatsApp\u2019s 400 million users in India. Meanwhile, as Fiserv completed its acquisition of First Data, the latter\u2019s partnership with Bank of America drew to a close. Bank of America looks to begin offering services directly to merchants, as competition in the payments sector increases. Global Developments <i>World Bank: <\/i>Our friends the Consultative Group to Assist the Poor (CGAP) conducted a fascinating survey on regulatory sandboxes, the results of which can be found here. There are several interesting data points in their blog post and the attached slide deck, but one that is particularly striking to me is the contrast between the prominence of increasing competition as a motivation for regulatory sandboxes, and its tendency to get left out of the legal mandate during implementation. <i>Africa: <\/i>The Gates Foundation published a report titled \u201cWomen\u2019s Digital Financial Inclusion in Africa\u201d at the request of the French G7 Presidency. The report discusses five pillars that can enable such inclusion; interoperability, digital identity, regulation, assessment of digital readiness, and gender-specific research. <i>European Union: <\/i>The European Banking Authority published a report on FinTech\u2019s impact on the business models of payments and e-money institutions, giving an overview of recent trends in the space, how they relate to regulations such as the Second Payment Services Directive. While the report avoids speculating on future market developments and their implications, it highlights some of the key challenges and threats facing payments and e-money institutions. <i>Taiwan: <\/i>Taiwan\u2019s Financial Supervisory Commission issued three virtual banking licenses last week. The recipients were LINE Financial Taiwan, Next Commercial Bank, and Rakuten International Commercial Bank. The move is a continuation of the trend we\u2019ve seen for some time now, with regulators throughout the region issuing an increasing number of such licenses. <i>United States: <\/i>The big news last week came when Federal Reserve Chairman Jerome Powell announced that the Fed is \u201cseriously considering\u201d developing a faster payments system. This has reignited a long-running battle in the US about whether the Fed should be the provider of such a system, a regulator of private sector payments systems, or both. The debate is a complex one, at times producing unlikely allies, but will be important to watch as the battle for preeminence in payments intensifies in the US. On a related note, Rakuten announced its intention to apply for an Industrial Loan Company (ILC) charter in Utah. Taken together, these developments raise a number of questions that have arisen with increasing frequency in the US, such as what activities constitute banking, who regulates which activities, and where on earth does payments fit. Elsewhere, the New York Department of Financial Services announced the launch of a Research and Innovation Division to be led by newly appointed Executive Deputy Superintendent Matthew Homer. The new division will be tasked with licensing and supervising virtual currencies, assessing technology\u2019s ability to address financial exclusion, promoting consumer data rights, and driving New York\u2019s competitiveness in financial innovation. <i>United Kingdom: <\/i>The Financial Conduct Authority (FCA) published its Final Guidance on crypto-asset regulation last week, an effort to provide clarity to market participants on whether or not their activity falls under the FCA\u2019s purview. Meanwhile, the UK Information Commissioner\u2019s Office announced a sandbox initiative that will incorporate private sector firms working on facial recognition technology.\u00a0",
+    "format": "rich_text",
+    "processed": "In this issue: From the Advisory Committee \u00bb Industry Headlines \u00bb Global Developments \u00bb The Promise of Cash-Flow Underwriting FinRegLab, a partner of the Milken Institute led by our Senior Advisor and Vice-Chair of the Milken Institute FinTech Advisory Committee, Melissa Koide, released their inaugural report a few weeks ago. FinRegLab undertook a rigorous analysis of the value of cash-flow data for underwriting both consumer and small business loans. Their analysis used cash-flow variables and scores from Accion, Brigit, Kabbage, LendUp, Oportun, and Petal; and found several important findings relevant to policymakers. First, the study shows that cash flow scores and attributes were comparable to traditional credit scores in terms of predictive power. What\u2019s even more interesting, however, is that FinRegLab\u2019s findings indicate that using cash-flow underwriting improves risk-sorting among borrowers that traditional metrics perceive as being similar. That is, cash-flow underwriting separates risk differently than traditional underwriting, such that using a combination of both methods yields even greater predictive power. The analysis also shows that cash-flow underwriting is useful for underwriting applicants without traditional credit histories. This is an important finding as well, in that it demonstrates the potential for using such variables to reach historically underserved communities. FinRegLab\u2019s findings are quite timely, given lawmakers\u2019 recent interest in the challenges and opportunities of using alternative data for credit underwriting. By focusing specifically on cash-flow data, FinRegLab has taken a crucial first step towards evaluating alternative underwriting methods and provided an invaluable resource for policymakers and market participants interested in expanding access to credit for underserved consumers and small businesses. From the Advisory Committee This week, Jackson Mueller continued our interview series with Akber Jaffer, Chief Strategy Officer and Chief of Staff at Finastra, and a valued member of the Milken Institute FinTech Advisory Committee. Jackson and Akber discussed a range of topics, from industry consolidation to open banking and cloud computing. Read more here. Industry Headlines <i>AltFi: <\/i>The big news here is that the partnership between JPMorgan Chase and OnDeck has come to an end. Since launching in 2016, this partnership has come to be one of the most well known in the FinTech world. OnDeck CEO Noah Breslow describes the end of the partnership as a setback. For its part, JPMorgan said that OnDeck \u201chelped us create and launch an online loan application process that gave business owners faster decisions and easier access to credit, something we will continue to do on our own platform.\u201d <i>Big Tech: <\/i>After an absolutely brutal July, Facebook may be tempering expectations for Libra. In its latest quarterly report, the social media giant told investors that regulatory hurdles and unproven technology might cause significant delays for Libra, or even prevent it from launching. This comes just as Facebook is coming under a wave of antitrust scrutiny, and following a $5 billion fine from the Federal Trade Commission for privacy violations. <i>Blockchain\/Crypto: <\/i>Speaking of stable coins, while most of us watched the Libra hearings with some degree of incredulity, Walmart seems to have watched them with envy. Last week, the retailer applied for a patent for its own stable coin, which bears some similarities to Libra. We\u2019ll be keeping our eyes on this to see how it goes, but if the Libra hearings and the Walmart\u2019s application for an industrial loan company charter in the early 2000s are any indication, we may yet have some more contentious stable coin hearings to look forward to. Elsewhere, the Blockchain cryptocurrency wallet announced the launch of an exchange to rival Coinbase. <i>Data Governance: <\/i>Data breaches were all the rage last week. First, Capital One announced that a former employee of Amazon Web Services (AWS) had accessed personal information for 106 million customers, one of the largest breaches in recent history. According to Capital One, it is unlikely that the hacker had gotten around to distributing the stolen information, but that was certainly the intent. What\u2019s particularly striking about this hack is Capital One is known for having been an early adopter of cloud computing. Suffice to say, a breach of this magnitude involving AWS will not go unnoticed among policymakers. Next, the FTC has cautioned consumers seeking remuneration from Equifax to consider the company\u2019s free credit monitoring instead, given the overwhelming response from consumers hoping for a $125 payout. Some consumer advocates disagree with this take, however, and recommend freezing your credit report instead. <i>Payments: <\/i>While last week\u2019s big payments news from the United States is covered below, there was big news in India as well. WhatsApp made a much-anticipated announcement that it will begin offering payments services to its users in India by the end of the year. The announcement comes after a great deal of back and forth with regulators, but is predicted to make quite a splash due to WhatsApp\u2019s 400 million users in India. Meanwhile, as Fiserv completed its acquisition of First Data, the latter\u2019s partnership with Bank of America drew to a close. Bank of America looks to begin offering services directly to merchants, as competition in the payments sector increases. Global Developments <i>World Bank: <\/i>Our friends the Consultative Group to Assist the Poor (CGAP) conducted a fascinating survey on regulatory sandboxes, the results of which can be found here. There are several interesting data points in their blog post and the attached slide deck, but one that is particularly striking to me is the contrast between the prominence of increasing competition as a motivation for regulatory sandboxes, and its tendency to get left out of the legal mandate during implementation. <i>Africa: <\/i>The Gates Foundation published a report titled \u201cWomen\u2019s Digital Financial Inclusion in Africa\u201d at the request of the French G7 Presidency. The report discusses five pillars that can enable such inclusion; interoperability, digital identity, regulation, assessment of digital readiness, and gender-specific research. <i>European Union: <\/i>The European Banking Authority published a report on FinTech\u2019s impact on the business models of payments and e-money institutions, giving an overview of recent trends in the space, how they relate to regulations such as the Second Payment Services Directive. While the report avoids speculating on future market developments and their implications, it highlights some of the key challenges and threats facing payments and e-money institutions. <i>Taiwan: <\/i>Taiwan\u2019s Financial Supervisory Commission issued three virtual banking licenses last week. The recipients were LINE Financial Taiwan, Next Commercial Bank, and Rakuten International Commercial Bank. The move is a continuation of the trend we\u2019ve seen for some time now, with regulators throughout the region issuing an increasing number of such licenses. <i>United States: <\/i>The big news last week came when Federal Reserve Chairman Jerome Powell announced that the Fed is \u201cseriously considering\u201d developing a faster payments system. This has reignited a long-running battle in the US about whether the Fed should be the provider of such a system, a regulator of private sector payments systems, or both. The debate is a complex one, at times producing unlikely allies, but will be important to watch as the battle for preeminence in payments intensifies in the US. On a related note, Rakuten announced its intention to apply for an Industrial Loan Company (ILC) charter in Utah. Taken together, these developments raise a number of questions that have arisen with increasing frequency in the US, such as what activities constitute banking, who regulates which activities, and where on earth does payments fit. Elsewhere, the New York Department of Financial Services announced the launch of a Research and Innovation Division to be led by newly appointed Executive Deputy Superintendent Matthew Homer. The new division will be tasked with licensing and supervising virtual currencies, assessing technology\u2019s ability to address financial exclusion, promoting consumer data rights, and driving New York\u2019s competitiveness in financial innovation. <i>United Kingdom: <\/i>The Financial Conduct Authority (FCA) published its Final Guidance on crypto-asset regulation last week, an effort to provide clarity to market participants on whether or not their activity falls under the FCA\u2019s purview. Meanwhile, the UK Information Commissioner\u2019s Office announced a sandbox initiative that will incorporate private sector firms working on facial recognition technology.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

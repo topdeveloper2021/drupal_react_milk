@@ -1,0 +1,12 @@
+uuid: 4961bce7-583d-4ea9-b711-89774494fc9d
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_rest__solr_search__rest_export_1
+name: 'search_api:views_rest__solr_search__rest_export_1'
+filter_key: Taxonomy
+url_processor: query_string
+breadcrumb:
+  active: true
+  before: true
+  group: false

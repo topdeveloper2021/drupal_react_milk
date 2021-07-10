@@ -1,0 +1,68 @@
+diff --git a/publication_date.module b/publication_date.module
+index bacdd6a..c04d211 100755
+--- a/publication_date.module
++++ b/publication_date.module
+@@ -46,6 +46,25 @@ function publication_date_entity_base_field_info(EntityTypeInterface $entity_typ
+       ->setDisplayConfigurable('form', TRUE);
+   }
+ 
++  if ($entity_type->id() == 'media') {
++    $fields['published_at'] = BaseFieldDefinition::create('published_at')
++      ->setLabel(t('Published on'))
++      ->setDescription(t('Keep the publication timestamp for each node AND media.'))
++      ->setRevisionable(TRUE)
++      ->setTranslatable(TRUE)
++      ->setDisplayOptions('view', array(
++        'region' => 'hidden',
++      ))
++      ->setDisplayConfigurable('view', TRUE)
++      ->setDisplayOptions('form', array(
++        'type' => 'publication_date_timestamp',
++        'weight' => 10,
++      ))
++      ->setDisplayConfigurable('form', TRUE);
++      
++      return $fields;
++  }
++
+   return $fields;
+ }
+ 
+@@ -66,6 +85,24 @@ function publication_date_form_node_form_alter(&$form, FormStateInterface $form_
+   }
+ }
+ 
++/**
++ * Implements hook_form_BASE_ID_alter().
++ *
++ * Display the publication date on the Media edit form.
++ * Attempt to check permissions for Media
++ * @note: This won't work where you have Display Suite/REL enabled.
++ */
++function publication_date_form_media_form_alter(&$form, FormStateInterface $form_state, $form_id) {
++  $account = \Drupal::currentUser();
++  $media = $form_state->getFormObject()->getEntity();
++
++  if (isset($form['published_at'])) {
++    // Check if the user has permission to edit the publication date.
++    $form['published_at']['#access'] = $account->hasPermission('set any published on date') || $account->hasPermission('set ' . $media->bundle() . ' published on date');
++    $form['published_at']['#group'] = 'revision_information';
++  }
++}
++
+ /**
+  * Implements hook_clone_node_alter().
+  *
+diff --git a/src/EventSubscriber/PublicationDateSubscriber.php b/src/EventSubscriber/PublicationDateSubscriber.php
+index e3b8585..23d3ea1 100644
+--- a/src/EventSubscriber/PublicationDateSubscriber.php
++++ b/src/EventSubscriber/PublicationDateSubscriber.php
+@@ -15,7 +15,7 @@ class PublicationDateSubscriber implements EventSubscriberInterface {
+    * Handle workbench moderation state transition.
+    */
+   public function onWorkbenchModerationStateTransition(WorkbenchModerationTransitionEvent $event) {
+-    if ($event->getEntity()->getEntityTypeId() == 'node') {
++    if ($event->getEntity()->getEntityTypeId() == 'node' || $event->getEntity()->getEntityTypeId() == 'media') {
+       $event->getEntity()->get('published_at')->preSave();
+     }
+   }

@@ -1,0 +1,7 @@
+
+{% for item in items %}
+  <div {{ item.attributes }} slot="{{ field_name }}"
+    data-entity-type-id="{{ item.attributes.entity_type }}"
+    data-uuid="{{ item.attributes.uuid }}"
+  >{{ item.content }}</div>
+{% endfor %}

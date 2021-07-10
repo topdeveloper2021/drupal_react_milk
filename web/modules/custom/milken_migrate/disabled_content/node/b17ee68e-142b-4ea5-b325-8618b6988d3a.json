@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/preparing-workplace-future?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/51?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 516
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b17ee68e-142b-4ea5-b325-8618b6988d3a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 516
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/51?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9678b111-850c-4bbb-9848-066902bb58cb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Preparing for the Workplace of the Future",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T06:05:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T19:46:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/preparing-workplace-future",
+            "pid": 569,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "There\u2019s a lot of discussion around disruption these days. We all can likely think of at least one company in recent months that either failed to stay close to the customer, missing critical signals that sealed their fate, or that became so comfortably large they grew blind to the nimble start-ups and out-of-market competitors that ultimately emerged as the new market leaders. As evidenced across business news headlines on any given day, technological innovations disrupt and disintermediate companies which were once thought of as unbreakable. In this age of competition and change, creating sustainable responses and adaptation requires a strong immune system. Often these systems\u2014when they become compromised\u2014are either tied to or brushed off as the failings of a company\u2019s culture. Any reference to corporate culture as the problem is, in my view, an admission of inability to solve the root cause of a problem. Culture is merely an outcome of the system. While there are many paths to changing the system and many have long time horizons to fully complete, I believe an optimal path always exists. If we take a step back, historically, much of the GDP is produced by enterprises and small- and medium-sized business. With billions of employees contributing to the global economy, almost all of these companies need to focus on disruption and disintermediation by investing in their workforce. Engaged employees not only are the key to maintaining a strong position in the market. Often on the front lines of client feedback and signals, employees are the most direct way to challenge long-held corporate practices and beliefs in need of evolution. With this awareness of the vital role employees play, there must be an increased focus on how companies support their existing workforce to avoid being disrupted. At the team and individual levels, companies must create meaningful channels for all employees to learn and evolve to stay relevant in careers that are now, or will soon be, augmented by technologies like artificial intelligence and automation. At S&P Global, technology underpins everything we do and is a means to elevate the work our greatest resource\u2014our people\u2014conduct every day. For technology and our employees to have the greatest combined impact, our people\u2014all 20,000+ of our employees\u2014need to be technologists in their own right. At S&P Global we are bringing all our employees on this journey with us. We have a program called EssentialTECH to focus on creating what I think of as a growth mindset\u2014promoting a straight-forward system of learning. Through this program our employees are encouraged to access training on topics like Data Science, Agile Methodologies, Cloud Computing, and other technology capabilities we view as critical to our ability to power the markets of the future. Beyond the basics, deeper learning courses are available at team leaders\u2019 and individual employees\u2019 discretion. This provides varying levels of learning tailored to each employee\u2019s needs and career aspirations as we prepare for the workplace of the future. We also have robust technology communities and resources across the company to help drive engagement. Through these employee-led groups, technology meet-ups, speaker series, and hackathons are becoming our global norm. We just recently hosted an APAC EssentialTECH Day in Hyderabad, India, in one of our newest talent centers, with offices across Asia Pacific also participating. This event celebrated our accomplishments in technology in the region and promoted widespread awareness around the multitude of resources available for our employees. We are also institutionalizing Lean and Agile methodologies for both technical and non-technical teams, and we are driving enterprise level prioritization forward which enables us to create sustainable excellence. The shortest path to avoid being disrupted is through investing in employees\u2019 growth mindset and providing resources for them to learn and grow. Enabled and empowered employees are engaged. Engaged employees are goal-driven and inclusive by nature, and an inclusive environment promotes diversity. Diversity of thought is one of the best immune-boosters for sustainable growth and innovation.",
+    "format": "rich_text",
+    "processed": "There\u2019s a lot of discussion around disruption these days. We all can likely think of at least one company in recent months that either failed to stay close to the customer, missing critical signals that sealed their fate, or that became so comfortably large they grew blind to the nimble start-ups and out-of-market competitors that ultimately emerged as the new market leaders. As evidenced across business news headlines on any given day, technological innovations disrupt and disintermediate companies which were once thought of as unbreakable. In this age of competition and change, creating sustainable responses and adaptation requires a strong immune system. Often these systems\u2014when they become compromised\u2014are either tied to or brushed off as the failings of a company\u2019s culture. Any reference to corporate culture as the problem is, in my view, an admission of inability to solve the root cause of a problem. Culture is merely an outcome of the system. While there are many paths to changing the system and many have long time horizons to fully complete, I believe an optimal path always exists. If we take a step back, historically, much of the GDP is produced by enterprises and small- and medium-sized business. With billions of employees contributing to the global economy, almost all of these companies need to focus on disruption and disintermediation by investing in their workforce. Engaged employees not only are the key to maintaining a strong position in the market. Often on the front lines of client feedback and signals, employees are the most direct way to challenge long-held corporate practices and beliefs in need of evolution. With this awareness of the vital role employees play, there must be an increased focus on how companies support their existing workforce to avoid being disrupted. At the team and individual levels, companies must create meaningful channels for all employees to learn and evolve to stay relevant in careers that are now, or will soon be, augmented by technologies like artificial intelligence and automation. At S&amp;P Global, technology underpins everything we do and is a means to elevate the work our greatest resource\u2014our people\u2014conduct every day. For technology and our employees to have the greatest combined impact, our people\u2014all 20,000+ of our employees\u2014need to be technologists in their own right. At S&amp;P Global we are bringing all our employees on this journey with us. We have a program called EssentialTECH to focus on creating what I think of as a growth mindset\u2014promoting a straight-forward system of learning. Through this program our employees are encouraged to access training on topics like Data Science, Agile Methodologies, Cloud Computing, and other technology capabilities we view as critical to our ability to power the markets of the future. Beyond the basics, deeper learning courses are available at team leaders\u2019 and individual employees\u2019 discretion. This provides varying levels of learning tailored to each employee\u2019s needs and career aspirations as we prepare for the workplace of the future. We also have robust technology communities and resources across the company to help drive engagement. Through these employee-led groups, technology meet-ups, speaker series, and hackathons are becoming our global norm. We just recently hosted an APAC EssentialTECH Day in Hyderabad, India, in one of our newest talent centers, with offices across Asia Pacific also participating. This event celebrated our accomplishments in technology in the region and promoted widespread awareness around the multitude of resources available for our employees. We are also institutionalizing Lean and Agile methodologies for both technical and non-technical teams, and we are driving enterprise level prioritization forward which enables us to create sustainable excellence. The shortest path to avoid being disrupted is through investing in employees\u2019 growth mindset and providing resources for them to learn and grow. Enabled and empowered employees are engaged. Engaged employees are goal-driven and inclusive by nature, and an inclusive environment promotes diversity. Diversity of thought is one of the best immune-boosters for sustainable growth and innovation.",
+    "summary": null,
+    "summary_processed": ""
+}

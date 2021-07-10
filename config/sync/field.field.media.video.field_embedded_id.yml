@@ -1,0 +1,19 @@
+uuid: 3fd293d0-2df5-4856-9715-6cc1c6b88c3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_embedded_id
+    - media.type.video
+id: media.video.field_embedded_id
+field_name: field_embedded_id
+entity_type: media
+bundle: video
+label: embedded_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+
+docker-compose build
+
+docker-compose up -d
+
+docker exec -t freshdrupalmi_php_1 "/var/www/vendor/bin/drupal site:milken:install"

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7816\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/CExm1W2wxXUkwDT4mFh_DxxZxx-2T0HAKtMdXY4tS-Q.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7816
+        }
+    ],
+    "uuid": [
+        {
+            "value": "352c7ac4-9e92-42bd-b365-3c4c4fae344d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 481
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/CExm1W2wxXUkwDT4mFh_DxxZxx-2T0HAKtMdXY4tS-Q.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "796e25c2-6664-465d-baa4-19e18ec3e8bc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Future of Work: How to Survive and Thrive Amid Creative Disruption",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:22:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The workplace is changing for employees and managers alike. The disruptions of technology and outsourcing appear to signal the end of long careers with a single company or in a particular field of expertise. Increasingly, companies are embracing the concept of \"on demand\" talent and learning -- the use of temporary contractors and outside expertise to meet the fluctuating needs of the workplace. In this fluid environment, what matters most to the 21st century job seeker and employers, specific skill sets or the ability to learn quickly and adapt? How will new, data-based screening technologies change hiring? What strategies must executives develop to successfully prepare themselves and their companies to compete successfully, keep learning and stay innovative.",
+    "format": "rich_text",
+    "processed": "The workplace is changing for employees and managers alike. The disruptions of technology and outsourcing appear to signal the end of long careers with a single company or in a particular field of expertise. Increasingly, companies are embracing the concept of \"on demand\" talent and learning -- the use of temporary contractors and outside expertise to meet the fluctuating needs of the workplace. In this fluid environment, what matters most to the 21st century job seeker and employers, specific skill sets or the ability to learn quickly and adapt? How will new, data-based screening technologies change hiring? What strategies must executives develop to successfully prepare themselves and their companies to compete successfully, keep learning and stay innovative.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/XbYH-9JYQvY",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/CExm1W2wxXUkwDT4mFh_DxxZxx-2T0HAKtMdXY4tS-Q.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

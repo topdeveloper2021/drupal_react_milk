@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-taking-chances-developing-rare-disease-medicines-worth-risk?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/216?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 844
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5a0dea87-88e2-4ed4-861c-6c94fbd7ed18"
+        }
+    ],
+    "vid": [
+        {
+            "value": 844
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/216?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd5b4c71-a255-48d4-b750-5bbb9e6c7a68"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Taking Chances in Developing Rare Disease Medicines Is Worth the Risk",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T03:08:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:06:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-taking-chances-developing-rare-disease-medicines-worth-risk",
+            "pid": 897,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Of the 7,000 known rare diseases in the world, only 5 percent have treatments. This means that a large majority of those who live with rare diseases are left without meaningful options\u2014and some, without hope. Our goal is to change those odds\u2014but to make that happen, we believe that science and compassion must work together. As a member of the biopharmaceutical community for more than 30 years, I\u2019ve seen drug development successes and failures, the impact a new medicine can have on patients\u2019 lives, and what a new therapy means to the scientific and physician communities that have persevered and worked tirelessly for a decade to bring that medicine to market. That\u2019s why at Horizon, we have built a culture that encourages our team to do things differently, which includes trying to break down traditional progress-impeding barriers to get potential rare disease medicines through clinical stages faster. Making significant advancements in scientific knowledge and finding innovative ways to speed research and development is for those interested in playing the long game. The pivotal moments we have seen in the past decade and the moments yet to come reflect calculated risks. As a company, we tackle challenges and create solutions where few have invested and where there is considerable unmet need. Given that existing scientific information is often limited in the rare disease communities where we work, we look for ways to enhance the interconnectedness of patients, physicians, and research scientists in the spirit of unleashing the power of collaboration. While we aim to get it right the first time, science is fraught with failures. It is often from research failure that we learn and build upon that failure in order to charge forward with a clearer line of sight. For example, when a particular investigational medicine\u2019s mechanism of action is theorized to work for multiple conditions, it takes true commitment to investigate what didn\u2019t work for one disease and use the knowledge across its safety, toxicity, pharmacokinetics, and dosing to apply it to another disease state. That\u2019s why in order to speed the development of therapies and cures, we must have the scientific courage to keep going, even after failure. As CEO, the courage to try again after a failure is daunting, but what I know is that continuing our quest to research and find answers for patients will lead to new, better treatments for those living with rare diseases. Without scientific courage, true innovation does not happen. As a society, we must commit to sustained and robust investment in research and development, from supporting the basic research community to fostering collaborative development among physicians, scientists, patients, and biopharmaceutical companies. We must invest in education for our younger generations to ensure the scientific marathon can continue. And, while our US health-care system continues to experience pressures as it advances to meet the needs of the 21st-century population, we must work together to ensure patients, particularly rare disease populations, have access to these cures and breakthrough therapies. Sharing vital research tools like natural history registries brings together important, but often disparate, data from small rare disease groups. Registries can also help shape clinical research programs measures of efficacy through initiatives like the Rare Disease Cure Accelerator Data and Analytics Platform. Tools like this may allow for more efficient analysis of natural history and patient data and are critical in furthering patient-centric approaches to development. We know that knowledge is power\u2014and only by harnessing that power together can we truly begin to advance development and cures. Taking calculated risks with scientific courage requires us to laser focus on the \u201cwhy\u201d of medicine. At the core are people in need of help, people in need of support, people in need of a cure or therapy to address their illness. People like me. I am a patient who lives with a rare disease and an autoimmune disease and who intimately understands the importance of advancing our science to speed solutions. We will continue to employ all our resources to make this a reality. I know that people, especially those living with rare, marginalized diseases, are counting on us to take risks, fail, and try again. We won\u2019t let them down.\u00a0",
+    "format": "rich_text",
+    "processed": "Of the 7,000 known rare diseases in the world, only 5 percent have treatments. This means that a large majority of those who live with rare diseases are left without meaningful options\u2014and some, without hope. Our goal is to change those odds\u2014but to make that happen, we believe that science and compassion must work together. As a member of the biopharmaceutical community for more than 30 years, I\u2019ve seen drug development successes and failures, the impact a new medicine can have on patients\u2019 lives, and what a new therapy means to the scientific and physician communities that have persevered and worked tirelessly for a decade to bring that medicine to market. That\u2019s why at Horizon, we have built a culture that encourages our team to do things differently, which includes trying to break down traditional progress-impeding barriers to get potential rare disease medicines through clinical stages faster. Making significant advancements in scientific knowledge and finding innovative ways to speed research and development is for those interested in playing the long game. The pivotal moments we have seen in the past decade and the moments yet to come reflect calculated risks. As a company, we tackle challenges and create solutions where few have invested and where there is considerable unmet need. Given that existing scientific information is often limited in the rare disease communities where we work, we look for ways to enhance the interconnectedness of patients, physicians, and research scientists in the spirit of unleashing the power of collaboration. While we aim to get it right the first time, science is fraught with failures. It is often from research failure that we learn and build upon that failure in order to charge forward with a clearer line of sight. For example, when a particular investigational medicine\u2019s mechanism of action is theorized to work for multiple conditions, it takes true commitment to investigate what didn\u2019t work for one disease and use the knowledge across its safety, toxicity, pharmacokinetics, and dosing to apply it to another disease state. That\u2019s why in order to speed the development of therapies and cures, we must have the scientific courage to keep going, even after failure. As CEO, the courage to try again after a failure is daunting, but what I know is that continuing our quest to research and find answers for patients will lead to new, better treatments for those living with rare diseases. Without scientific courage, true innovation does not happen. As a society, we must commit to sustained and robust investment in research and development, from supporting the basic research community to fostering collaborative development among physicians, scientists, patients, and biopharmaceutical companies. We must invest in education for our younger generations to ensure the scientific marathon can continue. And, while our US health-care system continues to experience pressures as it advances to meet the needs of the 21st-century population, we must work together to ensure patients, particularly rare disease populations, have access to these cures and breakthrough therapies. Sharing vital research tools like natural history registries brings together important, but often disparate, data from small rare disease groups. Registries can also help shape clinical research programs measures of efficacy through initiatives like the Rare Disease Cure Accelerator Data and Analytics Platform. Tools like this may allow for more efficient analysis of natural history and patient data and are critical in furthering patient-centric approaches to development. We know that knowledge is power\u2014and only by harnessing that power together can we truly begin to advance development and cures. Taking calculated risks with scientific courage requires us to laser focus on the \u201cwhy\u201d of medicine. At the core are people in need of help, people in need of support, people in need of a cure or therapy to address their illness. People like me. I am a patient who lives with a rare disease and an autoimmune disease and who intimately understands the importance of advancing our science to speed solutions. We will continue to employ all our resources to make this a reality. I know that people, especially those living with rare, marginalized diseases, are counting on us to take risks, fail, and try again. We won\u2019t let them down.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

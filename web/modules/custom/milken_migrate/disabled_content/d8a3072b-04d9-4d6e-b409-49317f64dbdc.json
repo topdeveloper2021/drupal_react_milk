@@ -1,0 +1,83 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/china?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/milken_tags"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/milken_tags\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 34
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d8a3072b-04d9-4d6e-b409-49317f64dbdc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "milken_tags"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "China",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 26
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/milken_tags\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-18T20:59:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "China | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/taxonomy\/term\/china",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ],
+    "path": {
+        "alias": "\/taxonomy\/term\/china"
+    }
+}

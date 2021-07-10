@@ -1,0 +1,152 @@
+uuid: 68c7b304-f4f0-41ae-88af-b7be24bd6a64
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: media_podcast_episode
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - media
+migration_group: milken
+label: 'Paragraph--podcast episode VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/paragraph/podcast_episode'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/paragraph/podcast_episode
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - field_podcast_image
+    - field_transcript
+    - field_audio_file.field_media_audio_file
+  fields:
+    -
+      name: paragraph_id
+      label: 'Node ID'
+      selector: drupal_internal__id
+    -
+      name: paragraph_revision_id
+      label: 'Revision ID'
+      selector: drupal_internal__revision_id
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: langcode
+      label: 'Language Code'
+      selector: langcode
+    -
+      name: created
+      label: Created
+      selector: created
+    -
+      name: changed
+      label: Changed
+      selector: changed
+    -
+      name: status
+      label: Status
+      selector: status
+    -
+      name: body
+      label: Body
+      selector: /field_content_alternative_area/value
+    -
+      name: field_podcast_service_links
+      label: 'Service Links'
+      selector: field_podcast_service_links
+    -
+      name: summary
+      label: Summary
+      selector: field_summary
+    -
+      name: episode
+      label: Episode
+      selector: field_episode
+    -
+      name: transcript
+      label: Transscript
+      selector: field_transcript
+    -
+      name: audio_file
+      label: 'Audio File'
+      selector: field_audio_file
+    -
+      name: podcast_image
+      label: 'Podcast Image'
+      selector: field_podcast_image
+  constants:
+    title_prefix: 'Ep. '
+    title_separator: ': '
+  ids:
+    paragraph_id:
+      type: integer
+    paragraph_revision_id:
+      type: integer
+process:
+  id: paragraph_id
+  uuid: uuid
+  langcode:
+    plugin: default_value
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: true
+  uid:
+    plugin: default_value
+    default_value: 2
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+  field_service_links:
+    plugin: sub_process
+    source: field_podcast_service_links
+    process:
+      key: key
+      description: description
+      value: value
+  field_media_in_library:
+    plugin: default_value
+    default_value: true
+  field_summary/value: summary/value
+  field_summary/format:
+    plugin: default_value
+    default_value: full_html
+  field_episode: episode
+  field_media_image:
+    plugin: 'milken_migrate:remote_file'
+    source: podcast_image
+    alt_text: summary/value
+    title_text: summary/value
+  field_transcript:
+    plugin: 'milken_migrate:remote_file'
+    source: transcript
+  field_media_audio_file:
+    plugin: 'milken_migrate:remote_file'
+    source: audio_file
+  field_body/value: body
+  field_body/format:
+    plugin: default_value
+    default_value: full_html
+  name:
+    plugin: concat
+    source:
+      - constants/title_prefix
+      - episode
+      - constants/title_separator
+      - summary/value
+destination:
+  plugin: 'entity:media'
+  default_bundle: podcast_episode
+migration_dependencies: {  }

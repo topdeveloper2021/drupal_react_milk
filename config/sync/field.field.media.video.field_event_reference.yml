@@ -1,0 +1,21 @@
+uuid: 3a6f8da6-302f-4ce4-90c2-2f395aa3b032
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_event_reference
+    - media.type.video
+id: media.video.field_event_reference
+field_name: field_event_reference
+entity_type: media
+bundle: video
+label: 'Event Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:event'
+  handler_settings: {  }
+field_type: entity_reference

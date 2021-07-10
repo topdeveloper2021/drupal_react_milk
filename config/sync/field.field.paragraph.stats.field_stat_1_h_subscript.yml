@@ -1,0 +1,21 @@
+uuid: b64f411e-8358-4003-83c8-dd9a8de4114d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stat_1_h_subscript
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_stat_1_h_subscript
+field_name: field_stat_1_h_subscript
+entity_type: paragraph
+bundle: stats
+label: 'Stat 1 Header Subscript'
+description: 'Short subscript text to show after the first stat number value.'
+required: false
+translatable: false
+default_value:
+  -
+    value: dollars
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+{{ attach_library('milken_base/media_image') }}
+
+{% set media_value =  []
+  | merge({ 'entityTypeId': media.getEntityTypeId })
+  | merge({ 'id': media.uuid.value })
+  | merge({ 'type': media.bundle })
+  | merge({ 'drupal_internal__id': media.id })
+  | merge({ 'includes': "field_media_image" })
+%}
+
+
+<media-image
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ media_value | jsonapi }}"
+>
+
+</media-image>

@@ -1,0 +1,22 @@
+uuid: 7e0be063-51a6-4bfd-8dac-2b7d12a5feb0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - milken
+_core:
+  default_config_hash: c-06bbElRY5sKmglk74ppgTW93Et4-EJFyNiUZMb8JY
+id: milken_local_tasks
+theme: milken
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

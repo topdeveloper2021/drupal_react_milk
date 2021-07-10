@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7759\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/sJy8QaSC5R51eKXNs9D5E3Dh-KCtXlcu4Nu4U_JD9uc.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7759
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cbf79d8e-896e-4cd1-8905-4a3344791da0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 436
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/sJy8QaSC5R51eKXNs9D5E3Dh-KCtXlcu4Nu4U_JD9uc.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bc532dc6-0a6f-4283-a437-d5ca3996ef02"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Intangibles of Building a Great Hedge Fund: People as an Asset Class",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-27T20:03:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "What is the secret to building a great hedge fund? In this highly concentrated industry, 90 percent of assets under management are controlled by only 11 percent of the funds. With so much money going to so few, this market is one of the toughest for new managers to scale. Performance obviously matters, but veteran managers would argue that people make up the secret sauce that brings great performance and client trust. Our panel will discuss how a manager can pick the right strategies and people necessary to build a world-class investment team. Among the questions they will consider: Is a key-man fund better than the multi-manager model? Which do institutional clients prefer and which is easier to scale? And how to you attract the best analysts and portfolio managers? When the fund is down, what keeps investors in the game?",
+    "format": "rich_text",
+    "processed": "What is the secret to building a great hedge fund? In this highly concentrated industry, 90 percent of assets under management are controlled by only 11 percent of the funds. With so much money going to so few, this market is one of the toughest for new managers to scale. Performance obviously matters, but veteran managers would argue that people make up the secret sauce that brings great performance and client trust. Our panel will discuss how a manager can pick the right strategies and people necessary to build a world-class investment team. Among the questions they will consider: Is a key-man fund better than the multi-manager model? Which do institutional clients prefer and which is easier to scale? And how to you attract the best analysts and portfolio managers? When the fund is down, what keeps investors in the game?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/4IDyyq5Hh2k",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/sJy8QaSC5R51eKXNs9D5E3Dh-KCtXlcu4Nu4U_JD9uc.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

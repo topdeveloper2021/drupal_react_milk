@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/middle-market-where-shared-prosperity-deserves-cultivation?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/58?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 523
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0ab09e4b-2afd-429f-a298-ab7e36ef78a2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 523
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/58?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ce86427f-693c-4127-8bcd-308ec32e399e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Middle Market: Where Shared Prosperity Deserves Cultivation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T14:36:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-06T15:42:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/middle-market-where-shared-prosperity-deserves-cultivation",
+            "pid": 576,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Middle-market companies have the capacity to advance prosperity in their communities\u2014but they need support. <\/b><\/i> More than ever, the business headlines and social media chatter seem to be dominated by the nation\u2019s largest companies and biggest brands. From Elon Musk\u2019s tweets, Levi\u2019s IPO, and Disney\u2019s acquisition of Fox, the big corporate powerhouses dominate our attention. To be sure, these companies have a sizable impact on the economy and are perceived to be the leaders when it comes to product innovation and corporate stewardship. But what is often overlooked is how important businesses in the middle market are to ensuring the prosperity we have experienced over the last 30 years is shared by as many as possible. Big brands certainly move the markets, but we need to remember that the middle market (defined as companies with revenues between $10 million and $1 billion) accounts for more than one-third the nation\u2019s GDP and total employment, according to the National Center for the Middle Market. They are also responsible for 60 percent of new jobs in the private sector. Employment at middle-market companies grew by 5.4<u> percent<\/u> last year alone. As private equity investors in founder-led and family-owned middle-market companies, we play a role in helping this under-recognized part of the economy thrive. A significant part of that role involves thinking carefully about how we can add value to a business not just by increasing the top line and bottom line but also by collaborating with management to plan for the long term by adopting and improving on the best global business practices. We see opportunity partnering with middle-market companies to move to the next level of social and corporate responsibility\u2014focusing on all stakeholders, including the communities they operate in and the institutions that support them. What is more, we\u2019ve found that these businesses, especially ones that are family owned, are eager partners in ensuring their prosperity is shared by everyone. As we have evaluated hundreds of middle-market businesses over the years, we see a very real desire to invest heavily in innovation and disruption. In fact, with careful cultivation, these companies are in a unique position to more nimbly adopt progressive business practices or address societal inequalities through corporate initiatives. That results in prosperity not only for our investors and partners but also for employees, other stakeholders, and the surrounding community. According to the US Chamber of Commerce Foundation, middle-market companies are the \u201clife blood\u201d of Corporate Social Responsibility (CSR). We cannot have shared prosperity without focusing more on these companies, as they tend to have a greater direct effect on the communities in which they operate and on individual employees and other stakeholders. Many middle-market companies are still family owned, with strong cultures and shared values that have led to both business success and community engagement. Part of our job as investors and partners is to make sure those values are preserved as we help take the company to the next level of growth. A closer look at the corporate behavior of middle-market companies shows very encouraging signs. A recent report created by the RSM US Middle Market Business Index, in conjunction with Moody\u2019s Analytics and the US Chamber of Commerce, found that 90 percent of middle-market companies are engaged in some form of CSR. These companies invest broadly in community organizations, education, children and youth issues, and other areas to support the prosperity of their local communities, combat inequalities, and improve their business environment. The same report found that 88 percent of middle-market companies are focused on diversity and inclusion, indicating a commitment to equitable business models and inclusive growth as well. It is clear that businesses in the middle market are poised to employ ever progressive business practices in the future, but we, as stewards of capital, can play a significant role in helping them advance the prosperity of their communities and remain focused on the long term. In turn, these businesses will attract the next generation of business leaders, to whom a professional commitment to the well-being of society as a whole is increasingly important. While the nation\u2019s largest companies are vitally important to the economy, thought leaders,<br \/> institutions, and investors shouldn\u2019t ignore the importance of smaller companies in shaping our shared prosperity. With the right attention and support, we will only see the middle market grow as an economic force, as well as a source of innovation and a driver of shared prosperity.",
+    "format": "rich_text",
+    "processed": "<i><b>Middle-market companies have the capacity to advance prosperity in their communities\u2014but they need support. <\/b><\/i> More than ever, the business headlines and social media chatter seem to be dominated by the nation\u2019s largest companies and biggest brands. From Elon Musk\u2019s tweets, Levi\u2019s IPO, and Disney\u2019s acquisition of Fox, the big corporate powerhouses dominate our attention. To be sure, these companies have a sizable impact on the economy and are perceived to be the leaders when it comes to product innovation and corporate stewardship. But what is often overlooked is how important businesses in the middle market are to ensuring the prosperity we have experienced over the last 30 years is shared by as many as possible. Big brands certainly move the markets, but we need to remember that the middle market (defined as companies with revenues between $10 million and $1 billion) accounts for more than one-third the nation\u2019s GDP and total employment, according to the National Center for the Middle Market. They are also responsible for 60 percent of new jobs in the private sector. Employment at middle-market companies grew by 5.4<u> percent<\/u> last year alone. As private equity investors in founder-led and family-owned middle-market companies, we play a role in helping this under-recognized part of the economy thrive. A significant part of that role involves thinking carefully about how we can add value to a business not just by increasing the top line and bottom line but also by collaborating with management to plan for the long term by adopting and improving on the best global business practices. We see opportunity partnering with middle-market companies to move to the next level of social and corporate responsibility\u2014focusing on all stakeholders, including the communities they operate in and the institutions that support them. What is more, we\u2019ve found that these businesses, especially ones that are family owned, are eager partners in ensuring their prosperity is shared by everyone. As we have evaluated hundreds of middle-market businesses over the years, we see a very real desire to invest heavily in innovation and disruption. In fact, with careful cultivation, these companies are in a unique position to more nimbly adopt progressive business practices or address societal inequalities through corporate initiatives. That results in prosperity not only for our investors and partners but also for employees, other stakeholders, and the surrounding community. According to the US Chamber of Commerce Foundation, middle-market companies are the \u201clife blood\u201d of Corporate Social Responsibility (CSR). We cannot have shared prosperity without focusing more on these companies, as they tend to have a greater direct effect on the communities in which they operate and on individual employees and other stakeholders. Many middle-market companies are still family owned, with strong cultures and shared values that have led to both business success and community engagement. Part of our job as investors and partners is to make sure those values are preserved as we help take the company to the next level of growth. A closer look at the corporate behavior of middle-market companies shows very encouraging signs. A recent report created by the RSM US Middle Market Business Index, in conjunction with Moody\u2019s Analytics and the US Chamber of Commerce, found that 90 percent of middle-market companies are engaged in some form of CSR. These companies invest broadly in community organizations, education, children and youth issues, and other areas to support the prosperity of their local communities, combat inequalities, and improve their business environment. The same report found that 88 percent of middle-market companies are focused on diversity and inclusion, indicating a commitment to equitable business models and inclusive growth as well. It is clear that businesses in the middle market are poised to employ ever progressive business practices in the future, but we, as stewards of capital, can play a significant role in helping them advance the prosperity of their communities and remain focused on the long term. In turn, these businesses will attract the next generation of business leaders, to whom a professional commitment to the well-being of society as a whole is increasingly important. While the nation\u2019s largest companies are vitally important to the economy, thought leaders,<br \/> institutions, and investors shouldn\u2019t ignore the importance of smaller companies in shaping our shared prosperity. With the right attention and support, we will only see the middle market grow as an economic force, as well as a source of innovation and a driver of shared prosperity.",
+    "summary": null,
+    "summary_processed": ""
+}

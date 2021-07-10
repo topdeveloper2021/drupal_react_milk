@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/financial-services-innovation-look-asia-set-pace?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/176?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 804
+        }
+    ],
+    "uuid": [
+        {
+            "value": "43516701-893a-4bdf-b74f-ea35e68a51da"
+        }
+    ],
+    "vid": [
+        {
+            "value": 804
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/176?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e48ee337-20d4-475a-aad7-500fe5e9fa05"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In Financial Services Innovation, Look to Asia to Set the Pace ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-01T12:32:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-09-11T23:13:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/financial-services-innovation-look-asia-set-pace",
+            "pid": 857,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "It may sound strange, but many of us fortunate enough to live and work in Asia at this point in time have learned to take innovation for granted. In a region as big, diverse, and dynamic as this one, new technologies, business models, and opportunities are emerging constantly. But since I returned to Singapore 18 months ago to oversee Westpac\u2019s business in Asia Pacific, the region\u2019s managed to blow me away yet again. Innovation happens in a lot of places. But the speed of innovation, and the willingness to embrace it in Asia\u2019s financial services sector is, in my view, unprecedented\u2014and will set a benchmark for the rest of the world to follow. The astonishing rise of digital wallets in China has been well documented. Perhaps less understood is that Southeast Asia markets like Indonesia and Thailand are developing unique payment ecosystems of their own. Or that Asian institutions and regulators are successfully leveraging blockchain, big data, and other technology solutions to enhance complex processes like trade finance and anti-money laundering. In other words, the opportunity goes well beyond China and high-profile success stories like Alipay. This is a truly regional phenomenon. <b><i>The Leapfrog Effect <\/i><\/b> As I see it, there a few reasons for the astonishing pace of financial digitalization we\u2019ve seen in Asia. One is the fact that, in many markets, traditional financial infrastructure (i.e., brick and mortar bank branches) was limited to non-existent, enabling a leap straight to a digital-first approach. Another is the region\u2019s generally young, tech-savvy, and increasingly mobile population, accustomed to services being delivered at speed and on demand. This population also represents a vast and receptive potential customer base of billions, which has encouraged banks and FinTechs to rise to the challenge. Forward-looking regulators like the Monetary Authority of Singapore and the Hong Kong Monetary Authority, which have set up \u201csandboxes\u201d to allow companies to test out new financial products and services, also deserve credit. For all the potential, we also need to recognize it won\u2019t always be smooth sailing. While massive, the Asia market is also highly fragmented, with a patchwork of different regulatory regimes. The ability of institutions to move data across borders and secure data so customers can transact in confidence remains concerning. There\u2019s also the question of what these changes mean for traditional banks like ours that have for generations been the bedrock of the region\u2019s financial system. Could a new crop of digital competitors threaten the stability of that system or render standard banks obsolete? [KR(1] <b><i>Power in Partnerships <\/i><\/b> To me, these kind of worries miss the broader point: that we\u2019re in the middle of a surge of invention and new possibilities that have the potential to benefit everyone\u2014FinTechs, banks, and not least the end-customer. That\u2019s why Westpac has adopted a collaborative approach. By forging partnerships with FinTechs through our Reinventure fund and co.lab innovation hubs in Asia and Australia, we help them scale and make their ideas a reality, while learning from the new approaches they bring. By enabling FinTech partners to overlay new products and solutions onto the customer networks and resources we\u2019ve built (which, let\u2019s face it, aren\u2019t going anywhere anytime soon), we believe we can create better outcomes for our customers and the industry as a whole. We\u2019re expecting great things from these partnerships in Asia because, in many respects, the region is already blazing a banking trail. There\u2019s been incredible progress here with leveraging technology to deliver financial services to formerly underserved populations, helping them access markets and financing, grow, and prosper. It\u2019s in Asia that we\u2019re seeing banking combined with other services, from retail to travel, to create entire ecosystems that result in a seamless experience for the consumer. We believe, in other words, that the future is here\u2014and that the banks of the future should be here, too. [KR(1]Westpac would like this image displayed here (before the \u201cPower in Partnerships\u201d subhead). The image is saved as \u201cCorrea-image2-roadblocks\u201d in the \u201csubmitted images\u201d folder",
+    "format": "rich_text",
+    "processed": "It may sound strange, but many of us fortunate enough to live and work in Asia at this point in time have learned to take innovation for granted. In a region as big, diverse, and dynamic as this one, new technologies, business models, and opportunities are emerging constantly. But since I returned to Singapore 18 months ago to oversee Westpac\u2019s business in Asia Pacific, the region\u2019s managed to blow me away yet again. Innovation happens in a lot of places. But the speed of innovation, and the willingness to embrace it in Asia\u2019s financial services sector is, in my view, unprecedented\u2014and will set a benchmark for the rest of the world to follow. The astonishing rise of digital wallets in China has been well documented. Perhaps less understood is that Southeast Asia markets like Indonesia and Thailand are developing unique payment ecosystems of their own. Or that Asian institutions and regulators are successfully leveraging blockchain, big data, and other technology solutions to enhance complex processes like trade finance and anti-money laundering. In other words, the opportunity goes well beyond China and high-profile success stories like Alipay. This is a truly regional phenomenon. <b><i>The Leapfrog Effect <\/i><\/b> As I see it, there a few reasons for the astonishing pace of financial digitalization we\u2019ve seen in Asia. One is the fact that, in many markets, traditional financial infrastructure (i.e., brick and mortar bank branches) was limited to non-existent, enabling a leap straight to a digital-first approach. Another is the region\u2019s generally young, tech-savvy, and increasingly mobile population, accustomed to services being delivered at speed and on demand. This population also represents a vast and receptive potential customer base of billions, which has encouraged banks and FinTechs to rise to the challenge. Forward-looking regulators like the Monetary Authority of Singapore and the Hong Kong Monetary Authority, which have set up \u201csandboxes\u201d to allow companies to test out new financial products and services, also deserve credit. For all the potential, we also need to recognize it won\u2019t always be smooth sailing. While massive, the Asia market is also highly fragmented, with a patchwork of different regulatory regimes. The ability of institutions to move data across borders and secure data so customers can transact in confidence remains concerning. There\u2019s also the question of what these changes mean for traditional banks like ours that have for generations been the bedrock of the region\u2019s financial system. Could a new crop of digital competitors threaten the stability of that system or render standard banks obsolete? [KR(1] <b><i>Power in Partnerships <\/i><\/b> To me, these kind of worries miss the broader point: that we\u2019re in the middle of a surge of invention and new possibilities that have the potential to benefit everyone\u2014FinTechs, banks, and not least the end-customer. That\u2019s why Westpac has adopted a collaborative approach. By forging partnerships with FinTechs through our Reinventure fund and co.lab innovation hubs in Asia and Australia, we help them scale and make their ideas a reality, while learning from the new approaches they bring. By enabling FinTech partners to overlay new products and solutions onto the customer networks and resources we\u2019ve built (which, let\u2019s face it, aren\u2019t going anywhere anytime soon), we believe we can create better outcomes for our customers and the industry as a whole. We\u2019re expecting great things from these partnerships in Asia because, in many respects, the region is already blazing a banking trail. There\u2019s been incredible progress here with leveraging technology to deliver financial services to formerly underserved populations, helping them access markets and financing, grow, and prosper. It\u2019s in Asia that we\u2019re seeing banking combined with other services, from retail to travel, to create entire ecosystems that result in a seamless experience for the consumer. We believe, in other words, that the future is here\u2014and that the banks of the future should be here, too. [KR(1]Westpac would like this image displayed here (before the \u201cPower in Partnerships\u201d subhead). The image is saved as \u201cCorrea-image2-roadblocks\u201d in the \u201csubmitted images\u201d folder",
+    "summary": null,
+    "summary_processed": ""
+}

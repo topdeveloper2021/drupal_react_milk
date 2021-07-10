@@ -1,0 +1,19 @@
+uuid: 9b2a85b5-b271-461a-a10b-e8422c62952c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_middle_name
+id: grid_speakers.speakers.field_middle_name
+field_name: field_middle_name
+entity_type: grid_speakers
+bundle: speakers
+label: 'Middle Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

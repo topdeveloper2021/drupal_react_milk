@@ -1,0 +1,45 @@
+uuid: 1ed487f9-f986-4e67-928d-e75d276b8578
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-2
+label: Reports
+variant: block_display
+variant_settings:
+  blocks:
+    cfd4cc98-144a-4af6-ad16-f302a044d2dc:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: cfd4cc98-144a-4af6-ad16-f302a044d2dc
+      form_configuration:
+        id: reports_browser
+        type: media--report
+        view_mode: card
+        url: '/jsonapi/media/report?jsonapi_include=true'
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: bdac1d73-46e9-4fbb-ab9b-5db402598e5e
+  label: null
+  weight: 0
+  page_title: 'Explore Reports'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: /explore/reports
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

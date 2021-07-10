@@ -1,0 +1,29 @@
+uuid: 34d27ac0-7c37-4661-ac47-64754eeabe59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_program_initiatives
+    - media.type.report
+    - taxonomy.vocabulary.program_initiatives
+id: media.report.field_program_initiatives
+field_name: field_program_initiatives
+entity_type: media
+bundle: report
+label: 'Program Initiatives'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      program_initiatives: program_initiatives
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

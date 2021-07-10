@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/medical-technology-benefits-far-outweigh-costs-milken-institute-report-sizes-overall?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 66
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c35fdd8b-0bad-4654-b824-5ae5761843e3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 66
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Medical Technology: Benefits Far Outweigh Costs Milken Institute report sizes up overall economic impact of \"med tech\"",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-07-22T09:02:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/medical-technology-benefits-far-outweigh-costs-milken-institute-report-sizes-overall",
+            "pid": 119,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- As America ages and sedentary lifestyles and unhealthy diets become more common, experts agree the nation is suffering a sharp rise in the prevalence of chronic disease.So as the 21st century unfolds, some in the health-care industry argue that technology -- in the form of advanced diagnostic and therapeutic devices -- can meet the need for prevention and more effective management of illness. That beinslief, however, has been questioned by some researchers, who wonder whether the overall economic benefit of technical advances outweighs the costs. To help answer that question, researchers at the Milken Institute undertook a comprehensive examination of medical technology's impact on the economic burden of disease -- a positive benefit of more than $23 billion a year for the United States.The study released today, \"Healthy Savings: Medical Technology and the Economic Burden of Disease,\" also projects how future innovation in this sector would affect the health-care system and the larger economy.The study documents the full costs and broader economic benefits of health-care investments by examining innovations pertaining to four common causes of disability and death: heart disease, diabetes, colorectal cancer, and musculoskeletal disease. The report considers therapeutics and diagnostic devices that are widely used and have substantially affected the lives of patients as well as the overall U.S. economy.Among the 10 devices or device-based procedures studied are angioplasty, insulin infusion pumps, colonoscopies, and joint replacement surgery.The data demonstrate that the use of medical technology brings considerable economic benefits. Some are seen in both aggregate savings in treatment expenditures and prevention as well as the reduction of \"indirect impact\" through larger contributions to the economy -- for instance, the additional benefits to worker productivity that come with a healthier employee. \"The concept of indirect impact is a key part of our study,\" says Anusuya Chatterjee, Senior Economist at the Milken Institute and an author of the report. \"For example, joint replacement surgery can relieve pain, dramatically reduce sick days and raise productivity. This technology often improves the chances of curing a patient's condition, can extend his or her survival, and can boost the economy through expanded workforce participation and stronger on-job performance.\"As part of the study, the researchers constructed three alternative trajectories through 2035 for continued technological innovation for each of the four diseases. In the scenario that assumes medical technology innovations follow an accelerated path, the research points to a cumulative $1.4 trillion gain for the nation's economy.\"Healthy Savings\" does not examine specific policies that may affect incentives to invest in technology development, but it does make clear that such incentives have significant consequences for the economic costs and benefits generated by the American health-care system.\"The medical technologies studied generated economic returns that were substantially great than their costs,\" says Ross DeVol, Chief Research Officer at the Milken Institute and one of the study authors. \"Policies that support enhanced investment in development, improvement, and diffusion of medical technologies not only bring immense benefit to individual patients, but a brighter economic future for the country as a whole.\"For a copy of \"Healthy Savings: Medical Technology and the Economic Burden of Disease, by Anusuya Chatterjee, Jaque King, Sindu Kubendran and Ross DeVol, go to http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801499&cat=resrep. The study was made possible, in part, by support from AdvaMed, the Advanced Medical Technology Association.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- As America ages and sedentary lifestyles and unhealthy diets become more common, experts agree the nation is suffering a sharp rise in the prevalence of chronic disease.So as the 21st century unfolds, some in the health-care industry argue that technology -- in the form of advanced diagnostic and therapeutic devices -- can meet the need for prevention and more effective management of illness. That beinslief, however, has been questioned by some researchers, who wonder whether the overall economic benefit of technical advances outweighs the costs. To help answer that question, researchers at the Milken Institute undertook a comprehensive examination of medical technology's impact on the economic burden of disease -- a positive benefit of more than $23 billion a year for the United States.The study released today, \"Healthy Savings: Medical Technology and the Economic Burden of Disease,\" also projects how future innovation in this sector would affect the health-care system and the larger economy.The study documents the full costs and broader economic benefits of health-care investments by examining innovations pertaining to four common causes of disability and death: heart disease, diabetes, colorectal cancer, and musculoskeletal disease. The report considers therapeutics and diagnostic devices that are widely used and have substantially affected the lives of patients as well as the overall U.S. economy.Among the 10 devices or device-based procedures studied are angioplasty, insulin infusion pumps, colonoscopies, and joint replacement surgery.The data demonstrate that the use of medical technology brings considerable economic benefits. Some are seen in both aggregate savings in treatment expenditures and prevention as well as the reduction of \"indirect impact\" through larger contributions to the economy -- for instance, the additional benefits to worker productivity that come with a healthier employee. \"The concept of indirect impact is a key part of our study,\" says Anusuya Chatterjee, Senior Economist at the Milken Institute and an author of the report. \"For example, joint replacement surgery can relieve pain, dramatically reduce sick days and raise productivity. This technology often improves the chances of curing a patient's condition, can extend his or her survival, and can boost the economy through expanded workforce participation and stronger on-job performance.\"As part of the study, the researchers constructed three alternative trajectories through 2035 for continued technological innovation for each of the four diseases. In the scenario that assumes medical technology innovations follow an accelerated path, the research points to a cumulative $1.4 trillion gain for the nation's economy.\"Healthy Savings\" does not examine specific policies that may affect incentives to invest in technology development, but it does make clear that such incentives have significant consequences for the economic costs and benefits generated by the American health-care system.\"The medical technologies studied generated economic returns that were substantially great than their costs,\" says Ross DeVol, Chief Research Officer at the Milken Institute and one of the study authors. \"Policies that support enhanced investment in development, improvement, and diffusion of medical technologies not only bring immense benefit to individual patients, but a brighter economic future for the country as a whole.\"For a copy of \"Healthy Savings: Medical Technology and the Economic Burden of Disease, by Anusuya Chatterjee, Jaque King, Sindu Kubendran and Ross DeVol, go to http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801499&amp;cat=resrep. The study was made possible, in part, by support from AdvaMed, the Advanced Medical Technology Association.",
+    "summary": null,
+    "summary_processed": ""
+}

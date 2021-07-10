@@ -1,0 +1,9 @@
+uuid: 8dc321ee-a8d3-483a-a308-9932ca23b44b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.event
+type: meeting
+name: Meeting
+description: ''

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/health-prosperous-america?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/102?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 583
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d813b1c8-949b-4ed9-a08c-e2d82d0c5edb"
+        }
+    ],
+    "vid": [
+        {
+            "value": 583
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/102?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e3b2bf6e-b0ba-452e-8bbc-b82b3f494c86"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Health for a Prosperous America",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T08:32:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/health-prosperous-america",
+            "pid": 636,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>We need to look beyond the traditional boundaries of the medical lane to the issues that are impacting the health of Americans.<\/b><\/i> To ensure that everyone in our great country has the opportunity for a prosperous life, there are a few important things that matter, and one of them is health. Good health is critical, and the ability to maximize healthy life years is a strategic advantage in this highly competitive and stressful world. By many metrics, the United States is the most prosperous country in the history of the world. And yet, millions are left with health challenges and without health insurance or with coverage they cannot afford. Millions have their health affected by things like a lack of adequate housing, safe neighborhoods, unhealthy foods, and unrelenting stress, to name a few. The idea that we should live in a country that strives for a level playing field for opportunities and is set up to allow us all to thrive is important to me. In the corner of my office is an American flag that represents the tremendous opportunity this country offers to so many. It also reminds me that we must constantly set our sights higher, and it allows me to acknowledge my own responsibility to be a part of that progress. For Kaiser Permanente, it is rooted in our values\u2014we believe that life, liberty, and the pursuit of happiness (our definition of prosperity) require total health. We know that access to high-quality, affordable health care is critical to this effort. We also know that efforts beyond the hospital and doctor\u2019s office that affect our collective health are a big part of the equation as well. We have made progress in recent years in the sense that millions previously without insurance coverage have gained it. Still, nearly 30 million people lack coverage today\u2014a number that won\u2019t be acceptable until it is zero. According to a recent Gallup poll, one in four Americans skipped treatment because of cost. The same poll found Americans borrowed $88 billion to pay for care. This is simply unacceptable. My view is that we must continue to address affordability of coverage until we achieve universal coverage. But that alone won\u2019t be enough. We know that only 20 percent of health is attributed to medical care\u2014the remaining 80 percent is related to socioeconomic, environmental, or behavioral factors. We need to look beyond the traditional boundaries of the medical lane to the issues that are impacting the health of Americans. Kaiser Permanente is working with many others on these issues that affect health. Most recently, our efforts have focused on homelessness and housing security. That\u2019s because without a safe, stable place to live, it is nearly impossible to maintain health. We also know this is a pressing issue for many in our communities. We are also addressing things like safety, climate change, and food insecurity that impact our health. My hope is that health-care organizations will work with local government, community organizations, and the private sector to collaborate across a range of issues that relate to health. We will then begin to see a fundamental shift and recognition in all that goes into our total health to drive real prosperity for all. I believe health is achievable for everyone, and I know everyone can thrive.",
+    "format": "rich_text",
+    "processed": "<i><b>We need to look beyond the traditional boundaries of the medical lane to the issues that are impacting the health of Americans.<\/b><\/i> To ensure that everyone in our great country has the opportunity for a prosperous life, there are a few important things that matter, and one of them is health. Good health is critical, and the ability to maximize healthy life years is a strategic advantage in this highly competitive and stressful world. By many metrics, the United States is the most prosperous country in the history of the world. And yet, millions are left with health challenges and without health insurance or with coverage they cannot afford. Millions have their health affected by things like a lack of adequate housing, safe neighborhoods, unhealthy foods, and unrelenting stress, to name a few. The idea that we should live in a country that strives for a level playing field for opportunities and is set up to allow us all to thrive is important to me. In the corner of my office is an American flag that represents the tremendous opportunity this country offers to so many. It also reminds me that we must constantly set our sights higher, and it allows me to acknowledge my own responsibility to be a part of that progress. For Kaiser Permanente, it is rooted in our values\u2014we believe that life, liberty, and the pursuit of happiness (our definition of prosperity) require total health. We know that access to high-quality, affordable health care is critical to this effort. We also know that efforts beyond the hospital and doctor\u2019s office that affect our collective health are a big part of the equation as well. We have made progress in recent years in the sense that millions previously without insurance coverage have gained it. Still, nearly 30 million people lack coverage today\u2014a number that won\u2019t be acceptable until it is zero. According to a recent Gallup poll, one in four Americans skipped treatment because of cost. The same poll found Americans borrowed $88 billion to pay for care. This is simply unacceptable. My view is that we must continue to address affordability of coverage until we achieve universal coverage. But that alone won\u2019t be enough. We know that only 20 percent of health is attributed to medical care\u2014the remaining 80 percent is related to socioeconomic, environmental, or behavioral factors. We need to look beyond the traditional boundaries of the medical lane to the issues that are impacting the health of Americans. Kaiser Permanente is working with many others on these issues that affect health. Most recently, our efforts have focused on homelessness and housing security. That\u2019s because without a safe, stable place to live, it is nearly impossible to maintain health. We also know this is a pressing issue for many in our communities. We are also addressing things like safety, climate change, and food insecurity that impact our health. My hope is that health-care organizations will work with local government, community organizations, and the private sector to collaborate across a range of issues that relate to health. We will then begin to see a fundamental shift and recognition in all that goes into our total health to drive real prosperity for all. I believe health is achievable for everyone, and I know everyone can thrive.",
+    "summary": null,
+    "summary_processed": ""
+}

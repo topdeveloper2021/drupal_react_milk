@@ -1,0 +1,19 @@
+uuid: 752add95-3994-41eb-973d-2f518a55cd29
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_first_name
+id: people.staff.field_first_name
+field_name: field_first_name
+entity_type: people
+bundle: staff
+label: 'First Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

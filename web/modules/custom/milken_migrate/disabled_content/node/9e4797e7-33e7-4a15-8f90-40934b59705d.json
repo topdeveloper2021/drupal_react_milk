@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/business-tax-us-so-complex-its-reform-must-be-big?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 17
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9e4797e7-33e7-4a15-8f90-40934b59705d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 17
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Business Tax in the U.S. is So Complex, Its Reform Must Be Big",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-01-31T13:00:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/business-tax-us-so-complex-its-reform-must-be-big",
+            "pid": 70,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014In an article in the Milken Institute Review, Eric Toder, co-director of the\u00a0Urban-Brookings Tax Policy Center, leads readers down the tortuous path of business tax reform, made even more circuitous by the rapid growth of enterprises (including those owned by President Trump) that pass through their taxable income to individuals. \u201cThe U.S. system for taxing business income has entered a zone of baroque complexity that defies efforts to sync it with both the way businesses are organized in the United States and the growing integration of the global economy,\u201d he explains. \u201cSomething big has to give.\u201dAlso in the latest Milken Institute Review, and available at\u00a0MilkenReview.org:<b>Brad DeLong<\/b>, an economist at the University of California, offers a spirited\u00a0defense of \u201chelicopter money,\u201d\u00a0the as-yet-unused stimulus tool that\u2019s widely viewed as too good to be true. Just the ticket, he explains for dealing with stagnation in an era of low inflation and big fiscal deficits.<b>Jerry Taylor<\/b>, the president of the libertarian Niskanen Center in Washington, explains why the\u00a0time has come for a carbon tax to slow climate change\u00a0\u2013 and why even Republicans who have listened to the siren song of the climate change deniers should rethink their position. \u201cWe know that hedging against very-high-damage scenarios is economically rational even if the probability of catastrophe is modest,\u201d he writes. \u201cAnd we can be pretty sure that a carbon tax would deliver more abatement for the buck than the alternatives.\u201d<b>Eswar Prasad<\/b>, an economist at Cornell and the Brookings Institution, offers a nuts-and-bolts primer on how\u00a0China is using trade and investment to project power worldwide. \u201cChina is becoming a leader of the international community \u2013 not, as the West prefers, by being co-opted into existing institutions under the current rules of the game, but rather on its own terms,\u201d Prasad writes.<b>Maureen Japha<\/b>, director of regulatory policy at the Milken Institute\u2019s\u00a0<i>FasterCures<\/i>, outlines ways to\u00a0smooth the speed bumps as \u201cventure philanthropies\u201d make deals with medical researchers\u00a0unused to sharing control. \u201cThe new emphasis on sustainability on both sides is forcing all parties to reconsider how success will translate into income,\u201d she writes. \u201cWhat\u2019s important to keep in mind, though, is that everyone agrees that the first priority is getting effective and efficient treatments to patients.\u201d<b>Andreas Bergh<\/b>, an economist at Lund University in Sweden,\u00a0cautions policy wonks eager to imitate Sweden\u2019s social and economic policies. \u201cSurprising as it may seem to those who see Sweden as the triumph of the modern welfare state,\u201d he writes, \u201cSweden\u2019s success has largely been the result of trial and error, not to mention the beneficiary of the unintended consequences of public policy.\u201d<b>Tom Healey<\/b>, the coordinator of New Jersey\u2019s bipartisan Pension and Health Benefit Study Commission, offers an insider\u2019s view of the\u00a0battle to contain the ballooning employee benefits\u00a0of states and localities. \u201cUnfunded liabilities are a disaster in the making that lurk behind a gray wall of numbers, graphs and pie charts,\u201d he writes. \u201cAs Flint and Detroit found out, expecting the problem to recede with an uptick in the stock market or the wave of a consultant\u2019s wand is simply delusional.\u201d<b>Philip Martin<\/b>, an economist at the University of California (Davis) analyzes the\u00a0impact of the growing scarcity of cheap water and labor in transforming California agriculture. \u201cThe state\u2019s giant farm sector offers a fascinating picture of markets and regulation at work on steroids,\u201d Martin writes. \u201cWhat is emerging is a leaner, less tradition-bound industry -- and that is good news for the millions of rural residents desperate to avoid the sort of rapid dislocation that devastated rustbelt manufacturing in the 1980s and 1990s.\u201d<b>About the Milken Institute<\/b><br>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.milkeninstitute.org\u00a0<br>@milkeninstitutemilkenreview.org<br>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014In an article in the Milken Institute Review, Eric Toder, co-director of the\u00a0Urban-Brookings Tax Policy Center, leads readers down the tortuous path of business tax reform, made even more circuitous by the rapid growth of enterprises (including those owned by President Trump) that pass through their taxable income to individuals. \u201cThe U.S. system for taxing business income has entered a zone of baroque complexity that defies efforts to sync it with both the way businesses are organized in the United States and the growing integration of the global economy,\u201d he explains. \u201cSomething big has to give.\u201dAlso in the latest Milken Institute Review, and available at\u00a0MilkenReview.org:<b>Brad DeLong<\/b>, an economist at the University of California, offers a spirited\u00a0defense of \u201chelicopter money,\u201d\u00a0the as-yet-unused stimulus tool that\u2019s widely viewed as too good to be true. Just the ticket, he explains for dealing with stagnation in an era of low inflation and big fiscal deficits.<b>Jerry Taylor<\/b>, the president of the libertarian Niskanen Center in Washington, explains why the\u00a0time has come for a carbon tax to slow climate change\u00a0\u2013 and why even Republicans who have listened to the siren song of the climate change deniers should rethink their position. \u201cWe know that hedging against very-high-damage scenarios is economically rational even if the probability of catastrophe is modest,\u201d he writes. \u201cAnd we can be pretty sure that a carbon tax would deliver more abatement for the buck than the alternatives.\u201d<b>Eswar Prasad<\/b>, an economist at Cornell and the Brookings Institution, offers a nuts-and-bolts primer on how\u00a0China is using trade and investment to project power worldwide. \u201cChina is becoming a leader of the international community \u2013 not, as the West prefers, by being co-opted into existing institutions under the current rules of the game, but rather on its own terms,\u201d Prasad writes.<b>Maureen Japha<\/b>, director of regulatory policy at the Milken Institute\u2019s\u00a0<i>FasterCures<\/i>, outlines ways to\u00a0smooth the speed bumps as \u201cventure philanthropies\u201d make deals with medical researchers\u00a0unused to sharing control. \u201cThe new emphasis on sustainability on both sides is forcing all parties to reconsider how success will translate into income,\u201d she writes. \u201cWhat\u2019s important to keep in mind, though, is that everyone agrees that the first priority is getting effective and efficient treatments to patients.\u201d<b>Andreas Bergh<\/b>, an economist at Lund University in Sweden,\u00a0cautions policy wonks eager to imitate Sweden\u2019s social and economic policies. \u201cSurprising as it may seem to those who see Sweden as the triumph of the modern welfare state,\u201d he writes, \u201cSweden\u2019s success has largely been the result of trial and error, not to mention the beneficiary of the unintended consequences of public policy.\u201d<b>Tom Healey<\/b>, the coordinator of New Jersey\u2019s bipartisan Pension and Health Benefit Study Commission, offers an insider\u2019s view of the\u00a0battle to contain the ballooning employee benefits\u00a0of states and localities. \u201cUnfunded liabilities are a disaster in the making that lurk behind a gray wall of numbers, graphs and pie charts,\u201d he writes. \u201cAs Flint and Detroit found out, expecting the problem to recede with an uptick in the stock market or the wave of a consultant\u2019s wand is simply delusional.\u201d<b>Philip Martin<\/b>, an economist at the University of California (Davis) analyzes the\u00a0impact of the growing scarcity of cheap water and labor in transforming California agriculture. \u201cThe state\u2019s giant farm sector offers a fascinating picture of markets and regulation at work on steroids,\u201d Martin writes. \u201cWhat is emerging is a leaner, less tradition-bound industry -- and that is good news for the millions of rural residents desperate to avoid the sort of rapid dislocation that devastated rustbelt manufacturing in the 1980s and 1990s.\u201d<b>About the Milken Institute<\/b><br \/>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.milkeninstitute.org\u00a0<br \/>@milkeninstitutemilkenreview.org<br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

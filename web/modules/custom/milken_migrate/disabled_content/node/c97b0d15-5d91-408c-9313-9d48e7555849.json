@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/future-health-humanwide?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/99?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 580
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c97b0d15-5d91-408c-9313-9d48e7555849"
+        }
+    ],
+    "vid": [
+        {
+            "value": 580
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/99?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8805fae9-9fdf-40c6-adb0-0a3ca6d7e110"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Future of Health Is Humanwide",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T18:51:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/future-health-humanwide",
+            "pid": 633,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Today, most people\u2019s interactions with the health-care system are reactive, driven by crisis and disease. Some of us have the resources to engage in routine checkups or regular physical exams, but most of us only go to the doctor when something is wrong. Our health-care system was built around this old model, with physician compensation tied directly to providing care for patients who were already sick. As a physician, getting to examine a patient just once a year is like watching a single frame of a movie, and about as edifying. It\u2019s well known that treating health care as a predominantly reactive practice drives up costs and doesn\u2019t do much to establish long-term health and wellness. At Stanford Medicine, we are focused on moving past this reactive model of care and advancing a vision we call Precision Health. The goal of Precision Health is to predict, prevent, and cure disease\u2014precisely. Critically, in that order. It is about treating patients holistically as individuals and taking a proactive approach to disease. To fully advance to the next stage in patient care, providers must shift their focus and embrace a new model of care delivery that takes advantage of modern medical tools. Precision Health does this by making full use of the tools inherent to precision medicine, such as big data analytics and genomics. But it\u2019s not just about new technology\u2014mindset also plays a key role. Precision Health can only reach its true potential by combining the techniques of precision medicine with a value-focused mentality, which means keeping in mind how variables like behavior and environment impact health. In practice, this is a major shift from the traditional \u201csick care\u201d model that has driven the health-care industry. We already have the tools available to entirely rethink our approach to treating illness and to establish healthy behaviors in our patients by focusing on personal details and tailoring health care to the unique biology, traits, and environmental factors that impact each patient. With this, the full realization of Precision Health is upstream\u2014before disease has a chance to take hold, which is when care interventions can have the greatest impact on a person\u2019s long-term health. It should be no surprise, then, that one of the core tenets of Precision Health is the need to move toward value-based care\u2014care that ties payments to outcomes rather than services provided\u2014in order to shift the balance back toward treating patients as people. A study by Stanford Medicine\u2019s Arnold Milstein illustrates some key value-based care best practices we take to heart. By focusing on things like coordinating care, developing protocols and clinical support tools for physicians, and having clear compensation structures that reward value over volume, we as a nation could save billions of dollars and simultaneously improve the practice of care for physicians and patients alike. There is, perhaps, no better example of Precision Health in action than Stanford Medicine\u2019s Humanwide pilot program, which aims to test the principles of Precision Health in a practical setting. In this case, that setting is a clinic in our own backyard, Santa Clara, CA. We\u2019re doing this by incorporating pharmacogenetics, wearables, personalized wellness coaching, and many other tools to paint a detailed picture of what drives meaningful change and achieves the best health outcomes for patients not just now, but over the long term. It won\u2019t be enough for physicians and health systems to individually change their approach to providing care. The reality is the structural motivating factors behind things like physician compensation need to shift as well. This will allow for the real change that needs to happen at the bedside and in the lab. The sooner we get to value-based care, the sooner physicians can begin treating their patients like the complex individuals they are. What is certain: this future will look radically different from the health care we practice today.",
+    "format": "rich_text",
+    "processed": "Today, most people\u2019s interactions with the health-care system are reactive, driven by crisis and disease. Some of us have the resources to engage in routine checkups or regular physical exams, but most of us only go to the doctor when something is wrong. Our health-care system was built around this old model, with physician compensation tied directly to providing care for patients who were already sick. As a physician, getting to examine a patient just once a year is like watching a single frame of a movie, and about as edifying. It\u2019s well known that treating health care as a predominantly reactive practice drives up costs and doesn\u2019t do much to establish long-term health and wellness. At Stanford Medicine, we are focused on moving past this reactive model of care and advancing a vision we call Precision Health. The goal of Precision Health is to predict, prevent, and cure disease\u2014precisely. Critically, in that order. It is about treating patients holistically as individuals and taking a proactive approach to disease. To fully advance to the next stage in patient care, providers must shift their focus and embrace a new model of care delivery that takes advantage of modern medical tools. Precision Health does this by making full use of the tools inherent to precision medicine, such as big data analytics and genomics. But it\u2019s not just about new technology\u2014mindset also plays a key role. Precision Health can only reach its true potential by combining the techniques of precision medicine with a value-focused mentality, which means keeping in mind how variables like behavior and environment impact health. In practice, this is a major shift from the traditional \u201csick care\u201d model that has driven the health-care industry. We already have the tools available to entirely rethink our approach to treating illness and to establish healthy behaviors in our patients by focusing on personal details and tailoring health care to the unique biology, traits, and environmental factors that impact each patient. With this, the full realization of Precision Health is upstream\u2014before disease has a chance to take hold, which is when care interventions can have the greatest impact on a person\u2019s long-term health. It should be no surprise, then, that one of the core tenets of Precision Health is the need to move toward value-based care\u2014care that ties payments to outcomes rather than services provided\u2014in order to shift the balance back toward treating patients as people. A study by Stanford Medicine\u2019s Arnold Milstein illustrates some key value-based care best practices we take to heart. By focusing on things like coordinating care, developing protocols and clinical support tools for physicians, and having clear compensation structures that reward value over volume, we as a nation could save billions of dollars and simultaneously improve the practice of care for physicians and patients alike. There is, perhaps, no better example of Precision Health in action than Stanford Medicine\u2019s Humanwide pilot program, which aims to test the principles of Precision Health in a practical setting. In this case, that setting is a clinic in our own backyard, Santa Clara, CA. We\u2019re doing this by incorporating pharmacogenetics, wearables, personalized wellness coaching, and many other tools to paint a detailed picture of what drives meaningful change and achieves the best health outcomes for patients not just now, but over the long term. It won\u2019t be enough for physicians and health systems to individually change their approach to providing care. The reality is the structural motivating factors behind things like physician compensation need to shift as well. This will allow for the real change that needs to happen at the bedside and in the lab. The sooner we get to value-based care, the sooner physicians can begin treating their patients like the complex individuals they are. What is certain: this future will look radically different from the health care we practice today.",
+    "summary": null,
+    "summary_processed": ""
+}

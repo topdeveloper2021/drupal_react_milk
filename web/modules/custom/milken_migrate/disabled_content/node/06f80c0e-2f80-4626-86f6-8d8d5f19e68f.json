@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/jefferies-michael-klowden-named-ceo-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 251
+        }
+    ],
+    "uuid": [
+        {
+            "value": "06f80c0e-2f80-4626-86f6-8d8d5f19e68f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 251
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "JEFFERIES' MICHAEL KLOWDEN NAMED CEO OF MILKEN INSTITUTE",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/jefferies-michael-klowden-named-ceo-milken-institute",
+            "pid": 304,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - <b>Michael L. Klowden <\/b>has been named President and Chief Executive Officer of the Milken Institute. A prominent Los Angeles businessman and lawyer, Klowden was Vice Chairman of Jefferies & Company, an institutional brokerage firm and investment bank. <BR>\nInstitute Chairman Michael Milken said, \"Mike Klowden has a distinguished record in helping both Jefferies & Company and the law firm of Morgan, Lewis & Bockius grow into industry leaders. His management skill and vision will help assure the Institute\u2032s continued growth and recognition as one of our nation\u2032s leading economic research organizations.\" <BR> Klowden, 56, becomes the third president in the 10-year history of the Institute, a non-profit, independent economic think tank. \"The Milken Institute has promoted sound, forward-thinking economic policy in the U.S. and around the world,\" he said. \"Their work in advancing real-life, workable solutions to long-standing social and economic problems is outstanding, and I\u2032m proud to be a part of the organization.\" <BR> Klowden joined Jefferies & Company in 1995. He was President and Chief Operating Officer until January 2000, when he became Vice Chairman, with primary responsibility for the company\u2032s strategic relations. Before Jefferies, he was a Senior Partner at Morgan, Lewis & Bockius, the fourth largest law firm in the United States, where he served on the Management Committee and Governing Board. He was also Managing Partner of the firm\u2032s Los Angeles Office and Vice Chairman of the Business and Finance Section. <BR> Klowden is a trustee of the University of Chicago, where he earned his B.A. He holds a law degree from Harvard Law School. He succeeds Donald H. Straszheim, who became Vice Chairman of the Institute in July. <BR>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - <b>Michael L. Klowden <\/b>has been named President and Chief Executive Officer of the Milken Institute. A prominent Los Angeles businessman and lawyer, Klowden was Vice Chairman of Jefferies &amp; Company, an institutional brokerage firm and investment bank. <br \/>\nInstitute Chairman Michael Milken said, \"Mike Klowden has a distinguished record in helping both Jefferies &amp; Company and the law firm of Morgan, Lewis &amp; Bockius grow into industry leaders. His management skill and vision will help assure the Institute\u2032s continued growth and recognition as one of our nation\u2032s leading economic research organizations.\" <br \/> Klowden, 56, becomes the third president in the 10-year history of the Institute, a non-profit, independent economic think tank. \"The Milken Institute has promoted sound, forward-thinking economic policy in the U.S. and around the world,\" he said. \"Their work in advancing real-life, workable solutions to long-standing social and economic problems is outstanding, and I\u2032m proud to be a part of the organization.\" <br \/> Klowden joined Jefferies &amp; Company in 1995. He was President and Chief Operating Officer until January 2000, when he became Vice Chairman, with primary responsibility for the company\u2032s strategic relations. Before Jefferies, he was a Senior Partner at Morgan, Lewis &amp; Bockius, the fourth largest law firm in the United States, where he served on the Management Committee and Governing Board. He was also Managing Partner of the firm\u2032s Los Angeles Office and Vice Chairman of the Business and Finance Section. <br \/> Klowden is a trustee of the University of Chicago, where he earned his B.A. He holds a law degree from Harvard Law School. He succeeds Donald H. Straszheim, who became Vice Chairman of the Institute in July. <br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,13 @@
+command:
+  name: site:milken:modules
+  description: 'Install site site modules'
+commands:
+    # ensure modules enabled EXCEPT search and comment
+  - command: 'theme:install'
+    options:
+      learning: true
+      set-default: true
+    arguments:
+      theme:
+        - adminimal_theme
+

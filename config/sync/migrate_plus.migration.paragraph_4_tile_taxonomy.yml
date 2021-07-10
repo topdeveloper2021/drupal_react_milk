@@ -1,0 +1,115 @@
+uuid: dbc4268e-dd8e-4d6e-94b4-ebaad8e794c2
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: paragraph_4_tile_taxonomy
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: milken
+label: 'Paragraph--4_tile_section VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/paragraph/4_tile_section'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/paragraph/4_tile_section
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - field_topic_tag_sarasa
+    - field_topic_tag_sarasa.vid
+  fields:
+    -
+      name: paragraph_id
+      label: 'Node ID'
+      selector: /drupal_internal__id
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: title
+      label: title
+      selector: /field_title
+    -
+      name: langcode
+      label: 'Language Code'
+      selector: /langcode
+    -
+      name: field_topic_tag_sarasa
+      label: 'Vocabulary Tag'
+      selector: /field_topic_tag_sarasa
+    -
+      name: tag_machine_name
+      label: 'Topic Tag'
+      selector: /field_topic_tag_sarasa/machine_name
+    -
+      name: tag_vocabulary
+      label: 'Topic Tag'
+      selector: /field_topic_tag_sarasa/vid/drupal_internal__vid
+    -
+      name: field_icon
+      label: Icon
+      selector: /field_icon
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: status
+      label: Status
+      selector: /status
+    -
+      name: field_url
+      label: Url
+      selector: /field_url
+  ids:
+    paragraph_id:
+      type: integer
+    uuid:
+      type: string
+process:
+  id: paragraph_id
+  field_title: title
+  uuid: uuid
+  langcode:
+    plugin: default_value
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: true
+  uid:
+    plugin: default_value
+    default_value: 2
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+  queue_machine_name:
+    plugin: machine_name
+    source: title
+  four_tile_items:
+    -
+      plugin: skip_on_empty
+      source: field_topic_tag_sarasa
+      message: 'Field field_topic_tag_sarasa is missing'
+      method: row
+    -
+      plugin: 'milken_migrate:jsonapi_taxonomy'
+      source: field_topic_tag_sarasa
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: tiles_taxonomy
+migration_dependencies: {  }

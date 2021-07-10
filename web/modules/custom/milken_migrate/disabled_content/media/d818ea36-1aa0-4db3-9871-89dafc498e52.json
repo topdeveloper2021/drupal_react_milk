@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7839\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/t3GtJHYPUXuFHVgfSW7Jjrx5iMwqkp2d9HGm66C8k7w.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7839
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d818ea36-1aa0-4db3-9871-89dafc498e52"
+        }
+    ],
+    "vid": [
+        {
+            "value": 496
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/t3GtJHYPUXuFHVgfSW7Jjrx5iMwqkp2d9HGm66C8k7w.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a5bd972c-761e-4373-bf31-b64f2eedb54c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Institutional Investors: Patient Capital in an Impatient World",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T18:50:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "While pension funds are still the leading source of \"patient\" capital, often deployed in financing infrastructure and building long-term business value, the amount they provide has declined markedly over the years. Persistent low rates of return across conservative asset classes are prompting investors to stretch for return and yield by increasing their allocations to equities and alternative investments such as hedge funds, private equity and real estate. At the same time, the rise of short-term benchmarking, along with regulatory change, has led funds to shrink their time horizons. Do funds have an ethical obligation to think long-term? Can pensions do that while meeting the demographically driven demand for payouts from their members? How can CIOs manage their portfolios and meet plan obligations in the current market environment? What changes are they weighing to their governance, compliance and asset allocation strategies as they reassess risk\/return strategies?",
+    "format": "rich_text",
+    "processed": "While pension funds are still the leading source of \"patient\" capital, often deployed in financing infrastructure and building long-term business value, the amount they provide has declined markedly over the years. Persistent low rates of return across conservative asset classes are prompting investors to stretch for return and yield by increasing their allocations to equities and alternative investments such as hedge funds, private equity and real estate. At the same time, the rise of short-term benchmarking, along with regulatory change, has led funds to shrink their time horizons. Do funds have an ethical obligation to think long-term? Can pensions do that while meeting the demographically driven demand for payouts from their members? How can CIOs manage their portfolios and meet plan obligations in the current market environment? What changes are they weighing to their governance, compliance and asset allocation strategies as they reassess risk\/return strategies?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/uCm9oU-K6Bo",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/t3GtJHYPUXuFHVgfSW7Jjrx5iMwqkp2d9HGm66C8k7w.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

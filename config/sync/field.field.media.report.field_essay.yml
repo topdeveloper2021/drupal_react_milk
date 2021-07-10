@@ -1,0 +1,23 @@
+uuid: 729c0b83-426d-43e4-b29d-fd6373cf8546
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_essay
+    - media.type.report
+  module:
+    - link
+id: media.report.field_essay
+field_name: field_essay
+entity_type: media
+bundle: report
+label: Essay
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

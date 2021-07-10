@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+export ENV=live
+export SITE=freshdrupalmi
+export FILES_FOLDER=`realpath db/files`
+
+## YOUR SSH KEY MUST BE REGISTERED WITH PANTHEON AND SHARED WITH THE DOCKER CONTAINER FOR THIS TO WORK
+rsync -rvlz --copy-unsafe-links --size-only --checksum --ipv4 --progress -e 'ssh -p 2222' ${FILES_FOLDER} live.3f2a3ea1-fe0b-478b-9c9f-55b30cc10325@appserver.live.3f2a3ea1-fe0b-478b-9c9f-55b30cc10325.drush.in:files/

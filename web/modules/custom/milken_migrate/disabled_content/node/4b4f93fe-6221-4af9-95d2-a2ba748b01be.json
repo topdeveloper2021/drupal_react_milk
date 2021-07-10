@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/funding-future-new-report-explores-how-businesses-raise-capital-firms-prefer-finance?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 566
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4b4f93fe-6221-4af9-95d2-a2ba748b01be"
+        }
+    ],
+    "vid": [
+        {
+            "value": 566
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Funding the future: new report explores how businesses raise capital -- Firms prefer to finance themselves first, then turn to debt",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-05-12T15:11:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T13:40:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/funding-future-new-report-explores-how-businesses-raise-capital-firms-prefer-finance",
+            "pid": 619,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON \u2013 Small and mid-size businesses are the backbone of the American economy, and access to capital is the fuel that lets them thrive. A unique survey, co-authored by the Milken Institute\u2019s Center for Financial Markets (CFM) and the National Center for the Middle Market (NCMM), sampled 636 business owners and C-suite executives to discover present practices for gaining access to capital and to gauge their outlook for growth. The purpose of the research is to map the markets now and reveal opportunities in how companies use their current capital, how providers of capital serve these companies, and how public policy influences the two.Among the findings in the survey report, \u201cAccess to Capital: How Small and Mid-size Businesses are Funding Their Futures\u201d:Self-financing is preferred, debt is the second choice, and everything else is a distant third.To the extent that outside capital is needed, businesses strongly prefer bank debt.Expansion is on the horizon. The majority of the surveyed firms plan to grow in the near future, and the cost of capital is no deterrent.\nSize may bring sophistication. Middle-market firms are more likely than smaller ones to set targets for debt loads, prepare annual budgets, and follow formal processes to evaluating debt strategies and investments.\n\u201cThis is one of the first studies of access to capital conducted from the standpoint of the people who seek it\u2014the companies and executives\u2014rather than from the point of view of people who provide it,\u201d remarks Thomas Stewart, executive director of NCMM. \u201cI hope lenders, investors, and regulators all will be able to play their roles better as a result.\u201d\u201cA policy environment that encourages effective access to capital is essential to a robust and growing economy,\u201d said Brian Knight, associate director of financial policy at CFM. \u201cTo work, policy makers need to understand what methods business owners use, what they want to use, and why. I hope this research will help shed light on that question.\u201dGE Capital, the financial services unit of General Electric, which provides loans to many small and mid-size businesses, emphasizes the importance of this survey. \u201cUnderstanding where small and middle-market companies are getting capital, but also what they want out of capital providers, is essential,\u201d said Maran Nalluswami, senior managing director at GE Capital. \u201cThis report is an important contribution to that cause.\u201d\u201cWe believe that small businesses need better and easier ways to gain access to capital, and we applaud the work the Milken Institute and the National Center for the Middle Market are doing in this space,\u201d said James Hobson, chief operating officer of OnDeck, a lender that\u2019s been involved with CFM programs. \u201cBy more clearly understanding the issues small businesses face, policymakers and market leaders can better craft solutions to ensure America\u2019s small businesses get the financing they need, when they need it.\u201dGet Access to Capital at no charge here: http:\/\/www.milkeninstitute.org\/publications\/view\/706",
+    "format": "rich_text",
+    "processed": "WASHINGTON \u2013 Small and mid-size businesses are the backbone of the American economy, and access to capital is the fuel that lets them thrive. A unique survey, co-authored by the Milken Institute\u2019s Center for Financial Markets (CFM) and the National Center for the Middle Market (NCMM), sampled 636 business owners and C-suite executives to discover present practices for gaining access to capital and to gauge their outlook for growth. The purpose of the research is to map the markets now and reveal opportunities in how companies use their current capital, how providers of capital serve these companies, and how public policy influences the two.Among the findings in the survey report, \u201cAccess to Capital: How Small and Mid-size Businesses are Funding Their Futures\u201d:Self-financing is preferred, debt is the second choice, and everything else is a distant third.To the extent that outside capital is needed, businesses strongly prefer bank debt.Expansion is on the horizon. The majority of the surveyed firms plan to grow in the near future, and the cost of capital is no deterrent.\nSize may bring sophistication. Middle-market firms are more likely than smaller ones to set targets for debt loads, prepare annual budgets, and follow formal processes to evaluating debt strategies and investments.\n\u201cThis is one of the first studies of access to capital conducted from the standpoint of the people who seek it\u2014the companies and executives\u2014rather than from the point of view of people who provide it,\u201d remarks Thomas Stewart, executive director of NCMM. \u201cI hope lenders, investors, and regulators all will be able to play their roles better as a result.\u201d\u201cA policy environment that encourages effective access to capital is essential to a robust and growing economy,\u201d said Brian Knight, associate director of financial policy at CFM. \u201cTo work, policy makers need to understand what methods business owners use, what they want to use, and why. I hope this research will help shed light on that question.\u201dGE Capital, the financial services unit of General Electric, which provides loans to many small and mid-size businesses, emphasizes the importance of this survey. \u201cUnderstanding where small and middle-market companies are getting capital, but also what they want out of capital providers, is essential,\u201d said Maran Nalluswami, senior managing director at GE Capital. \u201cThis report is an important contribution to that cause.\u201d\u201cWe believe that small businesses need better and easier ways to gain access to capital, and we applaud the work the Milken Institute and the National Center for the Middle Market are doing in this space,\u201d said James Hobson, chief operating officer of OnDeck, a lender that\u2019s been involved with CFM programs. \u201cBy more clearly understanding the issues small businesses face, policymakers and market leaders can better craft solutions to ensure America\u2019s small businesses get the financing they need, when they need it.\u201dGet Access to Capital at no charge here: http:\/\/www.milkeninstitute.org\/publications\/view\/706",
+    "summary": null,
+    "summary_processed": ""
+}

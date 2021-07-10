@@ -1,0 +1,81 @@
+# Use this docker-compose file to host the site locally
+version: "3.7"
+services:
+  nginx:
+    container_name: mi
+    image: milken/nginx-dev
+    expose:
+      - 80
+      - 9222
+    depends_on:
+      - php
+      - mysql
+    links:
+      - php
+      - mysql
+    volumes:
+      - ".:/var/www"
+    ports:
+      - "80:80"
+      - "443:443"
+      - "9222:9222"
+    env_file:
+      - .env
+
+  php:
+    container_name: mi-php
+    image: milken/php-dev:composer2
+    expose:
+      - "9000"
+    ports:
+      - "9000:9000"
+    external_links:
+      - solr-ssl_solr-network:milkensolr-nginx
+    volumes:
+      - ".:/var/www"
+      - "$HOME/.terminus/cache:/root/.terminus/cache:cached"
+      - type: bind
+        source: $HOME/.ssh
+        target: /root/.ssh
+        read_only: true
+    links:
+      - redis
+      - mysql
+    env_file:
+      - .env
+    environment:
+      - BACKUP_FILE_NAME=backup.sql.gz
+      - DATABASE_NAME=drupal8
+
+  mysql:
+    container_name: mi-mysql
+    image: milken/mysql-dev
+    #volumes:
+    # - './db:/var/lib/mysql'
+    expose:
+      - "3306"
+    ports:
+      - "33067:3306"
+    env_file:
+      - .env
+
+  redis:
+    container_name: mi-redis
+    image: redis
+    expose:
+      - "6379"
+
+#  grid:
+#    image: mcr.microsoft.com/mssql/server:2017-CU8-ubuntu
+#    environment:
+#      - ACCEPT_EULA=Y
+#      - SA_PASSWORD=drupal^99^DRUPAL
+#      - MSSQL_PID=developer
+#    expose:
+#      - '1433'
+#    ports:
+#      - "1433:1433"
+
+volumes:
+  web: {}
+  initmysql: {}

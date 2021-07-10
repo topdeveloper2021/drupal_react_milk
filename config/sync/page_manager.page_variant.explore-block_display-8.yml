@@ -1,0 +1,45 @@
+uuid: cac0d9a7-5918-4f2f-925c-8b137a318872
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-8
+label: Slides
+variant: block_display
+variant_settings:
+  blocks:
+    26f9a340-4eb0-4f83-86f6-144dad9ab4fd:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: 26f9a340-4eb0-4f83-86f6-144dad9ab4fd
+      form_configuration:
+        id: slides_browser
+        type: slide--full_width_one_column
+        view_mode: card
+        url: '/jsonapi/slide/full_width_one_column?jsonapi_include=true'
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: b922c11d-79fe-4bab-b365-e5ae5d5bcd5c
+  label: null
+  weight: 0
+  page_title: 'Explore Slides'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: /explore/slides
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,9 @@
+command:
+  name: site:milken:runtests
+  description: 'Run knowledge center api tests'
+commands:
+  - command: exec
+    arguments:
+      bin:  phpunit -c ../phpunit.xml --group=umgcentral --testdox
+    options:
+      working-directory: "/var/www/html"

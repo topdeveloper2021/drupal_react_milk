@@ -1,0 +1,55 @@
+uuid: 927d97c1-177a-45d0-8d0e-9d6ff3a1be73
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.tabs
+    - field.field.paragraph.paragraph_tab.field_tab_content
+    - paragraphs.paragraphs_type.paragraph_tab
+  module:
+    - paragraphs
+id: paragraph.paragraph_tab.tabs
+targetEntityType: paragraph
+bundle: paragraph_tab
+mode: tabs
+content:
+  admin_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tab_content:
+    type: paragraphs
+    weight: 10
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+      features:
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings: {  }
+    region: content
+  status:
+    type: boolean_checkbox
+    weight: -20
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: c1645a08-48fa-4dd4-bee0-a46b8e798fec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_filesize
+    - media.type.image
+id: media.image.field_filesize
+field_name: field_filesize
+entity_type: media
+bundle: image
+label: filesize
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

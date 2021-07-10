@@ -1,0 +1,23 @@
+uuid: c0ae7cbd-e701-45e0-8eab-5e27dd8649eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_promoted
+id: slide.full_width_one_column.field_promoted
+field_name: field_promoted
+entity_type: slide
+bundle: full_width_one_column
+label: Promoted
+description: 'Promoted to home page'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

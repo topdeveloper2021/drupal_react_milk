@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7465\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/DeVc4m5MLdgmvTnJVn-Sy8P0937OecBQzpkM_mrKGVQ.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7465
+        }
+    ],
+    "uuid": [
+        {
+            "value": "81f76aee-eddd-4355-8b2b-4b32f557fa52"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1945
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/DeVc4m5MLdgmvTnJVn-Sy8P0937OecBQzpkM_mrKGVQ.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7c98630a-2742-4730-8c21-36daf1d5c01f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Will You Live to a Healthy 100? ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-06-23T10:59:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:06:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Speakers on this panel explore the pioneering discoveries in geroscience that are bringing us closer to \u201chacking the aging code\u201d to lead longer, healthier lives.<br><br> Moderator:<br> Francis Collins, Director, National Institutes of Health<br><br> Speakers:<br> Nir Barzilai, Professor of Medicine and Genetics and Director of the Institute for Aging Research, Albert Einstein College of Medicine<br> Elizabeth Blackburn, Nobel Laureate; President, Salk Institute<br> Pinchas Cohen, Dean, USC Leonard Davis School of Gerontology<br> Joon Yun, Managing Partner and President, Palo Alto Investors, LLC",
+    "format": "rich_text",
+    "processed": "Speakers on this panel explore the pioneering discoveries in geroscience that are bringing us closer to \u201chacking the aging code\u201d to lead longer, healthier lives.<br \/><br \/> Moderator:<br \/> Francis Collins, Director, National Institutes of Health<br \/><br \/> Speakers:<br \/> Nir Barzilai, Professor of Medicine and Genetics and Director of the Institute for Aging Research, Albert Einstein College of Medicine<br \/> Elizabeth Blackburn, Nobel Laureate; President, Salk Institute<br \/> Pinchas Cohen, Dean, USC Leonard Davis School of Gerontology<br \/> Joon Yun, Managing Partner and President, Palo Alto Investors, LLC",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/QFO61USyEp0",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/DeVc4m5MLdgmvTnJVn-Sy8P0937OecBQzpkM_mrKGVQ.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

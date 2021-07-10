@@ -1,0 +1,27 @@
+{{ attach_library('milken_base/GridSpeakerDetail') }}
+
+{% set grid_speaker_prop_values =  []
+  | merge({ 'entityTypeId': eck_entity.getEntityTypeId })
+  | merge({ 'id': eck_entity.uuid.value })
+  | merge({ 'drupal_internal__id': eck_entity.id.value })
+  | merge({ 'includes': "" })
+
+%}
+
+<grid-speaker-display
+    {{ attributes }}
+    {{ content_attributes }}
+    data-drupal-selector="drupal-grid-speakers-json"
+    data-eck-entity="{{ eck_entity | json_encode() }}"
+    data-type="{{ eck_entity.getEntityTypeId }}--{{ eck_entity.bundle }}"
+    data-entity-type-id="{{ eck_entity.getEntityTypeId }}"
+    data-bundle="{{ eck_entity.bundle }}"
+    data-id="{{ eck_entity.uuid.value }}"
+    data-drupal-internal-id="{{ eck_entity.id.value }}"
+    data-view-mode="full"
+    data-can-edit="{{ user.hasPermission('edit-any-event-entities') }}"
+    data-grid-speaker-entity="{{ grid_speaker_prop_values | jsonapi }}"
+>
+
+</grid-speaker-display>
+

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7811\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/vA0vFyfoeSPOfQJv2jTEjaJpSF-0smPCaHrmjybGElc.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7811
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0ccdfcdb-4efb-4711-8fa5-57cc7fb3825f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 478
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/vA0vFyfoeSPOfQJv2jTEjaJpSF-0smPCaHrmjybGElc.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d0653e0e-9334-4231-8121-4596385929e7"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Macroeconomic Trends: Monetary and Fiscal Responses",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:08:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Central bankers and other policy makers have never been in such uncharted waters. With a few exceptions, economies around the world are experiencing deflation driven by cheap oil, anemic growth and plummeting commodity prices. In response, Europe and Japan continue aggressive quantitative easing, and the ECB and several other European central banks have gone so far as to implement negative policy rates, which are unprecedented in the history of monetary policy. Loose policy is creating currency depreciation in Europe, Japan and many emerging markets, improving export competitiveness but putting debt profiles at significant risk and challenging policy makers on long delayed structural reforms. Dollar appreciation also puts at risk the twin engines for global recovery: the U.S. and China. This limits the Fed's room for maneuver as it seeks to weigh falling unemployment, wage growth and asset price inflation against global deflationary tendencies. How do investors view the global monetary policy environment? How and how much will aggressive QE help the nascent recovery in Europe? Will the Fed raise rates in the fall, and if so, what will be the impact on emerging markets? This panel of experts will help us navigate through these issues.",
+    "format": "rich_text",
+    "processed": "Central bankers and other policy makers have never been in such uncharted waters. With a few exceptions, economies around the world are experiencing deflation driven by cheap oil, anemic growth and plummeting commodity prices. In response, Europe and Japan continue aggressive quantitative easing, and the ECB and several other European central banks have gone so far as to implement negative policy rates, which are unprecedented in the history of monetary policy. Loose policy is creating currency depreciation in Europe, Japan and many emerging markets, improving export competitiveness but putting debt profiles at significant risk and challenging policy makers on long delayed structural reforms. Dollar appreciation also puts at risk the twin engines for global recovery: the U.S. and China. This limits the Fed's room for maneuver as it seeks to weigh falling unemployment, wage growth and asset price inflation against global deflationary tendencies. How do investors view the global monetary policy environment? How and how much will aggressive QE help the nascent recovery in Europe? Will the Fed raise rates in the fall, and if so, what will be the impact on emerging markets? This panel of experts will help us navigate through these issues.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/4p4L0F6-Wmw",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/vA0vFyfoeSPOfQJv2jTEjaJpSF-0smPCaHrmjybGElc.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

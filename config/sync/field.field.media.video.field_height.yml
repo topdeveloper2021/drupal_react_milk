@@ -1,0 +1,23 @@
+uuid: 2462912e-a0f3-4d84-af0a-983c3a8a4c80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_height
+    - media.type.video
+id: media.video.field_height
+field_name: field_height
+entity_type: media
+bundle: video
+label: Height
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

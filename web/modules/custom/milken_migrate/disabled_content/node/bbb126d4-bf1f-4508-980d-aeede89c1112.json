@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/making-disease-prevention-higher-national-priority?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/3?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 462
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bbb126d4-bf1f-4508-980d-aeede89c1112"
+        }
+    ],
+    "vid": [
+        {
+            "value": 462
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47e63c93-7b8d-4715-a7a0-da058227994a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Making Disease Prevention a Higher National Priority",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:23:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/making-disease-prevention-higher-national-priority",
+            "pid": 515,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Regina Benjamin served as the 18th Surgeon General of the United States, appointed by President Barack Obama in 2009. As the \u201cnation\u2019s doctor,\u201d she served a four-year term focusing on health disparities, disease prevention, and children\u2019s health. In an interview with Milken Institute Center for the Future of Aging, Benjamin talks about how a sense of purpose leads to longer, healthier lives and the importance of making disease prevention a priority.<\/i><b>Why did you launch Bayou Clinic? What is the mission and your vision for its impact?<\/b>When I went to medical school, I enrolled in what was called a National Health Service Corps. They paid your tuition to medical school, and you had to pay your time back in an underserved community. I\u2019m from a town close to that, and I wanted to get as close to home as I could, so I ended up in Bayou La Batre in medical school. I liked the area and wanted to open a clinic, because there were so many people that weren\u2019t being served. I just thought it was important to bring a little bit of care to this community. My mission is to deliver health care with dignity to the community. That\u2019s my mission, has always been from Day 1. Anybody and everybody that walks in the door, regardless of their ability to pay.<b>How does your clinic address disease prevention?<\/b>My whole professional focus, both in the clinic and as Surgeon General, has always been on prevention, so at the clinic we stress prevention very strongly. We do the things that we should do in medicine anyway. We try to keep people\u2019s blood pressure under control, teach them how to eat right, exercise. We have a lot of classes that also engage the community. So, when we went through a lot of challenges like Hurricane Katrina and rebuilt our clinic, we built a walking track around the perimeter of the clinic, so the entire community, if they want to come, can walk. We have people walking in groups.<b>Do you think any significant progress has been made to reduce the burden of obesity?<\/b>Yes, I do. During my first press conference as Surgeon General, Mrs. Obama, the First Lady, who was there with the Secretary of Health, told the press that we were going to introduce something to address obesity. Six weeks later, what we introduced was the First Lady\u2019s Let\u2019s Move Initiative. By the time I left office in 2013, we saw the percentage of young people and children with obesity start to be on the decline.<b>How can we make disease prevention a priority?<\/b>Prevention is my mantra. The more we can prevent the better. We\u2019ll be healthier as a community and healthier as a nation, but we also need to recognize that there are other things that contribute to health, like clean air and clean water and where we live. Focusing on those things also can add to our disease prevention\u2014priorities we need to be thinking of as a nation. We need to think about how everything affects our health, not just whether you went to the doctor and whether you got a blood pressure pill, but is there a place to walk, is there a place for your kids to play.<b>How can having a sense of purpose advance efforts to live longer, healthier lives?<\/b>Scientific research shows us that having a purpose is one of the hallmarks of what we call blue zones, where people live longer, healthier lives around the world\u2014one of the things that the people have in common is that they have a sense of purpose. Everybody should want to feel like they\u2019re making a difference somewhere in their lives. If you\u2019ve got a purpose when you get up in the morning, a belief in something that you want to do or something that keeps you going, you\u2019re going to be healthier because of it, you\u2019re going to feel better, you\u2019re going to want to do, you\u2019re going to want to be healthy.<b>Do you have any advice for women wanting to enter the medical field?<\/b>We need more people entering the health careers. We certainly need more women entering, and we really need more minorities entering health careers. Less than 7 percent of physicians are minority, and that\u2019s the same percentage as during the Flexner Report of 1910. So, we need more. Whether they become a doctor or a nurse or dentist or pharmacist, we just need them going into those science fields, those STEM fields, and the advice I would say is go for it and stick to it.",
+    "format": "rich_text",
+    "processed": "<i>Regina Benjamin served as the 18th Surgeon General of the United States, appointed by President Barack Obama in 2009. As the \u201cnation\u2019s doctor,\u201d she served a four-year term focusing on health disparities, disease prevention, and children\u2019s health. In an interview with Milken Institute Center for the Future of Aging, Benjamin talks about how a sense of purpose leads to longer, healthier lives and the importance of making disease prevention a priority.<\/i><b>Why did you launch Bayou Clinic? What is the mission and your vision for its impact?<\/b>When I went to medical school, I enrolled in what was called a National Health Service Corps. They paid your tuition to medical school, and you had to pay your time back in an underserved community. I\u2019m from a town close to that, and I wanted to get as close to home as I could, so I ended up in Bayou La Batre in medical school. I liked the area and wanted to open a clinic, because there were so many people that weren\u2019t being served. I just thought it was important to bring a little bit of care to this community. My mission is to deliver health care with dignity to the community. That\u2019s my mission, has always been from Day 1. Anybody and everybody that walks in the door, regardless of their ability to pay.<b>How does your clinic address disease prevention?<\/b>My whole professional focus, both in the clinic and as Surgeon General, has always been on prevention, so at the clinic we stress prevention very strongly. We do the things that we should do in medicine anyway. We try to keep people\u2019s blood pressure under control, teach them how to eat right, exercise. We have a lot of classes that also engage the community. So, when we went through a lot of challenges like Hurricane Katrina and rebuilt our clinic, we built a walking track around the perimeter of the clinic, so the entire community, if they want to come, can walk. We have people walking in groups.<b>Do you think any significant progress has been made to reduce the burden of obesity?<\/b>Yes, I do. During my first press conference as Surgeon General, Mrs. Obama, the First Lady, who was there with the Secretary of Health, told the press that we were going to introduce something to address obesity. Six weeks later, what we introduced was the First Lady\u2019s Let\u2019s Move Initiative. By the time I left office in 2013, we saw the percentage of young people and children with obesity start to be on the decline.<b>How can we make disease prevention a priority?<\/b>Prevention is my mantra. The more we can prevent the better. We\u2019ll be healthier as a community and healthier as a nation, but we also need to recognize that there are other things that contribute to health, like clean air and clean water and where we live. Focusing on those things also can add to our disease prevention\u2014priorities we need to be thinking of as a nation. We need to think about how everything affects our health, not just whether you went to the doctor and whether you got a blood pressure pill, but is there a place to walk, is there a place for your kids to play.<b>How can having a sense of purpose advance efforts to live longer, healthier lives?<\/b>Scientific research shows us that having a purpose is one of the hallmarks of what we call blue zones, where people live longer, healthier lives around the world\u2014one of the things that the people have in common is that they have a sense of purpose. Everybody should want to feel like they\u2019re making a difference somewhere in their lives. If you\u2019ve got a purpose when you get up in the morning, a belief in something that you want to do or something that keeps you going, you\u2019re going to be healthier because of it, you\u2019re going to feel better, you\u2019re going to want to do, you\u2019re going to want to be healthy.<b>Do you have any advice for women wanting to enter the medical field?<\/b>We need more people entering the health careers. We certainly need more women entering, and we really need more minorities entering health careers. Less than 7 percent of physicians are minority, and that\u2019s the same percentage as during the Flexner Report of 1910. So, we need more. Whether they become a doctor or a nurse or dentist or pharmacist, we just need them going into those science fields, those STEM fields, and the advice I would say is go for it and stick to it.",
+    "summary": null,
+    "summary_processed": ""
+}

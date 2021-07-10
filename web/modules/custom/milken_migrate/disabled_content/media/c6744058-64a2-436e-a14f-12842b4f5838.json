@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/9901\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/MUfI5hLxb69xmgT4-sEZXb4oB5tQv5MPgkEl-ZZXN60.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 9901
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c6744058-64a2-436e-a14f-12842b4f5838"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1732
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/MUfI5hLxb69xmgT4-sEZXb4oB5tQv5MPgkEl-ZZXN60.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "96746f32-c12e-4a38-b999-7aaed7a9e766"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Capital Markets",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-29T17:37:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:09:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Since markets came to a violent halt during the fourth quarter of 2018, and then quickly bounced back, investors continue to wonder if the bull has the strength to continue its run. Join some of the most outstanding managers and financiers as they tackle today's pressing questions: How will markets evolve as passive investment continues its rise and technology takes an ever-larger role in decision-making? Have equity markets become dependent on annual stock buybacks that have run up to a record-high $800 billion in the US alone? And how important have socioeconomic issues, specifically around values, become for modern-day capitalism?",
+    "format": "rich_text",
+    "processed": "Since markets came to a violent halt during the fourth quarter of 2018, and then quickly bounced back, investors continue to wonder if the bull has the strength to continue its run. Join some of the most outstanding managers and financiers as they tackle today's pressing questions: How will markets evolve as passive investment continues its rise and technology takes an ever-larger role in decision-making? Have equity markets become dependent on annual stock buybacks that have run up to a record-high $800 billion in the US alone? And how important have socioeconomic issues, specifically around values, become for modern-day capitalism?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/vWDHMgrkwq0",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/MUfI5hLxb69xmgT4-sEZXb4oB5tQv5MPgkEl-ZZXN60.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

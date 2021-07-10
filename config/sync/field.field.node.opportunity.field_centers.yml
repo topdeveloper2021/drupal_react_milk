@@ -1,0 +1,29 @@
+uuid: bcc25f03-3a84-4652-88c4-4f8ebac92e55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_centers
+    - node.type.opportunity
+    - taxonomy.vocabulary.centers
+id: node.opportunity.field_centers
+field_name: field_centers
+entity_type: node
+bundle: opportunity
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

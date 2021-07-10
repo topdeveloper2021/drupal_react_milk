@@ -1,0 +1,65 @@
+uuid: 62b9c451-a9a2-4db5-9f8e-adb8fec12c5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.report.field_authors
+    - field.field.media.report.field_centers
+    - field.field.media.report.field_collections
+    - field.field.media.report.field_content
+    - field.field.media.report.field_cover
+    - field.field.media.report.field_custom_author
+    - field.field.media.report.field_essay
+    - field.field.media.report.field_events
+    - field.field.media.report.field_filemime
+    - field.field.media.report.field_filesize
+    - field.field.media.report.field_index_weight
+    - field.field.media.report.field_media_file
+    - field.field.media.report.field_meta_tags
+    - field.field.media.report.field_program_initiatives
+    - field.field.media.report.field_regions
+    - field.field.media.report.field_related_event
+    - field.field.media.report.field_tags
+    - field.field.media.report.field_term_collection
+    - field.field.media.report.field_topics
+    - media.type.report
+id: media.report.media_library
+targetEntityType: media
+bundle: report
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    weight: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_authors: true
+  field_body: true
+  field_centers: true
+  field_collections: true
+  field_content: true
+  field_cover: true
+  field_custom_author: true
+  field_essay: true
+  field_events: true
+  field_filemime: true
+  field_filesize: true
+  field_index_weight: true
+  field_media_file: true
+  field_meta_tags: true
+  field_program_initiatives: true
+  field_regions: true
+  field_related_event: true
+  field_tags: true
+  field_term_collection: true
+  field_topics: true
+  langcode: true
+  path: true
+  status: true
+  uid: true

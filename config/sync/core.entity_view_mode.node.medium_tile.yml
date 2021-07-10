@@ -1,0 +1,10 @@
+uuid: a6a412b6-78d1-41d2-816e-ed0032f9adca
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.medium_tile
+label: 'Medium Tile'
+targetEntityType: node
+cache: true

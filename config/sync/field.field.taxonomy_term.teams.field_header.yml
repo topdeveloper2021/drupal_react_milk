@@ -1,0 +1,19 @@
+uuid: 754f4563-a35b-4088-a774-01c7b07e3feb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_header
+    - taxonomy.vocabulary.teams
+id: taxonomy_term.teams.field_header
+field_name: field_header
+entity_type: taxonomy_term
+bundle: teams
+label: Header
+description: 'Text to be displayed as the header.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

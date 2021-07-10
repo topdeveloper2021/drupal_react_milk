@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7337\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7337
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7f0b6955-cda9-4c6d-82c6-aaf6eabc52a2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 135
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0828ffb5-a2c6-4dcc-8bf2-8292700e71c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "A Conversation with Elizabeth Blackburn",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-05T12:06:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Listen as Nobel laureate Elizabeth Blackburn and Physician-investor Joon Yun discuss Blackburn\u2019s New York Times bestseller, \u201cThe Telomere Effect: A Revolutionary Approach to Living Younger, Healthier, Longer.\u201d<br><br> Moderator:<br> Joon Yun, Managing Partner and President, Palo Alto Investors, LLC<br><br> Speaker:<br> Elizabeth Blackburn, Nobel Laureate; President, Salk Institute",
+    "format": "rich_text",
+    "processed": "Listen as Nobel laureate Elizabeth Blackburn and Physician-investor Joon Yun discuss Blackburn\u2019s New York Times bestseller, \u201cThe Telomere Effect: A Revolutionary Approach to Living Younger, Healthier, Longer.\u201d<br \/><br \/> Moderator:<br \/> Joon Yun, Managing Partner and President, Palo Alto Investors, LLC<br \/><br \/> Speaker:<br \/> Elizabeth Blackburn, Nobel Laureate; President, Salk Institute",
+    "summary": null,
+    "summary_processed": "",
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/videoseries",
+            "lang": "en"
+        }
+    ]
+}

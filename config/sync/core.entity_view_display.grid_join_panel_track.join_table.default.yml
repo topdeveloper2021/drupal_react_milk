@@ -1,0 +1,63 @@
+uuid: b6752e8e-df22-4d94-a089-150bfc1b828e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_track.join_table
+    - field.field.grid_join_panel_track.join_table.field_panel_id
+    - field.field.grid_join_panel_track.join_table.field_panel_track_id
+    - field.field.grid_join_panel_track.join_table.field_track_id
+id: grid_join_panel_track.join_table.default
+targetEntityType: grid_join_panel_track
+bundle: join_table
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_panel_id:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_panel_track_id:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_track_id:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  langcode: true
+  search_api_excerpt: true

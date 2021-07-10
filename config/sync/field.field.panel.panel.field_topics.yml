@@ -1,0 +1,29 @@
+uuid: 2bdadaf8-41bb-4418-93ad-584975a8c837
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_topics
+    - taxonomy.vocabulary.topics
+id: panel.panel.field_topics
+field_name: field_topics
+entity_type: panel
+bundle: panel
+label: Topics
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

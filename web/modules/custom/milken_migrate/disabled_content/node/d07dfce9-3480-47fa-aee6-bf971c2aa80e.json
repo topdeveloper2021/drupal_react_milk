@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/no-reason-accelerate-rate-increases-tepid-growth-and-ample-slack-continue-moderate?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 493
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d07dfce9-3480-47fa-aee6-bf971c2aa80e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 493
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "No Reason to Accelerate Rate Increases as Tepid Growth and Ample Slack Continue to Moderate Inflation ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-03-23T04:57:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-23T18:41:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/no-reason-accelerate-rate-increases-tepid-growth-and-ample-slack-continue-moderate",
+            "pid": 546,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Stalling growth and still-ample labor market slack belie increasing market anxiety that the Fed will have to accelerate the pace of interest rate tightening. Retail sales growth this year has declined precipitously from last year\u2019s post-election highs despite the fact that consumers already are receiving an income boost from the President\u2019s tax cut, and that consumer confidence remains very high. In addition, the historically slow pace of hiring compared with the rapid pace of growth in job openings shows that employers are in no rush to fill the growing number of job vacancies by raising wages more rapidly. Consumers Losing Momentum After a brief spurt following President Trump\u2019s election, retail sales growth has since decelerated, and sales even contracted during the first two months of 2018. Anticipations of sizable personal income tax cuts and a strong post-election stock market performance spurred households to spend faster than their income growth during the last half of 2017. This also drove the personal saving rate to an unsustainable low of 2.5 percent in December from a 2016 average of nearly 5\u00a0percent. Yet even following the income boost from the tax cuts, the saving rate for January 2018 recovered to only 3.2\u00a0percent. This is still a very low saving rate that may have to rise soon in light of the need to finance retirement for a rapidly aging population. Slow Hiring Implies Firms are Reluctant to Fill Job Vacancies Quickly by Raising Wages Rapidly January\u2019s apparent acceleration in average hourly earnings sparked the latest fears that the Fed may be \u201cbehind the [inflation] curve,\u201d and will have to quicken the pace of interest rate increases. Also fanning inflation fears were the recent string of robust monthly payroll growth outcomes, and the fact that the unemployment rate has held steady at a below-NAIRU reading of 4.1\u00a0percent since October. However, structural changes to the post-Crisis labor market may have moderated these apparent signs of labor market tightness. The fact that inflation has shown no sign that it will rise rapidly soon likely points to new thresholds for gauging labor market slack, and for triggering an inflation breakout. Wage inflation has never been a leading indicator for price inflation. However, wage growth has been an important coincident or lagging indicator. Accelerating wages usually ratify expectations of rising inflation, and may worsen existing inflation pressures by influencing inflation expectations. For now, inflation may stay dormant for some time because the labor turnover data (JOLTS data) suggest there is a large amount of slack remaining in the labor market. This is especially evident when comparing the pace of hiring with the rate of increase in job vacancies. Even though job openings are reaching new highs every month, firms are not hiring fast enough to keep up. Indeed, the chart below shows that the pace of hiring has been falling behind the growth of vacancies since 2009. We see that the ratio of hiring to job openings continues to decline, and has stayed below unity since 2014. In other words, there are now more job openings at the end of the month despite a faster pace of hiring during the month. More importantly, except in a few sectors, firms generally show little sign of acting to fill these vacancies sooner by raising wages faster. Moreover, with incoming data suggesting that consumer spending is pausing, there is very little reason to believe that firms will allow wages to accelerate more to fill the current and prospective job vacancies at a faster pace. That is why the FOMC has very little reason to be concerned that they will face an outbreak of inflation in the near to medium term. All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates. ",
+    "format": "rich_text",
+    "processed": "Stalling growth and still-ample labor market slack belie increasing market anxiety that the Fed will have to accelerate the pace of interest rate tightening. Retail sales growth this year has declined precipitously from last year\u2019s post-election highs despite the fact that consumers already are receiving an income boost from the President\u2019s tax cut, and that consumer confidence remains very high. In addition, the historically slow pace of hiring compared with the rapid pace of growth in job openings shows that employers are in no rush to fill the growing number of job vacancies by raising wages more rapidly. Consumers Losing Momentum After a brief spurt following President Trump\u2019s election, retail sales growth has since decelerated, and sales even contracted during the first two months of 2018. Anticipations of sizable personal income tax cuts and a strong post-election stock market performance spurred households to spend faster than their income growth during the last half of 2017. This also drove the personal saving rate to an unsustainable low of 2.5 percent in December from a 2016 average of nearly 5\u00a0percent. Yet even following the income boost from the tax cuts, the saving rate for January 2018 recovered to only 3.2\u00a0percent. This is still a very low saving rate that may have to rise soon in light of the need to finance retirement for a rapidly aging population. Slow Hiring Implies Firms are Reluctant to Fill Job Vacancies Quickly by Raising Wages Rapidly January\u2019s apparent acceleration in average hourly earnings sparked the latest fears that the Fed may be \u201cbehind the [inflation] curve,\u201d and will have to quicken the pace of interest rate increases. Also fanning inflation fears were the recent string of robust monthly payroll growth outcomes, and the fact that the unemployment rate has held steady at a below-NAIRU reading of 4.1\u00a0percent since October. However, structural changes to the post-Crisis labor market may have moderated these apparent signs of labor market tightness. The fact that inflation has shown no sign that it will rise rapidly soon likely points to new thresholds for gauging labor market slack, and for triggering an inflation breakout. Wage inflation has never been a leading indicator for price inflation. However, wage growth has been an important coincident or lagging indicator. Accelerating wages usually ratify expectations of rising inflation, and may worsen existing inflation pressures by influencing inflation expectations. For now, inflation may stay dormant for some time because the labor turnover data (JOLTS data) suggest there is a large amount of slack remaining in the labor market. This is especially evident when comparing the pace of hiring with the rate of increase in job vacancies. Even though job openings are reaching new highs every month, firms are not hiring fast enough to keep up. Indeed, the chart below shows that the pace of hiring has been falling behind the growth of vacancies since 2009. We see that the ratio of hiring to job openings continues to decline, and has stayed below unity since 2014. In other words, there are now more job openings at the end of the month despite a faster pace of hiring during the month. More importantly, except in a few sectors, firms generally show little sign of acting to fill these vacancies sooner by raising wages faster. Moreover, with incoming data suggesting that consumer spending is pausing, there is very little reason to believe that firms will allow wages to accelerate more to fill the current and prospective job vacancies at a faster pace. That is why the FOMC has very little reason to be concerned that they will face an outbreak of inflation in the near to medium term. All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates. ",
+    "summary": null,
+    "summary_processed": ""
+}

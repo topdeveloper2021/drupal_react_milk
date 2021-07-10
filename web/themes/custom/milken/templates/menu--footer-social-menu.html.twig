@@ -1,0 +1,102 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *
+ * @ingroup templates
+ *
+ * Define a custom macro that will render all menu trees.
+ */
+#}
+
+<ul class="social-footer" id="social-footer-loaded">
+
+    {% for item in items %}
+
+        {% set iconType =item.title | lower %}
+
+        {% if 'facebook' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-facebook-f">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'twitter' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-twitter">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'linkedin' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-linkedin">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'instagram' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-instagram">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'pinterest' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-pinterest-p">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'quora' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-quora">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'skype' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-skype">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'vimeo' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-vimeo">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'youtube' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-youtube">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'vk' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-vk">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'google' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-google">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+        {% if 'plus' in iconType |render|render %}
+            <li>
+                <a href="{{ item.url }}" target="_blank"> <span class="fab fa-google-plus">&nbsp;</span></a>
+            </li>
+        {% endif %}
+
+
+    {% endfor %}
+
+</ul>

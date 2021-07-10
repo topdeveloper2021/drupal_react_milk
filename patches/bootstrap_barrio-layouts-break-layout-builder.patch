@@ -1,0 +1,416 @@
+diff --git a/bootstrap_barrio.layouts.yml b/bootstrap_barrio.layouts.yml
+index 8a13448..d50868c 100644
+--- a/bootstrap_barrio.layouts.yml
++++ b/bootstrap_barrio.layouts.yml
+@@ -1,18 +1,14 @@
+ bb_cardbasic:
+   label: Card basic
+   category: Barrio
+-  class: '\Drupal\ds\Plugin\DsLayout'
+-  type: partial
+-  template: templates/ds/ds-card-basic
++  template: templates/ds/layout--ds-card-basic
+   regions:
+     first:
+       label: Content
+ bb_cardtopimage:
+   label: Card top image
+   category: Barrio
+-  class: '\Drupal\ds\Plugin\DsLayout'
+-  type: partial
+-  template: templates/ds/ds-card-top-image
++  template: templates/ds/layout--ds-card-top-image
+   regions:
+     first:
+       label: Image
+@@ -21,9 +17,7 @@ bb_cardtopimage:
+ bb_cardimageoverlay:
+   label: Card image overlay
+   category: Barrio
+-  class: '\Drupal\ds\Plugin\DsLayout'
+-  type: partial
+-  template: templates/ds/ds-card-image-overlay
++  template: templates/ds/layout--ds-card-image-overlay
+   regions:
+     first:
+       label: Image
+@@ -32,9 +26,7 @@ bb_cardimageoverlay:
+ bb_cardheaderfooter:
+   label: Card header footer
+   category: Barrio
+-  class: '\Drupal\ds\Plugin\DsLayout'
+-  type: partial
+-  template: templates/ds/ds-card-header-footer
++  template: templates/ds/layout--ds-card-header-footer
+   regions:
+     first:
+       label: Header
+@@ -45,9 +37,7 @@ bb_cardheaderfooter:
+ bb_card3stack:
+   label: Card three block stacked
+   category: Barrio
+-  class: '\Drupal\ds\Plugin\DsLayout'
+-  type: partial
+-  template: templates/ds/ds-card-3stack
++  template: templates/ds/layout--ds-card-3stack
+   regions:
+     first:
+       label: First
+diff --git a/templates/ds/ds-card-3stack.html.twig b/templates/ds/ds-card-3stack.html.twig
+deleted file mode 100644
+index f5839fd..0000000
+--- a/templates/ds/ds-card-3stack.html.twig
++++ /dev/null
+@@ -1,37 +0,0 @@
+-{#
+-/**
+- * @file
+- * Display Suite 4 column template.
+- *
+- * Available variables:
+- * - outer_wrapper: outer wrapper element
+- * - first_wrapper: wrapper element around first region
+- * - second_wrapper: wrapper element around second region
+- * - third_wrapper: wrapper element around third region
+- * - attributes: layout attributes
+- * - first_attributes: attributes for first region
+- * - second_attributes: attributes for second region
+- * - third_attributes: attributes for third region
+- * - fourth_attributes: attributes for fourth region
+- * - first: content of first region
+- * - second: content of second region
+- * - third: content of third region
+- */
+-#}
+-<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix') }}>
+-
+-  {{ title_suffix.contextual_links }}
+-
+-  <{{ first_wrapper }}{{ first_attributes.addClass('card-block') }}>
+-    {{ first }}
+-  </{{ first_wrapper }}>
+-
+-  <{{ second_wrapper }}{{ second_attributes.addClass('card-img') }}>
+-    {{ second }}
+-  </{{ second_wrapper }}>
+-
+-  <{{ third_wrapper }}{{ third_attributes.addClass('card-block') }}>
+-    {{ third }}
+-  </{{ third_wrapper }}>
+-
+-</{{ outer_wrapper }}>
+diff --git a/templates/ds/ds-card-basic.html.twig b/templates/ds/ds-card-basic.html.twig
+deleted file mode 100644
+index 1ab4106..0000000
+--- a/templates/ds/ds-card-basic.html.twig
++++ /dev/null
+@@ -1,18 +0,0 @@
+-{#
+-/**
+- * @file
+- * Display Suite simple card.
+- *
+- * Available variables:
+- * - outer_wrapper: outer wrapper element
+- * - attributes: layout attributes
+- * - first: content of first region
+- */
+-#}
+-<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix', 'card-block') }}>
+-
+-  {{ title_suffix.contextual_links }}
+-
+-  {{ first }}
+-
+-</{{ outer_wrapper }}>
+diff --git a/templates/ds/ds-card-header-footer.html.twig b/templates/ds/ds-card-header-footer.html.twig
+deleted file mode 100644
+index 2b64f7b..0000000
+--- a/templates/ds/ds-card-header-footer.html.twig
++++ /dev/null
+@@ -1,36 +0,0 @@
+-{#
+-/**
+- * @file
+- * Display Suite card header footer template.
+- *
+- * Available variables:
+- * - outer_wrapper: outer wrapper element
+- * - first_wrapper: wrapper element around first region
+- * - second_wrapper: wrapper element around second region
+- * - third_wrapper: wrapper element around third region
+- * - attributes: layout attributes
+- * - first_attributes: attributes for first region
+- * - second_attributes: attributes for second region
+- * - third_attributes: attributes for third region
+- * - first: content of first region
+- * - second: content of second region
+- * - third: content of third region
+- */
+-#}
+-<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix') }}>
+-
+-  {{ title_suffix.contextual_links }}
+-
+-  <{{ first_wrapper }}{{ first_attributes.addClass('card-header') }}>
+-    {{ first }}
+-  </{{ first_wrapper }}>
+-
+-  <{{ second_wrapper }}{{ second_attributes.addClass('card-block') }}>
+-    {{ second }}
+-  </{{ second_wrapper }}>
+-
+-  <{{ third_wrapper }}{{ third_attributes.addClass('card-footer') }}>
+-    {{ third }}
+-  </{{ third_wrapper }}>
+-
+-</{{ outer_wrapper }}>
+diff --git a/templates/ds/ds-card-image-overlay.html.twig b/templates/ds/ds-card-image-overlay.html.twig
+deleted file mode 100644
+index 01f98c9..0000000
+--- a/templates/ds/ds-card-image-overlay.html.twig
++++ /dev/null
+@@ -1,29 +0,0 @@
+-{#
+-/**
+- * @file
+- * Display Suite card image top.
+- *
+- * Available variables:
+- * - outer_wrapper: outer wrapper element
+- * - first_wrapper: wrapper element around first region
+- * - second_wrapper: wrapper element around second region
+- * - attributes: layout attributes
+- * - first_attributes: attributes for first region
+- * - second_attributes: attributes for second region
+- * - first: content of first region
+- * - second: content of second region
+- */
+-#}
+-<{{ outer_wrapper }}{{ attributes.addClass('card') }}>
+-
+-  {{ title_suffix.contextual_links }}
+-
+-  <{{ first_wrapper }}{{ first_attributes.addClass('card-img') }}>
+-    {{ first }}
+-  </{{ first_wrapper }}>
+-
+-  <{{ second_wrapper }}{{ second_attributes.addClass('card-img-overlay') }}>
+-    {{ second }}
+-  </{{ second_wrapper }}>
+-
+-</{{ outer_wrapper }}>
+diff --git a/templates/ds/ds-card-top-image.html.twig b/templates/ds/ds-card-top-image.html.twig
+deleted file mode 100644
+index 2e57f69..0000000
+--- a/templates/ds/ds-card-top-image.html.twig
++++ /dev/null
+@@ -1,29 +0,0 @@
+-{#
+-/**
+- * @file
+- * Display Suite card image top.
+- *
+- * Available variables:
+- * - outer_wrapper: outer wrapper element
+- * - first_wrapper: wrapper element around first region
+- * - second_wrapper: wrapper element around second region
+- * - attributes: layout attributes
+- * - first_attributes: attributes for first region
+- * - second_attributes: attributes for second region
+- * - first: content of first region
+- * - second: content of second region
+- */
+-#}
+-<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix') }}>
+-
+-  {{ title_suffix.contextual_links }}
+-
+-  <{{ first_wrapper }}{{ first_attributes.addClass('card-img-top') }}>
+-    {{ first }}
+-  </{{ first_wrapper }}>
+-
+-  <{{ second_wrapper }}{{ second_attributes.addClass('card-block') }}>
+-    {{ second }}
+-  </{{ second_wrapper }}>
+-
+-</{{ outer_wrapper }}>
+diff --git a/templates/ds/layout--ds-card-3stack.html.twig b/templates/ds/layout--ds-card-3stack.html.twig
+new file mode 100644
+index 0000000..f5839fd
+--- /dev/null
++++ b/templates/ds/layout--ds-card-3stack.html.twig
+@@ -0,0 +1,37 @@
++{#
++/**
++ * @file
++ * Display Suite 4 column template.
++ *
++ * Available variables:
++ * - outer_wrapper: outer wrapper element
++ * - first_wrapper: wrapper element around first region
++ * - second_wrapper: wrapper element around second region
++ * - third_wrapper: wrapper element around third region
++ * - attributes: layout attributes
++ * - first_attributes: attributes for first region
++ * - second_attributes: attributes for second region
++ * - third_attributes: attributes for third region
++ * - fourth_attributes: attributes for fourth region
++ * - first: content of first region
++ * - second: content of second region
++ * - third: content of third region
++ */
++#}
++<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix') }}>
++
++  {{ title_suffix.contextual_links }}
++
++  <{{ first_wrapper }}{{ first_attributes.addClass('card-block') }}>
++    {{ first }}
++  </{{ first_wrapper }}>
++
++  <{{ second_wrapper }}{{ second_attributes.addClass('card-img') }}>
++    {{ second }}
++  </{{ second_wrapper }}>
++
++  <{{ third_wrapper }}{{ third_attributes.addClass('card-block') }}>
++    {{ third }}
++  </{{ third_wrapper }}>
++
++</{{ outer_wrapper }}>
+diff --git a/templates/ds/layout--ds-card-basic.html.twig b/templates/ds/layout--ds-card-basic.html.twig
+new file mode 100644
+index 0000000..1ab4106
+--- /dev/null
++++ b/templates/ds/layout--ds-card-basic.html.twig
+@@ -0,0 +1,18 @@
++{#
++/**
++ * @file
++ * Display Suite simple card.
++ *
++ * Available variables:
++ * - outer_wrapper: outer wrapper element
++ * - attributes: layout attributes
++ * - first: content of first region
++ */
++#}
++<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix', 'card-block') }}>
++
++  {{ title_suffix.contextual_links }}
++
++  {{ first }}
++
++</{{ outer_wrapper }}>
+diff --git a/templates/ds/layout--ds-card-header-footer.html.twig b/templates/ds/layout--ds-card-header-footer.html.twig
+new file mode 100644
+index 0000000..2b64f7b
+--- /dev/null
++++ b/templates/ds/layout--ds-card-header-footer.html.twig
+@@ -0,0 +1,36 @@
++{#
++/**
++ * @file
++ * Display Suite card header footer template.
++ *
++ * Available variables:
++ * - outer_wrapper: outer wrapper element
++ * - first_wrapper: wrapper element around first region
++ * - second_wrapper: wrapper element around second region
++ * - third_wrapper: wrapper element around third region
++ * - attributes: layout attributes
++ * - first_attributes: attributes for first region
++ * - second_attributes: attributes for second region
++ * - third_attributes: attributes for third region
++ * - first: content of first region
++ * - second: content of second region
++ * - third: content of third region
++ */
++#}
++<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix') }}>
++
++  {{ title_suffix.contextual_links }}
++
++  <{{ first_wrapper }}{{ first_attributes.addClass('card-header') }}>
++    {{ first }}
++  </{{ first_wrapper }}>
++
++  <{{ second_wrapper }}{{ second_attributes.addClass('card-block') }}>
++    {{ second }}
++  </{{ second_wrapper }}>
++
++  <{{ third_wrapper }}{{ third_attributes.addClass('card-footer') }}>
++    {{ third }}
++  </{{ third_wrapper }}>
++
++</{{ outer_wrapper }}>
+diff --git a/templates/ds/layout--ds-card-image-overlay.html.twig b/templates/ds/layout--ds-card-image-overlay.html.twig
+new file mode 100644
+index 0000000..01f98c9
+--- /dev/null
++++ b/templates/ds/layout--ds-card-image-overlay.html.twig
+@@ -0,0 +1,29 @@
++{#
++/**
++ * @file
++ * Display Suite card image top.
++ *
++ * Available variables:
++ * - outer_wrapper: outer wrapper element
++ * - first_wrapper: wrapper element around first region
++ * - second_wrapper: wrapper element around second region
++ * - attributes: layout attributes
++ * - first_attributes: attributes for first region
++ * - second_attributes: attributes for second region
++ * - first: content of first region
++ * - second: content of second region
++ */
++#}
++<{{ outer_wrapper }}{{ attributes.addClass('card') }}>
++
++  {{ title_suffix.contextual_links }}
++
++  <{{ first_wrapper }}{{ first_attributes.addClass('card-img') }}>
++    {{ first }}
++  </{{ first_wrapper }}>
++
++  <{{ second_wrapper }}{{ second_attributes.addClass('card-img-overlay') }}>
++    {{ second }}
++  </{{ second_wrapper }}>
++
++</{{ outer_wrapper }}>
+diff --git a/templates/ds/layout--ds-card-top-image.html.twig b/templates/ds/layout--ds-card-top-image.html.twig
+new file mode 100644
+index 0000000..2e57f69
+--- /dev/null
++++ b/templates/ds/layout--ds-card-top-image.html.twig
+@@ -0,0 +1,29 @@
++{#
++/**
++ * @file
++ * Display Suite card image top.
++ *
++ * Available variables:
++ * - outer_wrapper: outer wrapper element
++ * - first_wrapper: wrapper element around first region
++ * - second_wrapper: wrapper element around second region
++ * - attributes: layout attributes
++ * - first_attributes: attributes for first region
++ * - second_attributes: attributes for second region
++ * - first: content of first region
++ * - second: content of second region
++ */
++#}
++<{{ outer_wrapper }}{{ attributes.addClass('card', 'clearfix') }}>
++
++  {{ title_suffix.contextual_links }}
++
++  <{{ first_wrapper }}{{ first_attributes.addClass('card-img-top') }}>
++    {{ first }}
++  </{{ first_wrapper }}>
++
++  <{{ second_wrapper }}{{ second_attributes.addClass('card-block') }}>
++    {{ second }}
++  </{{ second_wrapper }}>
++
++</{{ outer_wrapper }}>

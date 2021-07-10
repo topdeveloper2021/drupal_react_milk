@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/mission-end-stress-and-burnout-epidemic?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/9?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 468
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1b04e986-f19e-4c34-983a-3bfc2ef06930"
+        }
+    ],
+    "vid": [
+        {
+            "value": 468
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/9?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "17f31cbb-0f2e-422c-95c9-32575dc591cb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "On a Mission to End the Stress and Burnout Epidemic",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:39:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/mission-end-stress-and-burnout-epidemic",
+            "pid": 521,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Arianna Huffington knows what it takes to reinvent herself. She has taken on a new mission: ending the worldwide culture of stress and burnout. In an interview with the Milken Institute Center for the Future of Aging, Huffington explains the role of restorative sleep in reducing stress, how to take control of our tech habits, and why sleep becomes more important as we age.<\/i><b>Why did you decide to launch\u00a0Thrive Global? What is its mission and your vision for its impact?<\/b>The seeds of Thrive Global go back to 2007 when I collapsed from exhaustion. After that episode, I became more and more passionate about the connection between wellbeing and productivity. And that led me to write my two books, <i>Thrive<\/i> and <i>The Sleep Revolution<\/i>. As I traveled on my book tours, discussing the issues of stress, burnout, and sleep deprivation, I saw how deeply people want to change their lives. So, I wanted to go beyond just speaking out and raising awareness\u2014I felt the need to turn this passion into something real and tangible that would help people change their daily lives. It was a call to action I just couldn\u2019t ignore\u2014and so I founded Thrive Global.Our mission is to end the stress and burnout epidemic by offering companies and individuals sustainable, science-based solutions to enhance wellbeing, performance, and purpose and create a healthier relationship with technology. There is a pervasive belief that burnout is the price we must pay for success. As we know from\u00a0recent scientific findings, this is a delusion. When we prioritize our wellbeing, our decision-making, creativity, and productivity improve dramatically. Thrive Global is committed to accelerating the culture shift that allows people to reclaim their lives and move from merely surviving to thriving.<b>Does sleep become more important as we age?<\/b>Sleep is important at every age, but the particular benefits of sleep\u2014and dangers of sleep deprivation\u2014can change as we age.\u00a0For example, recent science has shown that sleep is connected to Alzheimer\u2019s disease.<b>Why do you think so little attention is given to sleep and other approaches to disease prevention and wellness? How can we change that?\u00a0<\/b>Our society\u2019s attitude toward sleep actually goes back to the Industrial Revolution, when time spent sleeping began to be seen as just more time to be colonized and monetized. And that misguided idea still lingers today. But the last few decades have seen a mountain of science showing how deeply connected sleep is to our health, wellbeing, and productivity. So, the culture shift is underway, but because there is so much at stake, we need to accelerate it.<b>Can you explain how sleep deprivation impacts chronic diseases as well as weight gain?<\/b>There have been many studies showing how sleep deprivation\u00a0compromises our immune system, which makes it harder both to stave off disease and to recover from it. And with weight, when we get more sleep, we produce less of a hormone called\u00a0ghrelin\u2014the \u201chunger hormone\u201d\u2014which increases appetite.<b>What\u2019s your take on sleeping pills?\u00a0<\/b>There are, of course, times in our lives\u2014a traumatic experience, the death of a loved one\u2014when we might need some temporary help getting to sleep. But it\u2019s important to make a distinction between turning to sleep aids at such moments and turning to them as an everyday cure for sleeplessness.Sleep difficulties can turn into serious medical problems. For the vast majority of us, however, sleep difficulties are a lifestyle problem, and that should be the solution, instead of pills that come with a long list of side effects.<b>What advice can you share about how to take control of our tech habits?<\/b>Of course, technology allows us to do amazing things, but it\u2019s also accelerated the pace of our lives beyond our capacity to keep up. An unhealthy relationship with technology can fuel stress and burnout. It\u2019s important to be deliberate about making time to unplug and recharge. And you can start at the beginning and end of the day. Our phones are repositories of everything we need to put away to allow us to sleep\u2014our to-do lists, our inboxes, the demands of the world. So not lying with your phone before bed and, instead, putting it to bed outside your bedroom as a regular part of your bedtime ritual makes you more likely to wake up as fully charged as your phone. In the morning, taking a few minutes to breathe, meditate, or just set your intention for the day\u2014not just what you want to get done but what kind of day you want to have\u2014can stay with you for the rest of the day. Resisting your phone and creating these spaces at the beginning and end of your day also reinforces your sense of being in control of your relationship with technology.<b>How can people prevent stress from becoming cumulative? Also, what\u2019s the role of restorative sleep in reducing stress?<\/b>Restorative sleep is hugely important in reducing stress. And it is part of what we need to do to prevent stress from being cumulative. But it\u2019s not just about what happens at night\u2014we also need to schedule time, even a minute or two, to unplug and recharge regularly throughout the day. That\u2019s what gives us the resilience to manage situations that would otherwise lead to cumulative stress.",
+    "format": "rich_text",
+    "processed": "<i>Arianna Huffington knows what it takes to reinvent herself. She has taken on a new mission: ending the worldwide culture of stress and burnout. In an interview with the Milken Institute Center for the Future of Aging, Huffington explains the role of restorative sleep in reducing stress, how to take control of our tech habits, and why sleep becomes more important as we age.<\/i><b>Why did you decide to launch\u00a0Thrive Global? What is its mission and your vision for its impact?<\/b>The seeds of Thrive Global go back to 2007 when I collapsed from exhaustion. After that episode, I became more and more passionate about the connection between wellbeing and productivity. And that led me to write my two books, <i>Thrive<\/i> and <i>The Sleep Revolution<\/i>. As I traveled on my book tours, discussing the issues of stress, burnout, and sleep deprivation, I saw how deeply people want to change their lives. So, I wanted to go beyond just speaking out and raising awareness\u2014I felt the need to turn this passion into something real and tangible that would help people change their daily lives. It was a call to action I just couldn\u2019t ignore\u2014and so I founded Thrive Global.Our mission is to end the stress and burnout epidemic by offering companies and individuals sustainable, science-based solutions to enhance wellbeing, performance, and purpose and create a healthier relationship with technology. There is a pervasive belief that burnout is the price we must pay for success. As we know from\u00a0recent scientific findings, this is a delusion. When we prioritize our wellbeing, our decision-making, creativity, and productivity improve dramatically. Thrive Global is committed to accelerating the culture shift that allows people to reclaim their lives and move from merely surviving to thriving.<b>Does sleep become more important as we age?<\/b>Sleep is important at every age, but the particular benefits of sleep\u2014and dangers of sleep deprivation\u2014can change as we age.\u00a0For example, recent science has shown that sleep is connected to Alzheimer\u2019s disease.<b>Why do you think so little attention is given to sleep and other approaches to disease prevention and wellness? How can we change that?\u00a0<\/b>Our society\u2019s attitude toward sleep actually goes back to the Industrial Revolution, when time spent sleeping began to be seen as just more time to be colonized and monetized. And that misguided idea still lingers today. But the last few decades have seen a mountain of science showing how deeply connected sleep is to our health, wellbeing, and productivity. So, the culture shift is underway, but because there is so much at stake, we need to accelerate it.<b>Can you explain how sleep deprivation impacts chronic diseases as well as weight gain?<\/b>There have been many studies showing how sleep deprivation\u00a0compromises our immune system, which makes it harder both to stave off disease and to recover from it. And with weight, when we get more sleep, we produce less of a hormone called\u00a0ghrelin\u2014the \u201chunger hormone\u201d\u2014which increases appetite.<b>What\u2019s your take on sleeping pills?\u00a0<\/b>There are, of course, times in our lives\u2014a traumatic experience, the death of a loved one\u2014when we might need some temporary help getting to sleep. But it\u2019s important to make a distinction between turning to sleep aids at such moments and turning to them as an everyday cure for sleeplessness.Sleep difficulties can turn into serious medical problems. For the vast majority of us, however, sleep difficulties are a lifestyle problem, and that should be the solution, instead of pills that come with a long list of side effects.<b>What advice can you share about how to take control of our tech habits?<\/b>Of course, technology allows us to do amazing things, but it\u2019s also accelerated the pace of our lives beyond our capacity to keep up. An unhealthy relationship with technology can fuel stress and burnout. It\u2019s important to be deliberate about making time to unplug and recharge. And you can start at the beginning and end of the day. Our phones are repositories of everything we need to put away to allow us to sleep\u2014our to-do lists, our inboxes, the demands of the world. So not lying with your phone before bed and, instead, putting it to bed outside your bedroom as a regular part of your bedtime ritual makes you more likely to wake up as fully charged as your phone. In the morning, taking a few minutes to breathe, meditate, or just set your intention for the day\u2014not just what you want to get done but what kind of day you want to have\u2014can stay with you for the rest of the day. Resisting your phone and creating these spaces at the beginning and end of your day also reinforces your sense of being in control of your relationship with technology.<b>How can people prevent stress from becoming cumulative? Also, what\u2019s the role of restorative sleep in reducing stress?<\/b>Restorative sleep is hugely important in reducing stress. And it is part of what we need to do to prevent stress from being cumulative. But it\u2019s not just about what happens at night\u2014we also need to schedule time, even a minute or two, to unplug and recharge regularly throughout the day. That\u2019s what gives us the resilience to manage situations that would otherwise lead to cumulative stress.",
+    "summary": null,
+    "summary_processed": ""
+}

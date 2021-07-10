@@ -1,0 +1,29 @@
+uuid: ca4b6184-b977-4b9a-b46b-fae52a2f14b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_topics
+    - taxonomy.vocabulary.topics
+id: event.meeting.field_topics
+field_name: field_topics
+entity_type: event
+bundle: meeting
+label: Topics
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

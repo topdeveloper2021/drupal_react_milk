@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/prescription-brain-disease-research?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/217?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 845
+        }
+    ],
+    "uuid": [
+        {
+            "value": "030e6448-3d50-4e11-bdfb-229c1016b032"
+        }
+    ],
+    "vid": [
+        {
+            "value": 845
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/217?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "37d9e719-011d-423d-b275-21018409c8de"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "A Prescription for Brain Disease Research",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T03:04:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:07:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/prescription-brain-disease-research",
+            "pid": 898,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The population is aging and so are its brains. Neurodegenerative diseases are impacting more people\u2014those who are diagnosed <i>and<\/i> their loved ones\u2014bringing with them higher costs for all. The number of people with Parkinson\u2019s disease, for example, the fastest-growing brain disease, in the United States is nearly 1 million, with an annual economic burden of $52 billion. The number of people with Parkinson\u2019s disease is excepted to more than double by 2040. The need for transformative treatments is clear and urgent, but the path for getting there is less so. Brain research is categorically complex and takes far too long. To speed new therapies, we need community and transparency. Everyone must take their seat at the table and share the how, what, and why of their research for more efficient progress toward a healthier world.<br \/> <br \/> Global Village of Diverse Experiences and Perspectives Solving a complex problem requires multi-disciplinary teams interrogating and contributing from all angles. From clinicians learning from patients at the bedside, to scientists making discoveries in the lab, from biotechs taking a gamble on new ideas and large pharmaceutical companies investing in later-stage trials, to data scientists and molecular imaging specialists lending their expertise to create cutting-edge measurement tools\u2014all are needed to help answer the many questions around conditions such as Parkinson\u2019s, Alzheimer\u2019s, Huntington\u2019s, amyotrophic lateral sclerosis (ALS) and the many more iterations of neurodegeneration. Perhaps most imperative to this work are patients and study participants: that means patients with early-stage disease, and those having spent decades living with a diagnosis, as well as people with familial, genetic, and clinical risk factors and control volunteers. Beyond their disease relationship, participants should reflect diverse faces and backgrounds to build a democratic picture of disease and support breakthroughs for all. Without their contributions, progress would not be possible. Good Citizens of the Field in Service of Shared Goals Collaboration, especially with people living with disease, can strengthen studies, for example, by improving recruitment feasibility with a more manageable protocol or integrating a functional outcome measure that appeals to regulators. It goes without saying that partnership with other scientists can add additional perspectives and resources that improve the speed and validity of studies. In addition to sharing with study partners, though, the field needs to embrace faster and better communication with the public. Transparency around motivations, methods, and findings strengthens and hastens breakthroughs by providing data and templates to build on. The traditional approach of collect and hoard data; analyze, analyze, analyze; submit, edit, submit publication just takes too much time. Through presentations at meetings and conferences and a growing crop of online pre-print publication sites, researchers can disseminate their methods and findings faster and even invite comments to improve analysis. A step further would be contributing data to a larger pool for comparison. When placed next to data from other studies, the value of yours grows. Data commons such as BRAIN Commons from Cohen Veterans Bioscience are collecting data across not only studies but also brain diseases. More programs are requiring investigators to share analysis of their open-access data. The Accelerating Medicines Partnership (AMP) programs from the National Institutes of Health\u2014of which there are ones for Alzheimer\u2019s and Parkinson\u2019s\u2014requests grantees open their methods and findings from applying molecular fingerprinting technologies to data from large-scale cohort studies. Our landmark Parkinson\u2019s Progression Markers Initiative (PPMI) study\u2014collecting data and samples from nearly 1,400 volunteers around the world\u2014is included in AMP and BRAIN Commons and makes its data available in real time. PPMI shows too that there is a demand for open-access data; its data have been downloaded more than 4.7 million times. Study participants can also be recipients and stewards of transparency. Study sponsors should share back with volunteers the findings that they helped generate. And people with disease can share their priorities and perspectives on what and how research should be done. As we move closer to a world without brain disease, greater community and more candor can only serve us well. Research is happening on two tracks. There is the scientific method to test known hypotheses and the big data approach to uncover novel insights. Each requires diverse expertise and the availability of resources and learned strategies beyond what one company or laboratory can provide. We invite all willing to come in, shake hands with your neighbor, and exchange notebooks. We all want a world without brain disease, and we can get there together.",
+    "format": "rich_text",
+    "processed": "The population is aging and so are its brains. Neurodegenerative diseases are impacting more people\u2014those who are diagnosed <i>and<\/i> their loved ones\u2014bringing with them higher costs for all. The number of people with Parkinson\u2019s disease, for example, the fastest-growing brain disease, in the United States is nearly 1 million, with an annual economic burden of $52 billion. The number of people with Parkinson\u2019s disease is excepted to more than double by 2040. The need for transformative treatments is clear and urgent, but the path for getting there is less so. Brain research is categorically complex and takes far too long. To speed new therapies, we need community and transparency. Everyone must take their seat at the table and share the how, what, and why of their research for more efficient progress toward a healthier world.<br \/><br \/> Global Village of Diverse Experiences and Perspectives Solving a complex problem requires multi-disciplinary teams interrogating and contributing from all angles. From clinicians learning from patients at the bedside, to scientists making discoveries in the lab, from biotechs taking a gamble on new ideas and large pharmaceutical companies investing in later-stage trials, to data scientists and molecular imaging specialists lending their expertise to create cutting-edge measurement tools\u2014all are needed to help answer the many questions around conditions such as Parkinson\u2019s, Alzheimer\u2019s, Huntington\u2019s, amyotrophic lateral sclerosis (ALS) and the many more iterations of neurodegeneration. Perhaps most imperative to this work are patients and study participants: that means patients with early-stage disease, and those having spent decades living with a diagnosis, as well as people with familial, genetic, and clinical risk factors and control volunteers. Beyond their disease relationship, participants should reflect diverse faces and backgrounds to build a democratic picture of disease and support breakthroughs for all. Without their contributions, progress would not be possible. Good Citizens of the Field in Service of Shared Goals Collaboration, especially with people living with disease, can strengthen studies, for example, by improving recruitment feasibility with a more manageable protocol or integrating a functional outcome measure that appeals to regulators. It goes without saying that partnership with other scientists can add additional perspectives and resources that improve the speed and validity of studies. In addition to sharing with study partners, though, the field needs to embrace faster and better communication with the public. Transparency around motivations, methods, and findings strengthens and hastens breakthroughs by providing data and templates to build on. The traditional approach of collect and hoard data; analyze, analyze, analyze; submit, edit, submit publication just takes too much time. Through presentations at meetings and conferences and a growing crop of online pre-print publication sites, researchers can disseminate their methods and findings faster and even invite comments to improve analysis. A step further would be contributing data to a larger pool for comparison. When placed next to data from other studies, the value of yours grows. Data commons such as BRAIN Commons from Cohen Veterans Bioscience are collecting data across not only studies but also brain diseases. More programs are requiring investigators to share analysis of their open-access data. The Accelerating Medicines Partnership (AMP) programs from the National Institutes of Health\u2014of which there are ones for Alzheimer\u2019s and Parkinson\u2019s\u2014requests grantees open their methods and findings from applying molecular fingerprinting technologies to data from large-scale cohort studies. Our landmark Parkinson\u2019s Progression Markers Initiative (PPMI) study\u2014collecting data and samples from nearly 1,400 volunteers around the world\u2014is included in AMP and BRAIN Commons and makes its data available in real time. PPMI shows too that there is a demand for open-access data; its data have been downloaded more than 4.7 million times. Study participants can also be recipients and stewards of transparency. Study sponsors should share back with volunteers the findings that they helped generate. And people with disease can share their priorities and perspectives on what and how research should be done. As we move closer to a world without brain disease, greater community and more candor can only serve us well. Research is happening on two tracks. There is the scientific method to test known hypotheses and the big data approach to uncover novel insights. Each requires diverse expertise and the availability of resources and learned strategies beyond what one company or laboratory can provide. We invite all willing to come in, shake hands with your neighbor, and exchange notebooks. We all want a world without brain disease, and we can get there together.",
+    "summary": null,
+    "summary_processed": ""
+}

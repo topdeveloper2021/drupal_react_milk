@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7425\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Tmat2gXYPWrXk9EHtzvdagnLuYP3bvADwyGDDdpVSYw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7425
+        }
+    ],
+    "uuid": [
+        {
+            "value": "771cdf62-7fde-4c30-9ce1-ec3a812ea85b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 202
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Tmat2gXYPWrXk9EHtzvdagnLuYP3bvADwyGDDdpVSYw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "89eb6af5-ee2b-4972-b67f-327ce6059326"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Transforming the Urban Landscape",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-17T13:03:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Technology has always been the catalyst that has driven the evolution of cities. Building design, transportation, infrastructure, energy usage and connectivity are undergoing massive changes that affect how we live, work and play in our urban landscape. Beyond passenger cars, the adoption of autonomous taxis, trucks and delivery vehicles could ultimately have the greatest impact on reducing congestion.<br><br>How is the integration of smart city technology influencing our living space?<br>What are the solutions to challenges such as expensive housing, excessively long commutes and fossil fuel dependency?<br>What are the new digital technologies that are making cities more livable and what is the effect on our privacy and security?",
+    "format": "rich_text",
+    "processed": "Technology has always been the catalyst that has driven the evolution of cities. Building design, transportation, infrastructure, energy usage and connectivity are undergoing massive changes that affect how we live, work and play in our urban landscape. Beyond passenger cars, the adoption of autonomous taxis, trucks and delivery vehicles could ultimately have the greatest impact on reducing congestion.<br \/><br \/>How is the integration of smart city technology influencing our living space?<br \/>What are the solutions to challenges such as expensive housing, excessively long commutes and fossil fuel dependency?<br \/>What are the new digital technologies that are making cities more livable and what is the effect on our privacy and security?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/kPucdPXGx8k",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/Tmat2gXYPWrXk9EHtzvdagnLuYP3bvADwyGDDdpVSYw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

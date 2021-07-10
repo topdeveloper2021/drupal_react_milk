@@ -1,0 +1,23 @@
+uuid: 1cdeabff-a32c-4180-876e-bd3ad2e939a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_pgid
+id: grid_speakers.speakers.field_pgid
+field_name: field_pgid
+entity_type: grid_speakers
+bundle: speakers
+label: pgid
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

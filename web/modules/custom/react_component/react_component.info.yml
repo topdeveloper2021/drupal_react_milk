@@ -1,0 +1,8 @@
+name: 'React Component'
+type: module
+description: 'Adding react components to the layout module'
+package: 'milken'
+core_version_requirement: ^8 || ^9
+dependencies:
+  - layout_discovery
+  - layout_builder

@@ -1,0 +1,18 @@
+uuid: db43eebd-505b-4451-9248-9cdf9457ff60
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_published
+field_name: field_published
+entity_type: event
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

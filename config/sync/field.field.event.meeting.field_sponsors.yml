@@ -1,0 +1,28 @@
+uuid: 93f60156-0569-48ef-9584-bde8a190b575
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_sponsors
+    - media.type.sponsor_logo
+id: event.meeting.field_sponsors
+field_name: field_sponsors
+entity_type: event
+bundle: meeting
+label: Sponsors
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      sponsor_logo: sponsor_logo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

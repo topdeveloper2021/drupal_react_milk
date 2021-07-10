@@ -1,0 +1,24 @@
+uuid: f3374261-f67b-445b-8610-9d9fcdb05fb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - key_value_field
+id: panel.field_speaker_roles
+field_name: field_speaker_roles
+entity_type: panel
+type: key_value
+settings:
+  key_max_length: 255
+  max_length: 255
+  key_is_ascii: false
+  is_ascii: false
+  case_sensitive: false
+module: key_value_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

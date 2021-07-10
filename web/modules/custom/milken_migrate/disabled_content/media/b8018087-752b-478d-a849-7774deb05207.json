@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7449\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7449
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b8018087-752b-478d-a849-7774deb05207"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1610
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0828ffb5-a2c6-4dcc-8bf2-8292700e71c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Credit Market Outlook",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-06-23T09:56:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T14:24:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Institute Chairman Mike Milken moderates our annual panel on issues shaping global credit markets. Watch as he, along with our panel of leading investors, discuss the best investment opportunities across the spectrum of credit instruments, the state of underwriting standards, and how fixed-rate investors are preparing for the current outlook for rates.<br \/> <br \/> Moderator:<br \/> Michael Milken, Chairman, Milken Institute<br \/> <br \/> Speakers:<br \/> Mark Attanasio, Co-Founder and Managing Partner, Crescent Capital Group LP<br \/> George Hicks, Co-Founder, CEO and Co-CIO, V\u04d3rde Partners<br \/> Sir Michael Hintze, Founder and CEO, CQS<br \/> Joseph Naggar, Partner and Senior Portfolio Manager, GoldenTree Asset Management<br \/> Jim Zelter, Managing Partner, Apollo Capital Management",
+    "format": "rich_text",
+    "processed": "Institute Chairman Mike Milken moderates our annual panel on issues shaping global credit markets. Watch as he, along with our panel of leading investors, discuss the best investment opportunities across the spectrum of credit instruments, the state of underwriting standards, and how fixed-rate investors are preparing for the current outlook for rates.<br \/><br \/> Moderator:<br \/> Michael Milken, Chairman, Milken Institute<br \/><br \/> Speakers:<br \/> Mark Attanasio, Co-Founder and Managing Partner, Crescent Capital Group LP<br \/> George Hicks, Co-Founder, CEO and Co-CIO, V\u04d3rde Partners<br \/> Sir Michael Hintze, Founder and CEO, CQS<br \/> Joseph Naggar, Partner and Senior Portfolio Manager, GoldenTree Asset Management<br \/> Jim Zelter, Managing Partner, Apollo Capital Management",
+    "summary": null,
+    "summary_processed": "",
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/videoseries",
+            "lang": "en"
+        }
+    ]
+}

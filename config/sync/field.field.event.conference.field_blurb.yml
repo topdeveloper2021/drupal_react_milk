@@ -1,0 +1,19 @@
+uuid: 46744bd9-5abc-4585-8779-204d4ea1d5ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_blurb
+id: event.conference.field_blurb
+field_name: field_blurb
+entity_type: event
+bundle: conference
+label: Blurb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

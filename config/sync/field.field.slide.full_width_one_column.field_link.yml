@@ -1,0 +1,23 @@
+uuid: 14e2b6f0-ad75-4502-95f8-96e72eec756a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_link
+  module:
+    - link
+id: slide.full_width_one_column.field_link
+field_name: field_link
+entity_type: slide
+bundle: full_width_one_column
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,21 @@
+uuid: 4ed05f92-06a7-411f-ad9c-4b547e48ef63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.opportunity
+  module:
+    - metatag
+id: node.opportunity.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: opportunity
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

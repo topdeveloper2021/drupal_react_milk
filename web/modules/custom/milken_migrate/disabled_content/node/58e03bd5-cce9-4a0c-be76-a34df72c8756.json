@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/afghanistan-opium-trade-thwarts-governments-authority-warns-robert-looney-latest-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 147
+        }
+    ],
+    "uuid": [
+        {
+            "value": "58e03bd5-cce9-4a0c-be76-a34df72c8756"
+        }
+    ],
+    "vid": [
+        {
+            "value": 147
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Afghanistan opium trade thwarts government's authority, warns Robert Looney in the latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/afghanistan-opium-trade-thwarts-governments-authority-warns-robert-looney-latest-milken",
+            "pid": 200,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - <b>Robert Looney<\/b>, from the Naval Postgraduate School, writes about America's latest foreign quagmire in the Milken Institute Review. \"Afghanistan's booming opium business is a large and growing impediment to the authority of the coalition-supported government in Kabul,\" he explains. \"Over the last eight years, the lack of government in the countryside has created an ideal breeding ground for illicit narcotics trade.\" Also in this issue: <b>Price Fishback<\/b>, an economic historian at the University of Arizona, compares the global economic crisis to the Great Depression. \"The financial market trauma triggered by the collapse of housing and stock prices was not ignored this time around; nor was it treated as a moral failing in which the answer to pain was more pain in the form of financial austerity.\" <b>Robert Hahn<\/b>, of the American Enterprise Institute, offers a reality check to new optimism about containing climate change. \"Getting from here to there will require the cooperation of (perhaps considerable sacrifice from) poor but rapidly developing countries, and it is far from clear that they can be convinced to go along.\" <b>Larry Fisher<\/b>, a leading business journalist, explores the deepening problems of financing biotechnology. By the end of 2008, he writes, \"fully one-third of the 370 publicly traded biotech companies in the United States were operating with less than the cash they needed to fund operations for six months.\" <b>Tong Li<\/b>, a senior research analyst at the Milken Institute, explores China's use of \"bad\" banks as a means of recapitalizing the banking system- as well as Beijing's inclination to exploit the banks as sources of funds for a huge economic stimulus package. <b>David Meltzer<\/b>, an economist and physician at the University of Chicago, introduces a novel and promising technique - value-of-information analysis - for setting priorities in medical research. The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policymakers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - <b>Robert Looney<\/b>, from the Naval Postgraduate School, writes about America's latest foreign quagmire in the Milken Institute Review. \"Afghanistan's booming opium business is a large and growing impediment to the authority of the coalition-supported government in Kabul,\" he explains. \"Over the last eight years, the lack of government in the countryside has created an ideal breeding ground for illicit narcotics trade.\" Also in this issue: <b>Price Fishback<\/b>, an economic historian at the University of Arizona, compares the global economic crisis to the Great Depression. \"The financial market trauma triggered by the collapse of housing and stock prices was not ignored this time around; nor was it treated as a moral failing in which the answer to pain was more pain in the form of financial austerity.\" <b>Robert Hahn<\/b>, of the American Enterprise Institute, offers a reality check to new optimism about containing climate change. \"Getting from here to there will require the cooperation of (perhaps considerable sacrifice from) poor but rapidly developing countries, and it is far from clear that they can be convinced to go along.\" <b>Larry Fisher<\/b>, a leading business journalist, explores the deepening problems of financing biotechnology. By the end of 2008, he writes, \"fully one-third of the 370 publicly traded biotech companies in the United States were operating with less than the cash they needed to fund operations for six months.\" <b>Tong Li<\/b>, a senior research analyst at the Milken Institute, explores China's use of \"bad\" banks as a means of recapitalizing the banking system- as well as Beijing's inclination to exploit the banks as sources of funds for a huge economic stimulus package. <b>David Meltzer<\/b>, an economist and physician at the University of Chicago, introduces a novel and promising technique - value-of-information analysis - for setting priorities in medical research. The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policymakers and journalists. Its editor is <b>Peter Passell<\/b>, former economics columnist for The New York Times.",
+    "summary": null,
+    "summary_processed": ""
+}

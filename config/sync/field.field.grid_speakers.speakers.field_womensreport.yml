@@ -1,0 +1,19 @@
+uuid: 7ddca7c2-80f1-40d7-b4b9-6a881d173e4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_womensreport
+id: grid_speakers.speakers.field_womensreport
+field_name: field_womensreport
+entity_type: grid_speakers
+bundle: speakers
+label: womensreport
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

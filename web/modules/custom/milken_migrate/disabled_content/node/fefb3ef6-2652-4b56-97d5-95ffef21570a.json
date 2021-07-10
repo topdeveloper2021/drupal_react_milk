@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/how-boomers-became-disillusioned-generation?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/164?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 792
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fefb3ef6-2652-4b56-97d5-95ffef21570a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 792
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/164?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5c8787f8-0ce8-44c1-9de0-ac4a36bb0f9c"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How Boomers Became the Disillusioned Generation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-06T23:35:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-16T16:08:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/how-boomers-became-disillusioned-generation",
+            "pid": 845,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Forgive some boomers for feeling a bit disheartened. They\u2019re learning a lot about themselves while advancing through middle age and into later life, and the news can be unpleasant. An accumulation of recent surveys and studies indicates that boomers tend to be more worried about money,\u00a0less trustful\u00a0of government and gloomier about the future than other generations. One in three boomers\u00a0believe their children\u2019s standard of living will be worse\u00a0than their own, according to the Pew Research Center. On a personal level, boomers also are more likely to\u00a0suffer from chronic illnesses and obesity\u00a0than their parents. Maybe worst of all, many boomers who lost jobs or watched their retirement funds and home values shrink during the Great Recession now face the difficult challenge of rebuilding a secure future. Unable to Find Work \u201cFew people even see a connection between work and prosperity any more, and those of us who grew up working and moved ourselves from working-class to middle-class are running as fast as we can and cutting as much as we can just to keep from losing everything,\u201d says Kimberly Schimmel, 52, who lives in the Greensboro, N.C. area. She returned to school after two decades to earn a master\u2019s degree in library science but has been unable to find work in the crowded field. This isn\u2019t how things were supposed to turn out for the boomers, the generation born amid the unprecedented prosperity and promise of the post-war years, 1946 to 1964. They entered adulthood as the best-educated generation in U.S. history, worked long hours during the \u201880s and \u201890s and looked forward to a secure retirement funded by 401(k) plans and a booming stock market (some expecting pensions in retirement, too). It\u2019s no great surprise, then, that 21st\u00a0century reality has left many of them disillusioned and uncertain. Of course, it is wrong to assume that all of America\u2019s 75 million+ boomers share the same personal history, attitudes and life outcomes. But research shows that as a group, this generation seems to take the lead in pessimism. Angst and Middle Age A degree of angst and uncertainty is typical of middle age, says Tal Ben-Shahar, author of The New York Times bestseller\u00a0<i>Happier<\/i>. But for boomers, he notes, unique forces are at play that set them apart from their parents, children and grandchildren. \u201cMany boomers grew up on the American dream, that the sky is the limit and that having more is better,\u201d says Ben-Shahar, who lectured on psychology and leadership at Harvard before becoming a corporate consultant. \u201cBoomers need to change their expectations in life.\u201d Or, as Schimmel puts it, \u201cPeople need to look to their souls.\u201d The point is that struggling individuals can\u2019t control macroeconomic forces, save Social Security or eliminate age bias in the workplace. They can, however, make personal, attitudinal changes that will make it easier to endure, and possibly overcome, difficulty and disappointment. Although attitude can\u2019t restore everything they may have lost, it can ease stress and eliminate despair. \u201cIf we expect additional income and accolades to make us happier, then we have a wrong expectation,\u201d says Ben-Shahar. \u201cIf, however, we expect that spending quality time with those we care about, pursuing meaningful goals, being physically active, acting kindly and expressing gratitude regularly will make us happier, then we have the right expectations.\u201d Advice for Disillusioned Boomers Another suggestion for disillusioned boomers, says Kevin C. Fleming, who practices geriatric medicine and teaches at the Mayo Clinic\u2019s Robert and Arlene Kogod Center on Aging, is to look forward and put the past behind. \u201cTry not to keep living as if your past is going to get any better, or regretting your past \u2014 as if that would have any effect on it,\u201d Flemming said on\u00a0<i>Life (Part 2)<\/i>,\u00a0a PBS series focused on 50+ viewers. Part of looking forward involves doing what lies within your own power to get past the hard times. That strategy has helped Schimmel. After being unable to find work in her field, she drew on a diverse set of talents to create freelance opportunities as a copy editor, researcher, dressmaker, seamstress and knitter, supplementing the family income. She promotes her enterprises by blogging about them and maintaining an active presence on social media. Certainly, not all boomers have seen their plans derailed. Jay Harrison, creative director at DesignConcept, a Maryland-based graphic design firm, remained employed through the downturn and even managed to open a satellite office in New Mexico, where he enjoys open spaces and spectacular scenery. In his spare time, Harrison, 68, edits the website\u00a0BoomSpeak. Harrison says the spirit of boomers \u2014 a generation that fought to expand civil rights, change government and usher in the digital age \u2014 is to persevere. \u201cBaby boomers, from the beginning of time, have always been people who would look at something and if it wasn\u2019t what they wanted it to be, would ask, `How can I make it better?\u2019\u201d he says. \u201cI don\u2019t see it as disillusionment. I just see it as a project.\u201d <i>This article originally appeared on\u00a0NextAvenue.org.<\/i>",
+    "format": "rich_text",
+    "processed": "Forgive some boomers for feeling a bit disheartened. They\u2019re learning a lot about themselves while advancing through middle age and into later life, and the news can be unpleasant. An accumulation of recent surveys and studies indicates that boomers tend to be more worried about money,\u00a0less trustful\u00a0of government and gloomier about the future than other generations. One in three boomers\u00a0believe their children\u2019s standard of living will be worse\u00a0than their own, according to the Pew Research Center. On a personal level, boomers also are more likely to\u00a0suffer from chronic illnesses and obesity\u00a0than their parents. Maybe worst of all, many boomers who lost jobs or watched their retirement funds and home values shrink during the Great Recession now face the difficult challenge of rebuilding a secure future. Unable to Find Work \u201cFew people even see a connection between work and prosperity any more, and those of us who grew up working and moved ourselves from working-class to middle-class are running as fast as we can and cutting as much as we can just to keep from losing everything,\u201d says Kimberly Schimmel, 52, who lives in the Greensboro, N.C. area. She returned to school after two decades to earn a master\u2019s degree in library science but has been unable to find work in the crowded field. This isn\u2019t how things were supposed to turn out for the boomers, the generation born amid the unprecedented prosperity and promise of the post-war years, 1946 to 1964. They entered adulthood as the best-educated generation in U.S. history, worked long hours during the \u201880s and \u201890s and looked forward to a secure retirement funded by 401(k) plans and a booming stock market (some expecting pensions in retirement, too). It\u2019s no great surprise, then, that 21st\u00a0century reality has left many of them disillusioned and uncertain. Of course, it is wrong to assume that all of America\u2019s 75 million+ boomers share the same personal history, attitudes and life outcomes. But research shows that as a group, this generation seems to take the lead in pessimism. Angst and Middle Age A degree of angst and uncertainty is typical of middle age, says Tal Ben-Shahar, author of The New York Times bestseller\u00a0<i>Happier<\/i>. But for boomers, he notes, unique forces are at play that set them apart from their parents, children and grandchildren. \u201cMany boomers grew up on the American dream, that the sky is the limit and that having more is better,\u201d says Ben-Shahar, who lectured on psychology and leadership at Harvard before becoming a corporate consultant. \u201cBoomers need to change their expectations in life.\u201d Or, as Schimmel puts it, \u201cPeople need to look to their souls.\u201d The point is that struggling individuals can\u2019t control macroeconomic forces, save Social Security or eliminate age bias in the workplace. They can, however, make personal, attitudinal changes that will make it easier to endure, and possibly overcome, difficulty and disappointment. Although attitude can\u2019t restore everything they may have lost, it can ease stress and eliminate despair. \u201cIf we expect additional income and accolades to make us happier, then we have a wrong expectation,\u201d says Ben-Shahar. \u201cIf, however, we expect that spending quality time with those we care about, pursuing meaningful goals, being physically active, acting kindly and expressing gratitude regularly will make us happier, then we have the right expectations.\u201d Advice for Disillusioned Boomers Another suggestion for disillusioned boomers, says Kevin C. Fleming, who practices geriatric medicine and teaches at the Mayo Clinic\u2019s Robert and Arlene Kogod Center on Aging, is to look forward and put the past behind. \u201cTry not to keep living as if your past is going to get any better, or regretting your past \u2014 as if that would have any effect on it,\u201d Flemming said on\u00a0<i>Life (Part 2)<\/i>,\u00a0a PBS series focused on 50+ viewers. Part of looking forward involves doing what lies within your own power to get past the hard times. That strategy has helped Schimmel. After being unable to find work in her field, she drew on a diverse set of talents to create freelance opportunities as a copy editor, researcher, dressmaker, seamstress and knitter, supplementing the family income. She promotes her enterprises by blogging about them and maintaining an active presence on social media. Certainly, not all boomers have seen their plans derailed. Jay Harrison, creative director at DesignConcept, a Maryland-based graphic design firm, remained employed through the downturn and even managed to open a satellite office in New Mexico, where he enjoys open spaces and spectacular scenery. In his spare time, Harrison, 68, edits the website\u00a0BoomSpeak. Harrison says the spirit of boomers \u2014 a generation that fought to expand civil rights, change government and usher in the digital age \u2014 is to persevere. \u201cBaby boomers, from the beginning of time, have always been people who would look at something and if it wasn\u2019t what they wanted it to be, would ask, `How can I make it better?\u2019\u201d he says. \u201cI don\u2019t see it as disillusionment. I just see it as a project.\u201d <i>This article originally appeared on\u00a0NextAvenue.org.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

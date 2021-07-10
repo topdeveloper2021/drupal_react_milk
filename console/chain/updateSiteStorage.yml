@@ -1,0 +1,9 @@
+command:
+  name: site:milken:updateStorage
+  description: "Update Site Storage YML"
+commands:
+  - command: 'exec'
+    arguments:
+      bin: drush cget system.site > drupal-config/prod/system.site.yml
+    options:
+      working-directory: "/var/www"

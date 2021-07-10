@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7214\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/GrOw3a1oaEajbMSBiTVaOXnIlRAEt7K_wHDnjSgqh0s.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7214
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d8084611-8e1e-4e3f-bbd3-e82da327ac4a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2195
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/GrOw3a1oaEajbMSBiTVaOXnIlRAEt7K_wHDnjSgqh0s.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47f7f58d-7ddb-47ae-87cb-23f6ab27c5cc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Belt and Road Initiative: Chinas 21st Century Plan for Eurasia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-02-14T07:04:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:03:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "China's One Belt, One Road project - comprising of more than 68 countries, encompassing 4.4 billion people, and up to 40 percent of global GDP - will have major ramifications for countries and economies around the globe, especially those in Eurasia and the Asia-Pacific. Properly assessing the potential risks and volatility in OBOR related projects around the world and in varying economies will be central to its overall success. During this panel, experts will give an overview of the current state of the OBOR Initiative, both in the MENA region and internationally, and some of its potential obstacles.",
+    "format": "rich_text",
+    "processed": "China's One Belt, One Road project - comprising of more than 68 countries, encompassing 4.4 billion people, and up to 40 percent of global GDP - will have major ramifications for countries and economies around the globe, especially those in Eurasia and the Asia-Pacific. Properly assessing the potential risks and volatility in OBOR related projects around the world and in varying economies will be central to its overall success. During this panel, experts will give an overview of the current state of the OBOR Initiative, both in the MENA region and internationally, and some of its potential obstacles.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/DxdPYgVgX9I",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/GrOw3a1oaEajbMSBiTVaOXnIlRAEt7K_wHDnjSgqh0s.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

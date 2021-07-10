@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7051\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/I6gHjhN-S8yBMXYKdRy_T8KKJHgeNWDAZMSi50F2Zis.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7051
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2d7724cf-e6ac-4cb7-8a4e-a2881b0a3002"
+        }
+    ],
+    "vid": [
+        {
+            "value": 22
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/I6gHjhN-S8yBMXYKdRy_T8KKJHgeNWDAZMSi50F2Zis.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8fea523d-1085-46fa-bba1-01cff00d7534"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Media and Trust: A Global Concern",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T11:22:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Trust in major democratic institutions is plummeting and the media is both culprit and victim. In America, a longstanding promoter of liberal democracy, citizens estimate that 62% of the news they see in newspapers, on TV and hear on the radio is biased, 44% of it is inaccurate, and 39% is misinformation. In fact, all corners of the world are struggling to combat this issue. Foreign entities are even weaponizing disinformation to influence other countries' domestic politics and discourse. Nevertheless, although global trust in social media platforms has declined from 53% in 2017 to 51% in 2018, trust in traditional journalism has rebounded from 54% to 59%. What are the causes and consequences of the collapse in trust in media, journalism, and the information ecosystem over the past several years? What role does social media have in this mistrust? How should governments, businesses, and ordinary citizens unite to tackle this trend? ",
+    "format": "rich_text",
+    "processed": "Trust in major democratic institutions is plummeting and the media is both culprit and victim. In America, a longstanding promoter of liberal democracy, citizens estimate that 62% of the news they see in newspapers, on TV and hear on the radio is biased, 44% of it is inaccurate, and 39% is misinformation. In fact, all corners of the world are struggling to combat this issue. Foreign entities are even weaponizing disinformation to influence other countries' domestic politics and discourse. Nevertheless, although global trust in social media platforms has declined from 53% in 2017 to 51% in 2018, trust in traditional journalism has rebounded from 54% to 59%. What are the causes and consequences of the collapse in trust in media, journalism, and the information ecosystem over the past several years? What role does social media have in this mistrust? How should governments, businesses, and ordinary citizens unite to tackle this trend? ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/nFWMeB12tsE",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/I6gHjhN-S8yBMXYKdRy_T8KKJHgeNWDAZMSi50F2Zis.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

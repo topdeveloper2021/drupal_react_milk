@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7762\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/I0L7mhZX18Dc8TemgMaI-ZbsrqCo0neBjSoq9rheZ8o.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7762
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d47e127c-42d7-4e6c-aa25-e0dbd5106a40"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2278
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/I0L7mhZX18Dc8TemgMaI-ZbsrqCo0neBjSoq9rheZ8o.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dec7d7f0-f0ae-4f1f-98d9-33885ea0662e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Gender Balance as a Strategic Initiative: A Global Perspective",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-28T00:21:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:32:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Male dominance of the investment management industry is no secret. But it's also true that companies around the world are beginning to recognize the benefits of developing and promoting women to senior leadership positions. The positive outcomes include improved operating performance and productivity as well as an enhanced ability to attract and retain high-quality talent. Engaging CEOs and managers at all levels to embrace and champion gender balance is critical to achieving success in the global competition for talent. This discussion will provide a framework outlining five areas to address to achieve gender balance at the highest levels of leadership and highlight the experiences of the individuals who are leading this transformation in their own organizations.",
+    "format": "rich_text",
+    "processed": "Male dominance of the investment management industry is no secret. But it's also true that companies around the world are beginning to recognize the benefits of developing and promoting women to senior leadership positions. The positive outcomes include improved operating performance and productivity as well as an enhanced ability to attract and retain high-quality talent. Engaging CEOs and managers at all levels to embrace and champion gender balance is critical to achieving success in the global competition for talent. This discussion will provide a framework outlining five areas to address to achieve gender balance at the highest levels of leadership and highlight the experiences of the individuals who are leading this transformation in their own organizations.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/tWkD_yDdBlg",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/I0L7mhZX18Dc8TemgMaI-ZbsrqCo0neBjSoq9rheZ8o.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

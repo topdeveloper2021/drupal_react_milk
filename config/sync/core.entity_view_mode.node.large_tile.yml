@@ -1,0 +1,10 @@
+uuid: 27f21e49-aaaf-4a9a-81cd-961b92d27047
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.large_tile
+label: 'Large tile'
+targetEntityType: node
+cache: true

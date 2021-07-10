@@ -1,0 +1,29 @@
+uuid: fb7cbd5c-307f-4947-ba3b-923cd88d908d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_collections
+    - media.type.image
+    - taxonomy.vocabulary.collections
+id: media.image.field_collections
+field_name: field_collections
+entity_type: media
+bundle: image
+label: Collections
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      collections: collections
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

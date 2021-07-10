@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/capital-markets-asia-need-alternative-sources-credit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/113?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 705
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fe705bd6-f1cc-4e8f-a63a-a2ce1a57793b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 705
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/113?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3f8b73aa-1ccc-4b1b-9cc6-65089ffdfa4f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Capital Markets in Asia Need Alternative Sources of Credit",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T12:36:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:49:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/capital-markets-asia-need-alternative-sources-credit",
+            "pid": 758,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "B <b>roader and deeper access to credit across Asian markets can provide a key building block in helping the region achieve its growth potential over the coming decades. While much is made of the expansion in credit in Asia\u00a0over the past decade, in truth this growth has mostly come from traditional financing sources and been provided to traditional borrowers, such as\u00a0banks\u00a0lending to prime or \u201clow-risk\u201d borrowers.\u00a0Continuing the evolution toward a more sophisticated and dynamic credit offering for\u00a0a wider swath of\u00a0corporates and consumers will be one of the keys to capturing economic growth\u00a0and properly distributing its rewards.\u00a0<\/b> The credit gap in Asia is\u00a0most apparent\u00a0for non-conforming borrowers,\u00a0borrowers who\u00a0do not\u00a0meet the criteria\u00a0for\u00a0traditional\u00a0financing\u00a0due to credit quality or the nature of their\u00a0underlying collateral. The gap is\u00a0particularly acute\u00a0in\u00a0historically\u00a0bank-dependent lending markets, particularly those that\u00a0are seeing\u00a0traditional\u00a0lenders retrench under the burden of non-performing loans\u00a0(NPLs)\u00a0or from regulatory pressure. Encouraging the growth\u00a0and evolution\u00a0of\u00a0public\u00a0credit markets provides one part of the answer. High-yield securitization and near-prime consumer lending markets remain significantly under-penetrated in Asia compared to Europe and North America.\u00a0This is\u00a0true even in more developed markets such as Japan and Australia, but\u00a0more acute\u00a0in developing Asia\u2014with only China having seen meaningful growth in its public\u00a0debt\u00a0markets.\u00a0Government policy has an important role to play\u00a0in creating\u00a0certainty around the enforcement process,\u00a0ability to move capital on and offshore,\u00a0and ideally standard processes\u00a0across the region. Alongside this\u00a0evolution in\u00a0public\u00a0markets, there is a critical role for\u00a0private \u201calternative\u201d\u00a0credit solutions across the region.\u00a0The ability\u00a0for\u00a0non-bank lenders\u00a0(hedge funds, private equity\u00a0firms\u00a0and\u00a0other financial institutions)\u00a0to\u00a0provide\u00a0flexible financing\u00a0can\u00a0boost access to growth capital for non-traditional borrowers or more complex structures. This is\u00a0especially\u00a0true\u00a0in markets where the high-yield market is nascent.\u00a0Alternative credit\u00a0plays a key role in restructuring existing debt,\u00a0acquiring NPLs and in supporting and helping evolve the regimes\u00a0to enforce creditors\u2019 rights.\u00a0More broadly,\u00a0there is a need for alternative credit\u00a0providers\u00a0to more systematically cover the gaps\u00a0that resulted from\u00a0bank retrenchment\u00a0by either building\u00a0lending enterprises or buying\u00a0them\u00a0from\u00a0traditional lenders. In North America and\u00a0Europe, alternative credit has\u00a0enhanced\u00a0many efficiencies in capital markets,\u00a0lowering the cost of borrowing in functioning markets and helping repair access to capital in disrupted markets.\u00a0We saw\u00a0this when\u00a0traditional lenders pulled back\u00a0in the wake of the\u00a0global financial\u00a0crisis.\u00a0Many\u00a0companies\u00a0still had\u00a0access\u00a0to\u00a0credit\u00a0through\u00a0this avenue\u00a0and\u00a0the industry played an important role in buying and proactively\u00a0restructuring impaired credit\u00a0from the banking system. Progress\u00a0has often been associated with a proactive focus on the functioning of credit markets by governments, and this can be seen in recent years in Asia.\u00a0In India, for example,\u00a0a focus on cleaning up the NPL problem in the state banking system led to\u00a0recent regulatory and legislative changes\u00a0to ease\u00a0the historically cumbersome and time consuming bankruptcy process.\u00a0The\u00a0restructuring\u00a0of\u00a0impaired credit\u00a0has been\u00a0most publicly visible through\u00a0the so-called \u201cDirty Dozen\u201d\u2014the 12 largest\u00a0corporate\u00a0debtors that were\u00a0mandated by the government to restructure. More broadly, India\u00a0has seen a step change in behavior and capital activity in a system that was previously mired in its troubled credit problem.\u00a0The Indian approach is paying dividends both in dealing with\u00a0the NPL problem and in promoting the development of more credit options for healthy borrowers. Asia will be the economic growth engine of the world over the coming decades, and history has shown the role that a sophisticated credit market can play in accelerating that path.\u00a0Markets and private alternative credit, along with governments driving regulatory change\u00a0will be key players in this next evolution of the Asian market. ",
+    "format": "rich_text",
+    "processed": "B <b>roader and deeper access to credit across Asian markets can provide a key building block in helping the region achieve its growth potential over the coming decades. While much is made of the expansion in credit in Asia\u00a0over the past decade, in truth this growth has mostly come from traditional financing sources and been provided to traditional borrowers, such as\u00a0banks\u00a0lending to prime or \u201clow-risk\u201d borrowers.\u00a0Continuing the evolution toward a more sophisticated and dynamic credit offering for\u00a0a wider swath of\u00a0corporates and consumers will be one of the keys to capturing economic growth\u00a0and properly distributing its rewards.\u00a0<\/b> The credit gap in Asia is\u00a0most apparent\u00a0for non-conforming borrowers,\u00a0borrowers who\u00a0do not\u00a0meet the criteria\u00a0for\u00a0traditional\u00a0financing\u00a0due to credit quality or the nature of their\u00a0underlying collateral. The gap is\u00a0particularly acute\u00a0in\u00a0historically\u00a0bank-dependent lending markets, particularly those that\u00a0are seeing\u00a0traditional\u00a0lenders retrench under the burden of non-performing loans\u00a0(NPLs)\u00a0or from regulatory pressure. Encouraging the growth\u00a0and evolution\u00a0of\u00a0public\u00a0credit markets provides one part of the answer. High-yield securitization and near-prime consumer lending markets remain significantly under-penetrated in Asia compared to Europe and North America.\u00a0This is\u00a0true even in more developed markets such as Japan and Australia, but\u00a0more acute\u00a0in developing Asia\u2014with only China having seen meaningful growth in its public\u00a0debt\u00a0markets.\u00a0Government policy has an important role to play\u00a0in creating\u00a0certainty around the enforcement process,\u00a0ability to move capital on and offshore,\u00a0and ideally standard processes\u00a0across the region. Alongside this\u00a0evolution in\u00a0public\u00a0markets, there is a critical role for\u00a0private \u201calternative\u201d\u00a0credit solutions across the region.\u00a0The ability\u00a0for\u00a0non-bank lenders\u00a0(hedge funds, private equity\u00a0firms\u00a0and\u00a0other financial institutions)\u00a0to\u00a0provide\u00a0flexible financing\u00a0can\u00a0boost access to growth capital for non-traditional borrowers or more complex structures. This is\u00a0especially\u00a0true\u00a0in markets where the high-yield market is nascent.\u00a0Alternative credit\u00a0plays a key role in restructuring existing debt,\u00a0acquiring NPLs and in supporting and helping evolve the regimes\u00a0to enforce creditors\u2019 rights.\u00a0More broadly,\u00a0there is a need for alternative credit\u00a0providers\u00a0to more systematically cover the gaps\u00a0that resulted from\u00a0bank retrenchment\u00a0by either building\u00a0lending enterprises or buying\u00a0them\u00a0from\u00a0traditional lenders. In North America and\u00a0Europe, alternative credit has\u00a0enhanced\u00a0many efficiencies in capital markets,\u00a0lowering the cost of borrowing in functioning markets and helping repair access to capital in disrupted markets.\u00a0We saw\u00a0this when\u00a0traditional lenders pulled back\u00a0in the wake of the\u00a0global financial\u00a0crisis.\u00a0Many\u00a0companies\u00a0still had\u00a0access\u00a0to\u00a0credit\u00a0through\u00a0this avenue\u00a0and\u00a0the industry played an important role in buying and proactively\u00a0restructuring impaired credit\u00a0from the banking system. Progress\u00a0has often been associated with a proactive focus on the functioning of credit markets by governments, and this can be seen in recent years in Asia.\u00a0In India, for example,\u00a0a focus on cleaning up the NPL problem in the state banking system led to\u00a0recent regulatory and legislative changes\u00a0to ease\u00a0the historically cumbersome and time consuming bankruptcy process.\u00a0The\u00a0restructuring\u00a0of\u00a0impaired credit\u00a0has been\u00a0most publicly visible through\u00a0the so-called \u201cDirty Dozen\u201d\u2014the 12 largest\u00a0corporate\u00a0debtors that were\u00a0mandated by the government to restructure. More broadly, India\u00a0has seen a step change in behavior and capital activity in a system that was previously mired in its troubled credit problem.\u00a0The Indian approach is paying dividends both in dealing with\u00a0the NPL problem and in promoting the development of more credit options for healthy borrowers. Asia will be the economic growth engine of the world over the coming decades, and history has shown the role that a sophisticated credit market can play in accelerating that path.\u00a0Markets and private alternative credit, along with governments driving regulatory change\u00a0will be key players in this next evolution of the Asian market. ",
+    "summary": null,
+    "summary_processed": ""
+}

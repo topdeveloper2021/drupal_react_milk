@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/one-fix-greater-social-mobility-us-early-interventions?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 28
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c69a4422-a595-42b8-8473-89b09b882b35"
+        }
+    ],
+    "vid": [
+        {
+            "value": 28
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "One Fix for Greater Social Mobility in the U.S.: Early Interventions",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-08-02T08:39:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/one-fix-greater-social-mobility-us-early-interventions",
+            "pid": 81,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014<b>Richard Reeves<\/b>\u00a0and\u00a0<b>Isabel Sawhill<\/b>, both senior fellows in economic studies at the Brookings Institution in Washington, dispute the widespread conviction that the opportunity to move up the socioeconomic ladder through hard work is alive and well in America. \"American children do not have exceptional opportunities to get ahead,\" they conclude. Worse, they fear that, \"the consequences of gaps in children's initial circumstances might embed themselves in the social fabric over time, leading to even less social mobility in the future.\"But the researchers do offer hope. Using the Social Genome Model and its rich data base pioneered at Brookings, they find that intervening early and often in a child's life has a surprisingly big impact. The gap of almost 20 percentage points in the chances of low-income and high-income children reaching the middle class on their own by age 40 shrinks to 6 percentage points.<i><b>Also in the latest Milken Institute Review, and available at\u00a0MilkenReview.org:<\/b><\/i><b>Larry Fisher<\/b>, a business journalist who is a frequent contributor to\u00a0<i>The New York Times<\/i>, brings us up to date on the\u00a0economics and politics of carbon capture and storage\u00a0as a means of slowing climate change. \"Nobody seems to love carbon capture,\" he writes. \"On the left, climate change advocates lobby pretty exclusively for renewables and energy conservation -- the eat-your-spinach approach. On the right, at least in the United States, climate change is still claimed to be a hoax perpetuated by liberals who don't want Americans to drive SUVs.\" But in light of the narrowing options, Fisher predicts \"an awakening among environmentalists that achieving carbon reduction goals will require an 'all of the above' strategy.\"<b>Barry Eichengreen<\/b>, an economist at the University of California, Berkeley,\u00a0reconsiders the uses (and abuses) of government controls on international capital movements. \"If the circumstances under which capital controls are useful are clear,\" he writes, \"why are economists still so skeptical?\" While a number of countries including Brazil, Uruguay and Thailand have used controls with care and some success, \"worries persist that capital controls create a breeding ground for both corruption and distortions in resource allocation.\"<b>Frank Rose<\/b>, a senior fellow at Columbia University School of the Arts, casts a gimlet eye on what Harvard Business School prof Clayton Christensen's \"disruption theory\" -- an explanation for\u00a0why rich, seemingly well run corporations have a way of getting knocked off by upstarts. \"In the business world, it was as if Christensen had bottled lightning,\" recounts Rose. \"But disruption has been hard to get right, even for Christensen. A decade ago, when Apple was racking up win after win, he consulted his theory and saw failure right around the corner\u2026\"<b>Steve Radelet<\/b>, the former chief economist at US Agency for International Development,\u00a0takes the measure of slackening buoyancy in emerging markets. \"The pause in breakneck growth now being experienced in the developing world is certainly costly,\" he writes. \"But it's only a detour on a path toward global economic convergence that should be celebrated and supported. Our future -- as well as theirs -- depends on it.\"<b>Ross DeVol<\/b>\u00a0and\u00a0<b>Sindhu Kubendran<\/b>, researchers at the Milken Institute, document the\u00a0economic consequences of the reality that two-thirds of the victims of dementia in America are women. \"This unequal societal burden is almost certain to increase rapidly in light of the explosive rise in the numbers of very old (80+) Americans,\" they write. \"Indeed, we estimate that the purely pecuniary costs of caring for women with dementia will add up to $5.1 trillion (in 2012 dollars) through 2040. Even if you apply a discount rate to these costs\u2026that still adds up to real money, not to mention an ocean of human misery.\"<b>Mikhail Fridman<\/b>, the chairman of LetterOne, a Luxembourg-based investment group, and\u00a0<b>Anatole Kaletsky<\/b>, the chairman of the Institute for New Economic Thinking, a New York-based think tank, explore the\u00a0difficulties emerging-market countries are having in rekindling growth. Fridman is betting that India has the best prospects for a breakout because, for all its warts, the economy is underpinned by an innovation-friendly culture.<b>Javier Ekboir<\/b>, a Buenos Aires-based consultant,\u00a0revisits the view that Southeast Asia is the template for economic development in the late-starters. \"International organizations still argue that expansion of agriculture in developing countries, especially small farms, is necessary to trigger growth in other sectors,\" Ekboir writes. \"But a growing number of economists (including me) believe that today's socio-economic dynamics are completely different from those prevailing even 40 years ago, and that a new set of factors ranging from globalization to technological and organizational advancement are the new catalysts of growth.\" The focus of aid should thus shift to \"developing the capacities of rural inhabitants so that they can find non-agricultural jobs in increasingly diverse rural economies.\"In an excerpt from his take-no-prisoners book\u00a0<i>The End of Alchemy<\/i>,\u00a0<b>Mervyn King<\/b>, the former head of the Bank of England who directed monetary policy during the financial crisis, offers an\u00a0ambitious plan for preventing the next financial collapse.<b>About<\/b> <b>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.milkeninstitute.org<br>@milkeninstitute<br>@milkenreview<strong>Contact<br><\/b>Conrad Kiechel<br>Managing Director, Communications\u00a0<br>(310) 570-4668<br>ckiechel@milkeninstitute.org ",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014<b>Richard Reeves<\/b>\u00a0and\u00a0<b>Isabel Sawhill<\/b>, both senior fellows in economic studies at the Brookings Institution in Washington, dispute the widespread conviction that the opportunity to move up the socioeconomic ladder through hard work is alive and well in America. \"American children do not have exceptional opportunities to get ahead,\" they conclude. Worse, they fear that, \"the consequences of gaps in children's initial circumstances might embed themselves in the social fabric over time, leading to even less social mobility in the future.\"But the researchers do offer hope. Using the Social Genome Model and its rich data base pioneered at Brookings, they find that intervening early and often in a child's life has a surprisingly big impact. The gap of almost 20 percentage points in the chances of low-income and high-income children reaching the middle class on their own by age 40 shrinks to 6 percentage points.<i><b>Also in the latest Milken Institute Review, and available at\u00a0MilkenReview.org:<\/b><\/i><b>Larry Fisher<\/b>, a business journalist who is a frequent contributor to\u00a0<i>The New York Times<\/i>, brings us up to date on the\u00a0economics and politics of carbon capture and storage\u00a0as a means of slowing climate change. \"Nobody seems to love carbon capture,\" he writes. \"On the left, climate change advocates lobby pretty exclusively for renewables and energy conservation -- the eat-your-spinach approach. On the right, at least in the United States, climate change is still claimed to be a hoax perpetuated by liberals who don't want Americans to drive SUVs.\" But in light of the narrowing options, Fisher predicts \"an awakening among environmentalists that achieving carbon reduction goals will require an 'all of the above' strategy.\"<b>Barry Eichengreen<\/b>, an economist at the University of California, Berkeley,\u00a0reconsiders the uses (and abuses) of government controls on international capital movements. \"If the circumstances under which capital controls are useful are clear,\" he writes, \"why are economists still so skeptical?\" While a number of countries including Brazil, Uruguay and Thailand have used controls with care and some success, \"worries persist that capital controls create a breeding ground for both corruption and distortions in resource allocation.\"<b>Frank Rose<\/b>, a senior fellow at Columbia University School of the Arts, casts a gimlet eye on what Harvard Business School prof Clayton Christensen's \"disruption theory\" -- an explanation for\u00a0why rich, seemingly well run corporations have a way of getting knocked off by upstarts. \"In the business world, it was as if Christensen had bottled lightning,\" recounts Rose. \"But disruption has been hard to get right, even for Christensen. A decade ago, when Apple was racking up win after win, he consulted his theory and saw failure right around the corner\u2026\"<b>Steve Radelet<\/b>, the former chief economist at US Agency for International Development,\u00a0takes the measure of slackening buoyancy in emerging markets. \"The pause in breakneck growth now being experienced in the developing world is certainly costly,\" he writes. \"But it's only a detour on a path toward global economic convergence that should be celebrated and supported. Our future -- as well as theirs -- depends on it.\"<b>Ross DeVol<\/b>\u00a0and\u00a0<b>Sindhu Kubendran<\/b>, researchers at the Milken Institute, document the\u00a0economic consequences of the reality that two-thirds of the victims of dementia in America are women. \"This unequal societal burden is almost certain to increase rapidly in light of the explosive rise in the numbers of very old (80+) Americans,\" they write. \"Indeed, we estimate that the purely pecuniary costs of caring for women with dementia will add up to $5.1 trillion (in 2012 dollars) through 2040. Even if you apply a discount rate to these costs\u2026that still adds up to real money, not to mention an ocean of human misery.\"<b>Mikhail Fridman<\/b>, the chairman of LetterOne, a Luxembourg-based investment group, and\u00a0<b>Anatole Kaletsky<\/b>, the chairman of the Institute for New Economic Thinking, a New York-based think tank, explore the\u00a0difficulties emerging-market countries are having in rekindling growth. Fridman is betting that India has the best prospects for a breakout because, for all its warts, the economy is underpinned by an innovation-friendly culture.<b>Javier Ekboir<\/b>, a Buenos Aires-based consultant,\u00a0revisits the view that Southeast Asia is the template for economic development in the late-starters. \"International organizations still argue that expansion of agriculture in developing countries, especially small farms, is necessary to trigger growth in other sectors,\" Ekboir writes. \"But a growing number of economists (including me) believe that today's socio-economic dynamics are completely different from those prevailing even 40 years ago, and that a new set of factors ranging from globalization to technological and organizational advancement are the new catalysts of growth.\" The focus of aid should thus shift to \"developing the capacities of rural inhabitants so that they can find non-agricultural jobs in increasingly diverse rural economies.\"In an excerpt from his take-no-prisoners book\u00a0<i>The End of Alchemy<\/i>,\u00a0<b>Mervyn King<\/b>, the former head of the Bank of England who directed monetary policy during the financial crisis, offers an\u00a0ambitious plan for preventing the next financial collapse.<b>About<\/b> <b>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.milkeninstitute.org<br \/>@milkeninstitute<br \/>@milkenreview<strong>Contact<br \/><\/strong><\/b>Conrad Kiechel<br \/>Managing Director, Communications\u00a0<br \/>(310) 570-4668<br \/>ckiechel@milkeninstitute.org ",
+    "summary": null,
+    "summary_processed": ""
+}

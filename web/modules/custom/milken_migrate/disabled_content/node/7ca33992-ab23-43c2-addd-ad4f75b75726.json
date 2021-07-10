@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/changing-conversation-about-end-life?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/7?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 466
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7ca33992-ab23-43c2-addd-ad4f75b75726"
+        }
+    ],
+    "vid": [
+        {
+            "value": 466
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/7?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5c4dcd48-84d4-4c08-a9bc-f602f185eaef"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Changing the Conversation About End of Life",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:34:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/changing-conversation-about-end-life",
+            "pid": 519,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Pulitzer Prize winner Ellen Goodman has been a leading voice in the conversation about end-of-life. She is a New York Times best-selling author and former syndicated columnist for The Boston Globe\u00a0and The Washington Post Writers\u2019 Group. In an interview with the Milken Institute Center for the Future of Aging, Goodman reflects on the importance of having an advance directive and how our health-care system can reduce unnecessary and unhelpful interventions at the end of life.<\/i><b>What led you to launch The Conversation Project?<\/b>The Conversation Project\u00a0came about in the aftermath of my mother\u2019s death. My mom and I were very close, in fact, I\u2019d say we used to talk about everything, except how she wanted to live at the end of her life\u2014the care she wanted and the care she didn\u2019t want. Toward the end, she had dementia and could no longer make decisions for herself. I mean, she couldn\u2019t decide what she wanted to have for lunch, let alone what she wanted to have for health care.I was left facing a cascading number of decisions for which I was really quite unprepared, blindsided, and pretty shocked. I realized then that I wished that I had her voice in my ear while I was making these decisions, and I wished that we\u2019d talked about what mattered to her. I started talking with other people\u2014I\u2019m a journalist by training\u2014and everybody had a similar story. It was so close to the surface that all you had to do was tell <i>your<\/i> story, and then, bingo, out would come <i>their<\/i> story. And the difference between a good death and a hard death depended on whether they had had the conversation with the people they loved. So, we began to think about that and, as a long-time student of social change, I realized that change happens when people tell each other their stories.<b>When do you think people should start talking about how they want to live at the end of life?<\/b>They should start thinking about that as early as possible, starting when they\u2019re 18 and technically adults. People don\u2019t realize that once they are adults, or once their children are adults, their parents are no longer necessarily their health-care proxies. People need to think about how the world is full of uncertainties and accidents much earlier than they do.<b>How can our health-care system reduce unhelpful interventions at the end of life?<\/b>We need to put people and their wishes at the center of decision-making, so that it isn\u2019t doctors who\u2019re making these decisions on their own. Patients should be making the choices along with the people they love. We know that a lot of people are not dying in the way that they would choose. And we know that that leads to depression, guilt, and uncertainty among their survivors\u2014uncertainty about whether they\u2019ve done the right thing. The only way to make it easier for survivors, our families and all the other people, is to share with them what we really want.<b>How important is having an advance directive?<\/b>Whether you choose to write it down or pick a health-care proxy and tell that person how you want to live at the end of your life, the important thing is to choose somebody who can speak for you when you can\u2019t speak for yourself. That person needs to know what you want\u2014not what they think you want, but what in fact you would want in any circumstance. You need to discuss the care you want, where you want to be at the end of your life, who you want to be with, and, of course, the medical treatment you want and don\u2019t want.<b>Why do you think people are not comfortable talking about death?<\/b>I don\u2019t think that\u2019s a big mystery. It\u2019s the big D word. There are all types of literature, religious beliefs, and so forth that revolve around our fear of death. At the same time, there\u2019s a wonderful line in the online satirical magazine <i>The Onion<\/i> that said, \u201cDeath Rates Hold Steady At 100 Percent.\u201d So, we know that everybody is going to die, but it\u2019s like the Woody Allen line, \u201cYou think you might be the exception.\u00a0Or, there are some people who think that if you talk about death, you bring it into the room. We think quite the opposite. We know from experience that even though people are reluctant to start the conversation, after they do, they describe it as one of the richest and most intimate conversations they have ever had, and they\u2019re filled with relief and comfort.\u00a0",
+    "format": "rich_text",
+    "processed": "<i>Pulitzer Prize winner Ellen Goodman has been a leading voice in the conversation about end-of-life. She is a New York Times best-selling author and former syndicated columnist for The Boston Globe\u00a0and The Washington Post Writers\u2019 Group. In an interview with the Milken Institute Center for the Future of Aging, Goodman reflects on the importance of having an advance directive and how our health-care system can reduce unnecessary and unhelpful interventions at the end of life.<\/i><b>What led you to launch The Conversation Project?<\/b>The Conversation Project\u00a0came about in the aftermath of my mother\u2019s death. My mom and I were very close, in fact, I\u2019d say we used to talk about everything, except how she wanted to live at the end of her life\u2014the care she wanted and the care she didn\u2019t want. Toward the end, she had dementia and could no longer make decisions for herself. I mean, she couldn\u2019t decide what she wanted to have for lunch, let alone what she wanted to have for health care.I was left facing a cascading number of decisions for which I was really quite unprepared, blindsided, and pretty shocked. I realized then that I wished that I had her voice in my ear while I was making these decisions, and I wished that we\u2019d talked about what mattered to her. I started talking with other people\u2014I\u2019m a journalist by training\u2014and everybody had a similar story. It was so close to the surface that all you had to do was tell <i>your<\/i> story, and then, bingo, out would come <i>their<\/i> story. And the difference between a good death and a hard death depended on whether they had had the conversation with the people they loved. So, we began to think about that and, as a long-time student of social change, I realized that change happens when people tell each other their stories.<b>When do you think people should start talking about how they want to live at the end of life?<\/b>They should start thinking about that as early as possible, starting when they\u2019re 18 and technically adults. People don\u2019t realize that once they are adults, or once their children are adults, their parents are no longer necessarily their health-care proxies. People need to think about how the world is full of uncertainties and accidents much earlier than they do.<b>How can our health-care system reduce unhelpful interventions at the end of life?<\/b>We need to put people and their wishes at the center of decision-making, so that it isn\u2019t doctors who\u2019re making these decisions on their own. Patients should be making the choices along with the people they love. We know that a lot of people are not dying in the way that they would choose. And we know that that leads to depression, guilt, and uncertainty among their survivors\u2014uncertainty about whether they\u2019ve done the right thing. The only way to make it easier for survivors, our families and all the other people, is to share with them what we really want.<b>How important is having an advance directive?<\/b>Whether you choose to write it down or pick a health-care proxy and tell that person how you want to live at the end of your life, the important thing is to choose somebody who can speak for you when you can\u2019t speak for yourself. That person needs to know what you want\u2014not what they think you want, but what in fact you would want in any circumstance. You need to discuss the care you want, where you want to be at the end of your life, who you want to be with, and, of course, the medical treatment you want and don\u2019t want.<b>Why do you think people are not comfortable talking about death?<\/b>I don\u2019t think that\u2019s a big mystery. It\u2019s the big D word. There are all types of literature, religious beliefs, and so forth that revolve around our fear of death. At the same time, there\u2019s a wonderful line in the online satirical magazine <i>The Onion<\/i> that said, \u201cDeath Rates Hold Steady At 100 Percent.\u201d So, we know that everybody is going to die, but it\u2019s like the Woody Allen line, \u201cYou think you might be the exception.\u00a0Or, there are some people who think that if you talk about death, you bring it into the room. We think quite the opposite. We know from experience that even though people are reluctant to start the conversation, after they do, they describe it as one of the richest and most intimate conversations they have ever had, and they\u2019re filled with relief and comfort.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

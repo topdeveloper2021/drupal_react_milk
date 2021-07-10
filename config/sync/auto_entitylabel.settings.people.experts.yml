@@ -1,0 +1,9 @@
+status: 1
+pattern: '[people:field_first_name] [people:field_last_name] [people:field_honorific]'
+escape: true
+preserve_titles: false
+save: 0
+chunk: '50'
+dependencies:
+  config:
+    - eck.eck_type.people.experts

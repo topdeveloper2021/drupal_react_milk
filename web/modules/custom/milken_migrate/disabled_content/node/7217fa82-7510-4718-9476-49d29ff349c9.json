@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/aging-future-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/94?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 575
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7217fa82-7510-4718-9476-49d29ff349c9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 575
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/94?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "99358997-462c-4798-8763-4d3c0f5e1332"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Aging in the Future of Health",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T19:23:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/aging-future-health",
+            "pid": 628,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "When the Senate Aging Committee was first established in 1961, 9 percent of Americans were over age 65. Today, 15 percent of our population has reached that milestone, and by 2060, nearly one out of four Americans will surpass their 65th birthday with more and more Americans living to 100 every year. The future of health will be defined by this growing demographic. As chairman of the Senate Aging Committee and a senator representing the oldest state in the nation, I am particularly concerned about one aspect of aging that has not received the attention it deserves: the effects of isolation and loneliness on seniors. Our committee has examined this rising epidemic in hearings with expert witnesses and has explored solutions that build community, leading to healthier, happier lives for older Americans. One survey on isolation asks: If you had good news or an interesting story to tell, do you know someone with whom you could share it? Increasingly, older Americans answer this question not with the name of a relative or friend, but with the name of a cat or dog. While pets can help alleviate loneliness, they shouldn\u2019t be one\u2019s only social contact. The science is clear: isolation and loneliness are dangerous to the health of our seniors. Isolation and loneliness can result in negative outcomes including premature death or reduced mobility and ability to perform daily tasks, and are associated with higher rates of heart disease, depression and anxiety, dementia, and nursing home admissions. One expert offered this alarming analogy: prolonged isolation is comparable to smoking 15 cigarettes a day! Older Americans who are lonely are more susceptible to financial scams and elder abuse. Our committee uncovered the tragic story of a 77-year-old retired pastor from Maine who turned to the internet for companionship. Lured by scam artists, he ended up in a European prison as a convicted drug smuggler. Without the persistent work of the Aging Committee and diplomatic negotiations, he likely would still be there today. The plight of this man and thousands of seniors in his shoes could have been avoided had he and others not been so susceptible due to their desire for companionship. We can solve this problem by connecting people with one another.\u202fIn an era of fast-paced digitalization, there remains no substitute for human connectivity. Connected communities bring people together across generations, benefitting people of all ages. In age-friendly communities, outdoor spaces and buildings are accessible and affordable transportation and housing are available. A sign of an age-friendly community is seeing seniors in public, working, volunteering, and enjoying life. Age-friendly communities provide solutions for the challenges that would otherwise keep seniors isolated, such as buses, volunteer driver programs, and other initiatives to help seniors go where they need and want to go. The federal government has a role. Programs such as Meals on Wheels have proven critical in combating isolation. For many, Meals on Wheels is not just about food\u2014it\u2019s about social sustenance. Seniors look forward to greeting the driver and having a conversation. In addition to serving those who have spent their lives serving others, the federal government is poised to combat isolation in a way that can redefine aging\u2014to harness the advantages of older Americans in a way that makes aging positive. Older adults are a naturally growing resource, and they too can be part of the solution. Key federal programs facilitate this engagement, such as Senior Corps, which connects more than 200,000 older Americans in service each year with people and organizations that need them. Ultimately, however, infrastructure and policy changes alone are not enough. We need a cultural transformation to recognize seniors for their accomplishments and value them as contributing members of society with a lifetime of experience to offer. Whether they are homebound or not, it is the responsibility of each of us to ensure that seniors are not left isolated or lonely. A truly connected community lifts not just seniors, but also society as a whole. We all desire respect and inclusion. With our aging population, the future of health requires our best efforts, as individuals and as a society, to build a strong sense of community that includes and values all ages.",
+    "format": "rich_text",
+    "processed": "When the Senate Aging Committee was first established in 1961, 9 percent of Americans were over age 65. Today, 15 percent of our population has reached that milestone, and by 2060, nearly one out of four Americans will surpass their 65th birthday with more and more Americans living to 100 every year. The future of health will be defined by this growing demographic. As chairman of the Senate Aging Committee and a senator representing the oldest state in the nation, I am particularly concerned about one aspect of aging that has not received the attention it deserves: the effects of isolation and loneliness on seniors. Our committee has examined this rising epidemic in hearings with expert witnesses and has explored solutions that build community, leading to healthier, happier lives for older Americans. One survey on isolation asks: If you had good news or an interesting story to tell, do you know someone with whom you could share it? Increasingly, older Americans answer this question not with the name of a relative or friend, but with the name of a cat or dog. While pets can help alleviate loneliness, they shouldn\u2019t be one\u2019s only social contact. The science is clear: isolation and loneliness are dangerous to the health of our seniors. Isolation and loneliness can result in negative outcomes including premature death or reduced mobility and ability to perform daily tasks, and are associated with higher rates of heart disease, depression and anxiety, dementia, and nursing home admissions. One expert offered this alarming analogy: prolonged isolation is comparable to smoking 15 cigarettes a day! Older Americans who are lonely are more susceptible to financial scams and elder abuse. Our committee uncovered the tragic story of a 77-year-old retired pastor from Maine who turned to the internet for companionship. Lured by scam artists, he ended up in a European prison as a convicted drug smuggler. Without the persistent work of the Aging Committee and diplomatic negotiations, he likely would still be there today. The plight of this man and thousands of seniors in his shoes could have been avoided had he and others not been so susceptible due to their desire for companionship. We can solve this problem by connecting people with one another.\u202fIn an era of fast-paced digitalization, there remains no substitute for human connectivity. Connected communities bring people together across generations, benefitting people of all ages. In age-friendly communities, outdoor spaces and buildings are accessible and affordable transportation and housing are available. A sign of an age-friendly community is seeing seniors in public, working, volunteering, and enjoying life. Age-friendly communities provide solutions for the challenges that would otherwise keep seniors isolated, such as buses, volunteer driver programs, and other initiatives to help seniors go where they need and want to go. The federal government has a role. Programs such as Meals on Wheels have proven critical in combating isolation. For many, Meals on Wheels is not just about food\u2014it\u2019s about social sustenance. Seniors look forward to greeting the driver and having a conversation. In addition to serving those who have spent their lives serving others, the federal government is poised to combat isolation in a way that can redefine aging\u2014to harness the advantages of older Americans in a way that makes aging positive. Older adults are a naturally growing resource, and they too can be part of the solution. Key federal programs facilitate this engagement, such as Senior Corps, which connects more than 200,000 older Americans in service each year with people and organizations that need them. Ultimately, however, infrastructure and policy changes alone are not enough. We need a cultural transformation to recognize seniors for their accomplishments and value them as contributing members of society with a lifetime of experience to offer. Whether they are homebound or not, it is the responsibility of each of us to ensure that seniors are not left isolated or lonely. A truly connected community lifts not just seniors, but also society as a whole. We all desire respect and inclusion. With our aging population, the future of health requires our best efforts, as individuals and as a society, to build a strong sense of community that includes and values all ages.",
+    "summary": null,
+    "summary_processed": ""
+}

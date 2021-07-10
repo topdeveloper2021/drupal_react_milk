@@ -1,0 +1,29 @@
+uuid: d1c2069e-2465-4bc7-ae8c-0cf3d415af3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - eck.eck_type.panel.panel
+    - field.storage.grid_join_panel_speaker.field_panel
+id: grid_join_panel_speaker.join_table.field_panel
+field_name: field_panel
+entity_type: grid_join_panel_speaker
+bundle: join_table
+label: Panel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:panel'
+  handler_settings:
+    target_bundles:
+      panel: panel
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,561 @@
+diff --git a/src/DataFetcherPluginBase.php b/src/DataFetcherPluginBase.php
+index eb21f30..91a0ad1 100644
+--- a/src/DataFetcherPluginBase.php
++++ b/src/DataFetcherPluginBase.php
+@@ -22,4 +22,11 @@ abstract class DataFetcherPluginBase extends PluginBase implements DataFetcherPl
+     return new static($configuration, $plugin_id, $plugin_definition);
+   }
+
++  /**
++   * {@inheritdoc}
++   */
++  public function getNextUrls($url) {
++    return [];
++  }
++
+ }
+diff --git a/src/DataFetcherPluginInterface.php b/src/DataFetcherPluginInterface.php
+index f35042f..53c16f7 100644
+--- a/src/DataFetcherPluginInterface.php
++++ b/src/DataFetcherPluginInterface.php
+@@ -47,4 +47,17 @@ interface DataFetcherPluginInterface {
+    */
+   public function getResponse($url);
+
++  /**
++   * Collect next urls from the metadata of a paged response.
++   *
++   * Examples of this include HTTP headers and file naming conventions.
++   *
++   * @param string $url
++   *   URL of the resource to check for pager metadata.
++   *
++   * @return array
++   *   Array of URIs.
++   */
++  public function getNextUrls($url);
++
+ }
+diff --git a/src/DataParserPluginBase.php b/src/DataParserPluginBase.php
+index c74c6c5..505a32f 100644
+--- a/src/DataParserPluginBase.php
++++ b/src/DataParserPluginBase.php
+@@ -162,6 +162,9 @@ abstract class DataParserPluginBase extends PluginBase implements DataParserPlug
+       }
+
+       if ($this->openSourceUrl($this->urls[$this->activeUrl])) {
++        if (!empty($this->configuration['pager'])) {
++          $this->addNextUrls($this->activeUrl);
++        }
+         // We have a valid source.
+         return TRUE;
+       }
+@@ -170,6 +173,36 @@ abstract class DataParserPluginBase extends PluginBase implements DataParserPlug
+     return FALSE;
+   }
+
++  /**
++   * Add next page of source data following the active URL.
++   *
++   * @param int $activeUrl
++   *   The index within the source URL array to insert the next URL resource.
++   *   This is parameterized to enable custom plugins to control the ordering of
++   *   next URLs injected into the source URL backlog.
++   */
++  protected function addNextUrls($activeUrl = 0) {
++    $next_urls = $this->getNextUrls($this->urls[$this->activeUrl]);
++
++    if (!empty($next_urls)) {
++      array_splice($this->urls, $activeUrl + 1, 0, $next_urls);
++      $this->urls = array_values(array_unique($this->urls));
++    }
++  }
++
++  /**
++   * Collected the next urls from a paged response.
++   *
++   * @param string $url
++   *   URL of the currently active source.
++   *
++   * @return array
++   *   Array of URLs representing next paged resources.
++   */
++  protected function getNextUrls($url) {
++    return $this->getDataFetcherPlugin()->getNextUrls($url);
++  }
++
+   /**
+    * {@inheritdoc}
+    */
+diff --git a/src/Plugin/migrate_plus/data_fetcher/Http.php b/src/Plugin/migrate_plus/data_fetcher/Http.php
+index db4c423..b087f75 100755
+--- a/src/Plugin/migrate_plus/data_fetcher/Http.php
++++ b/src/Plugin/migrate_plus/data_fetcher/Http.php
+@@ -118,4 +118,25 @@ class Http extends DataFetcherPluginBase implements ContainerFactoryPluginInterf
+     return $response->getBody();
+   }
+
++  /**
++   * {@inheritdoc}
++   */
++  public function getNextUrls($url) {
++    $next_urls = [];
++
++    $headers = $this->getResponse($url)->getHeader('Link');
++    if (!empty($headers)) {
++      $headers = explode(',', $headers[0]);
++      foreach ($headers as $header) {
++        $matches = [];
++        preg_match('/^<(.*)>; rel="next"$/', trim($header), $matches);
++        if (!empty($matches) && !empty($matches[1])) {
++          $next_urls[] = $matches[1];
++        }
++      }
++    }
++
++    return array_merge(parent::getNextUrls($url), $next_urls);
++  }
++
+ }
+diff --git a/src/Plugin/migrate_plus/data_parser/Json.php b/src/Plugin/migrate_plus/data_parser/Json.php
+index 7ef4467..6f7e8e9 100755
+--- a/src/Plugin/migrate_plus/data_parser/Json.php
++++ b/src/Plugin/migrate_plus/data_parser/Json.php
+@@ -2,7 +2,10 @@
+
+ namespace Drupal\migrate_plus\Plugin\migrate_plus\data_parser;
+
++use Drupal\Component\Utility\UrlHelper;
++use Drupal\Core\Url;
+ use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
++use Drupal\migrate\MigrateException;
+ use Drupal\migrate_plus\DataParserPluginBase;
+
+ /**
+@@ -22,43 +25,65 @@ class Json extends DataParserPluginBase implements ContainerFactoryPluginInterfa
+    */
+   protected $iterator;
+
++  /**
++   * The currently saved source url (as a string).
++   *
++   * @var string
++   */
++  protected $currentUrl;
++
++  /**
++   * The active url's source data.
++   *
++   * @var array
++   */
++  protected $sourceData;
++
+   /**
+    * Retrieves the JSON data and returns it as an array.
+    *
+    * @param string $url
+    *   URL of a JSON feed.
++   * @param string $item_selector
++   *   Selector within the data content at which useful data is found.
+    *
+    * @return array
+    *   The selected data to be iterated.
+    *
+    * @throws \GuzzleHttp\Exception\RequestException
+    */
+-  protected function getSourceData($url) {
+-    $response = $this->getDataFetcherPlugin()->getResponseContent($url);
++  protected function getSourceData($url, $item_selector) {
++    // Use cached source data if this is the first request or URL is same as the
++    // last time we made the request.
++    if ($this->currentUrl != $url || !$this->sourceData) {
++      $response = $this->getDataFetcherPlugin()->getResponseContent($url);
+
+-    // Convert objects to associative arrays.
+-    $source_data = json_decode($response, TRUE);
++      // Convert objects to associative arrays.
++      $this->sourceData = json_decode($response, TRUE);
+
+-    // If json_decode() has returned NULL, it might be that the data isn't
+-    // valid utf8 - see http://php.net/manual/en/function.json-decode.php#86997.
+-    if (is_null($source_data)) {
+-      $utf8response = utf8_encode($response);
+-      $source_data = json_decode($utf8response, TRUE);
++      // If json_decode() has returned NULL, it might be that the data isn't
++      // valid utf8 - see http://php.net/manual/en/function.json-decode.php#86997.
++      if (is_null($this->sourceData)) {
++        $utf8response = utf8_encode($response);
++        $this->sourceData = json_decode($utf8response, TRUE);
++      }
++      $this->currentUrl = $url;
+     }
+
+     // Backwards-compatibility for depth selection.
+-    if (is_int($this->itemSelector)) {
+-      return $this->selectByDepth($source_data);
++    if (is_int($item_selector)) {
++      return $this->selectByDepth($this->sourceData);
+     }
+
+     // Otherwise, we're using xpath-like selectors.
+-    $selectors = explode('/', trim($this->itemSelector, '/'));
++    $selectors = explode('/', trim($item_selector, '/'));
++    $return = $this->sourceData;
+     foreach ($selectors as $selector) {
+       if (!empty($selector)) {
+-        $source_data = $source_data[$selector];
++        $return = $return[$selector];
+       }
+     }
+-    return $source_data;
++    return $return;
+   }
+
+   /**
+@@ -97,7 +122,11 @@ class Json extends DataParserPluginBase implements ContainerFactoryPluginInterfa
+    */
+   protected function openSourceUrl($url) {
+     // (Re)open the provided URL.
+-    $source_data = $this->getSourceData($url);
++    $source_data = $this->getSourceData($url, $this->itemSelector);
++    // Ensure there is source data at the current url.
++    if (is_null($source_data)) {
++      return FALSE;
++    }
+     $this->iterator = new \ArrayIterator($source_data);
+     return TRUE;
+   }
+@@ -107,7 +136,7 @@ class Json extends DataParserPluginBase implements ContainerFactoryPluginInterfa
+    */
+   protected function fetchNextRow() {
+     $current = $this->iterator->current();
+-    if ($current) {
++    if (is_array($current)) {
+       foreach ($this->fieldSelectors() as $field_name => $selector) {
+         $field_data = $current;
+         $field_selectors = explode('/', trim($selector, '/'));
+@@ -128,4 +157,150 @@ class Json extends DataParserPluginBase implements ContainerFactoryPluginInterfa
+     }
+   }
+
++  /**
++   * {@inheritdoc}
++   */
++  protected function getNextUrls($url) {
++    $next_urls = [];
++
++    // If a pager selector is provided, get the data from the source.
++    $selector_data = NULL;
++    if (!empty($this->configuration['pager']['selector'])) {
++      $selector_data = $this->getSourceData($url, $this->configuration['pager']['selector']);
++    }
++
++    // Logic for each type of pager.
++    switch ($this->configuration['pager']['type']) {
++      case 'urls':
++        if (NULL !== $selector_data) {
++          if (is_array($selector_data)) {
++            $next_urls = $selector_data;
++          }
++          else {
++            $next_urls[] = $selector_data;
++          }
++        }
++        break;
++
++      case 'cursor':
++        if (NULL !== $selector_data && is_scalar($selector_data)) {
++          // Just use 'cursor' as a default parameter key if not provided.
++          $key = !empty($this->configuration['pager']['key']) ? $this->configuration['pager']['key'] : 'cursor';
++          // Parse the url and replace the cursor param value and rebuild the url.
++          $path = UrlHelper::parse($url);
++          $path['query'][$key] = $selector_data;
++          $next_urls[] = Url::fromUri($path['path'], [
++            'query' => $path['query'],
++            'fragment' => $path['fragment'],
++          ])->toString();
++        }
++        break;
++
++      case 'page':
++        if (NULL !== $selector_data && is_scalar($selector_data)) {
++          // Just use 'page' as a default parameter key if not provided.
++          $key = !empty($this->configuration['pager']['key']) ? $this->configuration['pager']['key'] : 'page';
++          // Define the max page to generate.
++          $max = $selector_data + 1;
++          if (!empty($this->configuration['pager']['selector_max'])) {
++            $max = $this->getSourceData($url, $this->configuration['pager']['selector_max']);
++          }
++          // Parse the url and replace the page param value and rebuild the url.
++          $path = UrlHelper::parse($url);
++          for ($page = $selector_data + 1; $page < $max; ++$page) {
++            $path['query'][$key] = $page;
++            $next_urls[] = Url::fromUri($path['path'], [
++              'query' => $path['query'],
++              'fragment' => $path['fragment'],
++            ])->toString();
++          }
++        }
++        break;
++
++      case 'paginator':
++        // The first pass uses the endpoint's default size.
++        // @todo Handle first URL set page size on first pass.
++        if (!isset($this->configuration['pager']['default_num_items'])) {
++          throw new MigrateException('Pager "default_num_items" must be configured.');
++        }
++        $num_items = $this->configuration['pager']['default_num_items'];
++
++        // Use 'page' as a default page parameter key if not provided.
++        $page_key = !empty($this->configuration['pager']['page_key']) ? $this->configuration['pager']['page_key'] : 'page';
++
++        // Set default paginator type.
++        $paginator_type_options = ['page_number', 'starting_item'];
++        $paginator_type = $paginator_type_options[0];
++        // Check configured paginator type.
++        if (!empty($this->configuration['pager']['paginator_type'])) {
++          if (!in_array($this->configuration['pager']['paginator_type'], $paginator_type_options)) {
++            // Not set to one of the two available options.
++            throw new MigrateException(
++              'Pager "paginator_type" must be configured as either "page_number" or "starting_item" ("page_number" is default).'
++            );
++          }
++          $paginator_type = $this->configuration['pager']['paginator_type'];
++        }
++
++        // Use 'pagesize' as a default page parameter key if not provided.
++        $size_key = !empty($this->configuration['pager']['size_key']) ? $this->configuration['pager']['size_key'] : 'pagesize';
++
++        // Parse the url.
++        $path = UrlHelper::parse($url);
++
++        $curr_page = !empty($path['query'][$page_key]) ? $path['query'][$page_key] : 0;
++
++        // @todo Use core's QueryBase and pager.
++        // @see contrib module external_entities \Entity\Query\External\Query.php for example.
++        $next_start = $curr_page + $num_items;
++        $next_end = $num_items;
++        // Use "page_number" when the pager uses page numbers to determine
++        // the item to start at, use "starting_item" when the pager uses the
++        // item number to start at.
++        if ($paginator_type === 'page_number') {
++          $next_start = $curr_page + 1;
++        }
++
++        // Replace the paginator param value.
++        $path['query'][$page_key] = $next_start;
++        // Replace the size param value.
++        $path['query'][$size_key] = $next_end;
++
++        // If we have a selector that tells us the number of rows returned in
++        // the current request, use that to decide if we should add the next
++        // url to the array.
++        if (NULL !== $selector_data && is_scalar($selector_data)) {
++          if ($selector_data == $num_items) {
++            $next_urls[] = Url::fromUri($path['path'], [
++              'query' => $path['query'],
++              'fragment' => $path['fragment'],
++            ])->toString();
++          }
++        }
++        else {
++          // Rebuild the url.
++          $next_urls[] = Url::fromUri($path['path'], [
++            'query' => $path['query'],
++            'fragment' => $path['fragment'],
++          ])->toString();
++
++          // Service may return 404 for last page, ensure next_urls are valid.
++          foreach ($next_urls as $key => $next_url) {
++            try {
++              $response = $this->getDataFetcherPlugin()->getResponse($next_url);
++              if ($response->getStatusCode() !== 200) {
++                unset($next_urls[$key]);
++              }
++            }
++            catch (\Exception $e) {
++              unset($next_urls[$key]);
++            }
++          }
++        }
++        break;
++    }
++
++    return array_merge(parent::getNextUrls($url), $next_urls);
++  }
++
+ }
+diff --git a/tests/data/cursoring.json b/tests/data/cursoring.json
+new file mode 100644
+index 0000000..324e236
+--- /dev/null
++++ b/tests/data/cursoring.json
+@@ -0,0 +1,22 @@
++{
++  "TotalCount": 1234,
++  "PageNumber": 1,
++  "PageSize": 500,
++  "List": [
++    {
++      "data": "dummy value",
++      "data2": "dummy2 value",
++      "data3": "dummy3 value"
++    },
++    {
++      "data": "dummy value2",
++      "data2": "dummy2 value2",
++      "data3": "dummy3 value2"
++    },
++    {
++      "data": "dummy value3",
++      "data2": "dummy2 value3",
++      "data3": "dummy3 value3"
++    }
++  ]
++}
+\ No newline at end of file
+diff --git a/tests/src/Kernel/MigrateHttpJsonCursoringTest.php b/tests/src/Kernel/MigrateHttpJsonCursoringTest.php
+new file mode 100644
+index 0000000..ced2df9
+--- /dev/null
++++ b/tests/src/Kernel/MigrateHttpJsonCursoringTest.php
+@@ -0,0 +1,139 @@
++<?php
++
++namespace Drupal\Tests\migrate_plus\Kernel;
++
++use Drupal\Core\Database\Database;
++use Drupal\migrate\MigrateExecutable;
++use Drupal\Tests\migrate\Kernel\MigrateTestBase;
++
++/**
++ * Tests migration Json cursoring.
++ *
++ * @group migrate
++ */
++class MigrateHttpJsonCursoringTest extends MigrateTestBase {
++
++  const TABLE_NAME = 'migrate_test_http_json_cursoring';
++
++  /**
++   * The source database connection.
++   *
++   * @var \Drupal\Core\Database\Connection
++   */
++  protected $connection;
++
++  public static $modules = ['migrate_plus'];
++
++  /**
++   * {@inheritdoc}
++   */
++  protected function setUp() {
++    parent::setUp();
++
++    $this->connection = Database::getConnection();
++
++    $this->connection->schema()->createTable(static::TABLE_NAME, [
++      'description' => 'Test table',
++      'fields' => [
++        'data' => [
++          'type' => 'varchar',
++          'length' => '32',
++          'not null' => TRUE,
++        ],
++        'data2' => [
++          'type' => 'varchar',
++          'length' => '32',
++          'not null' => TRUE,
++        ],
++        'data3' => [
++          'type' => 'varchar',
++          'length' => '32',
++          'not null' => TRUE,
++        ],
++      ],
++      'primary key' => ['data'],
++    ]);
++  }
++
++  /**
++   * {@inheritdoc}
++   */
++  protected function tearDown() {
++    $this->connection->schema()->dropTable(static::TABLE_NAME);
++    parent::tearDown();
++  }
++
++  /**
++   * Create a minimally valid migration with some source data.
++   *
++   * @return array
++   *   The migration definition.
++   *
++   * @throws \Exception
++   */
++  protected function getHttpJsonCursoringMigration() {
++    $path = $this->container
++      ->get('module_handler')
++      ->getModule('migrate_plus')
++      ->getPath();
++    $url = file_create_url($path . '/tests/data/cursoring.json');
++
++    $definition = [
++      'id' => 'migration_http_json_cursoring_test',
++      'migration_tags' => ['Testing'],
++      'source' => [
++        'plugin' => 'url',
++        'data_fetcher_plugin' => 'file',
++        'urls' => [$url],
++        'data_parser_plugin' => 'json',
++        'pager' => [
++          'type' => 'page',
++          'selector' => 'PageNumber',
++        ],
++        'item_selector' => 'List',
++        'fields' => [
++          ['name' => 'data', 'selector' => 'data'],
++          ['name' => 'data2', 'selector' => 'data2'],
++          ['name' => 'data3', 'selector' => 'data3'],
++        ],
++        'ids' => [
++          'data' => ['type' => 'string'],
++        ],
++      ],
++      'destination' => [
++        'plugin' => 'table',
++        'table_name' => static::TABLE_NAME,
++        'id_fields' => ['data' => ['type' => 'string']],
++      ],
++      'process' => [
++        'data' => 'data',
++        'data2' => 'data2',
++        'data3' => 'data3',
++      ],
++    ];
++    return $definition;
++  }
++
++  /**
++   * Tests cursoring from json input.
++   */
++  public function testHttpJsonCursoring() {
++    $migration = \Drupal::service('plugin.manager.migration')->createStubMigration($this->getHttpJsonCursoringMigration());
++
++    $executable = new MigrateExecutable($migration, $this);
++    $executable->import();
++
++    $values = $this->connection
++      ->select(static::TABLE_NAME)
++      ->fields(static::TABLE_NAME)
++      ->execute()
++      ->fetchAllAssoc('data');
++
++    $this->assertEquals('dummy value', $values['dummy value']->data);
++    $this->assertEquals('dummy2 value', $values['dummy value']->data2);
++    $this->assertEquals('dummy2 value2', $values['dummy value2']->data2);
++    $this->assertEquals('dummy3 value3', $values['dummy value3']->data3);
++    $this->assertEquals(3, count($values));
++  }
++
++}

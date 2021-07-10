@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/addressing-poor-health-addressing-hunger?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/225?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 853
+        }
+    ],
+    "uuid": [
+        {
+            "value": "431ebd89-c60a-400e-a833-f169287bf9d2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 853
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/225?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "45e74fa3-d64c-40b3-9ccf-09bc8f56dbe9"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Addressing Poor Health by Addressing Hunger",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T02:24:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:18:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/addressing-poor-health-addressing-hunger",
+            "pid": 906,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In a nation as fortunate as the United States, everyone should have the food they need to thrive. Today in America, one in nine households (11.1 percent) are food insecure. This means that 37.2 million Americans, including 11.2 million children, are food insecure, meaning that they do not have regular access to enough food for an active, healthy life. And hunger has very real health consequences for people at all stages of life. In a food-insecure household, lack of financial resources forces people to make difficult tradeoffs that have measurable negative impacts on health and well-being. For example, to stretch their budgets, families often purchase cheaper foods, which tend to be high in salt, fat, and sugar, and must often prioritize paying for other necessities over important health-care needs, like filling prescriptions or following up with a primary care provider. These coping strategies increase the risk of chronic disease and are the very conditions that drive obesity, type 2 diabetes, and cardiovascular disease, today\u2019s most critical public health challenges. Once these diseases set in, the challenges of maintaining steady employment and coping with increasing medical bills may push a household closer toward financial collapse\u2014adding to the risk of food insecurity. The Feeding America\u00a0network of food banks sees these downstream effects of food insecurity every day. Fifty-eight percent of households receiving food from our food banks have at least one member with high blood pressure, and 33 percent have at least one member with diabetes. Not surprisingly, high rates of obesity, diabetes, cardiovascular disease, and other illnesses associated with food insecurity have an impact not only on the household budget but on societal health-care costs as well. Nationally, health-care costs associated with food insecurity approached $53 billion in 2016. Health-care spending for an adult living in a food-insecure household averages $1,834 more than for an adult living in a food-secure household. Food insecurity and health care are tightly intertwined, predominantly because of difficult choices families make every day to avoid going hungry. Preventing the need for those choices will require multi-faceted solutions that address systemic root causes of economic inequality and health disparity across the United States. We are excited about the possibility of sustainable revenue models that can enable health payors to be increasingly influential as part of the solution\u2014and new ways to leverage their data and ours to identify and treat patients for food insecurity. While new ideas are tested and piloted, we also know solutions exist today within and beyond the charitable food sector for addressing the intersection of food insecurity and health. Feeding America is committed to ending hunger through data-driven policy and advocacy, evidence-based programmatic interventions, public awareness-building, food sourcing, and strategic partnerships that lead to holistic, measurable improvements for the nearly 40 million people we serve each year. In addition, nudges\u2014subtle environment changes in a food distribution setting\u2014are being used to help make the healthy choice the easier choice. Nudge implementation in a choice pantry environment has shown to increase both the likelihood of a nutritious food item and the quantity of that item, being selected by clients. Effective partnerships between health-care and community-based organizations are also increasingly common. Across the country, health care is screening for food insecurity. When patients screen positive, providers can intervene in a variety of ways: provision of nutritious foods through an on-site or mobile food pantry or food boxes, application assistance for food and financial benefits, and referrals to local food pantries and programs. Grocers, farmers\u2019 markets, schools and colleges, and community centers are also engaged in equity-focused programs that provide increased access of nutritious foods to community members who have been impacted by the root causes of economic inequality and health disparities across the country. To ensure our words and knowledge are translated into action, the hurdles of food insecurity cannot be cleared alone. Complex issues like these require thoughtful strategic partners who bring together our unique specialties to advance social change. We invite you to join us in our work to achieve a hunger-free America in which every person has the food they need for a long and healthy life.",
+    "format": "rich_text",
+    "processed": "In a nation as fortunate as the United States, everyone should have the food they need to thrive. Today in America, one in nine households (11.1 percent) are food insecure. This means that 37.2 million Americans, including 11.2 million children, are food insecure, meaning that they do not have regular access to enough food for an active, healthy life. And hunger has very real health consequences for people at all stages of life. In a food-insecure household, lack of financial resources forces people to make difficult tradeoffs that have measurable negative impacts on health and well-being. For example, to stretch their budgets, families often purchase cheaper foods, which tend to be high in salt, fat, and sugar, and must often prioritize paying for other necessities over important health-care needs, like filling prescriptions or following up with a primary care provider. These coping strategies increase the risk of chronic disease and are the very conditions that drive obesity, type 2 diabetes, and cardiovascular disease, today\u2019s most critical public health challenges. Once these diseases set in, the challenges of maintaining steady employment and coping with increasing medical bills may push a household closer toward financial collapse\u2014adding to the risk of food insecurity. The Feeding America\u00a0network of food banks sees these downstream effects of food insecurity every day. Fifty-eight percent of households receiving food from our food banks have at least one member with high blood pressure, and 33 percent have at least one member with diabetes. Not surprisingly, high rates of obesity, diabetes, cardiovascular disease, and other illnesses associated with food insecurity have an impact not only on the household budget but on societal health-care costs as well. Nationally, health-care costs associated with food insecurity approached $53 billion in 2016. Health-care spending for an adult living in a food-insecure household averages $1,834 more than for an adult living in a food-secure household. Food insecurity and health care are tightly intertwined, predominantly because of difficult choices families make every day to avoid going hungry. Preventing the need for those choices will require multi-faceted solutions that address systemic root causes of economic inequality and health disparity across the United States. We are excited about the possibility of sustainable revenue models that can enable health payors to be increasingly influential as part of the solution\u2014and new ways to leverage their data and ours to identify and treat patients for food insecurity. While new ideas are tested and piloted, we also know solutions exist today within and beyond the charitable food sector for addressing the intersection of food insecurity and health. Feeding America is committed to ending hunger through data-driven policy and advocacy, evidence-based programmatic interventions, public awareness-building, food sourcing, and strategic partnerships that lead to holistic, measurable improvements for the nearly 40 million people we serve each year. In addition, nudges\u2014subtle environment changes in a food distribution setting\u2014are being used to help make the healthy choice the easier choice. Nudge implementation in a choice pantry environment has shown to increase both the likelihood of a nutritious food item and the quantity of that item, being selected by clients. Effective partnerships between health-care and community-based organizations are also increasingly common. Across the country, health care is screening for food insecurity. When patients screen positive, providers can intervene in a variety of ways: provision of nutritious foods through an on-site or mobile food pantry or food boxes, application assistance for food and financial benefits, and referrals to local food pantries and programs. Grocers, farmers\u2019 markets, schools and colleges, and community centers are also engaged in equity-focused programs that provide increased access of nutritious foods to community members who have been impacted by the root causes of economic inequality and health disparities across the country. To ensure our words and knowledge are translated into action, the hurdles of food insecurity cannot be cleared alone. Complex issues like these require thoughtful strategic partners who bring together our unique specialties to advance social change. We invite you to join us in our work to achieve a hunger-free America in which every person has the food they need for a long and healthy life.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,389 @@
+diff --git a/core/core.services.yml b/core/core.services.yml
+index b093d4bfac..21bc89052d 100644
+--- a/core/core.services.yml
++++ b/core/core.services.yml
+@@ -1346,6 +1346,11 @@ services:
+       - { name: path_processor_inbound, priority: 200 }
+       - { name: path_processor_outbound, priority: 200 }
+     arguments: ['@config.factory']
++  path_processor_entity_uuid:
++    class: Drupal\Core\PathProcessor\PathProcessorEntityUuid
++    tags:
++      - { name: path_processor_inbound, priority: 50 }
++    arguments: ['@entity_type.manager']
+   route_processor_current:
+     class: Drupal\Core\RouteProcessor\RouteProcessorCurrent
+     arguments: ['@current_route_match']
+diff --git a/core/lib/Drupal/Core/Entity/EntityBase.php b/core/lib/Drupal/Core/Entity/EntityBase.php
+index 66a3857dc0..341fb1458b 100644
+--- a/core/lib/Drupal/Core/Entity/EntityBase.php
++++ b/core/lib/Drupal/Core/Entity/EntityBase.php
+@@ -319,7 +319,7 @@ public function url($rel = 'canonical', $options = []) {
+   protected function urlRouteParameters($rel) {
+     $uri_route_parameters = [];
+ 
+-    if (!in_array($rel, ['collection', 'add-page', 'add-form'], TRUE)) {
++    if (!in_array($rel, ['collection', 'add-page', 'add-form', 'uuid'], TRUE)) {
+       // The entity ID is needed as a route parameter.
+       $uri_route_parameters[$this->getEntityTypeId()] = $this->id();
+     }
+@@ -330,6 +330,9 @@ protected function urlRouteParameters($rel) {
+     if ($rel === 'revision' && $this instanceof RevisionableInterface) {
+       $uri_route_parameters[$this->getEntityTypeId() . '_revision'] = $this->getRevisionId();
+     }
++    if ($rel === 'uuid') {
++      $uri_route_parameters[$this->getEntityTypeId()] = $this->uuid();
++    }
+ 
+     return $uri_route_parameters;
+   }
+diff --git a/core/lib/Drupal/Core/PathProcessor/PathProcessorEntityUuid.php b/core/lib/Drupal/Core/PathProcessor/PathProcessorEntityUuid.php
+new file mode 100644
+index 0000000000..9d0f9379d1
+--- /dev/null
++++ b/core/lib/Drupal/Core/PathProcessor/PathProcessorEntityUuid.php
+@@ -0,0 +1,57 @@
++<?php
++
++namespace Drupal\Core\PathProcessor;
++
++use Drupal\Component\Uuid\Uuid;
++use Drupal\Core\Entity\EntityTypeManagerInterface;
++use Symfony\Component\HttpFoundation\Request;
++
++/**
++ * Defines a path processor to transpose entity UUID paths to serialize IDs.
++ *
++ * Incoming paths matching /{entity_type_id}/{uuid} are routed to their correct
++ * path.
++ *
++ * For example assuming the \Drupal\node\NodeInterface entity has serial ID 12
++ * and UUID D11F5D01-037C-4937-815B-AEF41E0025E7. Then in this case a path of
++ * /node/D11F5D01-037C-4937-815B-AEF41E0025E7 would be processed to
++ * /node/12.
++ */
++class PathProcessorEntityUuid implements InboundPathProcessorInterface {
++
++  /**
++   * Entity type manager service.
++   *
++   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
++   */
++  protected $entityTypeManager;
++
++  /**
++   * Constructs a new PathProcessorEntityUuid object.
++   */
++  public function __construct(EntityTypeManagerInterface $entity_type_manager) {
++    $this->entityTypeManager = $entity_type_manager;
++  }
++
++  /**
++   * {@inheritdoc}
++   */
++  public function processInbound($path, Request $request) {
++    $matches = [];
++    if (preg_match('/^\/([a-z_]+)\/(' . Uuid::VALID_PATTERN . ')$/i', $path, $matches)) {
++      $entity_type_id = $matches[1];
++      $uuid = $matches[2];
++      if ($this->entityTypeManager->hasDefinition($entity_type_id)) {
++        $storage = $this->entityTypeManager->getStorage($entity_type_id);
++        $entity_type = $this->entityTypeManager->getDefinition($entity_type_id);
++        if ($entity_type->hasLinkTemplate('canonical') && $entities = $storage->loadByProperties(['uuid' => $uuid])) {
++          /* @var \Drupal\Core\Entity\EntityInterface $entity */
++          $entity = reset($entities);
++          $path = '/' . ltrim($entity->toUrl()->getInternalPath(), '/');
++        }
++      }
++    }
++    return $path;
++  }
++
++}
+diff --git a/core/lib/Drupal/Core/Url.php b/core/lib/Drupal/Core/Url.php
+index ea552bf4cb..d70bdff683 100644
+--- a/core/lib/Drupal/Core/Url.php
++++ b/core/lib/Drupal/Core/Url.php
+@@ -344,8 +344,9 @@ protected static function fromEntityUri(array $uri_parts, array $options, $uri)
+     if ($uri_parts['scheme'] != 'entity' || $entity_id === '') {
+       throw new \InvalidArgumentException("The entity URI '$uri' is invalid. You must specify the entity id in the URL. e.g., entity:node/1 for loading the canonical path to node entity with id 1.");
+     }
++    $route_name = "entity.$entity_type_id.canonical";
+ 
+-    return new static("entity.$entity_type_id.canonical", [$entity_type_id => $entity_id], $options);
++    return new static($route_name, [$entity_type_id => $entity_id], $options);
+   }
+ 
+   /**
+diff --git a/core/tests/Drupal/KernelTests/Core/PathProcessor/PathProcessorEntityUuidTest.php b/core/tests/Drupal/KernelTests/Core/PathProcessor/PathProcessorEntityUuidTest.php
+new file mode 100644
+index 0000000000..3ad2b40046
+--- /dev/null
++++ b/core/tests/Drupal/KernelTests/Core/PathProcessor/PathProcessorEntityUuidTest.php
+@@ -0,0 +1,102 @@
++<?php
++
++namespace Drupal\KernelTests\Core\PathProcessor;
++
++use Drupal\contact\Entity\ContactForm;
++use Drupal\contact\Entity\Message;
++use Drupal\KernelTests\KernelTestBase;
++use Drupal\node\Entity\Node;
++use Drupal\node\Entity\NodeType;
++use Drupal\user\Entity\User;
++use Symfony\Component\HttpFoundation\Request;
++
++/**
++ * Tests \Drupal\Core\PathProcessor\PathProcessorEntityUuid.
++ *
++ * @group PathProcessor
++ *
++ * @coversDefaultClass \Drupal\Core\PathProcessor\PathProcessorEntityUuid
++ */
++class PathProcessorEntityUuidTest extends KernelTestBase {
++
++  /**
++   * {@inheritdoc}
++   */
++  public static $modules = [
++    'node',
++    'system',
++    'contact',
++    'user',
++    'text',
++    'file',
++    'image',
++  ];
++
++  /**
++   * {@inheritdoc}
++   */
++  protected function setUp() {
++    parent::setUp();
++    $this->installSchema('system', ['sequences']);
++    $this->installEntitySchema('node');
++    $this->installEntitySchema('user');
++    $this->installEntitySchema('contact_message');
++  }
++
++  /**
++   * Tests ::processInbound().
++   *
++   * @covers ::processInbound
++   */
++  public function testProcessInbound() {
++    $node_type = NodeType::create([
++      'type' => 'article',
++      'name' => 'Article',
++    ]);
++    $node_type->save();
++    $node = Node::create([
++      'type' => 'article',
++      'title' => 'Some node',
++      'status' => 1,
++      'uid' => 1,
++    ]);
++    $node->save();
++
++    $user = User::create([
++      'name' => 'bob',
++      'mail' => 'bob@example.com',
++    ]);
++    $user->save();
++
++    $message_type = ContactForm::create([
++      'id' => 'form',
++      'label' => 'A form',
++    ]);
++    $message_type->save();
++
++    $message = Message::create([
++      'contact_form' => 'form',
++    ]);
++    $message->save();
++
++    $fake_uuid = '3FA3D516-FCE7-4788-BCCF-CE41B78F8F28';
++
++    /* @var \Drupal\Core\PathProcessor\PathProcessorEntityUuid $processor */
++    $processor = $this->container->get('path_processor_entity_uuid');
++
++    $request = Request::create('');
++
++    // Non matching paths are ignored.
++    $this->assertEquals('/this-does-not-match', $processor->processInbound('/this-does-not-match', $request));
++    // Node and user should be processed to their serial ID/canonical route.
++    $this->assertEquals('/user/' . $user->id(), $processor->processInbound('/user/' . $user->uuid(), $request));
++    $this->assertEquals('/node/' . $node->id(), $processor->processInbound('/node/' . $node->uuid(), $request));
++    // Taxonomy is not enable so the entity-type should not be processed.
++    $this->assertEquals('/taxonomy_term/' . $fake_uuid, $processor->processInbound('/taxonomy_term/' . $fake_uuid, $request));
++    // This UUID doesn't exist for node, so should not be processed.
++    $this->assertEquals('/node/' . $fake_uuid, $processor->processInbound('/node/' . $fake_uuid, $request));
++    // Contact messages don't have canonical links, so should not be processed.
++    $this->assertEquals('/contact_message/' . $message->uuid(), $processor->processInbound('/contact_message/' . $message->uuid(), $request));
++  }
++
++}
+diff --git a/core/tests/Drupal/Tests/Core/PathProcessor/PathProcessorEntityUuidTest.php b/core/tests/Drupal/Tests/Core/PathProcessor/PathProcessorEntityUuidTest.php
+new file mode 100644
+index 0000000000..ebe64de5c6
+--- /dev/null
++++ b/core/tests/Drupal/Tests/Core/PathProcessor/PathProcessorEntityUuidTest.php
+@@ -0,0 +1,158 @@
++<?php
++
++namespace Drupal\Tests\Core\PathProcessor;
++
++use Drupal\Core\Entity\EntityTypeInterface;
++use Drupal\Core\Entity\EntityTypeManagerInterface;
++use Drupal\Core\PathProcessor\PathProcessorEntityUuid;
++use Drupal\Core\Url;
++use Drupal\node\NodeInterface;
++use Drupal\node\NodeStorage;
++use Drupal\Tests\UnitTestCase;
++use Drupal\user\UserInterface;
++use Drupal\user\UserStorage;
++use Symfony\Component\HttpFoundation\Request;
++
++/**
++ * Tests \Drupal\Core\PathProcessor\PathProcessorEntityUuid.
++ *
++ * @group PathProcessor
++ *
++ * @coversDefaultClass \Drupal\Core\PathProcessor\PathProcessorEntityUuid
++ */
++class PathProcessorEntityUuidTest extends UnitTestCase {
++
++  /**
++   * Tests inbound processing.
++   *
++   * @covers ::processInbound
++   *
++   * @dataProvider providerProcessInbound
++   */
++  public function testProcessInbound($inbound_path, $expected, EntityTypeManagerInterface $entity_type_manager = NULL) {
++    if (!$entity_type_manager) {
++      $entity_type_manager = $this->createMock(EntityTypeManagerInterface::class);
++    }
++    $processor = new PathProcessorEntityUuid($entity_type_manager);
++    $this->assertEquals($expected, $processor->processInbound($inbound_path, Request::create($inbound_path)));
++  }
++
++  /**
++   * Data provider for ::testProcessInbound().
++   *
++   * @return array
++   *   Test cases.
++   */
++  public function providerProcessInbound() {
++    $user_uuid = '03C88CB8-76E1-4358-9BEC-EEF4233ED9F7';
++    $node_uuid = '1E69BE45-DF30-40C6-B6AB-82E04084DC9E';
++    $pony_uuid = 'EDCB122F-4851-41A5-8A9F-0DF94727E6B9';
++    $contact_uuid = '72E91376-C52E-49EA-9F82-C7829463B874';
++    $not_found_uuid = '3483E574-57D5-45F6-8D6E-3CFEAE605907';
++
++    // An entity-type with a canonical link.
++    $entity_type_with_link = $this->createMock(EntityTypeInterface::class);
++    $entity_type_with_link->expects($this->any())
++      ->method('hasLinkTemplate')
++      ->willReturn(TRUE);
++
++    // An entity-type without a canonical link.
++    $entity_type_without_link = $this->createMock(EntityTypeInterface::class);
++    $entity_type_without_link->expects($this->any())
++      ->method('hasLinkTemplate')
++      ->willReturn(FALSE);
++
++    // Entity-manager.
++    $entity_type_manager = $this->createMock(EntityTypeManagerInterface::class);
++    $entity_type_manager->expects($this->any())
++      ->method('hasDefinition')
++      ->willReturnCallback(function ($entity_type_id) {
++        return in_array($entity_type_id, ['user', 'node', 'contact'], TRUE);
++      });
++    $entity_type_manager->expects($this->any())
++      ->method('getDefinition')
++      ->willReturnCallback(function ($entity_type_id) use ($entity_type_with_link, $entity_type_without_link) {
++        if (in_array($entity_type_id, ['user', 'node'], TRUE)) {
++          return $entity_type_with_link;
++        }
++        return $entity_type_without_link;
++      });
++
++    // Mock node.
++    $node_url = $this->getMockBuilder(Url::class)
++      ->disableOriginalConstructor()
++      ->getMock();
++    $node_url->expects($this->any())
++      ->method('getInternalPath')
++      ->willReturn('node/12');
++    $node_mock = $this->createMock(NodeInterface::class);
++    $node_mock->expects($this->any())
++      ->method('toUrl')
++      ->willReturn($node_url);
++
++    // Mock user.
++    $user_url = $this->getMockBuilder(Url::class)
++      ->disableOriginalConstructor()
++      ->getMock();
++    $user_url->expects($this->any())
++      ->method('getInternalPath')
++      ->willReturn('user/1');
++    $user_mock = $this->createMock(UserInterface::class);
++    $user_mock->expects($this->any())
++      ->method('toUrl')
++      ->willReturn($user_url);
++
++    // Mock node storage.
++    $node_storage = $this->getMockBuilder(NodeStorage::class)
++      ->disableOriginalConstructor()
++      ->getMock();
++    $node_storage->expects($this->any())
++      ->method('loadByProperties')
++      ->with(['uuid' => $node_uuid])
++      ->willReturn([
++        $node_mock,
++      ]);
++
++    // Mock user storage.
++    $user_storage = $this->getMockBuilder(UserStorage::class)
++      ->disableOriginalConstructor()
++      ->getMock();
++    $user_storage->expects($this->any())
++      ->method('loadByProperties')
++      ->willReturnCallback(function ($conditions) use ($user_mock, $user_uuid) {
++        if ($conditions['uuid'] == $user_uuid) {
++          return [$user_mock];
++        }
++        return [];
++      });
++
++    // Mock entity-manager.
++    $entity_type_manager->expects($this->any())
++      ->method('getStorage')
++      ->willReturnMap([
++        ['user', $user_storage],
++        ['node', $node_storage],
++      ]);
++    return [
++      'irrelevant' => ['/this-does-not-match', '/this-does-not-match'],
++      'user-valid' => ['/user/' . $user_uuid, '/user/1', $entity_type_manager],
++      'node-valid' => ['/node/' . $node_uuid, '/node/12', $entity_type_manager],
++      'invalid-entity-type' => [
++        '/pony/' . $pony_uuid,
++        '/pony/' . $pony_uuid,
++        $entity_type_manager,
++      ],
++      'no-such-uuid' => [
++        '/user/' . $not_found_uuid,
++        '/user/' . $not_found_uuid,
++        $entity_type_manager,
++      ],
++      'no-canonical-link' => [
++        '/contact/' . $contact_uuid,
++        '/contact/' . $contact_uuid,
++        $entity_type_manager,
++      ],
++    ];
++  }
++
++}

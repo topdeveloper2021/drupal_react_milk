@@ -1,0 +1,21 @@
+uuid: 321bfbb9-38a4-46e0-80b4-86ba612bfb7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_tracks.field_event_id
+field_name: field_event_id
+entity_type: grid_tracks
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

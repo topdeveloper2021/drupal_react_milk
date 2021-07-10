@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/2010-milken-institute-global-conference-brings-world-leaders-los-angeles-foster-ideas?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 132
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cff3bcab-f793-4020-bdb9-6d6a426c59a9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 132
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "2010 Milken Institute Global Conference brings world leaders to Los Angeles to foster ideas for economic recovery",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/2010-milken-institute-global-conference-brings-world-leaders-los-angeles-foster-ideas",
+            "pid": 185,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - With signs that the economy is coming back to life, decision makers from around the world will gather to discuss what can be done to foster a true global recovery at the 13th annual Milken Institute Global Conference. Some 3,000 people will join hundreds of panelists - CEOs, elected leaders, Nobel Prize winners, scientists, educators, philanthropists and other experts - at the April 26-28 event at the Beverly Hilton to discuss and debate issues such as how to create jobs, advance health care, address energy security and provide new opportunities in education. The conference, which includes some 130 panels featuring more than 500 speakers, regularly fills to capacity. (Registration closes April 2.) Among this year\u2032s highlights: <b>Speakers<\/b>\n<b>Christopher Ailman<\/b>, Chief Investment Officer, California State Teachers\u2032 Retirement System\n<b>Shaukat Aziz<\/b>, Former Prime Minister, Pakistan\n<b>Eike Batista<\/b>, Chairman, EBX Investimentos\n<b>Leon Black<\/b>, Chairman and CEO, Apollo Global Management LLC\n<b>Ron Bloom<\/b>, White House Senior Counselor for Manufacturing Policy\n<b>David Bonderman<\/b>, Founding Partner, TPG Capital\n<b>Eli Broad<\/b>, Founder, The Broad Foundations, KB Home and SunAmerica <b>Mohamed El-Erian<\/b>, CEO and Co-Chief Investment Officer, Pacific Investment Management Co. <b>Kenneth Feinberg<\/b>, Special Master, TARP Executive Compensation\n<b>Steve Forbes<\/b>, Chairman and CEO, Forbes Media\n<b>Vicente Fox<\/b>, Former President, Mexico\n<b>Kenneth Griffin<\/b>, Founder, President and CEO, Citadel Investment Group LLC\n<b>Ginger Lew<\/b>, Senior Advisor, White House National Economic Council\n<b>Gary Loveman<\/b>, Chairman, CEO and President, Harrah's Entertainment Inc.\n<b>Jack Ma<\/b>, Founder, Chairman and CEO, Alibaba Group\n<b>Tim Pawlenty<\/b>, Governor, State of Minnesota\n<b>Nouriel Roubini<\/b>, Professor of Economics and International Business, Stern School of Business, New York University\n<b>Mikheil Saakashvili<\/b>, President of Georgia\n<b>Maria Shriver<\/b>, Best-Selling Author, Journalist, and California First Lady\n<b>Andy Stern<\/b>, President, Service Employees International Union\n<b>Biz Stone<\/b>, Co-Founder, Twitter\n<b>Chris Viehbacher<\/b>, CEO, Sanofi-Aventis <b>Jerry Weintraub<\/b>, Film Producer\n<b>Meredith Whitney<\/b>, Founder, Meredith Whitney Advisory Group LLC <b>Panels<\/b>\n<b>Nouriel Roubini<\/b> and <b>Mike Milken<\/b> debate the foundations of the financial downturn and what the future holds.\n<b>Ted Turner<\/b> and <b>T. Boone Pickens<\/b>, two of the nation\u2032s most colorful and outspoken business leaders, size up America\u2032s energy future.\n<b>Bill Keller<\/b> of The New York Times, <b>Andy Lack<\/b> of Bloomberg and <b>Vivian Schiller<\/b> of NPR discuss the future of the news - who is going to report it and how will it be financed?\n<b>Anthony Atala<\/b> of Wake Forest Institute for Regenerative Medicine, <b>Majora Carter<\/b> of Majora Carter Group, architect <b>Frank Gehry<\/b>, and Twitter co-founder <b>Biz Stone<\/b> reveal how truly innovative people approach their work and what they have in common.\n<b>Len Komoroski<\/b> president of the Cleveland Cavaliers, and <b>Jerry Reinsdorf<\/b>, chairman of the Chicago White Sox, discuss how even sports is now a global enterprise.\n<b>Lynda Resnick<\/b> (POM Wonderful, FIJI Water and Teleflora), <b>Martin Franklin<\/b> (Jarden Corp.), <b>Gary Loveman<\/b> (Harrah's Entertainment) and <b>Stephen Roach<\/b> (Morgan Stanley Asia) ponder the new frugal consumer and what this mind-set means for businesses. Former national security officials <b>Richard Clarke<\/b>, <b>William Perry<\/b>, <b>Brent Scowcroft<\/b> and <b>R. James Woolsey<\/b> look at what can be done to halt nuclear proliferation.\n<b>Chase Carey<\/b> of News Corp. and <b>Leslie Moonves<\/b> of CBS Corp. engage on a discussion on the future of the entertainment industry. Complete information about the Global Conference, including a full program and a list of speakers to date, is available here. <b>Note to media<\/b>: Credentialed press wishing to cover the 2010 Global Conference must use the media registration form on the website\u2032s registration page. You are not registered until your application has been approved and you receive confirmation. ",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - With signs that the economy is coming back to life, decision makers from around the world will gather to discuss what can be done to foster a true global recovery at the 13th annual Milken Institute Global Conference. Some 3,000 people will join hundreds of panelists - CEOs, elected leaders, Nobel Prize winners, scientists, educators, philanthropists and other experts - at the April 26-28 event at the Beverly Hilton to discuss and debate issues such as how to create jobs, advance health care, address energy security and provide new opportunities in education. The conference, which includes some 130 panels featuring more than 500 speakers, regularly fills to capacity. (Registration closes April 2.) Among this year\u2032s highlights: <b>Speakers<\/b>\n<b>Christopher Ailman<\/b>, Chief Investment Officer, California State Teachers\u2032 Retirement System\n<b>Shaukat Aziz<\/b>, Former Prime Minister, Pakistan\n<b>Eike Batista<\/b>, Chairman, EBX Investimentos\n<b>Leon Black<\/b>, Chairman and CEO, Apollo Global Management LLC\n<b>Ron Bloom<\/b>, White House Senior Counselor for Manufacturing Policy\n<b>David Bonderman<\/b>, Founding Partner, TPG Capital\n<b>Eli Broad<\/b>, Founder, The Broad Foundations, KB Home and SunAmerica <b>Mohamed El-Erian<\/b>, CEO and Co-Chief Investment Officer, Pacific Investment Management Co. <b>Kenneth Feinberg<\/b>, Special Master, TARP Executive Compensation\n<b>Steve Forbes<\/b>, Chairman and CEO, Forbes Media\n<b>Vicente Fox<\/b>, Former President, Mexico\n<b>Kenneth Griffin<\/b>, Founder, President and CEO, Citadel Investment Group LLC\n<b>Ginger Lew<\/b>, Senior Advisor, White House National Economic Council\n<b>Gary Loveman<\/b>, Chairman, CEO and President, Harrah's Entertainment Inc.\n<b>Jack Ma<\/b>, Founder, Chairman and CEO, Alibaba Group\n<b>Tim Pawlenty<\/b>, Governor, State of Minnesota\n<b>Nouriel Roubini<\/b>, Professor of Economics and International Business, Stern School of Business, New York University\n<b>Mikheil Saakashvili<\/b>, President of Georgia\n<b>Maria Shriver<\/b>, Best-Selling Author, Journalist, and California First Lady\n<b>Andy Stern<\/b>, President, Service Employees International Union\n<b>Biz Stone<\/b>, Co-Founder, Twitter\n<b>Chris Viehbacher<\/b>, CEO, Sanofi-Aventis <b>Jerry Weintraub<\/b>, Film Producer\n<b>Meredith Whitney<\/b>, Founder, Meredith Whitney Advisory Group LLC <b>Panels<\/b>\n<b>Nouriel Roubini<\/b> and <b>Mike Milken<\/b> debate the foundations of the financial downturn and what the future holds.\n<b>Ted Turner<\/b> and <b>T. Boone Pickens<\/b>, two of the nation\u2032s most colorful and outspoken business leaders, size up America\u2032s energy future.\n<b>Bill Keller<\/b> of The New York Times, <b>Andy Lack<\/b> of Bloomberg and <b>Vivian Schiller<\/b> of NPR discuss the future of the news - who is going to report it and how will it be financed?\n<b>Anthony Atala<\/b> of Wake Forest Institute for Regenerative Medicine, <b>Majora Carter<\/b> of Majora Carter Group, architect <b>Frank Gehry<\/b>, and Twitter co-founder <b>Biz Stone<\/b> reveal how truly innovative people approach their work and what they have in common.\n<b>Len Komoroski<\/b> president of the Cleveland Cavaliers, and <b>Jerry Reinsdorf<\/b>, chairman of the Chicago White Sox, discuss how even sports is now a global enterprise.\n<b>Lynda Resnick<\/b> (POM Wonderful, FIJI Water and Teleflora), <b>Martin Franklin<\/b> (Jarden Corp.), <b>Gary Loveman<\/b> (Harrah's Entertainment) and <b>Stephen Roach<\/b> (Morgan Stanley Asia) ponder the new frugal consumer and what this mind-set means for businesses. Former national security officials <b>Richard Clarke<\/b>, <b>William Perry<\/b>, <b>Brent Scowcroft<\/b> and <b>R. James Woolsey<\/b> look at what can be done to halt nuclear proliferation.\n<b>Chase Carey<\/b> of News Corp. and <b>Leslie Moonves<\/b> of CBS Corp. engage on a discussion on the future of the entertainment industry. Complete information about the Global Conference, including a full program and a list of speakers to date, is available here. <b>Note to media<\/b>: Credentialed press wishing to cover the 2010 Global Conference must use the media registration form on the website\u2032s registration page. You are not registered until your application has been approved and you receive confirmation. ",
+    "summary": null,
+    "summary_processed": ""
+}

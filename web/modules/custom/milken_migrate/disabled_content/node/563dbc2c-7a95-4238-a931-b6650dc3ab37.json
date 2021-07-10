@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-i-am-hopeful-about-worlds-future?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/31?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 492
+        }
+    ],
+    "uuid": [
+        {
+            "value": "563dbc2c-7a95-4238-a931-b6650dc3ab37"
+        }
+    ],
+    "vid": [
+        {
+            "value": 492
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/31?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "715cc534-308f-48e1-911b-ba97e00d7e55"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why I Am Hopeful About the World\u2019s Future",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-03-15T14:18:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-07T07:01:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-i-am-hopeful-about-worlds-future",
+            "pid": 545,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Some historians estimate more than 200 million people were killed in conflicts in the 20th century.\u00a0<br \/> <br \/> Today, there is no end in sight to this horrific violence. From Syria, we are seeing the greatest refugee crisis in a generation. Appalling terrorist attacks have created global, deep-seated fear. While it would be easy to feel hopelessness and despair, it is all the more necessary in this second decade of the 21st century to come together as a society to build a better, more meaningful future for our children.<br \/> <br \/> There are many reasons for us to be hopeful. Recognition of universal human rights\u2014including the right to self-determination\u2014has expanded beyond anything imagined a century ago. There is a growing international consensus in support of gender equality. Particularly among the younger generation, there is a widespread rejection of war as a means of solving problems. Across the world, many are doing valuable work to prevent terrorism, recognizing the depths of misunderstanding and the divisive idea of \u201cus\u201d and \u201cthem\u201d that is so dangerous. Significant reductions in the world\u2019s nuclear weapons arsenal mean that further reductions and ultimately their elimination no longer seem a mere dream.<br \/> <br \/> There are solutions to many of the problems we face; new mechanisms for dialogue need to be created, along with systems of education to inculcate moral values. These must be grounded in the perspective that we all belong to one human family and that together we can take action to address global challenges.<br \/> <br \/> It is encouraging that we have seen many ordinary people across the world displaying great compassion toward the plight of refugees, from those who have rescued refugees from the sea, to those who have taken refugees in and provided friendship and support. As a refugee myself, I feel a strong empathy for those in need in times of crises. I can also understand the fears of people in host countries, who may feel overwhelmed. The combination of circumstances highlights the vital importance of collective action\u2014and urgent need\u2014to restore genuine peace to the lands these refugees are fleeing.<br \/> <br \/> A further source of hope is the genuine cooperation among the world\u2019s nations toward a common goal evident in the Paris accord on climate change. We can only meet local and national interests once we consider the larger, global interest and the threat that global warming poses to our planet, our only home.\u00a0<br \/> <br \/> To find solutions to the environmental crisis and violent conflicts that confront us in the 21st century, we need to seek new answers. Even though I am a Buddhist monk, I believe that these solutions lie beyond religion in a concept I call secular ethics. This is an approach to education based on scientific findings, common experience and common sense\u2014a more universal approach to the promotion of our shared human values. \u201cIt is our collective responsibility to ensure that the 21st century does not repeat the pain and bloodshed of the past.\u201d Over more than three decades, my discussions with scientists, educators and social workers from across the globe have revealed common concerns. As a result, we have developed a system that incorporates an education of the heart, one that is based on study of the workings of the mind and emotions through scholarship and scientific research rather than religious practice. Since we need moral principles\u2014compassion, respect for others, kindness, taking responsibility\u2014in every field of human activity, we are working to help schools and colleges create opportunities for young people to develop greater self-awareness, learn how to manage destructive emotions and cultivate social skills. To support this initiative, I am developing a curriculum on secular ethics at Emory University that will be introduced in several schools in India, North America and Europe.<br \/> <br \/> It is our collective responsibility to ensure that the 21st century does not repeat the pain and bloodshed of the past. Because human nature is at its core compassionate, I believe that decades from now we will see an era of peace\u2014but for that to happen, we must work together as global citizens of a shared planet. <i>The 14th Dalai Lama, Tenzin Gyatso, is the spiritual leader of Tibet. Since 1959, he has lived in exile in Dharamsala in northern India.<\/i>",
+    "format": "rich_text",
+    "processed": "Some historians estimate more than 200 million people were killed in conflicts in the 20th century.\u00a0<br \/><br \/> Today, there is no end in sight to this horrific violence. From Syria, we are seeing the greatest refugee crisis in a generation. Appalling terrorist attacks have created global, deep-seated fear. While it would be easy to feel hopelessness and despair, it is all the more necessary in this second decade of the 21st century to come together as a society to build a better, more meaningful future for our children.<br \/><br \/> There are many reasons for us to be hopeful. Recognition of universal human rights\u2014including the right to self-determination\u2014has expanded beyond anything imagined a century ago. There is a growing international consensus in support of gender equality. Particularly among the younger generation, there is a widespread rejection of war as a means of solving problems. Across the world, many are doing valuable work to prevent terrorism, recognizing the depths of misunderstanding and the divisive idea of \u201cus\u201d and \u201cthem\u201d that is so dangerous. Significant reductions in the world\u2019s nuclear weapons arsenal mean that further reductions and ultimately their elimination no longer seem a mere dream.<br \/><br \/> There are solutions to many of the problems we face; new mechanisms for dialogue need to be created, along with systems of education to inculcate moral values. These must be grounded in the perspective that we all belong to one human family and that together we can take action to address global challenges.<br \/><br \/> It is encouraging that we have seen many ordinary people across the world displaying great compassion toward the plight of refugees, from those who have rescued refugees from the sea, to those who have taken refugees in and provided friendship and support. As a refugee myself, I feel a strong empathy for those in need in times of crises. I can also understand the fears of people in host countries, who may feel overwhelmed. The combination of circumstances highlights the vital importance of collective action\u2014and urgent need\u2014to restore genuine peace to the lands these refugees are fleeing.<br \/><br \/> A further source of hope is the genuine cooperation among the world\u2019s nations toward a common goal evident in the Paris accord on climate change. We can only meet local and national interests once we consider the larger, global interest and the threat that global warming poses to our planet, our only home.\u00a0<br \/><br \/> To find solutions to the environmental crisis and violent conflicts that confront us in the 21st century, we need to seek new answers. Even though I am a Buddhist monk, I believe that these solutions lie beyond religion in a concept I call secular ethics. This is an approach to education based on scientific findings, common experience and common sense\u2014a more universal approach to the promotion of our shared human values. \u201cIt is our collective responsibility to ensure that the 21st century does not repeat the pain and bloodshed of the past.\u201d Over more than three decades, my discussions with scientists, educators and social workers from across the globe have revealed common concerns. As a result, we have developed a system that incorporates an education of the heart, one that is based on study of the workings of the mind and emotions through scholarship and scientific research rather than religious practice. Since we need moral principles\u2014compassion, respect for others, kindness, taking responsibility\u2014in every field of human activity, we are working to help schools and colleges create opportunities for young people to develop greater self-awareness, learn how to manage destructive emotions and cultivate social skills. To support this initiative, I am developing a curriculum on secular ethics at Emory University that will be introduced in several schools in India, North America and Europe.<br \/><br \/> It is our collective responsibility to ensure that the 21st century does not repeat the pain and bloodshed of the past. Because human nature is at its core compassionate, I believe that decades from now we will see an era of peace\u2014but for that to happen, we must work together as global citizens of a shared planet. <i>The 14th Dalai Lama, Tenzin Gyatso, is the spiritual leader of Tibet. Since 1959, he has lived in exile in Dharamsala in northern India.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

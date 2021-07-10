@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/education-still-good-investmentmore-ever-says-milken-institute-communities-well-individuals?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 697
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f9528e4d-9ded-4a01-86e7-d24f22d918fe"
+        }
+    ],
+    "vid": [
+        {
+            "value": 697
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Is education still a good investment?More than ever, says Milken Institute, for communities as well as individuals",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:34:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/education-still-good-investmentmore-ever-says-milken-institute-communities-well-individuals",
+            "pid": 750,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- When it comes to education, a rising tide really does lift all boats. That's one of the conclusions of a sweeping research report released today by the Milken Institute, \"A Matter of Degrees: the Effect of Educational Attainment on Regional Economic Prosperity.<br>?Ross DeVol, chief research officer and one of the report authors, explains: \"Our research makes a compelling case that for America's communities, the returns to investment from higher education have never been greater. We pinpoint the value regional economies gain by adding better-educated workers and show that, as those around you obtain more education, their wages rise\u2014 and yours do, too.<br>?While it's intuitive that an educated population, good jobs, and prosperity go hand-in-hand, this study proves the strong relationship between education and a region's economic performance. Institute economists created a unique data set linking educational attainment and occupational trends over time and by region. The report and the accompanying data site not only provide a blueprint for policy makers and leaders to boost education: they can help career seekers figure out where they can get the most bang from their educational buck.Key findings of the study include:\u2022 Education increases regional prosperity. Adding one year to the average years of schooling among the employed in a metropolitan area is associated with an increase of real GDP per capita of more than ten percent, and an increase in real wages per worker of more than eight percent.<br> \u2022 Better educated = bigger benefits. The better educated the worker, the greater the benefit of additional schooling, to both the worker and the region. Add one year of college to a region's workforce, for instance, and GDP per capita jumps 17.4 percent.<br> \u2022 Clusters count. In metros with clusters of high-skilled occupations, the share of workers holding at least a master's degree is much higher than in metros without significant clusters, perhaps because of the intense competition for employment.\"Even if a region isn't a tech powerhouse, education helps protect it from being arbitraged by those seeking lower costs in a globally interconnected world,<br>? says DeVol. \"The United States cannot afford to be complacent. While the average years of schooling among Americans 15 and older increased by 1.1 year from 1980 to 2010, over the same period, other advanced economies gained 2.3 years.<br>?The implications of \"A Matter of Degrees<br>? for policy makers, community leaders, and educators are extensive. The findings provide a compelling argument for strategic investments in higher education to enhance regional economic competitiveness\u2014 and by extension, U.S. competitiveness overall. The report's key policy recommendations for governments, educational institutions, and businesses include: make higher education more affordable and accessible; increase higher-education graduation rates; and strengthen coordination between industries and higher-education institutions.\"A Matter of Degrees: the Effect of Educational Attainment on Regional Economic Prosperity<br>? by Ross C. Devol, I-Ling Shen, Armen Bedroussian and Nan Zhang is available for free download at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801395&cat=resrep",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- When it comes to education, a rising tide really does lift all boats. That's one of the conclusions of a sweeping research report released today by the Milken Institute, \"A Matter of Degrees: the Effect of Educational Attainment on Regional Economic Prosperity.<br \/>?Ross DeVol, chief research officer and one of the report authors, explains: \"Our research makes a compelling case that for America's communities, the returns to investment from higher education have never been greater. We pinpoint the value regional economies gain by adding better-educated workers and show that, as those around you obtain more education, their wages rise\u2014 and yours do, too.<br \/>?While it's intuitive that an educated population, good jobs, and prosperity go hand-in-hand, this study proves the strong relationship between education and a region's economic performance. Institute economists created a unique data set linking educational attainment and occupational trends over time and by region. The report and the accompanying data site not only provide a blueprint for policy makers and leaders to boost education: they can help career seekers figure out where they can get the most bang from their educational buck.Key findings of the study include:\u2022 Education increases regional prosperity. Adding one year to the average years of schooling among the employed in a metropolitan area is associated with an increase of real GDP per capita of more than ten percent, and an increase in real wages per worker of more than eight percent.<br \/> \u2022 Better educated = bigger benefits. The better educated the worker, the greater the benefit of additional schooling, to both the worker and the region. Add one year of college to a region's workforce, for instance, and GDP per capita jumps 17.4 percent.<br \/> \u2022 Clusters count. In metros with clusters of high-skilled occupations, the share of workers holding at least a master's degree is much higher than in metros without significant clusters, perhaps because of the intense competition for employment.\"Even if a region isn't a tech powerhouse, education helps protect it from being arbitraged by those seeking lower costs in a globally interconnected world,<br \/>? says DeVol. \"The United States cannot afford to be complacent. While the average years of schooling among Americans 15 and older increased by 1.1 year from 1980 to 2010, over the same period, other advanced economies gained 2.3 years.<br \/>?The implications of \"A Matter of Degrees<br \/>? for policy makers, community leaders, and educators are extensive. The findings provide a compelling argument for strategic investments in higher education to enhance regional economic competitiveness\u2014 and by extension, U.S. competitiveness overall. The report's key policy recommendations for governments, educational institutions, and businesses include: make higher education more affordable and accessible; increase higher-education graduation rates; and strengthen coordination between industries and higher-education institutions.\"A Matter of Degrees: the Effect of Educational Attainment on Regional Economic Prosperity<br \/>? by Ross C. Devol, I-Ling Shen, Armen Bedroussian and Nan Zhang is available for free download at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801395&amp;cat=resrep",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,23 @@
+uuid: f537d08c-41ab-426a-aec5-d6dc50cf73b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_pfinal
+id: panel.panel.field_pfinal
+field_name: field_pfinal
+entity_type: panel
+bundle: panel
+label: pfinal
+description: 'Marks the panel as final'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

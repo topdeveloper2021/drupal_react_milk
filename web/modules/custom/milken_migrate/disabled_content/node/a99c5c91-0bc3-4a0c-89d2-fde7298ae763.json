@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/food-poison-or-food-medicine?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/70?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 536
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a99c5c91-0bc3-4a0c-89d2-fde7298ae763"
+        }
+    ],
+    "vid": [
+        {
+            "value": 536
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/70?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ecf5f1f3-53b0-4308-af79-f6b4ea02f7f1"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Food as Poison or Food as Medicine?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T17:53:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-10T20:32:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/food-poison-or-food-medicine",
+            "pid": 589,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "I have lived and worked as an investor and entrepreneur in New York City for over 20 years and have traveled the world and eaten in over 30 countries. When I began working in finance in 1998, I ate like most people\u2014spending very little to no time asking questions about the provenance of the food I consumed. I would spend hours scrutinizing investments, and then at lunchtime, recklessly stroll down to a food truck and consume whatever looked appealing without thinking about who prepared it, where it came from, and how it was adulterated to increase the profit to the vendor. In my early 20s, I became very ill with several autoimmune diseases and was told repeatedly by doctors that, while there was no cure, I should consume various pills to mitigate the symptoms. I was also diagnosed with an incurable, degenerative eye disease and told I would be blind by the age of 30. Despite having achieved superficial measures of \u201csuccess,\u201d I was sick and deeply depressed. After countless hours of research, self-experimentation, and a na\u00efve refusal to accept these diagnoses, I discovered my diseases were linked primarily to food. Within nine months of dramatically improving my nutrition and lifestyle\u2014focusing on whole, unprocessed foods and eliminating chemically-laden junk\u2014all of my ailments reversed, including my \u201cincurable\u201d eye disease. This harrowing journey instilled in me a life-long passion for nutrition and how it affects health and wellness. As I was forced to scrutinize all aspects of food and the food industry\u2014what was in the food, whether it came from a farm or a for-profit corporation, what kinds of pesticides, engineering, and technology were used to make it shelf-stable, taste great, and look appealing\u2014<b>I found there is no human activity with a greater disconnect between knowledge and frequency of use than eating.<\/b> I was shamed by many doctors who called my experience and the experiences of countless others like mine \u201canecdotal.\u201d Much like global warming, the effects of poor diet and processed food on our health and wellness are glacial (pun intended) and it can take years for disease to manifest; despite what some might think, the evidence overwhelmingly indicates that it does indeed show up. By now, most know humanity is on a self-inflicted, disturbing trajectory and yet, we are not acting quickly enough to reverse its course. We are still treating the symptoms instead of addressing the root cause of most chronic diseases\u2014our diet. In the United States, recent research shows food can be poison: Poor diet is the single greatest risk factor for death, chronic disease, and disability. Chronic diseases associated with obesity and Type 2 Diabetes are responsible for two out of every three American deaths. Chronic diseases cost the U.S. $1 trillion each year, with one-third of that cost coming from Type 2 Diabetes alone. Excess weight and obesity affect two-thirds of all adult American adults and 37 million children. 29 million Americans are diabetic and another 86 million are prediabetic\u2014a total of 36 percent of the U.S. population. <b>I believe improving nutrition, providing education about nutrition, and restoring the quality of real food are the most important issues we face today<\/b>. Outside of war, all of the major threats to humanity\u2019s survival can be traced to food and water: disease, declining lifespans, skyrocketing health-care costs, starvation and obesity (globally, there are now almost three times as many people living with overweight\/obesity than are struggling with starvation), and global warming. And yet, nutrition is not top of mind for policymakers and citizens. In 2012, my wife, brother-in-law, and I created a restaurant and food products company called Hu Kitchen. We not only needed a place where we could trust every ingredient, but we also wanted to create change by demonstrating the possibility to have unadulterated, sustainable food that is also delicious. After my continued health struggles and our years of research, we were tired of relying on corporations to consider our health and improve their practices. The basis for the name Hu, is \u201cGet Back to\u00a0<b>Hu<\/b>man.\u201d We believe that most no longer eat in a way that is optimal for human health. For many, nutrition is confusing, and it is too difficult to make good decisions when the ubiquitous food options steer us toward convenient and unhealthy choices. At Hu, we have created products to help consumers make easier, better-informed decisions with delicious options to improve their health. We are at an inflection point in a food revolution as awareness builds around the abysmal failure that is the American approach to diet and disease. And amidst this revolution, there are great opportunities for philanthropy, investment, and productive uses of capital to effect change. Fortunately, there are substantial and easy solutions to reducing chronic disease and health-care costs that don\u2019t require cutting-edge science or pharmaceuticals. Implementing these solutions, however, will require reversing decades of bad habits and behaviors deeply ingrained in both consumers and corporations. We need to promote whole foods and treat addictive, processed food like tobacco. We need to better educate people and encourage more entrepreneurial activity in health and wellness. As we reduce the buying of cheap junk food and invest in our health by buying real, whole foods, the invisible hand of economics will force corporations to change their practices. Despite all the advances in science and modern medicine, this is the first generation in recorded human history that is predicted to live a shorter lifespan than the previous generation. Let\u2019s change this fact and address the root cause of most chronic disease by using food as medicine instead of food as poison.",
+    "format": "rich_text",
+    "processed": "I have lived and worked as an investor and entrepreneur in New York City for over 20 years and have traveled the world and eaten in over 30 countries. When I began working in finance in 1998, I ate like most people\u2014spending very little to no time asking questions about the provenance of the food I consumed. I would spend hours scrutinizing investments, and then at lunchtime, recklessly stroll down to a food truck and consume whatever looked appealing without thinking about who prepared it, where it came from, and how it was adulterated to increase the profit to the vendor. In my early 20s, I became very ill with several autoimmune diseases and was told repeatedly by doctors that, while there was no cure, I should consume various pills to mitigate the symptoms. I was also diagnosed with an incurable, degenerative eye disease and told I would be blind by the age of 30. Despite having achieved superficial measures of \u201csuccess,\u201d I was sick and deeply depressed. After countless hours of research, self-experimentation, and a na\u00efve refusal to accept these diagnoses, I discovered my diseases were linked primarily to food. Within nine months of dramatically improving my nutrition and lifestyle\u2014focusing on whole, unprocessed foods and eliminating chemically-laden junk\u2014all of my ailments reversed, including my \u201cincurable\u201d eye disease. This harrowing journey instilled in me a life-long passion for nutrition and how it affects health and wellness. As I was forced to scrutinize all aspects of food and the food industry\u2014what was in the food, whether it came from a farm or a for-profit corporation, what kinds of pesticides, engineering, and technology were used to make it shelf-stable, taste great, and look appealing\u2014<b>I found there is no human activity with a greater disconnect between knowledge and frequency of use than eating.<\/b> I was shamed by many doctors who called my experience and the experiences of countless others like mine \u201canecdotal.\u201d Much like global warming, the effects of poor diet and processed food on our health and wellness are glacial (pun intended) and it can take years for disease to manifest; despite what some might think, the evidence overwhelmingly indicates that it does indeed show up. By now, most know humanity is on a self-inflicted, disturbing trajectory and yet, we are not acting quickly enough to reverse its course. We are still treating the symptoms instead of addressing the root cause of most chronic diseases\u2014our diet. In the United States, recent research shows food can be poison: Poor diet is the single greatest risk factor for death, chronic disease, and disability. Chronic diseases associated with obesity and Type 2 Diabetes are responsible for two out of every three American deaths. Chronic diseases cost the U.S. $1 trillion each year, with one-third of that cost coming from Type 2 Diabetes alone. Excess weight and obesity affect two-thirds of all adult American adults and 37 million children. 29 million Americans are diabetic and another 86 million are prediabetic\u2014a total of 36 percent of the U.S. population. <b>I believe improving nutrition, providing education about nutrition, and restoring the quality of real food are the most important issues we face today<\/b>. Outside of war, all of the major threats to humanity\u2019s survival can be traced to food and water: disease, declining lifespans, skyrocketing health-care costs, starvation and obesity (globally, there are now almost three times as many people living with overweight\/obesity than are struggling with starvation), and global warming. And yet, nutrition is not top of mind for policymakers and citizens. In 2012, my wife, brother-in-law, and I created a restaurant and food products company called Hu Kitchen. We not only needed a place where we could trust every ingredient, but we also wanted to create change by demonstrating the possibility to have unadulterated, sustainable food that is also delicious. After my continued health struggles and our years of research, we were tired of relying on corporations to consider our health and improve their practices. The basis for the name Hu, is \u201cGet Back to\u00a0<b>Hu<\/b>man.\u201d We believe that most no longer eat in a way that is optimal for human health. For many, nutrition is confusing, and it is too difficult to make good decisions when the ubiquitous food options steer us toward convenient and unhealthy choices. At Hu, we have created products to help consumers make easier, better-informed decisions with delicious options to improve their health. We are at an inflection point in a food revolution as awareness builds around the abysmal failure that is the American approach to diet and disease. And amidst this revolution, there are great opportunities for philanthropy, investment, and productive uses of capital to effect change. Fortunately, there are substantial and easy solutions to reducing chronic disease and health-care costs that don\u2019t require cutting-edge science or pharmaceuticals. Implementing these solutions, however, will require reversing decades of bad habits and behaviors deeply ingrained in both consumers and corporations. We need to promote whole foods and treat addictive, processed food like tobacco. We need to better educate people and encourage more entrepreneurial activity in health and wellness. As we reduce the buying of cheap junk food and invest in our health by buying real, whole foods, the invisible hand of economics will force corporations to change their practices. Despite all the advances in science and modern medicine, this is the first generation in recorded human history that is predicted to live a shorter lifespan than the previous generation. Let\u2019s change this fact and address the root cause of most chronic disease by using food as medicine instead of food as poison.",
+    "summary": null,
+    "summary_processed": ""
+}

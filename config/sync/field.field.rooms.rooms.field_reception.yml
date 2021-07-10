@@ -1,0 +1,19 @@
+uuid: da9bfaed-8b1f-429a-b76e-f51ce04ec063
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_reception
+id: rooms.rooms.field_reception
+field_name: field_reception
+entity_type: rooms
+bundle: rooms
+label: reception
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

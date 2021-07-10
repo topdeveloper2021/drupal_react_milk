@@ -1,0 +1,48 @@
+
+#edit-layout-selection-wrapper {
+  margin: 0;
+  fieldset#edit-layout-selection-0--wrapper{
+    margin: 0;
+    position: relative;
+    background: rgb(222,222,222);
+    background: linear-gradient(0deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
+    overflow:hidden;
+    legend {
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+  }
+
+  #edit-layout-selection-0 {
+    > .js-form-item {
+      position:relative;
+      display: inline-flex;
+      align-items: center;
+      padding-left: 0;
+      margin-right: 2px;
+      .form-radio {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+      label {
+        display:block;
+        padding: 10px;
+        border: 1px solid transparent;
+        background-color: transparent;
+      }
+      .form-radio:checked + label {
+        border: 1px solid #dfdfdf;
+        background-color:white;
+      }
+    }
+  }
+
+}
+
+#node-slide-edit-form > div > div.field-group-tabs-wrapper {
+  border-top: 0;
+  .horizontal-tabs {
+    border-top: 0;
+  }
+}

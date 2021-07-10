@@ -1,0 +1,19 @@
+uuid: 103a478a-2106-465b-923d-9b34a817d389
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_biotext
+field_name: field_biotext
+entity_type: grid_speakers
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

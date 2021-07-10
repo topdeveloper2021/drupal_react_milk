@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/regulatory-concerns-strain-bank-fintech-relationship?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/153?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 781
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e7d758e1-74f0-4b9b-8cdc-1b057e235cc6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 781
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/153?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e32abcaa-0447-4ffc-b3a5-4a039a7620e7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Regulatory Concerns Strain Bank-FinTech Relationship",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T18:05:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:21:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/regulatory-concerns-strain-bank-fintech-relationship",
+            "pid": 834,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON - Banks and technology firms have a complex relationship, one that wavers between working as partners and seeing each other as potential rivals. But it is being tested lately as banks spotlight what they see as lax regulation for tech firms compared with the rigorous regime for traditional financial institutions. That focus has triggered its own criticism from technology advocates and others who say banks' quest for leveling the regulatory playing field could slow innovation and may stem from anxiety about nonbanks' success. Banks are \"seeing some of what they believe to be their business opportunities being cannibalized,\" said Ron Shevlin, director of research for Cornerstone Advisors. \"It's a competitive move to try to slow down the startups.\" The broadest swipe at fintech's regulatory status came last month when The Clearing House, a trade association of the 24 largest banks that also operates bank-centric payments systems, released awhite paper. Its core argument was that anunlevel playing fieldfor banks and \"alternative payment providers\" - including powerhouses like Apple but also newer disruptors - leaves consumers vulnerable, and the group outlined both regulatory and legislative reforms to bring more parity. \"Many of them hold themselves out as having high security standards. Hopefully, they do,\" said Rob Hunter, the Clearing House's deputy general counsel and executive managing director. \"But there really is no robust examination or enforcement structure in place that would verify that.\" But the paper - which included regulatory recommendations and echoed an April op-ed in American Banker by outgoing American Bankers Association chief Frank Keating - elicited a strong reaction. Brian Knight, of the Milken Institute, in a subsequent blog called the TCH report \"The Shot Heard 'Round the FinTech World,\" saying it signaled the start of \"the first great FinTech war.\" Jason Oxman, who heads the Electronic Transactions Association, was more measured,saying on the group's websitethat a continuation of partnerships between banks and tech firms on payment products is a better route to protecting consumers than a new set of separate fintech rules. One can't \"wish federal bank regulation on a company that's not a bank,\" he said in an interview. \"It just doesn't work that way.\" Yet if the converging banking and technology sectors are headed to blows, they are still cautious in expressing their angst. Hunter and others insist banks do not want to slow innovation or the entrance of new players, while Oxman and others in the fintech sphere say it is fair for banks to raise the issue though they disagree about the level of danger. On whether banks' criticism is a sincere effort to identify regulatory gaps or one to ease competition, Hank Israel, a managing director at Novantas, said, \"It's both.\" While there should be rules for tech firms and other nonbanks to explain to consumers how a product may lack features of a financial institution, Israel said, banks are claiming \"that they're having to pay a tariff that the innovator hasn't.\" \"If the way that the bank is structured doesn't allow them to take advantage of those new strategies, then so be it,\" he said. \"That's the challenge for the bank.\" <b>The 'Wild West Aspect'<\/b><b> The Clearing House paper pointed to the dramatic growth of alternative payment firms - companies such as Google and Apple trying to turn smartphones into wallets, firms like Facebook and Venmo expanding choices for peer-to-peer transactions, as well as providers like Stripe that enable consumers to pay for goods through social media. But the regulatory framework hasn't kept pace, the group said. A more consistent regime between banks and nonbanks, the paper argued, would ease consumers' decision-making. The group's recommended reforms include subjecting fintech firms to formal examinations by the Federal Trade Commission by using existing authority in the 1999 Gramm-Leach-Bliley Act, as well as steps by the Consumer Financial Protection Bureau to examine \"larger participants\" in the sector under powers granted by the Dodd-Frank Act. The paper also called on the Financial Crimes Enforcement Network to enforce existing guidelines on a requirement for nonbank money-services businesses to file \"suspicious activity reports,\" just like banks. Alternative providers \"are providing their products and services by continuing to rely on the backbone of existing bank payment systems while capitalizing on innovations in communications platforms, thus generally managing to avoid the reach of the traditional financial regulators,\" the paper said. Hunter argued that banks weren't trying to block entrants into financial services, a criticism often thrown at other incumbents, such as taxis' resistance to Uber. \"Our proposals simply counter the view that no regulation or extraordinarily light regulation of the nonbank players should be the status quo,\" he said. \"That's a position that is akin to Uber arguing that its cars shouldn't be required to have seat belts. \"If a third-party provider has lax data security practices and there is a breach or otherwise a problem with their system, in most instances it's banks that are getting stuck with the liability that results from that compromise, and if a bank isn't standing behind consumers they are in most instances going to be left completely vulnerable.\" He added that the layer of protection from federally regulated banks partnering with fintech firms does not always apply. \"Alternative payment providers who obtain credit card or debit card credentials gain access to the system as merchants - or in some cases there are third party payment providers who are just asking consumers for banking platform account IDs and login passwords - and once you have those credentials you have the keys to the kingdom,\" Hunter said. Although the paper has been criticized, the Clearing House is not alone in raising concerns. Regulators have increasingly taken interest in newer technologies. \"We need to make sure that the legal and regulatory framework can keep up effectively, so that all consumers can be well served and remain protected, whether they are opening their wallet or scanning the screen on their smartphone,\" CFPB Director Richard Cordray said last year. In a speech last month, Comptroller of the Currency Thomas Curry said policymakers should take notice. \"Some of these products represent only incremental changes that don't present major regulatory concerns, but others signify real points of departures that will require a significant amount of scrutiny to ensure that they can be offered safely and soundly, consistent with applicable laws and regulations, and in a way that ensures adequate consumer protections,\" he said. Other industry trade groups have weighed in too. Rob Morgan, the ABA's director of emerging technologies, said the tension between the two sectors \"seems a little bit overhyped\" and banks do not have \"an us-against-them mentality.\"<br \/> But if a new innovation takes hold in the market, it should be able to abide by federal regulation, he added. \"If you've got a delivery channel or a new product that is adding value and helps consumers, then that should still be able to compete under the same set of rules,\" he said. L. Cary Whaley, vice president of payments and technology policy for the Independent Community Bankers of America, said there is more at stake for consumers using alternative providers for their financial services needs than what could happen if some-one simply lost a credit card or was overcharged by a driver. \"It's one thing to have a fraud that affects one card or one cab fare. A lot of the fintech operates much more - there's a Wild West aspect to it,\" he said. \"What's scary about that is the customer's finances are at stake.\" <strong>Compete or Collaborate?<\/b><b> But some observers doubt whether commercial banks - which repeatedly lose out to technology firms in offering the hot new payments innovation - are in the best position to point out fintech's flaws. Shevlin said the Clearing House makes \"good points\" about the lack of oversight for alternative providers, but he added that onlookers may doubt the banking industry's motives. \"They leave themselves open to being seen as kind of petty and sore losers. These are humongous banks. They've been in this game for a long time. Why did they not succeed at providing person-to-person payments like a Venmo?\" he said. \"They know that if the regulatory bodies were to start looking at the alternative payment providers this would cause a real slowdown in their marketing efforts, in their recruiting efforts, perhaps even in their valuation. As a competitive move, I probably wouldn't do anything different. But from a PR perspective, they do leave themselves open to being a little two-faced. Really? You're trying to level the playing field when you're a gazillion-dollar bank?\" Others, meanwhile, say the paper was inconsistent with the current environment of banks and nonbank firms collaborating on everything from new payment apps like Apple Pay and Android Pay to marketplace lending. \"If I ran a midsize bank today with a decent technology stack and a constructive dialogue with my regulators, I think there would be lots of valuable opportunities to work with nonbank financial firms,\" said Raj Date, the former No. 2 at the CFPB who founded the venture capital and advisory firm Fenway Summer. But Knight, associate director for financial policy at the Milken Institute, said the Clearing House recommendations have been read as adversarial. \"This was not a cordial \"hand-in-hand, moving toward a brighter future\" report, Knight, associate director for financial policy at the Milken Institute, said in an interview. \"This was, 'There are people that are not sufficiently regulated, there are people whose activities are putting consumers at risk, and the government both at the regulatory and legislative levels should take very direct action.'\" Oxman, whose group represents several of the companies mentioned in the paper, said the Clearing House makes a \"fair point\" that when \"like services are provided by companies with disparate regulatory regimes, it distorts\" the market. But he disagreed that other companies that are collaborating with regulated institutions need to be subject to additional rules. \"In some cases, like Apple Pay or Android Pay, they're powered by hundreds of banks,\" he said. \"I didn't want to leave out there this notion that technology companies that are entering the payment space are doing so without regulatory oversight because in fact they're partnered with banks.\" To address market distortions limiting banks from innovating on their own, Oxman added, stricter rules for fintech firms is not the answer. \"If it is indeed the case that banks are impeded in their ability to innovate because of heavy regulation, let's take a look at whether banks are too heavily regulated to allow them to innovate in the way that other companies can do,\" he said. <strong>Which Way Will Regulators Go?<\/b><br \/> Yet with technologies bursting and cyber threats looming, the reality is more likely that some nonbank fintech firms will face oversight. Oliver Ireland, a partner Morrison & Foerster and former Federal Reserve Board attorney, said the current tension between traditional banks and fintech reflects a longer-term trend. \"I've been listening to people talk about this in one form or another since the mid-'80s,\" he said. \"Banks used to do pretty much everything. There's been growth in money transmission and ATM networks operated by nonbanks even though the ATM networks provide services to banks. A lot of bank operational functions in payments are done by service contractors to banks, when they used to be done inside banks.\" He said that, while it is challenging for regulators to adapt complaints about an unlevel playing field into policy, the coming years may bring stricter rules for fintech providers that go beyond offering a service partnership for banks. \"There is probably a fintech space that is more in the service space and doesn't get regulated because it's like the manufacturers of the credit cards - the people who make the plastic. They're not going to be regulated because what they do isn't regulated, but they service a regulated industry,\" he said. \"Others will find themselves regulated that didn't think they were going to be regulated. The pressure from outside innovation may make the bank regulators a little more willing to look at change and look at new innovations.\"<br \/> <i>This commentary first appeared in\u00a0American Banker\u00a0on September 28, 2015.<\/i>",
+    "format": "rich_text",
+    "processed": "WASHINGTON - Banks and technology firms have a complex relationship, one that wavers between working as partners and seeing each other as potential rivals. But it is being tested lately as banks spotlight what they see as lax regulation for tech firms compared with the rigorous regime for traditional financial institutions. That focus has triggered its own criticism from technology advocates and others who say banks' quest for leveling the regulatory playing field could slow innovation and may stem from anxiety about nonbanks' success. Banks are \"seeing some of what they believe to be their business opportunities being cannibalized,\" said Ron Shevlin, director of research for Cornerstone Advisors. \"It's a competitive move to try to slow down the startups.\" The broadest swipe at fintech's regulatory status came last month when The Clearing House, a trade association of the 24 largest banks that also operates bank-centric payments systems, released awhite paper. Its core argument was that anunlevel playing fieldfor banks and \"alternative payment providers\" - including powerhouses like Apple but also newer disruptors - leaves consumers vulnerable, and the group outlined both regulatory and legislative reforms to bring more parity. \"Many of them hold themselves out as having high security standards. Hopefully, they do,\" said Rob Hunter, the Clearing House's deputy general counsel and executive managing director. \"But there really is no robust examination or enforcement structure in place that would verify that.\" But the paper - which included regulatory recommendations and echoed an April op-ed in American Banker by outgoing American Bankers Association chief Frank Keating - elicited a strong reaction. Brian Knight, of the Milken Institute, in a subsequent blog called the TCH report \"The Shot Heard 'Round the FinTech World,\" saying it signaled the start of \"the first great FinTech war.\" Jason Oxman, who heads the Electronic Transactions Association, was more measured,saying on the group's websitethat a continuation of partnerships between banks and tech firms on payment products is a better route to protecting consumers than a new set of separate fintech rules. One can't \"wish federal bank regulation on a company that's not a bank,\" he said in an interview. \"It just doesn't work that way.\" Yet if the converging banking and technology sectors are headed to blows, they are still cautious in expressing their angst. Hunter and others insist banks do not want to slow innovation or the entrance of new players, while Oxman and others in the fintech sphere say it is fair for banks to raise the issue though they disagree about the level of danger. On whether banks' criticism is a sincere effort to identify regulatory gaps or one to ease competition, Hank Israel, a managing director at Novantas, said, \"It's both.\" While there should be rules for tech firms and other nonbanks to explain to consumers how a product may lack features of a financial institution, Israel said, banks are claiming \"that they're having to pay a tariff that the innovator hasn't.\" \"If the way that the bank is structured doesn't allow them to take advantage of those new strategies, then so be it,\" he said. \"That's the challenge for the bank.\" <b>The 'Wild West Aspect'<\/b><b> The Clearing House paper pointed to the dramatic growth of alternative payment firms - companies such as Google and Apple trying to turn smartphones into wallets, firms like Facebook and Venmo expanding choices for peer-to-peer transactions, as well as providers like Stripe that enable consumers to pay for goods through social media. But the regulatory framework hasn't kept pace, the group said. A more consistent regime between banks and nonbanks, the paper argued, would ease consumers' decision-making. The group's recommended reforms include subjecting fintech firms to formal examinations by the Federal Trade Commission by using existing authority in the 1999 Gramm-Leach-Bliley Act, as well as steps by the Consumer Financial Protection Bureau to examine \"larger participants\" in the sector under powers granted by the Dodd-Frank Act. The paper also called on the Financial Crimes Enforcement Network to enforce existing guidelines on a requirement for nonbank money-services businesses to file \"suspicious activity reports,\" just like banks. Alternative providers \"are providing their products and services by continuing to rely on the backbone of existing bank payment systems while capitalizing on innovations in communications platforms, thus generally managing to avoid the reach of the traditional financial regulators,\" the paper said. Hunter argued that banks weren't trying to block entrants into financial services, a criticism often thrown at other incumbents, such as taxis' resistance to Uber. \"Our proposals simply counter the view that no regulation or extraordinarily light regulation of the nonbank players should be the status quo,\" he said. \"That's a position that is akin to Uber arguing that its cars shouldn't be required to have seat belts. \"If a third-party provider has lax data security practices and there is a breach or otherwise a problem with their system, in most instances it's banks that are getting stuck with the liability that results from that compromise, and if a bank isn't standing behind consumers they are in most instances going to be left completely vulnerable.\" He added that the layer of protection from federally regulated banks partnering with fintech firms does not always apply. \"Alternative payment providers who obtain credit card or debit card credentials gain access to the system as merchants - or in some cases there are third party payment providers who are just asking consumers for banking platform account IDs and login passwords - and once you have those credentials you have the keys to the kingdom,\" Hunter said. Although the paper has been criticized, the Clearing House is not alone in raising concerns. Regulators have increasingly taken interest in newer technologies. \"We need to make sure that the legal and regulatory framework can keep up effectively, so that all consumers can be well served and remain protected, whether they are opening their wallet or scanning the screen on their smartphone,\" CFPB Director Richard Cordray said last year. In a speech last month, Comptroller of the Currency Thomas Curry said policymakers should take notice. \"Some of these products represent only incremental changes that don't present major regulatory concerns, but others signify real points of departures that will require a significant amount of scrutiny to ensure that they can be offered safely and soundly, consistent with applicable laws and regulations, and in a way that ensures adequate consumer protections,\" he said. Other industry trade groups have weighed in too. Rob Morgan, the ABA's director of emerging technologies, said the tension between the two sectors \"seems a little bit overhyped\" and banks do not have \"an us-against-them mentality.\"<br \/> But if a new innovation takes hold in the market, it should be able to abide by federal regulation, he added. \"If you've got a delivery channel or a new product that is adding value and helps consumers, then that should still be able to compete under the same set of rules,\" he said. L. Cary Whaley, vice president of payments and technology policy for the Independent Community Bankers of America, said there is more at stake for consumers using alternative providers for their financial services needs than what could happen if some-one simply lost a credit card or was overcharged by a driver. \"It's one thing to have a fraud that affects one card or one cab fare. A lot of the fintech operates much more - there's a Wild West aspect to it,\" he said. \"What's scary about that is the customer's finances are at stake.\" <strong>Compete or Collaborate?<\/strong><\/b><b> But some observers doubt whether commercial banks - which repeatedly lose out to technology firms in offering the hot new payments innovation - are in the best position to point out fintech's flaws. Shevlin said the Clearing House makes \"good points\" about the lack of oversight for alternative providers, but he added that onlookers may doubt the banking industry's motives. \"They leave themselves open to being seen as kind of petty and sore losers. These are humongous banks. They've been in this game for a long time. Why did they not succeed at providing person-to-person payments like a Venmo?\" he said. \"They know that if the regulatory bodies were to start looking at the alternative payment providers this would cause a real slowdown in their marketing efforts, in their recruiting efforts, perhaps even in their valuation. As a competitive move, I probably wouldn't do anything different. But from a PR perspective, they do leave themselves open to being a little two-faced. Really? You're trying to level the playing field when you're a gazillion-dollar bank?\" Others, meanwhile, say the paper was inconsistent with the current environment of banks and nonbank firms collaborating on everything from new payment apps like Apple Pay and Android Pay to marketplace lending. \"If I ran a midsize bank today with a decent technology stack and a constructive dialogue with my regulators, I think there would be lots of valuable opportunities to work with nonbank financial firms,\" said Raj Date, the former No. 2 at the CFPB who founded the venture capital and advisory firm Fenway Summer. But Knight, associate director for financial policy at the Milken Institute, said the Clearing House recommendations have been read as adversarial. \"This was not a cordial \"hand-in-hand, moving toward a brighter future\" report, Knight, associate director for financial policy at the Milken Institute, said in an interview. \"This was, 'There are people that are not sufficiently regulated, there are people whose activities are putting consumers at risk, and the government both at the regulatory and legislative levels should take very direct action.'\" Oxman, whose group represents several of the companies mentioned in the paper, said the Clearing House makes a \"fair point\" that when \"like services are provided by companies with disparate regulatory regimes, it distorts\" the market. But he disagreed that other companies that are collaborating with regulated institutions need to be subject to additional rules. \"In some cases, like Apple Pay or Android Pay, they're powered by hundreds of banks,\" he said. \"I didn't want to leave out there this notion that technology companies that are entering the payment space are doing so without regulatory oversight because in fact they're partnered with banks.\" To address market distortions limiting banks from innovating on their own, Oxman added, stricter rules for fintech firms is not the answer. \"If it is indeed the case that banks are impeded in their ability to innovate because of heavy regulation, let's take a look at whether banks are too heavily regulated to allow them to innovate in the way that other companies can do,\" he said. <strong>Which Way Will Regulators Go?<\/strong><\/b><br \/> Yet with technologies bursting and cyber threats looming, the reality is more likely that some nonbank fintech firms will face oversight. Oliver Ireland, a partner Morrison &amp; Foerster and former Federal Reserve Board attorney, said the current tension between traditional banks and fintech reflects a longer-term trend. \"I've been listening to people talk about this in one form or another since the mid-'80s,\" he said. \"Banks used to do pretty much everything. There's been growth in money transmission and ATM networks operated by nonbanks even though the ATM networks provide services to banks. A lot of bank operational functions in payments are done by service contractors to banks, when they used to be done inside banks.\" He said that, while it is challenging for regulators to adapt complaints about an unlevel playing field into policy, the coming years may bring stricter rules for fintech providers that go beyond offering a service partnership for banks. \"There is probably a fintech space that is more in the service space and doesn't get regulated because it's like the manufacturers of the credit cards - the people who make the plastic. They're not going to be regulated because what they do isn't regulated, but they service a regulated industry,\" he said. \"Others will find themselves regulated that didn't think they were going to be regulated. The pressure from outside innovation may make the bank regulators a little more willing to look at change and look at new innovations.\"<br \/><i>This commentary first appeared in\u00a0American Banker\u00a0on September 28, 2015.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

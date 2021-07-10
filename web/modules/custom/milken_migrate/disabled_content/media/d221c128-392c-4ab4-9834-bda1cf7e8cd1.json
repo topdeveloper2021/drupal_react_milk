@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7372\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/q3lU7o35tIi5BQYe2efM1tbG6iQAPZT44gaKoFrYjk8.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7372
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d221c128-392c-4ab4-9834-bda1cf7e8cd1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 163
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/q3lU7o35tIi5BQYe2efM1tbG6iQAPZT44gaKoFrYjk8.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "77084d55-b527-4f63-beaf-858866ee5cb8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Japans Great Investment Wave",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-12T18:57:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "After decades of stagnation and resistance to change, Japan is seeing signs of economic growth. Inflation is expected to increase this year, and corporations and public institutions are beginning to diversify by investing more capital overseas. This panel of experts will explore:<br><br>What government policies and structural reforms are in the works to further improve the gains of a radical reflationary program?<br>What are the most promising investment opportunities in Japan? Where can investors find value?<br>Will Japanese corporations, which are sitting on nearly $2 trillion in cash, continue their recent buying binge?",
+    "format": "rich_text",
+    "processed": "After decades of stagnation and resistance to change, Japan is seeing signs of economic growth. Inflation is expected to increase this year, and corporations and public institutions are beginning to diversify by investing more capital overseas. This panel of experts will explore:<br \/><br \/>What government policies and structural reforms are in the works to further improve the gains of a radical reflationary program?<br \/>What are the most promising investment opportunities in Japan? Where can investors find value?<br \/>Will Japanese corporations, which are sitting on nearly $2 trillion in cash, continue their recent buying binge?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/k_rVyQKyn7Y",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/q3lU7o35tIi5BQYe2efM1tbG6iQAPZT44gaKoFrYjk8.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

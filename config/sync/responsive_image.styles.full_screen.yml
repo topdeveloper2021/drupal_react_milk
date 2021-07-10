@@ -1,0 +1,16 @@
+uuid: 2ebbc8f5-63f1-4ea8-bf08-f5d6e11512de
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.fullscreen
+id: full_screen
+label: 'Full Screen'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+breakpoint_group: responsive_image
+fallback_image_style: fullscreen

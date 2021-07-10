@@ -1,0 +1,20 @@
+uuid: 86b756da-33e9-42c1-8efd-a307520798c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - media
+id: media.field_start_finish_time
+field_name: field_start_finish_time
+entity_type: media
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

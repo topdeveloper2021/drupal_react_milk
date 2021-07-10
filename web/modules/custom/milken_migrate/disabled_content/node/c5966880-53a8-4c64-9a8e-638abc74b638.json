@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/vice-president-biden-names-founding-president-fastercures-lead-cancer-moonshot?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 33
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c5966880-53a8-4c64-9a8e-638abc74b638"
+        }
+    ],
+    "vid": [
+        {
+            "value": 33
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Vice President Biden Names Founding President of FasterCures to Lead Cancer Moonshot",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-03-18T13:03:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/vice-president-biden-names-founding-president-fastercures-lead-cancer-moonshot",
+            "pid": 86,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON\u2014Vice President Joe Biden has named Greg Simon to lead the national cancer \u201cmoonshot\u201d initiative. As the founding president of FasterCures, Simon has long been a tireless advocate of bringing diverse stakeholders together to improve the medical research system.\u201cGreg is undaunted by big challenges,\u201d said Margaret Anderson, executive director of FasterCures and acting president and CEO of the Melanoma Research Alliance. \u201cHis professional and personal experience will make him a strong and passionate leader to carry out Vice President Biden\u2019s vision of accelerating cancer research efforts. Greg is the ideal candidate to identify short- and long-term goals, bring the right parties to the table and cut through red tape. He focuses on getting things done.\u201dFasterCures stands ready to work on the moonshot initiative and with all stakeholders, including patients and their advocates, who believe that saving time in medical research means saving lives.About FasterCuresFasterCures, a center of the Milken Institute, is an action tank, determined to remove barriers to medical progress. We have only one goal: to save lives by speeding up and improving the medical research system.<br>www.fastercures.org<br>@FasterCuresAbout the Milken Institute<br> The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.www.milkeninstitute.org@milkeninstitute\u00a0Contact<br> Karen Rogers, Associate Director of Communications, FasterCures<br> (202) 336-8919; krogers@fastercures.org\u00a0# # #",
+    "format": "rich_text",
+    "processed": "WASHINGTON\u2014Vice President Joe Biden has named Greg Simon to lead the national cancer \u201cmoonshot\u201d initiative. As the founding president of FasterCures, Simon has long been a tireless advocate of bringing diverse stakeholders together to improve the medical research system.\u201cGreg is undaunted by big challenges,\u201d said Margaret Anderson, executive director of FasterCures and acting president and CEO of the Melanoma Research Alliance. \u201cHis professional and personal experience will make him a strong and passionate leader to carry out Vice President Biden\u2019s vision of accelerating cancer research efforts. Greg is the ideal candidate to identify short- and long-term goals, bring the right parties to the table and cut through red tape. He focuses on getting things done.\u201dFasterCures stands ready to work on the moonshot initiative and with all stakeholders, including patients and their advocates, who believe that saving time in medical research means saving lives.About FasterCuresFasterCures, a center of the Milken Institute, is an action tank, determined to remove barriers to medical progress. We have only one goal: to save lives by speeding up and improving the medical research system.<br \/>www.fastercures.org<br \/>@FasterCuresAbout the Milken Institute<br \/> The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. It does this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.www.milkeninstitute.org@milkeninstitute\u00a0Contact<br \/> Karen Rogers, Associate Director of Communications, FasterCures<br \/> (202) 336-8919; krogers@fastercures.org\u00a0# # #",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,80 @@
+uuid: 23d8fd3a-5a08-49f8-a8a6-5f693e303681
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_tracks.tracks
+    - field.field.grid_tracks.tracks.field_description
+    - field.field.grid_tracks.tracks.field_event_id
+    - field.field.grid_tracks.tracks.field_track_id
+    - field.field.grid_tracks.tracks.field_track_type
+  module:
+    - text
+id: grid_tracks.tracks.default
+targetEntityType: grid_tracks
+bundle: tracks
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_description:
+    weight: 11
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_event_id:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_track_id:
+    weight: 13
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_track_type:
+    weight: 14
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

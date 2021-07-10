@@ -1,0 +1,20 @@
+uuid: ca4c149a-44bc-43cf-9207-1bdf94c9d08c
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - paragraphs
+id: paragraph.field_background_color
+field_name: field_background_color
+entity_type: paragraph
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

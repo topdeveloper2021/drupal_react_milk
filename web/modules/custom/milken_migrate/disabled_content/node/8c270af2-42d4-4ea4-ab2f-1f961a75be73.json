@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/when-life-gives-you-health-care-reform?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/95?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 576
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8c270af2-42d4-4ea4-ab2f-1f961a75be73"
+        }
+    ],
+    "vid": [
+        {
+            "value": 576
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/95?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cf505663-a646-49a9-8527-e630fdc8783d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "When Life Gives You Health-Care Reform",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T18:03:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/when-life-gives-you-health-care-reform",
+            "pid": 629,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "I was walking with colleagues,\u00a0discussing how the latest round of health-care payment reforms would finally cure health care,\u00a0when we came across the ultimate symbol of American entrepreneurialism:\u00a0a\u00a0young girl had set up a lemonade stand with a sign advertising 25 cents a cup. \u201cI\u2019ll take one!\u201d I declared,\u00a0in support of this young girl and lemonade in general. As I attempted to settle my tab, my colleague stated that he too would like a cup of lemonade and was willing to pay 30 cents! \u201cI will pay half now,\u201d he announced. \u201cThe other half will arrive 90 to 120 days later, assuming the lemonade meets eight of my predetermined measures of value.\u201d Before he could finish explaining the 30 possible criteria from which\u00a0the girl\u00a0could choose,\u00a0our\u00a0third companion announced his thirst. \u201cNow, now, friends. This is my treat. Lemonade for us all!\u201d\u00a0he exclaimed and dropped a dollar on the checkered tablecloth. The young entrepreneur was rightfully pleased, until my colleague explained\u00a0that we might require more lemonade,\u00a0but\u00a0the flat rate of $1 should cover it. She eyed each of us up and down carefully, gauging our potential lemonade intake, and asked how much lemonade we might expect to consume. To which all three of us laughed, \u201cMy dear girl, how could we possibly know that in advance?\u201d As we watched the young girl retreat into her home in a fit of tears, we paused to consider which proposal was so offensive that it\u00a0caused\u00a0such an early retirement. \u201cWhat if,\u201d my colleague posited, \u201cit was not the specifics of any one of our proposals that caused our young friend to abandon her lemon-flavored ambitions?\u201d We\u00a0leaned\u00a0in to see where exactly this train of thought might lead. \u201cWhat if, instead, the pressure of meeting all three of our demands at the same time was to blame?\u201d The poor thing. Clearly,\u00a0our young friend wasn\u2019t ready for the rigors of running a business. With that, we returned\u00a0the empty pitcher to the abandoned stand and went on our way,\u00a0turning our attention once again to more adult topics.\u00a0",
+    "format": "rich_text",
+    "processed": "I was walking with colleagues,\u00a0discussing how the latest round of health-care payment reforms would finally cure health care,\u00a0when we came across the ultimate symbol of American entrepreneurialism:\u00a0a\u00a0young girl had set up a lemonade stand with a sign advertising 25 cents a cup. \u201cI\u2019ll take one!\u201d I declared,\u00a0in support of this young girl and lemonade in general. As I attempted to settle my tab, my colleague stated that he too would like a cup of lemonade and was willing to pay 30 cents! \u201cI will pay half now,\u201d he announced. \u201cThe other half will arrive 90 to 120 days later, assuming the lemonade meets eight of my predetermined measures of value.\u201d Before he could finish explaining the 30 possible criteria from which\u00a0the girl\u00a0could choose,\u00a0our\u00a0third companion announced his thirst. \u201cNow, now, friends. This is my treat. Lemonade for us all!\u201d\u00a0he exclaimed and dropped a dollar on the checkered tablecloth. The young entrepreneur was rightfully pleased, until my colleague explained\u00a0that we might require more lemonade,\u00a0but\u00a0the flat rate of $1 should cover it. She eyed each of us up and down carefully, gauging our potential lemonade intake, and asked how much lemonade we might expect to consume. To which all three of us laughed, \u201cMy dear girl, how could we possibly know that in advance?\u201d As we watched the young girl retreat into her home in a fit of tears, we paused to consider which proposal was so offensive that it\u00a0caused\u00a0such an early retirement. \u201cWhat if,\u201d my colleague posited, \u201cit was not the specifics of any one of our proposals that caused our young friend to abandon her lemon-flavored ambitions?\u201d We\u00a0leaned\u00a0in to see where exactly this train of thought might lead. \u201cWhat if, instead, the pressure of meeting all three of our demands at the same time was to blame?\u201d The poor thing. Clearly,\u00a0our young friend wasn\u2019t ready for the rigors of running a business. With that, we returned\u00a0the empty pitcher to the abandoned stand and went on our way,\u00a0turning our attention once again to more adult topics.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

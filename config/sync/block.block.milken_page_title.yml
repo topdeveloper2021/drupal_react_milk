@@ -1,0 +1,20 @@
+uuid: 9b5f2aa5-548f-4603-be5b-faccdc91be3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - milken
+_core:
+  default_config_hash: 8yptDf6WrXxeyevUz4nP5vfr7BtxQqCBMninhV2IJ1g
+id: milken_page_title
+theme: milken
+region: content
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

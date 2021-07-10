@@ -1,0 +1,29 @@
+uuid: f6eae312-8478-4704-97f4-f9717d79a819
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_collections
+    - media.type.podcast_episode
+    - taxonomy.vocabulary.collections
+id: media.podcast_episode.field_collections
+field_name: field_collections
+entity_type: media
+bundle: podcast_episode
+label: Collections
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      collections: collections
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

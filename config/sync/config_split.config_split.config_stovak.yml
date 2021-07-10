@@ -1,0 +1,26 @@
+uuid: 2efc4fae-3154-406d-9ba9-2a244b7b01f3
+langcode: en
+status: false
+dependencies: {  }
+id: config_stovak
+label: config_stovak
+description: ''
+folder: ../config/splits/stovak
+module:
+  devel: 0
+  devel_generate: 0
+  search_api: 50
+  search_api_solr: 51
+  search_api_attachments: 52
+theme: {  }
+blacklist:
+  - devel.settings
+  - search_api.index.milken_solr
+  - search_api.server.solr_dev
+  - system.performance
+  - views.view.search
+  - devel.toolbar
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

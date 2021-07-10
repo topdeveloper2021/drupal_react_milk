@@ -1,0 +1,29 @@
+uuid: b22bd8d4-9a25-4870-abb7-c382d9dadab6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_region
+    - node.type.opportunity
+    - taxonomy.vocabulary.ph_region
+id: node.opportunity.field_region
+field_name: field_region
+entity_type: node
+bundle: opportunity
+label: Region
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ph_region: ph_region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

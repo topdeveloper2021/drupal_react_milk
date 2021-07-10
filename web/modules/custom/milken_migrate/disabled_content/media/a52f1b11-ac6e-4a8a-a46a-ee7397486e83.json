@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7857\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/12McEvmeaxRCYJb7Xynt0RDmDQCj6jYvUoumd5lKv9U.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7857
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a52f1b11-ac6e-4a8a-a46a-ee7397486e83"
+        }
+    ],
+    "vid": [
+        {
+            "value": 514
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/12McEvmeaxRCYJb7Xynt0RDmDQCj6jYvUoumd5lKv9U.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11d4158f-863b-4455-8943-808a29c641e5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "How American Business Is Shaping the Gay-Rights Debate",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T22:44:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "American business has played a key role in the recent successes of the LGBT rights movement. Early support for marriage equality from Wall Street, tech communities and the entertainment industry drove that process forward. More recently, in Arizona, Indiana and Arkansas, the mainstream business community, including companies like Walmart, played a crucial role in preventing anti-gay legislation from being enacted or successfully pressed for its modification. Now the Supreme Court is about to rule on whether gay marriage must be permitted in all 50 states, and business groups have submitted briefs in support. Why has the partnership between business and gay rights been so successful? Why have American businesses been able to have such a profound impact on public policy in this area while experiencing bigger challenges in others, like immigration, the environment and healthcare. What are the lessons that can be learned from this partnership? And is there still room for debate in the business community about LGBT issues?",
+    "format": "rich_text",
+    "processed": "American business has played a key role in the recent successes of the LGBT rights movement. Early support for marriage equality from Wall Street, tech communities and the entertainment industry drove that process forward. More recently, in Arizona, Indiana and Arkansas, the mainstream business community, including companies like Walmart, played a crucial role in preventing anti-gay legislation from being enacted or successfully pressed for its modification. Now the Supreme Court is about to rule on whether gay marriage must be permitted in all 50 states, and business groups have submitted briefs in support. Why has the partnership between business and gay rights been so successful? Why have American businesses been able to have such a profound impact on public policy in this area while experiencing bigger challenges in others, like immigration, the environment and healthcare. What are the lessons that can be learned from this partnership? And is there still room for debate in the business community about LGBT issues?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/LP-GTfgWc5g",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/12McEvmeaxRCYJb7Xynt0RDmDQCj6jYvUoumd5lKv9U.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

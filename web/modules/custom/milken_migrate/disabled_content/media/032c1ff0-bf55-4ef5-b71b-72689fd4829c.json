@@ -1,0 +1,243 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/13384\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/tcaNVBo8xnUyN2IbaMIb8-7AjAdSoRZLH3sVXXoreyk.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_term_collection": [
+            {
+                "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13384
+        }
+    ],
+    "uuid": [
+        {
+            "value": "032c1ff0-bf55-4ef5-b71b-72689fd4829c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2399
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/tcaNVBo8xnUyN2IbaMIb8-7AjAdSoRZLH3sVXXoreyk.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4f56c8f6-b31a-4c0d-a4cc-74ddb1747702"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/centers"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "178be8c7-a708-4414-a8fe-b62e084aeee6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_term_collection": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/collections"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adce34a1-89b1-4112-b0e4-2628f51abbe4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/collections"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adce34a1-89b1-4112-b0e4-2628f51abbe4"
+                    }
+                ]
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Staying on Top: Sustaining Corporate Performance",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-29T07:58:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-11T22:12:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": " Human capital and values are integral to the long-term success of businesses. Yet, there is little understanding of how companies can create a culture in which these important assets thrive. While there is no general blueprint, companies are all facing similar questions: What are the fundamental building blocks of a culture that promotes excellence and performance? How can companies ensure that corporate culture does not take a back seat to changing attitudes in their younger workforce? Are there differences to corporate culture in the age of sharing economies and technological disruption? Join our panel of global business leaders as they outline their unique framework and discuss the underlying characteristics and trends.",
+    "format": "rich_text",
+    "processed": " Human capital and values are integral to the long-term success of businesses. Yet, there is little understanding of how companies can create a culture in which these important assets thrive. While there is no general blueprint, companies are all facing similar questions: What are the fundamental building blocks of a culture that promotes excellence and performance? How can companies ensure that corporate culture does not take a back seat to changing attitudes in their younger workforce? Are there differences to corporate culture in the age of sharing economies and technological disruption? Join our panel of global business leaders as they outline their unique framework and discuss the underlying characteristics and trends.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/MGFI1QnuWsY",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/tcaNVBo8xnUyN2IbaMIb8-7AjAdSoRZLH3sVXXoreyk.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

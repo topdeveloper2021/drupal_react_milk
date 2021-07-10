@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10122\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/AzHTjwnOKXYtwY11FgtK6qmelOM18Ooud4XI6BKp1z0.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10122
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3495b8a3-2b7f-44a0-9520-79532e759749"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2078
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/AzHTjwnOKXYtwY11FgtK6qmelOM18Ooud4XI6BKp1z0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "54e11c27-ffe6-4e70-9650-b9b629231dc5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Big Tech Under the Spotlight: Privacy, Transparency, and Regulation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T17:25:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-25T16:21:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Big Tech companies, the darlings of Wall Street for so long, are facing historic headwinds and consumer distrust on Main Street, not to mention Capitol Hill and among regulators in Europe. Under ever greater scrutiny for the data they collect, how they collect it and their models for monetizing it, Big Tech is facing potentially big changes. Does such scrutiny mark an end of an era\u2014or perhaps just a chapter\u2014for the likes of Facebook, Google, Amazon, Microsoft, Apple, and their peers in Silicon Valley? How should tech-savvy but time-limited consumers think about the impacts\u2014positive or otherwise\u2014that Big Tech has on their lives?",
+    "format": "rich_text",
+    "processed": "Big Tech companies, the darlings of Wall Street for so long, are facing historic headwinds and consumer distrust on Main Street, not to mention Capitol Hill and among regulators in Europe. Under ever greater scrutiny for the data they collect, how they collect it and their models for monetizing it, Big Tech is facing potentially big changes. Does such scrutiny mark an end of an era\u2014or perhaps just a chapter\u2014for the likes of Facebook, Google, Amazon, Microsoft, Apple, and their peers in Silicon Valley? How should tech-savvy but time-limited consumers think about the impacts\u2014positive or otherwise\u2014that Big Tech has on their lives?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/I_bQi7aKRaM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/AzHTjwnOKXYtwY11FgtK6qmelOM18Ooud4XI6BKp1z0.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

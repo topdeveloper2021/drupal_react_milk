@@ -1,0 +1,29 @@
+uuid: 3312d4a1-a4de-41b4-9a74-5cad65ac1d30
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_tags
+    - taxonomy.vocabulary.milken_tags
+id: people.person.field_tags
+field_name: field_tags
+entity_type: people
+bundle: person
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

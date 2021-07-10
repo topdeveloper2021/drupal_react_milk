@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7456\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/jPYggqp-j_Bdi7-GoYjTj8_V0tr29WYhW8L2enWqRF8.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7456
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6a4836da-7b86-4f9e-8402-908e3d8c7bdf"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2018
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/jPYggqp-j_Bdi7-GoYjTj8_V0tr29WYhW8L2enWqRF8.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fc8a4277-3e91-4b6c-aead-5a8ee0e9a0ee"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Health Citizenship: The Nexus of Data, Technology and Research",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-06-23T10:04:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:45:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Because we all bear the costs of disease and reap the benefits of healthier communities, our health is both an individual and collective responsibility. Watch as our speakers discuss the new technologies, tools, and policies that are empowering people to more easily access their health records, as well as how how we can create a culture of health citizenship by taking advantage of new opportunities to improve research, prevention, and treatment.<br><br> Moderator:<br> Margaret Anderson, Executive Director, FasterCures<br><br> Speakers:<br> Stephanie Devaney, Deputy Director, All of Us Research Program, National Institutes of Health<br> Eric Friedman, Chief Technology Officer and Co-Founder, Fitbit<br> Joyce Tung, Vice President, Research, 23ndMe<br> Bernard J. Tyson, Chairman and CEO, Kaiser Permanente<br> Roni Zeiger, Co-Founder and CEO, Smart Patients",
+    "format": "rich_text",
+    "processed": "Because we all bear the costs of disease and reap the benefits of healthier communities, our health is both an individual and collective responsibility. Watch as our speakers discuss the new technologies, tools, and policies that are empowering people to more easily access their health records, as well as how how we can create a culture of health citizenship by taking advantage of new opportunities to improve research, prevention, and treatment.<br \/><br \/> Moderator:<br \/> Margaret Anderson, Executive Director, FasterCures<br \/><br \/> Speakers:<br \/> Stephanie Devaney, Deputy Director, All of Us Research Program, National Institutes of Health<br \/> Eric Friedman, Chief Technology Officer and Co-Founder, Fitbit<br \/> Joyce Tung, Vice President, Research, 23ndMe<br \/> Bernard J. Tyson, Chairman and CEO, Kaiser Permanente<br \/> Roni Zeiger, Co-Founder and CEO, Smart Patients",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/5Q2Ypzc06Dc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/jPYggqp-j_Bdi7-GoYjTj8_V0tr29WYhW8L2enWqRF8.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

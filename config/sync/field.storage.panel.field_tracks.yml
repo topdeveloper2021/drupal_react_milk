@@ -1,0 +1,19 @@
+uuid: ef4d0cde-1917-4801-9f64-6d2c48f3d987
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_tracks
+field_name: field_tracks
+entity_type: panel
+type: entity_reference
+settings:
+  target_type: grid_tracks
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

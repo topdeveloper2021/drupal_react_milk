@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/mad-indicator-shows-increasing-reliance-equity-capital-financing-among-chinese-companies?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 184
+        }
+    ],
+    "uuid": [
+        {
+            "value": "667f52c5-1f9a-490f-adf8-20ac4d68a01a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 184
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "MAD Indicator shows increasing reliance on equity capital financing among Chinese companies",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/mad-indicator-shows-increasing-reliance-equity-capital-financing-among-chinese-companies",
+            "pid": 237,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "NEW YORK\/SHANGHAI, February 1, 2007 - Xinhua Finance and Milken Institute today released updated values for the Market Adjusted Debt (MAD) Indicator for the second and third quarters of 2006, both of which dropped from the first quarter 2006 and were lower than a year prior.The quarterly-released MAD indicator focuses on China\u2032s debt capital market. It measures the capital structure of Chinese companies, using a long-term debt-to-equity ratio based on market value, instead of book value. The MAD indicator for the second quarter 2006 is 11.3, falling 10.9 percentage points from the first quarter, and 6.6 percentage points from a year prior. The indicator value for the third quarter 2006 is 15.5 percent, which is a 4.2 percentage point increase from the previous quarter and 5.5 percent point decrease from a year prior.The updated indicator charts can be found at chinaindicators.milkeninstitute.org or www.xinhuafinance.com\/en\/charts\/mad.html.\nThe indicator decrease in the second quarter 2006 was partially determined by seasonal factors. Blue chip companies such as China Unicom (A share, 600050; H share, 0762) and Baoshan Iron & Steel (A share, 600019) are among those companies that had significant changes in book value during this period. China Unicom retired approximately 5.6 billion yuan in debt from March to June 2006. In the same period, Baoshan Iron & Steel also reduced its long-term loans by 2.5 billion yuan. The domestic interest rates rises in April and August also led to a lower market value of outstanding debts.\nFurthermore, the performance of the Chinese stock market contributed significantly to an increase in companies\u2032 market value. The free-float market capitalization increased by 36 percent in the second quarter of 2006, and another seven percent in the third quarter of 2006. All these factors combined pulled down the indicator values.\nGlenn Yago, Director of Capital Studies at the Milken Institute, pointed out, \"The low mark-to-market debt to equity ratio shows that Chinese companies continue to rely on equity capital as major source of financing.\"\nThe MAD Indicator is calculated and released quarterly. The next releases of the indicator will be in March 2007.\nThe MAD Indicator is one of the eight economic indicators designed to increase transparency and data quality in China\u2032s burgeoning financial markets. The series applies the world-class index calculation methodologies of Milken Institute, one of the world\u2032s leading economic and financial research think tanks, and the extensive data resources of Xinhua Finance, China\u2032s premier financial information and media service provider. The Xinhua Finance \/ Milken Institute China Indicators are used by asset managers, underwriters, economists, and product developers in assessing China\u2032s market environment in support of investment decision-making.\nTo view additional information, visit chinaindicators.milkeninstitute.org or www.xinhuafinance.com\/indicators.\nAbout Xinhua Finance Limited\nXinhua Finance Limited is China\u2032s unchallenged leader in financial information and media, and is listed on the Mothers board of the Tokyo Stock Exchange (symbol: 9399) (OTC ADRs: XHFNY). Bridging China\u2032s financial markets and the world, Xinhua Finance serves financial institutions, corporations and re-distributors through four focused and complementary service lines: Indices, Ratings, Financial News and Investor Relations. Founded in November 1999, the Company is headquartered in Shanghai with 20 news bureaus and offices in 19 locations across Asia, Australia, North America and Europe. For more information, please visit www.xinhuafinance.com.",
+    "format": "rich_text",
+    "processed": "NEW YORK\/SHANGHAI, February 1, 2007 - Xinhua Finance and Milken Institute today released updated values for the Market Adjusted Debt (MAD) Indicator for the second and third quarters of 2006, both of which dropped from the first quarter 2006 and were lower than a year prior.The quarterly-released MAD indicator focuses on China\u2032s debt capital market. It measures the capital structure of Chinese companies, using a long-term debt-to-equity ratio based on market value, instead of book value. The MAD indicator for the second quarter 2006 is 11.3, falling 10.9 percentage points from the first quarter, and 6.6 percentage points from a year prior. The indicator value for the third quarter 2006 is 15.5 percent, which is a 4.2 percentage point increase from the previous quarter and 5.5 percent point decrease from a year prior.The updated indicator charts can be found at chinaindicators.milkeninstitute.org or www.xinhuafinance.com\/en\/charts\/mad.html.\nThe indicator decrease in the second quarter 2006 was partially determined by seasonal factors. Blue chip companies such as China Unicom (A share, 600050; H share, 0762) and Baoshan Iron &amp; Steel (A share, 600019) are among those companies that had significant changes in book value during this period. China Unicom retired approximately 5.6 billion yuan in debt from March to June 2006. In the same period, Baoshan Iron &amp; Steel also reduced its long-term loans by 2.5 billion yuan. The domestic interest rates rises in April and August also led to a lower market value of outstanding debts.\nFurthermore, the performance of the Chinese stock market contributed significantly to an increase in companies\u2032 market value. The free-float market capitalization increased by 36 percent in the second quarter of 2006, and another seven percent in the third quarter of 2006. All these factors combined pulled down the indicator values.\nGlenn Yago, Director of Capital Studies at the Milken Institute, pointed out, \"The low mark-to-market debt to equity ratio shows that Chinese companies continue to rely on equity capital as major source of financing.\"\nThe MAD Indicator is calculated and released quarterly. The next releases of the indicator will be in March 2007.\nThe MAD Indicator is one of the eight economic indicators designed to increase transparency and data quality in China\u2032s burgeoning financial markets. The series applies the world-class index calculation methodologies of Milken Institute, one of the world\u2032s leading economic and financial research think tanks, and the extensive data resources of Xinhua Finance, China\u2032s premier financial information and media service provider. The Xinhua Finance \/ Milken Institute China Indicators are used by asset managers, underwriters, economists, and product developers in assessing China\u2032s market environment in support of investment decision-making.\nTo view additional information, visit chinaindicators.milkeninstitute.org or www.xinhuafinance.com\/indicators.\nAbout Xinhua Finance Limited\nXinhua Finance Limited is China\u2032s unchallenged leader in financial information and media, and is listed on the Mothers board of the Tokyo Stock Exchange (symbol: 9399) (OTC ADRs: XHFNY). Bridging China\u2032s financial markets and the world, Xinhua Finance serves financial institutions, corporations and re-distributors through four focused and complementary service lines: Indices, Ratings, Financial News and Investor Relations. Founded in November 1999, the Company is headquartered in Shanghai with 20 news bureaus and offices in 19 locations across Asia, Australia, North America and Europe. For more information, please visit www.xinhuafinance.com.",
+    "summary": null,
+    "summary_processed": ""
+}

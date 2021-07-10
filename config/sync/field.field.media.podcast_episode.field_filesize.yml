@@ -1,0 +1,19 @@
+uuid: 924e49f9-3759-4aa2-9cc1-3b28162bba7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_filesize
+    - media.type.podcast_episode
+id: media.podcast_episode.field_filesize
+field_name: field_filesize
+entity_type: media
+bundle: podcast_episode
+label: filesize
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

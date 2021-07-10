@@ -1,0 +1,33 @@
+name: 'Media Podcast Episode'
+machine_name: media-podcast-episode
+description: 'Media Podcast Episode entry webcomponent'
+type: block
+core_version_requirement:  ^8 || ^9
+js:
+  'media-podcast-episode.entry.js': { source: 'media-podcast-episode.entry.ts' }
+cache:
+  max-age: 60
+
+
+form_configuration:
+  id:
+    type: textfield
+    title: "Id"
+  type:
+    type: textfield
+    title: "Type"
+  view_mode:
+    type: textfield
+    title: "View Mode"
+    default_value: "card"
+  url:
+    type: textfield
+    title: "Url"
+  tag:
+    type: textfield
+    title: "html tag"
+    default_value: "media-podcast-episode"
+  attach_library:
+    type: textfield
+    title: "Attach Library"
+    default_value: "podcasts/media_podcast_episode"

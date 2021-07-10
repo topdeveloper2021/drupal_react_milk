@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-holds-london-summit-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 59
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a67d61c0-0e89-4d4b-8d8d-2ccd3db3ccfd"
+        }
+    ],
+    "vid": [
+        {
+            "value": 59
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute holds London Summit",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-10-23T10:36:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-holds-london-summit-0",
+            "pid": 112,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 On October 27-28, the Milken Institute will bring together CEOs, major investors, philanthropists and other leaders from around the world for its fourth annual London Summit. Like the Institute\u2019s annual Global Conference \u2013 but on a more intimate scale \u2013 these leaders will focus on some of the world\u2019s most pressing challenges. Panel topics include: whether central banks have created an asset bubble, the pace and challenges of Africa\u2019s economic rise, and the current face-off between geoeconomics and geopolitics.\u201cWe are delighted to return to London, bringing with us the Milken Institute\u2019s unique ability to convene leaders, and extend our work addressing the core issues of access to capital, improving health, and spurring job creation,\u201d said Institute CEO and President Mike Klowden. \u201cThe range and complexity of the world\u2019s challenges is unprecedented. At the Milken Institute London Summit, we expect our speakers and participants will generate ideas that lead to solutions.\u201dHeld at Salesforce Tower, the London Summit is an invitation-only event, but is open to registered media. Press may apply at http:\/\/www.cvent.com\/events\/milken-institute-london-summit-2014\/event-summary-db02c71cca8a455aa20e2cbc6ebf0815.aspx and use code MEDIA-LS2014-MED.Speakers include:Madelyn Antoncic, Vice President and Treasurer, World BankShaukat Aziz, Former Prime Minister, Pakistan\nB. Bonin Bough, Vice President, Global Media and Consumer Engagement, Mondelez International\nWillem Buiter, CBE, Global Chief Economist, Citi\nEric Cantor, Vice Chairman and Managing Director, Moelis & Co.; Former Majority Leader, U.S. House of Representatives\nWesley Clark, Army General (ret.) and Former Supreme Allied Commander, NATO\nSir Richard Dearlove, Former Chief, British Secret Intelligence Service\nNigel Farage, Leader, UK Independence Party; Member, European Parliament\nAdena Friedman, President, Global Corporate, Information & Technology Solutions, NASDAQ\nMo Ibrahim, Chairman, Mo Ibrahim Foundation\nWendy Kopp, CEO & Co-Founder, Teach for All; Founder & Chair, Teach for America\nMichael Milken, Chairman, Milken Institute\nHelena Morrissey, CEO, Newton Investment Management\nAnne Richards, Chief Investment Officer and Executive Director, Aberdeen Asset Management PLC\nMatt Ridley, Journalist and Author; Member, House of Lords\nAlan Schwartz, Executive Chairman, Guggenheim Partners\nNirmala Sitharaman, Minister of State for Commerce and Industry and Minister of State for Finance and Corporate Affairs, India\nAlexander Yakovenko, Russian Ambassador to the United Kingdom\nComplete information about the Milken Institute London Summit, including a full program and a list of speakers confirmed to date, is available at http:\/\/www.milkeninstitute.org\/events\/conferences\/summit\/london-2014\/",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 On October 27-28, the Milken Institute will bring together CEOs, major investors, philanthropists and other leaders from around the world for its fourth annual London Summit. Like the Institute\u2019s annual Global Conference \u2013 but on a more intimate scale \u2013 these leaders will focus on some of the world\u2019s most pressing challenges. Panel topics include: whether central banks have created an asset bubble, the pace and challenges of Africa\u2019s economic rise, and the current face-off between geoeconomics and geopolitics.\u201cWe are delighted to return to London, bringing with us the Milken Institute\u2019s unique ability to convene leaders, and extend our work addressing the core issues of access to capital, improving health, and spurring job creation,\u201d said Institute CEO and President Mike Klowden. \u201cThe range and complexity of the world\u2019s challenges is unprecedented. At the Milken Institute London Summit, we expect our speakers and participants will generate ideas that lead to solutions.\u201dHeld at Salesforce Tower, the London Summit is an invitation-only event, but is open to registered media. Press may apply at http:\/\/www.cvent.com\/events\/milken-institute-london-summit-2014\/event-summary-db02c71cca8a455aa20e2cbc6ebf0815.aspx and use code MEDIA-LS2014-MED.Speakers include:Madelyn Antoncic, Vice President and Treasurer, World BankShaukat Aziz, Former Prime Minister, Pakistan\nB. Bonin Bough, Vice President, Global Media and Consumer Engagement, Mondelez International\nWillem Buiter, CBE, Global Chief Economist, Citi\nEric Cantor, Vice Chairman and Managing Director, Moelis &amp; Co.; Former Majority Leader, U.S. House of Representatives\nWesley Clark, Army General (ret.) and Former Supreme Allied Commander, NATO\nSir Richard Dearlove, Former Chief, British Secret Intelligence Service\nNigel Farage, Leader, UK Independence Party; Member, European Parliament\nAdena Friedman, President, Global Corporate, Information &amp; Technology Solutions, NASDAQ\nMo Ibrahim, Chairman, Mo Ibrahim Foundation\nWendy Kopp, CEO &amp; Co-Founder, Teach for All; Founder &amp; Chair, Teach for America\nMichael Milken, Chairman, Milken Institute\nHelena Morrissey, CEO, Newton Investment Management\nAnne Richards, Chief Investment Officer and Executive Director, Aberdeen Asset Management PLC\nMatt Ridley, Journalist and Author; Member, House of Lords\nAlan Schwartz, Executive Chairman, Guggenheim Partners\nNirmala Sitharaman, Minister of State for Commerce and Industry and Minister of State for Finance and Corporate Affairs, India\nAlexander Yakovenko, Russian Ambassador to the United Kingdom\nComplete information about the Milken Institute London Summit, including a full program and a list of speakers confirmed to date, is available at http:\/\/www.milkeninstitute.org\/events\/conferences\/summit\/london-2014\/",
+    "summary": null,
+    "summary_processed": ""
+}

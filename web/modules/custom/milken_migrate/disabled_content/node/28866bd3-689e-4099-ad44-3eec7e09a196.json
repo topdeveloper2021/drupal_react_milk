@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institutes-annual-review-us-best-performing-cities-tale-tech-and-energy-austin?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 74
+        }
+    ],
+    "uuid": [
+        {
+            "value": "28866bd3-689e-4099-ad44-3eec7e09a196"
+        }
+    ],
+    "vid": [
+        {
+            "value": 74
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute's Annual Review of U.S. Best-Performing Cities: a Tale of Tech--and Energy Austin Reclaims the Top Spot",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institutes-annual-review-us-best-performing-cities-tale-tech-and-energy-austin",
+            "pid": 127,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014 The Milken Institute's annual \"Best-Performing Cities\" index shows that technology and energy are the biggest forces behind America\u2019s booming cities.Austin, Texas, reclaimed the No.1 spot based on a booming technology sector. Similarly, the rest of the top five all enjoy thriving tech sectors: Provo, Utah (second, up from seventh last year); San Francisco (third, up from 36th); San Jose (fourth, down from first) and Salt Lake City (fifth, up from sixth).\"Some of the leading tech metros were successful despite being high-cost, high-regulation locations,\" says Ross DeVol, chief research officer of the Milken Institute and one of the report's authors. \"Cities like San Francisco, San Jose and Cambridge, Mass., have developed R&D facilities and other infrastructure so it's easier to innovate there.\"Other cities in the top tier reflect how the surging U.S. energy sector is lighting up local economies. The shale oil and gas boom thrust nine metros into the Top 25, including Houston, San Antonio and Corpus Christi in Texas, as well as Bakersfield, Calif. In North Dakota, oil production has increased by more than 400 percent from 2007 to 2012, helping place both Fargo and Bismarck in the Top 5 small cities.In contrast, the Washington, D.C., area plummeted from fifth to 45th, marking the first time since 2008 that the capital hasn't made the Top 25. \"Washington's recent hothouse growth, fueled by stimulus spending, finally started to cool in 2013,\" says DeVol.Among the report's findings:\u2022 Within the top 25 metros, the Lone Star State claimed seven spots; Colorado and California notched four each. <br> \u2022 Columbia, Mo., was the Best-Performing Small City. <br> \u2022 Biggest gainers include Hagerstown-Martinsburg, Md.-W.V. (70th, up 100 slots); Tulsa, Okla., (42nd, up from 118th), and Phoenix, (66th, up from 122nd).\"Job creation is the key measure of long-term economic vitality of America's urban areas,\" says DeVol. \"Many of our financial and social challenges can best be addressed by developing local strategies to foster high-quality jobs, and our Best-Performing Cities are showing the way.\"\"Best-Performing Cities\" shows where jobs are being created and sustained in metros across the U.S. The index includes measures of job, wage and technology performance to rank the nation's 200 large metropolitan areas and 179 smaller metros. Unlike other \"best places\" rankings, it does not use quality-of-life metrics, such as commute times or housing costs. In the Institute's index, employment growth is weighted most heavily due to its critical importance to community vitality. Wage and salary growth measures the quality of jobs created and sustained.Data for all metros is available on the interactive \"Best-Performing Cities\" website, where you may also download the report: http:\/\/best-cities.org. Join the Twitter conversation at #bpcfor2013.For more information or to interview authors Ross C. DeVol, Minoli Ratnatunga, and Armen Bedroussian, please contact:",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014 The Milken Institute's annual \"Best-Performing Cities\" index shows that technology and energy are the biggest forces behind America\u2019s booming cities.Austin, Texas, reclaimed the No.1 spot based on a booming technology sector. Similarly, the rest of the top five all enjoy thriving tech sectors: Provo, Utah (second, up from seventh last year); San Francisco (third, up from 36th); San Jose (fourth, down from first) and Salt Lake City (fifth, up from sixth).\"Some of the leading tech metros were successful despite being high-cost, high-regulation locations,\" says Ross DeVol, chief research officer of the Milken Institute and one of the report's authors. \"Cities like San Francisco, San Jose and Cambridge, Mass., have developed R&amp;D facilities and other infrastructure so it's easier to innovate there.\"Other cities in the top tier reflect how the surging U.S. energy sector is lighting up local economies. The shale oil and gas boom thrust nine metros into the Top 25, including Houston, San Antonio and Corpus Christi in Texas, as well as Bakersfield, Calif. In North Dakota, oil production has increased by more than 400 percent from 2007 to 2012, helping place both Fargo and Bismarck in the Top 5 small cities.In contrast, the Washington, D.C., area plummeted from fifth to 45th, marking the first time since 2008 that the capital hasn't made the Top 25. \"Washington's recent hothouse growth, fueled by stimulus spending, finally started to cool in 2013,\" says DeVol.Among the report's findings:\u2022 Within the top 25 metros, the Lone Star State claimed seven spots; Colorado and California notched four each. <br \/> \u2022 Columbia, Mo., was the Best-Performing Small City. <br \/> \u2022 Biggest gainers include Hagerstown-Martinsburg, Md.-W.V. (70th, up 100 slots); Tulsa, Okla., (42nd, up from 118th), and Phoenix, (66th, up from 122nd).\"Job creation is the key measure of long-term economic vitality of America's urban areas,\" says DeVol. \"Many of our financial and social challenges can best be addressed by developing local strategies to foster high-quality jobs, and our Best-Performing Cities are showing the way.\"\"Best-Performing Cities\" shows where jobs are being created and sustained in metros across the U.S. The index includes measures of job, wage and technology performance to rank the nation's 200 large metropolitan areas and 179 smaller metros. Unlike other \"best places\" rankings, it does not use quality-of-life metrics, such as commute times or housing costs. In the Institute's index, employment growth is weighted most heavily due to its critical importance to community vitality. Wage and salary growth measures the quality of jobs created and sustained.Data for all metros is available on the interactive \"Best-Performing Cities\" website, where you may also download the report: http:\/\/best-cities.org. Join the Twitter conversation at #bpcfor2013.For more information or to interview authors Ross C. DeVol, Minoli Ratnatunga, and Armen Bedroussian, please contact:",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,19 @@
+uuid: 1729e23d-9594-4964-b50c-aae8b759197c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_developmentpriority
+id: grid_speakers.speakers.field_developmentpriority
+field_name: field_developmentpriority
+entity_type: grid_speakers
+bundle: speakers
+label: developmentpriority
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

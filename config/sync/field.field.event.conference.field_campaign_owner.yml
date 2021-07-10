@@ -1,0 +1,19 @@
+uuid: 59ea4ee4-20c5-4298-ba35-a5ebf59c1722
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_campaign_owner
+id: event.conference.field_campaign_owner
+field_name: field_campaign_owner
+entity_type: event
+bundle: conference
+label: 'Campaign Owner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

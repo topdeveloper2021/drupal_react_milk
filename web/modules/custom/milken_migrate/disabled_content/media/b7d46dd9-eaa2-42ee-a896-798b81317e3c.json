@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7037\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/gz_7EzvRTeTDY4EPOBwvwcii_yl-f0NodNmB5BkXO0Q.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7037
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b7d46dd9-eaa2-42ee-a896-798b81317e3c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2173
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/gz_7EzvRTeTDY4EPOBwvwcii_yl-f0NodNmB5BkXO0Q.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dc9cfc49-69a5-4651-ac94-cd26391ad365"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "A World in Transition: What Matters For Asia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T10:48:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-25T16:41:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The world is at a crossroads, and Asia--which is increasingly at the center of global economic, financial, and political gravitas--is no exception. From demographic shifts, such as rapid population aging and an emerging middle class, to technological disruptions, including the rise of blockchain and artificial intelligence, there is a host of forces that leaders in the region must learn to navigate, should they seek to survive and flourish in today's uncertain and ever-evolving world. What matters now for Asia and its citizens, ten years after the Global Financial Crisis? How can companies and countries take advantage of the opportunities presented by rampant change and triumph in this era of disruption? ",
+    "format": "rich_text",
+    "processed": "The world is at a crossroads, and Asia--which is increasingly at the center of global economic, financial, and political gravitas--is no exception. From demographic shifts, such as rapid population aging and an emerging middle class, to technological disruptions, including the rise of blockchain and artificial intelligence, there is a host of forces that leaders in the region must learn to navigate, should they seek to survive and flourish in today's uncertain and ever-evolving world. What matters now for Asia and its citizens, ten years after the Global Financial Crisis? How can companies and countries take advantage of the opportunities presented by rampant change and triumph in this era of disruption? ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ehkVqkKwoMc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/gz_7EzvRTeTDY4EPOBwvwcii_yl-f0NodNmB5BkXO0Q.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

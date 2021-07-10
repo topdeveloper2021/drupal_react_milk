@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10177\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/y9KbZ-i0SbIqF43kc4lRAtR-QF3ssyAX80Hj-cTOEWM.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10177
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f0432f24-3079-4114-ae8c-471bed7540ea"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1906
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/y9KbZ-i0SbIqF43kc4lRAtR-QF3ssyAX80Hj-cTOEWM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ece1957f-07bf-4932-90ae-770318ed07c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Can Health Data Fuel Global Collaboration for Cures?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-03T16:38:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Data is the currency that powers all sectors of economy. Nowhere is this truer than in the area of biomedical research\u2014a key driver of economic growth and competition. The global genomics market is expected to reach $22.1 billion in 2020, the same time that China is set to sequence a billion genomes. This type of investment is unparalleled in its goal to both advance science and strategically position its future dominance in medicine. Hear from global leaders on their countries' efforts to amass health data, sequence genomes, and tap into their citizens' biology to fuel the next generation of biomedical innovation. Where are the opportunities for collaborating and sharing data for the benefit of all?",
+    "format": "rich_text",
+    "processed": "Data is the currency that powers all sectors of economy. Nowhere is this truer than in the area of biomedical research\u2014a key driver of economic growth and competition. The global genomics market is expected to reach $22.1 billion in 2020, the same time that China is set to sequence a billion genomes. This type of investment is unparalleled in its goal to both advance science and strategically position its future dominance in medicine. Hear from global leaders on their countries' efforts to amass health data, sequence genomes, and tap into their citizens' biology to fuel the next generation of biomedical innovation. Where are the opportunities for collaborating and sharing data for the benefit of all?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/kJ3s6z0-bx8",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/y9KbZ-i0SbIqF43kc4lRAtR-QF3ssyAX80Hj-cTOEWM.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

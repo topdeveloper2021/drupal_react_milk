@@ -1,0 +1,23 @@
+uuid: f31dbcec-126b-4f31-b6e7-8dc0c83dfe93
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.hero_half_height
+    - field.storage.slide.field_published
+id: slide.hero_half_height.field_published
+field_name: field_published
+entity_type: slide
+bundle: hero_half_height
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

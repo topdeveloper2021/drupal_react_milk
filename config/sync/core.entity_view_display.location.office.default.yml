@@ -1,0 +1,56 @@
+uuid: f09b05bb-23ac-4787-88de-624a73ee7c37
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.office
+    - field.field.location.office.field_address
+    - field.field.location.office.field_email
+    - field.field.location.office.field_phone
+  module:
+    - address
+    - element_class_formatter
+    - key_value_field
+id: location.office.default
+targetEntityType: location
+bundle: office
+mode: default
+content:
+  field_address:
+    weight: -4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_email:
+    weight: -3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_phone:
+    weight: -2
+    label: above
+    settings:
+      value_only: false
+    third_party_settings: {  }
+    type: key_value
+    region: content
+  title:
+    label: hidden
+    type: wrapper_class
+    weight: -5
+    region: content
+    settings:
+      link_class: ''
+      tag: h1
+      class: ''
+      link: false
+      summary: false
+      trim: 200
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

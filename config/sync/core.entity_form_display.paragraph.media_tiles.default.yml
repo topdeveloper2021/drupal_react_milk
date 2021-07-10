@@ -1,0 +1,77 @@
+uuid: 4cd8545f-30bc-40df-baad-de4a92bd36a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.media_entity_browser
+    - field.field.paragraph.media_tiles.field_background_color
+    - field.field.paragraph.media_tiles.field_media_refs
+    - field.field.paragraph.media_tiles.field_title
+    - field.field.paragraph.media_tiles.field_view_mode
+    - paragraphs.paragraphs_type.media_tiles
+  module:
+    - color_field
+    - entity_browser
+id: paragraph.media_tiles.default
+targetEntityType: paragraph
+bundle: media_tiles
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_background_color:
+    weight: 4
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+    type: color_field_widget_default
+    region: content
+  field_media_refs:
+    type: entity_browser_entity_reference
+    weight: 3
+    settings:
+      entity_browser: media_entity_browser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_view_mode:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  status:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

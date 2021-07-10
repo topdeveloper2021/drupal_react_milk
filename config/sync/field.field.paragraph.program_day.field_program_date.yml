@@ -1,0 +1,21 @@
+uuid: 47a9a9c1-80b2-457e-b6af-976145f4d51f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_program_date
+    - paragraphs.paragraphs_type.program_day
+  module:
+    - datetime
+id: paragraph.program_day.field_program_date
+field_name: field_program_date
+entity_type: paragraph
+bundle: program_day
+label: 'Program Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,29 @@
+uuid: 022ffc27-2db0-4a28-8e2a-4a3c34225770
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.office
+    - field.storage.location.field_phone
+  module:
+    - key_value_field
+id: location.office.field_phone
+field_name: field_phone
+entity_type: location
+bundle: office
+label: Phone
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    key: Voice
+    value: ''
+    description: ''
+  -
+    key: Fax
+    value: ''
+    description: ''
+default_value_callback: ''
+settings: {  }
+field_type: key_value

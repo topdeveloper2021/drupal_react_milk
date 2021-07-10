@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/nasa-climate-scientist-proposes-novel-way-breaking-political-stalemate-global-warming?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 85
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1bf4541a-11b1-48bd-b2a4-fcf585baba74"
+        }
+    ],
+    "vid": [
+        {
+            "value": 85
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "NASA climate scientist proposes a novel way of breaking the political stalemate on global warming in the latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/nasa-climate-scientist-proposes-novel-way-breaking-political-stalemate-global-warming",
+            "pid": 138,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014 Drew Shindell, a climate scientist at the Goddard Institute for Space Studies, urges policymakers to postpone the showdown on carbon emissions to focus on other potent sources of warming\u2014 such as methane, soot particles and ozone\u2014 whose containment would yield a quick, low-cost payoff.\"Once the differences between CO2 containment and containment of other climate warmers are better understood by the public, the latter should prove much easier to sell,<br>? Shindell writes in the latest Milken Institute Review.Also in this issue:Chris Brummer and Daniel Gorfine of the Milken Institute explain what you need to know about \"crowdfunding<br>?\u2014 in particular, the sort of regulation that will help to realize its promise. \"If properly implemented,<br>? they argue, \"securities crowdfunding will mark the next step in the ongoing democratization of finance. But getting from here to there will be a matter of trial-and-error, one in which the SEC must find the sweet spot between maximum flexibility and adequate investor protection.<br>?Stephan Haggard (UC San Diego) and Marcus Noland (Peterson Institute) speculate about the future of North Korea under the newest Kim. \"Given the depth of the economic problems now facing Pyongyang,<br>? they write, \"we cannot altogether eliminate the possibility of a political crisis, one triggered by divisions within the leadership but potentially extending beyond it. A German-style absorption of North Korea would cost South Korea well over $1 trillion across a decade, or the equivalent of one whole year of output. No wonder South Koreans demonstrate waning interest in unification.<br>?Tom Healey (Harvard), Carl Hess (Towers Watson Investment) and Kevin Nicholson (McKinsey & Co.) assay the mess created by unfunded public pension liabilities that may exceed $4 trillion. \"This is a situation that urgently calls out for leadership on the part of both elected officials and public employee unions,<br>? they argue. \"A handful of states and localities have already shown their mettle, reforming public pensions without leaving an enduring legacy of bitterness. We hope that others will follow.<br>?Richard Messick (a former World Bank executive) and Peter Reuter (University of Maryland) consider ways to slow the trillion-dollar torrent of illicit financial flows from developing countries ranging from drug money to the proceeds of tax dodges. \"The best hope right now is to raise the profile of the problem, publicizing who's cheating and who's doing something about it,<br>? they write. \"In the long run, the political attraction to stopping these leakages\u2014 the potential benefit from relatively modest enforcement efforts\u2014 will catalyze action.<br>?Hafez Ghanem at the Brookings Institution ponders the economic challenges facing post-revolutionary Egypt. \"Building a robust civil society will take time,<br>? he concludes. \"But one thing we can say for certain: Egypt's government needs to start showing results soon by focusing on a small number of priority objectives. Macroeconomic stabilization, along with the cultivation of entrepreneurship, should be at the top of the list.<br>?Joseph Gagnon of the Peterson Institute measures what he calls \"currency aggression<br>? and explains why it is ignored at our peril. \"Economists argue that currency manipulation shouldn't have much effect on the total numbers of unemployed in the long run,<br>? he notes. \"However, jobs don't seem to come back as quickly in the wake of economic downturns. I estimate that, in 2011, currency aggression cost Americans more than two million jobs.<br>? The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801387&cat=mir, where you can also download the app for iPhone and iPad.About the Milken Institute A nonprofit, nonpartisan think tank, the Milken Institute believes in the power of capital markets to solve urgent social and economic challenges. Its mission is to improve lives around the world by advancing innovative economic and policy solutions that create jobs, widen access to capital and enhance health.<br> www.milkeninstitute.org<br> @milkeninstitute<br> # # #",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014 Drew Shindell, a climate scientist at the Goddard Institute for Space Studies, urges policymakers to postpone the showdown on carbon emissions to focus on other potent sources of warming\u2014 such as methane, soot particles and ozone\u2014 whose containment would yield a quick, low-cost payoff.\"Once the differences between CO2 containment and containment of other climate warmers are better understood by the public, the latter should prove much easier to sell,<br \/>? Shindell writes in the latest Milken Institute Review.Also in this issue:Chris Brummer and Daniel Gorfine of the Milken Institute explain what you need to know about \"crowdfunding<br \/>?\u2014 in particular, the sort of regulation that will help to realize its promise. \"If properly implemented,<br \/>? they argue, \"securities crowdfunding will mark the next step in the ongoing democratization of finance. But getting from here to there will be a matter of trial-and-error, one in which the SEC must find the sweet spot between maximum flexibility and adequate investor protection.<br \/>?Stephan Haggard (UC San Diego) and Marcus Noland (Peterson Institute) speculate about the future of North Korea under the newest Kim. \"Given the depth of the economic problems now facing Pyongyang,<br \/>? they write, \"we cannot altogether eliminate the possibility of a political crisis, one triggered by divisions within the leadership but potentially extending beyond it. A German-style absorption of North Korea would cost South Korea well over $1 trillion across a decade, or the equivalent of one whole year of output. No wonder South Koreans demonstrate waning interest in unification.<br \/>?Tom Healey (Harvard), Carl Hess (Towers Watson Investment) and Kevin Nicholson (McKinsey &amp; Co.) assay the mess created by unfunded public pension liabilities that may exceed $4 trillion. \"This is a situation that urgently calls out for leadership on the part of both elected officials and public employee unions,<br \/>? they argue. \"A handful of states and localities have already shown their mettle, reforming public pensions without leaving an enduring legacy of bitterness. We hope that others will follow.<br \/>?Richard Messick (a former World Bank executive) and Peter Reuter (University of Maryland) consider ways to slow the trillion-dollar torrent of illicit financial flows from developing countries ranging from drug money to the proceeds of tax dodges. \"The best hope right now is to raise the profile of the problem, publicizing who's cheating and who's doing something about it,<br \/>? they write. \"In the long run, the political attraction to stopping these leakages\u2014 the potential benefit from relatively modest enforcement efforts\u2014 will catalyze action.<br \/>?Hafez Ghanem at the Brookings Institution ponders the economic challenges facing post-revolutionary Egypt. \"Building a robust civil society will take time,<br \/>? he concludes. \"But one thing we can say for certain: Egypt's government needs to start showing results soon by focusing on a small number of priority objectives. Macroeconomic stabilization, along with the cultivation of entrepreneurship, should be at the top of the list.<br \/>?Joseph Gagnon of the Peterson Institute measures what he calls \"currency aggression<br \/>? and explains why it is ignored at our peril. \"Economists argue that currency manipulation shouldn't have much effect on the total numbers of unemployed in the long run,<br \/>? he notes. \"However, jobs don't seem to come back as quickly in the wake of economic downturns. I estimate that, in 2011, currency aggression cost Americans more than two million jobs.<br \/>? The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801387&amp;cat=mir, where you can also download the app for iPhone and iPad.About the Milken Institute A nonprofit, nonpartisan think tank, the Milken Institute believes in the power of capital markets to solve urgent social and economic challenges. Its mission is to improve lives around the world by advancing innovative economic and policy solutions that create jobs, widen access to capital and enhance health.<br \/> www.milkeninstitute.org<br \/> @milkeninstitute<br \/> # # #",
+    "summary": null,
+    "summary_processed": ""
+}

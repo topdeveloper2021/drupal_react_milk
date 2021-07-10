@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/latest-milken-institute-review-harvards-claudia-goldin-argues-key-achieving-gender-pay?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 43
+        }
+    ],
+    "uuid": [
+        {
+            "value": "06663ac9-5545-454c-bb81-c62c8edf585b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 43
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In the Latest Milken Institute Review: Harvard\u2019s Claudia Goldin Argues That the Key To Achieving Gender Pay Equality is Increased Workplace Flexibility in Hours and Schedules",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-07-15T15:09:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/latest-milken-institute-review-harvards-claudia-goldin-argues-key-achieving-gender-pay",
+            "pid": 96,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 <b>Claudia Goldin<\/b>, the Henry Lee Professor of Economics at Harvard University, explains why the gender gap in pay persists in spite of decisive gains in women\u2019s skills and experience. \u201cLike many others, I think convergence is possible,\u201d she writes in <b>the new issue of the Milken Institute\u2019s quarterly journal of economic policy<\/b>. \u201cHowever, the solution does not have to involve government intervention, and it does not depend on the improvement of women\u2019s bargaining skills or heightened will to compete.\u201dAlso in this issue:<b>Tomas Philipson<\/b> of the University of Chicago and the Milken Institute proposes two new sorts of financial derivatives to manage risk and increase capital for drug development: \u201cThe first I call an FDA swap, which in many ways imitates the form and function of the credit default swaps already widely used to hedge risk in bond markets. The second I call an FDA annuity, which hedges against approval delays by paying the investors an agreed-upon sum during the life of the testing process.\u201d<b>Frank Rose<\/b>, a senior fellow at Columbia University, turns a gimlet eye on the \u201cattention economy\u201d \u2013 and, in particular, on how efforts to measure the impact of Internet content are undermining the medium. \u201cMetrics have so distorted the economics of the Internet that we find ourselves awash in information that is useless, even predatory,\u201d he writes, \u201cwhile information that actually deserves our attention often goes begging (in some cases, literally).\u201d<b>Larry Fisher<\/b>, a former business reporter for The New York Times, decides that the future of hydrogen-powered cars is (almost) now. \u201cHead-to-head,\u201d Fisher says, \u201chydrogen may prove a match for battery-powered cars. Fuel cell vehicles deliver the same instant torque, seamless power delivery and near silence that delight drivers of Teslas and Nissan Leafs alike, with the added advantage of 300 mile range and fueling that takes 5 minutes.\u201d<b>Pallavi Aiyar<\/b> a Jakarta-based journalist, and Chin Hwee Tan of Apollo Global Management argue that comparisons between India and China distract from India\u2019s more relevant match-up. \u201cA list of the most fundamental challenges confronting India today could just as well be Indonesia\u2019s,\u201d they write. \u201cBoth nations need to boost manufacturing competiveness to create the millions of jobs required to ensure their young and growing populations become a demographic dividend, rather than a Malthusian disaster. Both have governments that must attract foreign investment and fix creaky infrastructure, even as they assuage protectionist lobbies and battle entrenched corruption.\u201d<b>Thomas Healey<\/b>, a former assistant secretary of the Treasury, and Catherine Reilly, a graduate student at Harvard\u2019s Kennedy School, outline the impending global pension disaster and what could be done to save the Baby Boomers\u2019 bacon. \u201cDespite the political and economic complications of changing entrenched public pension systems,\u201d they say, \u201cextensive reforms have in fact been achieved by a small circle of progressive nations. For most countries, though, the move will be considerably more difficult. To stand any chance of survival over the long term, sponsors must step up now.\u201d<b>Marsha Vande Berg<\/b> at the Harvard Law Program on International Financial Systems reviews China\u2019s current struggle to rekindle growth without losing momentum on reform. \u201cSome way, some day (preferably soon) the economy must be rebalanced in ways that diversify output and put services in place as the lead driver,\u201d she concludes. \u201cThat will require (among other things) more sophisticated regulation of an economy that now awkwardly mixes ebullient private markets with what might be called crony socialism.\u201d<b>Alan Sanderson<\/b> of the University of Chicago and John Siegfried of Vanderbilt University expose the inequity and inefficiency of the NCAA\u2019s monopoly on college sports. \u201cAmericans inadvertently created a monster long ago when they integrated big-time spectator sports with higher education,\u201d they write. \u201cTaming the beast \u2013 forcing it to live by the rules we\u2019ve set for other commercial enterprises \u2013 will not be a walk in the park.\u201dFind the latest Milken Institute Review here: <b>http:\/\/www.milkeninstitute.org\/publications\/view\/724<\/b>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 <b>Claudia Goldin<\/b>, the Henry Lee Professor of Economics at Harvard University, explains why the gender gap in pay persists in spite of decisive gains in women\u2019s skills and experience. \u201cLike many others, I think convergence is possible,\u201d she writes in <b>the new issue of the Milken Institute\u2019s quarterly journal of economic policy<\/b>. \u201cHowever, the solution does not have to involve government intervention, and it does not depend on the improvement of women\u2019s bargaining skills or heightened will to compete.\u201dAlso in this issue:<b>Tomas Philipson<\/b> of the University of Chicago and the Milken Institute proposes two new sorts of financial derivatives to manage risk and increase capital for drug development: \u201cThe first I call an FDA swap, which in many ways imitates the form and function of the credit default swaps already widely used to hedge risk in bond markets. The second I call an FDA annuity, which hedges against approval delays by paying the investors an agreed-upon sum during the life of the testing process.\u201d<b>Frank Rose<\/b>, a senior fellow at Columbia University, turns a gimlet eye on the \u201cattention economy\u201d \u2013 and, in particular, on how efforts to measure the impact of Internet content are undermining the medium. \u201cMetrics have so distorted the economics of the Internet that we find ourselves awash in information that is useless, even predatory,\u201d he writes, \u201cwhile information that actually deserves our attention often goes begging (in some cases, literally).\u201d<b>Larry Fisher<\/b>, a former business reporter for The New York Times, decides that the future of hydrogen-powered cars is (almost) now. \u201cHead-to-head,\u201d Fisher says, \u201chydrogen may prove a match for battery-powered cars. Fuel cell vehicles deliver the same instant torque, seamless power delivery and near silence that delight drivers of Teslas and Nissan Leafs alike, with the added advantage of 300 mile range and fueling that takes 5 minutes.\u201d<b>Pallavi Aiyar<\/b> a Jakarta-based journalist, and Chin Hwee Tan of Apollo Global Management argue that comparisons between India and China distract from India\u2019s more relevant match-up. \u201cA list of the most fundamental challenges confronting India today could just as well be Indonesia\u2019s,\u201d they write. \u201cBoth nations need to boost manufacturing competiveness to create the millions of jobs required to ensure their young and growing populations become a demographic dividend, rather than a Malthusian disaster. Both have governments that must attract foreign investment and fix creaky infrastructure, even as they assuage protectionist lobbies and battle entrenched corruption.\u201d<b>Thomas Healey<\/b>, a former assistant secretary of the Treasury, and Catherine Reilly, a graduate student at Harvard\u2019s Kennedy School, outline the impending global pension disaster and what could be done to save the Baby Boomers\u2019 bacon. \u201cDespite the political and economic complications of changing entrenched public pension systems,\u201d they say, \u201cextensive reforms have in fact been achieved by a small circle of progressive nations. For most countries, though, the move will be considerably more difficult. To stand any chance of survival over the long term, sponsors must step up now.\u201d<b>Marsha Vande Berg<\/b> at the Harvard Law Program on International Financial Systems reviews China\u2019s current struggle to rekindle growth without losing momentum on reform. \u201cSome way, some day (preferably soon) the economy must be rebalanced in ways that diversify output and put services in place as the lead driver,\u201d she concludes. \u201cThat will require (among other things) more sophisticated regulation of an economy that now awkwardly mixes ebullient private markets with what might be called crony socialism.\u201d<b>Alan Sanderson<\/b> of the University of Chicago and John Siegfried of Vanderbilt University expose the inequity and inefficiency of the NCAA\u2019s monopoly on college sports. \u201cAmericans inadvertently created a monster long ago when they integrated big-time spectator sports with higher education,\u201d they write. \u201cTaming the beast \u2013 forcing it to live by the rules we\u2019ve set for other commercial enterprises \u2013 will not be a walk in the park.\u201dFind the latest Milken Institute Review here: <b>http:\/\/www.milkeninstitute.org\/publications\/view\/724<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

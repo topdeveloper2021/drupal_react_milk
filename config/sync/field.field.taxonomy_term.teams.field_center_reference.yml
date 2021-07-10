@@ -1,0 +1,29 @@
+uuid: 4eb3115c-8e96-4ed7-a099-b3e8eae0077f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_center_reference
+    - taxonomy.vocabulary.centers
+    - taxonomy.vocabulary.teams
+id: taxonomy_term.teams.field_center_reference
+field_name: field_center_reference
+entity_type: taxonomy_term
+bundle: teams
+label: 'Center Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

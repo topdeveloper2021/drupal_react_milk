@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/intervention-china-style?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/157?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 785
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a085e50b-26fc-4338-b814-0868082e0c1b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 785
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/157?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "44952771-a61c-4ed0-8c0d-42c614571200"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Intervention China-style",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T20:58:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:37:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/intervention-china-style",
+            "pid": 838,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "China\u2019s dramatic devaluation of the yuan this week has large parts of Asia worried about the prospects of a currency war, even as attention had begun to turn to the 70th anniversary of the end of World War II. Some in Beijing may well have wanted the attention this month to focus on Japan\u2019s wartime atrocities, but most people are concentrating on China\u2019s contemporary moves, from the South China Sea to foreign exchange markets. The devaluation on Tuesday sent the Chinese yuan, also known as the renminbi, to its weakest level since April 2013. The move could potentially aid Chinese exporters as currencies from the Thai baht to the Korean won tumbled across the region. Central banks in other Asian countries may well come under pressure to lower the value of their currencies to help domestic companies\u2019 products remain competitive with lower-priced Chinese goods.<br \/> <br \/> The move by the Chinese central bank followed disappointing trade data and the International Monetary Fund delaying a decision as to whether the yuan would be added to a so-called Special Drawing Rights basket of currencies, which is currently composed of dollars, euros, pounds and yen.\u00a0<br \/> <br \/> One economic reality is increasingly clear: The Chinese economy is sputtering, perhaps more than the official numbers show, and Beijing is struggling to find some solutions.\u00a0<br \/> <br \/> \u201cHow low can China go?\u201d is the only latest question being raised about China\u2019s commitment to a 2013 pledge to \u201cgive a decisive role to markets\u201d in its economy. Talk persists about a possible Chinese stimulus program and \u201cquantitative easing with Chinese characteristics\u201d to spur the nation\u2019s slowing - but still growing - economy. Such questions are understandable as Beijing struggles with its ongoing interventions in its equity markets.\u00a0<br \/> <br \/> A month after Chinese stocks lost trillions of dollars in value and stock prices plummeted to lows not seen since the global financial meltdown of 2008, tremendous volatility remains a core theme for today\u2019s China\u2019s.<br \/> <br \/> What is clear is that no matter how much the Chinese government is willing to spend and how much the government intervenes to devalue its currency or to order brokerages to do its bidding, more state fiddling and less will power for reform are not long-term solutions to China\u2019s woes.<br \/> <br \/> Direct and indirect government involvement to help shore up stock prices (and placate small Chinese investors who dominate the market) have included stopping some shares from trading, the suspension of new initial public offerings (IPOs), financial support for brokerages and the establishment of a market-stabilization fund to help inject funds into the market. To further reduce volatility, China recently prohibited same day margin lending and banned some accounts under the control of U.S. hedge fund Citadel and even China\u2019s state-owned Citic Securities from trading for three months.<br \/> <br \/> Even in a command economy with trillions of dollars in reserves, it would be a mistake for China\u2019s leadership to think the central government\u2019s ability to command domestic behavior can replace the fundamental need for changes and continued reform.\u00a0<br \/> <br \/> What can Beijing do to win back confidence in its economy? Even with excessive bureaucracy, poorly conceived or enforced regulations, increased interventionism and persistent corruption taking their toll, here are two broad steps that China should take.<br \/> <br \/> First, Beijing must recommit to the opening of its financial markets and to a deepening of capital market reforms. This is in line with the 2013 pledge to give a decisive role to markets, and is also in line with President Xi Jinping\u2019s \u201cChinese Dream\u201d and goal of a \u201cmoderately well off society\u201d by 2020.<br \/> <br \/> Last year, China\u2019s State Council announced it would move forward on a number of financial reforms. These included making progress toward direct bond issuances by local governments, removing some of the limits on the use of financial derivatives, and streamlining the approval process for IPOs as well as increasing quotas for both inward and outward foreign investment.\u00a0<br \/> <br \/> Some progress has already been made including the introduction last November of the Shanghai-Hong Kong Stock Connect. While subject to quotas, this link between the Shanghai Stock Exchange and the Hong Kong Stock Exchange has increased two-way market access and should be built upon.<br \/> <br \/> Second, China must allow more of its businesses and entrepreneurs to succeed or fail on their own. With every market intervention, investors may be left wondering whether any business will ultimately succeed based on its fundamental merits vs. government involvement, including the ability of the central bank to intervene forcefully in currency markets.<br \/> <br \/> Already, it is clear that the nation\u2019s stock markets are reliant on official support, and shareholders eager to sell are being prevented from doing so. With a lack of transparency continuing about the level and duration of government support measures, volatility persists along with uncertainty.\u00a0<br \/> <br \/> While the recent focus has been on the nation\u2019s equity markets, China\u2019s credit markets also need to be allowed to continue to mature. This includes permitting Chinese companies, including state-owned enterprises, to default on corporate bond payments.<br \/> <br \/> As with the United States\u2019 own bailouts and market interventions during the global financial meltdown, decisions made in the heat of the moment will be debated and second-guessed down the road. This will be true for China.<br \/> <br \/> That is no reason though for China to avoid concentrating on broader economic reforms that other countries in the Asia-Pacific region have slowly come to embrace. These include continuing to take steps to build an enabling environment for the private sector marked by strengthened rule of law, greater transparency and accountability, and the best practices in corporate governance. Such a commitment would in the long run be to the benefit of all of China\u2019s listed companies and can help drive long-time growth and job creation.<br \/> <br \/> China certainly has the power to intervene in its own markets. The nation also has the ability to go lower, further devaluing its own currency - to the detriment of many of its Asian neighbors. More important, however, will be the will power to refrain from such interventionism in favor of pursuing the fundamental changes and continued reform that will help ensure more sustainable growth and greater comfort on the part of the rest of the world with China\u2019s long-term economic rise.\u00a0<br \/> <br \/> As Asia marks the 70th anniversary of the end of World War II, it is unfortunate that talk has now turned to what may well be the first salvo in a currency war.\u00a0<br \/> <i>This article first appeared in the\u00a0Korea Joongang Daily.<\/i>",
+    "format": "rich_text",
+    "processed": "China\u2019s dramatic devaluation of the yuan this week has large parts of Asia worried about the prospects of a currency war, even as attention had begun to turn to the 70th anniversary of the end of World War II. Some in Beijing may well have wanted the attention this month to focus on Japan\u2019s wartime atrocities, but most people are concentrating on China\u2019s contemporary moves, from the South China Sea to foreign exchange markets. The devaluation on Tuesday sent the Chinese yuan, also known as the renminbi, to its weakest level since April 2013. The move could potentially aid Chinese exporters as currencies from the Thai baht to the Korean won tumbled across the region. Central banks in other Asian countries may well come under pressure to lower the value of their currencies to help domestic companies\u2019 products remain competitive with lower-priced Chinese goods.<br \/><br \/> The move by the Chinese central bank followed disappointing trade data and the International Monetary Fund delaying a decision as to whether the yuan would be added to a so-called Special Drawing Rights basket of currencies, which is currently composed of dollars, euros, pounds and yen.\u00a0<br \/><br \/> One economic reality is increasingly clear: The Chinese economy is sputtering, perhaps more than the official numbers show, and Beijing is struggling to find some solutions.\u00a0<br \/><br \/> \u201cHow low can China go?\u201d is the only latest question being raised about China\u2019s commitment to a 2013 pledge to \u201cgive a decisive role to markets\u201d in its economy. Talk persists about a possible Chinese stimulus program and \u201cquantitative easing with Chinese characteristics\u201d to spur the nation\u2019s slowing - but still growing - economy. Such questions are understandable as Beijing struggles with its ongoing interventions in its equity markets.\u00a0<br \/><br \/> A month after Chinese stocks lost trillions of dollars in value and stock prices plummeted to lows not seen since the global financial meltdown of 2008, tremendous volatility remains a core theme for today\u2019s China\u2019s.<br \/><br \/> What is clear is that no matter how much the Chinese government is willing to spend and how much the government intervenes to devalue its currency or to order brokerages to do its bidding, more state fiddling and less will power for reform are not long-term solutions to China\u2019s woes.<br \/><br \/> Direct and indirect government involvement to help shore up stock prices (and placate small Chinese investors who dominate the market) have included stopping some shares from trading, the suspension of new initial public offerings (IPOs), financial support for brokerages and the establishment of a market-stabilization fund to help inject funds into the market. To further reduce volatility, China recently prohibited same day margin lending and banned some accounts under the control of U.S. hedge fund Citadel and even China\u2019s state-owned Citic Securities from trading for three months.<br \/><br \/> Even in a command economy with trillions of dollars in reserves, it would be a mistake for China\u2019s leadership to think the central government\u2019s ability to command domestic behavior can replace the fundamental need for changes and continued reform.\u00a0<br \/><br \/> What can Beijing do to win back confidence in its economy? Even with excessive bureaucracy, poorly conceived or enforced regulations, increased interventionism and persistent corruption taking their toll, here are two broad steps that China should take.<br \/><br \/> First, Beijing must recommit to the opening of its financial markets and to a deepening of capital market reforms. This is in line with the 2013 pledge to give a decisive role to markets, and is also in line with President Xi Jinping\u2019s \u201cChinese Dream\u201d and goal of a \u201cmoderately well off society\u201d by 2020.<br \/><br \/> Last year, China\u2019s State Council announced it would move forward on a number of financial reforms. These included making progress toward direct bond issuances by local governments, removing some of the limits on the use of financial derivatives, and streamlining the approval process for IPOs as well as increasing quotas for both inward and outward foreign investment.\u00a0<br \/><br \/> Some progress has already been made including the introduction last November of the Shanghai-Hong Kong Stock Connect. While subject to quotas, this link between the Shanghai Stock Exchange and the Hong Kong Stock Exchange has increased two-way market access and should be built upon.<br \/><br \/> Second, China must allow more of its businesses and entrepreneurs to succeed or fail on their own. With every market intervention, investors may be left wondering whether any business will ultimately succeed based on its fundamental merits vs. government involvement, including the ability of the central bank to intervene forcefully in currency markets.<br \/><br \/> Already, it is clear that the nation\u2019s stock markets are reliant on official support, and shareholders eager to sell are being prevented from doing so. With a lack of transparency continuing about the level and duration of government support measures, volatility persists along with uncertainty.\u00a0<br \/><br \/> While the recent focus has been on the nation\u2019s equity markets, China\u2019s credit markets also need to be allowed to continue to mature. This includes permitting Chinese companies, including state-owned enterprises, to default on corporate bond payments.<br \/><br \/> As with the United States\u2019 own bailouts and market interventions during the global financial meltdown, decisions made in the heat of the moment will be debated and second-guessed down the road. This will be true for China.<br \/><br \/> That is no reason though for China to avoid concentrating on broader economic reforms that other countries in the Asia-Pacific region have slowly come to embrace. These include continuing to take steps to build an enabling environment for the private sector marked by strengthened rule of law, greater transparency and accountability, and the best practices in corporate governance. Such a commitment would in the long run be to the benefit of all of China\u2019s listed companies and can help drive long-time growth and job creation.<br \/><br \/> China certainly has the power to intervene in its own markets. The nation also has the ability to go lower, further devaluing its own currency - to the detriment of many of its Asian neighbors. More important, however, will be the will power to refrain from such interventionism in favor of pursuing the fundamental changes and continued reform that will help ensure more sustainable growth and greater comfort on the part of the rest of the world with China\u2019s long-term economic rise.\u00a0<br \/><br \/> As Asia marks the 70th anniversary of the end of World War II, it is unfortunate that talk has now turned to what may well be the first salvo in a currency war.\u00a0<br \/><i>This article first appeared in the\u00a0Korea Joongang Daily.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,285 @@
+uuid: ad50e45a-2678-4011-bd1c-ecc704c6d1f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+    - media
+    - node
+    - eck
+    - search_api
+  config:
+    - field.storage.media.field_body
+    - field.storage.media.field_subheader
+    - field.storage.node.field_body
+    - field.storage.node.field_department
+    - field.storage.node.field_location
+    - field.storage.node.field_centers_general
+    - field.storage.node.field_topics
+    - field.storage.slide.field_subtitle
+    - search_api.server.solr_dev
+third_party_settings:
+  search_api_solr:
+    finalize: false
+    commit_before_finalize: false
+    commit_after_finalize: false
+    multilingual:
+      limit_to_content_language: false
+      include_language_independent: true
+    highlighter:
+      maxAnalyzedChars: 51200
+      fragmenter: gap
+      regex:
+        slop: 0.5
+        pattern: blank
+        maxAnalyzedChars: 10000
+      usePhraseHighlighter: true
+      highlightMultiTerm: true
+      preserveMulti: false
+      highlight:
+        mergeContiguous: false
+        requireFieldMatch: false
+        snippets: 3
+        fragsize: 0
+    mlt:
+      mintf: 1
+      mindf: 1
+      maxdf: 0
+      maxdfpct: 0
+      minwl: 0
+      maxwl: 0
+      maxqt: 100
+      maxntp: 2000
+      boost: false
+      interestingTerms: none
+    advanced:
+      index_prefix: ''
+      collection: ''
+      timezone: ''
+id: milken_solr
+name: 'milken Site Data'
+description: ''
+read_only: false
+field_settings:
+  created:
+    label: 'Authored on'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - node
+  field_body:
+    label: body
+    datasource_id: 'entity:media'
+    property_path: field_body
+    type: text
+    dependencies:
+      config:
+        - field.storage.media.field_body
+  field_body_1:
+    label: body
+    datasource_id: 'entity:node'
+    property_path: field_body
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_body
+  field_centers_general:
+    label: 'Tag: Center'
+    datasource_id: 'entity:node'
+    property_path: field_centers_general
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_centers_general
+  field_department:
+    label: Department
+    datasource_id: 'entity:node'
+    property_path: field_department
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_department
+  field_location:
+    label: Location
+    datasource_id: 'entity:node'
+    property_path: field_location
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_location
+  field_subheader:
+    label: Subheader
+    datasource_id: 'entity:media'
+    property_path: field_subheader
+    type: text
+    dependencies:
+      config:
+        - field.storage.media.field_subheader
+  field_subtitle:
+    label: Subtitle
+    datasource_id: 'entity:slide'
+    property_path: field_subtitle
+    type: text
+    dependencies:
+      config:
+        - field.storage.slide.field_subtitle
+  field_topics:
+    label: Topics
+    datasource_id: 'entity:node'
+    property_path: field_topics
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_topics
+  mid:
+    label: ID
+    datasource_id: 'entity:media'
+    property_path: mid
+    type: integer
+    dependencies:
+      module:
+        - media
+  name:
+    label: Name
+    datasource_id: 'entity:media'
+    property_path: name
+    type: text
+    dependencies:
+      module:
+        - media
+  nid:
+    label: ID
+    datasource_id: 'entity:node'
+    property_path: nid
+    type: integer
+    dependencies:
+      module:
+        - node
+  title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    boost: !!float 5
+    dependencies:
+      module:
+        - node
+  title_1:
+    label: Title
+    datasource_id: 'entity:slide'
+    property_path: title
+    type: text
+    dependencies:
+      module:
+        - eck
+  type:
+    label: 'Content type'
+    datasource_id: 'entity:node'
+    property_path: type
+    type: string
+    dependencies:
+      module:
+        - node
+  url:
+    label: URI
+    property_path: search_api_url
+    type: string
+  uuid:
+    label: UUID
+    datasource_id: 'entity:media'
+    property_path: uuid
+    type: string
+    dependencies:
+      module:
+        - media
+  uuid_1:
+    label: UUID
+    datasource_id: 'entity:node'
+    property_path: uuid
+    type: string
+    dependencies:
+      module:
+        - node
+  uuid_2:
+    label: UUID
+    datasource_id: 'entity:slide'
+    property_path: uuid
+    type: string
+    dependencies:
+      module:
+        - eck
+datasource_settings:
+  'entity:media':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:slide':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  highlight:
+    highlight: always
+    highlight_partial: false
+    excerpt: true
+    excerpt_length: 256
+    exclude_fields: {  }
+    prefix: '<strong>'
+    suffix: '</strong>'
+    weights:
+      postprocess_query: 0
+  html_filter:
+    all_fields: false
+    fields:
+      - title
+      - type
+    title: true
+    alt: true
+    tags:
+      b: 2
+      em: 1
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+      u: 1
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+  language_with_fallback: {  }
+  rendered_item: {  }
+  solr_date_range:
+    weights:
+      preprocess_index: 0
+  type_boost:
+    boosts:
+      'entity:node':
+        datasource_boost: !!float 1
+      'entity:slide':
+        datasource_boost: !!float 1
+    weights:
+      preprocess_index: 0
+tracker_settings:
+  default:
+    indexing_order: lifo
+options:
+  index_directly: false
+  cron_limit: 50
+server: solr_dev

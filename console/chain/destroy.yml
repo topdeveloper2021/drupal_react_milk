@@ -1,0 +1,13 @@
+command:
+  name: site:milken:destroy
+  description: 'destroy site so as to rebuild'
+commands:
+  - command: database:drop
+
+  - command: exec
+    arguments:
+      bin: chmod -R 777 sites/default
+    options:
+      working-directory: "/var/www/html"
+
+  - command: site:milken:destroydir

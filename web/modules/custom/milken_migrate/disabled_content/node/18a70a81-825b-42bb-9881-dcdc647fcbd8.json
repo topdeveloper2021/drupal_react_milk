@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/seven-florida-metros-among-top-20-milken-institutes-2004-best-performing-cities-index?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 213
+        }
+    ],
+    "uuid": [
+        {
+            "value": "18a70a81-825b-42bb-9881-dcdc647fcbd8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 213
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Seven Florida Metros Among Top 20 on Milken Institute's 2004 'Best Performing Cities' Index",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/seven-florida-metros-among-top-20-milken-institutes-2004-best-performing-cities-index",
+            "pid": 266,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Want to know why President Bush won Florida? Political pundits might want to look at the Milken Institute\u2032s 2004 Best Performing Cities Index. Led by the Fort Myers-Cape Coral metro area, a burgeoning retirement and tourist destination on the state\u2032s southwest coast, Florida landed seven metros in the top 20 on this year\u2032s ranking, including five in the top 10. The others are West Palm Beach-Boca Raton (4th), Daytona Beach (5th), Sarasota-Bradenton (6th), Fort Lauderdale (9th), Tampa-St. Petersburg-Clearwater (12th) and Naples (15th). Their strong showing on the Institute\u2032s annual survey of where America\u2032s jobs are being created shows that Florida\u2032s economy has been creating new jobs at a brisk pace, the result of a rebounding U.S. economy, the return of tourists, low housing costs and a growing elderly population that has fueled job growth in health care and other services. \"Florida has witnessed solid economic growth in recent years,\" said Ross DeVol, Director of Regional Economics and the study\u2032s main author. \"State leaders should rightly feel a sense of pride amid the recent natural disasters it\u2032s suffered.\" Other metros also benefited from these trends, including Las Vegas (2nd), Riverside-San Bernardino, Calif. (8th) and Boise, Idaho (13th). Another trend that benefited some cities is the increase in defense spending since 9\/11. Metros with significant defense industries and military bases that did well on the ranking include Phoenix-Mesa, Ariz., Portland, Maine (14th) and Tucson (17th). The top 10 (with 2003 ranking in parentheses): 1. Fort Myers-Cape Coral, FL (3) <br>\n2. Las Vegas, NV (2)<br>\n3. Phoenix-Mesa, AZ (43)<br>\n4. West Palm Beach-Boca Raton, FL (4)<br>\n5. Daytona Beach, FL (116)<br>\n6. Sarasota-Bradenton, FL (41)<br>\n7. Fayetteville-Springdale-Rogers, Ark. (1)<br>\n8. Riverside-San Bernardino, CA (20)<br>\n9. Fort Lauderdale, FL (29)<br>\n10. Monmouth-Ocean, NJ (10) Fayetteville-Springdale-Rogers, Ark., number one last year, fell to number seven this year. The index ranks U.S. metros based on their ability to create and sustain jobs. It includes both long-term (five years) and short-term (one year) measurements of employment and salary growth. There are also four measurements of technology output growth, which are included because of tech\u2032s crucial role in regional economic growth. In past years, technology-oriented metros dominated the top of the ranking. Last year, however, after the decline of America\u2032s high-tech sector, the top-ranked cities were those with low costs, growing populations, and reliable and stable sectors such as health care and government. This year\u2032s ranking reflects some of that, but it also shows the rebound of the U.S. economy. A common attribute among this year\u2032s top-ranked metros is a growing services sector, such as tourism, health care and home construction. This can be attributed, in part, to growing populations, low housing costs and an increase in well-to-do elderly residents. Fort Myers-Cape Coral, which moved up from 3rd last year to 1st this year, is a good example of that. Thanks to a population growth of 16 percent from 2000 to 2003, it recorded job growth of 20.2 percent in the most recent five-year period (1999-2003). More than 25 percent of its residents are 65 or over, which has led to strong job gains in health care and professional and business services. The Institute also ranks the 118 smallest metros on a separate list. The top five are: 1) Missoula, Mont., 2) Las Cruces, N.M., 3) Santa Fe, N.M., 4) Dover, Del., and 5) Casper, Wyo. Of the top 10 most-populous U.S. metros, Washington (which includes parts of D.C., Maryland, Virginia and West Virginia) scored highest, placing 11th on this year\u2032s Index, followed by Atlanta (72nd), Philadelphia (84th), Houston (104th) and Dallas (114th). Those metros on the 200 list that climbed the most positions this year are Daytona Beach (116th to 5th, a rise of 111 spots), Honolulu (169th to 63rd - 106 spots) and Spokane, Wash. (157th to 55th - 102 spots). Those that dropped the most in the survey are Tulsa, Okla. (73rd to 189th - down 116 spots), Brazoria, Texas (56th to 162nd - 106 spots) and Albany-Schenectady-Troy, N.Y. (37th to 131st - 94 spots). The Best Performing Cities Index measures actual performance versus future indicators of performance or subjective quality-of-life issues that some rankings include. The Institute used the most current data available in all measurement categories, primarily from the federal government. View the rankings.<br>\nView the report.",
+    "format": "rich_text",
+    "processed": "Want to know why President Bush won Florida? Political pundits might want to look at the Milken Institute\u2032s 2004 Best Performing Cities Index. Led by the Fort Myers-Cape Coral metro area, a burgeoning retirement and tourist destination on the state\u2032s southwest coast, Florida landed seven metros in the top 20 on this year\u2032s ranking, including five in the top 10. The others are West Palm Beach-Boca Raton (4th), Daytona Beach (5th), Sarasota-Bradenton (6th), Fort Lauderdale (9th), Tampa-St. Petersburg-Clearwater (12th) and Naples (15th). Their strong showing on the Institute\u2032s annual survey of where America\u2032s jobs are being created shows that Florida\u2032s economy has been creating new jobs at a brisk pace, the result of a rebounding U.S. economy, the return of tourists, low housing costs and a growing elderly population that has fueled job growth in health care and other services. \"Florida has witnessed solid economic growth in recent years,\" said Ross DeVol, Director of Regional Economics and the study\u2032s main author. \"State leaders should rightly feel a sense of pride amid the recent natural disasters it\u2032s suffered.\" Other metros also benefited from these trends, including Las Vegas (2nd), Riverside-San Bernardino, Calif. (8th) and Boise, Idaho (13th). Another trend that benefited some cities is the increase in defense spending since 9\/11. Metros with significant defense industries and military bases that did well on the ranking include Phoenix-Mesa, Ariz., Portland, Maine (14th) and Tucson (17th). The top 10 (with 2003 ranking in parentheses): 1. Fort Myers-Cape Coral, FL (3) <br \/>\n2. Las Vegas, NV (2)<br \/>\n3. Phoenix-Mesa, AZ (43)<br \/>\n4. West Palm Beach-Boca Raton, FL (4)<br \/>\n5. Daytona Beach, FL (116)<br \/>\n6. Sarasota-Bradenton, FL (41)<br \/>\n7. Fayetteville-Springdale-Rogers, Ark. (1)<br \/>\n8. Riverside-San Bernardino, CA (20)<br \/>\n9. Fort Lauderdale, FL (29)<br \/>\n10. Monmouth-Ocean, NJ (10) Fayetteville-Springdale-Rogers, Ark., number one last year, fell to number seven this year. The index ranks U.S. metros based on their ability to create and sustain jobs. It includes both long-term (five years) and short-term (one year) measurements of employment and salary growth. There are also four measurements of technology output growth, which are included because of tech\u2032s crucial role in regional economic growth. In past years, technology-oriented metros dominated the top of the ranking. Last year, however, after the decline of America\u2032s high-tech sector, the top-ranked cities were those with low costs, growing populations, and reliable and stable sectors such as health care and government. This year\u2032s ranking reflects some of that, but it also shows the rebound of the U.S. economy. A common attribute among this year\u2032s top-ranked metros is a growing services sector, such as tourism, health care and home construction. This can be attributed, in part, to growing populations, low housing costs and an increase in well-to-do elderly residents. Fort Myers-Cape Coral, which moved up from 3rd last year to 1st this year, is a good example of that. Thanks to a population growth of 16 percent from 2000 to 2003, it recorded job growth of 20.2 percent in the most recent five-year period (1999-2003). More than 25 percent of its residents are 65 or over, which has led to strong job gains in health care and professional and business services. The Institute also ranks the 118 smallest metros on a separate list. The top five are: 1) Missoula, Mont., 2) Las Cruces, N.M., 3) Santa Fe, N.M., 4) Dover, Del., and 5) Casper, Wyo. Of the top 10 most-populous U.S. metros, Washington (which includes parts of D.C., Maryland, Virginia and West Virginia) scored highest, placing 11th on this year\u2032s Index, followed by Atlanta (72nd), Philadelphia (84th), Houston (104th) and Dallas (114th). Those metros on the 200 list that climbed the most positions this year are Daytona Beach (116th to 5th, a rise of 111 spots), Honolulu (169th to 63rd - 106 spots) and Spokane, Wash. (157th to 55th - 102 spots). Those that dropped the most in the survey are Tulsa, Okla. (73rd to 189th - down 116 spots), Brazoria, Texas (56th to 162nd - 106 spots) and Albany-Schenectady-Troy, N.Y. (37th to 131st - 94 spots). The Best Performing Cities Index measures actual performance versus future indicators of performance or subjective quality-of-life issues that some rankings include. The Institute used the most current data available in all measurement categories, primarily from the federal government. View the rankings.<br \/>\nView the report.",
+    "summary": null,
+    "summary_processed": ""
+}

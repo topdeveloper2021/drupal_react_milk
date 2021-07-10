@@ -1,0 +1,92 @@
+uuid: 07a8e880-445f-497f-b64a-64237e1e2b71
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.ph_terms.field_content
+    - field.field.taxonomy_term.ph_terms.field_icon
+    - field.field.taxonomy_term.ph_terms.field_tag_color
+    - field.field.taxonomy_term.ph_terms.field_visibility
+    - image.style.thumbnail
+    - taxonomy.vocabulary.ph_terms
+  module:
+    - color_field
+    - entity_reference_revisions
+    - image
+    - path
+    - text
+id: taxonomy_term.ph_terms.default
+targetEntityType: taxonomy_term
+bundle: ph_terms
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_content:
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_autocomplete
+    region: content
+  field_icon:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_tag_color:
+    weight: 4
+    settings:
+      placeholder_color: ''
+      placeholder_opacity: ''
+    third_party_settings: {  }
+    type: color_field_widget_default
+    region: content
+  field_visibility:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  langcode:
+    type: language_select
+    weight: 6
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+hidden: {  }

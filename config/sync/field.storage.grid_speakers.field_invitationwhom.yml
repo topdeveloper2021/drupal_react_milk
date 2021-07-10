@@ -1,0 +1,21 @@
+uuid: 3cdd5d3d-17aa-4796-89e6-483d51408159
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_invitationwhom
+field_name: field_invitationwhom
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

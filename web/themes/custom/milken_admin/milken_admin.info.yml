@@ -1,0 +1,29 @@
+name: Milken Admin
+type: theme
+description: 'Admin theme for milken site'
+package: Other
+core_version_requirement: ^8 || ^9
+libraries:
+  - milken_admin/global-styling
+
+base theme: gin
+
+
+# Regions
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+  sticky: "Sticky"
+
+libraries-override:
+  core/drupal.dropbutton:
+    css:
+      component:
+        /core/themes/stable/css/core/dropbutton/dropbutton.css: /core/themes/claro/css/components/dropbutton.css

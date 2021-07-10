@@ -1,0 +1,29 @@
+uuid: 0f566c62-bffd-4167-b52f-34e453fd76b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_centers
+    - media.type.podcast_episode
+    - taxonomy.vocabulary.centers
+id: media.podcast_episode.field_centers
+field_name: field_centers
+entity_type: media
+bundle: podcast_episode
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

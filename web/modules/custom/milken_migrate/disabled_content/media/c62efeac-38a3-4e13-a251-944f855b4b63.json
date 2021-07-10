@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7767\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/NdzavRj8LgkZgh7I3-UykSC0IGwLIfYThTGeP9Iv6lg.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7767
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c62efeac-38a3-4e13-a251-944f855b4b63"
+        }
+    ],
+    "vid": [
+        {
+            "value": 441
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/NdzavRj8LgkZgh7I3-UykSC0IGwLIfYThTGeP9Iv6lg.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "79d29080-2a4a-4890-8483-2cede9672f29"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Peak Oil and Green Energy: Both Fossils?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-28T00:33:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "With oil prices in the tank, the consumer dollar goes further. Indeed, the implications of oil's slide extend to the entire world economy, and many of these impacts favor the United States. One less-than-obvious effect is the risk that cheap oil poses to the green energy industry. Now renewables find it harder to compete on cost. But is price the key, or is public policy? Are short-term savings and geopolitical rivalries the most important considerations, or are reliance on a depleting resource and long-term costs to the climate? Our panel of energy and environmental experts will explore what happened to the theory of Peak Oil and whether the current glut is a permanent condition. Will unconventional oil drilling dry up at these prices? Can we live with the wild swings in the price of a barrel? What does the coal-vs.-natural-gas competition in electricity tell us about the future? Is your next car a Tesla or a Tundra?",
+    "format": "rich_text",
+    "processed": "With oil prices in the tank, the consumer dollar goes further. Indeed, the implications of oil's slide extend to the entire world economy, and many of these impacts favor the United States. One less-than-obvious effect is the risk that cheap oil poses to the green energy industry. Now renewables find it harder to compete on cost. But is price the key, or is public policy? Are short-term savings and geopolitical rivalries the most important considerations, or are reliance on a depleting resource and long-term costs to the climate? Our panel of energy and environmental experts will explore what happened to the theory of Peak Oil and whether the current glut is a permanent condition. Will unconventional oil drilling dry up at these prices? Can we live with the wild swings in the price of a barrel? What does the coal-vs.-natural-gas competition in electricity tell us about the future? Is your next car a Tesla or a Tundra?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/qk7YrGfeUzQ",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/NdzavRj8LgkZgh7I3-UykSC0IGwLIfYThTGeP9Iv6lg.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

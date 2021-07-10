@@ -1,0 +1,21 @@
+uuid: e227977e-6b32-44cb-bab5-8174cddf4af3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_meta_tags
+  module:
+    - metatag
+id: event.conference.field_meta_tags
+field_name: field_meta_tags
+entity_type: event
+bundle: conference
+label: 'meta tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

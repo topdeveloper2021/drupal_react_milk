@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7230\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/eF4GFxSaqLFDkEbNjr31K_fpgMCb09tN9Nk8yb5jp-s.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7230
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8f59f3f4-051b-48cb-97a8-218bd5b3e364"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1660
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/eF4GFxSaqLFDkEbNjr31K_fpgMCb09tN9Nk8yb5jp-s.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "354ef52b-68a2-411f-add7-d704322df8b5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "How Philanthropic Capital Can Spark 21st Century Innovations",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-12-07T07:42:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T18:15:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Properly invested, philanthropic capital can reap world-changing dividends. Witness the Green Revolution, polio near-eradication, ubiquitous fintech platforms like M-PESA, transformative educational content like Sesame Street and breakthrough medications such as Kalydeco. As we adjust to the complexities of the 21st century, the philanthropic sector has been working alongside government and business to innovate new tools and perspectives that can reconfigure how philanthropic capital can be better deployed to maximize return. This session will showcase promising solutions being advanced across a range of sectors and geographies, including mission-related investments, social impact bonds, venture philanthropy, outcome-sensitive metrics, and public-private partnerships. ",
+    "format": "rich_text",
+    "processed": "Properly invested, philanthropic capital can reap world-changing dividends. Witness the Green Revolution, polio near-eradication, ubiquitous fintech platforms like M-PESA, transformative educational content like Sesame Street and breakthrough medications such as Kalydeco. As we adjust to the complexities of the 21st century, the philanthropic sector has been working alongside government and business to innovate new tools and perspectives that can reconfigure how philanthropic capital can be better deployed to maximize return. This session will showcase promising solutions being advanced across a range of sectors and geographies, including mission-related investments, social impact bonds, venture philanthropy, outcome-sensitive metrics, and public-private partnerships. ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/2HSydNuAzo0",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/eF4GFxSaqLFDkEbNjr31K_fpgMCb09tN9Nk8yb5jp-s.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

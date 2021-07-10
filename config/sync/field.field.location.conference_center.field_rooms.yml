@@ -1,0 +1,28 @@
+uuid: 91c0a809-46ad-4419-a8c4-2a5d424cb54c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.conference_center
+    - eck.eck_type.rooms.rooms
+    - field.storage.location.field_rooms
+id: location.conference_center.field_rooms
+field_name: field_rooms
+entity_type: location
+bundle: conference_center
+label: rooms
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:rooms'
+  handler_settings:
+    target_bundles:
+      rooms: rooms
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

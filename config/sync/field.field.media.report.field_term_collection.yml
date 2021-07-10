@@ -1,0 +1,29 @@
+uuid: e8db4c38-4b89-4e14-bfc7-b9312ac081bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_term_collection
+    - media.type.report
+    - taxonomy.vocabulary.collections
+id: media.report.field_term_collection
+field_name: field_term_collection
+entity_type: media
+bundle: report
+label: 'Term Collection'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      collections: collections
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

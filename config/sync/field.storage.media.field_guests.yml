@@ -1,0 +1,20 @@
+uuid: 3c1124e1-b383-496b-bd58-c607faca1ddb
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - media
+id: media.field_guests
+field_name: field_guests
+entity_type: media
+type: entity_reference
+settings:
+  target_type: people
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

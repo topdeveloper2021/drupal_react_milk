@@ -1,0 +1,27 @@
+uuid: f49d7d78-75b5-4d47-b100-9d666055352d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_audio_file
+    - media.type.podcast_episode
+  module:
+    - file
+id: media.podcast_episode.field_media_audio_file
+field_name: field_media_audio_file
+entity_type: media
+bundle: podcast_episode
+label: 'Audio file'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'mp3 wav aac'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

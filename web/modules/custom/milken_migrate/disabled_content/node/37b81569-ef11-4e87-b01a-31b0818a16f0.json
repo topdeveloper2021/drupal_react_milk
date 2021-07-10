@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-july-24-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/137?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 765
+        }
+    ],
+    "uuid": [
+        {
+            "value": "37b81569-ef11-4e87-b01a-31b0818a16f0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 765
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/137?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "57a54c7b-b450-4527-9111-7574e773cbc6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - July 24, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-24T16:05:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:39:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-july-24-2018",
+            "pid": 818,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Prize A few months ago, I borrowed a turn of phrase from <i>The Economist<\/i> to ask, is technopolitics the new geopolitics? For much of the 20th Century, energy companies effectively served as arms of their home government by promoting their geopolitical interests abroad. This is true to such an extent that in many ways, the history of the 20th Century is inextricably linked to the rise of the global oil market. Putting aside the question of whether or not data is the new oil, tech firms seem to be the new oil companies. Where the 20th Century was characterized by American, British, and French oil companies vying for control of the most bountiful oil fields, the 21st Century looks to be shaped by American and Chinese tech firms competing for market share in emerging markets. Payments data is already proving to be particularly attractive to growing tech firms, and has even fueled a growing interest in financial inclusion within the private sector. For interested policymakers, tech firms, and financial institutions, serving the unbanked suddenly has an added benefit of acquiring data for the AI arms race. The challenge for policymakers comes when rooting for their hometown team on the road begins to cause trouble at home. Concerns about data privacy and the market power of tech giants will force policymakers to walk a fine line between cheering on their national champion and ensuring that the situation is in hand. Even in China, policymakers are taking steps to ensure that they strike this balance. Yet, the need to regulate tech firms may not be at odds with technopolitical goals, or even with the goals of tech firms themselves. Microsoft, for example, issued a statement last week calling for robust regulation on facial recognition technology. The European Union\u2019s General Data Protection Regulation (GDPR) and Second Payment Service Directive (PSD2) have clearly demonstrated the ability of standard setting to drive international norms. With this is mind, financial institutions should resist the instinct to resist the growing momentum of new data privacy policies. By walking a mile in their regulator\u2019s shoes, they may find that they\u2019re walking in the same direction. Industry Headlines <i>AltFi:<\/i> CB Insights is out with its Global FinTech Report for Q2 2018, showing global FinTech deals on pace for a record year in venture capital financing. Remarkably, Ant Financial\u2019s blockbuster $14 billion deal earlier this year accounted for 69 percent of global FinTech funding in the second quarter. Even without this deal, however, the Q2 2018 was a record high for FinTech funding. Elsewhere, China\u2019s peer-to-peer lenders continue to experience turbulent conditions, as investors pull their funds from platforms in the country. In the U.S., Funding Circle\u2019s SME Income Fund is trying to minimize its exposure to the U.S. and refocus on its original market in the U.K. According to PYMNTS, this comes as Funding Circle and the British Business Bank are in the midst of setting up a new partnership. <i>Blockchain & Crypto:<\/i> Credit card companies drew some attention from the blockchain and crypto worlds at the U.S. Patent and Trademark Office last week. First, American Express applied for a patent for a blockchain-based proof system. Second, Mastercard patented a way of managing \u201cfractional reserves of blockchain currency.\u201d Elsewhere, the CFA Institute is adding blockchain and cryptocurrency to its Level I and Level II exams next year, and the Litecoin Foundation acquired almost 10 percent of WEG Bank AG, a German bank. <i>Digital Banking:<\/i> A study by Equifax found that 80 percent of customers in the U.K. would not open a bank account with a challenger bank, and 60 percent of customers did not recognize the names of the challenger banks cited. Meanwhile, the Royal Bank of Scotland (RBS) will launch a competition scheme for small business lending in February after complaints of delay by other financial institutions. <i>Data Portability:<\/i> Late last week four tech giants announced the launch of the Data Transfer Project\u2014an industry-run initiative to allow users to transfer their data between Google, Facebook, Microsoft, and Twitter. Microsoft called for more firms to sign on to the effort, citing the GDPR as part of the impetus behind the initiative. <i>Payments:\u00a0<\/i>PayPal and Citi invested $50 million in PPRO, a London-based firm that processes different types of payment methods. <i>RegTech:<\/i> The Bank for International Settlements (BIS) is out with a new report on supervisory technology (SupTech), discussing the relevant use cases of SupTech and the experience that its users have had thus far. By distilling insight from early users, the BIS outlines considerations for financial supervisors hoping to implement SupTech solutions. Among these is the importance of collaboration among supervisory agencies, a consideration that the Milken Institute discussed in our own RegTech white paper. Global Developments <b>Europe<\/b><b> <i>Scandinavia<\/i>: A group of Nordic banks are banding together to create a payments infrastructure for the region with the goal of heading off the global payments battle discussed above. The project, called P27, will build on already successful smart-phone payments applications in the region, such as Swish in Sweden, MobilePay in Denmark, and Vipps in Norway. <i>France:<\/i> The Banque de France made waves in the FinTech world last week. First, a working group from the Banque said that banks that require third parties to \u201credirect\u201d onto the bank\u2019s login screen are not in breach of E.U. rules. Second, the Banque sent an email to almost 500 British FinTech firms asking them to take a survey explaining their plans for their French operations post-Brexit. If a British firm does plan on continuing its operations in France post-Brexit, the survey inquires where they plan to set up their subsidiary in the European Economic Area. <i>Malta:<\/i> Malta continues to double down on crypto and blockchain. Last week, Binance and Neufund announced that they would create the \u201cworld\u2019s first decentralized bank\u201d in Malta. Silvio Schembri, Malta\u2019s Junior Minister for Digital Innovation and Financial Services stated, \u201cThis is another block to our ever growing blockchain island ecosystem. Next week we will announce other complimentary projects that will continue to close the circuit for the system to function. The culmination of which will be exhibited during the Government backed DELTA Summit to be held between the 3 \u2013 5 October in Malta.\u201d <strong>Asia<\/b><b> <i>China:<\/i> The People\u2019s Bank of China (PBoC) said companies and individuals in China cannot refuse cash payments, with the exception of eCommerce and certain unmanned stores. The PBoC stated, \u201cSome shops in tourist spots, restaurants and retailers were found rejecting cash payments and this has damaged the legal status of the renminbi and hurt consumers\u2019 rights.\u201d This comes as the Chinese government is in the midst of a massive effort to reassert control over its financial market. Mobile payments platforms such as AliPay that use QR codes have become ubiquitous in the country, leading some stores to refuse cash. <i>Thailand:<\/i> The Bank of Thailand is reviewing applications from several blockchain applications related to document authentication, international payments, and supply chain finance through the central bank\u2019s regulatory sandbox program. Bank of Thailand Governor Veerathai Santiprabhob also stated that the central bank is working on a central bank digital currency project. <strong>North America<\/b><br \/> <i>United States:<\/i> The big FinTech news in the U.S. last week was that the Consumer Financial Protection Bureau (CFPB) will launch a regulatory sandbox under its Office of Innovation, which recently replaced Project Catalyst. Mick Mulvaney, the acting head of the CFPB, selected Paul Watkins, who was integral in Arizona\u2019s recently launched sandbox, to lead the sandbox effort. Cryptocurrencies, blockchain, and the use cases of alternative data are among the topics that Mulvaney is hoping the sandbox can play a role in exploring. We have weighed in on regulatory sandboxes in the past and will continue to do so going forward. In a recent edition of FinTech in Focus, we shared our concern that sandboxes could come to be seen as nothing more than a regulatory race to the bottom, a concern that we also highlighted in our 2017 report. In our view, the value of sandboxes lays not in deregulation for deregulation\u2019s sake, but in their potential to serve as a laboratory for careful experimentation. With this in mind, we strongly encourage the CFPB to maintain rigorous consumer protection and oversight standards in its new sandbox program. Doing so will not only ensure that the sandbox achieves what it is meant to achieve, but will also help avoid the partisan issues that are sure to result from a purely deregulatory effort. Elsewhere, the JOBS and Investor Confidence Act (also known as JOBS Act 3.0) passed the House of Representatives on Tuesday by a vote of 406 to 4. Among the package of bills is the Crowdfunding Amendments Act, which would allow crowdfunders to pool their investments into a fund that is managed by a registered investment advisor.",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Prize A few months ago, I borrowed a turn of phrase from <i>The Economist<\/i> to ask, is technopolitics the new geopolitics? For much of the 20th Century, energy companies effectively served as arms of their home government by promoting their geopolitical interests abroad. This is true to such an extent that in many ways, the history of the 20th Century is inextricably linked to the rise of the global oil market. Putting aside the question of whether or not data is the new oil, tech firms seem to be the new oil companies. Where the 20th Century was characterized by American, British, and French oil companies vying for control of the most bountiful oil fields, the 21st Century looks to be shaped by American and Chinese tech firms competing for market share in emerging markets. Payments data is already proving to be particularly attractive to growing tech firms, and has even fueled a growing interest in financial inclusion within the private sector. For interested policymakers, tech firms, and financial institutions, serving the unbanked suddenly has an added benefit of acquiring data for the AI arms race. The challenge for policymakers comes when rooting for their hometown team on the road begins to cause trouble at home. Concerns about data privacy and the market power of tech giants will force policymakers to walk a fine line between cheering on their national champion and ensuring that the situation is in hand. Even in China, policymakers are taking steps to ensure that they strike this balance. Yet, the need to regulate tech firms may not be at odds with technopolitical goals, or even with the goals of tech firms themselves. Microsoft, for example, issued a statement last week calling for robust regulation on facial recognition technology. The European Union\u2019s General Data Protection Regulation (GDPR) and Second Payment Service Directive (PSD2) have clearly demonstrated the ability of standard setting to drive international norms. With this is mind, financial institutions should resist the instinct to resist the growing momentum of new data privacy policies. By walking a mile in their regulator\u2019s shoes, they may find that they\u2019re walking in the same direction. Industry Headlines <i>AltFi:<\/i> CB Insights is out with its Global FinTech Report for Q2 2018, showing global FinTech deals on pace for a record year in venture capital financing. Remarkably, Ant Financial\u2019s blockbuster $14 billion deal earlier this year accounted for 69 percent of global FinTech funding in the second quarter. Even without this deal, however, the Q2 2018 was a record high for FinTech funding. Elsewhere, China\u2019s peer-to-peer lenders continue to experience turbulent conditions, as investors pull their funds from platforms in the country. In the U.S., Funding Circle\u2019s SME Income Fund is trying to minimize its exposure to the U.S. and refocus on its original market in the U.K. According to PYMNTS, this comes as Funding Circle and the British Business Bank are in the midst of setting up a new partnership. <i>Blockchain &amp; Crypto:<\/i> Credit card companies drew some attention from the blockchain and crypto worlds at the U.S. Patent and Trademark Office last week. First, American Express applied for a patent for a blockchain-based proof system. Second, Mastercard patented a way of managing \u201cfractional reserves of blockchain currency.\u201d Elsewhere, the CFA Institute is adding blockchain and cryptocurrency to its Level I and Level II exams next year, and the Litecoin Foundation acquired almost 10 percent of WEG Bank AG, a German bank. <i>Digital Banking:<\/i> A study by Equifax found that 80 percent of customers in the U.K. would not open a bank account with a challenger bank, and 60 percent of customers did not recognize the names of the challenger banks cited. Meanwhile, the Royal Bank of Scotland (RBS) will launch a competition scheme for small business lending in February after complaints of delay by other financial institutions. <i>Data Portability:<\/i> Late last week four tech giants announced the launch of the Data Transfer Project\u2014an industry-run initiative to allow users to transfer their data between Google, Facebook, Microsoft, and Twitter. Microsoft called for more firms to sign on to the effort, citing the GDPR as part of the impetus behind the initiative. <i>Payments:\u00a0<\/i>PayPal and Citi invested $50 million in PPRO, a London-based firm that processes different types of payment methods. <i>RegTech:<\/i> The Bank for International Settlements (BIS) is out with a new report on supervisory technology (SupTech), discussing the relevant use cases of SupTech and the experience that its users have had thus far. By distilling insight from early users, the BIS outlines considerations for financial supervisors hoping to implement SupTech solutions. Among these is the importance of collaboration among supervisory agencies, a consideration that the Milken Institute discussed in our own RegTech white paper. Global Developments <b>Europe<\/b><b> <i>Scandinavia<\/i>: A group of Nordic banks are banding together to create a payments infrastructure for the region with the goal of heading off the global payments battle discussed above. The project, called P27, will build on already successful smart-phone payments applications in the region, such as Swish in Sweden, MobilePay in Denmark, and Vipps in Norway. <i>France:<\/i> The Banque de France made waves in the FinTech world last week. First, a working group from the Banque said that banks that require third parties to \u201credirect\u201d onto the bank\u2019s login screen are not in breach of E.U. rules. Second, the Banque sent an email to almost 500 British FinTech firms asking them to take a survey explaining their plans for their French operations post-Brexit. If a British firm does plan on continuing its operations in France post-Brexit, the survey inquires where they plan to set up their subsidiary in the European Economic Area. <i>Malta:<\/i> Malta continues to double down on crypto and blockchain. Last week, Binance and Neufund announced that they would create the \u201cworld\u2019s first decentralized bank\u201d in Malta. Silvio Schembri, Malta\u2019s Junior Minister for Digital Innovation and Financial Services stated, \u201cThis is another block to our ever growing blockchain island ecosystem. Next week we will announce other complimentary projects that will continue to close the circuit for the system to function. The culmination of which will be exhibited during the Government backed DELTA Summit to be held between the 3 \u2013 5 October in Malta.\u201d <strong>Asia<\/strong><\/b><b> <i>China:<\/i> The People\u2019s Bank of China (PBoC) said companies and individuals in China cannot refuse cash payments, with the exception of eCommerce and certain unmanned stores. The PBoC stated, \u201cSome shops in tourist spots, restaurants and retailers were found rejecting cash payments and this has damaged the legal status of the renminbi and hurt consumers\u2019 rights.\u201d This comes as the Chinese government is in the midst of a massive effort to reassert control over its financial market. Mobile payments platforms such as AliPay that use QR codes have become ubiquitous in the country, leading some stores to refuse cash. <i>Thailand:<\/i> The Bank of Thailand is reviewing applications from several blockchain applications related to document authentication, international payments, and supply chain finance through the central bank\u2019s regulatory sandbox program. Bank of Thailand Governor Veerathai Santiprabhob also stated that the central bank is working on a central bank digital currency project. <strong>North America<\/strong><\/b><br \/><i>United States:<\/i> The big FinTech news in the U.S. last week was that the Consumer Financial Protection Bureau (CFPB) will launch a regulatory sandbox under its Office of Innovation, which recently replaced Project Catalyst. Mick Mulvaney, the acting head of the CFPB, selected Paul Watkins, who was integral in Arizona\u2019s recently launched sandbox, to lead the sandbox effort. Cryptocurrencies, blockchain, and the use cases of alternative data are among the topics that Mulvaney is hoping the sandbox can play a role in exploring. We have weighed in on regulatory sandboxes in the past and will continue to do so going forward. In a recent edition of FinTech in Focus, we shared our concern that sandboxes could come to be seen as nothing more than a regulatory race to the bottom, a concern that we also highlighted in our 2017 report. In our view, the value of sandboxes lays not in deregulation for deregulation\u2019s sake, but in their potential to serve as a laboratory for careful experimentation. With this in mind, we strongly encourage the CFPB to maintain rigorous consumer protection and oversight standards in its new sandbox program. Doing so will not only ensure that the sandbox achieves what it is meant to achieve, but will also help avoid the partisan issues that are sure to result from a purely deregulatory effort. Elsewhere, the JOBS and Investor Confidence Act (also known as JOBS Act 3.0) passed the House of Representatives on Tuesday by a vote of 406 to 4. Among the package of bills is the Crowdfunding Amendments Act, which would allow crowdfunders to pool their investments into a fund that is managed by a registered investment advisor.",
+    "summary": null,
+    "summary_processed": ""
+}

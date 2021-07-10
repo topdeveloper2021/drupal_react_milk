@@ -1,0 +1,29 @@
+uuid: fe3d420b-2772-4025-9c6c-c68960248ded
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_centers
+    - media.type.video_stream
+    - taxonomy.vocabulary.centers
+id: media.video_stream.field_centers
+field_name: field_centers
+entity_type: media
+bundle: video_stream
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

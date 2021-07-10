@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/care-disease-care-person?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/72?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 538
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2232a528-27a1-4577-b9e8-d5c633c1e7f4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 538
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/72?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9a2b364e-6ec9-4723-b161-c1b4f1d4ce32"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "From Care of Disease to Care of the Person",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T17:59:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-10T21:23:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/care-disease-care-person",
+            "pid": 591,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Health-care systems and innovation models have been moving with increased acceleration from a focus on the \u201ccare of disease\u201d to the \u201ccare and cure of the\u202f<i>person<\/i>.\u201d\u202fStakeholders have spent\u202fnearly 20 years\u202frallying\u202ffor\u202fa reality in which patients\u202fare truly\u202fat the center of R&D and health care.\u202fMuch effort and many resources have been invested in driving this seismic shift, which would disrupt so many system-wide legacy behaviors and ways of thinking. Matching prevention, care, and cure to individuals globally is now upon us. The reality\u202fthe system and patients have longed\u202ffor is possible today. This has meaningful consequences for those who are building and leading teams and institutions across the health-care and life science sectors. As people seek to live longer, healthier, and more productive lives, they are looking for access to what works specifically for them. Today the innovative life science industry is broadening its scope to embrace new technologies and platforms. New public-private partnerships are developing, and the investment ecosystem is shifting with many new entrants. And those who procure and deliver health systems to societies globally are rethinking sustainable, viable approaches that will have major economic and societal consequences. A seamless patient-driven and -led approach to innovation funding and delivery is possible through vertical collaboration among leaders across the STEM fields, combined with access to capital and political will that takes into consideration the economic and geopolitical power of healthy, happy, and productive people. This moment in time is founded upon major innovations in science, medicine, and technology. Computing power, artificial intelligence, and deep learning capabilities are rapidly unlocking insights to advance our understanding of populations and individuals and identifying legacy and future interventions that might help researchers seek prevention and cures. This has driven rapid advances in understanding the molecular basis of disease and the markers that might be used\u2014along with complex computing algorithms\u2014to better match care and cures at the individual level. Cancer and rare disease research and development is now taking place in unprecedented times. Cellular and gene therapy approaches are offering remarkable opportunities for cures and the promise of a huge pipeline of new therapies. Regulatory agencies are rapidly working to keep up and develop novel pathways and approaches to science and medicine to ensure this new era is supported by new paradigms in regulatory science.\u202fIn the field of biomarker diagnostics\u202fand\u202fmedical technology, the\u202fintegration of science, medicine, and data with patients at the center and a focus on prevention and\u202ftargeted personalized medicine are driving a rapid expansion of new companies and large amounts of risk capital.\u202fThe development of this new\u202findustry is requiring horizontal integration of a number of players that have not routinely worked together. Clinicians, data scientists, and tech-focused engineers are coming together to build new platforms, products, and models of commercialization. Funding\u202ffor the development of these innovative technologies and platforms is critical. There is a new set of\u202fstakeholders entering the scene\u2014Apple, Google, and Amazon to name a few\u2014and challenging the traditional venture capitalist model. Additionally,\u202fcapital is\u202fnow\u202fcoming from diverse parts of the financial ecosystem, such as high-net-worth individuals and corporations. While the industry has traditionally looked westward for funding, companies are starting to look to the east for\u202fpossible\u202fmarkets and financing solutions. As\u202fnew technologies are being\u202fdeveloped and\u202finnovative financing models are\u202futilized\u202fto support patient-centered work, health-care systems must evolve to unlock the value in and realize the potential for populations and\u202fpatients seeking to live longer and healthier lives. Technology, combined with novel therapeutics and preventive interventions, are leading to opportunities to keep individuals healthy and productive for longer. The ability to deliver deep phenotyping and to leverage apps and wearables offers many people today the opportunity to take control of their health and seek out optimized care matched with their unique biology. Early risk assessment and modification combined with early detection of cancer and cardiovascular disease is reshaping the way physicians and health-care systems approach their work and plan for the future. And so this is a remarkable, historic moment in time, which has arrived on the back of a\u202fdecade-old\u202fpromise of patient-centricity.\u202fAt its\u202fheart is the evolution of a system and way of thinking and behaving. Our global life science and health-care systems must be compelled by the goal to keep populations and people healthy and productive. Prevention and early treatment must be the call to action. Leadership is crucial; patients need advocates within the system to push\u202fthis work forward, utilize the advances and innovations of our current age, and continue putting people at the heart of all they do. Science, medicine, technology, financial, and political leadership need to come together with a sense of urgency to take risks, place bets, and put patients and people first. Treating terrible diseases is costly and devastating, leading to economic and personal tragedy. Keeping our people healthy, happy, and productive through the application of remarkable advances in science, medicine, and technology is the key to a sustainable future for generations to come.\u202f",
+    "format": "rich_text",
+    "processed": "Health-care systems and innovation models have been moving with increased acceleration from a focus on the \u201ccare of disease\u201d to the \u201ccare and cure of the\u202f<i>person<\/i>.\u201d\u202fStakeholders have spent\u202fnearly 20 years\u202frallying\u202ffor\u202fa reality in which patients\u202fare truly\u202fat the center of R&amp;D and health care.\u202fMuch effort and many resources have been invested in driving this seismic shift, which would disrupt so many system-wide legacy behaviors and ways of thinking. Matching prevention, care, and cure to individuals globally is now upon us. The reality\u202fthe system and patients have longed\u202ffor is possible today. This has meaningful consequences for those who are building and leading teams and institutions across the health-care and life science sectors. As people seek to live longer, healthier, and more productive lives, they are looking for access to what works specifically for them. Today the innovative life science industry is broadening its scope to embrace new technologies and platforms. New public-private partnerships are developing, and the investment ecosystem is shifting with many new entrants. And those who procure and deliver health systems to societies globally are rethinking sustainable, viable approaches that will have major economic and societal consequences. A seamless patient-driven and -led approach to innovation funding and delivery is possible through vertical collaboration among leaders across the STEM fields, combined with access to capital and political will that takes into consideration the economic and geopolitical power of healthy, happy, and productive people. This moment in time is founded upon major innovations in science, medicine, and technology. Computing power, artificial intelligence, and deep learning capabilities are rapidly unlocking insights to advance our understanding of populations and individuals and identifying legacy and future interventions that might help researchers seek prevention and cures. This has driven rapid advances in understanding the molecular basis of disease and the markers that might be used\u2014along with complex computing algorithms\u2014to better match care and cures at the individual level. Cancer and rare disease research and development is now taking place in unprecedented times. Cellular and gene therapy approaches are offering remarkable opportunities for cures and the promise of a huge pipeline of new therapies. Regulatory agencies are rapidly working to keep up and develop novel pathways and approaches to science and medicine to ensure this new era is supported by new paradigms in regulatory science.\u202fIn the field of biomarker diagnostics\u202fand\u202fmedical technology, the\u202fintegration of science, medicine, and data with patients at the center and a focus on prevention and\u202ftargeted personalized medicine are driving a rapid expansion of new companies and large amounts of risk capital.\u202fThe development of this new\u202findustry is requiring horizontal integration of a number of players that have not routinely worked together. Clinicians, data scientists, and tech-focused engineers are coming together to build new platforms, products, and models of commercialization. Funding\u202ffor the development of these innovative technologies and platforms is critical. There is a new set of\u202fstakeholders entering the scene\u2014Apple, Google, and Amazon to name a few\u2014and challenging the traditional venture capitalist model. Additionally,\u202fcapital is\u202fnow\u202fcoming from diverse parts of the financial ecosystem, such as high-net-worth individuals and corporations. While the industry has traditionally looked westward for funding, companies are starting to look to the east for\u202fpossible\u202fmarkets and financing solutions. As\u202fnew technologies are being\u202fdeveloped and\u202finnovative financing models are\u202futilized\u202fto support patient-centered work, health-care systems must evolve to unlock the value in and realize the potential for populations and\u202fpatients seeking to live longer and healthier lives. Technology, combined with novel therapeutics and preventive interventions, are leading to opportunities to keep individuals healthy and productive for longer. The ability to deliver deep phenotyping and to leverage apps and wearables offers many people today the opportunity to take control of their health and seek out optimized care matched with their unique biology. Early risk assessment and modification combined with early detection of cancer and cardiovascular disease is reshaping the way physicians and health-care systems approach their work and plan for the future. And so this is a remarkable, historic moment in time, which has arrived on the back of a\u202fdecade-old\u202fpromise of patient-centricity.\u202fAt its\u202fheart is the evolution of a system and way of thinking and behaving. Our global life science and health-care systems must be compelled by the goal to keep populations and people healthy and productive. Prevention and early treatment must be the call to action. Leadership is crucial; patients need advocates within the system to push\u202fthis work forward, utilize the advances and innovations of our current age, and continue putting people at the heart of all they do. Science, medicine, technology, financial, and political leadership need to come together with a sense of urgency to take risks, place bets, and put patients and people first. Treating terrible diseases is costly and devastating, leading to economic and personal tragedy. Keeping our people healthy, happy, and productive through the application of remarkable advances in science, medicine, and technology is the key to a sustainable future for generations to come.\u202f",
+    "summary": null,
+    "summary_processed": ""
+}

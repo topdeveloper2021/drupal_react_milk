@@ -1,0 +1,15 @@
+diff --git a/src/EventSubscriber/LanguageInterfaceContext.php b/src/EventSubscriber/LanguageInterfaceContext.php
+index f2df21c..5cc58fe 100644
+--- a/src/EventSubscriber/LanguageInterfaceContext.php
++++ b/src/EventSubscriber/LanguageInterfaceContext.php
+@@ -38,7 +38,9 @@ class LanguageInterfaceContext implements EventSubscriberInterface {
+   public function onPageContext(PageManagerContextEvent $event) {
+     $contexts = $this->contextRepository->getRuntimeContexts(array('@language.current_language_context:language_interface'));
+     $context = reset($contexts);
+-    $event->getPage()->addContext('language_interface', $context);
++    if ($context !== FALSE) {
++      $event->getPage()->addContext('language_interface', $context);
++    }
+   }
+ 
+   /**

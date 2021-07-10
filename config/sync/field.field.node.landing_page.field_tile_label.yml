@@ -1,0 +1,19 @@
+uuid: ab6c2c20-443d-4b73-b9f2-ff9020288d97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tile_label
+    - node.type.landing_page
+id: node.landing_page.field_tile_label
+field_name: field_tile_label
+entity_type: node
+bundle: landing_page
+label: 'Tile Label'
+description: 'For use when featuring this page as a Tile or Card.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7852\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XcbNBphbd-QSpVIfJwD7DPwjiLC1qFqLR0IMv5y7QOU.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7852
+        }
+    ],
+    "uuid": [
+        {
+            "value": "10d628a8-6482-4c86-8533-aee0ed9f149b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 509
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/XcbNBphbd-QSpVIfJwD7DPwjiLC1qFqLR0IMv5y7QOU.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8c309f48-c41d-4ecf-84f7-4c510265dc4d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Beyond Start-Up Nation: Israels Growth Platform for Global Co-Innovation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T22:38:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Over the past decades, Israel has turned adversity into a competitive advantage. Beyond the geopolitical storms raging around it, Israel's future rests largely on its ability to continually reinvent its technological mojo and transfer it to partners in other emerging economies. Co-innovation with new partnerships focused on global problems with high growth potential, such as water management, agricultural science for food, alternative energy, health, and of course, cyber-security -- in which Israel already has world-beating technology -- are key. Israel's strategic economic plan envisions the scaling up of startup nation models in many regions. Yet this requires closing gaps in economic participation within Israel itself and strengthening ties beyond its \"island\" economy. At this event, we'll report on our fieldwork in research, development and training in Israel.",
+    "format": "rich_text",
+    "processed": "Over the past decades, Israel has turned adversity into a competitive advantage. Beyond the geopolitical storms raging around it, Israel's future rests largely on its ability to continually reinvent its technological mojo and transfer it to partners in other emerging economies. Co-innovation with new partnerships focused on global problems with high growth potential, such as water management, agricultural science for food, alternative energy, health, and of course, cyber-security -- in which Israel already has world-beating technology -- are key. Israel's strategic economic plan envisions the scaling up of startup nation models in many regions. Yet this requires closing gaps in economic participation within Israel itself and strengthening ties beyond its \"island\" economy. At this event, we'll report on our fieldwork in research, development and training in Israel.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/yrY7SIf8-cM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/XcbNBphbd-QSpVIfJwD7DPwjiLC1qFqLR0IMv5y7QOU.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7331\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8OSadWQozyhmMm1jHSWUt4_F-cp2pW8nR-RcJ6Wyk4I.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7331
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2e6659ba-8318-47e5-a953-e6241aab4c97"
+        }
+    ],
+    "vid": [
+        {
+            "value": 131
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8OSadWQozyhmMm1jHSWUt4_F-cp2pW8nR-RcJ6Wyk4I.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fb0c9de7-9cbe-40da-bdcb-a6e2723e5f86"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Overcoming the Political Divide",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-07T13:54:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "While many narratives about U.S. politics portray partisanship at an all-time high, periods of intense rivalry have been part of our political system since its inception. Watch as the speakers on this panel examine the factors contributing to today\u2019s political divide, as well as the policy areas where these division may be set aside for the good of all citizens.<br><br> Moderator:Chuck Todd, NBC News Political Director and Moderator of \u201cMeet the Press,\u201d Host of MSNBC\u2019s \u201cMTP Daily\u201d<br><br> Speakers:Steve Bullock, Governor, MontanaEric Cantor, Vice Chairman and Managing Director, Moelis & Co; Former Majority Leader, U.S. House of RepresentativesJason Grumet, Founder and President, Bipartisan Policy Center<br><br> Kenneth Hersh, President and CEO, George W. Bush Presidential Center<br><br> Neera Tanden, President and CEO, Center for American Progress",
+    "format": "rich_text",
+    "processed": "While many narratives about U.S. politics portray partisanship at an all-time high, periods of intense rivalry have been part of our political system since its inception. Watch as the speakers on this panel examine the factors contributing to today\u2019s political divide, as well as the policy areas where these division may be set aside for the good of all citizens.<br \/><br \/> Moderator:Chuck Todd, NBC News Political Director and Moderator of \u201cMeet the Press,\u201d Host of MSNBC\u2019s \u201cMTP Daily\u201d<br \/><br \/> Speakers:Steve Bullock, Governor, MontanaEric Cantor, Vice Chairman and Managing Director, Moelis &amp; Co; Former Majority Leader, U.S. House of RepresentativesJason Grumet, Founder and President, Bipartisan Policy Center<br \/><br \/> Kenneth Hersh, President and CEO, George W. Bush Presidential Center<br \/><br \/> Neera Tanden, President and CEO, Center for American Progress",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/V8G1Fv01V50",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/8OSadWQozyhmMm1jHSWUt4_F-cp2pW8nR-RcJ6Wyk4I.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

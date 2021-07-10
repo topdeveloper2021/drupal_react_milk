@@ -1,0 +1,70 @@
+uuid: 984df3f0-eb57-4ce1-8412-63246eae9be1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tiles_sponsors.field_background_color
+    - field.field.paragraph.tiles_sponsors.field_display_size
+    - field.field.paragraph.tiles_sponsors.field_section_subheader
+    - field.field.paragraph.tiles_sponsors.field_sponsors
+    - field.field.paragraph.tiles_sponsors.field_title
+    - field.field.paragraph.tiles_sponsors.field_view_mode
+    - paragraphs.paragraphs_type.tiles_sponsors
+  module:
+    - color_field
+    - options
+id: paragraph.tiles_sponsors.default
+targetEntityType: paragraph
+bundle: tiles_sponsors
+mode: default
+content:
+  field_background_color:
+    weight: 3
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_display_size:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_section_subheader:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sponsors:
+    type: entity_reference_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_view_mode:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  search_api_excerpt: true

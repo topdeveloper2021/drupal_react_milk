@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/whats-upside-aging-lot-more-you-think-says-new-book-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 68
+        }
+    ],
+    "uuid": [
+        {
+            "value": "feef4534-6b1a-4d61-82c2-a74b5d2977d4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 68
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What's the Upside of Aging? A lot more than you think, says a new book from the Milken Institute",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-06-10T11:39:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/whats-upside-aging-lot-more-you-think-says-new-book-milken-institute",
+            "pid": 121,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- An aging revolution is changing the world, demanding that we look at our older years in a fresh way. A new book edited by Paul Irving, president of the Milken Institute, moves beyond the stereotypes of dependency and decline to do just that.Exploring the vast potential of longer lives, The Upside of Aging: How Long Life is Changing the World of Health, Work, Innovation, Policy, and Purpose (Wiley) reveals how we can meet the challenges that accompany later life with positive solutions for people of all ages.Irving and a distinguished group of contributing authors reveal the remarkable upside for health, work and entrepreneurship, volunteerism, innovation and education, as longevity and declining birth rates create a mature population of unprecedented size and significance.\"In the past century, discovery and innovation have enabled longevity that would be unimaginable to our forebears,\" says Irving. \"Increased longevity has contributed to unprecedented global economic growth and new opportunities for personal fulfillment that previous generations could only dream of.\"With a positive call to action, the book suggests new ways of thinking about aging. Among topics examined are:\u2022 The emotional intelligence and qualities of the aging brain that science is uncovering.<br> \u2022 The new worlds of genomics, medicine and technology that are revolutionizing health care and wellness.<br> \u2022 The aging population's massive impact on global markets, with enormous profit potential from an explosion in products and services geared toward mature consumers.<br> \u2022 New education paradigms to meet the needs and aspirations of older people, and to capitalize on their talents.<br> \u2022 The benefits that aging workers and entrepreneurs bring to companies, and the crucial role of older people in philanthropy and society.<br> \u2022 Tools and policies to facilitate financial security for longer and more purposeful lives.<br> \u2022 Infrastructure and housing changes to create livable cities for all ages, enabling \"aging in place\" and continuing civic contribution from millions of older adults.<br> \u2022 The opportunities and potential for intergenerational engagement and collaboration.The chapter authors of The Upside of Aging bring unique authority to the topic. Editor Paul Irving leads the Milken Institute's initiatives to improve public health and aging across America and the world, expand capital access, and enhance philanthropic impact. Under his direction, the Institute created the widely acknowledged Best Cities for Successful Aging index.Contributing authors include the world's most authoritative voices on aging issues:\u2022 Laura Carstensen, Professor of Psychology and Fairleigh S. Dickinson Jr. Professor in Public Policy, Stanford University; Founding Director, Stanford Center on Longevity<br> \u2022 Henry Cisneros, Chairman, City View; former Secretary of the U.S. Department of Housing and Urban Development; former Mayor of San Antonio, Texas<br> \u2022 Anusuya Chatterjee, Senior Economist and Associate Director, Research, Milken Institute<br> \u2022 Pinchas Cohen, Dean, University of Southern California Davis School of Gerontology<br> \u2022 Joseph F. Coughlin, Founder and Director, Massachusetts Institute of Technology AgeLab<br> \u2022 Ken Dychtwald, President and CEO, Age Wave<br> \u2022 Marc Freedman, CEO and founder, Encore.org<br> \u2022 Sally Greengross, Member, U.K. House of Lords; Chief Executive, U.K. International Longevity Center<br> \u2022 Jody Heymann, Dean, UCLA Jonathan and Karin Fielding School of Public Health; Founding Director, WORLD Policy Analysis Institute<br> \u2022 Michael Hodin, Executive Director, Global Coalition on Aging; Managing Partner, High Lantern Group<br> \u2022 Dan Houston, President, Retirement, Insurance and Financial Services, the Principal Financial Group<br> \u2022 Steven Knapp, President, The George Washington University; Co-Chair, Age-Friendly DC Task Force<br> \u2022 Freda Lewis-Hall, Executive Vice President and Chief Medical Officer, Pfizer Inc<br> \u2022 Michael Milken, Chairman of The Milken Institute<br> \u2022 Philip A. Pizzo, former Dean, Stanford University School of Medicine; David and Susan Heckerman Professor of Pediatrics and of Microbiology and Immunology, Stanford University School of Medicine; Founding Director, Stanford Distinguished Careers Institute<br> \u2022 Barry Rand, Chief Executive Officer, AARP<br> \u2022 Susan Raymond, Executive Vice President, Changing Our World, Inc.<br> \u2022 Fernando Torres-Gil, Professor of Social Welfare and Public Policy, UCLA Luskin School of Public Affairs; Director, UCLA Center for Policy Research on AgingThe Upside of Aging: How Long Life Is Changing the World of Health, Work, Innovation, Policy and Purpose is by Paul H. Irving. (April 2014; Hardcover & e-book; $39.95. ISBN: 978-1-118-69203-5)",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- An aging revolution is changing the world, demanding that we look at our older years in a fresh way. A new book edited by Paul Irving, president of the Milken Institute, moves beyond the stereotypes of dependency and decline to do just that.Exploring the vast potential of longer lives, The Upside of Aging: How Long Life is Changing the World of Health, Work, Innovation, Policy, and Purpose (Wiley) reveals how we can meet the challenges that accompany later life with positive solutions for people of all ages.Irving and a distinguished group of contributing authors reveal the remarkable upside for health, work and entrepreneurship, volunteerism, innovation and education, as longevity and declining birth rates create a mature population of unprecedented size and significance.\"In the past century, discovery and innovation have enabled longevity that would be unimaginable to our forebears,\" says Irving. \"Increased longevity has contributed to unprecedented global economic growth and new opportunities for personal fulfillment that previous generations could only dream of.\"With a positive call to action, the book suggests new ways of thinking about aging. Among topics examined are:\u2022 The emotional intelligence and qualities of the aging brain that science is uncovering.<br \/> \u2022 The new worlds of genomics, medicine and technology that are revolutionizing health care and wellness.<br \/> \u2022 The aging population's massive impact on global markets, with enormous profit potential from an explosion in products and services geared toward mature consumers.<br \/> \u2022 New education paradigms to meet the needs and aspirations of older people, and to capitalize on their talents.<br \/> \u2022 The benefits that aging workers and entrepreneurs bring to companies, and the crucial role of older people in philanthropy and society.<br \/> \u2022 Tools and policies to facilitate financial security for longer and more purposeful lives.<br \/> \u2022 Infrastructure and housing changes to create livable cities for all ages, enabling \"aging in place\" and continuing civic contribution from millions of older adults.<br \/> \u2022 The opportunities and potential for intergenerational engagement and collaboration.The chapter authors of The Upside of Aging bring unique authority to the topic. Editor Paul Irving leads the Milken Institute's initiatives to improve public health and aging across America and the world, expand capital access, and enhance philanthropic impact. Under his direction, the Institute created the widely acknowledged Best Cities for Successful Aging index.Contributing authors include the world's most authoritative voices on aging issues:\u2022 Laura Carstensen, Professor of Psychology and Fairleigh S. Dickinson Jr. Professor in Public Policy, Stanford University; Founding Director, Stanford Center on Longevity<br \/> \u2022 Henry Cisneros, Chairman, City View; former Secretary of the U.S. Department of Housing and Urban Development; former Mayor of San Antonio, Texas<br \/> \u2022 Anusuya Chatterjee, Senior Economist and Associate Director, Research, Milken Institute<br \/> \u2022 Pinchas Cohen, Dean, University of Southern California Davis School of Gerontology<br \/> \u2022 Joseph F. Coughlin, Founder and Director, Massachusetts Institute of Technology AgeLab<br \/> \u2022 Ken Dychtwald, President and CEO, Age Wave<br \/> \u2022 Marc Freedman, CEO and founder, Encore.org<br \/> \u2022 Sally Greengross, Member, U.K. House of Lords; Chief Executive, U.K. International Longevity Center<br \/> \u2022 Jody Heymann, Dean, UCLA Jonathan and Karin Fielding School of Public Health; Founding Director, WORLD Policy Analysis Institute<br \/> \u2022 Michael Hodin, Executive Director, Global Coalition on Aging; Managing Partner, High Lantern Group<br \/> \u2022 Dan Houston, President, Retirement, Insurance and Financial Services, the Principal Financial Group<br \/> \u2022 Steven Knapp, President, The George Washington University; Co-Chair, Age-Friendly DC Task Force<br \/> \u2022 Freda Lewis-Hall, Executive Vice President and Chief Medical Officer, Pfizer Inc<br \/> \u2022 Michael Milken, Chairman of The Milken Institute<br \/> \u2022 Philip A. Pizzo, former Dean, Stanford University School of Medicine; David and Susan Heckerman Professor of Pediatrics and of Microbiology and Immunology, Stanford University School of Medicine; Founding Director, Stanford Distinguished Careers Institute<br \/> \u2022 Barry Rand, Chief Executive Officer, AARP<br \/> \u2022 Susan Raymond, Executive Vice President, Changing Our World, Inc.<br \/> \u2022 Fernando Torres-Gil, Professor of Social Welfare and Public Policy, UCLA Luskin School of Public Affairs; Director, UCLA Center for Policy Research on AgingThe Upside of Aging: How Long Life Is Changing the World of Health, Work, Innovation, Policy and Purpose is by Paul H. Irving. (April 2014; Hardcover &amp; e-book; $39.95. ISBN: 978-1-118-69203-5)",
+    "summary": null,
+    "summary_processed": ""
+}

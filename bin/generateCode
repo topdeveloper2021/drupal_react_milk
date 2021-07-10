@@ -1,0 +1,17 @@
+#!/usr/bin/env ts-node-script --project=../tsconfig.json
+
+const { Convertor } = require("@codegena/oapi3ts");
+const fs = require("fs");
+
+const convertor = new Convertor();
+const metaInfo = JSON.parse(fs.readFileSync("src/DataTypes/openapi3.json"));
+const context = {};
+
+console.log("Meta Info", metaInfo);
+convertor.loadOAPI3Structure(metaInfo.allOf[1]["x-links"]);
+const entryPoints = convertor.getOAPI3EntryPoints({});
+console.debug("Entry Points:", entryPoints);
+
+Convertor.renderRecursive(entryPoints, (descriptor, text) => {
+  console.log("generated: ", descriptor, text);
+});

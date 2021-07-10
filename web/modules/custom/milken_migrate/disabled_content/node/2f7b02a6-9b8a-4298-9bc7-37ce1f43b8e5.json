@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/sustainability-through-power-partnerships?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/212?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 840
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2f7b02a6-9b8a-4298-9bc7-37ce1f43b8e5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 840
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/212?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1db4ef66-5bc4-4b86-b57c-b21ff05e052b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sustainability Through the Power of Partnerships",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T05:56:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-18T22:37:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/sustainability-through-power-partnerships",
+            "pid": 893,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Openness to sharing financial, technological, and knowledge resources is necessary to address the planet\u2019s complex sustainable development challenges.<\/b><\/i> One of the most rewarding partnerships of my career began about a decade ago in Reykjavik while sharing a bottle of Zicam. At a gathering of the Arctic Circle, while discussing challenges and opportunities in the Arctic region in part resulting from climate change, I was seated next to Carter Roberts, chairman and CEO of the World Wildlife Fund (WWF) in the United States. Besides wanting to avoid a cold (hence the Zicam), what connected us was our shared vision for economic development to be done responsibly and sustainably in the changing Arctic. Even though we approached the problem from different perspectives\u2014he runs an NGO focused on conservation, and I am responsible for billions of dollars of investment assets\u2014we both realized that our approaches to meeting this challenge were complementary. Our organizations have worked together ever since. I mention this story because the need for sustainable development is so great, and the challenges are so complex, that it simply will not be possible for one government, firm, organization, or person to solve them alone. An estimated $4.5 trillion in capital investment is needed every year in developing countries between now and 2030, according to the United Nations Global Goals for Sustainable Development (SDGs), which aim to end poverty, promote economic equality, and protect the planet. Accomplishing the SDGs is so daunting in scale and complexity that the 17th and final goal calls for groups to work together to help transform the world. Partnerships, according to Goal 17, are vital if sustainable development is to succeed. I am a firm believer in this goal and, in my experience, there are four basic models that have shown an ability to achieve it. One model is for a diverse group of stakeholders to converge around a single purpose. My most notable experience in the power of this model was in the effort to establish the Arctic Investment Protocol, a multi-year effort organized by the World Economic Forum and crystallized by a 22-member council of concerned stakeholders, including academic institutions, local and national governments, NGOs, businesses, trade organizations, and financial institutions. The result of our combined efforts in this project was a milestone in sustainable and responsible business practices, governance, and environmental stewardship. Another model calls for a smaller team of complementary partners to work together to complete a focused task. For example, Guggenheim has a long-running working relationship with WWF on sustainable development issues. Most recently, together we worked with the Stanford Global Projects Center to analyze the methodologies and tools for establishing sustainability standards. The result was a landmark study of the state of the practice, an important step in transitioning sustainable infrastructure development into an institutional asset class. A third model is when many like-minded entities converge around ideas that open up engagement and lead to more targeted solutions. I call this the conference model. Conferences such as the Milken Institute Global Conference and the World Economic Forum are important platforms for providing deadlines, focusing arguments, and prioritizing future projects. Within the larger Davos gathering, Guggenheim launched\u2014with partners WWF, the UN Foundation, the Rockefeller Foundation, and Ericsson\u2014the Goal 17 Partnerships event space. This event kicked off an ongoing program designed to expand partnerships to more broadly examine and develop real commitments to long-term sustainable development. The fourth model is the client\/provider model. In almost every instance of pursuing sustainability goals, a principal has to hire a consultant or advisor to ensure proper execution. We see this at work in the asset management business: It has become increasingly important to a growing number of clients that Environmental, Social, and Governance factors are formalized in asset managers\u2019 investment decisions. The partnership between client and asset manager is an important tool in using the economic power of institutional investors to advance sustainability goals while seeking an acceptable level of return. Openness to sharing financial, technological, and knowledge resources\u2014in whatever partnership model works best\u2014is necessary to address the planet\u2019s complex sustainable development challenges. It is incumbent on all organizations to seek out partnerships, collaborations, and relationships that work for them so that their contributions can lead to a healthier and safer world. <i>This material is distributed or presented for informational or educational purposes only and should not be considered a recommendation of any particular security, strategy, or investment product, or as investing advice of any kind. <\/i>",
+    "format": "rich_text",
+    "processed": "<i><b>Openness to sharing financial, technological, and knowledge resources is necessary to address the planet\u2019s complex sustainable development challenges.<\/b><\/i> One of the most rewarding partnerships of my career began about a decade ago in Reykjavik while sharing a bottle of Zicam. At a gathering of the Arctic Circle, while discussing challenges and opportunities in the Arctic region in part resulting from climate change, I was seated next to Carter Roberts, chairman and CEO of the World Wildlife Fund (WWF) in the United States. Besides wanting to avoid a cold (hence the Zicam), what connected us was our shared vision for economic development to be done responsibly and sustainably in the changing Arctic. Even though we approached the problem from different perspectives\u2014he runs an NGO focused on conservation, and I am responsible for billions of dollars of investment assets\u2014we both realized that our approaches to meeting this challenge were complementary. Our organizations have worked together ever since. I mention this story because the need for sustainable development is so great, and the challenges are so complex, that it simply will not be possible for one government, firm, organization, or person to solve them alone. An estimated $4.5 trillion in capital investment is needed every year in developing countries between now and 2030, according to the United Nations Global Goals for Sustainable Development (SDGs), which aim to end poverty, promote economic equality, and protect the planet. Accomplishing the SDGs is so daunting in scale and complexity that the 17th and final goal calls for groups to work together to help transform the world. Partnerships, according to Goal 17, are vital if sustainable development is to succeed. I am a firm believer in this goal and, in my experience, there are four basic models that have shown an ability to achieve it. One model is for a diverse group of stakeholders to converge around a single purpose. My most notable experience in the power of this model was in the effort to establish the Arctic Investment Protocol, a multi-year effort organized by the World Economic Forum and crystallized by a 22-member council of concerned stakeholders, including academic institutions, local and national governments, NGOs, businesses, trade organizations, and financial institutions. The result of our combined efforts in this project was a milestone in sustainable and responsible business practices, governance, and environmental stewardship. Another model calls for a smaller team of complementary partners to work together to complete a focused task. For example, Guggenheim has a long-running working relationship with WWF on sustainable development issues. Most recently, together we worked with the Stanford Global Projects Center to analyze the methodologies and tools for establishing sustainability standards. The result was a landmark study of the state of the practice, an important step in transitioning sustainable infrastructure development into an institutional asset class. A third model is when many like-minded entities converge around ideas that open up engagement and lead to more targeted solutions. I call this the conference model. Conferences such as the Milken Institute Global Conference and the World Economic Forum are important platforms for providing deadlines, focusing arguments, and prioritizing future projects. Within the larger Davos gathering, Guggenheim launched\u2014with partners WWF, the UN Foundation, the Rockefeller Foundation, and Ericsson\u2014the Goal 17 Partnerships event space. This event kicked off an ongoing program designed to expand partnerships to more broadly examine and develop real commitments to long-term sustainable development. The fourth model is the client\/provider model. In almost every instance of pursuing sustainability goals, a principal has to hire a consultant or advisor to ensure proper execution. We see this at work in the asset management business: It has become increasingly important to a growing number of clients that Environmental, Social, and Governance factors are formalized in asset managers\u2019 investment decisions. The partnership between client and asset manager is an important tool in using the economic power of institutional investors to advance sustainability goals while seeking an acceptable level of return. Openness to sharing financial, technological, and knowledge resources\u2014in whatever partnership model works best\u2014is necessary to address the planet\u2019s complex sustainable development challenges. It is incumbent on all organizations to seek out partnerships, collaborations, and relationships that work for them so that their contributions can lead to a healthier and safer world. <i>This material is distributed or presented for informational or educational purposes only and should not be considered a recommendation of any particular security, strategy, or investment product, or as investing advice of any kind. <\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,20 @@
+uuid: be731a39-0d1d-456d-950b-f20f58b66a68
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_pgid
+field_name: field_pgid
+entity_type: grid_speakers
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

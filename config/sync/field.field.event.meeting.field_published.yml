@@ -1,0 +1,23 @@
+uuid: dcf1bdbc-36dd-4379-8421-314a35bdfd25
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_published
+id: event.meeting.field_published
+field_name: field_published
+entity_type: event
+bundle: meeting
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

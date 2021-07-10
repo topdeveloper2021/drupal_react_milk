@@ -1,0 +1,21 @@
+uuid: 30c687ac-da54-41b6-ba2a-2c4e23a2463c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_meta_tags
+  module:
+    - metatag
+id: event.meeting.field_meta_tags
+field_name: field_meta_tags
+entity_type: event
+bundle: meeting
+label: 'meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

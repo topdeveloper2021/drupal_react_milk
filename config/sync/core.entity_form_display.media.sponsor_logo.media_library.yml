@@ -1,0 +1,39 @@
+uuid: 100d7f4c-a002-4cbb-8e66-3edefc5a7d96
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.sponsor_logo.field_filemime
+    - field.field.media.sponsor_logo.field_filesize
+    - field.field.media.sponsor_logo.field_height
+    - field.field.media.sponsor_logo.field_media_image
+    - field.field.media.sponsor_logo.field_width
+    - image.style.thumbnail
+    - media.type.sponsor_logo
+  module:
+    - image
+id: media.sponsor_logo.media_library
+targetEntityType: media
+bundle: sponsor_logo
+mode: media_library
+content:
+  field_media_image:
+    weight: -50
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  field_filemime: true
+  field_filesize: true
+  field_height: true
+  field_width: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

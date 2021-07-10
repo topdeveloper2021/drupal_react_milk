@@ -1,0 +1,50 @@
+uuid: aaf7b102-b162-4845-9b1b-018510a71ce5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.author.field_author
+    - field.field.paragraph.author.field_job_position
+    - field.field.paragraph.author.field_name
+    - field.field.paragraph.author.field_photo
+    - paragraphs.paragraphs_type.author
+  module:
+    - image
+id: paragraph.author.default
+targetEntityType: paragraph
+bundle: author
+mode: default
+content:
+  field_author:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_job_position:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_name:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_photo:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true

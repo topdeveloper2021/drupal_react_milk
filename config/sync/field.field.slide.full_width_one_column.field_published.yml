@@ -1,0 +1,23 @@
+uuid: 9ca6845b-eae2-43e3-b036-2d00a2f59eb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.slide.field_published
+id: slide.full_width_one_column.field_published
+field_name: field_published
+entity_type: slide
+bundle: full_width_one_column
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

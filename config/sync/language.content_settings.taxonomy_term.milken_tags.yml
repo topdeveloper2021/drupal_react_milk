@@ -1,0 +1,11 @@
+uuid: ba308470-c67a-44bf-b6f8-d5e85f0601b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.milken_tags
+id: taxonomy_term.milken_tags
+target_entity_type_id: taxonomy_term
+target_bundle: milken_tags
+default_langcode: site_default
+language_alterable: false

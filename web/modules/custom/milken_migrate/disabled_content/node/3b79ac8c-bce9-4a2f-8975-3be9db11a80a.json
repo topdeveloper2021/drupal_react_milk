@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/mental-wellness-key-more-prosperous-communities?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/77?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 543
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3b79ac8c-bce9-4a2f-8975-3be9db11a80a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 543
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/77?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "791374e7-d370-40a3-8083-470b8c982fa0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Mental Wellness: A Key to More Prosperous Communities",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T13:40:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T18:54:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/mental-wellness-key-more-prosperous-communities",
+            "pid": 596,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>We can make progress in the mental health of youth in a few simple ways.<\/b><\/i> At long last, leaders around the world are beginning to recognize what young people already know, and mental health is gradually being acknowledged as a global health and economic development priority. If we want to create a prosperous future, we need to invest in our young people\u2014not just in their academic success, financial literacy, or physical health but also in their mental and emotional wellness. As a mother and the head of Born This Way Foundation, I\u2019ve seen how leveraging our resources to foster mental health in our homes, schools, and communities can pay dividends\u2014for youth and those of all ages. There is the tangible economic benefit to be gained, with serious mental illness costing Americans more than $193 billion\u00a0in lost earnings every year, as well as the very real human potential that can be protected. Everyone has mental health, but this issue is particularly urgent for young people. <i>One in five youth aged 13 to 18 live with a mental health condition<\/i><i> <\/i>and half of all mental health illnesses emerge by age 14. Despite this prevalence, the average delay between the onset of symptoms and treatment for these youth is as long as a decade, with devastating consequences. Nearly 40 percent of youth struggling with a mental health condition will drop out of school and\u2014most alarmingly\u2014800,000 die by suicide globally each year, and suicide is the second leading cause of death in the US for everyone between the ages of 10 and 34. These statistics can be overwhelming, and it can be hard to know where to start to address the problem, but Born This Way Foundation\u2019s most recent research points to a few simple ways we can make progress. The findings demonstrate a few key factors to consider. First, young people care about their mental health and see it as a priority. However, approximately one in three says they lack reliable access to mental health resources, with even higher proportions of youth saying they would not have the tools needed to address many serious but common situations. For instance, about half of youth say they would not have the resources needed if they felt suicidal (48 percent) or felt like harming themselves (47 percent). Second, we must consider <i>why<\/i> youth are struggling to access these vital resources. When asked about their key barriers to access, nearly half of young people say they simply do not know where to go to find these tools. Cost is the second leading barrier, with 42 percent saying youth in their city \u201ccan\u2019t afford the cost\u201d of mental health resources. This is unsurprising since, to look at one common form of care, the cost of a single counseling or therapy session can range from $50 to $240 even for those with insurance. These statistics throw into sharp relief what we have been hearing anecdotally from young people across the country and around the world. While cost will be a more difficult barrier to dismantle, increasing awareness of existing resources has easier solutions. We can start with proactively educating youth about the different options that already exist in their communities (and online!) and where they can find them. We can build tools that allow youth to find these tools with the same ease we have when making a restaurant reservation or booking a handyman. Our research also tells us that young people are open to using these resources and that they <i>want<\/i> to develop skills to support their own wellness and one another. It is up to all of us to do a better job of providing those resources and teaching those skills. At long last, leaders around the world are beginning to recognize what young people already know, and mental health is gradually being acknowledged as a global health and economic development priority. Workplaces are improving the mental health care benefits they provide, governments are starting to dedicate real resources to the issue, and even the United Nations included it in their Sustainable Development Goals. We must build on this momentum, with the voices of young people at the forefront. The path to prosperity for any community will depend on how well we collaborate to bridge the gaps between youth and the resources and opportunities they need to support their mental health. This is no small challenge, but one our young people need us to face head on.",
+    "format": "rich_text",
+    "processed": "<i><b>We can make progress in the mental health of youth in a few simple ways.<\/b><\/i> At long last, leaders around the world are beginning to recognize what young people already know, and mental health is gradually being acknowledged as a global health and economic development priority. If we want to create a prosperous future, we need to invest in our young people\u2014not just in their academic success, financial literacy, or physical health but also in their mental and emotional wellness. As a mother and the head of Born This Way Foundation, I\u2019ve seen how leveraging our resources to foster mental health in our homes, schools, and communities can pay dividends\u2014for youth and those of all ages. There is the tangible economic benefit to be gained, with serious mental illness costing Americans more than $193 billion\u00a0in lost earnings every year, as well as the very real human potential that can be protected. Everyone has mental health, but this issue is particularly urgent for young people. <i>One in five youth aged 13 to 18 live with a mental health condition<\/i><i> <\/i>and half of all mental health illnesses emerge by age 14. Despite this prevalence, the average delay between the onset of symptoms and treatment for these youth is as long as a decade, with devastating consequences. Nearly 40 percent of youth struggling with a mental health condition will drop out of school and\u2014most alarmingly\u2014800,000 die by suicide globally each year, and suicide is the second leading cause of death in the US for everyone between the ages of 10 and 34. These statistics can be overwhelming, and it can be hard to know where to start to address the problem, but Born This Way Foundation\u2019s most recent research points to a few simple ways we can make progress. The findings demonstrate a few key factors to consider. First, young people care about their mental health and see it as a priority. However, approximately one in three says they lack reliable access to mental health resources, with even higher proportions of youth saying they would not have the tools needed to address many serious but common situations. For instance, about half of youth say they would not have the resources needed if they felt suicidal (48 percent) or felt like harming themselves (47 percent). Second, we must consider <i>why<\/i> youth are struggling to access these vital resources. When asked about their key barriers to access, nearly half of young people say they simply do not know where to go to find these tools. Cost is the second leading barrier, with 42 percent saying youth in their city \u201ccan\u2019t afford the cost\u201d of mental health resources. This is unsurprising since, to look at one common form of care, the cost of a single counseling or therapy session can range from $50 to $240 even for those with insurance. These statistics throw into sharp relief what we have been hearing anecdotally from young people across the country and around the world. While cost will be a more difficult barrier to dismantle, increasing awareness of existing resources has easier solutions. We can start with proactively educating youth about the different options that already exist in their communities (and online!) and where they can find them. We can build tools that allow youth to find these tools with the same ease we have when making a restaurant reservation or booking a handyman. Our research also tells us that young people are open to using these resources and that they <i>want<\/i> to develop skills to support their own wellness and one another. It is up to all of us to do a better job of providing those resources and teaching those skills. At long last, leaders around the world are beginning to recognize what young people already know, and mental health is gradually being acknowledged as a global health and economic development priority. Workplaces are improving the mental health care benefits they provide, governments are starting to dedicate real resources to the issue, and even the United Nations included it in their Sustainable Development Goals. We must build on this momentum, with the voices of young people at the forefront. The path to prosperity for any community will depend on how well we collaborate to bridge the gaps between youth and the resources and opportunities they need to support their mental health. This is no small challenge, but one our young people need us to face head on.",
+    "summary": null,
+    "summary_processed": ""
+}

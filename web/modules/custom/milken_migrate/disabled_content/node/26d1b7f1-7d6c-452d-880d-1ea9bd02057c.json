@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/what-are-americas-top-biotech-centers-new-milken-institute-study-shows-which-metros-lead?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 220
+        }
+    ],
+    "uuid": [
+        {
+            "value": "26d1b7f1-7d6c-452d-880d-1ea9bd02057c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 220
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What are America's top biotech centers? New Milken Institute study shows which metros lead in regional race to dominate this key industry",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/what-are-americas-top-biotech-centers-new-milken-institute-study-shows-which-metros-lead",
+            "pid": 273,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - In the race to generate high-paying jobs and underwrite local prosperity, regional leaders from across the U.S. are fighting hard to lure what many believe is the economic growth industry of the 21st century - biotechnology. According to a new study from the Milken Institute, only a handful of metropolitan areas have succeeded on a scale necessary to ensure industry sustainability. At the top of that list is San Diego, followed closely by Boston and the Raleigh-Durham-Chapel Hill metro area. Another nine are in the running. \"Clusters of existing and emerging science-based technologies are crucial factors in shaping the economic winners and losers of the first half of the 21st century,\" the authors state in the study, America\u2032s Biotech and Life Science Clusters, which was released today at the BIO 2004 conference in San Francisco. \"To create international comparative advantage in a knowledge-based economy, clustering innovative activity is imperative.\" Ross DeVol, Director of Regional Economics for the Institute and the study\u2032s principal author, explains that regional competition for biotech industries is fierce - and for good reason: \"The economic consequences of where these biotechnology clusters form and grow will likely be immense.\" According to the Institute\u2032s 2004 Biotech Index, the top 12 metros (and their composite scores) are: 1.\tSan Diego (100) <b>\n2.\tBoston (95.1)<br>\n3.\tRaleigh-Durham-Chapel Hill (92.5)<br>\n4.\tSan Jose (87.8)<br>\n5.\tSeattle-Bellevue-Everett (83.8)<br>\n6.\tWashington, D.C. (79.4)<br>\n7.\tPhiladelphia (76.5)<br>\n8.\tSan Francisco (75.8)<br>\n9.\tOakland (74.3)<br>\n10.\tLos Angeles-Long Beach (66.5)<br>\n11.\tOrange County, CA (54.1)<br>\n12.\tAustin-San Marcos (47.8) The rankings are based on two broad factors: The biotechnology innovation pipeline - infrastructure that allows a metro to capitalize on its biotech knowledge and creativity, such as the quality of its workforce and amount of research and development dollars it receives; and <br>\nthe current impact assessment - an area\u2032s success in bringing ideas to the marketplace and creating companies, jobs and products.<br> Overall, researchers used 44 different measurements, from the biotech venture-capital funding to the number of biotech scientists working in the region. It is the most comprehensive measurement of regional biotech centers ever conducted. Among the study\u2032s firsts: use of data from smaller, better-defined Metropolitan Statistical Areas (MSAs) instead of Consolidated Metropolitan Statistical Areas (CMSAs); more sophisticated weighting by population, employment or gross metro product, rather than using absolute numbers; and a unique biotechnology and life sciences data set providing detailed employment estimates through 2002 for recent growth comparisons. The study, prepared in cooperation with Deloitte & Touche LLP, focuses on the index\u2032s top metro, San Diego, whose life sciences industry is directly and indirectly responsible for 55,600 jobs and $5.8 billion in income - 5.3 percent of output - in the metro. It offers a case study of what it takes to form and nurture a biotech cluster. \"San Diego ranks as the top biotechnology cluster in the country,\" the study states. San Diego \"now has what can be considered an interlocked and multi-layered cluster that offers a uniquely entrepreneurial and creative dynamic.\" The study measures each metro\u2032s strength in five categories: R&D inputs, risk capital, human capital, biotech workforce and current impact. San Diego places first in R&D inputs and current impact. San Jose is first in the risk capital category, while Raleigh-Durham-Chapel Hill is first in the human capital and biotech workforce categories. If life sciences (which includes pharmaceuticals and medical devices) is included in the measurements, Boston would rank number one, followed by: San Diego (2), San Jose (3), Raleigh-Durham-Chapel Hill (4), Philadelphia (5), Seattle-Bellevue-Everett (6), San Francisco (7), Washington, D.C. (8), Oakland (9), Los Angeles (10), Orange County (11) and Austin-San Marcos (12). \"Both academia and the biotech industry are hungry for this type of information,\" said Teresa Young, co-leader of Deloitte\u2032s regional Life Sciences Industry group. \"We believe the findings will be a useful tool for other geographies that desire a level of success comparable to San Diego and the other top metro areas that have built thriving biotech clusters.\" View study. <b>Note to media<\/b>: The data set used in preparation of this study is available separately to crendentialed journalists. If you would like a copy, please contact Skip Rimer, Director of Communications, at 310-570-4654, or e-mail him at srimer@milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - In the race to generate high-paying jobs and underwrite local prosperity, regional leaders from across the U.S. are fighting hard to lure what many believe is the economic growth industry of the 21st century - biotechnology. According to a new study from the Milken Institute, only a handful of metropolitan areas have succeeded on a scale necessary to ensure industry sustainability. At the top of that list is San Diego, followed closely by Boston and the Raleigh-Durham-Chapel Hill metro area. Another nine are in the running. \"Clusters of existing and emerging science-based technologies are crucial factors in shaping the economic winners and losers of the first half of the 21st century,\" the authors state in the study, America\u2032s Biotech and Life Science Clusters, which was released today at the BIO 2004 conference in San Francisco. \"To create international comparative advantage in a knowledge-based economy, clustering innovative activity is imperative.\" Ross DeVol, Director of Regional Economics for the Institute and the study\u2032s principal author, explains that regional competition for biotech industries is fierce - and for good reason: \"The economic consequences of where these biotechnology clusters form and grow will likely be immense.\" According to the Institute\u2032s 2004 Biotech Index, the top 12 metros (and their composite scores) are: 1.\tSan Diego (100) <b>\n2.\tBoston (95.1)<br \/>\n3.\tRaleigh-Durham-Chapel Hill (92.5)<br \/>\n4.\tSan Jose (87.8)<br \/>\n5.\tSeattle-Bellevue-Everett (83.8)<br \/>\n6.\tWashington, D.C. (79.4)<br \/>\n7.\tPhiladelphia (76.5)<br \/>\n8.\tSan Francisco (75.8)<br \/>\n9.\tOakland (74.3)<br \/>\n10.\tLos Angeles-Long Beach (66.5)<br \/>\n11.\tOrange County, CA (54.1)<br \/>\n12.\tAustin-San Marcos (47.8) The rankings are based on two broad factors: The biotechnology innovation pipeline - infrastructure that allows a metro to capitalize on its biotech knowledge and creativity, such as the quality of its workforce and amount of research and development dollars it receives; and <br \/>\nthe current impact assessment - an area\u2032s success in bringing ideas to the marketplace and creating companies, jobs and products.<br \/> Overall, researchers used 44 different measurements, from the biotech venture-capital funding to the number of biotech scientists working in the region. It is the most comprehensive measurement of regional biotech centers ever conducted. Among the study\u2032s firsts: use of data from smaller, better-defined Metropolitan Statistical Areas (MSAs) instead of Consolidated Metropolitan Statistical Areas (CMSAs); more sophisticated weighting by population, employment or gross metro product, rather than using absolute numbers; and a unique biotechnology and life sciences data set providing detailed employment estimates through 2002 for recent growth comparisons. The study, prepared in cooperation with Deloitte &amp; Touche LLP, focuses on the index\u2032s top metro, San Diego, whose life sciences industry is directly and indirectly responsible for 55,600 jobs and $5.8 billion in income - 5.3 percent of output - in the metro. It offers a case study of what it takes to form and nurture a biotech cluster. \"San Diego ranks as the top biotechnology cluster in the country,\" the study states. San Diego \"now has what can be considered an interlocked and multi-layered cluster that offers a uniquely entrepreneurial and creative dynamic.\" The study measures each metro\u2032s strength in five categories: R&amp;D inputs, risk capital, human capital, biotech workforce and current impact. San Diego places first in R&amp;D inputs and current impact. San Jose is first in the risk capital category, while Raleigh-Durham-Chapel Hill is first in the human capital and biotech workforce categories. If life sciences (which includes pharmaceuticals and medical devices) is included in the measurements, Boston would rank number one, followed by: San Diego (2), San Jose (3), Raleigh-Durham-Chapel Hill (4), Philadelphia (5), Seattle-Bellevue-Everett (6), San Francisco (7), Washington, D.C. (8), Oakland (9), Los Angeles (10), Orange County (11) and Austin-San Marcos (12). \"Both academia and the biotech industry are hungry for this type of information,\" said Teresa Young, co-leader of Deloitte\u2032s regional Life Sciences Industry group. \"We believe the findings will be a useful tool for other geographies that desire a level of success comparable to San Diego and the other top metro areas that have built thriving biotech clusters.\" View study. <b>Note to media<\/b>: The data set used in preparation of this study is available separately to crendentialed journalists. If you would like a copy, please contact Skip Rimer, Director of Communications, at 310-570-4654, or e-mail him at srimer@milkeninstitute.org.<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

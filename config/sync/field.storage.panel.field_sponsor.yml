@@ -1,0 +1,21 @@
+uuid: 8372c284-87ef-4c33-93d9-26442f7bf10e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_sponsor
+field_name: field_sponsor
+entity_type: panel
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

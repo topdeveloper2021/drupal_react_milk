@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-releases-index-best-performing-cities?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 11
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f3bfea2a-9dae-405e-8826-b113448a069e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 11
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Releases Index of Best-Performing Cities",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-09T18:23:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-releases-index-best-performing-cities",
+            "pid": 64,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "SANTA MONICA, January 10, 2018 \u2013 Provo-Orem, UT, with its robust high-tech sector and broad-based job and wage growth, is the Best-Performing City in the United States, according to the Milken Institute\u2019s Best-Performing Cities 2017 Index.\nRaleigh, NC, with its comparatively low business costs and thriving research and development-driven industries ranked second in the nation. Dallas, which has added more than 50,000 high-skill professional, scientific and technical industry jobs in the last five years, came in third.\nOverall, six Florida and four California cities ranked among the top-25 Best-Performing Cities. California\u2019s Inland Empire (Riverside-San Bernardino-Ontario) jumped 24 places and made the top-20 for the first time in a decade. Also posting double-digit gains were the Florida regions of Sarasota-Bradenton, West Palm Beach-Boca Raton, and Tampa-St. Petersburg.\nSan Jose, CA, last year\u2019s top city, is showing signs of slowing and dropped ten places to #11 overall.\nBest-Performing Cities Ranking (Large Cities\/Metropolitan Areas) Provo-Orem, UT\nRaleigh, NC\nDallas-Plano-Irving, TX\nSan Francisco-Redwood City-South San Francisco, CA\nFort Collins, CO\nNorth Port-Sarasota-Bradenton, FL\nOrlando-Kissimmee-Sanford, FL\nNashville-Davidson-Murfreesboro-Franklin, TN\nAustin-Round Rock, TX\nSalt Lake City, UT\nSan Jose-Sunnyvale-Santa Clara, CA\nWest Palm Beach-Boca Raton-Delray Beach, FL\nCharlotte-Concord-Gastonia, NC-SC\nAtlanta-Sandy Springs-Roswell, GA\nTampa-St. Petersburg-Clearwater, FL\nOakland-Hayward-Berkeley, CA\nSeattle-Bellevue-Everett, WA\nNaples-Immokalee-Marco Island, FL\nSan Antonio-New Braunfels, TX\nRiverside-San Bernardino-Ontario, CA\nFort Lauderdale-Pompano Beach-Deerfield Beach, FL\nCharleston-North Charleston, SC\nDenver-Aurora-Lakewood, CO\nPortland-Vancouver-Hillsboro, OR-WA\nFayetteville-Springdale-Rogers, AR-MO Best-Performing Cities Ranking (Small Cities\/Metropolitan Areas)\nBend-Redmond, OR\nSt. George, UT\nGainesville, GA\nSan Rafael, CA\nWenatchee, WA\nElkhart-Goshen, IN\nYuba City, CA\nBellingham, WA\nColumbus, IN\nAuburn-Opelika, AL The Milken Institute Best-Performing Cities Index has been published annually since 1999. The index uses fact-based metrics in nine categories to evaluate the relative growth of metropolitan areas. Metrics include growth in jobs, wages and salaries, and technology output over time. The index also measures high-tech fields whose concentrations in a metropolitan area are higher than the national average.\u00a0\u201cProvo-Orem, UT outperformed all other metros by a wide margin,\u201d said Minoli Ratnatunga, Milken Institute director of regional economic research. \u201cHome to Brigham Young University (BYU) and a growing technology and entrepreneurial community, the region is adding to its workforce and reaping the rewards of a vibrant industry on the broader economy.\u201d\u00a0Salt Lake City also ranked among the top 10 large cities, while St. George, UT ranked second among Best-Performing Small Cities, making three Utah communities in the top tier of more than 400 regions evaluated.\"Utah's strong entrepreneurial spirit and business-friendly environment allow companies to grow in communities big and small,\" said Gov. Gary R. Herbert of Utah. \"As we invest in our skilled workforce and diverse economy, we continue to improve job opportunities and quality of life for residents statewide.\"\u00a0The Milken Institute\u2019s Best-Performing Cities index (www.best-cities.org) provides an objective benchmark for examining which regional strategies are succeeding.\u201cMetropolitan areas are crucial drivers of growth in the American economy, taking different paths to prosperity depending on their industry mix, policy choices, and available resources. While some parts of the country are thriving, others are falling behind,\u201d explains Kevin Klowden, executive director of the Milken Institute\u2019s Center for Regional Economics. \u201cOur goal is to help businesses, investors, industry associations, development agencies, government officials, academics, and public-policy groups monitor and evaluate how well their region is adapting to and planning for both current and future economic trends.\u201d\u00a0The full report, including tables with all 401 large and small regions evaluated, is available online at www.milkeninstitute.org.\u00a0About the Center for Regional EconomicsThe Center for Regional Economics promotes prosperity and sustainable growth by increasing understanding of the dynamics that drive job creation and fosters industry expansion. The Center\u2019s research and programs develop and disseminate innovative, actionable economic and policy solutions that provide change makers with the tools to create jobs and improve access to capital.",
+    "format": "rich_text",
+    "processed": "SANTA MONICA, January 10, 2018 \u2013 Provo-Orem, UT, with its robust high-tech sector and broad-based job and wage growth, is the Best-Performing City in the United States, according to the Milken Institute\u2019s Best-Performing Cities 2017 Index.\nRaleigh, NC, with its comparatively low business costs and thriving research and development-driven industries ranked second in the nation. Dallas, which has added more than 50,000 high-skill professional, scientific and technical industry jobs in the last five years, came in third.\nOverall, six Florida and four California cities ranked among the top-25 Best-Performing Cities. California\u2019s Inland Empire (Riverside-San Bernardino-Ontario) jumped 24 places and made the top-20 for the first time in a decade. Also posting double-digit gains were the Florida regions of Sarasota-Bradenton, West Palm Beach-Boca Raton, and Tampa-St. Petersburg.\nSan Jose, CA, last year\u2019s top city, is showing signs of slowing and dropped ten places to #11 overall.\nBest-Performing Cities Ranking (Large Cities\/Metropolitan Areas) Provo-Orem, UT\nRaleigh, NC\nDallas-Plano-Irving, TX\nSan Francisco-Redwood City-South San Francisco, CA\nFort Collins, CO\nNorth Port-Sarasota-Bradenton, FL\nOrlando-Kissimmee-Sanford, FL\nNashville-Davidson-Murfreesboro-Franklin, TN\nAustin-Round Rock, TX\nSalt Lake City, UT\nSan Jose-Sunnyvale-Santa Clara, CA\nWest Palm Beach-Boca Raton-Delray Beach, FL\nCharlotte-Concord-Gastonia, NC-SC\nAtlanta-Sandy Springs-Roswell, GA\nTampa-St. Petersburg-Clearwater, FL\nOakland-Hayward-Berkeley, CA\nSeattle-Bellevue-Everett, WA\nNaples-Immokalee-Marco Island, FL\nSan Antonio-New Braunfels, TX\nRiverside-San Bernardino-Ontario, CA\nFort Lauderdale-Pompano Beach-Deerfield Beach, FL\nCharleston-North Charleston, SC\nDenver-Aurora-Lakewood, CO\nPortland-Vancouver-Hillsboro, OR-WA\nFayetteville-Springdale-Rogers, AR-MO Best-Performing Cities Ranking (Small Cities\/Metropolitan Areas)\nBend-Redmond, OR\nSt. George, UT\nGainesville, GA\nSan Rafael, CA\nWenatchee, WA\nElkhart-Goshen, IN\nYuba City, CA\nBellingham, WA\nColumbus, IN\nAuburn-Opelika, AL The Milken Institute Best-Performing Cities Index has been published annually since 1999. The index uses fact-based metrics in nine categories to evaluate the relative growth of metropolitan areas. Metrics include growth in jobs, wages and salaries, and technology output over time. The index also measures high-tech fields whose concentrations in a metropolitan area are higher than the national average.\u00a0\u201cProvo-Orem, UT outperformed all other metros by a wide margin,\u201d said Minoli Ratnatunga, Milken Institute director of regional economic research. \u201cHome to Brigham Young University (BYU) and a growing technology and entrepreneurial community, the region is adding to its workforce and reaping the rewards of a vibrant industry on the broader economy.\u201d\u00a0Salt Lake City also ranked among the top 10 large cities, while St. George, UT ranked second among Best-Performing Small Cities, making three Utah communities in the top tier of more than 400 regions evaluated.\"Utah's strong entrepreneurial spirit and business-friendly environment allow companies to grow in communities big and small,\" said Gov. Gary R. Herbert of Utah. \"As we invest in our skilled workforce and diverse economy, we continue to improve job opportunities and quality of life for residents statewide.\"\u00a0The Milken Institute\u2019s Best-Performing Cities index (www.best-cities.org) provides an objective benchmark for examining which regional strategies are succeeding.\u201cMetropolitan areas are crucial drivers of growth in the American economy, taking different paths to prosperity depending on their industry mix, policy choices, and available resources. While some parts of the country are thriving, others are falling behind,\u201d explains Kevin Klowden, executive director of the Milken Institute\u2019s Center for Regional Economics. \u201cOur goal is to help businesses, investors, industry associations, development agencies, government officials, academics, and public-policy groups monitor and evaluate how well their region is adapting to and planning for both current and future economic trends.\u201d\u00a0The full report, including tables with all 401 large and small regions evaluated, is available online at www.milkeninstitute.org.\u00a0About the Center for Regional EconomicsThe Center for Regional Economics promotes prosperity and sustainable growth by increasing understanding of the dynamics that drive job creation and fosters industry expansion. The Center\u2019s research and programs develop and disseminate innovative, actionable economic and policy solutions that provide change makers with the tools to create jobs and improve access to capital.",
+    "summary": null,
+    "summary_processed": ""
+}

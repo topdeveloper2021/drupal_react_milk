@@ -1,0 +1,39 @@
+uuid: b8fa778f-6f01-4fdc-874b-df1f26e11ac2
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.search
+  module:
+    - component
+id: search-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    b28fda2f-99fb-4a1a-96af-5c023844a10b:
+      id: 'component:Search'
+      label: Search
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: b28fda2f-99fb-4a1a-96af-5c023844a10b
+      form_configuration:
+        id: search
+        type: ''
+        view_mode: accordion
+        url: /search
+        tag: search
+        attach_library: milken_base/Search
+      context_mapping: {  }
+  id: block_display
+  uuid: 9025627c-4d58-4f45-9638-05276fb26a6d
+  label: null
+  weight: 0
+  page_title: Search
+page: search
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

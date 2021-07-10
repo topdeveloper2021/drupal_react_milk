@@ -1,0 +1,41 @@
+# .env.dist
+
+## Basic Vars
+export ENV=local
+export BABEL_ENV=legacy
+export NODE_ENV=development
+
+## COMPOSER
+export COMPOSER_ALLOW_SUPERUSER=1
+export DRUPAL_MAJOR_VERSION=8
+
+## MYSQL
+export MYSQL_ROOT_PASSWORD=drupal
+export MYSQL_USER=milken-institute
+export MYSQL_PASSWORD=password
+export MYSQL_DATABASE=drupal8
+
+## REDIS
+export CACHE_HOST=redis
+export CACHE_PORT=6379
+
+## DRUPAL_SPECIFIC
+export PREPROCESS_CSS=FALSE
+export PREPROCESS_JS=FALSE
+export DB_DRIVER=mysql
+export DB_HOST=mysql
+export DB_NAME=drupal8
+export DB_USER=milken-institute
+export DB_PASSWORD=password
+export DB_PORT=3306
+export DRUPAL_SYSTEM_LOGGING_ERROR_LEVEL=verbose
+export DRUPAL_HASH_SALT=lDRPmMvzNIBzmBs4bvLXBot/r4uju6XZiiON3UolHQc=
+export DRUSH_OPTIONS_URI=localhost:8080
+
+## SOLR
+export SOLR_HOST=solr
+export SOLR_PORT=8983
+export SOLR_PATH=\/solr
+export SOLR_CORE=milken
+
+export NODE_TESTING_URL=https://live-freshdrupalmi.pantheonsite.io

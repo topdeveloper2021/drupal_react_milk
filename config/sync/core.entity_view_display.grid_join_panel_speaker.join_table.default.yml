@@ -1,0 +1,85 @@
+uuid: e31b4811-11d2-4ab3-bd2a-10ca4bf18946
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - field.field.grid_join_panel_speaker.join_table.field_event
+    - field.field.grid_join_panel_speaker.join_table.field_panel
+    - field.field.grid_join_panel_speaker.join_table.field_panel_id
+    - field.field.grid_join_panel_speaker.join_table.field_panel_speaker_id
+    - field.field.grid_join_panel_speaker.join_table.field_role
+    - field.field.grid_join_panel_speaker.join_table.field_speaker
+    - field.field.grid_join_panel_speaker.join_table.field_speaker_id
+id: grid_join_panel_speaker.join_table.default
+targetEntityType: grid_join_panel_speaker
+bundle: join_table
+mode: default
+content:
+  field_event:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_panel:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_panel_id:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_panel_speaker_id:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_role:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_speaker:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_speaker_id:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

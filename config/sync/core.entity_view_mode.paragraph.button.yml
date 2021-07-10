@@ -1,0 +1,10 @@
+uuid: d1864ffc-a759-4b6f-9c70-3413d10febb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.button
+label: Button
+targetEntityType: paragraph
+cache: true

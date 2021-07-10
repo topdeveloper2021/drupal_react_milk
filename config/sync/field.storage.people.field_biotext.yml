@@ -1,0 +1,19 @@
+uuid: a3241e72-8fb5-4e84-b0b1-38ca56f7531b
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_biotext
+field_name: field_biotext
+entity_type: people
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

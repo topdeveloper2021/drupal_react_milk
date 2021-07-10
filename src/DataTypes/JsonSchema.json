@@ -1,0 +1,2081 @@
+{
+  "$schema": "https:\/\/json-schema.org\/draft\/2019-09\/hyper-schema",
+  "$id": "http:\/\/localhost:8080\/jsonapi\/schema",
+  "allOf": [
+    {
+      "$ref": "https:\/\/jsonapi.org\/schema#\/definitions\/success"
+    },
+    {
+      "type": "object",
+      "links": [
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Blocks",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/block\/block\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/block--block\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Hub Headers custom blocks",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/block_content\/hub_headers\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/block_content--hub_headers\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Custom block types",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/block_content_type\/block_content_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/block_content_type--block_content_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Business rules action entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/business_rules_action\/business_rules_action\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/business_rules_action--business_rules_action\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Business rules entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/business_rule\/business_rule\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/business_rule--business_rule\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Business rules condition entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/business_rules_condition\/business_rules_condition\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/business_rules_condition--business_rules_condition\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Schedule entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/business_rules_schedule\/business_rules_schedule\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/business_rules_schedule--business_rules_schedule\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Business rules variable entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/business_rules_variable\/business_rules_variable\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/business_rules_variable--business_rules_variable\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Configuration split setting entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/config_split\/config_split\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/config_split--config_split\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Consumer entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/consumer\/consumer\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/consumer--consumer\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Crop type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/crop_type\/crop_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/crop_type--crop_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Eck entity bundle entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/eck_entity_bundle\/eck_entity_bundle\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/eck_entity_bundle--eck_entity_bundle\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Eck entity type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/eck_entity_type\/eck_entity_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/eck_entity_type--eck_entity_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Text editors",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/editor\/editor\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/editor--editor\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Embed button entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/embed_button\/embed_button\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/embed_button--embed_button\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Entity browser entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_browser\/entity_browser\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_browser--entity_browser\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Entity queue entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_queue\/entity_queue\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_queue--entity_queue\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Events subqueues",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_subqueue\/events\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_subqueue--events\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Featured subqueues",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_subqueue\/featured\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_subqueue--featured\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Featured Videos subqueues",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_subqueue\/featured_videos\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_subqueue--featured_videos\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Homepage_slides subqueues",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_subqueue\/homepage_slides\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_subqueue--homepage_slides\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Homepage_videos subqueues",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_subqueue\/homepage_videos\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_subqueue--homepage_videos\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Landing Pages subqueues",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_subqueue\/landing_pages\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_subqueue--landing_pages\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Facet entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/facets_facet\/facets_facet\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/facets_facet--facets_facet\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Facet source entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/facets_facet_source\/facets_facet_source\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/facets_facet_source--facets_facet_source\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Facet summary entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/facets_summary\/facets_summary\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/facets_summary--facets_summary\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Fields",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/field_config\/field_config\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/field_config--field_config\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Field storages",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/field_storage_config\/field_storage_config\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/field_storage_config--field_storage_config\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Files",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/file\/file\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/file--file\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Text formats",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/filter_format\/filter_format\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/filter_format--filter_format\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Server entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/graphql_server\/graphql_server\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/graphql_server--graphql_server\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Image styles",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/image_style\/image_style\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/image_style--image_style\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Render profile entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/js_entity_render_profile\/js_entity_render_profile\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/js_entity_render_profile--js_entity_render_profile\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "JSON:API resource overrides",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/jsonapi_resource_config\/jsonapi_resource_config\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/jsonapi_resource_config--jsonapi_resource_config\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Languages",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/configurable_language\/configurable_language\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/configurable_language--configurable_language\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Content languages settings",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/language_content_settings\/language_content_settings\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/language_content_settings--language_content_settings\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Layout builder styles",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/layout_builder_style\/layout_builder_style\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/layout_builder_style--layout_builder_style\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Image media items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media\/image\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media--image\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Podcast Episode media items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media\/podcast_episode\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media--podcast_episode\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Report media items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media\/report\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media--report\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Sponsor Logo media items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media\/sponsor_logo\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media--sponsor_logo\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Video media items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media\/video\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media--video\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Video Stream media items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media\/video_stream\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media--video_stream\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Media types",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/media_type\/media_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/media_type--media_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Metatag defaults entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/metatag_defaults\/metatag_defaults\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/metatag_defaults--metatag_defaults\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Migration entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/migration\/migration\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/migration--migration\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Migration group entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/migration_group\/migration_group\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/migration_group--migration_group\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Cron migration entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/cron_migration\/cron_migration\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/cron_migration--cron_migration\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Article content items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/node\/article\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/node--article\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Career content items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/node\/career\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/node--career\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Landing Page content items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/node\/landing_page\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/node--landing_page\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Opportunity content items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/node\/opportunity\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/node--opportunity\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Session content items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/node\/session\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/node--session\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Content types",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/node_type\/node_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/node_type--node_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Page entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/page\/page\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/page--page\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Page variant entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/page_variant\/page_variant\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/page_variant--page_variant\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Author Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/author\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--author\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Block Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/block\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--block\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Body Content Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/body_content\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--body_content\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tiles - Content Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/content_tiles\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--content_tiles\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tiles - Event Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/event_tiles\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--event_tiles\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tiles - EntityQueue Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/items_from_an_entityqueue\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--items_from_an_entityqueue\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tiles - Media Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/media_tiles\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--media_tiles\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Paragraph Tab Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/paragraph_tab\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--paragraph_tab\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Podcast Episode Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/podcast_episode\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--podcast_episode\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Program Day Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/program_day\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--program_day\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Pull Quote Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/pull_quote\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--pull_quote\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Slideshow Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/slide\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--slide\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tiles - Slides Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/slide_tiles\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--slide_tiles\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tiles - Taxonomy Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/tiles_taxonomy\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--tiles_taxonomy\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Unmigrated Paragraph Paragraphs",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraph\/unmigrated_paragraph\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraph--unmigrated_paragraph\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Paragraphs types",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraphs_type\/paragraphs_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraphs_type--paragraphs_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Paragraphs browser type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/paragraphs_browser_type\/paragraphs_browser_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/paragraphs_browser_type--paragraphs_browser_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "URL aliases",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/path_alias\/path_alias\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/path_alias--path_alias\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "RDF mappings items",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/rdf_mapping\/rdf_mapping\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/rdf_mapping--rdf_mapping\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Responsive image styles",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/responsive_image_style\/responsive_image_style\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/responsive_image_style--responsive_image_style\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "REST resource configurations",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/rest_resource_config\/rest_resource_config\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/rest_resource_config--rest_resource_config\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Search pages",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/search_page\/search_page\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/search_page--search_page\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Access Token oauth2 token entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/oauth2_token\/access_token\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/oauth2_token--access_token\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Auth code oauth2 token entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/oauth2_token\/auth_code\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/oauth2_token--auth_code\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Refresh token oauth2 token entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/oauth2_token\/refresh_token\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/oauth2_token--refresh_token\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Oauth2 token type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/oauth2_token_type\/oauth2_token_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/oauth2_token_type--oauth2_token_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Actions",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/action\/action\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/action--action\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Menus",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu\/menu\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu--menu\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Centers taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/centers\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--centers\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Collections taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/collections\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--collections\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Department taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/department\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--department\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Location taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/location\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--location\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Milken Tags taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/milken_tags\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--milken_tags\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "PH: Actions taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/ph_actions\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--ph_actions\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "PH: Focus taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/ph_focus\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--ph_focus\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "PH: Hub taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/ph_hub\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--ph_hub\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "PH: Region taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/ph_region\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--ph_region\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "PH: Terms taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/ph_terms\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--ph_terms\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Program and Initiatives taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/program_initiatives\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--program_initiatives\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Projects taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/projects\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--projects\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Region taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/region\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--region\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Seniority taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/seniority\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--seniority\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Teams taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/teams\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--teams\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Topics taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/topics\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--topics\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Event Tracks taxonomy terms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_term\/tracks\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_term--tracks\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Vocabularies",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/taxonomy_vocabulary\/taxonomy_vocabulary\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/taxonomy_vocabulary--taxonomy_vocabulary\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Theme switcher rule entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/theme_switcher_rule\/theme_switcher_rule\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/theme_switcher_rule--theme_switcher_rule\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Roles",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/user_role\/user_role\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/user_role--user_role\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Users",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/user\/user\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/user--user\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Webforms",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/webform\/webform\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/webform--webform\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Webform options",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/webform_options\/webform_options\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/webform_options--webform_options\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "User account menu custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/account\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--account\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Administration custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/admin\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--admin\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Asia Center custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/asia\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--asia\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Footer custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/footer\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--footer\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Footer Links Menu custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/footer-links-menu\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--footer-links-menu\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Footer Social Menu custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/footer-social-menu\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--footer-social-menu\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Global Market Development custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/global-market-development\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--global-market-development\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Main navigation custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "FasterCures custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main-menu---fastercures\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main-menu---fastercures\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Center for Financial Markets custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main-menu---financial-marke\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main-menu---financial-marke\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Center for the Future of Aging custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main-menu---future-of-aging\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main-menu---future-of-aging\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Center for Regional Economics and California Center custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main-menu---regional-econom\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main-menu---regional-econom\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Center for Public Health custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main-menu---resnick-public-\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main-menu---resnick-public-\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Center for Strategic Philanthropy custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/main-menu---strategic-phila\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--main-menu---strategic-phila\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Newsroom External links custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/newsroom-external-links\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--newsroom-external-links\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Tools custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/tools\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--tools\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Workbench custom menu links",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/menu_link_content\/workbench\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/menu_link_content--workbench\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Pathauto pattern entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/pathauto_pattern\/pathauto_pattern\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/pathauto_pattern--pathauto_pattern\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Views",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/view\/view\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/view--view\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Search indexes",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/search_api_index\/search_api_index\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/search_api_index--search_api_index\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Search servers",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/search_api_server\/search_api_server\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/search_api_server--search_api_server\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Search tasks",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/search_api_task\/search_api_task\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/search_api_task--search_api_task\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Solr cache entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/solr_cache\/solr_cache\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/solr_cache--solr_cache\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Solr field type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/solr_field_type\/solr_field_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/solr_field_type--solr_field_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Solr request dispatcher entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/solr_request_dispatcher\/solr_request_dispatcher\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/solr_request_dispatcher--solr_request_dispatcher\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Solr request handler entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/solr_request_handler\/solr_request_handler\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/solr_request_handler--solr_request_handler\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Date format entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/date_format\/date_format\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/date_format--date_format\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Entity form display entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_form_display\/entity_form_display\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_form_display--entity_form_display\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Form mode entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_form_mode\/entity_form_mode\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_form_mode--entity_form_mode\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Entity view display entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_view_display\/entity_view_display\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_view_display--entity_view_display\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "View mode entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/entity_view_mode\/entity_view_mode\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/entity_view_mode--entity_view_mode\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Base field override entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/base_field_override\/base_field_override\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/base_field_override--base_field_override\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Conference event entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/event\/conference\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/event--conference\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Meeting event entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/event\/meeting\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/event--meeting\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Summit event entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/event\/summit\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/event--summit\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Event type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/event_type\/event_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/event_type--event_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Conference Center location entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/location\/conference_center\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/location--conference_center\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Location type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/location_type\/location_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/location_type--location_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Missing Migration missing migration entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/missing_migration\/missing_migration\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/missing_migration--missing_migration\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Missing migration type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/missing_migration_type\/missing_migration_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/missing_migration_type--missing_migration_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Panel panel entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/panel\/panel\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/panel--panel\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Panel type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/panel_type\/panel_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/panel_type--panel_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Speakers people entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/people\/speakers\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/people--speakers\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Staff people entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/people\/staff\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/people--staff\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "People type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/people_type\/people_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/people_type--people_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Rooms rooms entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/rooms\/rooms\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/rooms--rooms\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Rooms type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/rooms_type\/rooms_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/rooms_type--rooms_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "50\/50 Text on left slide entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/slide\/50_50_text_on_left\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/slide--50_50_text_on_left\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "50\/50-text on right slide entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/slide\/50_50_text_on_right\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/slide--50_50_text_on_right\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "HERO\/Full Width One Column slide entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/slide\/full_width_one_column\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/slide--full_width_one_column\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "HERO Half Height slide entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/slide\/hero_half_height\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/slide--hero_half_height\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        },
+        {
+          "href": "{instanceHref}",
+          "rel": "related",
+          "title": "Slide type entities",
+          "targetMediaType": "application\/vnd.api+json",
+          "targetSchema": "http:\/\/localhost:8080\/jsonapi\/slide_type\/slide_type\/collection\/schema",
+          "templatePointers": {
+            "instanceHref": "\/links\/slide_type--slide_type\/href"
+          },
+          "templateRequired": [
+            "instanceHref"
+          ]
+        }
+      ]
+    }
+  ]
+}

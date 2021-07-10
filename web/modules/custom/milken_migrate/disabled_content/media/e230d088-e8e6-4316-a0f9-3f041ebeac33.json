@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7701\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/5RXWw645ldoof_Kqwv9HqKAjLjUcHstrkAAUQUAIseo.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7701
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e230d088-e8e6-4316-a0f9-3f041ebeac33"
+        }
+    ],
+    "vid": [
+        {
+            "value": 403
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/5RXWw645ldoof_Kqwv9HqKAjLjUcHstrkAAUQUAIseo.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9ba645a1-9848-41bb-a7ba-c1c0c90fc2fa"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Overview",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-10-13T08:58:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Monetary policy and low oil prices have helped push the global economy forward, but ensuring sustained prosperity will require more work. Growth in the U.S. remains solid despite developing-market hiccups and the prospect of an interest-rate hike, and the UK is growing at a faster-than-expected pace. Growth also is picking up in the euro zone and Japan. But potential stumbling blocks remain, including the mass migration of Mideast refugees to the European Union. China is struggling to maintain robust growth while dealing with an unstable stock market. Among the BRIC nations, only India is likely to accelerate this year. And the Greek debt crisis still haunts Europe. Will that impaired nation derail the modest expansion projected for the euro zone this year? What can be done to raise productivity and competitiveness in slow- and no-growth economies? How will continued conflict in the Middle East and Ukraine influence confidence?",
+    "format": "rich_text",
+    "processed": "Monetary policy and low oil prices have helped push the global economy forward, but ensuring sustained prosperity will require more work. Growth in the U.S. remains solid despite developing-market hiccups and the prospect of an interest-rate hike, and the UK is growing at a faster-than-expected pace. Growth also is picking up in the euro zone and Japan. But potential stumbling blocks remain, including the mass migration of Mideast refugees to the European Union. China is struggling to maintain robust growth while dealing with an unstable stock market. Among the BRIC nations, only India is likely to accelerate this year. And the Greek debt crisis still haunts Europe. Will that impaired nation derail the modest expansion projected for the euro zone this year? What can be done to raise productivity and competitiveness in slow- and no-growth economies? How will continued conflict in the Middle East and Ukraine influence confidence?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ZDEcohh2QAE",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/5RXWw645ldoof_Kqwv9HqKAjLjUcHstrkAAUQUAIseo.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

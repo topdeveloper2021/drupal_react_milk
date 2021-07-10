@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/dementia-exacts-heaviest-toll-women-new-milken-institute-report-quantifies-direct-and?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 34
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e3315fbe-92dc-4f62-bb22-b94b10fa2797"
+        }
+    ],
+    "vid": [
+        {
+            "value": 34
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Dementia Exacts Heaviest Toll on Women: New Milken Institute Report Quantifies the Direct and Indirect Economic Effects  of Cognitive Loss",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-03-01T15:09:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/dementia-exacts-heaviest-toll-women-new-milken-institute-report-quantifies-direct-and",
+            "pid": 87,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014Dementia presents a pernicious gender-based health disparity in the United States, inflicting a disproportionate burden on women as both patients and caregivers. Of the 6.4 million Americans with dementia, women account for 4.2 million of them\u2014or two-thirds of the patient population. This has been attributed to the fact that women live longer than men and have higher incidences of chronic diseases that increase the risk of developing dementia. However, recent research suggests there may be biological pathways that lead to greater cognitive impairment in females. Women also make up the majority of informal caregivers, often as family members of dementia patients who need around-the-clock assistance with the most basic needs.Given the rapid increase in the population of older Americans, the number of women with dementia and those serving as informal caregivers will escalate and cost the economy a cumulative $5.1 trillion (in 2012 dollars) through 2040. This is according to \u201cThe Price Women Pay for Dementia: Strategies to Ease Gender Disparity and Economic Costs,\u201d released today by the Milken Institute.\u201cClearly, if we don\u2019t change the current trajectory by delaying the average age of dementia onset, slowing its progression and severity, and ultimately, finding a cure, the human and economic toll on women, their families and society will be immense,\u201d said Ross DeVol, the institute\u2019s chief research officer and an author of the report. \u201cIn addition to the financial incentive for narrowing gender disparities, there is a moral obligation to do so. Such a gender-related health disparity works to aggravate other economic disparities for women and impairs quality of life for all.\u201dThis report provides fact-based evidence of the economic burden of dementia on women by aggregating the effects on the health-care system, the labor market and living arrangements. \u201cIt exposes an insidious impact that is often overlooked or ignored: the gender disparities that women suffer as patients and caregivers, and the particularly intensive role of the dementia caregiver,\u201d said Sindhu Kubendran, a Milken Institute research analyst and an author of the report.Quantifying dementia\u2019s effects on the health-care system, long-term support services and the labor market makes a case for increased awareness, funding, research and care. Ultimately, a cure must be found, but in the interim, it will take a concerted effort on various fronts to tackle the disease effectively. To that end, the report details five policy prescriptions:Widen access to health careExpand scope and flow of services\nRaise dementia awareness and expand caregiver training\nProvide support in the workplace\nIncrease funding for Alzheimer\u2019s and dementia research\n\u201cAs it stands, preexisting societal norms often result in women becoming the default caregivers who must grapple with insufficient support and the extraordinarily difficult demands of dementia care,\u201d said Kubendran.The Price Women Pay for Dementia: Strategies to Ease Gender Disparity and Economic Costs is by Sindhu Kubendran, Ross DeVol and Anusuya Chatterjee, and can be found here: http:\/\/www.milkeninstitute.org\/publications\/view\/778.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014Dementia presents a pernicious gender-based health disparity in the United States, inflicting a disproportionate burden on women as both patients and caregivers. Of the 6.4 million Americans with dementia, women account for 4.2 million of them\u2014or two-thirds of the patient population. This has been attributed to the fact that women live longer than men and have higher incidences of chronic diseases that increase the risk of developing dementia. However, recent research suggests there may be biological pathways that lead to greater cognitive impairment in females. Women also make up the majority of informal caregivers, often as family members of dementia patients who need around-the-clock assistance with the most basic needs.Given the rapid increase in the population of older Americans, the number of women with dementia and those serving as informal caregivers will escalate and cost the economy a cumulative $5.1 trillion (in 2012 dollars) through 2040. This is according to \u201cThe Price Women Pay for Dementia: Strategies to Ease Gender Disparity and Economic Costs,\u201d released today by the Milken Institute.\u201cClearly, if we don\u2019t change the current trajectory by delaying the average age of dementia onset, slowing its progression and severity, and ultimately, finding a cure, the human and economic toll on women, their families and society will be immense,\u201d said Ross DeVol, the institute\u2019s chief research officer and an author of the report. \u201cIn addition to the financial incentive for narrowing gender disparities, there is a moral obligation to do so. Such a gender-related health disparity works to aggravate other economic disparities for women and impairs quality of life for all.\u201dThis report provides fact-based evidence of the economic burden of dementia on women by aggregating the effects on the health-care system, the labor market and living arrangements. \u201cIt exposes an insidious impact that is often overlooked or ignored: the gender disparities that women suffer as patients and caregivers, and the particularly intensive role of the dementia caregiver,\u201d said Sindhu Kubendran, a Milken Institute research analyst and an author of the report.Quantifying dementia\u2019s effects on the health-care system, long-term support services and the labor market makes a case for increased awareness, funding, research and care. Ultimately, a cure must be found, but in the interim, it will take a concerted effort on various fronts to tackle the disease effectively. To that end, the report details five policy prescriptions:Widen access to health careExpand scope and flow of services\nRaise dementia awareness and expand caregiver training\nProvide support in the workplace\nIncrease funding for Alzheimer\u2019s and dementia research\n\u201cAs it stands, preexisting societal norms often result in women becoming the default caregivers who must grapple with insufficient support and the extraordinarily difficult demands of dementia care,\u201d said Kubendran.The Price Women Pay for Dementia: Strategies to Ease Gender Disparity and Economic Costs is by Sindhu Kubendran, Ross DeVol and Anusuya Chatterjee, and can be found here: http:\/\/www.milkeninstitute.org\/publications\/view\/778.",
+    "summary": null,
+    "summary_processed": ""
+}

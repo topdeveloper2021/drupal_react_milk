@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/removing-barriers-aging-well?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/222?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 850
+        }
+    ],
+    "uuid": [
+        {
+            "value": "00708977-1baa-43ff-8152-312ace8b106d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 850
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/222?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cc30b389-10d2-44e6-a4ca-27c4e5c6a8b6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Removing Barriers to Aging Well",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T02:48:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:10:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/removing-barriers-aging-well",
+            "pid": 903,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "For far too many people in our communities, homelessness itself is a dangerous health condition. After Joyce Bigelow\u2019s husband passed away, she lost nearly everything and found herself sleeping with her dog in the back seat of her truck at age 85. Joyce\u2019s Kaiser Permanente physician, Juan Mu\u00f1oz Oca, immediately recognized the impact her housing situation was having on her health. Without safe, stable housing, access to nutritious food, and social support, it\u2019s nearly impossible for anyone to maintain health and well-being. These pressing social needs are increasingly difficult to meet for older Americans like Joyce. Between 2015 and 2060, the number of individuals over 65 will double; the number of individuals over 80 will triple. At the same time, the cost of retirement is growing far beyond what much of the population can afford. An estimated 35 million baby boomers lack any retirement savings, and only 27 percent think they\u2019ll have enough money to cover health-care expenses as they age. According to a recent report by Feeding America, 5.5 million seniors don\u2019t have access to the food they need to live a healthy life. Fortunately, Joyce says, she had support. Dr. Mu\u00f1oz Oca connected her to social health services navigator Maki Akiyama, who helped her apply for assistance and find a place to live. \u201cI\u2019m relieved. I have a place, my dog is safe, and I\u2019m not going anywhere,\u201d Joyce says. Joyce\u2019s story reminds us that health care extends beyond the clinic. There is an urgent need to facilitate the three components of successful aging\u2014function, health status, and social inclusion\u2014so that people can age with dignity and purpose. We believe that health-care providers, along with policymakers, public health advocates, community-based organizations, and social service agencies, can all contribute to creating a system that is more responsive to people\u2019s needs as they age. Kaiser Permanente is pursuing that mission in part by partnering with organizations to catalyze innovations for longevity and improved health outcomes. In 2018, we worked with Village Capital, a global venture capital firm that discovers, develops, and invests in entrepreneurs solving real-world problems, to convene an Aging Challenge Design Roundtable. The roundtable identified opportunities to improve health for aging populations in the workforce as well as enable aging at home\u2014one of the top challenges facing seniors. Priorities included expanding caregiver support networks, assisting with managing finances, and organizing affordable support services. In collaboration with technology company Unite Us, we created a transformative social health network, Thrive Local, that addresses individual\u2019s pressing social needs, such as housing, food, safety, utilities, and more. Through our screening programs, we know food security, housing, and transportation are our communities\u2019 most pressing needs. With Thrive Local, information from the network can be used by Kaiser Permanente and community partners to better understand the social needs of entire communities, identify gaps in care, and ultimately improve community conditions for health nationwide. The first network launched in our Portland market last summer, and additional networks continue to roll out throughout our entire footprint. In another partnership with Bay Area Community Services, we are housing 515\u00a0aging, homeless adults over age 50 who have at least one chronic health condition and, at the same time, ensuring they have access to the benefits and services available to them to meet their basic needs on an ongoing basis. As increasing numbers of people grow old on the streets, keeping them well means finding them a safe place to live and addressing their full range of needs, from medical care and transportation to healthy food and social connection. \u201cI never imagined I would be homeless,\u201d Joyce says. We have to resolve to keep it that way for all of our community members and not let experiences like Joyce\u2019s become accepted as the status quo. With a broader understanding of what it means to maintain health and well-being as people age, I am confident we can create a more hopeful outlook for millions of people in the communities we serve.\u00a0",
+    "format": "rich_text",
+    "processed": "For far too many people in our communities, homelessness itself is a dangerous health condition. After Joyce Bigelow\u2019s husband passed away, she lost nearly everything and found herself sleeping with her dog in the back seat of her truck at age 85. Joyce\u2019s Kaiser Permanente physician, Juan Mu\u00f1oz Oca, immediately recognized the impact her housing situation was having on her health. Without safe, stable housing, access to nutritious food, and social support, it\u2019s nearly impossible for anyone to maintain health and well-being. These pressing social needs are increasingly difficult to meet for older Americans like Joyce. Between 2015 and 2060, the number of individuals over 65 will double; the number of individuals over 80 will triple. At the same time, the cost of retirement is growing far beyond what much of the population can afford. An estimated 35 million baby boomers lack any retirement savings, and only 27 percent think they\u2019ll have enough money to cover health-care expenses as they age. According to a recent report by Feeding America, 5.5 million seniors don\u2019t have access to the food they need to live a healthy life. Fortunately, Joyce says, she had support. Dr. Mu\u00f1oz Oca connected her to social health services navigator Maki Akiyama, who helped her apply for assistance and find a place to live. \u201cI\u2019m relieved. I have a place, my dog is safe, and I\u2019m not going anywhere,\u201d Joyce says. Joyce\u2019s story reminds us that health care extends beyond the clinic. There is an urgent need to facilitate the three components of successful aging\u2014function, health status, and social inclusion\u2014so that people can age with dignity and purpose. We believe that health-care providers, along with policymakers, public health advocates, community-based organizations, and social service agencies, can all contribute to creating a system that is more responsive to people\u2019s needs as they age. Kaiser Permanente is pursuing that mission in part by partnering with organizations to catalyze innovations for longevity and improved health outcomes. In 2018, we worked with Village Capital, a global venture capital firm that discovers, develops, and invests in entrepreneurs solving real-world problems, to convene an Aging Challenge Design Roundtable. The roundtable identified opportunities to improve health for aging populations in the workforce as well as enable aging at home\u2014one of the top challenges facing seniors. Priorities included expanding caregiver support networks, assisting with managing finances, and organizing affordable support services. In collaboration with technology company Unite Us, we created a transformative social health network, Thrive Local, that addresses individual\u2019s pressing social needs, such as housing, food, safety, utilities, and more. Through our screening programs, we know food security, housing, and transportation are our communities\u2019 most pressing needs. With Thrive Local, information from the network can be used by Kaiser Permanente and community partners to better understand the social needs of entire communities, identify gaps in care, and ultimately improve community conditions for health nationwide. The first network launched in our Portland market last summer, and additional networks continue to roll out throughout our entire footprint. In another partnership with Bay Area Community Services, we are housing 515\u00a0aging, homeless adults over age 50 who have at least one chronic health condition and, at the same time, ensuring they have access to the benefits and services available to them to meet their basic needs on an ongoing basis. As increasing numbers of people grow old on the streets, keeping them well means finding them a safe place to live and addressing their full range of needs, from medical care and transportation to healthy food and social connection. \u201cI never imagined I would be homeless,\u201d Joyce says. We have to resolve to keep it that way for all of our community members and not let experiences like Joyce\u2019s become accepted as the status quo. With a broader understanding of what it means to maintain health and well-being as people age, I am confident we can create a more hopeful outlook for millions of people in the communities we serve.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

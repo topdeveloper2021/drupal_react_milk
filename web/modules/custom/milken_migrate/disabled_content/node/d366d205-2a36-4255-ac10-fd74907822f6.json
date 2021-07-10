@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/its-time-talk-about-mental-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/92?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 573
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d366d205-2a36-4255-ac10-fd74907822f6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 573
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/92?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2e2095b-7c77-4e05-a2b1-ef8b956068f1"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "It\u2019s Time to Talk About Mental Health",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T17:39:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/its-time-talk-about-mental-health",
+            "pid": 626,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "At long last, the conversation around mental health is beginning to shift. Progress is slow and all too often still inadequate, but we are beginning to see signs of change. Governments are recognizing that mental health is foundational to the functioning of our communities\u2014and our economies. Health-care experts and providers are beginning to identify better treatment options and bring them to scale. Those with lived experiences are making their stories heard, and\u00a0advocates\u00a0are organizing to secure the dramatic funding increases so desperately needed. These are all real and important steps toward addressing an issue that kills hundreds of thousands each year, but the transformation we need must take place within our families and communities just as much as in our doctors\u2019 offices and research laboratories. So many of us are still unable to be honest about our own mental health challenges or remain unsure of how to support someone in our lives who is struggling. And so long as the remnants of stigma and a widespread lack of understanding persist at the individual level, our ability to prevent, treat, and care for mental ill-health at the societal level will be hampered. It is not surprising that most people feel, at best, awkward and uncertain talking about mental health. We\u2019re never taught how to do it, we rarely see it modeled, and we receive few invitations to practice doing it. In research commissioned by Born This Way Foundation, nearly\u00a0nine in ten young people\u00a0surveyed said they considered mental health an important priority but less than half said they discuss it with anyone in their lives. That disconnect makes sense when one considers the limited emphasis we place on the issue\u2014in schools or in society at large. For example, more than one-third of the high school students polled in the same survey said mental health was never even mentioned in any of their classes. Beyond shaking off the stigma that still cloaks mental health\u2014portraying it as a moral failing or matter of weakness\u2014we must actively encourage and foster healthy conversations about mental wellness. That will take a change in culture, but it will also take resources. Young people and adults alike need to be provided with tangible tools, information, and resources to help them start an ongoing dialogue about mental health. We need to help people understand what mental wellness is and build skills that help support it. <br \/> Programs to do this already exist, like\u00a0Mental Health First Aid, which has trained more than a million people in the United States alone to identify and support someone facing a mental health challenge. While doing important work, such interventions in isolation will not fix the mental health crisis we are facing globally. Helping individuals and their communities understand and talk about these issues in an open, healthy way is critical to enabling the progress that is so long overdue and so badly needed. The future of our collective health depends on it, and now is the time to start.",
+    "format": "rich_text",
+    "processed": "At long last, the conversation around mental health is beginning to shift. Progress is slow and all too often still inadequate, but we are beginning to see signs of change. Governments are recognizing that mental health is foundational to the functioning of our communities\u2014and our economies. Health-care experts and providers are beginning to identify better treatment options and bring them to scale. Those with lived experiences are making their stories heard, and\u00a0advocates\u00a0are organizing to secure the dramatic funding increases so desperately needed. These are all real and important steps toward addressing an issue that kills hundreds of thousands each year, but the transformation we need must take place within our families and communities just as much as in our doctors\u2019 offices and research laboratories. So many of us are still unable to be honest about our own mental health challenges or remain unsure of how to support someone in our lives who is struggling. And so long as the remnants of stigma and a widespread lack of understanding persist at the individual level, our ability to prevent, treat, and care for mental ill-health at the societal level will be hampered. It is not surprising that most people feel, at best, awkward and uncertain talking about mental health. We\u2019re never taught how to do it, we rarely see it modeled, and we receive few invitations to practice doing it. In research commissioned by Born This Way Foundation, nearly\u00a0nine in ten young people\u00a0surveyed said they considered mental health an important priority but less than half said they discuss it with anyone in their lives. That disconnect makes sense when one considers the limited emphasis we place on the issue\u2014in schools or in society at large. For example, more than one-third of the high school students polled in the same survey said mental health was never even mentioned in any of their classes. Beyond shaking off the stigma that still cloaks mental health\u2014portraying it as a moral failing or matter of weakness\u2014we must actively encourage and foster healthy conversations about mental wellness. That will take a change in culture, but it will also take resources. Young people and adults alike need to be provided with tangible tools, information, and resources to help them start an ongoing dialogue about mental health. We need to help people understand what mental wellness is and build skills that help support it. <br \/> Programs to do this already exist, like\u00a0Mental Health First Aid, which has trained more than a million people in the United States alone to identify and support someone facing a mental health challenge. While doing important work, such interventions in isolation will not fix the mental health crisis we are facing globally. Helping individuals and their communities understand and talk about these issues in an open, healthy way is critical to enabling the progress that is so long overdue and so badly needed. The future of our collective health depends on it, and now is the time to start.",
+    "summary": null,
+    "summary_processed": ""
+}

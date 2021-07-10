@@ -1,0 +1,19 @@
+uuid: 02659ad4-f689-4e54-8417-5cc9ed8ca14a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_roundscap
+id: rooms.rooms.field_roundscap
+field_name: field_roundscap
+entity_type: rooms
+bundle: rooms
+label: roundscap
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

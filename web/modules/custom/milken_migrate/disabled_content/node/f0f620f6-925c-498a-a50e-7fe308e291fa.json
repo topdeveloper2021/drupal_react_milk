@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/florida-metros-again-score-well-best-performing-cities-index-places-creating-jobs-us-change?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 168
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f0f620f6-925c-498a-a50e-7fe308e291fa"
+        }
+    ],
+    "vid": [
+        {
+            "value": 168
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Florida metros again score well in Best-Performing Cities Index; places creating jobs in U.S. change due to tech rebound, energy activity, trade",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/florida-metros-again-score-well-best-performing-cities-index-places-creating-jobs-us-change",
+            "pid": 221,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "For the third consecutive year, Florida metropolitan areas scored high on the Milken Institute \/ Greenstreet Partners 2007 Best-Performing Cities Index, taking three of the top six spots - including this year\u2032s top-ranked metro, Ocala. But their hold on the Index loosened slightly as other cities rose in the annual ranking of where America\u2032s jobs are being created and sustained. Nationwide trends influenced many regional shifts, including a rebound in the tech sector (boosting metros in the San Francisco Bay Area, Salt Lake City, Utah and Dallas-Plano-Irving, Texas), increasing global trade (pushing Wilmington, North Carolina to 2nd place) and even the effects of migration as a result of Hurricane Katrina (particularly Lafayette and Baton Rouge, Louisiana). \"There are dynamic forces at play at the national level that are being reflected at the local metro level,\" said Ross DeVol, author and Director of Regional Economics at the Milken Institute. \"Despite the global and national forces at play from year-to-year, one of the key distinguishing characteristics of successful places over the long-term is the entrepreneurial strength of its residents. Entrepreneurs replenish the jobs lost in declining industries and firms.\" In Ocala, as well as the Orland-Kissimmee and Naples-Marco Island metro areas, tourism and tech-based manufacturing helped maintain their position in the top 10 of this year\u2032s Index. Wilmington\u2032s jump from 59th in the previous index to 2nd place in 2007 is due to its growing economy, which outpaced most other areas of the country. Additional capacity gave a boost to port activity and the city capitalized on expanding trade with Asia. The region has seen broad-based local job expansion. The Inland Empire of California - the Riverside-San Bernardino-Ontario metropolitan area - also moved up, from 10th to 3rd. While residential construction has buoyed this region in the past, transportation and cargo operations, particularly linked to global markets, make this a warehouse and transportation super-performer. The <b>top 10 performers<\/b> (with its last ranking, in 2005, in parentheses) of the 200 largest metros: 1.\tOcala, Florida (13) <b>\n2.\tWilmington, North Carolina (59)<br>\n3.\tRiverside-San Bernardino-Ontario, California (10)<br>\n4.\tPhoenix-Mesa-Scottsdale, Arizona (15)<br>\n5.\tOrlando-Kissimmee, Florida (6)<br>\n6.\tNaples-Marco Island, Florida (3)<br>\n7.\tMcAllen-Edinburg-Mission, Texas (7)<br>\n8.\tProvo-Orem, Utah (23)<br>\n9.\tLas Vegas-Paradise, Nevada (11)<br>\n10.\tRaleigh-Cary, North Carolina (45) <b>America\u2032s 10 Largest Cities<\/b>: Existing high density offers limited space for expansion in established large cities and limits the ability of America\u2032s largest metropolitan areas to compete with faster-growing regions, so they are also ranked separately in the annual Index. Nevertheless, burgeoning Riverside-San Bernardino-Ontario, California, tops the best performance among top 10 largest cities as well, followed Phoenix-Mesa-Scottsdale, Arizona, and Houston-Sugarland-Baytown, Texas. <b>Small Cities Rankings<\/b>: Bend, Oregon, moves up from 2nd place in our last ranking to take this year\u2032s title as best performing small city (those with a population of 235,000 and below). Rapid population growth over the past five years has boosted its service sector, including leisure and hospitality, and the region continued to grow its health-care industry. <b>Biggest Movers<\/b>: The biggest mover from last year is Lafayette, Louisiana, which jumped up 119 places (143rd to 24th) due to a post-Hurricane Katrina population influx. Portland-South Portland-Biddeford, Maine, which fell 115 spots (from 42nd to 157th), is experiencing the early impacts of the base realignment and closure of the Naval Air Station in Brunswick. The lowest performers on this year\u2032s Index once again come from the industrial Midwest. Nine of the bottom 10 performers on the 200 largest cities ranking are from this area, including the lowest ranked metro, Lansing-East Lansing, Michigan. <b>About the Best-Performing Cities Index<\/b>: The Index ranks U.S. metros based on their ability to create and sustain jobs. It includes both long-term (five years) and short-term (one year) measurements of employment and salary growth. There are also four measurements of technology output growth, which are included because of technology\u2032s crucial role in regional economic growth. This year\u2032s Index was sponsored by Greenstreet Real Estate Partners. The index series has been re-designated to reflect the year that it is released, rather than previous indexes that reflected the year the data was collected. The 2007 Best-Performing Cities Index reflects data collected from 2006. This contrasts with the 2005 Best-Performing Cities Index, which reflected data collected in 2005, but was released in 2006. The re-designation merely reflects a change in the title, not a gap in the data. The 2007 Best-Performing Cities report and full rankings are available at www.milkeninstitute.org. Individual metro-level data is also available in an interactive web site, http:\/\/bestcities.milkeninstitute.org\/. <b>About Greenstreet Real Estate Partners<\/b>: Greenstreet Real Estate Partners is an investment and asset management company operating throughout the United States since 1983. Its principals apply creative, entrepreneurial strategies that consistently deliver strong operating results and financial returns. Greenstreet has developed a streamlined approach to investment, with a focus on high-growth markets and value creation. It invests the equity and capital of its own principals, enabling it to execute transactions quickly and apply its investment strategies to a diverse range of property types. Greenstreet\u2032s proficiency in asset management is an ideal complement to its investment expertise. Through financial structuring, expert leasing strategies, renovation, repositioning, or redevelopment, Greenstreet consistently optimizes property value within its hold periods. Greenstreet\u2032s asset management portfolio includes more than 800 educational facilities owned by Knowledge Learning Corporation, operating under the name KinderCare and Knowledge Beginnings centers throughout the U.S. Its principals and executive team have completed more than $15 billion in transactional volume in public and private structures. (http:\/\/www.greenstreetrealty.com)",
+    "format": "rich_text",
+    "processed": "For the third consecutive year, Florida metropolitan areas scored high on the Milken Institute \/ Greenstreet Partners 2007 Best-Performing Cities Index, taking three of the top six spots - including this year\u2032s top-ranked metro, Ocala. But their hold on the Index loosened slightly as other cities rose in the annual ranking of where America\u2032s jobs are being created and sustained. Nationwide trends influenced many regional shifts, including a rebound in the tech sector (boosting metros in the San Francisco Bay Area, Salt Lake City, Utah and Dallas-Plano-Irving, Texas), increasing global trade (pushing Wilmington, North Carolina to 2nd place) and even the effects of migration as a result of Hurricane Katrina (particularly Lafayette and Baton Rouge, Louisiana). \"There are dynamic forces at play at the national level that are being reflected at the local metro level,\" said Ross DeVol, author and Director of Regional Economics at the Milken Institute. \"Despite the global and national forces at play from year-to-year, one of the key distinguishing characteristics of successful places over the long-term is the entrepreneurial strength of its residents. Entrepreneurs replenish the jobs lost in declining industries and firms.\" In Ocala, as well as the Orland-Kissimmee and Naples-Marco Island metro areas, tourism and tech-based manufacturing helped maintain their position in the top 10 of this year\u2032s Index. Wilmington\u2032s jump from 59th in the previous index to 2nd place in 2007 is due to its growing economy, which outpaced most other areas of the country. Additional capacity gave a boost to port activity and the city capitalized on expanding trade with Asia. The region has seen broad-based local job expansion. The Inland Empire of California - the Riverside-San Bernardino-Ontario metropolitan area - also moved up, from 10th to 3rd. While residential construction has buoyed this region in the past, transportation and cargo operations, particularly linked to global markets, make this a warehouse and transportation super-performer. The <b>top 10 performers<\/b> (with its last ranking, in 2005, in parentheses) of the 200 largest metros: 1.\tOcala, Florida (13) <b>\n2.\tWilmington, North Carolina (59)<br \/>\n3.\tRiverside-San Bernardino-Ontario, California (10)<br \/>\n4.\tPhoenix-Mesa-Scottsdale, Arizona (15)<br \/>\n5.\tOrlando-Kissimmee, Florida (6)<br \/>\n6.\tNaples-Marco Island, Florida (3)<br \/>\n7.\tMcAllen-Edinburg-Mission, Texas (7)<br \/>\n8.\tProvo-Orem, Utah (23)<br \/>\n9.\tLas Vegas-Paradise, Nevada (11)<br \/>\n10.\tRaleigh-Cary, North Carolina (45) <b>America\u2032s 10 Largest Cities<\/b>: Existing high density offers limited space for expansion in established large cities and limits the ability of America\u2032s largest metropolitan areas to compete with faster-growing regions, so they are also ranked separately in the annual Index. Nevertheless, burgeoning Riverside-San Bernardino-Ontario, California, tops the best performance among top 10 largest cities as well, followed Phoenix-Mesa-Scottsdale, Arizona, and Houston-Sugarland-Baytown, Texas. <b>Small Cities Rankings<\/b>: Bend, Oregon, moves up from 2nd place in our last ranking to take this year\u2032s title as best performing small city (those with a population of 235,000 and below). Rapid population growth over the past five years has boosted its service sector, including leisure and hospitality, and the region continued to grow its health-care industry. <b>Biggest Movers<\/b>: The biggest mover from last year is Lafayette, Louisiana, which jumped up 119 places (143rd to 24th) due to a post-Hurricane Katrina population influx. Portland-South Portland-Biddeford, Maine, which fell 115 spots (from 42nd to 157th), is experiencing the early impacts of the base realignment and closure of the Naval Air Station in Brunswick. The lowest performers on this year\u2032s Index once again come from the industrial Midwest. Nine of the bottom 10 performers on the 200 largest cities ranking are from this area, including the lowest ranked metro, Lansing-East Lansing, Michigan. <b>About the Best-Performing Cities Index<\/b>: The Index ranks U.S. metros based on their ability to create and sustain jobs. It includes both long-term (five years) and short-term (one year) measurements of employment and salary growth. There are also four measurements of technology output growth, which are included because of technology\u2032s crucial role in regional economic growth. This year\u2032s Index was sponsored by Greenstreet Real Estate Partners. The index series has been re-designated to reflect the year that it is released, rather than previous indexes that reflected the year the data was collected. The 2007 Best-Performing Cities Index reflects data collected from 2006. This contrasts with the 2005 Best-Performing Cities Index, which reflected data collected in 2005, but was released in 2006. The re-designation merely reflects a change in the title, not a gap in the data. The 2007 Best-Performing Cities report and full rankings are available at www.milkeninstitute.org. Individual metro-level data is also available in an interactive web site, http:\/\/bestcities.milkeninstitute.org\/. <b>About Greenstreet Real Estate Partners<\/b>: Greenstreet Real Estate Partners is an investment and asset management company operating throughout the United States since 1983. Its principals apply creative, entrepreneurial strategies that consistently deliver strong operating results and financial returns. Greenstreet has developed a streamlined approach to investment, with a focus on high-growth markets and value creation. It invests the equity and capital of its own principals, enabling it to execute transactions quickly and apply its investment strategies to a diverse range of property types. Greenstreet\u2032s proficiency in asset management is an ideal complement to its investment expertise. Through financial structuring, expert leasing strategies, renovation, repositioning, or redevelopment, Greenstreet consistently optimizes property value within its hold periods. Greenstreet\u2032s asset management portfolio includes more than 800 educational facilities owned by Knowledge Learning Corporation, operating under the name KinderCare and Knowledge Beginnings centers throughout the U.S. Its principals and executive team have completed more than $15 billion in transactional volume in public and private structures. (http:\/\/www.greenstreetrealty.com)<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

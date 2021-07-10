@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/boston-san-francisco-bay-area-and-greater-philadelphia-are-top-life-sciences-clusters-us?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 208
+        }
+    ],
+    "uuid": [
+        {
+            "value": "860d1ad1-3277-4107-a7d8-91766912282f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 208
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Boston, San Francisco Bay Area and Greater Philadelphia Are Top Life Sciences Clusters in the U.S., New Milken Institute Study Shows",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/boston-san-francisco-bay-area-and-greater-philadelphia-are-top-life-sciences-clusters-us",
+            "pid": 261,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "If the life sciences industry is the holy grail of economic development, as many public policy officials believe, then Boston, Greater San Francisco, Greater Philadelphia and Greater New York are in the best position to gain from this dynamic industry in the years to come. The four regions ranked at the top of the Milken Institute\u2032s Life Sciences Index, a measure of not only the current strength of these clusters, but their growth potential. \"The life sciences industry is an emerging powerhouse for U.S. global economic competitiveness in the 21st century,\" says Ross DeVol, Director of Regional Economics at the Milken Institute and principal author of the report. \"Life sciences\u2032 economic and scientific contributions propel many regions.\" The study, sponsored by BioAdvance, PricewaterhouseCoopers, Pennsylvania BIO and the Greater Philadelphia Chamber of Commerce\u2032s CEO Council for Growth, was released today at the BIO 2005 conference in Philadelphia. They asked the Institute to undertake the study to gauge the Greater Philadelphia region\u2032s standing compared to the other leading life sciences clusters in the U.S. The report, The Greater Philadelphia Life Sciences Cluster: An Economic and Comparative Assessment, compares Greater Philadelphia to 10 other metropolitan areas considered the leading life sciences clusters in the U.S. and ranks them based on employment, output, workforce, investment and dozens of other measures. Here is the Milken Institute Life Sciences Composite Index ranking (with scores): 1.\tBoston (100) <b>\n2.\tGreater San Francisco (98.4)<br>\n3.\tGreater Philadelphia (97.1)<br>\n4.\tGreater New York (94.6)<br>\n5.\tGreater Raleigh-Durham (91.1)<br>\n6.\tSan Diego (90.7)<br>\n7.\tGreater Los Angeles (87.0)<br>\n8.\tMinneapolis (77.9)<br>\n9.\tChicago (75.9)<br>\n10.\tSeattle (70.9)<br>\n11.\tDallas (55.2) The core life sciences industry - which includes biotechnology, pharmaceuticals, medical devices and research and development in life sciences - is sought after by local economic development organizations across the country for its high-paying jobs and tremendous growth potential based on expected pending breakthroughs in medical research and an aging baby boomer population. Institute researchers used more than 60 core measurements to create the Life Sciences Composite Index. The main criteria (both weighted 50 percent) were the Institute\u2032s Innovation Pipeline, which measures the assets that allow a metro to capitalize on its life sciences knowledge and creativity, such as the quality of its workforce; and Current Impact Assessment, which measures an area\u2032s success in bringing research ideas to the marketplace and creating companies, jobs and products. Among the findings: On the Innovation Pipeline Index, Boston placed first, followed by Greater San Francisco, Greater Philadelphia and San Diego. <br>\nOn the Current Impact Assessment, Philadelphia placed first, followed by New York, San Francisco and Boston.<br>\nNew York employs the most life sciences workers of the 11 clusters (74,592 in 2003), followed by Philadelphia (53,479), Greater Los Angeles (51,533) and San Francisco (46,593).<br>\nLife sciences employment (relative to the national average) grew fastest from 1997 to 2003 in Greater Raleigh Durham (19.3 percent above the national average), followed by Philadelphia (+ 9.3 percent) and Minneapolis (+ 0.6 percent).<br>\nWithin the Current Impact Assessment, the leaders in the four main industries studied are Philadelphia (pharmaceuticals), Minneapolis (medical devices), Raleigh Durham (biotechnology) and San Diego (life sciences R&D).<br>\nSupporting industries such as hospitals and medical schools employed more than 912,000 workers in New York in 2003, the most of any of the clusters measured. Los Angeles was second with more than 472,000 employees and Chicago third with more than 395,000.<br>\nThe report also includes a section on the so-called \"multiplier impact\" of the life sciences industry on the broader Philadelphia economy. According to the study, life sciences is responsible for $15.5 billion (7.1 percent) of the region\u2032s gross metro product - $6.9 billion directly and $8.6 billion from the \"ripple\" economic impact in other industries. In addition to highlighting many of Philadelphia\u2032s strengths, the study also points out opportunities for improvement, such as increasing support for life sciences startup firms through greater availability of risk capital and a stronger support infrastructure. \"This study is the first to provide a comprehensive look at the economic impact, breadth and depth of the life sciences sector in the Greater Philadelphia region,\" said Barbara S. Schilberg, CEO of BioAdvance. \"In the last few years, the region has mobilized to build on our established and unique strengths, attracting more capital and launching a new generation of companies. The report and this recent momentum confirm what many of us working in the life sciences community have known for some time - this is a great region in the U.S. to grow a life sciences business.\" View report <b>Additional media contact:<\/b>\nBarbara Lindheim, Principal <br> GendeLLindheim BioCom Partners\t<br> Phone: (212) 918-4650\t<br>\nE-mail: blindheim@biocompartners.com",
+    "format": "rich_text",
+    "processed": "If the life sciences industry is the holy grail of economic development, as many public policy officials believe, then Boston, Greater San Francisco, Greater Philadelphia and Greater New York are in the best position to gain from this dynamic industry in the years to come. The four regions ranked at the top of the Milken Institute\u2032s Life Sciences Index, a measure of not only the current strength of these clusters, but their growth potential. \"The life sciences industry is an emerging powerhouse for U.S. global economic competitiveness in the 21st century,\" says Ross DeVol, Director of Regional Economics at the Milken Institute and principal author of the report. \"Life sciences\u2032 economic and scientific contributions propel many regions.\" The study, sponsored by BioAdvance, PricewaterhouseCoopers, Pennsylvania BIO and the Greater Philadelphia Chamber of Commerce\u2032s CEO Council for Growth, was released today at the BIO 2005 conference in Philadelphia. They asked the Institute to undertake the study to gauge the Greater Philadelphia region\u2032s standing compared to the other leading life sciences clusters in the U.S. The report, The Greater Philadelphia Life Sciences Cluster: An Economic and Comparative Assessment, compares Greater Philadelphia to 10 other metropolitan areas considered the leading life sciences clusters in the U.S. and ranks them based on employment, output, workforce, investment and dozens of other measures. Here is the Milken Institute Life Sciences Composite Index ranking (with scores): 1.\tBoston (100) <b>\n2.\tGreater San Francisco (98.4)<br \/>\n3.\tGreater Philadelphia (97.1)<br \/>\n4.\tGreater New York (94.6)<br \/>\n5.\tGreater Raleigh-Durham (91.1)<br \/>\n6.\tSan Diego (90.7)<br \/>\n7.\tGreater Los Angeles (87.0)<br \/>\n8.\tMinneapolis (77.9)<br \/>\n9.\tChicago (75.9)<br \/>\n10.\tSeattle (70.9)<br \/>\n11.\tDallas (55.2) The core life sciences industry - which includes biotechnology, pharmaceuticals, medical devices and research and development in life sciences - is sought after by local economic development organizations across the country for its high-paying jobs and tremendous growth potential based on expected pending breakthroughs in medical research and an aging baby boomer population. Institute researchers used more than 60 core measurements to create the Life Sciences Composite Index. The main criteria (both weighted 50 percent) were the Institute\u2032s Innovation Pipeline, which measures the assets that allow a metro to capitalize on its life sciences knowledge and creativity, such as the quality of its workforce; and Current Impact Assessment, which measures an area\u2032s success in bringing research ideas to the marketplace and creating companies, jobs and products. Among the findings: On the Innovation Pipeline Index, Boston placed first, followed by Greater San Francisco, Greater Philadelphia and San Diego. <br \/>\nOn the Current Impact Assessment, Philadelphia placed first, followed by New York, San Francisco and Boston.<br \/>\nNew York employs the most life sciences workers of the 11 clusters (74,592 in 2003), followed by Philadelphia (53,479), Greater Los Angeles (51,533) and San Francisco (46,593).<br \/>\nLife sciences employment (relative to the national average) grew fastest from 1997 to 2003 in Greater Raleigh Durham (19.3 percent above the national average), followed by Philadelphia (+ 9.3 percent) and Minneapolis (+ 0.6 percent).<br \/>\nWithin the Current Impact Assessment, the leaders in the four main industries studied are Philadelphia (pharmaceuticals), Minneapolis (medical devices), Raleigh Durham (biotechnology) and San Diego (life sciences R&amp;D).<br \/>\nSupporting industries such as hospitals and medical schools employed more than 912,000 workers in New York in 2003, the most of any of the clusters measured. Los Angeles was second with more than 472,000 employees and Chicago third with more than 395,000.<br \/>\nThe report also includes a section on the so-called \"multiplier impact\" of the life sciences industry on the broader Philadelphia economy. According to the study, life sciences is responsible for $15.5 billion (7.1 percent) of the region\u2032s gross metro product - $6.9 billion directly and $8.6 billion from the \"ripple\" economic impact in other industries. In addition to highlighting many of Philadelphia\u2032s strengths, the study also points out opportunities for improvement, such as increasing support for life sciences startup firms through greater availability of risk capital and a stronger support infrastructure. \"This study is the first to provide a comprehensive look at the economic impact, breadth and depth of the life sciences sector in the Greater Philadelphia region,\" said Barbara S. Schilberg, CEO of BioAdvance. \"In the last few years, the region has mobilized to build on our established and unique strengths, attracting more capital and launching a new generation of companies. The report and this recent momentum confirm what many of us working in the life sciences community have known for some time - this is a great region in the U.S. to grow a life sciences business.\" View report <b>Additional media contact:<\/b>\nBarbara Lindheim, Principal <br \/> GendeLLindheim BioCom Partners\t<br \/> Phone: (212) 918-4650\t<br \/>\nE-mail: blindheim@biocompartners.com<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

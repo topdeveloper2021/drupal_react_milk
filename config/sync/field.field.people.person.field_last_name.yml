@@ -1,0 +1,19 @@
+uuid: 388ef98f-6799-498f-9380-0fccb9008003
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_last_name
+id: people.person.field_last_name
+field_name: field_last_name
+entity_type: people
+bundle: person
+label: 'Last Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

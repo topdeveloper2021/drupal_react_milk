@@ -1,0 +1,29 @@
+uuid: 92f4508f-7cae-48ae-8715-380a05cb5a11
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.full_width_one_column
+    - field.storage.node.field_promo_slide
+    - node.type.article
+id: node.article.field_promo_slide
+field_name: field_promo_slide
+entity_type: node
+bundle: article
+label: 'Promo Slide'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:slide'
+  handler_settings:
+    target_bundles:
+      full_width_one_column: full_width_one_column
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: full_width_one_column
+field_type: entity_reference

@@ -1,0 +1,51 @@
+uuid: 5d5768e7-a842-46ad-aba9-f23c404f4f9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - options
+id: panel.field_index_weight
+field_name: field_index_weight
+entity_type: panel
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 0
+      label: '0'
+    -
+      value: 1
+      label: '1'
+    -
+      value: 2
+      label: '2'
+    -
+      value: 3
+      label: '3'
+    -
+      value: 4
+      label: '4'
+    -
+      value: 5
+      label: '5'
+    -
+      value: 6
+      label: '6'
+    -
+      value: 7
+      label: '7'
+    -
+      value: 8
+      label: '8'
+    -
+      value: 9
+      label: '9'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

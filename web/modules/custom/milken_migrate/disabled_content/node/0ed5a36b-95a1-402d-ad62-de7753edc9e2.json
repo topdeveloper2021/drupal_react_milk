@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-examines-growth-hollywood-employment-and-threats-california-economy-other?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0ed5a36b-95a1-402d-ad62-de7753edc9e2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 6
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute examines growth in Hollywood employment and threats to California economy from other regions",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-14T01:54:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-examines-growth-hollywood-employment-and-threats-california-economy-other",
+            "pid": 59,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES, June 14, 2018 \u2013 After years of decline, entertainment industry employment is on the rebound, reaching a 10-year high of nearly 170,000 jobs in 2016, according to a report released today by the Milken Institute.\u00a0This growth follows the passage of the 2014 California Filmed Production Incentive, which was enacted after the Milken Institute documented the flight of industry in its groundbreaking report, A Hollywood Exit.Despite robust employment, the new report, A Hollywood Update, reveals signs of concern.California's share of overall U.S. film production has dropped by a third, declining from nearly 40 percent in 2007 to just over 26 percent in 2017. Georgia has moved aggressively to attract production. Its share has soared from 2 percent of overall U.S. film production to more than 15 percent in 2017.\"California has seen a consistent rise in local employment in the filmed entertainment sector, even though the state's incentives are not as aggressive as rivals like Canada, New York, or Georgia,\" write report co-authors <b>Kevin Klowden<\/b> and <b>Jessica Jackson<\/b> of the Milken Institute Center for Regional Economics. \"That being said, there are \u2026 several key challenges that should be addressed in any extension or revision of the filmed production credit.\"In the report, they offer specific recommendations:Increase the level of the current incentive \u2014ideally matching or exceeding New York\u2019s $420 million per year.Devote a significant portion of the new money to larger budget movies\nAdjust the amount of spend a movie production needs to have in California to qualify, particularly for movies with budgets over $100 million.\nDevelop a structure for gradually reducing the amount of credit available to ongoing television productions to ensure funds are available for new television productions.\nDevelop a strategy for boosting women and minority employment that factors in a strategy for women and minority participation as part of the bid process.\nA Hollywood Update: Changes and Transformations in Hollywood Since the Passage of the 2014 California Filmed Production Incentive is available online at www.milkeninstitute.org###\u00a0<b>About the Milken Institute<\/b>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs, and improve health. The Institute conducts independent, data-driven research, action-oriented meetings, and meaningful policy initiatives. For more information, visit milkeninstitute.org\u00a0<b>Contact<\/b><b>Geoffrey Baum<\/b>Director, Media Relations(310) 570-4689;\u00a0gbaum@milkeninstitute.org\u00a0",
+    "format": "rich_text",
+    "processed": "LOS ANGELES, June 14, 2018 \u2013 After years of decline, entertainment industry employment is on the rebound, reaching a 10-year high of nearly 170,000 jobs in 2016, according to a report released today by the Milken Institute.\u00a0This growth follows the passage of the 2014 California Filmed Production Incentive, which was enacted after the Milken Institute documented the flight of industry in its groundbreaking report, A Hollywood Exit.Despite robust employment, the new report, A Hollywood Update, reveals signs of concern.California's share of overall U.S. film production has dropped by a third, declining from nearly 40 percent in 2007 to just over 26 percent in 2017. Georgia has moved aggressively to attract production. Its share has soared from 2 percent of overall U.S. film production to more than 15 percent in 2017.\"California has seen a consistent rise in local employment in the filmed entertainment sector, even though the state's incentives are not as aggressive as rivals like Canada, New York, or Georgia,\" write report co-authors <b>Kevin Klowden<\/b> and <b>Jessica Jackson<\/b> of the Milken Institute Center for Regional Economics. \"That being said, there are \u2026 several key challenges that should be addressed in any extension or revision of the filmed production credit.\"In the report, they offer specific recommendations:Increase the level of the current incentive \u2014ideally matching or exceeding New York\u2019s $420 million per year.Devote a significant portion of the new money to larger budget movies\nAdjust the amount of spend a movie production needs to have in California to qualify, particularly for movies with budgets over $100 million.\nDevelop a structure for gradually reducing the amount of credit available to ongoing television productions to ensure funds are available for new television productions.\nDevelop a strategy for boosting women and minority employment that factors in a strategy for women and minority participation as part of the bid process.\nA Hollywood Update: Changes and Transformations in Hollywood Since the Passage of the 2014 California Filmed Production Incentive is available online at www.milkeninstitute.org###\u00a0<b>About the Milken Institute<\/b>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs, and improve health. The Institute conducts independent, data-driven research, action-oriented meetings, and meaningful policy initiatives. For more information, visit milkeninstitute.org\u00a0<b>Contact<\/b><b>Geoffrey Baum<\/b>Director, Media Relations(310) 570-4689;\u00a0gbaum@milkeninstitute.org\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

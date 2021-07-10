@@ -1,0 +1,33 @@
+uuid: 88498c8a-95a6-4f53-92a1-ed40ad881b96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link_bar.field_links
+    - paragraphs.paragraphs_type.link_bar
+  module:
+    - link
+id: paragraph.link_bar.default
+targetEntityType: paragraph
+bundle: link_bar
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_links:
+    weight: -9
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true

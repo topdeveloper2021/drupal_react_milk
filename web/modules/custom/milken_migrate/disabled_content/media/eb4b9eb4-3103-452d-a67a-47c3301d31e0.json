@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7072\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/HPYGWAcgvbrZteDoxE4vCrHFNsW6ZXHAQLNlszGeYLs.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7072
+        }
+    ],
+    "uuid": [
+        {
+            "value": "eb4b9eb4-3103-452d-a67a-47c3301d31e0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 37
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/HPYGWAcgvbrZteDoxE4vCrHFNsW6ZXHAQLNlszGeYLs.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0e910968-d38a-4c75-aebf-3e7fc5a59c64"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Working Smarter: The Future of Jobs",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-28T09:03:30+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As automation, artificial intelligence, and other emerging technologies become more mainstream, many are left unsure on what the future of work will look like. There are also more women playing crucial roles in leading and shaping the future of industries. Job displacement is nothing new, but the speed at which the employment landscape is changing is enough to spark concern even in the most educated of us. This panel of global business leaders will untangle the complex weave of potential occupational shifts that lie ahead to examine the implications for skills, wages, and the workplace diversity and offer insights into how we can stay competitive in the job market. ",
+    "format": "rich_text",
+    "processed": "As automation, artificial intelligence, and other emerging technologies become more mainstream, many are left unsure on what the future of work will look like. There are also more women playing crucial roles in leading and shaping the future of industries. Job displacement is nothing new, but the speed at which the employment landscape is changing is enough to spark concern even in the most educated of us. This panel of global business leaders will untangle the complex weave of potential occupational shifts that lie ahead to examine the implications for skills, wages, and the workplace diversity and offer insights into how we can stay competitive in the job market. ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/gytr5bdjRiI",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/HPYGWAcgvbrZteDoxE4vCrHFNsW6ZXHAQLNlszGeYLs.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/non-adherence-health-care-are-patients-or-policy-makers-ill-informed?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/109?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 666
+        }
+    ],
+    "uuid": [
+        {
+            "value": "adefc0bf-bbd0-46d6-9013-9692c1510cfb"
+        }
+    ],
+    "vid": [
+        {
+            "value": 666
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/109?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6f84d2d7-dfe6-4175-8c85-0faec3d6de3f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": " Non-adherence in health care: Are patients or policy makers ill-informed?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T23:30:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:20:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/non-adherence-health-care-are-patients-or-policy-makers-ill-informed",
+            "pid": 719,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Non-adherence in health care results when a patient does not initiate or continue care that a provider has recommended. Researchers have identified non-adherence as a major source of waste in US health care, totaling approximately 2.3% of GDP, and have therefore proposed a plethora of interventions to improve adherence. However, non-adherence is commonly misattributed to ill-informed or irrational patients without an understanding of the underlying forces. This leads to harmful policy efforts to raise adherence by ill-informed policy wonks rather than patients. The administration\u2019s Precision Medicine Initiative is a more useful approach towards appropriate adherence behavior. <\/i> Improving adherence to prescribed medical treatments remains an almost universally agreed-upon challenge in health care. Estimates show that the cost of non-adherence in the United States is approximately $290 billion, equating to about 13% of total health care spending, or 2.3% of GDP. Improving treatment adherence through both private and public interventions has been identified as a crucial step toward improving health outcomes and lowering health care costs. Agencies, such as the Patient-Centered Outcomes Research Institute (PCORI), the Agency for Healthcare Research and Quality (AHRQ), and the National Institutes of Health (NIH), dedicate substantial funding to research on improving medication adherence. The common overall policy view is that adherence is too low because patients are ill-informed or irrational, and therefore private or public interventions are needed to improve adherence. This approach is not based on science and assumes that that under-adherence is the sole problem, but over-adherence to ineffective treatments is equally harmful to patients \u2013 and potentially more costly for the health system. In general, doctors and other providers recommending treatments are likely more informed than patients about the population-wide effects of these treatments, e.g. that there is a 50% response rate in a given population. However, patients are experts in the individual specific value of a treatment because a treatment\u2019s value may vary patient to patient. Thus, a patient\u2019s individual specific value of treatment incorporates how she evaluates the treatment\u2019s effectiveness, side effects, and costs of care, including time costs of compliance. Many patients, therefore, take the common sense approach of using a treatment, assessing its value while on it, and discontinuing it if it is not valuable. Of course, both patients and providers operate with incomplete information, and adherence-related decisions should be made collaboratively. Providers must recognize that patients\u2019 decisions are likely to be rational, even when they are made unilaterally \u2013 no one cares more about the patient\u2019s own welfare than the patient herself, including providers. Since providers mostly focus on the clinical benefits of care but do not face the costs of care, they are likely to overstate treatment value as a consequence and blame patients for non-adherence. Non-adherence can often be predicted as stemming from a patient\u2019s learning process about the value of treatment. As patients learn about treatments, they continue effective ones while discontinuing ineffective ones. Non-adherence induced by patient learning provides a powerful force to predict why and how patients do not adhere. To illustrate, consider Figure 1 below, which depicts adherence behavior across several treatment classes as reported in the medical literature. Each curve represents the percentage of patients who are adherent to a treatment class over time from treatment initiation. Across all of the treatments considered, the figure reveals a general pattern that non-adherence occurs early but then disappears as the fraction adhering stabilizes. This is consistent with the notion that patients learn about a treatment\u2019s value, discontinue it as they learn the treatment is ineffective or remain on it if they learn it is valuable. Fundamentally, when learning drives adherence, good patient-treatment matches last, and bad ones don\u2019t. In recent research**, we considered the quantitative significance of this analysis for the cholesterol-reducing drug simvastatin (Zocor). It is widely believed that adherence to statins, like Zocor, is too low. Interestingly, we found that, although statins can be very effective in reducing cholesterol, the vast majority of the efficiency loss comes from over-adherence, as opposed to under-adherence, even though less than half of patients eventually adhered in the long run. In particular, we found that the ex-post efficiency loss from over-adherence is over 80% larger than that from under-adherence. When non-adherence results from patient learning, the process filters out poor patient-treatment matches and effectively reduces the issue of over-adherence to ineffective therapies. This is because when a patient discontinues a treatment, she essentially reveals that the treatment is not valuable to her; thus she adhered too much, as opposed to too little. Currently, however, many public and private interventions focus on bluntly addressing under-adherence. Initiatives that aim to stimulate adherence, such as copay reductions or phone monitoring programs, may actually be harmful to a patient if they further increase adherence to a treatment that the patient should not have initiated. Policy efforts, therefore, should focus on removing the need for trial and error in finding the appropriate treatment. Personalized medicine is, as a result, actually a critical tool for attaining appropriate levels of adherence. Personalized medicine involves testing for treatment value before undertaking therapy, commonly through a diagnostic test \u2013 for example, a genetic test determining whether the patient is likely to respond well to the treatment. This model thereby involves changing the therapy from what economists call an \u201cexperience good,\u201d for which experience with the good is required to determine its quality, to a \u201csearch good,\u201d for which it is not. Personalized medicine essentially accelerates the learning process of patients and eliminates inappropriate adherence for those who do not find care valuable. In particular, the value of personalized medicine is higher in treatment areas where learning through experience is costly or potentially harmful to the patient, such as cancer care. In contrast, personalized medicine in erectile dysfunction is unlikely to develop because learning through treatment experience is not as harmful or unpleasant. The emergence of personalized medicine is thusexplained by\u00a0the importance of learning to adherence, and policies that support the expansion of personalized medicine may be better suited to achieve optimal adherence than policies targeted at raising adherence levels. For example, President Obama recently launched the Precision Medicine Initiative, a $215 million investment targeted at fostering the growth of personalized medicine. As learning through trial and error is the costliest in cancer, the initiative is rightly targeted at improving precision treatments in oncology first. The valuable growth of personalized medicine that will result should not only reduce the amount of under-adherence but the amount of over-adherence as well. In summary, attributing poor adherence to ill-informed patients leads to ineffective, and potentially harmful, policy efforts to improve adherence. Achieving the optimal level of adherence to treatments is more nuanced than strictly raising adherence rates. Policy makers, therefore, should focus on technologies or programs, such as personalized medicine, that facilitate the learning processes of patients that drive optimal adherence behavior *Yeaw, J., Benner, J. S., Walt, J. G., Sian, S., & Smith, D. B. (2009). Comparing adherence and persistence across 6 chronic medication classes.\u00a0J Manag Care Pharm, 15(9), 728-740 **Egan, M. & Philipson, T. J. (2015).\u00a0Health Care Adherence and Personalized Medicine\u00a0(No. w20330). National Bureau of Economic Research, Cambridge, Massachusetts.http:\/\/www.nber.org\/papers\/w20330",
+    "format": "rich_text",
+    "processed": "<i>Non-adherence in health care results when a patient does not initiate or continue care that a provider has recommended. Researchers have identified non-adherence as a major source of waste in US health care, totaling approximately 2.3% of GDP, and have therefore proposed a plethora of interventions to improve adherence. However, non-adherence is commonly misattributed to ill-informed or irrational patients without an understanding of the underlying forces. This leads to harmful policy efforts to raise adherence by ill-informed policy wonks rather than patients. The administration\u2019s Precision Medicine Initiative is a more useful approach towards appropriate adherence behavior. <\/i> Improving adherence to prescribed medical treatments remains an almost universally agreed-upon challenge in health care. Estimates show that the cost of non-adherence in the United States is approximately $290 billion, equating to about 13% of total health care spending, or 2.3% of GDP. Improving treatment adherence through both private and public interventions has been identified as a crucial step toward improving health outcomes and lowering health care costs. Agencies, such as the Patient-Centered Outcomes Research Institute (PCORI), the Agency for Healthcare Research and Quality (AHRQ), and the National Institutes of Health (NIH), dedicate substantial funding to research on improving medication adherence. The common overall policy view is that adherence is too low because patients are ill-informed or irrational, and therefore private or public interventions are needed to improve adherence. This approach is not based on science and assumes that that under-adherence is the sole problem, but over-adherence to ineffective treatments is equally harmful to patients \u2013 and potentially more costly for the health system. In general, doctors and other providers recommending treatments are likely more informed than patients about the population-wide effects of these treatments, e.g. that there is a 50% response rate in a given population. However, patients are experts in the individual specific value of a treatment because a treatment\u2019s value may vary patient to patient. Thus, a patient\u2019s individual specific value of treatment incorporates how she evaluates the treatment\u2019s effectiveness, side effects, and costs of care, including time costs of compliance. Many patients, therefore, take the common sense approach of using a treatment, assessing its value while on it, and discontinuing it if it is not valuable. Of course, both patients and providers operate with incomplete information, and adherence-related decisions should be made collaboratively. Providers must recognize that patients\u2019 decisions are likely to be rational, even when they are made unilaterally \u2013 no one cares more about the patient\u2019s own welfare than the patient herself, including providers. Since providers mostly focus on the clinical benefits of care but do not face the costs of care, they are likely to overstate treatment value as a consequence and blame patients for non-adherence. Non-adherence can often be predicted as stemming from a patient\u2019s learning process about the value of treatment. As patients learn about treatments, they continue effective ones while discontinuing ineffective ones. Non-adherence induced by patient learning provides a powerful force to predict why and how patients do not adhere. To illustrate, consider Figure 1 below, which depicts adherence behavior across several treatment classes as reported in the medical literature. Each curve represents the percentage of patients who are adherent to a treatment class over time from treatment initiation. Across all of the treatments considered, the figure reveals a general pattern that non-adherence occurs early but then disappears as the fraction adhering stabilizes. This is consistent with the notion that patients learn about a treatment\u2019s value, discontinue it as they learn the treatment is ineffective or remain on it if they learn it is valuable. Fundamentally, when learning drives adherence, good patient-treatment matches last, and bad ones don\u2019t. In recent research**, we considered the quantitative significance of this analysis for the cholesterol-reducing drug simvastatin (Zocor). It is widely believed that adherence to statins, like Zocor, is too low. Interestingly, we found that, although statins can be very effective in reducing cholesterol, the vast majority of the efficiency loss comes from over-adherence, as opposed to under-adherence, even though less than half of patients eventually adhered in the long run. In particular, we found that the ex-post efficiency loss from over-adherence is over 80% larger than that from under-adherence. When non-adherence results from patient learning, the process filters out poor patient-treatment matches and effectively reduces the issue of over-adherence to ineffective therapies. This is because when a patient discontinues a treatment, she essentially reveals that the treatment is not valuable to her; thus she adhered too much, as opposed to too little. Currently, however, many public and private interventions focus on bluntly addressing under-adherence. Initiatives that aim to stimulate adherence, such as copay reductions or phone monitoring programs, may actually be harmful to a patient if they further increase adherence to a treatment that the patient should not have initiated. Policy efforts, therefore, should focus on removing the need for trial and error in finding the appropriate treatment. Personalized medicine is, as a result, actually a critical tool for attaining appropriate levels of adherence. Personalized medicine involves testing for treatment value before undertaking therapy, commonly through a diagnostic test \u2013 for example, a genetic test determining whether the patient is likely to respond well to the treatment. This model thereby involves changing the therapy from what economists call an \u201cexperience good,\u201d for which experience with the good is required to determine its quality, to a \u201csearch good,\u201d for which it is not. Personalized medicine essentially accelerates the learning process of patients and eliminates inappropriate adherence for those who do not find care valuable. In particular, the value of personalized medicine is higher in treatment areas where learning through experience is costly or potentially harmful to the patient, such as cancer care. In contrast, personalized medicine in erectile dysfunction is unlikely to develop because learning through treatment experience is not as harmful or unpleasant. The emergence of personalized medicine is thusexplained by\u00a0the importance of learning to adherence, and policies that support the expansion of personalized medicine may be better suited to achieve optimal adherence than policies targeted at raising adherence levels. For example, President Obama recently launched the Precision Medicine Initiative, a $215 million investment targeted at fostering the growth of personalized medicine. As learning through trial and error is the costliest in cancer, the initiative is rightly targeted at improving precision treatments in oncology first. The valuable growth of personalized medicine that will result should not only reduce the amount of under-adherence but the amount of over-adherence as well. In summary, attributing poor adherence to ill-informed patients leads to ineffective, and potentially harmful, policy efforts to improve adherence. Achieving the optimal level of adherence to treatments is more nuanced than strictly raising adherence rates. Policy makers, therefore, should focus on technologies or programs, such as personalized medicine, that facilitate the learning processes of patients that drive optimal adherence behavior *Yeaw, J., Benner, J. S., Walt, J. G., Sian, S., &amp; Smith, D. B. (2009). Comparing adherence and persistence across 6 chronic medication classes.\u00a0J Manag Care Pharm, 15(9), 728-740 **Egan, M. &amp; Philipson, T. J. (2015).\u00a0Health Care Adherence and Personalized Medicine\u00a0(No. w20330). National Bureau of Economic Research, Cambridge, Massachusetts.http:\/\/www.nber.org\/papers\/w20330",
+    "summary": null,
+    "summary_processed": ""
+}

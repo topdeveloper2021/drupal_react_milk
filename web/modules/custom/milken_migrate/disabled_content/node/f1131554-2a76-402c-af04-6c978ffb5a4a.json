@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/us-universities-lead-biotechnology-research-tech-transfer-and-commercialization?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 621
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f1131554-2a76-402c-af04-6c978ffb5a4a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 621
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "U.S. Universities Lead in Biotechnology Research, Tech Transfer and Commercialization of Intellectual Property, Says Milken Institute Study",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:35:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/us-universities-lead-biotechnology-research-tech-transfer-and-commercialization",
+            "pid": 674,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Despite growing efforts by universities around the world to catch up, the United States remains the global powerhouse in biotechnology research - and in the ability to turn research into commercial applications, according to a new study from the Milken Institute. This examination of the commercialization of university research reveals that the U.S. dominates the top rankings on many key measures, including published research, patents issued and licensing income. The study, Mind to Market: A Global Analysis of University Biotechnology Transfer and Commercialization, shows the position of these institutions in the commercialization pipeline, which starts with the quality of research and moves to patented ideas and, finally, to commercial outcomes. The findings include: U.S. universities hold eight of the top 10 positions on a measure of the quality and quantity of published biotech research, which assesses the strength of that research. Harvard University is No. 1, followed by the University of Tokyo, University of London, University of California at San Francisco and the University of Pennsylvania. <br> Nine of the top 10 universities are American when scored on the quality and quantity of biotechnology patents issued in the U.S. (where most universities attempt to patent biotech discoveries). The University of Texas system is first, followed by U.C. San Francisco, Johns Hopkins University, Stanford University and Cornell University. <br> In a narrower aspect of the larger study, based on detailed data from U.S. and Canadian universities only, Institute researchers looked at outcomes - turning knowledge into commercially viable products and companies. According to the Milken Institute University Technology Transfer and Commercialization Index, which measures such factors as licensing income and startup companies, the following universities are the leaders at taking world-class research and turning it into commercial applications - what the Institute\u2032s researchers call \"academic entrepreneurial capitalism\": 1.\tMassachusetts Institute of Technology <br>\n2.\tUniversity of California system<br>\n3.\tCalifornia Institute of Technology<br>\n4.\tStanford University<br>\n5.\tUniversity of Florida<br>\n6.\tUniversity of Minnesota<br>\n7.\tBrigham Young University<br>\n8.\tUniversity of British Columbia<br>\n9.\tUniversity of Michigan<br>\n10.\tNew York University For the Technology Transfer and Commercialization Index, researchers focused on universities in Canada and the U.S. because these are the only institutions that release data by individual campus; data from universities elsewhere around the world were either in aggregate form or subject to measurement difficulties. The ranking also includes all commercialized university research, not just biotech, since statistics are not available by individual fields; but the authors said that based on their research, biotech makes up a significant portion of university commercialization income. In this study, Milken Institute researchers sought to discover which universities do the best job at technology transfer and commercialization. \"U.S. universities are the world leaders in transferring intellectual property to the private sector,\" says the report. The study shows the importance of research to a university\u2032s - and region\u2032s - bottom line, especially those universities with a strong biotech component, a well-functioning office of technology transfer and proximity to clusters of biotech firms eager to pay for the research. Since the implementation of the Bayh-Dole Act of 1980, which allowed U.S. universities to own, license and market their faculty research, and similar legislation enacted in other countries, innovation has increasingly shifted to universities. This has created new roles for them as engines of economic development and shifted commercially viable research away from corporate labs back to campuses, according to the study. \"Universities around the world have expanded their mission beyond that of basic research and teaching to become places where knowledge fuels patent development, business collaborations and incubators for startups,\" the report says. To judge and understand this trend, Institute researchers compared university technology transfer processes around the world; studied the common characteristics to successful commercialization; and measured the role of the university offices of technology transfer (OTT). Among their key findings: Research activity (as measured by publications and citations) has a high rate of return. Each 10-point increase in the Institute\u2032s score for published research contributes an additional $1.7 million to a university\u2032s annual licensing income. <br> For every $1 invested in OTT staff, the university receives more than $6 in licensing income.<br> For each additional year that an OTT is in operation, $228,000 of incremental licensing income is generated for the university. \"Without an OTT office, the average university would earn only 79 percent of its annual licensing income,\" the report states. According to the study, a handful of America\u2032s top universities is responsible for the bulk of commercialization. For example, the top 10 percent of universities accounted for 42 percent of the university-generated total licensing income in 2003. From 1997 to 2003, the most successful institutions, in terms of dollars generated per year, were the University of California system, averaging nearly $100 million; Stanford University, $50 million; and MIT, $33 million. The U.S. is also a leader in the amount of research dollars spent per campus. According to the study, the average research expenditure for universities in 2004 was $225 million in the U.S., $178 million in Canada and $100 million in Europe. Looked at another way, U.S. universities have $27,825 in licensing income for every $1 million in research expenditures, substantially higher than the $11,988 for European universities. The report touches on the controversial nature of technology transfer, noting that some believe commercialization goals may stifle research and that a university should focus on basic research and teaching, not on commercializing its intellectual property. However, the study\u2032s authors argue that commercially viable research discoveries communicate to universities that their work can be applied to benefit society at large, and that innovation costs can be partially recovered in the marketplace. Moreover, they note, since universities receive the bulk of their funding from public sources, social benefits must factor into their goals. \"Technology transfer reflects the delicate balance of a university\u2032s wider culture and is, in fact, an important byproduct of its mission,\" says Ross DeVol, Director of Regional Economics at the Milken Institute and the report\u2032s lead author. \"Universities that don\u2032t encourage the commercial application of their research assets will not assist economic development in their communities and contribute fully to national competitiveness.\" The study was made possible thanks, in part, to a generous donation from Inflect Technologies, a leading commercialization fund, efficiently and methodically developing innovative intellectual property licensed from universities and institutions into game-changing products and companies. View the report. View the rankings: Biotechnology Publication Ranking Biotechnology Patent Ranking University Technology Transfer and Commercialization Index Note: The study was released at a press conference in Washington, D.C. on Sept. 20, 2006. Among those speaking at that event were Ross DeVol, Director of Regional Economics and one of the report's co-authors, and Assistant Secretary of Labor Emily Stover DeRocco. View their presentation and remarks below. Ross DeVol's presentation Assistant Secretary of Labor Emily Stover DeRocco's remarks ",
+    "format": "rich_text",
+    "processed": "Despite growing efforts by universities around the world to catch up, the United States remains the global powerhouse in biotechnology research - and in the ability to turn research into commercial applications, according to a new study from the Milken Institute. This examination of the commercialization of university research reveals that the U.S. dominates the top rankings on many key measures, including published research, patents issued and licensing income. The study, Mind to Market: A Global Analysis of University Biotechnology Transfer and Commercialization, shows the position of these institutions in the commercialization pipeline, which starts with the quality of research and moves to patented ideas and, finally, to commercial outcomes. The findings include: U.S. universities hold eight of the top 10 positions on a measure of the quality and quantity of published biotech research, which assesses the strength of that research. Harvard University is No. 1, followed by the University of Tokyo, University of London, University of California at San Francisco and the University of Pennsylvania. <br \/> Nine of the top 10 universities are American when scored on the quality and quantity of biotechnology patents issued in the U.S. (where most universities attempt to patent biotech discoveries). The University of Texas system is first, followed by U.C. San Francisco, Johns Hopkins University, Stanford University and Cornell University. <br \/> In a narrower aspect of the larger study, based on detailed data from U.S. and Canadian universities only, Institute researchers looked at outcomes - turning knowledge into commercially viable products and companies. According to the Milken Institute University Technology Transfer and Commercialization Index, which measures such factors as licensing income and startup companies, the following universities are the leaders at taking world-class research and turning it into commercial applications - what the Institute\u2032s researchers call \"academic entrepreneurial capitalism\": 1.\tMassachusetts Institute of Technology <br \/>\n2.\tUniversity of California system<br \/>\n3.\tCalifornia Institute of Technology<br \/>\n4.\tStanford University<br \/>\n5.\tUniversity of Florida<br \/>\n6.\tUniversity of Minnesota<br \/>\n7.\tBrigham Young University<br \/>\n8.\tUniversity of British Columbia<br \/>\n9.\tUniversity of Michigan<br \/>\n10.\tNew York University For the Technology Transfer and Commercialization Index, researchers focused on universities in Canada and the U.S. because these are the only institutions that release data by individual campus; data from universities elsewhere around the world were either in aggregate form or subject to measurement difficulties. The ranking also includes all commercialized university research, not just biotech, since statistics are not available by individual fields; but the authors said that based on their research, biotech makes up a significant portion of university commercialization income. In this study, Milken Institute researchers sought to discover which universities do the best job at technology transfer and commercialization. \"U.S. universities are the world leaders in transferring intellectual property to the private sector,\" says the report. The study shows the importance of research to a university\u2032s - and region\u2032s - bottom line, especially those universities with a strong biotech component, a well-functioning office of technology transfer and proximity to clusters of biotech firms eager to pay for the research. Since the implementation of the Bayh-Dole Act of 1980, which allowed U.S. universities to own, license and market their faculty research, and similar legislation enacted in other countries, innovation has increasingly shifted to universities. This has created new roles for them as engines of economic development and shifted commercially viable research away from corporate labs back to campuses, according to the study. \"Universities around the world have expanded their mission beyond that of basic research and teaching to become places where knowledge fuels patent development, business collaborations and incubators for startups,\" the report says. To judge and understand this trend, Institute researchers compared university technology transfer processes around the world; studied the common characteristics to successful commercialization; and measured the role of the university offices of technology transfer (OTT). Among their key findings: Research activity (as measured by publications and citations) has a high rate of return. Each 10-point increase in the Institute\u2032s score for published research contributes an additional $1.7 million to a university\u2032s annual licensing income. <br \/> For every $1 invested in OTT staff, the university receives more than $6 in licensing income.<br \/> For each additional year that an OTT is in operation, $228,000 of incremental licensing income is generated for the university. \"Without an OTT office, the average university would earn only 79 percent of its annual licensing income,\" the report states. According to the study, a handful of America\u2032s top universities is responsible for the bulk of commercialization. For example, the top 10 percent of universities accounted for 42 percent of the university-generated total licensing income in 2003. From 1997 to 2003, the most successful institutions, in terms of dollars generated per year, were the University of California system, averaging nearly $100 million; Stanford University, $50 million; and MIT, $33 million. The U.S. is also a leader in the amount of research dollars spent per campus. According to the study, the average research expenditure for universities in 2004 was $225 million in the U.S., $178 million in Canada and $100 million in Europe. Looked at another way, U.S. universities have $27,825 in licensing income for every $1 million in research expenditures, substantially higher than the $11,988 for European universities. The report touches on the controversial nature of technology transfer, noting that some believe commercialization goals may stifle research and that a university should focus on basic research and teaching, not on commercializing its intellectual property. However, the study\u2032s authors argue that commercially viable research discoveries communicate to universities that their work can be applied to benefit society at large, and that innovation costs can be partially recovered in the marketplace. Moreover, they note, since universities receive the bulk of their funding from public sources, social benefits must factor into their goals. \"Technology transfer reflects the delicate balance of a university\u2032s wider culture and is, in fact, an important byproduct of its mission,\" says Ross DeVol, Director of Regional Economics at the Milken Institute and the report\u2032s lead author. \"Universities that don\u2032t encourage the commercial application of their research assets will not assist economic development in their communities and contribute fully to national competitiveness.\" The study was made possible thanks, in part, to a generous donation from Inflect Technologies, a leading commercialization fund, efficiently and methodically developing innovative intellectual property licensed from universities and institutions into game-changing products and companies. View the report. View the rankings: Biotechnology Publication Ranking Biotechnology Patent Ranking University Technology Transfer and Commercialization Index Note: The study was released at a press conference in Washington, D.C. on Sept. 20, 2006. Among those speaking at that event were Ross DeVol, Director of Regional Economics and one of the report's co-authors, and Assistant Secretary of Labor Emily Stover DeRocco. View their presentation and remarks below. Ross DeVol's presentation Assistant Secretary of Labor Emily Stover DeRocco's remarks ",
+    "summary": null,
+    "summary_processed": ""
+}

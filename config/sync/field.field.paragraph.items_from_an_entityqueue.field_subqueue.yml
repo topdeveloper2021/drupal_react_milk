@@ -1,0 +1,38 @@
+uuid: e97e44f7-d4e7-4512-905b-bf5d2e6bd059
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.events
+    - entityqueue.entity_queue.featured
+    - entityqueue.entity_queue.featured_videos
+    - entityqueue.entity_queue.homepage_slides
+    - entityqueue.entity_queue.homepage_videos
+    - entityqueue.entity_queue.landing_pages
+    - field.storage.paragraph.field_subqueue
+    - paragraphs.paragraphs_type.items_from_an_entityqueue
+id: paragraph.items_from_an_entityqueue.field_subqueue
+field_name: field_subqueue
+entity_type: paragraph
+bundle: items_from_an_entityqueue
+label: Subqueue
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:entity_subqueue'
+  handler_settings:
+    target_bundles:
+      events: events
+      featured: featured
+      featured_videos: featured_videos
+      landing_pages: landing_pages
+      homepage_slides: homepage_slides
+      homepage_videos: homepage_videos
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: featured
+field_type: entity_reference

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/lets-unlock-economic-potential-older-workers-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/86?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 552
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cb2c72fe-cb73-4557-aaf7-92c0e6b87ba0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 552
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/86?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "04352415-2114-4c21-b2a7-8e72e3fc4571"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Let's Unlock the Economic Potential of Older Workers",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:05:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-14T15:02:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/lets-unlock-economic-potential-older-workers-0",
+            "pid": 605,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Not long ago, I was on a cross-country flight home to Los Angeles. The gentleman in the seat next to me was working away on his computer on a dazzling presentation. He showed me photos taken by the Mars Rover, a series of colorful visualizations of various environmental factors, and his scientific opinion about what is required to make Mars habitable by the early 2030s. For all the significant strides scientists are making to homestead a neighboring planet, the U.S. is still struggling to find solutions to fund Social Security, which is estimated to be depleted in the same timeframe. The 2030s are just around the corner. Oh, how we live in a time of extreme contradictions! Raising the retirement age is a commonly referenced solution for Social Security\u2019s woes because people are living longer than any other time in history. However, this conceptually simple solution is doomed to failure if we do not address negative stereotypes about aging and disrupt the long-standing institutionalization of ageism in public policy and employment practices. Unlocking the economic potential of older workers has positive implications for funding Social Security and fueling the broader economy. Theoretically, people who are working longer will continue paying into the Social Security fund and delay benefit payments until an older age. Moreover, in our consumer-driven economy, keeping workers in the workforce longer enables them to maintain or increase their income, savings and investments, spending power, and the tax revenue they generate for the IRS. Older workers contribute a wealth of wisdom, life experience, perspectives, and problem-solving abilities. For the first time in history, the U.S. has five generations in the workforce, bringing exciting opportunities for collaboration and innovation. Many older workers are educated and bring transferable job skills that can be applied to new situations. Most workers are already expecting to work past age 65 or do not plan to retire, according to research from nonprofit Transamerica Center for Retirement Studies. Many envision a flexible, personalized transition into retirement that involves reducing hours or working in a different capacity. This transition would allow them to continue earning income albeit with more time for family, friends, and enjoyment of life. It is a meaningful way to bridge savings shortfalls and be more financially secure when they do stop working altogether. These fundamental changes to work, aging, and retirement bring about business-related opportunities that should not be underestimated. They will create a demand for a vast array of new products and services, many of which do not yet exist. They have implications for workplace design, technology, transportation, communication, continuing education, and fashion. They call for new approaches to financial planning, retirement income, and insurance products. The possibilities are endless. Unfortunately, the likelihood of successfully extending working lives is iffy at best because it depends on the availability of meaningful employment opportunities for older workers and the willingness of employers to recruit and retain them. The Bureau of Labor Statistics has projected an increase in the labor force participation of Americans age 65 and older\u2014but its projections are still only 21.7 percent in the year 2024, up from 18.6 percent in 2014. What will labor force participation of older workers be in the year 2034? Our society is at a critical juncture. The choice is ours: We can accept the status quo and its host of issues, or we can overcome inertia and modernize our beliefs about aging. If we choose to modernize, we can help solve Social Security\u2019s funding shortfalls, increase tax revenue, open new markets for products and services\u2014while creating opportunities for older Americans to stay active and involved, improve their retirement security, and possibly take a vacation on Mars. <table> <tr> <td>View Report \u2192<\/td> <\/tr> <\/table>",
+    "format": "rich_text",
+    "processed": "Not long ago, I was on a cross-country flight home to Los Angeles. The gentleman in the seat next to me was working away on his computer on a dazzling presentation. He showed me photos taken by the Mars Rover, a series of colorful visualizations of various environmental factors, and his scientific opinion about what is required to make Mars habitable by the early 2030s. For all the significant strides scientists are making to homestead a neighboring planet, the U.S. is still struggling to find solutions to fund Social Security, which is estimated to be depleted in the same timeframe. The 2030s are just around the corner. Oh, how we live in a time of extreme contradictions! Raising the retirement age is a commonly referenced solution for Social Security\u2019s woes because people are living longer than any other time in history. However, this conceptually simple solution is doomed to failure if we do not address negative stereotypes about aging and disrupt the long-standing institutionalization of ageism in public policy and employment practices. Unlocking the economic potential of older workers has positive implications for funding Social Security and fueling the broader economy. Theoretically, people who are working longer will continue paying into the Social Security fund and delay benefit payments until an older age. Moreover, in our consumer-driven economy, keeping workers in the workforce longer enables them to maintain or increase their income, savings and investments, spending power, and the tax revenue they generate for the IRS. Older workers contribute a wealth of wisdom, life experience, perspectives, and problem-solving abilities. For the first time in history, the U.S. has five generations in the workforce, bringing exciting opportunities for collaboration and innovation. Many older workers are educated and bring transferable job skills that can be applied to new situations. Most workers are already expecting to work past age 65 or do not plan to retire, according to research from nonprofit Transamerica Center for Retirement Studies. Many envision a flexible, personalized transition into retirement that involves reducing hours or working in a different capacity. This transition would allow them to continue earning income albeit with more time for family, friends, and enjoyment of life. It is a meaningful way to bridge savings shortfalls and be more financially secure when they do stop working altogether. These fundamental changes to work, aging, and retirement bring about business-related opportunities that should not be underestimated. They will create a demand for a vast array of new products and services, many of which do not yet exist. They have implications for workplace design, technology, transportation, communication, continuing education, and fashion. They call for new approaches to financial planning, retirement income, and insurance products. The possibilities are endless. Unfortunately, the likelihood of successfully extending working lives is iffy at best because it depends on the availability of meaningful employment opportunities for older workers and the willingness of employers to recruit and retain them. The Bureau of Labor Statistics has projected an increase in the labor force participation of Americans age 65 and older\u2014but its projections are still only 21.7 percent in the year 2024, up from 18.6 percent in 2014. What will labor force participation of older workers be in the year 2034? Our society is at a critical juncture. The choice is ours: We can accept the status quo and its host of issues, or we can overcome inertia and modernize our beliefs about aging. If we choose to modernize, we can help solve Social Security\u2019s funding shortfalls, increase tax revenue, open new markets for products and services\u2014while creating opportunities for older Americans to stay active and involved, improve their retirement security, and possibly take a vacation on Mars. <table><tr><td>View Report \u2192<\/td> <\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

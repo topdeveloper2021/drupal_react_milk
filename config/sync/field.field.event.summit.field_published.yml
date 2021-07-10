@@ -1,0 +1,23 @@
+uuid: 77582c0d-0d36-4caa-985a-5ee36b6bcc89
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_published
+id: event.summit.field_published
+field_name: field_published
+entity_type: event
+bundle: summit
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/center-accelerating-medical-solutions-names-executive-vice-president?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 227
+        }
+    ],
+    "uuid": [
+        {
+            "value": "87f4375c-6982-44b3-87cb-beae116d19b3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 227
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Center for Accelerating Medical Solutions Names Executive Vice President",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/center-accelerating-medical-solutions-names-executive-vice-president",
+            "pid": 280,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON, October 13, 2003 - Sarah Caddick, an award-winning medical researcher who has led national efforts to help advance scientific discoveries, has been named executive vice president of the Center for Accelerating Medical Solutions. The Center, a new initiative of the Milken Institute, is an independent, nonpartisan organization established this spring to examine the entire medical research and treatment process. It seeks ways to shorten the path to cures and improved treatment outcomes for the most deadly and debilitating diseases. \"Sarah has a unique background, first, as an award-winning medical researcher, and second, as an energetic leader in major efforts trying to improve the research process,\" said CAMS President Gregory Simon. \"This combination will be invaluable as we work with diverse groups in our effort to speed up the research process and make it more efficient.\" Caddick comes to CAMS from the Wadsworth Foundation, an organization dedicated to finding a cure for multiple sclerosis, where she had been executive director. Prior to joining the foundation, she was the director of medical and scientific programs for the Steve and Michele Kirsch Foundation, and before that, director of award programs at the Cancer Research Fund of the Damon Runyon-Walter Winchell Foundation. She currently serves as a consultant to the Steve and Michele Kirsch Foundation and a member of the Research Advisory Board for the National Center for Sleep Disorder Research at the National Institutes of Health. Before leaving to pursue a career in medical and scientific grant-making and policy, Caddick was engaged in biomedical research in epilepsy at Duke University Medical Center and the Medical College of Virginia. She received the American Epilepsy Society - Milken Family Foundation Award during this time. She holds a Ph.D. in neuroscience from the University of Southampton, U.K., and a B.Sc. in biology from the University of Portsmouth, U.K. Based in Washington, D.C., CAMS has a board of directors comprising Nobel laureates in economics and medicine as well as distinguished leaders of health care, business and journalistic groups. The Center will seek ways to shorten the path to cures and improved treatment outcomes for the most deadly and debilitating diseases that create staggering national costs for treatment as well as untold suffering, lost productivity and mortality. For more information on CAMS, see www.fastercures.org.",
+    "format": "rich_text",
+    "processed": "WASHINGTON, October 13, 2003 - Sarah Caddick, an award-winning medical researcher who has led national efforts to help advance scientific discoveries, has been named executive vice president of the Center for Accelerating Medical Solutions. The Center, a new initiative of the Milken Institute, is an independent, nonpartisan organization established this spring to examine the entire medical research and treatment process. It seeks ways to shorten the path to cures and improved treatment outcomes for the most deadly and debilitating diseases. \"Sarah has a unique background, first, as an award-winning medical researcher, and second, as an energetic leader in major efforts trying to improve the research process,\" said CAMS President Gregory Simon. \"This combination will be invaluable as we work with diverse groups in our effort to speed up the research process and make it more efficient.\" Caddick comes to CAMS from the Wadsworth Foundation, an organization dedicated to finding a cure for multiple sclerosis, where she had been executive director. Prior to joining the foundation, she was the director of medical and scientific programs for the Steve and Michele Kirsch Foundation, and before that, director of award programs at the Cancer Research Fund of the Damon Runyon-Walter Winchell Foundation. She currently serves as a consultant to the Steve and Michele Kirsch Foundation and a member of the Research Advisory Board for the National Center for Sleep Disorder Research at the National Institutes of Health. Before leaving to pursue a career in medical and scientific grant-making and policy, Caddick was engaged in biomedical research in epilepsy at Duke University Medical Center and the Medical College of Virginia. She received the American Epilepsy Society - Milken Family Foundation Award during this time. She holds a Ph.D. in neuroscience from the University of Southampton, U.K., and a B.Sc. in biology from the University of Portsmouth, U.K. Based in Washington, D.C., CAMS has a board of directors comprising Nobel laureates in economics and medicine as well as distinguished leaders of health care, business and journalistic groups. The Center will seek ways to shorten the path to cures and improved treatment outcomes for the most deadly and debilitating diseases that create staggering national costs for treatment as well as untold suffering, lost productivity and mortality. For more information on CAMS, see www.fastercures.org.",
+    "summary": null,
+    "summary_processed": ""
+}

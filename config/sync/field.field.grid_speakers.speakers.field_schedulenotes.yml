@@ -1,0 +1,19 @@
+uuid: d07d5589-94ca-4f0a-aee8-2e1d838db1c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_schedulenotes
+id: grid_speakers.speakers.field_schedulenotes
+field_name: field_schedulenotes
+entity_type: grid_speakers
+bundle: speakers
+label: schedulenotes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

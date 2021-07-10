@@ -1,0 +1,19 @@
+uuid: ae614032-7ac8-4b36-9ad0-b98a2dc61ec1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_name_short
+id: event.conference.field_name_short
+field_name: field_name_short
+entity_type: event
+bundle: conference
+label: 'Name Short'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

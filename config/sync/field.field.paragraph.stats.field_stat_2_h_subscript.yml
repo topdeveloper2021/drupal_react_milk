@@ -1,0 +1,19 @@
+uuid: 2a2fbfec-d7a5-4af8-9cbc-9b3d0c9a70db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stat_2_h_subscript
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_stat_2_h_subscript
+field_name: field_stat_2_h_subscript
+entity_type: paragraph
+bundle: stats
+label: 'Stat 2 Header Subscript'
+description: 'Short subscript text to show after the first stat number value.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 7b66b1c6-047c-475b-a223-2278e363965a
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_sequential_id
+field_name: field_sequential_id
+entity_type: event
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

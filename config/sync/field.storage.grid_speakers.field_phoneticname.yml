@@ -1,0 +1,21 @@
+uuid: 3eec8f4d-6c08-40d0-96b7-1129f11514c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_phoneticname
+field_name: field_phoneticname
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

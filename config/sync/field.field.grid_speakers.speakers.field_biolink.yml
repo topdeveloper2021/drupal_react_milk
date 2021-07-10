@@ -1,0 +1,19 @@
+uuid: ec36a761-1690-4224-8950-ca47b11817f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_biolink
+id: grid_speakers.speakers.field_biolink
+field_name: field_biolink
+entity_type: grid_speakers
+bundle: speakers
+label: BioLink
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

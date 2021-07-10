@@ -1,0 +1,660 @@
+uuid: bb1ce101-3bff-47d7-82f7-3c1d8c2c9aac
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.field.grid_speakers.speakers.field_attendeeid
+    - field.field.grid_speakers.speakers.field_biolink
+    - field.field.grid_speakers.speakers.field_biopic
+    - field.field.grid_speakers.speakers.field_biotext
+    - field.field.grid_speakers.speakers.field_cancelled
+    - field.field.grid_speakers.speakers.field_city
+    - field.field.grid_speakers.speakers.field_connections
+    - field.field.grid_speakers.speakers.field_contactid
+    - field.field.grid_speakers.speakers.field_createdbyid
+    - field.field.grid_speakers.speakers.field_cventid
+    - field.field.grid_speakers.speakers.field_datecreated
+    - field.field.grid_speakers.speakers.field_datemodified
+    - field.field.grid_speakers.speakers.field_datesuggested
+    - field.field.grid_speakers.speakers.field_description
+    - field.field.grid_speakers.speakers.field_developmentpriority
+    - field.field.grid_speakers.speakers.field_devorganization
+    - field.field.grid_speakers.speakers.field_devrelationcontact
+    - field.field.grid_speakers.speakers.field_devrelationship
+    - field.field.grid_speakers.speakers.field_displaychinese
+    - field.field.grid_speakers.speakers.field_eventid
+    - field.field.grid_speakers.speakers.field_facebook
+    - field.field.grid_speakers.speakers.field_facebookfollowers
+    - field.field.grid_speakers.speakers.field_first_name
+    - field.field.grid_speakers.speakers.field_instagram
+    - field.field.grid_speakers.speakers.field_invitationextend
+    - field.field.grid_speakers.speakers.field_invitationwhom
+    - field.field.grid_speakers.speakers.field_ipnum
+    - field.field.grid_speakers.speakers.field_last_name
+    - field.field.grid_speakers.speakers.field_linkedin
+    - field.field.grid_speakers.speakers.field_location
+    - field.field.grid_speakers.speakers.field_middle_name
+    - field.field.grid_speakers.speakers.field_modifiedbyid
+    - field.field.grid_speakers.speakers.field_needsfinaledit
+    - field.field.grid_speakers.speakers.field_notes
+    - field.field.grid_speakers.speakers.field_panelid
+    - field.field.grid_speakers.speakers.field_pgid
+    - field.field.grid_speakers.speakers.field_pgtitle
+    - field.field.grid_speakers.speakers.field_phoneticname
+    - field.field.grid_speakers.speakers.field_photomoddate
+    - field.field.grid_speakers.speakers.field_primarytrack
+    - field.field.grid_speakers.speakers.field_rawfiletype
+    - field.field.grid_speakers.speakers.field_recbio
+    - field.field.grid_speakers.speakers.field_recbiodate
+    - field.field.grid_speakers.speakers.field_recphoto
+    - field.field.grid_speakers.speakers.field_recphotodate
+    - field.field.grid_speakers.speakers.field_recwaiver
+    - field.field.grid_speakers.speakers.field_recwaiverdate
+    - field.field.grid_speakers.speakers.field_rolechangedate
+    - field.field.grid_speakers.speakers.field_salesforceid
+    - field.field.grid_speakers.speakers.field_salutation
+    - field.field.grid_speakers.speakers.field_schedulenotes
+    - field.field.grid_speakers.speakers.field_secondarytrack
+    - field.field.grid_speakers.speakers.field_showflownotes
+    - field.field.grid_speakers.speakers.field_sortorder
+    - field.field.grid_speakers.speakers.field_speakerliaison
+    - field.field.grid_speakers.speakers.field_speakerrole
+    - field.field.grid_speakers.speakers.field_speakertopics
+    - field.field.grid_speakers.speakers.field_speakertype
+    - field.field.grid_speakers.speakers.field_spideremaildate
+    - field.field.grid_speakers.speakers.field_spkemail
+    - field.field.grid_speakers.speakers.field_status
+    - field.field.grid_speakers.speakers.field_suffix
+    - field.field.grid_speakers.speakers.field_topicnotes
+    - field.field.grid_speakers.speakers.field_twitter
+    - field.field.grid_speakers.speakers.field_twitter2
+    - field.field.grid_speakers.speakers.field_twitternotes
+    - field.field.grid_speakers.speakers.field_webfiletype
+    - field.field.grid_speakers.speakers.field_whoconfirmed
+    - field.field.grid_speakers.speakers.field_whoentered
+    - field.field.grid_speakers.speakers.field_whosuggested
+    - field.field.grid_speakers.speakers.field_womensreport
+id: grid_speakers.speakers.default
+targetEntityType: grid_speakers
+bundle: speakers
+mode: default
+content:
+  field_attendeeid:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_biolink:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_biopic:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_biotext:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_cancelled:
+    weight: 4
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_city:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_connections:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contactid:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_createdbyid:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cventid:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_datecreated:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_datemodified:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_datesuggested:
+    weight: 12
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_description:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_developmentpriority:
+    weight: 14
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_devorganization:
+    weight: 15
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_devrelationcontact:
+    weight: 16
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_devrelationship:
+    weight: 17
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_displaychinese:
+    weight: 18
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_eventid:
+    weight: 19
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_facebook:
+    weight: 20
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_facebookfollowers:
+    weight: 21
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_first_name:
+    weight: 22
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_instagram:
+    weight: 23
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_invitationextend:
+    weight: 24
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_invitationwhom:
+    weight: 25
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_ipnum:
+    weight: 26
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_last_name:
+    weight: 27
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_linkedin:
+    weight: 28
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_location:
+    weight: 29
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_middle_name:
+    weight: 30
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_modifiedbyid:
+    weight: 31
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_needsfinaledit:
+    weight: 32
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_notes:
+    weight: 33
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_panelid:
+    weight: 34
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_pgid:
+    weight: 35
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_pgtitle:
+    weight: 36
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phoneticname:
+    weight: 37
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_photomoddate:
+    weight: 38
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_primarytrack:
+    weight: 39
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_rawfiletype:
+    weight: 40
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_recbio:
+    weight: 41
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_recbiodate:
+    weight: 42
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_recphoto:
+    weight: 43
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_recphotodate:
+    weight: 44
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_recwaiver:
+    weight: 45
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_recwaiverdate:
+    weight: 46
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_rolechangedate:
+    weight: 47
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_salesforceid:
+    weight: 48
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_salutation:
+    weight: 49
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_schedulenotes:
+    weight: 50
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_secondarytrack:
+    weight: 51
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_showflownotes:
+    weight: 52
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_sortorder:
+    weight: 54
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_speakerliaison:
+    weight: 53
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_speakerrole:
+    weight: 55
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_speakertopics:
+    weight: 56
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_speakertype:
+    weight: 57
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_spideremaildate:
+    weight: 58
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_spkemail:
+    weight: 59
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_status:
+    weight: 60
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_suffix:
+    weight: 61
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_topicnotes:
+    weight: 62
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_twitter:
+    weight: 63
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_twitter2:
+    weight: 64
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_twitternotes:
+    weight: 65
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_webfiletype:
+    weight: 66
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_whoconfirmed:
+    weight: 67
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_whoentered:
+    weight: 68
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_whosuggested:
+    weight: 69
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_womensreport:
+    weight: 70
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

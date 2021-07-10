@@ -1,0 +1,22 @@
+uuid: 933aed05-5579-4655-8b81-a475fe91f0a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.podcast_browser.field_topics
+    - paragraphs.paragraphs_type.podcast_browser
+id: paragraph.podcast_browser.default
+targetEntityType: paragraph
+bundle: podcast_browser
+mode: default
+content:
+  field_topics:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  search_api_excerpt: true

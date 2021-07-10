@@ -1,0 +1,34 @@
+uuid: 9ae06d45-309b-4ad9-aac0-93f7f8eb2159
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access media overview'
+  - 'access openapi api docs'
+  - 'issue subrequests'
+  - 'search content'
+  - 'use advanced search'
+  - 'use search_api_autocomplete for solr_search'
+  - 'view any event entities'
+  - 'view any grid_join_panel_speaker entities'
+  - 'view any grid_speakers entities'
+  - 'view any grid_tracks entities'
+  - 'view any location entities'
+  - 'view any panel entities'
+  - 'view any people entities'
+  - 'view any rooms entities'
+  - 'view any slide entities'
+  - 'view any speakers entities'
+  - 'view files'
+  - 'view media'
+  - 'view own grid_tracks entities'
+  - 'view own panel entities'
+  - 'view own rooms entities'
+  - 'view own speakers entities'

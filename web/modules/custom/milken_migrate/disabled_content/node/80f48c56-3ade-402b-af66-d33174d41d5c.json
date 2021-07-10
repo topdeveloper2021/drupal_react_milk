@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/cap-and-trade-program-reduce-us-emissions-needs-attention-design-says-new-report-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 181
+        }
+    ],
+    "uuid": [
+        {
+            "value": "80f48c56-3ade-402b-af66-d33174d41d5c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 181
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Cap-and-trade program to reduce U.S. emissions needs attention to design says a new report from the Milken Institute",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/cap-and-trade-program-reduce-us-emissions-needs-attention-design-says-new-report-milken",
+            "pid": 234,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "While legislators debate five federal bills, authorize a new committee on climate change and hold hearings almost daily on Capital Hill, the capital markets will eventually be the ones working with a national cap-and-trade market structure - good or bad. The Milken Institute, together with Stark Investments and Baker & McKenzie LLP, look beyond the political rhetoric of cap-and-trade and deep into the design elements that will ultimately either dramatically reduce emissions or create a failed market. According to their new report, <b>A Cap-and-Trade Program Design for Greenhouse Gases: Achieving Flexibility and Cost-Effectiveness in Tackling Climate Change<\/b>, a cap-and-trade approach encouraging emissions sources to buy and sell a fixed pool of emissions allowances in free markets offers the best prospect for meeting emissions targets at the lowest cost and with the least government intrusion. \"An appropriately structured cap-and-trade has enormous potential to be a key pillar in our efforts to curb global warming,\" said Glenn Yago, director of Capital Studies at the Milken Institute. \"However, it is absolutely crucial that a national policy supports a sustainable, sound capital markets design.\" The report offers key insight into the design elements that will create a successful cap-and-trade program. The optimal design has the following elements: The cap-and-trade program should be free of artificial price caps, sometimes erroneously called \"safety valves.\" These price caps on emissions allowances reduce short-term costs to emitters, but seriously undermine market price signals, slow technological innovation and are a prolonged detour to achieving the needed reductions. <b> It should cover as many sources (and greenhouse gases) as is practical, and regulate emissions at the point in the production chain where it is cheapest.<br> The program should give credit to sources that have already begun to reduce emissions and, once the program is in force, allow emitters to \"bank\" allowances for future use.<br> It should make trading across national borders easier and allow sources to offset their own emissions by reducing emissions from unregulated sources.<br> At least a portion of the fixed number of emissions allowances should be auctioned by the government, creating a clear market price and generating revenues that could be rebated or used for research and development.<br> While program specifics and emissions targets should be reviewed at regular intervals, the basic structure should remain in place for decades in order to encourage long-term planning. Cap-and-trade has been enormously successful in reducing acid rain and environmental damage from coal-fired utilities that emit sulfur dioxide (SO2). In fact, a well-designed cap and trade system can be the base for increased economic productivity and enhanced U.S. competitiveness. The report also serves as a primer on the capital-market aspects of cap-and-trade, defining the concepts involved and demonstrating the projected impact on emissions of various proposed bills. The Milken Institute, Stark Investments and Baker & McKenzie LLP collaborated on the project to combine the best expertise on cap-and-trade design. The Milken Institute brings advanced thinking in economic and financial innovation to solve social challenges, Stark Investments supplies the practical, in-depth expertise in commodity markets and Baker & McKenzie is a leader in global carbon finance and climate change law and policy. The report was sponsored by Stark Investments. Near consensus on the need to slow global warming has brought incredible momentum at the federal and state-level government levels. The authors say, as with other groundbreaking policies to address serious challenges, now is the time to get the solution right, not after it is launched into the private sector as a partial, if not already failed, market. <b>A Cap-and-Trade Program Design for Greenhouse Gases<\/b> is available here. About Stark Investments: Founded in 1992, Stark Investments is a global alternative investment firm currently managing over $11 billion of investor capital from its headquarters in Milwaukee, Wisconsin and ten additional offices located throughout the world. Stark provides multi-asset investment capabilities through a diverse array of fundamental and quantitative strategies. An affiliate of Stark Investments is a liquidity provider member of the Chicago Climate Exchange and is an active participant in the global carbon market. (www.starkinvestments.com) About Baker & McKenzie: Founded in 1949, Baker & McKenzie is a global law firm of more than 3,400 locally qualified, internationally experienced lawyers and 6,600 other professionals and staff in 70 offices in 38 countries. Global revenues for the fiscal year ended June 30, 2006 exceeded US $1.522 billion. John Conroy is Chairman of the Firm\u2032s Executive Committee. (www.bakernet.com)",
+    "format": "rich_text",
+    "processed": "While legislators debate five federal bills, authorize a new committee on climate change and hold hearings almost daily on Capital Hill, the capital markets will eventually be the ones working with a national cap-and-trade market structure - good or bad. The Milken Institute, together with Stark Investments and Baker &amp; McKenzie LLP, look beyond the political rhetoric of cap-and-trade and deep into the design elements that will ultimately either dramatically reduce emissions or create a failed market. According to their new report, <b>A Cap-and-Trade Program Design for Greenhouse Gases: Achieving Flexibility and Cost-Effectiveness in Tackling Climate Change<\/b>, a cap-and-trade approach encouraging emissions sources to buy and sell a fixed pool of emissions allowances in free markets offers the best prospect for meeting emissions targets at the lowest cost and with the least government intrusion. \"An appropriately structured cap-and-trade has enormous potential to be a key pillar in our efforts to curb global warming,\" said Glenn Yago, director of Capital Studies at the Milken Institute. \"However, it is absolutely crucial that a national policy supports a sustainable, sound capital markets design.\" The report offers key insight into the design elements that will create a successful cap-and-trade program. The optimal design has the following elements: The cap-and-trade program should be free of artificial price caps, sometimes erroneously called \"safety valves.\" These price caps on emissions allowances reduce short-term costs to emitters, but seriously undermine market price signals, slow technological innovation and are a prolonged detour to achieving the needed reductions. <b> It should cover as many sources (and greenhouse gases) as is practical, and regulate emissions at the point in the production chain where it is cheapest.<br \/> The program should give credit to sources that have already begun to reduce emissions and, once the program is in force, allow emitters to \"bank\" allowances for future use.<br \/> It should make trading across national borders easier and allow sources to offset their own emissions by reducing emissions from unregulated sources.<br \/> At least a portion of the fixed number of emissions allowances should be auctioned by the government, creating a clear market price and generating revenues that could be rebated or used for research and development.<br \/> While program specifics and emissions targets should be reviewed at regular intervals, the basic structure should remain in place for decades in order to encourage long-term planning. Cap-and-trade has been enormously successful in reducing acid rain and environmental damage from coal-fired utilities that emit sulfur dioxide (SO2). In fact, a well-designed cap and trade system can be the base for increased economic productivity and enhanced U.S. competitiveness. The report also serves as a primer on the capital-market aspects of cap-and-trade, defining the concepts involved and demonstrating the projected impact on emissions of various proposed bills. The Milken Institute, Stark Investments and Baker &amp; McKenzie LLP collaborated on the project to combine the best expertise on cap-and-trade design. The Milken Institute brings advanced thinking in economic and financial innovation to solve social challenges, Stark Investments supplies the practical, in-depth expertise in commodity markets and Baker &amp; McKenzie is a leader in global carbon finance and climate change law and policy. The report was sponsored by Stark Investments. Near consensus on the need to slow global warming has brought incredible momentum at the federal and state-level government levels. The authors say, as with other groundbreaking policies to address serious challenges, now is the time to get the solution right, not after it is launched into the private sector as a partial, if not already failed, market. <b>A Cap-and-Trade Program Design for Greenhouse Gases<\/b> is available here. About Stark Investments: Founded in 1992, Stark Investments is a global alternative investment firm currently managing over $11 billion of investor capital from its headquarters in Milwaukee, Wisconsin and ten additional offices located throughout the world. Stark provides multi-asset investment capabilities through a diverse array of fundamental and quantitative strategies. An affiliate of Stark Investments is a liquidity provider member of the Chicago Climate Exchange and is an active participant in the global carbon market. (www.starkinvestments.com) About Baker &amp; McKenzie: Founded in 1949, Baker &amp; McKenzie is a global law firm of more than 3,400 locally qualified, internationally experienced lawyers and 6,600 other professionals and staff in 70 offices in 38 countries. Global revenues for the fiscal year ended June 30, 2006 exceeded US $1.522 billion. John Conroy is Chairman of the Firm\u2032s Executive Committee. (www.bakernet.com)<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

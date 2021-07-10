@@ -1,0 +1,21 @@
+uuid: 85cffc05-6161-4ea3-b1f5-c2e12054c7c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_type
+    - node.type.landing_page
+  module:
+    - options
+id: node.landing_page.field_page_type
+field_name: field_page_type
+entity_type: node
+bundle: landing_page
+label: 'Page Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

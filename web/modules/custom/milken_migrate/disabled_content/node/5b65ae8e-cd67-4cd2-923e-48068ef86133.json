@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-names-james-w-osterholt-head-development?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 242
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5b65ae8e-cd67-4cd2-923e-48068ef86133"
+        }
+    ],
+    "vid": [
+        {
+            "value": 242
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute names James W. Osterholt head of development",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-names-james-w-osterholt-head-development",
+            "pid": 295,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - James W. Osterholt, one of the nation\u2032s most respected development executives, has been appointed Vice President for Development at the Milken Institute, a new position for the organization. <BR> \"Jim\u2032s stature, experience and abilities will help us as we seek additional sources of support for our efforts to improve economic conditions around the globe,\" said Michael L. Klowden, President and CEO of the Institute. \"Jim will play a crucial role in expanding the numbers of individuals and entities involved with the Institute.\" <BR> Osterholt\u2032s appointment will help the Institute maintain and expand its work in such areas as emerging domestic markets, capital access and regional job creation, Klowden said.<BR> Osterholt was formerly the executive director of development at RAND, where he managed its philanthropic and development activities. He designed and implemented the organization\u2032s first comprehensive fund-raising effort - a $100 million campaign.<BR> Prior to joining RAND in 1996, he held a number of development positions at UCLA, including associate vice chancellor. Osterholt helped create the university\u2032s most recent $1 billion campaign, and earlier designed and implemented a $300 million campaign that was the largest effort of its type at the time for a public university. He also directed all regular development activities for the UCLA campus, which resulted in more than $100 million annually in gifts and pledges from all sources.<BR> Prior to joining UCLA in 1975, he directed development efforts at the Union Theological Seminary in New York City. He graduated from Stanford University and earned a master\u2032s degree at Columbia University. He is a native of Santa Monica and a resident of Pacific Palisades.<BR>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - James W. Osterholt, one of the nation\u2032s most respected development executives, has been appointed Vice President for Development at the Milken Institute, a new position for the organization. <br \/> \"Jim\u2032s stature, experience and abilities will help us as we seek additional sources of support for our efforts to improve economic conditions around the globe,\" said Michael L. Klowden, President and CEO of the Institute. \"Jim will play a crucial role in expanding the numbers of individuals and entities involved with the Institute.\" <br \/> Osterholt\u2032s appointment will help the Institute maintain and expand its work in such areas as emerging domestic markets, capital access and regional job creation, Klowden said.<br \/> Osterholt was formerly the executive director of development at RAND, where he managed its philanthropic and development activities. He designed and implemented the organization\u2032s first comprehensive fund-raising effort - a $100 million campaign.<br \/> Prior to joining RAND in 1996, he held a number of development positions at UCLA, including associate vice chancellor. Osterholt helped create the university\u2032s most recent $1 billion campaign, and earlier designed and implemented a $300 million campaign that was the largest effort of its type at the time for a public university. He also directed all regular development activities for the UCLA campus, which resulted in more than $100 million annually in gifts and pledges from all sources.<br \/> Prior to joining UCLA in 1975, he directed development efforts at the Union Theological Seminary in New York City. He graduated from Stanford University and earned a master\u2032s degree at Columbia University. He is a native of Santa Monica and a resident of Pacific Palisades.<br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

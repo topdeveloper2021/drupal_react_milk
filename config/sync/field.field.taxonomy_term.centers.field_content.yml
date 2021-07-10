@@ -1,0 +1,66 @@
+uuid: 8477c14d-7fdd-4d02-8e8f-f659f338b594
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_content
+    - taxonomy.vocabulary.centers
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: taxonomy_term.centers.field_content
+field_name: field_content
+entity_type: taxonomy_term
+bundle: centers
+label: 'Landing Page Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      author:
+        weight: 13
+        enabled: false
+      block:
+        weight: 14
+        enabled: false
+      body_content:
+        weight: 15
+        enabled: false
+      four_tile_media:
+        weight: 16
+        enabled: false
+      four_tile_media_taxonomy:
+        weight: 17
+        enabled: false
+      items_from_an_entityqueue:
+        weight: 18
+        enabled: false
+      media_tiles_from_view:
+        weight: 19
+        enabled: false
+      podcast_episode:
+        weight: 20
+        enabled: false
+      pull_quote:
+        weight: 21
+        enabled: false
+      slide:
+        weight: 22
+        enabled: false
+      tiles:
+        weight: 23
+        enabled: false
+      unmigrated_paragraph:
+        weight: 24
+        enabled: false
+field_type: entity_reference_revisions

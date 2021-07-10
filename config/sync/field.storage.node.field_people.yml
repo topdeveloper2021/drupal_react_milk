@@ -1,0 +1,20 @@
+uuid: c777e1c6-eacd-4076-9e50-24e8fcf3d28a
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+id: node.field_people
+field_name: field_people
+entity_type: node
+type: entity_reference
+settings:
+  target_type: people
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,32 @@
+{#
+/**
+ * Available variables
+ * - elements: array of element contains social media link.
+ *
+ */
+#}
+
+
+<div class="social-media-sharing">
+    <ul class="clearfix">
+        {% set classes = [
+    'shareg '
+    ]
+        %}
+        {% for element in elements %}
+            {% if element.forward_dialog == 1 %}
+                {% set classes = classes|merge(['use-ajax']) %}
+                {% set dialogType = "data-dialog-type=dialog" %}
+                {% set dialogOptions = "data-dialog-options=" ~ {'width': '600'}|json_encode %}
+            {% endif %}
+
+            <li class="newshare">
+                <a {{ element.attr.target }} title="{{ element.text }}" target="_blank"  {{ dialogType }} {{ dialogOptions }} {{ element.api }}>
+                 <div {{ element.attr.class.addClass(classes) }}></div>
+                </a>
+            </li>
+
+        {% endfor %}
+    </ul>
+</div>
+

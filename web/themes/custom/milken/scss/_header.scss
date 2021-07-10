@@ -1,0 +1,500 @@
+/*** BEGIN - HEADER MENU BLOCKS STYLES (FORMS & SOCIAL) ***/
+
+
+.only-header-links {
+  #edit-actions {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  .form-item-email-address {
+    width: 100% !important;
+    float: none !important;
+    input {
+      border-radius: 0px !important;
+      @media (max-width: $breakpointTablet) {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  button {
+    border-radius: 0px !important;
+  }
+
+  .webform-submission-newsletter-block_content-7-add-form {
+    border: 0px !important;
+    margin: 0px !important;
+    padding: 0px;
+    width: 100% !important;
+  }
+
+  #edit-markup {
+    font-size: 14px !important;
+    font-weight: normal !important;
+  }
+
+  #edit-markup-01 {
+    display: none !important;
+  }
+
+  p {
+    color: $backgroundLight;
+  }
+
+  input {
+    border: 0px;
+    background-color: $backgroundDarkest;
+    padding: 10px;
+    width: 60%;
+    margin-right: -3px;
+  }
+
+  a {
+    color: $lightTitle;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: $orangeButtons;
+    padding: 13px;
+    vertical-align: middle;
+    line-height: 42px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (max-width: $breakpointPhone) {
+    padding-left: 52px;
+  }
+
+}
+.inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: $breakpointPhone) {
+    flex-direction: column;
+  }
+}
+.page-node-type-homepage, .panel-about-us {
+  .upcoming-events {
+    .inner-wrapper {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+  }
+
+  .upcoming-events-left {
+    min-width: 400px;
+    //margin-right: 25px;
+    @media (max-width: $breakpointTablet) {
+      min-width: 200px;
+    }
+    @media (max-width: $breakpointPhone) {
+      //display: none;
+    }
+  }
+  .upcoming-events-right {
+    @media (max-width: $breakpointPhone) {
+      width: 100%;
+
+      .view-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .views-row {
+          width: 50%;
+          padding: 5px;
+
+          > div {
+            display: block;
+          }
+
+          .row {
+            margin: 0;
+          }
+
+          .bkg-center-slider {
+            height: 30vw;
+          }
+
+          .info-center-container {
+            padding: 0;
+
+            > div {
+              display: grid;
+              position: relative;
+              a {
+                bottom: 0;
+                background-color: #f1f4f6;
+                display: inline-table;
+                color: black;
+                font-size: 14px;
+                font-family: Lato;
+                font-weight: 900;
+                letter-spacing: 0;
+                line-height: 22px;
+                padding: 10px;
+                position: absolute;
+                text-align: center;
+                text-transform: none;
+                width: 100%;
+
+                @media (max-width: $breakpointPhone) {
+                  line-height: 18px;
+                  padding: 5px;
+                  .nodetitlecustom {
+                    display: table-cell;
+                    vertical-align: middle;
+                  }
+                }
+              }
+            }
+
+            h6, div > div {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.inner-nav-cts {
+  h6 {
+    padding-top: 10px;
+    letter-spacing: 2px;
+  }
+}
+/*** END - HEADER MENU BLOCKS STYLES (FORMS & SOCIAL) ***/
+
+
+.user-logged-in {
+  header {
+    // logged
+    .menu-site-main {
+      margin-bottom: -85px !important;
+    }
+  }
+}
+
+
+#page > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 250;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+
+  h1 { display:none; }
+
+  img#site-logo {
+    height: 65px;
+    object-fit: contain;
+    max-width: 55vw;
+    padding: 3px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  input#navbar-search-input-keywords {
+    padding-left: 55px;
+    border-radius: 0 !important;
+    background: #ebeff2;
+  }
+
+  .input-group-prepend {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+
+    .input-group-text {
+      background: transparent;
+      border: 0;
+    }
+
+    a {
+      color: #404040;
+      font-size: 24px;
+      text-decoration: none;
+    }
+  }
+
+}
+
+
+body.toolbar-fixed {
+  #page > header {
+    top: 39px;
+  }
+}
+
+
+div.hamburguer-menu.perfectly-centered {
+  transition: all 0.5s ease;
+  margin-top: 10px;
+}
+header .hamburguer-menu::after, header .hamburguer-menu-centers:after {
+  line-height: 40px;
+}
+#views-exposed-form-search-page{
+  height:40px;
+}
+.searchform-header .form-type-search-api-autocomplete {
+
+  @media (max-width: $breakpointPhone+1){
+    display: block;
+    width:85%;
+  }
+  @media (min-width: $breakpointPhone){
+    width:80%;
+    height: 55px;
+  }
+  margin-bottom: 0px;
+  height: 55px;
+  overflow:hidden;
+  background: white;
+  width: 80%;
+}
+.searchform-header .form-type-search-api-autocomplete .input-group {
+  overflow:hidden;
+  position:relative;
+  top:13px;
+  input {
+    -webkit-transition: all 0.5s ease, background-position 1ms;
+    transition: all 0.5s ease, background-position 1ms;
+    margin-top: 0px;
+  }
+}
+
+
+/*  NAVBAR > Resize elements after scroll  */
+#menu-sticky-main {
+  @media (max-width: $breakpointTablet) {
+
+    .close-search{
+      right: 60px;
+    }
+  }
+}
+#menu-sticky-main.scrolled-nav,
+.menu-main-container.scrolled-nav {
+  transition: opacity 0.5s ease;
+  height: 68px;
+  @media(min-width: $breakpointTablet){
+    #menu-sticky-main.scrolled-nav .searchform-header .form-type-search-api-autocomplete .input-group, .menu-main-container.scrolled-nav .searchform-header .form-type-search-api-autocomplete .input-group {
+      margin-top: 3px;
+    }
+  }
+
+  @media (max-width: $breakpointTablet) {
+    height: 60px;
+  }
+
+  div.hamburguer-menu.perfectly-centered {
+    @media (min-width: $breakpointPhone+2) {
+      margin-top: 0px;
+    }
+  }
+
+  @media (min-width: $breakpointPhone) {
+
+    .close-search{
+      top: 0px;
+      transform: scale(0.9);
+      -webkit-transition: all .5s ease-out;
+      transition: all .5s ease-out;
+    }
+    .searchform-header .form-type-search-api-autocomplete .input-group {
+      /*right: 120px;*/
+      margin-top: 0px;
+      top:0px;
+      margin-bottom: 0px;
+    }
+  }
+
+    @media (min-width: $breakpointTablet) {
+
+          .close-search{
+            top: 3px;}
+    }
+
+
+
+}
+.search-api-autocomplete-suggestion{
+  text-overflow: ellipsis;
+    word-break: break-word;
+    overflow: hidden;
+}
+.search-api-autocomplete-search .ui-menu-item-wrapper.ui-state-active .search-api-autocomplete-suggestion{
+  background:transparent;
+  color:inherit;
+}
+
+/* NAVBAR STYLES */
+
+navbar {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 74px;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 200;
+    background-color: $backgroundLight;
+
+    h2 {
+      display: none;
+    }
+}
+
+// Main Nav Multi-Tab Menu Re-do 2021-04-15
+milken-menu-main {
+  display: none;
+  height: calc(100vh - 74px);
+
+  &.active {
+    display: -ms-flexbox;
+    display: flex;
+
+    @media (max-width: ($breakpointTablet)) {
+      display: block !important;
+    }
+  }
+
+  & #main-nav-wrapper {
+    
+    background-color: #E2E7EA;
+
+    & .nav-tabs {
+      margin-bottom: 1em;
+
+      & .nav-link {
+        // display: ${ multiMenu ? 'block' : 'none' }; From React, hide tab if not multi-menu
+        text-transform: uppercase;
+        color: #252d32;
+        font-size: 0.85em;
+        font-weight: bold;
+        letter-spacing: 2px;
+
+        @media screen and (max-width: 575.98px) {
+          width: 100%;
+        }
+
+        &.active {
+          color: var(--color-milken-orange);
+          border-bottom: 3px solid var(--color-milken-orange);
+          background-color: inherit;
+        }
+      }
+    }
+
+    & .tab-content {
+
+      & .menu-title{
+        color: #bbb;
+        text-transform: uppercase;
+        font-size: 1.15em;
+        margin-bottom: 0.5em;
+      }
+
+      & .list-group{
+        list-style-type: none;
+
+        & li {
+          margin-bottom: 1em;
+
+          &  a {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #444;
+            text-decoration: none;
+          }
+  
+          & p {
+            color: #444;
+            font-size: 0.9em;
+            margin: 0;
+          }
+        }
+      }
+
+      // Main Menu "Other" column
+      & #milken-main {
+        & .others {
+          
+          & h5 {
+            display: none;
+          }
+
+          & li {
+            margin-bottom: 0.5em;
+            & a {
+              color: var(--color-milken-orange);
+            }
+          }
+          & .social-icons { 
+            display: flex;     
+            justify-content: space-between;
+            list-style: none;
+            padding: 0 1em;
+
+            & a {
+              color: #9899a1;  
+            }
+          }
+        }
+      }
+
+      & .col {
+        @media screen and (max-width: 991.98px) {
+          flex: 100%;
+          margin-top: 2em;
+        }
+      }
+    }
+  }
+
+}
+
+
+body.navbar-active  {
+
+  overflow: hidden;
+  height: 0;
+
+  navbar {
+    display: block;
+    bottom: 0;
+    overflow-y: scroll;
+  }
+
+  milken-menu-main,
+  menu-column {
+    display: flex;
+  }
+
+  @media (max-width: ($breakpointTablet)) {
+    display: block !important;
+    bottom: 0;
+    overflow-y: scroll;
+    top: 0;
+
+    milken-menu-main,
+    menu-column {
+      display: block !important;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+uuid: 56b3f649-2a6f-446f-9d72-e48325759409
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_type_of_people
+field_name: field_type_of_people
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: experts
+      label: Experts
+    -
+      value: speakers
+      label: Speakers
+    -
+      value: staff
+      label: Staff
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

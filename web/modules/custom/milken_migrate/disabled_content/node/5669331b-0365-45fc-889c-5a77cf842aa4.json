@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-march-19-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/121?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 738
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5669331b-0365-45fc-889c-5a77cf842aa4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 738
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/121?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "19c827da-6e0f-4ff0-bf63-867c5764e65d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - March 19, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-04T12:49:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:17:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-march-19-2019",
+            "pid": 791,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Cost of Cashless Two weeks ago, Philadelphia enacted a law that forbids merchants from going cashless. The move was prompted by the rise of eateries like Sweetgreen that don\u2019t accept cash payments due to their customers\u2019 preference for electronic payments methods. From the businesses\u2019 perspective, going cashless is simply a logical cost-cutting measure. For policymakers, however, the cost of a cashless future may be much higher. Leaving aside for a moment the (not insignificant) implications of cashlessness for monetary policy, a cashless society would have important implications for financial inclusion. On the one hand, advocates for measures like Philadelphia\u2019s are right to point out that going cashless discriminates against unbanked consumers. According to Prosperity Now, nearly 13 percent of Philadelphia\u2019s population is unbanked, the vast majority of whom are minorities. This effect echoes similar problems in Sweden, where 10 percent of consumers reported having paid for something in cash in 2018. There, the cashless transition has come at the expense of retirees, immigrants, and the disabled. Sweden\u2019s central bank is now advocating for a mandate that all banks handle cash, and the European Central Bank has weighed in at length. On the other hand, cash has problems. In The Curse of Cash, Kenneth Rogoff highlights the role of cash in the underground economy. Infamously, cash is a great tool for criminals engaged in drug trafficking, human trafficking, bribery, and terrorism. However, it is also widely used by small businesses to minimize their tax liability. In fact, it is estimated that such tax avoidance by small businesses accounts for 52 percent of the tax gap in the United States. This presents a paradox. Eliminating cash would come at the expense of unbanked consumers and, at least in the short term, small businesses. Indian policymakers learned about these potential economic consequences the hard way in 2016 when the country\u2019s demonetization experiment resulted in an economic slowdown and fell short of its objectives in cracking down on the underground economy. However, India\u2019s experience did manage to increase tax revenue. In any case, upscale merchants going cashless would seem to be the worst of both worlds. Industry Headlines <i>AltFi<\/i>: PayPal\u2019s working capital program in the United Kingdom crossed the \u00a31 billion mark last week. Notably, the company highlighted that this came as traditional banks\u2019 lending to small businesses remained stagnant. Another U.K. lender\u2019s news wasn\u2019t as good, however. The Financial Times reports that Lendy was placed on a watch list by the Financial Conduct Authority back in January. This comes after reports of increasing default rates at Lendy, where 55 percent of the firms\u2019 outstanding loans are non-performing. In the U.S., LendingClub is reportedly considering applying for a full national bank charter from the Office of the Comptroller of the Currency (OCC). This would be big news in the U.S. FinTech community, as it would signal that another market leader has chosen to become a full national bank instead of applying for the OCC\u2019s FinTech charter. <i>Blockchain & Crypto<\/i>: The big news in crypto last week was Cboe Global Markets will no longer offer bitcoin futures contracts. Both Cboe and CME Group got into the game back in 2017 before the cryptocurrency bubble collapsed. At Fidelity, however, Fidelity Digital Asset Services has gotten quietly off the ground despite adverse market conditions. Elsewhere, Tether seems to be hedging its claim that its stablecoin is fully backed by U.S. dollar reserves. <i>Data Intermediation<\/i>: In keeping with its new focus on technology, Ant Financial unveiled a new core banking platform, the \u201cDistributed Core Banking Platform.\u201d The platform was developed in partnership with Hoperun Information Technology and offered to Chinese banks hoping for access to Ant Financial\u2019s ecosystem. Speaking of core banking, FIS acquired WorldPay for $43 billion early this week as well. This is an interesting space to watch, as core providers are likely to take further measures to fend off competition from big tech. <i>Digital Banking<\/i>: Raisin, Germany\u2019s savings and investment marketplace, acquired MHB Bank, its main bank partner, last week. Raisin can now take advantage of MHB Bank\u2019s banking license, thereby allowing Raisin to passport its services throughout the European Economic Area. <i>Payments<\/i>:\u00a0PayPal invested $750 million in MercadoLibre, the Argentina-based e-commerce giant in Latin America. The funding will be used to expand MercadoLibre\u2019s business and invest in its FinTech capacity. This comes as Amazon and other big tech firms are investing heavily in the region\u2019s payments industry. In the U.S. meanwhile, PayPal\u2019s big announcement is a new service allowing users to transfer funds to their bank accounts immediately for a small fee. This real-time payments feature comes to PayPal via JP Morgan Chase, which has access to The Clearing House\u2019s real-time payments network. Finally, Wirecard is still having a tough time of it. Global Developments <i>European Union<\/i>: The European Banking Authority (EBA) published clarifications to issues raised by its Working Group on the European Union\u2019s Second Payment Services Directive. <i>United States<\/i>: In a speech to the National Community Reinvestment Coalition (NCRC), Federal Reserve Governor Lael Brainard discussed ways to reform the Community Reinvestment Act. Regarding banks\u2019 assessment areas, whose basis many believe to be anachronistic, Brainard suggested that separate assessment areas could be devised for banks\u2019 retail and community development activities. Elsewhere, the North American Securities Administrators Association (NASAA) voiced its concern that Congress may seek to pre-empt state investor protection laws regarding blockchain and cryptocurrency. In a statement, NASAA said, \u201cinvestor protections must not be diminished at the state or federal levels for the sake of potential yet unproven innovation in the financial services industry.\u201d ",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Cost of Cashless Two weeks ago, Philadelphia enacted a law that forbids merchants from going cashless. The move was prompted by the rise of eateries like Sweetgreen that don\u2019t accept cash payments due to their customers\u2019 preference for electronic payments methods. From the businesses\u2019 perspective, going cashless is simply a logical cost-cutting measure. For policymakers, however, the cost of a cashless future may be much higher. Leaving aside for a moment the (not insignificant) implications of cashlessness for monetary policy, a cashless society would have important implications for financial inclusion. On the one hand, advocates for measures like Philadelphia\u2019s are right to point out that going cashless discriminates against unbanked consumers. According to Prosperity Now, nearly 13 percent of Philadelphia\u2019s population is unbanked, the vast majority of whom are minorities. This effect echoes similar problems in Sweden, where 10 percent of consumers reported having paid for something in cash in 2018. There, the cashless transition has come at the expense of retirees, immigrants, and the disabled. Sweden\u2019s central bank is now advocating for a mandate that all banks handle cash, and the European Central Bank has weighed in at length. On the other hand, cash has problems. In The Curse of Cash, Kenneth Rogoff highlights the role of cash in the underground economy. Infamously, cash is a great tool for criminals engaged in drug trafficking, human trafficking, bribery, and terrorism. However, it is also widely used by small businesses to minimize their tax liability. In fact, it is estimated that such tax avoidance by small businesses accounts for 52 percent of the tax gap in the United States. This presents a paradox. Eliminating cash would come at the expense of unbanked consumers and, at least in the short term, small businesses. Indian policymakers learned about these potential economic consequences the hard way in 2016 when the country\u2019s demonetization experiment resulted in an economic slowdown and fell short of its objectives in cracking down on the underground economy. However, India\u2019s experience did manage to increase tax revenue. In any case, upscale merchants going cashless would seem to be the worst of both worlds. Industry Headlines <i>AltFi<\/i>: PayPal\u2019s working capital program in the United Kingdom crossed the \u00a31 billion mark last week. Notably, the company highlighted that this came as traditional banks\u2019 lending to small businesses remained stagnant. Another U.K. lender\u2019s news wasn\u2019t as good, however. The Financial Times reports that Lendy was placed on a watch list by the Financial Conduct Authority back in January. This comes after reports of increasing default rates at Lendy, where 55 percent of the firms\u2019 outstanding loans are non-performing. In the U.S., LendingClub is reportedly considering applying for a full national bank charter from the Office of the Comptroller of the Currency (OCC). This would be big news in the U.S. FinTech community, as it would signal that another market leader has chosen to become a full national bank instead of applying for the OCC\u2019s FinTech charter. <i>Blockchain &amp; Crypto<\/i>: The big news in crypto last week was Cboe Global Markets will no longer offer bitcoin futures contracts. Both Cboe and CME Group got into the game back in 2017 before the cryptocurrency bubble collapsed. At Fidelity, however, Fidelity Digital Asset Services has gotten quietly off the ground despite adverse market conditions. Elsewhere, Tether seems to be hedging its claim that its stablecoin is fully backed by U.S. dollar reserves. <i>Data Intermediation<\/i>: In keeping with its new focus on technology, Ant Financial unveiled a new core banking platform, the \u201cDistributed Core Banking Platform.\u201d The platform was developed in partnership with Hoperun Information Technology and offered to Chinese banks hoping for access to Ant Financial\u2019s ecosystem. Speaking of core banking, FIS acquired WorldPay for $43 billion early this week as well. This is an interesting space to watch, as core providers are likely to take further measures to fend off competition from big tech. <i>Digital Banking<\/i>: Raisin, Germany\u2019s savings and investment marketplace, acquired MHB Bank, its main bank partner, last week. Raisin can now take advantage of MHB Bank\u2019s banking license, thereby allowing Raisin to passport its services throughout the European Economic Area. <i>Payments<\/i>:\u00a0PayPal invested $750 million in MercadoLibre, the Argentina-based e-commerce giant in Latin America. The funding will be used to expand MercadoLibre\u2019s business and invest in its FinTech capacity. This comes as Amazon and other big tech firms are investing heavily in the region\u2019s payments industry. In the U.S. meanwhile, PayPal\u2019s big announcement is a new service allowing users to transfer funds to their bank accounts immediately for a small fee. This real-time payments feature comes to PayPal via JP Morgan Chase, which has access to The Clearing House\u2019s real-time payments network. Finally, Wirecard is still having a tough time of it. Global Developments <i>European Union<\/i>: The European Banking Authority (EBA) published clarifications to issues raised by its Working Group on the European Union\u2019s Second Payment Services Directive. <i>United States<\/i>: In a speech to the National Community Reinvestment Coalition (NCRC), Federal Reserve Governor Lael Brainard discussed ways to reform the Community Reinvestment Act. Regarding banks\u2019 assessment areas, whose basis many believe to be anachronistic, Brainard suggested that separate assessment areas could be devised for banks\u2019 retail and community development activities. Elsewhere, the North American Securities Administrators Association (NASAA) voiced its concern that Congress may seek to pre-empt state investor protection laws regarding blockchain and cryptocurrency. In a statement, NASAA said, \u201cinvestor protections must not be diminished at the state or federal levels for the sake of potential yet unproven innovation in the financial services industry.\u201d ",
+    "summary": null,
+    "summary_processed": ""
+}

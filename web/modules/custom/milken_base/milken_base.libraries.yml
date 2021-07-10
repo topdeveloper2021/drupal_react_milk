@@ -1,0 +1,103 @@
+ArticleDetail:
+  version: 1.0
+  js:
+    components/ArticleDetail/ArticleDetail.entry.js: { source: 'components/ArticleDetail/ArticleDetail.entry.tsx'}
+
+Dashboard:
+  version: 1.0
+  js:
+    components/Dashboard/Dashboard.entry.js: { source: 'components/Dashboard/Dashboard.entry.tsx' }
+
+EntityBrowser:
+  version: 1.0
+  js:
+    components/EntityBrowser/EntityBrowser.entry.js: { source: 'components/EntityBrowser/EntityBrowser.entry.tsx' }
+
+EntityDisplay:
+  version: 1.0
+  js:
+    components/EntityDisplay/EntityDisplay.entry.js: { source: 'components/EntityDisplay/EntityDisplay.entry.tsx' }
+
+EventDetail:
+  version: 1.0
+  js:
+    components/EventDetail/EventDetail.entry.js: { source: 'components/EventDetail/EventDetail.entry.tsx' }
+
+GridSpeakerDetail:
+  version: 1.0
+  js: 
+    components/GridSpeakerDetail/GridSpeakerDetail.entry.js: { source: 'components/GridSpeakerDetail/GridSpeakerDetail.entry.tsx' }
+MediaDetail:
+  version: 1.0
+  js:
+    components/MediaDetail/MediaDetail.entry.js: { source: 'components/MediaDetail/MediaDetail.entry.tsx' }
+
+PeopleDetail:
+  version: 1.0
+  js:
+    components/PeopleDetail/PeopleDetail.entry.js: { source: 'components/PeopleDetail/PeopleDetail.entry.tsx' }
+
+PhilanthropyHub:
+  version: 1.0
+  js:
+    components/PhilanthropyHub/PhilanthropyHub.entry.js: { source: 'components/PhilanthropyHub/PhilanthropyHub.entry.tsx' }
+
+Search:
+  version: 1.0
+  js:
+    components/Search/Search.entry.js: { source: 'components/Search/Search.entry.tsx' }
+
+eck_entity_slide:
+  version: 1.0
+  js:
+    components/eck-entity-slide/eck-entity-slide.entry.js: { source: 'components/eck-entity-slide/eck-entity-slide.entry.ts' }
+
+eck_entity_event:
+  version: 1.0
+  js:
+    components/eck-entity-event/eck-entity-event.entry.js: { source: 'components/eck-entity-event/eck-entity-event.entry.ts' }
+
+node_landing_page:
+  version: 1.0
+  js:
+    components/eck-entity-slide/eck-entity-slide.entry.js: { source: 'components/node-landing-page/node-landing-page.entry.ts' }
+
+node_article:
+  version: 1.0
+  js:
+    components/node-article/node-article.entry.js: { source: 'components/node-article/node-article.entry.ts' }
+
+media_image:
+  version: 1.0
+  js:
+    components/media-image/media-image.entry.js: { source: 'components/media-image/media-image.entry.ts' }
+
+media_video:
+  version: 1.0
+  js:
+    components/media-video/media-video.entry.js: { source: 'components/media-video/media-video.entry.ts' }
+
+media_report:
+  version: 1.0
+  js:
+    components/media-report/media-report.entry.js: { source: 'components/media-report/media-report.entry.ts' }
+
+media_sponsor_logo:
+  version: 1.0
+  js:
+    components/media-sponsor-logo/media-sponsor-logo.entry.js: { source: 'components/media-sponsor-logo/media-sponsor-logo.entry.ts' }
+
+main_navigation:
+  version: 1.0
+  js:
+    components/main-navigation/main-navigation.entry.js: { source: 'components/main-navigation/main-navigation.entry.tsx' }
+
+people:
+  version: 1.0
+  js:
+    components/people/people.entry.js: { source: 'components/people/people.entry.tsx' }
+
+extra.admin:
+  css:
+    theme:
+      css/extra.admin.css: {}

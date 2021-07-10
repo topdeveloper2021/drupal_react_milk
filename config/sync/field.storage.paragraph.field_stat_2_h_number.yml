@@ -1,0 +1,21 @@
+uuid: d63d08b6-2171-45bd-83d5-2aaa9a2153e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_stat_2_h_number
+field_name: field_stat_2_h_number
+entity_type: paragraph
+type: string
+settings:
+  max_length: 6
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

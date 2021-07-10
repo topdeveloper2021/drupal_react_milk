@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/california-traffic-congestion-now-costs-19-billion-year-according-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 153
+        }
+    ],
+    "uuid": [
+        {
+            "value": "820c81db-5b8d-418e-87e4-42d372b85865"
+        }
+    ],
+    "vid": [
+        {
+            "value": 153
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "California traffic congestion now costs $19 billion per year, according to Milken Institute; increased infrastructure spending needed to curb future losses",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/california-traffic-congestion-now-costs-19-billion-year-according-milken-institute",
+            "pid": 206,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Californians are wasting considerable time and money in traffic - at a cost of more than $19 billion a year, according to a new report from the Milken Institute. What\u2032s more, if things don\u2032t change, the price tag for this traffic congestion will reach $42 billion by 2030, says the study, <b>California\u2032s Highway Infrastructure: Traffic\u2032s Looming Costs<\/b>. Fortunately, researchers demonstrate that even modest investment in transportation infrastructure can reduce these losses. \"Infrastructure funding - or in this case, un-funding - is at the heart of this enormous and growing cost,\" said Kevin Klowden, managing economist at the Milken Institute and co-author of the report. \"This is truly a case where it is expensive to fix the problem, but it is even more expensive not to fix it.\" The study looks the growing gap between roadway capacity and population growth in 55 urban areas of California. Funding for California\u2032s highways (capital outlays and maintenance) decreased on average by 1.9 percent from 1996 to 2006. During this same time period, the state experienced enormous population growth and development, resulting in an annual increase in vehicle miles traveled of 26.4 percent (from 259 billion to 327 billion). Even given the conservative estimates in the study\u2032s model, annual statewide congestion costs are projected to increase by 119 percent by 2030. The actual total cost is likely to be higher, because hikes in gas prices, environmental impacts and lost productivity are not included in the total. Building on data from the 2007 Urban Mobility Report by the Texas Transportation Institute, Milken Institute researchers found that although costs would continue to grow annually, increases in road capacity would produce dramatic cost savings. According to the report, a modest increase of 0.1 percent in per-capita lane miles would result in a cost savings of $11.8 billion in 2030 alone. A 0.3 percent annual increase in capacity would create a savings of $14.6 billion in 2030. The research was done under the direction of the Milken Institute\u2032s California Center. This research initiative is dedicated to measuring, evaluating and analyzing the economic, demographic and social conditions and trends in the state and to proposing innovative ideas that will help ensure California\u2032s long-term prosperity. While the report focuses on the capacity of highways to determine the cost of congestion, the researchers also note that the congestion will require a variety of solutions, including public transportation and even steps by companies, such as carpooling, telecommuting and flexible hours for employees. The report is available at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Californians are wasting considerable time and money in traffic - at a cost of more than $19 billion a year, according to a new report from the Milken Institute. What\u2032s more, if things don\u2032t change, the price tag for this traffic congestion will reach $42 billion by 2030, says the study, <b>California\u2032s Highway Infrastructure: Traffic\u2032s Looming Costs<\/b>. Fortunately, researchers demonstrate that even modest investment in transportation infrastructure can reduce these losses. \"Infrastructure funding - or in this case, un-funding - is at the heart of this enormous and growing cost,\" said Kevin Klowden, managing economist at the Milken Institute and co-author of the report. \"This is truly a case where it is expensive to fix the problem, but it is even more expensive not to fix it.\" The study looks the growing gap between roadway capacity and population growth in 55 urban areas of California. Funding for California\u2032s highways (capital outlays and maintenance) decreased on average by 1.9 percent from 1996 to 2006. During this same time period, the state experienced enormous population growth and development, resulting in an annual increase in vehicle miles traveled of 26.4 percent (from 259 billion to 327 billion). Even given the conservative estimates in the study\u2032s model, annual statewide congestion costs are projected to increase by 119 percent by 2030. The actual total cost is likely to be higher, because hikes in gas prices, environmental impacts and lost productivity are not included in the total. Building on data from the 2007 Urban Mobility Report by the Texas Transportation Institute, Milken Institute researchers found that although costs would continue to grow annually, increases in road capacity would produce dramatic cost savings. According to the report, a modest increase of 0.1 percent in per-capita lane miles would result in a cost savings of $11.8 billion in 2030 alone. A 0.3 percent annual increase in capacity would create a savings of $14.6 billion in 2030. The research was done under the direction of the Milken Institute\u2032s California Center. This research initiative is dedicated to measuring, evaluating and analyzing the economic, demographic and social conditions and trends in the state and to proposing innovative ideas that will help ensure California\u2032s long-term prosperity. While the report focuses on the capacity of highways to determine the cost of congestion, the researchers also note that the congestion will require a variety of solutions, including public transportation and even steps by companies, such as carpooling, telecommuting and flexible hours for employees. The report is available at www.milkeninstitute.org.",
+    "summary": null,
+    "summary_processed": ""
+}

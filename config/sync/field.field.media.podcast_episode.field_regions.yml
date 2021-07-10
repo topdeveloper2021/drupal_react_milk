@@ -1,0 +1,29 @@
+uuid: c15c1a97-78df-43c0-a21d-c35ac1ac692c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_regions
+    - media.type.podcast_episode
+    - taxonomy.vocabulary.region
+id: media.podcast_episode.field_regions
+field_name: field_regions
+entity_type: media
+bundle: podcast_episode
+label: Regions
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

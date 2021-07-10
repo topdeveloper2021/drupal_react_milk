@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7324\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/JIcKcPAFs6ejmr3kkITblGLFLbYg2Jfk4sf2MiTd5Qs.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7324
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0c2189e0-b954-41e0-bc35-4d7949659599"
+        }
+    ],
+    "vid": [
+        {
+            "value": 124
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/JIcKcPAFs6ejmr3kkITblGLFLbYg2Jfk4sf2MiTd5Qs.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8209785b-6fd0-45e7-a41f-acbf47acd32f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Act Now! Making Culture a Force for Change",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-10T00:15:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Watch as our panel of artists, musicians, and activists dedicated to change discuss how mission driven strategies in art and culture are used to advance causes, influence politics, and take on missions for the greater good.<br><br> Moderator:Ralph Simon, Chairman and CEO, Mobilium Global Group; Senior Advisor, Laurel Strategies\u00a0Speakers:Haifaa al-Mansour, Filmmaker<br><br> Laura Dawn, Founder and President, Art Not War; Board Member, The Climate Mobilization<br><br> Moby, Musician; Activist<br><br> Gina Otto, Author, \u201cCassandra\u2019s Angel\u201d; Founder and CEO, Change My World Now<br><br> Tina Wells, CEO and Founder, Buzz Marketing Group; Henry Crown Fellow, The Aspen Institute",
+    "format": "rich_text",
+    "processed": "Watch as our panel of artists, musicians, and activists dedicated to change discuss how mission driven strategies in art and culture are used to advance causes, influence politics, and take on missions for the greater good.<br \/><br \/> Moderator:Ralph Simon, Chairman and CEO, Mobilium Global Group; Senior Advisor, Laurel Strategies\u00a0Speakers:Haifaa al-Mansour, Filmmaker<br \/><br \/> Laura Dawn, Founder and President, Art Not War; Board Member, The Climate Mobilization<br \/><br \/> Moby, Musician; Activist<br \/><br \/> Gina Otto, Author, \u201cCassandra\u2019s Angel\u201d; Founder and CEO, Change My World Now<br \/><br \/> Tina Wells, CEO and Founder, Buzz Marketing Group; Henry Crown Fellow, The Aspen Institute",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ASeSov8EI8w",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/JIcKcPAFs6ejmr3kkITblGLFLbYg2Jfk4sf2MiTd5Qs.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

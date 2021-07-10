@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/prosperity-means-freedom-take-control-your-destiny?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/79?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 545
+        }
+    ],
+    "uuid": [
+        {
+            "value": "22a69248-aaf0-4e90-bc21-841d74cda8f6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 545
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/79?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1a2457d5-f671-4284-8f39-797ca37c06c7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Prosperity Means the Freedom to Take Control of Your Destiny",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T07:37:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T19:08:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/prosperity-means-freedom-take-control-your-destiny",
+            "pid": 598,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>The free and open flow of information and communication across the globe has had profound impacts for the world\u2019s citizens. Could the free and open flow of money mean the same?<\/b><\/i> Prosperity means the freedom to take control of your destiny and drive your own outcomes. I am fortunate enough to be part of that small minority of humans who participate in a functioning fiat monetary system. But a mere two generations ago, when hyper-inflation destroyed their Deutschmark-denominated wealth and they fled the persecution of Nazi Germany with nothing, my family was not so fortunate. I never knew my grandfather. But he was able to prosper in the United States: He saved enough (in dollars) to send my father to college, who was then able to do the same for me. Today I proudly continue that tradition and save (in dollars) to send my children to college. To be sure, there are many things about the United States that gives its citizens a chance at prosperity: representative democracy, freedom of speech and assembly, and access to health care and education, to highlight a few. But it shares a key feature with just a few other nations. Not only can I trade my day\u2019s labor for money that others accept in exchange for goods and services, but I also live in relative confidence that others will accept that money <i>in the future<\/i> if I choose to set it aside instead of spending it. Without this confidence, prosperity cannot exist. Consider the alternative of living in constant fear that the money I earn today will be worthless tomorrow. In a recent op-ed about Venezuela, Carlos Hernandez described the terrible reality of living \u201cin a collapsing economy and a collapsing dictatorship.\u201d In an environment where the purchasing power of his local currency degrades by about 3.5 percent <i>per day<\/i>, keeping his wealth in bol\u00edvars is \u201cfinancial suicide.\u201d He shares a heart-wrenching story of going out to buy milk, and upon finding none, how he \u201chad to buy something, anything, before my bol\u00edvars lost value.\u201d When you cannot even buy milk with your money before it becomes worthless, how can you possibly consider saving for a more prosperous future? But Carlos also describes a glimmer of hope in a life-changing innovation: a form of money that his government cannot confiscate and cannot inflate away. Instead of saving in the local currency, Carlos keeps his wealth in Bitcoin. This global, digital, open-source monetary system gives Carlos an alternative to a corrupt, failing fiat system. Over the last 50 years, a common, open IP network has grown to span the globe. According to the International Telecommunications Union, the 21st century has seen the number of people using the internet grow eight times, to nearly 4 billion as of 2018. In the fertile soil of this general-purpose network, purpose-built protocols sprouted into the global, digital, open-source information and communication systems that today connect us all without regard for geography. The free and open flow of information and communication across the globe has had profound impacts for the world\u2019s citizens; that an analogous open monetary system should take root in the same soil seems only natural. Enabling analogous free and open exchange of value seems just as profound. As in the early days of email and the world wide web, this new system raises many new questions about privacy, regulation, and scalability, among others. At the same time, technologists are innovating rapidly, and forward-thinking regulators are engaging on these complex issues. More evolution will come as adoption grows. Or perhaps Bitcoin will fail\u2014as new technologies often do\u2014and a new network will emerge to take its place. But the genie is out of the bottle. For the first time in modern history, Carlos and billions like him all over the world have an alternative to corrupt or subscale fiat systems. They can opt out. They can reclaim the freedom to pursue prosperity. ",
+    "format": "rich_text",
+    "processed": "<i><b>The free and open flow of information and communication across the globe has had profound impacts for the world\u2019s citizens. Could the free and open flow of money mean the same?<\/b><\/i> Prosperity means the freedom to take control of your destiny and drive your own outcomes. I am fortunate enough to be part of that small minority of humans who participate in a functioning fiat monetary system. But a mere two generations ago, when hyper-inflation destroyed their Deutschmark-denominated wealth and they fled the persecution of Nazi Germany with nothing, my family was not so fortunate. I never knew my grandfather. But he was able to prosper in the United States: He saved enough (in dollars) to send my father to college, who was then able to do the same for me. Today I proudly continue that tradition and save (in dollars) to send my children to college. To be sure, there are many things about the United States that gives its citizens a chance at prosperity: representative democracy, freedom of speech and assembly, and access to health care and education, to highlight a few. But it shares a key feature with just a few other nations. Not only can I trade my day\u2019s labor for money that others accept in exchange for goods and services, but I also live in relative confidence that others will accept that money <i>in the future<\/i> if I choose to set it aside instead of spending it. Without this confidence, prosperity cannot exist. Consider the alternative of living in constant fear that the money I earn today will be worthless tomorrow. In a recent op-ed about Venezuela, Carlos Hernandez described the terrible reality of living \u201cin a collapsing economy and a collapsing dictatorship.\u201d In an environment where the purchasing power of his local currency degrades by about 3.5 percent <i>per day<\/i>, keeping his wealth in bol\u00edvars is \u201cfinancial suicide.\u201d He shares a heart-wrenching story of going out to buy milk, and upon finding none, how he \u201chad to buy something, anything, before my bol\u00edvars lost value.\u201d When you cannot even buy milk with your money before it becomes worthless, how can you possibly consider saving for a more prosperous future? But Carlos also describes a glimmer of hope in a life-changing innovation: a form of money that his government cannot confiscate and cannot inflate away. Instead of saving in the local currency, Carlos keeps his wealth in Bitcoin. This global, digital, open-source monetary system gives Carlos an alternative to a corrupt, failing fiat system. Over the last 50 years, a common, open IP network has grown to span the globe. According to the International Telecommunications Union, the 21st century has seen the number of people using the internet grow eight times, to nearly 4 billion as of 2018. In the fertile soil of this general-purpose network, purpose-built protocols sprouted into the global, digital, open-source information and communication systems that today connect us all without regard for geography. The free and open flow of information and communication across the globe has had profound impacts for the world\u2019s citizens; that an analogous open monetary system should take root in the same soil seems only natural. Enabling analogous free and open exchange of value seems just as profound. As in the early days of email and the world wide web, this new system raises many new questions about privacy, regulation, and scalability, among others. At the same time, technologists are innovating rapidly, and forward-thinking regulators are engaging on these complex issues. More evolution will come as adoption grows. Or perhaps Bitcoin will fail\u2014as new technologies often do\u2014and a new network will emerge to take its place. But the genie is out of the bottle. For the first time in modern history, Carlos and billions like him all over the world have an alternative to corrupt or subscale fiat systems. They can opt out. They can reclaim the freedom to pursue prosperity. ",
+    "summary": null,
+    "summary_processed": ""
+}

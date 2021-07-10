@@ -1,0 +1,18 @@
+uuid: 508e3b00-294c-4aff-8db1-cfa721547ffb
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: slide.field_published
+field_name: field_published
+entity_type: slide
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

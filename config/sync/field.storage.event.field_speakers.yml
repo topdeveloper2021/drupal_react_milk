@@ -1,0 +1,19 @@
+uuid: 30caafd5-74a1-4db6-97d6-4f32ca22c9bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_speakers
+field_name: field_speakers
+entity_type: event
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

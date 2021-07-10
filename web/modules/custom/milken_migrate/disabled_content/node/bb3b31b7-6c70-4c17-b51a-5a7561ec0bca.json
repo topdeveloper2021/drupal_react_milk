@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-dont-businesses-thrill-older-customers?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/16?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 475
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bb3b31b7-6c70-4c17-b51a-5a7561ec0bca"
+        }
+    ],
+    "vid": [
+        {
+            "value": 475
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/16?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6eacdb5e-4382-4ca8-975b-5c648520ef57"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Don't Businesses Thrill Older Customers?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:26:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-dont-businesses-thrill-older-customers",
+            "pid": 528,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Global aging has largely been described as a story of more\u2014more years of living and more older adults. Interpreters of this demographic trend rightly describe it as an opportunity for business. Estimates suggest that the 50+ marketplace may hold trillions of dollars\u2014yes, that is a T\u2014of consumer spending power, dwarfing the buying power of any other consumer segment and, for that matter, every nation\u2019s GDP except for the United States and China. Despite this vast untapped market, success among businesses at unlocking this new longevity economy has thus far been limited. Why?\u00a0Business is trapped in an outdated narrative of the lifestyles of people 50 and older. Product developers, marketers, and entire \u201cinnovation teams\u201d in firms across industries are bewitched by a storyline that describes older consumers as set in their ways, unlikely to try anything new, technologically inept, in poor health and, if given the chance, happy to withdraw from productive life.\u00a0There is another story. In an interview with AARP The Magazine, acclaimed star of stage and screen Jessica Lange spoke of her priorities in life at 68 years old. She says, \u201cNow the only thing I care about is, \u2018Is it thrilling?\u2019 \u2018Am I doing something I haven\u2019t done before?\u2019\"[1] Lange articulates both a new vision of the older consumer and a new challenge to business. When will companies realize that they have a license to thrill their older customers?Many firms see the older marketplace not in shades of gray but medical blue and hospital beige. These product developers primarily see older users as medical needs to be filled. Seemingly infinite hack-a-thons produce pill reminders, physiological monitoring apps and devices, and other well-meaning systems wrapped in blue and beige boxes. Few of us look at a new way of taking our blood pressure and find it thrilling. And, given the limited market success of systems that glow at you, beep at you, and even poke at you for your vital signs, it seems that even fewer of us are compelled to purchase it.For those who are nearing the age of market invisibility\u201450\u2014there is hope. After all, mistakes do happen. Consider the Honda Element. Developed by Honda for young males in their 20s, the Element was reportedly conceived as a \u201cdorm room on wheels.\u201d With its boxy shape, wide doors and rubber floors, the Element was supposed to attract young guys with surfboards, bikes and dogs. A few wannabe surfer dudes did buy the car\u2014very few. But what Honda missed was the Element\u2019s attractiveness to older buyers\u2014older hobbyists, gardeners, and dog owners. The prime demographic for the dorm room on wheels was not 20-somethings, but buyers between 35 and 70 years old.\u00a0When older adults do not flock to buy what\u2019s next on the shelf, they fluster product innovators, especially those in the tech sector. Techies often retreat and find comfort in the myth that older people simply don\u2019t like or don\u2019t understand technology. But there may be another reason\u2014older users set a higher bar for product adoption. Where younger buyers see novelty alone as a compelling reason to try something at least once, older users require the next new thing to be dramatically better than their existing methods and worthy of their time, money, and aggravation.Technology products and services that clear this bar can and do find success with older consumers.The sharing economy, commonly thought to be the dominion of Millennials, is a platform for a range of services that are profoundly ageless.They can be both a source of convenience and luxury as well as an invaluable tool for everyday living. Having meals delivered a la Instacart, transportation rendered on demand via Lyft, and chores accomplished around the home by Taskrabbit are not only desirable services for busy younger consumers. They are also a way for older consumers to reduce the friction of daily life, and even for the \u201coldest-old\u201d (those 85 and older) to retain independence within the home. Whether tech companies find a way to communicate to these older consumers is an open question.There is a crack forming in the narrative that frames how business thinks about older adults. Senior housing, for example, is about to undergo an extreme makeover. Singer and storyteller Jimmy Buffett is laying the foundations for a $1.7 billion \u201cMargaritaville\u201d retirement-living development in Florida. If Buffett\u2019s new community has any relation to his brand of escapist hedonism, Margaritaville is not likely to offer bingo as an activity. Buffett\u2019s fans\u2014known as Parrotheads, of which I myself am a card-carrying member\u2014will not age quietly.\u00a0A TV commercial for the Toyota Venza illustrates the coming shift. The spot first shows a 20-something at home, occupied with photos of puppies on social media. Then the view shifts to her 50-plus parents, cruising in their Venza crossover and mountain biking with friends. While it is unfortunate that advertisers find it necessary to have one generation take it on the chin in order to positively portray another, we can see a new story of what older age can be is beginning to take hold. Even the notoriously ageist business of beauty is showing a glimmer of hope. Recently, the women\u2019s magazine Allure announced that it will no longer use the term \u2018anti-aging.\u2019A new lifestyle is being invented by the burgeoning wave of aging consumers. Businesses can let themselves be left behind in the undertow, or they can work to develop innovative products, services and experiences that give shape to a new way of living in old age. The real barrier to achieving market success in the longevity economy is not the older consumer\u2019s stodgy ways, but that existing products and services fail to thrill. It\u2019s clear that business has the license to thrill older consumers; but is it innovative enough to use it?[1] Jessica Lange, interview by Kenneth Miller, \u201cJessica Lange Can Finally Relax,\u201d AARP The Magazine, August\/September 2017.\n<table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Global aging has largely been described as a story of more\u2014more years of living and more older adults. Interpreters of this demographic trend rightly describe it as an opportunity for business. Estimates suggest that the 50+ marketplace may hold trillions of dollars\u2014yes, that is a T\u2014of consumer spending power, dwarfing the buying power of any other consumer segment and, for that matter, every nation\u2019s GDP except for the United States and China. Despite this vast untapped market, success among businesses at unlocking this new longevity economy has thus far been limited. Why?\u00a0Business is trapped in an outdated narrative of the lifestyles of people 50 and older. Product developers, marketers, and entire \u201cinnovation teams\u201d in firms across industries are bewitched by a storyline that describes older consumers as set in their ways, unlikely to try anything new, technologically inept, in poor health and, if given the chance, happy to withdraw from productive life.\u00a0There is another story. In an interview with AARP The Magazine, acclaimed star of stage and screen Jessica Lange spoke of her priorities in life at 68 years old. She says, \u201cNow the only thing I care about is, \u2018Is it thrilling?\u2019 \u2018Am I doing something I haven\u2019t done before?\u2019\"[1] Lange articulates both a new vision of the older consumer and a new challenge to business. When will companies realize that they have a license to thrill their older customers?Many firms see the older marketplace not in shades of gray but medical blue and hospital beige. These product developers primarily see older users as medical needs to be filled. Seemingly infinite hack-a-thons produce pill reminders, physiological monitoring apps and devices, and other well-meaning systems wrapped in blue and beige boxes. Few of us look at a new way of taking our blood pressure and find it thrilling. And, given the limited market success of systems that glow at you, beep at you, and even poke at you for your vital signs, it seems that even fewer of us are compelled to purchase it.For those who are nearing the age of market invisibility\u201450\u2014there is hope. After all, mistakes do happen. Consider the Honda Element. Developed by Honda for young males in their 20s, the Element was reportedly conceived as a \u201cdorm room on wheels.\u201d With its boxy shape, wide doors and rubber floors, the Element was supposed to attract young guys with surfboards, bikes and dogs. A few wannabe surfer dudes did buy the car\u2014very few. But what Honda missed was the Element\u2019s attractiveness to older buyers\u2014older hobbyists, gardeners, and dog owners. The prime demographic for the dorm room on wheels was not 20-somethings, but buyers between 35 and 70 years old.\u00a0When older adults do not flock to buy what\u2019s next on the shelf, they fluster product innovators, especially those in the tech sector. Techies often retreat and find comfort in the myth that older people simply don\u2019t like or don\u2019t understand technology. But there may be another reason\u2014older users set a higher bar for product adoption. Where younger buyers see novelty alone as a compelling reason to try something at least once, older users require the next new thing to be dramatically better than their existing methods and worthy of their time, money, and aggravation.Technology products and services that clear this bar can and do find success with older consumers.The sharing economy, commonly thought to be the dominion of Millennials, is a platform for a range of services that are profoundly ageless.They can be both a source of convenience and luxury as well as an invaluable tool for everyday living. Having meals delivered a la Instacart, transportation rendered on demand via Lyft, and chores accomplished around the home by Taskrabbit are not only desirable services for busy younger consumers. They are also a way for older consumers to reduce the friction of daily life, and even for the \u201coldest-old\u201d (those 85 and older) to retain independence within the home. Whether tech companies find a way to communicate to these older consumers is an open question.There is a crack forming in the narrative that frames how business thinks about older adults. Senior housing, for example, is about to undergo an extreme makeover. Singer and storyteller Jimmy Buffett is laying the foundations for a $1.7 billion \u201cMargaritaville\u201d retirement-living development in Florida. If Buffett\u2019s new community has any relation to his brand of escapist hedonism, Margaritaville is not likely to offer bingo as an activity. Buffett\u2019s fans\u2014known as Parrotheads, of which I myself am a card-carrying member\u2014will not age quietly.\u00a0A TV commercial for the Toyota Venza illustrates the coming shift. The spot first shows a 20-something at home, occupied with photos of puppies on social media. Then the view shifts to her 50-plus parents, cruising in their Venza crossover and mountain biking with friends. While it is unfortunate that advertisers find it necessary to have one generation take it on the chin in order to positively portray another, we can see a new story of what older age can be is beginning to take hold. Even the notoriously ageist business of beauty is showing a glimmer of hope. Recently, the women\u2019s magazine Allure announced that it will no longer use the term \u2018anti-aging.\u2019A new lifestyle is being invented by the burgeoning wave of aging consumers. Businesses can let themselves be left behind in the undertow, or they can work to develop innovative products, services and experiences that give shape to a new way of living in old age. The real barrier to achieving market success in the longevity economy is not the older consumer\u2019s stodgy ways, but that existing products and services fail to thrill. It\u2019s clear that business has the license to thrill older consumers; but is it innovative enough to use it?[1] Jessica Lange, interview by Kenneth Miller, \u201cJessica Lange Can Finally Relax,\u201d AARP The Magazine, August\/September 2017.\n<table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

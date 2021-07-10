@@ -1,0 +1,19 @@
+uuid: 5b16f66d-5b16-4b2a-a647-f9798aaf91ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_summary
+    - node.type.session
+id: node.session.field_short_summary
+field_name: field_short_summary
+entity_type: node
+bundle: session
+label: 'Short Summary'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

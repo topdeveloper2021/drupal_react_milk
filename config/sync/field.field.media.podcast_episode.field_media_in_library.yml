@@ -1,0 +1,23 @@
+uuid: 24e835ef-21c5-4fc1-9b15-c74e967b4d11
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_in_library
+    - media.type.podcast_episode
+id: media.podcast_episode.field_media_in_library
+field_name: field_media_in_library
+entity_type: media
+bundle: podcast_episode
+label: 'Show in media library'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

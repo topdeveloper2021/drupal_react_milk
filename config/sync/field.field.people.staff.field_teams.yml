@@ -1,0 +1,29 @@
+uuid: b8f8337d-7817-462f-bf7b-ffe1877859d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_teams
+    - taxonomy.vocabulary.teams
+id: people.staff.field_teams
+field_name: field_teams
+entity_type: people
+bundle: staff
+label: Teams
+description: 'Teams which this person is a member of.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      teams: teams
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

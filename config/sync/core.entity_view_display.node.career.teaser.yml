@@ -1,0 +1,55 @@
+uuid: 6cee8a50-3b0b-48c9-92b9-47605372688a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.career.field_body
+    - field.field.node.career.field_careers_apply
+    - field.field.node.career.field_centers
+    - field.field.node.career.field_centers_general
+    - field.field.node.career.field_collections
+    - field.field.node.career.field_department
+    - field.field.node.career.field_events
+    - field.field.node.career.field_hero_image
+    - field.field.node.career.field_link_to_video
+    - field.field.node.career.field_location
+    - field.field.node.career.field_meta_tags
+    - field.field.node.career.field_region
+    - field.field.node.career.field_seniority_level
+    - field.field.node.career.field_terms
+    - field.field.node.career.field_topics
+    - field.field.node.career.field_yoast_seo
+    - node.type.career
+  module:
+    - user
+id: node.career.teaser
+targetEntityType: node
+bundle: career
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_body: true
+  field_careers_apply: true
+  field_centers: true
+  field_centers_general: true
+  field_collections: true
+  field_department: true
+  field_events: true
+  field_hero_image: true
+  field_link_to_video: true
+  field_location: true
+  field_meta_tags: true
+  field_region: true
+  field_seniority_level: true
+  field_terms: true
+  field_topics: true
+  field_yoast_seo: true
+  langcode: true
+  published_at: true
+  search_api_excerpt: true

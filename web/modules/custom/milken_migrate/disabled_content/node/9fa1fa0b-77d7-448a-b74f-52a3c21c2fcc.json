@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/power-data-philanthropy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/64?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 529
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9fa1fa0b-77d7-448a-b74f-52a3c21c2fcc"
+        }
+    ],
+    "vid": [
+        {
+            "value": 529
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/64?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0ede0d1c-c7e3-4309-a9b5-a7d20a3ec780"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Power of Data Philanthropy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T08:12:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-07T13:55:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/power-data-philanthropy",
+            "pid": 582,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Data partnerships between private and public bodies are the key to building global prosperity and resiliency.<\/b><\/i> The term \u201cBig Data\u201d has become ubiquitous, yet adoption of predictive techniques has a long way to go. Data is abundant, is growing exponentially, and is essential to many industries and nonprofits today. Society has not, however, fully embraced the remarkable benefits data-based prediction can contribute to global prosperity and resiliency in times of duress. It is imperative that private- and public-sector organizations work together to construct ways to safely and productively utilize data for the benefit of communities around the world. We have moved past the age of Big Data and have entered the age of prediction. The accuracy of prediction grows with the amount of data you can access, meaning that the exponentially increasing availability of data is expanding our predictive power on a daily basis. Commercial applications such as predicting retail sales or behaviors of individual consumers are common. How can this predictive power be applied for social good? Today, we have tools to predict more accurately not just natural phenomena like the weather but also subtle shifts in human behavior that can lead to crises such as pandemics, starvation, and conflict. Medicine is being transformed through access to data from genomic sequencing, medical imaging, and clinical trials. New data sources, when combined with today\u2019s algorithms, allow us to detect patterns that were previously invisible and to form insights that can transform how we make decisions. Seemingly unrelated data sources can serve as meaningful proxies, which allows for predictions that may otherwise be undiscovered. We believe that increasing the application of these methods to social and humanitarian issues must be the next step. The United Nations, with this in mind, launched Global Pulse in 2009 after recognizing the need for actionable information to protect vulnerable communities. The group now has a large network of innovation partners with which it works to experiment with new data sources and scale up proven solutions. In Mexico, Global Pulse worked with debit card transaction data to measure the impact of a hurricane on coastal communities and track their rates of recovery. In Uganda, expenditures on mobile phone credit have been used to provide highly accurate estimates of poverty, as well as data on the movements of mobile subscribers, to predict the spread of measles. Off the coast of Libya, deep learning algorithms have been applied to data on the movement of vessels to detect migrant rescues and predict where refugees are likely to come ashore. WorldQuant has undertaken similar efforts to utilize its ability to make predictions for public good in areas such as health care through the establishment of the WorldQuant Initiative for Quantitative Prediction with Weill Cornell Medicine. Many potentially game-changing predictions depend on access not only to the predictive abilities of companies like WorldQuant but also to data that is owned by the private sector. There is an incredible opportunity to start using the power of prediction to benefit society and contribute to global prosperity. Yet today, these opportunities remain largely unrealized. There are still few examples of smart, prediction-driven public services that one can point to. One of the main obstacles is the difficulty in obtaining access to timely data. The model for unlocking the social value of these insights is global data philanthropy. The goal should be for companies to share their data in ways that protect both privacy and corporate competitiveness, while allowing researchers to extract predictive insights for global development, crisis prevention, and peace. These partnerships, examples of which include mobile operators, banks, retail chains, and social media platforms, are based on sound due diligence processes, data protection and privacy guidelines, and codes of ethics around data sharing, access, and responsible use. We need new global architectures of data partnerships. Achieving scale and sustainability won\u2019t be possible through purely philanthropic approaches. We have already seen the mobile industry launch the first initiative on using Big Data for disaster response and public health emergencies, where using data to save lives is its own incentive. There are myriad other opportunities to serve the public good through solid business cases for public-sector markets: knowing how people move through a city can improve transportation systems, assess the dynamics of tourism, determine the locations for new schools or hospitals, and predict the heath impacts of pollution. It is important that we consider the cost of missing opportunities to use data for public good. This can support a wide range of public services and contribute to societal resiliency. The world needs to awaken to the potential of harnessing the power of prediction and take action now if we are to drive future prosperity and benefits for humanity. ",
+    "format": "rich_text",
+    "processed": "<i><b>Data partnerships between private and public bodies are the key to building global prosperity and resiliency.<\/b><\/i> The term \u201cBig Data\u201d has become ubiquitous, yet adoption of predictive techniques has a long way to go. Data is abundant, is growing exponentially, and is essential to many industries and nonprofits today. Society has not, however, fully embraced the remarkable benefits data-based prediction can contribute to global prosperity and resiliency in times of duress. It is imperative that private- and public-sector organizations work together to construct ways to safely and productively utilize data for the benefit of communities around the world. We have moved past the age of Big Data and have entered the age of prediction. The accuracy of prediction grows with the amount of data you can access, meaning that the exponentially increasing availability of data is expanding our predictive power on a daily basis. Commercial applications such as predicting retail sales or behaviors of individual consumers are common. How can this predictive power be applied for social good? Today, we have tools to predict more accurately not just natural phenomena like the weather but also subtle shifts in human behavior that can lead to crises such as pandemics, starvation, and conflict. Medicine is being transformed through access to data from genomic sequencing, medical imaging, and clinical trials. New data sources, when combined with today\u2019s algorithms, allow us to detect patterns that were previously invisible and to form insights that can transform how we make decisions. Seemingly unrelated data sources can serve as meaningful proxies, which allows for predictions that may otherwise be undiscovered. We believe that increasing the application of these methods to social and humanitarian issues must be the next step. The United Nations, with this in mind, launched Global Pulse in 2009 after recognizing the need for actionable information to protect vulnerable communities. The group now has a large network of innovation partners with which it works to experiment with new data sources and scale up proven solutions. In Mexico, Global Pulse worked with debit card transaction data to measure the impact of a hurricane on coastal communities and track their rates of recovery. In Uganda, expenditures on mobile phone credit have been used to provide highly accurate estimates of poverty, as well as data on the movements of mobile subscribers, to predict the spread of measles. Off the coast of Libya, deep learning algorithms have been applied to data on the movement of vessels to detect migrant rescues and predict where refugees are likely to come ashore. WorldQuant has undertaken similar efforts to utilize its ability to make predictions for public good in areas such as health care through the establishment of the WorldQuant Initiative for Quantitative Prediction with Weill Cornell Medicine. Many potentially game-changing predictions depend on access not only to the predictive abilities of companies like WorldQuant but also to data that is owned by the private sector. There is an incredible opportunity to start using the power of prediction to benefit society and contribute to global prosperity. Yet today, these opportunities remain largely unrealized. There are still few examples of smart, prediction-driven public services that one can point to. One of the main obstacles is the difficulty in obtaining access to timely data. The model for unlocking the social value of these insights is global data philanthropy. The goal should be for companies to share their data in ways that protect both privacy and corporate competitiveness, while allowing researchers to extract predictive insights for global development, crisis prevention, and peace. These partnerships, examples of which include mobile operators, banks, retail chains, and social media platforms, are based on sound due diligence processes, data protection and privacy guidelines, and codes of ethics around data sharing, access, and responsible use. We need new global architectures of data partnerships. Achieving scale and sustainability won\u2019t be possible through purely philanthropic approaches. We have already seen the mobile industry launch the first initiative on using Big Data for disaster response and public health emergencies, where using data to save lives is its own incentive. There are myriad other opportunities to serve the public good through solid business cases for public-sector markets: knowing how people move through a city can improve transportation systems, assess the dynamics of tourism, determine the locations for new schools or hospitals, and predict the heath impacts of pollution. It is important that we consider the cost of missing opportunities to use data for public good. This can support a wide range of public services and contribute to societal resiliency. The world needs to awaken to the potential of harnessing the power of prediction and take action now if we are to drive future prosperity and benefits for humanity. ",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,46 @@
+uuid: 11c491f9-baf5-4bed-8f1e-f768590f3fce
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-0
+label: Meetings
+variant: block_display
+variant_settings:
+  blocks:
+    58248a19-3034-4b18-85d1-0c2a88872ebb:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: 58248a19-3034-4b18-85d1-0c2a88872ebb
+      form_configuration:
+        id: meetings_browser
+        type: event--meeting
+        view_mode: card
+        url: '/jsonapi/event/meeting?jsonapi_include=true&sort[event-date][path]=field_event_date&sort[event-date][direction]=desc'
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: 16403b4c-1cad-4f67-a5ce-e911f90abf21
+  label: null
+  weight: 0
+  sections: {  }
+  page_title: 'Explore Meetings'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: "/explore/meetings\r\n/explore/meeting"
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

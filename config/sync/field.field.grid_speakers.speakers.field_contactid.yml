@@ -1,0 +1,19 @@
+uuid: 2afc5bbc-84af-444d-a1ea-1ad49066d628
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_contactid
+id: grid_speakers.speakers.field_contactid
+field_name: field_contactid
+entity_type: grid_speakers
+bundle: speakers
+label: contactid
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

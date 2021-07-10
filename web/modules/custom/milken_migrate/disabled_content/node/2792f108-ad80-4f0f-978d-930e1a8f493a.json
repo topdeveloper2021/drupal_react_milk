@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/longevity-dividend-power-old-money?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/26?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 485
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2792f108-ad80-4f0f-978d-930e1a8f493a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 485
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/26?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "27aef80b-042c-45e9-bdfe-36c1a3c8ebda"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Longevity Dividend: The Power of 'Old' Money",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T05:53:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/longevity-dividend-power-old-money",
+            "pid": 538,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Something profound is happening to the world economy\u2014it is aging. The median age of an American in 1950 was 30\u2014today it is 41 and expected to increase to 42 by 2050. For Japan the numbers are more dramatic\u201422 in 1950, 46 today, and 53 in 2050. In 2015, one in 12 people around the world were over 65, by 2050 it will be one in six.This aging of the population is driven by two factors. The first is declining birth rates, which means older generations are large compared to younger generations, and so, on average, the population becomes older. This is especially true in the U.S. where baby boomers are such a large cohort. The second reason is that people are living longer. A child born in the U.S. today has a very realistic chance of living beyond 100 and needs to plan accordingly.\u00a0Most attention tends to be placed on the first factor, especially in the U.S. where the visibility of the baby boomers is so great. Because of this, the focus tends to be on rising health care costs, issues around pension adequacy and the rise of the \u201cgray\u201d economy. However, greater attention should be placed on the longevity channel.It isn\u2019t just that people are, on average, living longer. It's also that they are on average healthier and more productive for longer. Seizing this advantage holds out the prospect of a \u201clongevity dividend.\u201d If people are healthier and productive for longer, they can work for longer, consume more and in general be a boost to the economy.Longevity isn\u2019t really about \u201caging,\u201d in fact, it's the reverse of aging\u2014it's about being younger for longer. As we live longer mortality rates decline so that in some sense 70 becomes the new 60\u201470-year-olds today have the mortality rates of past 60-year-olds.To capitalize on these longevity gains, we need to shift our economy to enable more people to work for longer. Calculations for the UK suggest every increase in working age by one year is a permanent one percent boost to GDP\u2014that\u2019s a lot of extra money.Lifespan has increased and so too has healthspan, but corporates need to wake up to ensure that \u201ceconomic span\u201d\u2014the length of time over which people can pursue productive and meaningful work if they wish\u2014also increases if we are to seize this longevity dividend.Doing this requires corporates to substantially rethink retirement, to change their attitudes to lifelong learning and focus not just on the needs of millennials but also how to retain the skills and experience of baby boomers. Firms have incentives to do this\u2014with a large cohort set to retire they will find fewer workers available to hire. As people age more healthily, older workers are more productive than previously and so should be more attractive. Additionally, older workers bring experience and insights which, as with other dimensions of diversity, improve firm performance. Longer working lives will create major new industries providing new products to people. Over longer lives individuals will need to upgrade their skills and go through more individual transformations to ensure their employability and life satisfaction. Just as the Industrial Revolution saw the birth of a recreation industry, we see longevity give rise to a \u201cre-creation\u201d industry. Whether it be a gym membership, mid-career sabbaticals, or online programming courses, individuals are investing in themselves at later ages. A key growth component of this \u201cre-creation\u201d sector will be the health and medical industry with more and more products aimed at healthy aging and maintaining fitness rather than a focus on treatment of illness.More older people working means more demand in the economy. However, it would be wrong to assume this means a rise in the demand for \u201cgray products\u201d\u2014if 70 is the new 60 then there isn\u2019t a rise in demand for products for 70-year-olds. This is even more so as aging already varies dramatically across individuals\u2014someone aged 50 can be suffering from age-related diseases and be in a wheelchair whilst someone in their mid-70s can be dancing on stage as part of The Rolling Stones.The other change that is happening is that just as the 20th century saw the emergence of teenagers as a distinct age group, so the 21st century and greater longevity is introducing new stages with new demands and interests. The travel industry is booming from growing demand from healthy 70-year-olds. Aging young means being \u201cjuvenescent\u201d so the products demanded by these older cohorts will not necessarily be \u201cgray.\" Indeed, the whole point of a 100-year life is to reshape time so that age-related numbers no longer have the same significance.The world is aging. Increasingly this is due to the fact that on average people are living longer. This opens up the possibility of a substantial longevity dividend as people work for longer, earn more and spend more. Changing how we live our life to exploit this advantage has enormous potential for us as individuals, substantial profit implications for business and should serve as a great boost for the economy.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Something profound is happening to the world economy\u2014it is aging. The median age of an American in 1950 was 30\u2014today it is 41 and expected to increase to 42 by 2050. For Japan the numbers are more dramatic\u201422 in 1950, 46 today, and 53 in 2050. In 2015, one in 12 people around the world were over 65, by 2050 it will be one in six.This aging of the population is driven by two factors. The first is declining birth rates, which means older generations are large compared to younger generations, and so, on average, the population becomes older. This is especially true in the U.S. where baby boomers are such a large cohort. The second reason is that people are living longer. A child born in the U.S. today has a very realistic chance of living beyond 100 and needs to plan accordingly.\u00a0Most attention tends to be placed on the first factor, especially in the U.S. where the visibility of the baby boomers is so great. Because of this, the focus tends to be on rising health care costs, issues around pension adequacy and the rise of the \u201cgray\u201d economy. However, greater attention should be placed on the longevity channel.It isn\u2019t just that people are, on average, living longer. It's also that they are on average healthier and more productive for longer. Seizing this advantage holds out the prospect of a \u201clongevity dividend.\u201d If people are healthier and productive for longer, they can work for longer, consume more and in general be a boost to the economy.Longevity isn\u2019t really about \u201caging,\u201d in fact, it's the reverse of aging\u2014it's about being younger for longer. As we live longer mortality rates decline so that in some sense 70 becomes the new 60\u201470-year-olds today have the mortality rates of past 60-year-olds.To capitalize on these longevity gains, we need to shift our economy to enable more people to work for longer. Calculations for the UK suggest every increase in working age by one year is a permanent one percent boost to GDP\u2014that\u2019s a lot of extra money.Lifespan has increased and so too has healthspan, but corporates need to wake up to ensure that \u201ceconomic span\u201d\u2014the length of time over which people can pursue productive and meaningful work if they wish\u2014also increases if we are to seize this longevity dividend.Doing this requires corporates to substantially rethink retirement, to change their attitudes to lifelong learning and focus not just on the needs of millennials but also how to retain the skills and experience of baby boomers. Firms have incentives to do this\u2014with a large cohort set to retire they will find fewer workers available to hire. As people age more healthily, older workers are more productive than previously and so should be more attractive. Additionally, older workers bring experience and insights which, as with other dimensions of diversity, improve firm performance. Longer working lives will create major new industries providing new products to people. Over longer lives individuals will need to upgrade their skills and go through more individual transformations to ensure their employability and life satisfaction. Just as the Industrial Revolution saw the birth of a recreation industry, we see longevity give rise to a \u201cre-creation\u201d industry. Whether it be a gym membership, mid-career sabbaticals, or online programming courses, individuals are investing in themselves at later ages. A key growth component of this \u201cre-creation\u201d sector will be the health and medical industry with more and more products aimed at healthy aging and maintaining fitness rather than a focus on treatment of illness.More older people working means more demand in the economy. However, it would be wrong to assume this means a rise in the demand for \u201cgray products\u201d\u2014if 70 is the new 60 then there isn\u2019t a rise in demand for products for 70-year-olds. This is even more so as aging already varies dramatically across individuals\u2014someone aged 50 can be suffering from age-related diseases and be in a wheelchair whilst someone in their mid-70s can be dancing on stage as part of The Rolling Stones.The other change that is happening is that just as the 20th century saw the emergence of teenagers as a distinct age group, so the 21st century and greater longevity is introducing new stages with new demands and interests. The travel industry is booming from growing demand from healthy 70-year-olds. Aging young means being \u201cjuvenescent\u201d so the products demanded by these older cohorts will not necessarily be \u201cgray.\" Indeed, the whole point of a 100-year life is to reshape time so that age-related numbers no longer have the same significance.The world is aging. Increasingly this is due to the fact that on average people are living longer. This opens up the possibility of a substantial longevity dividend as people work for longer, earn more and spend more. Changing how we live our life to exploit this advantage has enormous potential for us as individuals, substantial profit implications for business and should serve as a great boost for the economy.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

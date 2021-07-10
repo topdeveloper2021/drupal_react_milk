@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-ranks-best-us-universities-technology-transfer?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 617
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5bd92111-eec9-46f4-8b0d-1ee98426710b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 617
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Milken Institute Ranks the Best U.S. Universities for Technology Transfer",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-04-20T05:53:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:35:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-ranks-best-us-universities-technology-transfer",
+            "pid": 670,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>LOS ANGELES<\/b> <b>\u2013 April 20, 2017 \u2013<\/b> The Milken Institute today released a new report ranking more than 200 universities across the United States for their prowess in developing basic research into new technologies, products and companies \u2013 a process known as \"technology transfer.\"The report \"Concept to Commercialization: The Best Universities for Technology Transfer\" also carries with it a clear policy recommendation: American research universities are among the nation's most powerful engines for domestic economic growth, and funding to sustain their research brings strong returns in the form of new industries, businesses and jobs.\"American economic vitality is fueled by invention,\" said Ross DeVol, chief research officer for the Milken Institute, who also authored the original 2006 study on the topic. \"As a society, we understand our universities as the training ground for the next generation of leaders and doers, but we often overlook the benefits these institutions impart simply by bringing new ideas to life. Our study shows the impact of university research both locally and nationally is profound, and needs our support.\"The report found that university research funding supports the creation of both middle- and high-skill industry jobs through innovation, commercialization and technology transfer, with varied and significant multiplier effects. As such, it makes four key policy recommendations:<b>Maintain basic scientific research funding. <\/b>Basic research provides long-term economic benefits by allowing universities to take on research that has a low probability of quick commercial success, but potential to deliver a high reward and to create whole new industries.<b>Incentivize technology transfer through a new federal commercialization fund. <\/b>The federal government should increase research funding under a special commercialization pool. Universities demonstrating greater commercialization success in the market should receive higher funding in this program.\n<b>Increase technology transfer capacity through federal matching grants. <\/b>The federal government should commence a matching grant program with states to fund an increase in staff and resources in technology transfer offices (TTOs). Higher rates of academic entrepreneurship are essential to reviving declining start-up rates and productivity across the economy.\n<b>Increase technology transfer efficiency by adopting best practices. <\/b>At the state level, policies should be implemented that incentivize the adoption of best practices in commercialization at public universities, including TTOs. Efficiency gaps between universities outside of the top 25 in our Technology Transfer and Commercialization Index should be narrowed\nThe top 25 institutions by ranking.<table><tr><td><b>Rank<\/b><\/td>\n<td><b>Institution<\/b><\/td>\n<td><b>Indexed Score<\/b><\/td>\n<\/tr><tr><td>\n<b>1<\/b>\n<\/td>\n<td>\nUniversity of Utah\n<\/td>\n<td>\n100\n<\/td>\n<\/tr><tr><td>\n<b>2<\/b>\n<\/td>\n<td>\nColumbia University\n<\/td>\n<td>\n97.83\n<\/td>\n<\/tr><tr><td>\n<b>3<\/b>\n<\/td>\n<td>\nUniversity of Florida\n<\/td>\n<td>\n97.66\n<\/td>\n<\/tr><tr><td>\n<b>4<\/b>\n<\/td>\n<td>\nBrigham Young University\n<\/td>\n<td>\n97.58\n<\/td>\n<\/tr><tr><td>\n<b>5<\/b>\n<\/td>\n<td>\nStanford University\n<\/td>\n<td>\n95.6\n<\/td>\n<\/tr><tr><td>\n<b>6<\/b>\n<\/td>\n<td>\nUniversity of Pennsylvania\n<\/td>\n<td>\n95.39\n<\/td>\n<\/tr><tr><td>\n<b>7<\/b>\n<\/td>\n<td>\nUniversity of Washington\n<\/td>\n<td>\n95.11\n<\/td>\n<\/tr><tr><td>\n<b>8<\/b>\n<\/td>\n<td>\nMassachusetts Institute of Technology\n<\/td>\n<td>\n94.33\n<\/td>\n<\/tr><tr><td>\n<b>9<\/b>\n<\/td>\n<td>\nCalifornia Institute of Technology\n<\/td>\n<td>\n94.11\n<\/td>\n<\/tr><tr><td>\n<b>10<\/b>\n<\/td>\n<td>\nCarnegie Mellon University\n<\/td>\n<td>\n93.54\n<\/td>\n<\/tr><tr><td>\n<b>11<\/b>\n<\/td>\n<td>\nNew York University\n<\/td>\n<td>\n93.41\n<\/td>\n<\/tr><tr><td>\n<b>12<\/b>\n<\/td>\n<td>\nPurdue University\n<\/td>\n<td>\n93.02\n<\/td>\n<\/tr><tr><td>\n<b>13<\/b>\n<\/td>\n<td>\nUniversity of Texas System\n<\/td>\n<td>\n92.88\n<\/td>\n<\/tr><tr><td>\n<b>14<\/b>\n<\/td>\n<td>\nUniversity of Minnesota\n<\/td>\n<td>\n92.75\n<\/td>\n<\/tr><tr><td>\n<b>15<\/b>\n<\/td>\n<td>\nUniversity of California, Los Angeles\n<\/td>\n<td>\n92.13\n<\/td>\n<\/tr><tr><td>\n<b>16<\/b>\n<\/td>\n<td>\nUniversity of Michigan\n<\/td>\n<td>\n91.58\n<\/td>\n<\/tr><tr><td>\n<b>17<\/b>\n<\/td>\n<td>\nCornell University\n<\/td>\n<td>\n89.49\n<\/td>\n<\/tr><tr><td>\n<b>18<\/b>\n<\/td>\n<td>\nUniversity of Illinois\n<\/td>\n<td>\n89.37\n<\/td>\n<\/tr><tr><td>\n<b>19<\/b>\n<\/td>\n<td>\nUniversity of South Florida\n<\/td>\n<td>\n88.93\n<\/td>\n<\/tr><tr><td>\n<b>20<\/b>\n<\/td>\n<td>\nUniversity of California, San Diego\n<\/td>\n<td>\n88.55\n<\/td>\n<\/tr><tr><td>\n<b>21<\/b>\n<\/td>\n<td>\nArizona State University\n<\/td>\n<td>\n88.49\n<\/td>\n<\/tr><tr><td>\n<b>22<\/b>\n<\/td>\n<td>\nUniversity of Central Florida\n<\/td>\n<td>\n88.21\n<\/td>\n<\/tr><tr><td>\n<b>23<\/b>\n<\/td>\n<td>\nNorthwestern University\n<\/td>\n<td>\n87.95\n<\/td>\n<\/tr><tr><td>\n<b>24<\/b>\n<\/td>\n<td>\nUniversity of Pittsburgh\n<\/td>\n<td>\n87.75\n<\/td>\n<\/tr><tr><td>\n<b>25<\/b>\n<\/td>\n<td>\nNorth Carolina State University\n<\/td>\n<td>\n87.73\n<\/td>\n<\/tr><\/table>\u00a0DeVol, along with Milken Institute co-authors Joe Lee and Minoli Ratnatunga, ranked each university based on four standard indicators of technology transfer success: patents issued, licenses issued, licensing income, and start-ups formed, relying on data collected by the Association of University Technology Managers (AUTM) via the AUTM's Annual Licensing Activity Survey.<b>Contact<\/b><br>Jill Posnick<br>Executive Director, Communications <br>(310) 570-4661; jposnick@milkeninstitute.orgTania Pantoja<br>(714) 883-6555; tania@ivycmg.com",
+    "format": "rich_text",
+    "processed": "<b>LOS ANGELES<\/b> <b>\u2013 April 20, 2017 \u2013<\/b> The Milken Institute today released a new report ranking more than 200 universities across the United States for their prowess in developing basic research into new technologies, products and companies \u2013 a process known as \"technology transfer.\"The report \"Concept to Commercialization: The Best Universities for Technology Transfer\" also carries with it a clear policy recommendation: American research universities are among the nation's most powerful engines for domestic economic growth, and funding to sustain their research brings strong returns in the form of new industries, businesses and jobs.\"American economic vitality is fueled by invention,\" said Ross DeVol, chief research officer for the Milken Institute, who also authored the original 2006 study on the topic. \"As a society, we understand our universities as the training ground for the next generation of leaders and doers, but we often overlook the benefits these institutions impart simply by bringing new ideas to life. Our study shows the impact of university research both locally and nationally is profound, and needs our support.\"The report found that university research funding supports the creation of both middle- and high-skill industry jobs through innovation, commercialization and technology transfer, with varied and significant multiplier effects. As such, it makes four key policy recommendations:<b>Maintain basic scientific research funding. <\/b>Basic research provides long-term economic benefits by allowing universities to take on research that has a low probability of quick commercial success, but potential to deliver a high reward and to create whole new industries.<b>Incentivize technology transfer through a new federal commercialization fund. <\/b>The federal government should increase research funding under a special commercialization pool. Universities demonstrating greater commercialization success in the market should receive higher funding in this program.\n<b>Increase technology transfer capacity through federal matching grants. <\/b>The federal government should commence a matching grant program with states to fund an increase in staff and resources in technology transfer offices (TTOs). Higher rates of academic entrepreneurship are essential to reviving declining start-up rates and productivity across the economy.\n<b>Increase technology transfer efficiency by adopting best practices. <\/b>At the state level, policies should be implemented that incentivize the adoption of best practices in commercialization at public universities, including TTOs. Efficiency gaps between universities outside of the top 25 in our Technology Transfer and Commercialization Index should be narrowed\nThe top 25 institutions by ranking.<table><tr><td><b>Rank<\/b><\/td>\n<td><b>Institution<\/b><\/td>\n<td><b>Indexed Score<\/b><\/td>\n<\/tr><tr><td>\n<b>1<\/b>\n<\/td>\n<td>\nUniversity of Utah\n<\/td>\n<td>\n100\n<\/td>\n<\/tr><tr><td>\n<b>2<\/b>\n<\/td>\n<td>\nColumbia University\n<\/td>\n<td>\n97.83\n<\/td>\n<\/tr><tr><td>\n<b>3<\/b>\n<\/td>\n<td>\nUniversity of Florida\n<\/td>\n<td>\n97.66\n<\/td>\n<\/tr><tr><td>\n<b>4<\/b>\n<\/td>\n<td>\nBrigham Young University\n<\/td>\n<td>\n97.58\n<\/td>\n<\/tr><tr><td>\n<b>5<\/b>\n<\/td>\n<td>\nStanford University\n<\/td>\n<td>\n95.6\n<\/td>\n<\/tr><tr><td>\n<b>6<\/b>\n<\/td>\n<td>\nUniversity of Pennsylvania\n<\/td>\n<td>\n95.39\n<\/td>\n<\/tr><tr><td>\n<b>7<\/b>\n<\/td>\n<td>\nUniversity of Washington\n<\/td>\n<td>\n95.11\n<\/td>\n<\/tr><tr><td>\n<b>8<\/b>\n<\/td>\n<td>\nMassachusetts Institute of Technology\n<\/td>\n<td>\n94.33\n<\/td>\n<\/tr><tr><td>\n<b>9<\/b>\n<\/td>\n<td>\nCalifornia Institute of Technology\n<\/td>\n<td>\n94.11\n<\/td>\n<\/tr><tr><td>\n<b>10<\/b>\n<\/td>\n<td>\nCarnegie Mellon University\n<\/td>\n<td>\n93.54\n<\/td>\n<\/tr><tr><td>\n<b>11<\/b>\n<\/td>\n<td>\nNew York University\n<\/td>\n<td>\n93.41\n<\/td>\n<\/tr><tr><td>\n<b>12<\/b>\n<\/td>\n<td>\nPurdue University\n<\/td>\n<td>\n93.02\n<\/td>\n<\/tr><tr><td>\n<b>13<\/b>\n<\/td>\n<td>\nUniversity of Texas System\n<\/td>\n<td>\n92.88\n<\/td>\n<\/tr><tr><td>\n<b>14<\/b>\n<\/td>\n<td>\nUniversity of Minnesota\n<\/td>\n<td>\n92.75\n<\/td>\n<\/tr><tr><td>\n<b>15<\/b>\n<\/td>\n<td>\nUniversity of California, Los Angeles\n<\/td>\n<td>\n92.13\n<\/td>\n<\/tr><tr><td>\n<b>16<\/b>\n<\/td>\n<td>\nUniversity of Michigan\n<\/td>\n<td>\n91.58\n<\/td>\n<\/tr><tr><td>\n<b>17<\/b>\n<\/td>\n<td>\nCornell University\n<\/td>\n<td>\n89.49\n<\/td>\n<\/tr><tr><td>\n<b>18<\/b>\n<\/td>\n<td>\nUniversity of Illinois\n<\/td>\n<td>\n89.37\n<\/td>\n<\/tr><tr><td>\n<b>19<\/b>\n<\/td>\n<td>\nUniversity of South Florida\n<\/td>\n<td>\n88.93\n<\/td>\n<\/tr><tr><td>\n<b>20<\/b>\n<\/td>\n<td>\nUniversity of California, San Diego\n<\/td>\n<td>\n88.55\n<\/td>\n<\/tr><tr><td>\n<b>21<\/b>\n<\/td>\n<td>\nArizona State University\n<\/td>\n<td>\n88.49\n<\/td>\n<\/tr><tr><td>\n<b>22<\/b>\n<\/td>\n<td>\nUniversity of Central Florida\n<\/td>\n<td>\n88.21\n<\/td>\n<\/tr><tr><td>\n<b>23<\/b>\n<\/td>\n<td>\nNorthwestern University\n<\/td>\n<td>\n87.95\n<\/td>\n<\/tr><tr><td>\n<b>24<\/b>\n<\/td>\n<td>\nUniversity of Pittsburgh\n<\/td>\n<td>\n87.75\n<\/td>\n<\/tr><tr><td>\n<b>25<\/b>\n<\/td>\n<td>\nNorth Carolina State University\n<\/td>\n<td>\n87.73\n<\/td>\n<\/tr><\/table>\u00a0DeVol, along with Milken Institute co-authors Joe Lee and Minoli Ratnatunga, ranked each university based on four standard indicators of technology transfer success: patents issued, licenses issued, licensing income, and start-ups formed, relying on data collected by the Association of University Technology Managers (AUTM) via the AUTM's Annual Licensing Activity Survey.<b>Contact<\/b><br \/>Jill Posnick<br \/>Executive Director, Communications <br \/>(310) 570-4661; jposnick@milkeninstitute.orgTania Pantoja<br \/>(714) 883-6555; tania@ivycmg.com",
+    "summary": null,
+    "summary_processed": ""
+}

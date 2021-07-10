@@ -1,0 +1,28 @@
+uuid: d34ecccc-922c-4780-803d-6f346a3ba18d
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - media
+id: media_default_url_pattern
+label: 'Media Default Url Pattern'
+type: 'canonical_entities:media'
+pattern: '/[media:bundle]/[media:name]'
+selection_criteria:
+  8b46bbbe-e0ff-4105-8182-dd1e9477d159:
+    id: 'entity_bundle:media'
+    bundles:
+      image: image
+      podcast_episode: podcast_episode
+      report: report
+      sponsor_logo: sponsor_logo
+      video: video
+      video_stream: video_stream
+    negate: false
+    context_mapping:
+      media: media
+    uuid: 8b46bbbe-e0ff-4105-8182-dd1e9477d159
+selection_logic: and
+weight: -5
+relationships: {  }

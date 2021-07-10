@@ -1,0 +1,29 @@
+uuid: 5d1b5965-88de-4c8e-b7a2-d0c96df4adcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_regions
+    - media.type.report
+    - taxonomy.vocabulary.region
+id: media.report.field_regions
+field_name: field_regions
+entity_type: media
+bundle: report
+label: Regions
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

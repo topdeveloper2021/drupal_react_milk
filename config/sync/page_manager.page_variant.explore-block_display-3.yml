@@ -1,0 +1,44 @@
+uuid: 806d8025-8d4d-401b-91d5-ebc8b5f9ba29
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - system
+id: explore-block_display-3
+label: Podcasts
+variant: block_display
+variant_settings:
+  blocks:
+    eb7d1fb2-d804-4b8f-bc57-26f1a116c8cb:
+      id: 'component:PodcastBrowser'
+      label: 'Podcast Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: eb7d1fb2-d804-4b8f-bc57-26f1a116c8cb
+      form_configuration:
+        id: podcast_browser
+        type: media--podcast_episode
+        view_mode: accordion
+        url: '/jsonapi/media/podcast_episode?jsonapi_include=true'
+        tag: podcast-browser
+        attach_library: milken_base/PodcastBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: e36969b6-899a-4c91-9175-74faf83e785e
+  label: null
+  weight: 0
+  page_title: 'Explore Podcasts'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: /explore/podcasts
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

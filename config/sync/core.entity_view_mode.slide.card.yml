@@ -1,0 +1,10 @@
+uuid: 4dca5cbe-b8ac-435b-a1f0-71ac069d448f
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: slide.card
+label: Card
+targetEntityType: slide
+cache: true

@@ -1,0 +1,79 @@
+uuid: 2704784b-47ae-47f5-8281-951d54b42566
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.article
+    - paragraphs.paragraphs_type.body_content
+    - paragraphs.paragraphs_type.content_tiles
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: node.article.field_content
+field_name: field_content
+entity_type: node
+bundle: article
+label: Content
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      body_content: body_content
+      content_tiles: content_tiles
+    target_bundles_drag_drop:
+      author:
+        weight: 9
+        enabled: false
+      block:
+        weight: 17
+        enabled: false
+      body_content:
+        enabled: true
+        weight: 18
+      content_tiles:
+        enabled: true
+        weight: 19
+      event_tiles:
+        weight: 20
+        enabled: false
+      items_from_an_entityqueue:
+        weight: 21
+        enabled: false
+      media_tiles:
+        weight: 22
+        enabled: false
+      paragraph_tab:
+        weight: 23
+        enabled: false
+      podcast_episode:
+        weight: 12
+        enabled: false
+      program_day:
+        weight: 25
+        enabled: false
+      pull_quote:
+        weight: 13
+        enabled: false
+      slide:
+        weight: 14
+        enabled: false
+      slide_tiles:
+        weight: 28
+        enabled: false
+      tiles_taxonomy:
+        weight: 29
+        enabled: false
+      unmigrated_paragraph:
+        weight: 30
+        enabled: false
+field_type: entity_reference_revisions

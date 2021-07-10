@@ -1,0 +1,9 @@
+uuid: a7469f56-2fe2-4c11-8863-b810dc1d43b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.missing_migration
+type: missing_migration
+name: 'Missing Migration'
+description: ''

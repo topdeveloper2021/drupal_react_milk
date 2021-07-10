@@ -1,0 +1,19 @@
+uuid: 1d5033fb-cbc6-4f65-90a1-6da94aca94f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_filemime
+    - media.type.image
+id: media.image.field_filemime
+field_name: field_filemime
+entity_type: media
+bundle: image
+label: filemime
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

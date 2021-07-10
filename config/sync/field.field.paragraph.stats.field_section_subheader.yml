@@ -1,0 +1,21 @@
+uuid: 8b84a041-bfa9-44a1-aa3f-c05ec28039d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_subheader
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_section_subheader
+field_name: field_section_subheader
+entity_type: paragraph
+bundle: stats
+label: 'Section Subheader'
+description: 'Text to display below the section header.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 'Milken Insitute'
+default_value_callback: ''
+settings: {  }
+field_type: string

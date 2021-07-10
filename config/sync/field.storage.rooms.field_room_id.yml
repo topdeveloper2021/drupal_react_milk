@@ -1,0 +1,21 @@
+uuid: c1c5a559-8fea-4914-bbc6-d31000c677ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: rooms.field_room_id
+field_name: field_room_id
+entity_type: rooms
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

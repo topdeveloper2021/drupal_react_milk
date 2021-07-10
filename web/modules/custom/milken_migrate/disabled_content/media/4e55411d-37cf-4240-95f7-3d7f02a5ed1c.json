@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7253\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/_Uu2A1U4lrv11FOx7x2jShqtIvSmpoY1AlYr2ghaso4.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7253
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4e55411d-37cf-4240-95f7-3d7f02a5ed1c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1683
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/_Uu2A1U4lrv11FOx7x2jShqtIvSmpoY1AlYr2ghaso4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "744b7a3e-89d0-42d2-aabc-aa8b20b1bfb5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "California Leading the Future of Energy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-03T14:55:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T20:14:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "World leaders have embraced the challenge of long-term climate change \u2013 and for reasons that go beyond the obvious. Mitigating the human impact on global climate is sound environmental stewardship, but it also presents high-value investment opportunities. In the wake of the Trump Administration's plan to withdraw the United States from the Paris Agreement, California has sought a national leadership role in carbon emissions reduction. New investments and innovations in clean tech and green energy, moreover, are creating a path to a sustainable energy future. This session convenes senior elected state officials, business executives and conservationists to discuss California's future climate and energy policy. Presenters Harry Atwater, Professor and Director, Joint Center for Artificial Photosynthesis Energy Innovation Hub, California Institute of Technology Caroline Choi, Senior Vice President, Regulatory Affairs, Southern California Edison Mark Herrema, Co-Founder and CEO, Newlight Technologies Host Jane Wells, Special Correspondent, CNBC",
+    "format": "rich_text",
+    "processed": "World leaders have embraced the challenge of long-term climate change \u2013 and for reasons that go beyond the obvious. Mitigating the human impact on global climate is sound environmental stewardship, but it also presents high-value investment opportunities. In the wake of the Trump Administration's plan to withdraw the United States from the Paris Agreement, California has sought a national leadership role in carbon emissions reduction. New investments and innovations in clean tech and green energy, moreover, are creating a path to a sustainable energy future. This session convenes senior elected state officials, business executives and conservationists to discuss California's future climate and energy policy. Presenters Harry Atwater, Professor and Director, Joint Center for Artificial Photosynthesis Energy Innovation Hub, California Institute of Technology Caroline Choi, Senior Vice President, Regulatory Affairs, Southern California Edison Mark Herrema, Co-Founder and CEO, Newlight Technologies Host Jane Wells, Special Correspondent, CNBC",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/eFXzDQ7ahww",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/_Uu2A1U4lrv11FOx7x2jShqtIvSmpoY1AlYr2ghaso4.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

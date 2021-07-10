@@ -1,0 +1,23 @@
+uuid: 0f0db506-d02f-49c8-9c1f-8da4a54a3fdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.content_tiles
+  module:
+    - options
+id: paragraph.content_tiles.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: content_tiles
+label: 'View Mode'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: card
+default_value_callback: ''
+settings: {  }
+field_type: list_string

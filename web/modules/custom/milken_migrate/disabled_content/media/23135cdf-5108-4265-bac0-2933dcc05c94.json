@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7086\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/1KGQwZqrb8YDtrpd84Qo809Pu4avQyYgGiQFWnkXAlg.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7086
+        }
+    ],
+    "uuid": [
+        {
+            "value": "23135cdf-5108-4265-bac0-2933dcc05c94"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2260
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/1KGQwZqrb8YDtrpd84Qo809Pu4avQyYgGiQFWnkXAlg.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e45e48b5-11c2-45a0-a13f-c93f2a53fd5f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Business Case for Equality, Diversity and Inclusion",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-04-27T09:19:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:29:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Research has repeatedly shown that embracing diversity and inclusion increases corporate profits and improves government performance. However, gender pay gaps, unconscious biases, and opportunity deficits persist. These practices hurt bottom lines, inhibit talent acquisition and retention, and are generally bad for brand reputations. Business leaders will explore successful strategies to combat prejudice and create more diverse and inclusive workforces. How can corporate cultures start thinking about diversity, not as \"meeting quotas,\" but as helping companies achieve full potential? And how can organizations ensure these goals are leadership priorities rather than discussions reserved for H.R.?",
+    "format": "rich_text",
+    "processed": "Research has repeatedly shown that embracing diversity and inclusion increases corporate profits and improves government performance. However, gender pay gaps, unconscious biases, and opportunity deficits persist. These practices hurt bottom lines, inhibit talent acquisition and retention, and are generally bad for brand reputations. Business leaders will explore successful strategies to combat prejudice and create more diverse and inclusive workforces. How can corporate cultures start thinking about diversity, not as \"meeting quotas,\" but as helping companies achieve full potential? And how can organizations ensure these goals are leadership priorities rather than discussions reserved for H.R.?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ZhjgjGzutWQ",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/1KGQwZqrb8YDtrpd84Qo809Pu4avQyYgGiQFWnkXAlg.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

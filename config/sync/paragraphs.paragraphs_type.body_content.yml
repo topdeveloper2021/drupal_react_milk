@@ -1,0 +1,17 @@
+uuid: 41b30820-0d95-4d27-becc-8c84c21ad306
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:7db27683-278d-486a-9251-25ec5afbd7aa'
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: sites/default/files/paragraphs_type_icon/body_content-default-icon.svg
+id: body_content
+label: 'Body Content'
+icon_uuid: 7db27683-278d-486a-9251-25ec5afbd7aa
+icon_default: 'data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJwYXJhZ3JhcGgiIGNsYXNzPSJzdmctaW5saW5lLS1mYSBmYS1wYXJhZ3JhcGggZmEtdy0xNCIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDggNTEyIj48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00NDggNDh2MzJhMTYgMTYgMCAwIDEtMTYgMTZoLTQ4djM2OGExNiAxNiAwIDAgMS0xNiAxNmgtMzJhMTYgMTYgMCAwIDEtMTYtMTZWOTZoLTMydjM2OGExNiAxNiAwIDAgMS0xNiAxNmgtMzJhMTYgMTYgMCAwIDEtMTYtMTZWMzUyaC0zMmExNjAgMTYwIDAgMCAxIDAtMzIwaDI0MGExNiAxNiAwIDAgMSAxNiAxNnoiPjwvcGF0aD48L3N2Zz4='
+description: 'Body content text.'
+behavior_plugins: {  }

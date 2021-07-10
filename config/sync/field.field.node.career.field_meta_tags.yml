@@ -1,0 +1,21 @@
+uuid: 99cf6bef-a4a9-4c93-ac84-0cfcf0463ae5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.career
+  module:
+    - metatag
+id: node.career.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: career
+label: 'Meta tags'
+description: 'SEO and Sharing'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

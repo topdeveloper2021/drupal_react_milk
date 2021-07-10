@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/shenzhen-tops-list-2018-best-performing-cities-china?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 638
+        }
+    ],
+    "uuid": [
+        {
+            "value": "72890a4b-5acb-42a3-b401-55d5e3b34d4d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 638
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Shenzhen Tops List of 2018 Best-Performing Cities in China",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-07T15:59:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:06:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/shenzhen-tops-list-2018-best-performing-cities-china",
+            "pid": 691,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "BEIJING, September 10, 2018 \u2013 Shenzhen, China\u2019s booming metropolis in Guangdong province, is the country\u2019s best-performing city for 2018, according to a new report published today by the Milken Institute. Chongqing and Tianjin followed in second and third place among larger cities, respectively. Shenzhen\u2019s transition from a low-cost manufacturing base to an innovation-led, high value-added hub, has helped it become known as \u201cChina\u2019s Silicon Valley.\u201d Its success can be attributed to business-friendly policies, an outward looking economy as well as to its welcoming entrepreneurial environment, according to Perry Wong, Managing Director of Research at the Milken Institute and co-author of the report. Best-Performing Cities China 2018: The Nation\u2019s Most Successful Economies was released on September 10 at the Yale Center in Beijing. 2018 RANKINGS <table> <tr> <td> Rank <\/td> <td> First- and Second-Tier Cities <\/td> <td> <\/td> <td> Rank <\/td> <td> Third-Tier\u00a0Cities <\/td> <\/tr> <tr> <td> 1 <\/td> <td> Shenzhen, Guangdong <\/td> <td> <\/td> <td> 1 <\/td> <td> Dongguan, Guangdong <\/td> <\/tr> <tr> <td> 2 <\/td> <td> Chongqing <\/td> <td> <\/td> <td> 2 <\/td> <td> Suining, Sichuan <\/td> <\/tr> <tr> <td> 3 <\/td> <td> Tianjin <\/td> <td> <\/td> <td> 3 <\/td> <td> Foshan, Guangdong <\/td> <\/tr> <tr> <td> 4 <\/td> <td> Zhengzhou, Henan <\/td> <td> <\/td> <td> 4 <\/td> <td> Wuhu, Anhui <\/td> <\/tr> <tr> <td> 5 <\/td> <td> Guiyang, Guizhou <\/td> <td> <\/td> <td> 5 <\/td> <td> Zhuhai, Guangdong <\/td> <\/tr> <tr> <td> 6 <\/td> <td> Changchun, Jilin <\/td> <td> <\/td> <td> 6 <\/td> <td> Ji\u2019an, Jiangxi <\/td> <\/tr> <tr> <td> 7 <\/td> <td> Chengdu, Sichuan <\/td> <td> <\/td> <td> 7 <\/td> <td> Jiuquan, Gansu <\/td> <\/tr> <tr> <td> 8 <\/td> <td> Hefei, Anhui <\/td> <td> <\/td> <td> 8 <\/td> <td> Zhongshan, Guangdong <\/td> <\/tr> <tr> <td> 9 <\/td> <td> Xi\u2019an, Shaanxi <\/td> <td> <\/td> <td> 9 <\/td> <td> <table> <tr> <td> Suzhou, Jiangsu <\/td> <\/tr> <\/table> <\/td> <\/tr> <tr> <td> 10 <\/td> <td> Hangzhou, Zhejiang <\/td> <td> <\/td> <td> 10 <\/td> <td> Anshun, Guizhou <\/td> <\/tr> <\/table> \u201cThe Best-Performing Cities China index provides evidence of China\u2019s intensified efforts toward further upgrades of industrial sectors, development of high-tech infrastructure, diversification of industries and internationalization of services,\u201d explainsMr. Wong. \u201cThe Belt and Road initiative continues to propel China\u2019s economic development internationally. The initiative aims to bind domestic and regional development by connecting international emerging trade ports and markets. It drives the economic growth of the cities along its routes domestically and beyond.\u201d Shenzhen claimed the number one spot in the Milken Institute\u2019s third annual survey after placing fourth for the past two years in a row. Located in the Pearl River Delta, Shenzhen has been cultivating its innovation-driven economy. The recent development of the \u201cGreater Bay Area\u201d strategy will further amplify the city\u2019s economic influence on regional development. Chongqing secures second place in the large urban group. Together with Chengdu in Sichuan province (No. 7), these cities have become the growth engines for China\u2019s Western region. Chongqing and Chengdu have relatively lower business costs compared with other early developed cities such as Beijing, Shanghai, and Shenzhen. In addition, the cities have developed diversified industries and encouraged entrepreneurial activities. Tianjin holds the third spot with its strong performance credited to its high-level of foreign direct investment (FDI) and diversified industries. Zhengzhou in Henan province and Guiyang in Guizhou province rank fourth and fifth respectively. Both cities have recently attracted high valued added, innovation-based industries, which have rocketed their economies upward. \u201cOur data-driven analysis reveals that the top ranking cities are responding robustly to the central government\u2019s directives toward innovation, which has led to overall economic improvement and development,\u201d says Mr. Wong. The 2018 Milken Institute Best-Performing Cities China Index ranks 260 Chinese first-, second- and third-tier cities based on economic performance, with an emphasis on growth measurements over a one year (2015-2016) and five year (2011-2016) period. The index measures growth in jobs, wages, per-capita gross regional product (GRP), and FDI, while also measuring the proportion of FDI within GRP and the concentration of high value-added industry employment. Among the surprises of the 2018 report is the performance of Changchun in the northeastern province of Jilin, which stands at number six. Traditionally known for its auto and film production but more recently for economic struggles, the city has reoriented its industrial composition towards the service industry, helping to diversify and balance the city\u2019s industrial structure. Hefei, Xi\u2019an and Hangzhou round out the the 2018 top 10 list. Dongguan in Guangdong province holds first place among small cities. Although the city had suffered economically during the past few years, recent restructuring efforts have paid off. The city has developed high value-added industries and in particular, it has worked to develop a robotics sector and introduced automation to manufacturing activities. In addition to Dongguan, three other cities in Guangdong \u2013 Foshan (No. 3), Zhuhai (No. 5) and Zhongshan (No. 8) \u2013 enter the top 10 list for the small city group after upgrading their industrial sectors. The \u201cGreater Bay Area\u201d framework, which intends to link up nine cities in Guangdong province, Hong Kong, and Macau, will further strengthen this regional cluster. This year\u2019s index reflects China\u2019s ambition to reinvent itself from C2C (Copy to China) to CFC (Copy from China), according to Mr. Wong. The country now boasts high-speed rail, mobile payment systems, online shopping and bike-sharing schemes, among others. China is also developing a 5G network, the next generation of mobile internet connectivity, which may place it at the forefront of new technological developments and setting of industry standards in the future. These examples demonstrate China\u2019s ambitious efforts at restructuring its economy, he added. On the policy front, the strategy aims to elevate productivity growth and high value-added production in light of China\u2019s rapidly aging population and the disappearing \u201cpopulation dividend\u201d in Chinese society. To download the full report, including an interactive table of all 260 cities, please visit best-cities-china.org. About the Best Performing Cities China Index The Milken Institute\u2019s Best-Performing Cities (BPC) China Index analyzes the latest and most comprehensive official data, found in the China City Statistical Yearbook to track the recent economic performance of Chinese cities. The main purpose of this series is to offer a tool to policymakers to monitor and evaluate the economic dynamics of cities in China and improve their performance. In addition, this work provides businesses with insight into economic trends to explore potential investment opportunities in China. About the Milken Institute The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. The institute conducts data-driven research, convenes action-oriented meetings and promotes meaningful policy initiatives. For more details, please visit www.milkeninstitute.org. Contact Information<b> For media inquiries, please contact: <strong>Hamilton Advisors Limited<br \/> Robert T. Grieves<\/b><b> Tel: +852 2488 8866<br \/> Dir: +852 2487 8070<br \/> Email:\u00a0rgrieves@hamiltonadvisorsltd.com <strong>Milken Institute<\/b><b> <strong>Ann Marie Eu<\/b><br \/> Senior Associate, Communications, Asia\u00a0<br \/> Tel: +65 9879 8125<br \/> Dir: +65 6636 2578<br \/> Email:\u00a0aeu@milkeninstitute.org",
+    "format": "rich_text",
+    "processed": "BEIJING, September 10, 2018 \u2013 Shenzhen, China\u2019s booming metropolis in Guangdong province, is the country\u2019s best-performing city for 2018, according to a new report published today by the Milken Institute. Chongqing and Tianjin followed in second and third place among larger cities, respectively. Shenzhen\u2019s transition from a low-cost manufacturing base to an innovation-led, high value-added hub, has helped it become known as \u201cChina\u2019s Silicon Valley.\u201d Its success can be attributed to business-friendly policies, an outward looking economy as well as to its welcoming entrepreneurial environment, according to Perry Wong, Managing Director of Research at the Milken Institute and co-author of the report. Best-Performing Cities China 2018: The Nation\u2019s Most Successful Economies was released on September 10 at the Yale Center in Beijing. 2018 RANKINGS <table><tr><td> Rank <\/td> <td> First- and Second-Tier Cities <\/td> <td> <\/td> <td> Rank <\/td> <td> Third-Tier\u00a0Cities <\/td> <\/tr><tr><td> 1 <\/td> <td> Shenzhen, Guangdong <\/td> <td> <\/td> <td> 1 <\/td> <td> Dongguan, Guangdong <\/td> <\/tr><tr><td> 2 <\/td> <td> Chongqing <\/td> <td> <\/td> <td> 2 <\/td> <td> Suining, Sichuan <\/td> <\/tr><tr><td> 3 <\/td> <td> Tianjin <\/td> <td> <\/td> <td> 3 <\/td> <td> Foshan, Guangdong <\/td> <\/tr><tr><td> 4 <\/td> <td> Zhengzhou, Henan <\/td> <td> <\/td> <td> 4 <\/td> <td> Wuhu, Anhui <\/td> <\/tr><tr><td> 5 <\/td> <td> Guiyang, Guizhou <\/td> <td> <\/td> <td> 5 <\/td> <td> Zhuhai, Guangdong <\/td> <\/tr><tr><td> 6 <\/td> <td> Changchun, Jilin <\/td> <td> <\/td> <td> 6 <\/td> <td> Ji\u2019an, Jiangxi <\/td> <\/tr><tr><td> 7 <\/td> <td> Chengdu, Sichuan <\/td> <td> <\/td> <td> 7 <\/td> <td> Jiuquan, Gansu <\/td> <\/tr><tr><td> 8 <\/td> <td> Hefei, Anhui <\/td> <td> <\/td> <td> 8 <\/td> <td> Zhongshan, Guangdong <\/td> <\/tr><tr><td> 9 <\/td> <td> Xi\u2019an, Shaanxi <\/td> <td> <\/td> <td> 9 <\/td> <td> <table><tr><td> Suzhou, Jiangsu <\/td> <\/tr><\/table><\/td> <\/tr><tr><td> 10 <\/td> <td> Hangzhou, Zhejiang <\/td> <td> <\/td> <td> 10 <\/td> <td> Anshun, Guizhou <\/td> <\/tr><\/table> \u201cThe Best-Performing Cities China index provides evidence of China\u2019s intensified efforts toward further upgrades of industrial sectors, development of high-tech infrastructure, diversification of industries and internationalization of services,\u201d explainsMr. Wong. \u201cThe Belt and Road initiative continues to propel China\u2019s economic development internationally. The initiative aims to bind domestic and regional development by connecting international emerging trade ports and markets. It drives the economic growth of the cities along its routes domestically and beyond.\u201d Shenzhen claimed the number one spot in the Milken Institute\u2019s third annual survey after placing fourth for the past two years in a row. Located in the Pearl River Delta, Shenzhen has been cultivating its innovation-driven economy. The recent development of the \u201cGreater Bay Area\u201d strategy will further amplify the city\u2019s economic influence on regional development. Chongqing secures second place in the large urban group. Together with Chengdu in Sichuan province (No. 7), these cities have become the growth engines for China\u2019s Western region. Chongqing and Chengdu have relatively lower business costs compared with other early developed cities such as Beijing, Shanghai, and Shenzhen. In addition, the cities have developed diversified industries and encouraged entrepreneurial activities. Tianjin holds the third spot with its strong performance credited to its high-level of foreign direct investment (FDI) and diversified industries. Zhengzhou in Henan province and Guiyang in Guizhou province rank fourth and fifth respectively. Both cities have recently attracted high valued added, innovation-based industries, which have rocketed their economies upward. \u201cOur data-driven analysis reveals that the top ranking cities are responding robustly to the central government\u2019s directives toward innovation, which has led to overall economic improvement and development,\u201d says Mr. Wong. The 2018 Milken Institute Best-Performing Cities China Index ranks 260 Chinese first-, second- and third-tier cities based on economic performance, with an emphasis on growth measurements over a one year (2015-2016) and five year (2011-2016) period. The index measures growth in jobs, wages, per-capita gross regional product (GRP), and FDI, while also measuring the proportion of FDI within GRP and the concentration of high value-added industry employment. Among the surprises of the 2018 report is the performance of Changchun in the northeastern province of Jilin, which stands at number six. Traditionally known for its auto and film production but more recently for economic struggles, the city has reoriented its industrial composition towards the service industry, helping to diversify and balance the city\u2019s industrial structure. Hefei, Xi\u2019an and Hangzhou round out the the 2018 top 10 list. Dongguan in Guangdong province holds first place among small cities. Although the city had suffered economically during the past few years, recent restructuring efforts have paid off. The city has developed high value-added industries and in particular, it has worked to develop a robotics sector and introduced automation to manufacturing activities. In addition to Dongguan, three other cities in Guangdong \u2013 Foshan (No. 3), Zhuhai (No. 5) and Zhongshan (No. 8) \u2013 enter the top 10 list for the small city group after upgrading their industrial sectors. The \u201cGreater Bay Area\u201d framework, which intends to link up nine cities in Guangdong province, Hong Kong, and Macau, will further strengthen this regional cluster. This year\u2019s index reflects China\u2019s ambition to reinvent itself from C2C (Copy to China) to CFC (Copy from China), according to Mr. Wong. The country now boasts high-speed rail, mobile payment systems, online shopping and bike-sharing schemes, among others. China is also developing a 5G network, the next generation of mobile internet connectivity, which may place it at the forefront of new technological developments and setting of industry standards in the future. These examples demonstrate China\u2019s ambitious efforts at restructuring its economy, he added. On the policy front, the strategy aims to elevate productivity growth and high value-added production in light of China\u2019s rapidly aging population and the disappearing \u201cpopulation dividend\u201d in Chinese society. To download the full report, including an interactive table of all 260 cities, please visit best-cities-china.org. About the Best Performing Cities China Index The Milken Institute\u2019s Best-Performing Cities (BPC) China Index analyzes the latest and most comprehensive official data, found in the China City Statistical Yearbook to track the recent economic performance of Chinese cities. The main purpose of this series is to offer a tool to policymakers to monitor and evaluate the economic dynamics of cities in China and improve their performance. In addition, this work provides businesses with insight into economic trends to explore potential investment opportunities in China. About the Milken Institute The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs and improve health. The institute conducts data-driven research, convenes action-oriented meetings and promotes meaningful policy initiatives. For more details, please visit www.milkeninstitute.org. Contact Information<b> For media inquiries, please contact: <strong>Hamilton Advisors Limited<br \/> Robert T. Grieves<\/strong><\/b><b> Tel: +852 2488 8866<br \/> Dir: +852 2487 8070<br \/> Email:\u00a0rgrieves@hamiltonadvisorsltd.com <strong>Milken Institute<\/strong><\/b><b> <strong>Ann Marie Eu<\/strong><\/b><br \/> Senior Associate, Communications, Asia\u00a0<br \/> Tel: +65 9879 8125<br \/> Dir: +65 6636 2578<br \/> Email:\u00a0aeu@milkeninstitute.org",
+    "summary": null,
+    "summary_processed": ""
+}

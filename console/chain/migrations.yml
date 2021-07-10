@@ -1,0 +1,183 @@
+command:
+  name: site:milken:migrations
+  description: 'Migrate data from sources to this instance'
+commands:
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import entityqueue"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import file --limit=2000 --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import file --limit=2000 --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import file --limit=2000 --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import file --limit=2000 --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import file --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  # Taxonomy:
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import taxonomy_centers --continue-on-failure "
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import taxonomy_milken_tags --continue-on-failure "
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import taxonomy_collections --continue-on-failure "
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import taxonomy_program_initiatives --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  # Media:
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import media_image --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import media_audio --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import media_video --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import media_podcast_episode --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import media_report --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import media_sponsor_logo --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  # Paragraphs:
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import paragraph_body_content --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import paragraph_pull_quote --continue-on-failure"
+    options:
+      working-directory: /var/www
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import paragraph_author --continue-on-failure"
+    options:
+      working-directory: /var/www
+
+  # Events Grid:
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import event --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import panel --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import room --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import speaker --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import track --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import slide --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  # Nodes:
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import node_article --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush migrate:import landing_pages --continue-on-failure "
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush cr"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush default-content-deploy:import --yes"
+    options:
+      working-directory: /var/www
+
+  - command: "exec"
+    arguments:
+      bin: "drush cr"
+    options:
+      working-directory: /var/www

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/seeds-higher-productivity-growth-planted-tax-reform-bill?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/44?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 509
+        }
+    ],
+    "uuid": [
+        {
+            "value": "372c93d8-f2e9-4465-add1-e0c0fc511448"
+        }
+    ],
+    "vid": [
+        {
+            "value": 509
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/44?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "47fedb25-5663-4140-96b4-db73e9eed9ec"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Seeds for Higher Productivity Growth Planted in Tax Reform Bill",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T17:04:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-30T20:03:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/seeds-higher-productivity-growth-planted-tax-reform-bill",
+            "pid": 562,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As the new tax legislation waits for President Trump\u2019s signature, public discussion continues to ignore one of its most important elements: the possibility of increasing productivity by reducing the tax incentive for businesses to increase debt. Limiting business interest deductions is a first and important step in this process. The use of debt or equity to finance investments creates drastically different incentives for firm managers. Traditionally, academic analysts often claim that the means for financing by themselves should not be relevant to the way companies operate. However, firm managers and investors, facing the consequences of taxes, bankruptcy costs, and other real-world constraints, do consider capital structure. Debt holders want to limit a firm\u2019s risk-taking to ensure timely and complete repayment. Creditors prefer firms to invest borrowed funds in tangible (or at least marketable) assets to ensure capital recovery. Lenders generally discourage firms from investing in less-certain and riskier projects because potential incremental returns accrue only to equity holders. By comparison, equity investors, who share the investment upside, encourage firms to engage in potentially more rewarding and often productivity-enhancing investments. They favor developing new technologies or creating higher-value-added goods and services (e.g., by hiring or training more skilled employees). Equity investors tend to encourage firms to take risks in research and development because they hope to receive their share of all future gains. Increased Debt Financing May Have Contributed to the Productivity Slowdown The U.S. productivity slowdown in the last decade is the main reason family real incomes have not kept pace with expectations based on productivity growth during earlier eras. Multifactor productivity (MFP) growth, resulting from the combined contributions of labor, capital, and technology, slowed from an average annual pace of 1.2\u00a0percent during the 1990-2005 period to 0.4 percent during for the recent 10 year period 2006 -2016. Moreover, labor productivity growth, an important component of MFP growth, slowed from an average annual pace of 2.5 percent to 1.0 percent during this same period. If tax reform succeeds in significantly shifting businesses away from debt and toward equity financing, firms may put in place more innovations that will boost multifactor productivity. While debt financing fulfills many corporate needs (e.g., increasing the scale and scope of firm operations), it may have discouraged some forms of riskier investment that could contribute to improving productivity. The macro data show clearly that a lower share of corporate debt to GDP has been associated with a rise in multifactor productivity growth (see Chart). More importantly, boosting MFP is one way to lift all incomes, not just wage income. My preliminary econometric analysis suggests that even while holding steady the major influences on MFP growth (e.g., GDP growth, hours worked, and investment), reducing corporate debt by approximately $300B annually may boost MFP growth by as much as 0.8\u00a0percentage points to its 1990-2005 pace. Of course, some new debt is to be expected in the normal course of business. Nevertheless, the new tax bill\u2019s effect on MFP growth could still be significant, especially over time. Concluding Thoughts: Tax Reform is a Needed First Step toward Raising Productivity Contrary to simple finance theory, a firm\u2019s use of debt or equity for financing investment creates vastly different incentives for the type of investments firm managers consider. Debt and equity are both important and widely used means for firms to finance a wide range of projects. Nevertheless, the rise in the issuance of corporate debt during the recent decade of low-to-zero interest rate monetary policy may have contributed to the accompanying slowdown in productivity and real income growth. The Administration\u2019s tax bill that limits the tax deductibility of business interest expense is a welcome step toward reducing the bias favoring debt financing and encouraging more equity funding, which may improve productivity growth. <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i> <i>William Lee, chief economist at the Milken Institute<\/i> ",
+    "format": "rich_text",
+    "processed": "As the new tax legislation waits for President Trump\u2019s signature, public discussion continues to ignore one of its most important elements: the possibility of increasing productivity by reducing the tax incentive for businesses to increase debt. Limiting business interest deductions is a first and important step in this process. The use of debt or equity to finance investments creates drastically different incentives for firm managers. Traditionally, academic analysts often claim that the means for financing by themselves should not be relevant to the way companies operate. However, firm managers and investors, facing the consequences of taxes, bankruptcy costs, and other real-world constraints, do consider capital structure. Debt holders want to limit a firm\u2019s risk-taking to ensure timely and complete repayment. Creditors prefer firms to invest borrowed funds in tangible (or at least marketable) assets to ensure capital recovery. Lenders generally discourage firms from investing in less-certain and riskier projects because potential incremental returns accrue only to equity holders. By comparison, equity investors, who share the investment upside, encourage firms to engage in potentially more rewarding and often productivity-enhancing investments. They favor developing new technologies or creating higher-value-added goods and services (e.g., by hiring or training more skilled employees). Equity investors tend to encourage firms to take risks in research and development because they hope to receive their share of all future gains. Increased Debt Financing May Have Contributed to the Productivity Slowdown The U.S. productivity slowdown in the last decade is the main reason family real incomes have not kept pace with expectations based on productivity growth during earlier eras. Multifactor productivity (MFP) growth, resulting from the combined contributions of labor, capital, and technology, slowed from an average annual pace of 1.2\u00a0percent during the 1990-2005 period to 0.4 percent during for the recent 10 year period 2006 -2016. Moreover, labor productivity growth, an important component of MFP growth, slowed from an average annual pace of 2.5 percent to 1.0 percent during this same period. If tax reform succeeds in significantly shifting businesses away from debt and toward equity financing, firms may put in place more innovations that will boost multifactor productivity. While debt financing fulfills many corporate needs (e.g., increasing the scale and scope of firm operations), it may have discouraged some forms of riskier investment that could contribute to improving productivity. The macro data show clearly that a lower share of corporate debt to GDP has been associated with a rise in multifactor productivity growth (see Chart). More importantly, boosting MFP is one way to lift all incomes, not just wage income. My preliminary econometric analysis suggests that even while holding steady the major influences on MFP growth (e.g., GDP growth, hours worked, and investment), reducing corporate debt by approximately $300B annually may boost MFP growth by as much as 0.8\u00a0percentage points to its 1990-2005 pace. Of course, some new debt is to be expected in the normal course of business. Nevertheless, the new tax bill\u2019s effect on MFP growth could still be significant, especially over time. Concluding Thoughts: Tax Reform is a Needed First Step toward Raising Productivity Contrary to simple finance theory, a firm\u2019s use of debt or equity for financing investment creates vastly different incentives for the type of investments firm managers consider. Debt and equity are both important and widely used means for firms to finance a wide range of projects. Nevertheless, the rise in the issuance of corporate debt during the recent decade of low-to-zero interest rate monetary policy may have contributed to the accompanying slowdown in productivity and real income growth. The Administration\u2019s tax bill that limits the tax deductibility of business interest expense is a welcome step toward reducing the bias favoring debt financing and encouraging more equity funding, which may improve productivity growth. <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i> <i>William Lee, chief economist at the Milken Institute<\/i> ",
+    "summary": null,
+    "summary_processed": ""
+}

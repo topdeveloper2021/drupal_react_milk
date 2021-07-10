@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/irving-appointed-president-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 83
+        }
+    ],
+    "uuid": [
+        {
+            "value": "90f99864-a334-4fc1-a97e-7b99e29b9f90"
+        }
+    ],
+    "vid": [
+        {
+            "value": 83
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Irving appointed president of the Milken Institute",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/irving-appointed-president-milken-institute",
+            "pid": 136,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014 The Milken Institute announced today that Paul Irving has been named president. Michael L. Klowden remains the Institute\u2019s chief executive officer, and Michael Milken, founder of the Institute, remains chairman of the board.\"Paul and I are working together to ensure the Institute's growth, effectiveness, sustainability, and excellence,\" said Klowden. \"We share ambition for the Institute\u2019s future and the objective of advancing our mission and expanding our global footprint.\"Irving joined the Institute as senior managing director and chief operating officer in 2011 after serving as an advanced leadership fellow at Harvard University. Irving had previously served as chairman, CEO and managing partner of Manatt, Phelps & Phillips, LLP, a prominent law and consulting firm. Irving is a member of the board of directors of East West Bancorp, Inc. His numerous philanthropic activities include service on the boards of Encore.org and Operation Hope.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014 The Milken Institute announced today that Paul Irving has been named president. Michael L. Klowden remains the Institute\u2019s chief executive officer, and Michael Milken, founder of the Institute, remains chairman of the board.\"Paul and I are working together to ensure the Institute's growth, effectiveness, sustainability, and excellence,\" said Klowden. \"We share ambition for the Institute\u2019s future and the objective of advancing our mission and expanding our global footprint.\"Irving joined the Institute as senior managing director and chief operating officer in 2011 after serving as an advanced leadership fellow at Harvard University. Irving had previously served as chairman, CEO and managing partner of Manatt, Phelps &amp; Phillips, LLP, a prominent law and consulting firm. Irving is a member of the board of directors of East West Bancorp, Inc. His numerous philanthropic activities include service on the boards of Encore.org and Operation Hope.",
+    "summary": null,
+    "summary_processed": ""
+}

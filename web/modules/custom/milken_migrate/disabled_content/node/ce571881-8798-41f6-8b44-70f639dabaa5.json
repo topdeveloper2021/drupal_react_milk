@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/report-provides-depth-analysis-leaders-arkansas-plan-new-and-better-paying-jobs-knowledge?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 217
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ce571881-8798-41f6-8b44-70f639dabaa5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 217
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Report Provides In-depth Analysis for Leaders of Arkansas to Plan for New and Better-Paying Jobs in a Knowledge-based Economy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/report-provides-depth-analysis-leaders-arkansas-plan-new-and-better-paying-jobs-knowledge",
+            "pid": 270,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "A fundamental transformation is occurring in the world. The economy is shifting toward knowledge-based jobs, giving areas that take advantage of this shift a significant economic edge against regional competitors. For Arkansas to compete in this 21st century economy, it must accelerate its ability to compete for these jobs if it expects to keep pace with other states, according to a wide-ranging report released today. \"Arkansas has been operating at the periphery of the knowledge-based economy,\" says the report, Arkansas\u2032 Position in the Knowledge-based Economy: Prospects and Policy Options. \"Arkansas has been making progress, but most states are focused on investing heavily and nurturing key institutions to improve their position in the knowledge-based economy. Arkansas is starting behind other states in the knowledge-based economy race. Therefore, it is necessary to implement both incremental improvements and dramatic change to lift its position and begin to close the gap.\" The study, written by scholars at the Milken Institute in conjunction with the University of Arkansas\u2032 Center for Business and Economic Research, was commissioned by Accelerate Arkansas, a statewide volunteer group working to develop a strategic plan for building and accelerating knowledge-based industries and jobs. Readers can view the report online at www.milkeninstitute.org. The key findings: The state has made important progress in improving its knowledge-based assets, especially in the area of the number of new high-tech firms that have set up shop in Arkansas. <b>\nBut the state\u2032s underachieving education system, limited workforce skills and limited technology resources will stunt its growth unless major improvements are made in these areas.<br>\nArkansas\u2032 low business costs, abundant financial resources, strong manufacturing base and strong food processing and retail industries are big pluses that leaders must maintain and build on.<br>\nBut these are not enough in today\u2032s knowledge-based economy. The state must attract and grow its knowledge-based assets - research facilities, entrepreneurial startups and highly educated workers - and leverage them for economic development. The study, one of the most extensive studies ever conducted on the Arkansas economy, was prepared with a $205,000 grant from the Winthrop Rockefeller Foundation to Capital Resource Corporation, sponsors of Accelerate Arkansas. The study analyzes and makes recommendations to enhance and expand Arkansas\u2032 knowledge-based economy. It also looks at how the state\u2032s economy will benefit if the recommendations are successfully implemented. The report provides a model of two futures for Arkansas, using a forecast based on current trends and an alternative forecast. The alternative forecast, emphasizing a strong focus on developing its knowledge-based economy, reflects improvements that add about 27,000 additional jobs in high-tech and knowledge-based industries by the year 2020. These would generate an additional 19,000 jobs in other sectors such as wholesale, retail trade and manufacturing, ultimately accounting for 46,000 new jobs in the state. Total personal income would increase by $12.7 billion by 2020. State tax revenues would increase by $2.4 billion in 2020. But, the authors warn, getting there presents a huge challenge, but one the state has no choice but to accept. Otherwise, its per-capita income will remain at the 75 percent or below of the national average. This is where Arkansas has been stuck for several years. \"Lacking a formidable knowledge base in the state will make the economic transformation much more challenging,\" says Ross DeVol, Director of Regional Economics at the Milken Institute and one of the study\u2032s authors. \"It may take decades to complete even with effective public policy put in place today. It can be done, but it needs to start now.\" Tim McFarland, chairman of Accelerate Arkansas, said of the report: \"Arkansans will find this report invaluable as we work to better understand the U.S. and Arkansas economies, and actions that must be taken to optimally prepare Arkansas for its future. We must work together to maximize as well as refocus our resources and strategies with a full understanding of how the U.S. and global economies are changing.\" James K. Hendren, chairman of the Task Force for the Creation of Knowledge-based Jobs, agreed, saying Accelerate Arkansas will play a key role in supporting needed changes. \"The strategic plan being developed by Accelerate Arkansas using the data in this study will be the roadmap for taking Arkansas forward economically,\" he said. \"Our primary goal is to move the average salary of all Arkansans to 100 percent of the national average by 2020. We strongly believe this can be done.\" Among the recommendations that the authors consider most essential to the transformation of the state\u2032s economy and structure are: Reform the state\u2032s tax code and improve incentives for knowledge-based business.<br>\nUpgrade Arkansas\u2032 infrastructure.<br>\nImprove the state\u2032s image to lure investment.<br>\nDevelop a coordinated risk-capital policy involving investors from other states as well as key local players.<br>\nFocus initiatives and strategies on furthering industrial development in the state, particularly with knowledge-based and technology-related firms.<br>\nImprove the education system. \"The question that faces the state\u2032s leaders should not be one of whether or not Arkansas wants to be part of this new economy, but of how its leaders can ensure that the state actively participates in it,\" the study says. \"The state can simply not afford to be left behind as the rest of the country continues to move forward.\"\nView study (pdf).\n<b>Accelerate Arkansas - Future Plans<\/b> Members of Accelerate Arkansas are preparing a strategic plan framework for Arkansas to use to meet its mission and primary goal. The first step in the plan is a package of legislative options to be presented to the governor and Arkansas General Assembly for consideration in the 2005 legislature. The next step is an overall strategic plan for Arkansas to exceed the economic realities of the future. \"To successfully build and accelerate Arkansas\u2032 knowledge-based industries, it is essential to have strong collaboration and coordination with each key stakeholder,\" says John Ahlen, President of ASTA. <b>About the Participating Organizations<\/b> The Winthrop Rockefeller Foundation is a private, non-pro\ufb01t foundation dedicated to improving the lives of Arkansans by funding programs and projects that improve education, economic development and economic, racial and social justice. In 1974, the Trustees of Gov. Winthrop Rockefeller\u2032s Estate endowed the Winthrop Rockefeller Foundation to continue the work of the Rockwin Fund. Gov. Rockefeller set up The Rockwin Fund in 1954 and, on an annual basis from 1956 until his death in 1973, funded projects and programs he believed were important to improving the quality of life in Arkansas. Capital Resource Corporation sponsors Accelerate Arkansas and is a non-pro\ufb01t organization that helps educate, promote and foster the development of innovation, entrepreneurship and venture capital formation among Arkansans of all ages. It was set up by the Arkansas Capital Corporation. Arkansas Capital Corporation is a private non-pro\ufb01t business development corporation formed in 1957. Accelerate Arkansas is a statewide group of volunteers sponsored by the Capital Resource Corporation. Its mission is to foster economic growth in Arkansas by using the essential building blocks of the knowledge-based economy - knowledge creation through research and development, intellectual property development, commercialization of new technologies, growth of entrepreneurial knowledge-based \ufb01rms, knowledge workforce and the evolution of knowledge workforce clusters - to create an environment supporting entrepreneurship and continuous innovation. The 27 members of Accelerate Arkansas are geographically diverse and represent the private sector, state government and the academic sector. The University of Arkansas\u2032 Center for Business and Economic Research serves the Arkansas business, governmental and academic communities, through research and analysis, supporting statewide economic development. Through analysis of proposed investments, policy changes and programs, its helps businesses and communities make sound financial and public policy decisions for tomorrow. The Center also serves as a catalyst for change by encouraging the growth of knowledge-based businesses throughout the state. <b>Additional media contacts:<\/b>\nStacy Sells Pittman <br>\nSenior Vice President, CJRW <br>\n(501) 975-7254 Elise Mitchell <br>\nPresident, Mitchell Communications Group<br>\n(479) 443-4673",
+    "format": "rich_text",
+    "processed": "A fundamental transformation is occurring in the world. The economy is shifting toward knowledge-based jobs, giving areas that take advantage of this shift a significant economic edge against regional competitors. For Arkansas to compete in this 21st century economy, it must accelerate its ability to compete for these jobs if it expects to keep pace with other states, according to a wide-ranging report released today. \"Arkansas has been operating at the periphery of the knowledge-based economy,\" says the report, Arkansas\u2032 Position in the Knowledge-based Economy: Prospects and Policy Options. \"Arkansas has been making progress, but most states are focused on investing heavily and nurturing key institutions to improve their position in the knowledge-based economy. Arkansas is starting behind other states in the knowledge-based economy race. Therefore, it is necessary to implement both incremental improvements and dramatic change to lift its position and begin to close the gap.\" The study, written by scholars at the Milken Institute in conjunction with the University of Arkansas\u2032 Center for Business and Economic Research, was commissioned by Accelerate Arkansas, a statewide volunteer group working to develop a strategic plan for building and accelerating knowledge-based industries and jobs. Readers can view the report online at www.milkeninstitute.org. The key findings: The state has made important progress in improving its knowledge-based assets, especially in the area of the number of new high-tech firms that have set up shop in Arkansas. <b>\nBut the state\u2032s underachieving education system, limited workforce skills and limited technology resources will stunt its growth unless major improvements are made in these areas.<br \/>\nArkansas\u2032 low business costs, abundant financial resources, strong manufacturing base and strong food processing and retail industries are big pluses that leaders must maintain and build on.<br \/>\nBut these are not enough in today\u2032s knowledge-based economy. The state must attract and grow its knowledge-based assets - research facilities, entrepreneurial startups and highly educated workers - and leverage them for economic development. The study, one of the most extensive studies ever conducted on the Arkansas economy, was prepared with a $205,000 grant from the Winthrop Rockefeller Foundation to Capital Resource Corporation, sponsors of Accelerate Arkansas. The study analyzes and makes recommendations to enhance and expand Arkansas\u2032 knowledge-based economy. It also looks at how the state\u2032s economy will benefit if the recommendations are successfully implemented. The report provides a model of two futures for Arkansas, using a forecast based on current trends and an alternative forecast. The alternative forecast, emphasizing a strong focus on developing its knowledge-based economy, reflects improvements that add about 27,000 additional jobs in high-tech and knowledge-based industries by the year 2020. These would generate an additional 19,000 jobs in other sectors such as wholesale, retail trade and manufacturing, ultimately accounting for 46,000 new jobs in the state. Total personal income would increase by $12.7 billion by 2020. State tax revenues would increase by $2.4 billion in 2020. But, the authors warn, getting there presents a huge challenge, but one the state has no choice but to accept. Otherwise, its per-capita income will remain at the 75 percent or below of the national average. This is where Arkansas has been stuck for several years. \"Lacking a formidable knowledge base in the state will make the economic transformation much more challenging,\" says Ross DeVol, Director of Regional Economics at the Milken Institute and one of the study\u2032s authors. \"It may take decades to complete even with effective public policy put in place today. It can be done, but it needs to start now.\" Tim McFarland, chairman of Accelerate Arkansas, said of the report: \"Arkansans will find this report invaluable as we work to better understand the U.S. and Arkansas economies, and actions that must be taken to optimally prepare Arkansas for its future. We must work together to maximize as well as refocus our resources and strategies with a full understanding of how the U.S. and global economies are changing.\" James K. Hendren, chairman of the Task Force for the Creation of Knowledge-based Jobs, agreed, saying Accelerate Arkansas will play a key role in supporting needed changes. \"The strategic plan being developed by Accelerate Arkansas using the data in this study will be the roadmap for taking Arkansas forward economically,\" he said. \"Our primary goal is to move the average salary of all Arkansans to 100 percent of the national average by 2020. We strongly believe this can be done.\" Among the recommendations that the authors consider most essential to the transformation of the state\u2032s economy and structure are: Reform the state\u2032s tax code and improve incentives for knowledge-based business.<br \/>\nUpgrade Arkansas\u2032 infrastructure.<br \/>\nImprove the state\u2032s image to lure investment.<br \/>\nDevelop a coordinated risk-capital policy involving investors from other states as well as key local players.<br \/>\nFocus initiatives and strategies on furthering industrial development in the state, particularly with knowledge-based and technology-related firms.<br \/>\nImprove the education system. \"The question that faces the state\u2032s leaders should not be one of whether or not Arkansas wants to be part of this new economy, but of how its leaders can ensure that the state actively participates in it,\" the study says. \"The state can simply not afford to be left behind as the rest of the country continues to move forward.\"\nView study (pdf).\n<b>Accelerate Arkansas - Future Plans<\/b> Members of Accelerate Arkansas are preparing a strategic plan framework for Arkansas to use to meet its mission and primary goal. The first step in the plan is a package of legislative options to be presented to the governor and Arkansas General Assembly for consideration in the 2005 legislature. The next step is an overall strategic plan for Arkansas to exceed the economic realities of the future. \"To successfully build and accelerate Arkansas\u2032 knowledge-based industries, it is essential to have strong collaboration and coordination with each key stakeholder,\" says John Ahlen, President of ASTA. <b>About the Participating Organizations<\/b> The Winthrop Rockefeller Foundation is a private, non-pro\ufb01t foundation dedicated to improving the lives of Arkansans by funding programs and projects that improve education, economic development and economic, racial and social justice. In 1974, the Trustees of Gov. Winthrop Rockefeller\u2032s Estate endowed the Winthrop Rockefeller Foundation to continue the work of the Rockwin Fund. Gov. Rockefeller set up The Rockwin Fund in 1954 and, on an annual basis from 1956 until his death in 1973, funded projects and programs he believed were important to improving the quality of life in Arkansas. Capital Resource Corporation sponsors Accelerate Arkansas and is a non-pro\ufb01t organization that helps educate, promote and foster the development of innovation, entrepreneurship and venture capital formation among Arkansans of all ages. It was set up by the Arkansas Capital Corporation. Arkansas Capital Corporation is a private non-pro\ufb01t business development corporation formed in 1957. Accelerate Arkansas is a statewide group of volunteers sponsored by the Capital Resource Corporation. Its mission is to foster economic growth in Arkansas by using the essential building blocks of the knowledge-based economy - knowledge creation through research and development, intellectual property development, commercialization of new technologies, growth of entrepreneurial knowledge-based \ufb01rms, knowledge workforce and the evolution of knowledge workforce clusters - to create an environment supporting entrepreneurship and continuous innovation. The 27 members of Accelerate Arkansas are geographically diverse and represent the private sector, state government and the academic sector. The University of Arkansas\u2032 Center for Business and Economic Research serves the Arkansas business, governmental and academic communities, through research and analysis, supporting statewide economic development. Through analysis of proposed investments, policy changes and programs, its helps businesses and communities make sound financial and public policy decisions for tomorrow. The Center also serves as a catalyst for change by encouraging the growth of knowledge-based businesses throughout the state. <b>Additional media contacts:<\/b>\nStacy Sells Pittman <br \/>\nSenior Vice President, CJRW <br \/>\n(501) 975-7254 Elise Mitchell <br \/>\nPresident, Mitchell Communications Group<br \/>\n(479) 443-4673<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

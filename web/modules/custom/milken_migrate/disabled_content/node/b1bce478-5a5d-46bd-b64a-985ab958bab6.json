@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fastercures-president-gregory-c-simon-joins-president-elect-obamas-transition-team?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 152
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b1bce478-5a5d-46bd-b64a-985ab958bab6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 152
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FasterCures president Gregory C. Simon joins President-Elect Obama's transition team",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fastercures-president-gregory-c-simon-joins-president-elect-obamas-transition-team",
+            "pid": 205,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON, D.C. - FasterCures president Gregory C. Simon, former Chief Domestic Policy Advisor to Vice President Al Gore, has been named by President-elect Barack Obama to his transition team. Simon is part of the team reviewing the Department of Health and Human Services (HHS). He brings experience and expertise in biomedical research policy, knowledge of the transition process, and close familiarity with the mission of HHS and its 11 operating divisions, including the National Institutes of Health and the U.S. Food and Drug Administration. \"I am honored to join President-elect Obama's HHS transition team to help ensure that the important work of the agency continues to move forward seamlessly,\" said Simon. \"HHS touches the lives of millions of Americans every day in its quest to protect the health of all Americans and provide essential human services.\" Greg Simon is president of FasterCures, a center of the Milken Institute formed in 2003. Simon's leadership has positioned FasterCures into an organization valued and recognized for catalyzing systematic change in the process of discovery and development of new therapies for deadly and debilitating diseases. In October 2008, Nature Medicine named Greg one of 10 influential people to watch in biomedical policy and noted that he is among a \"handful of influential people who quietly help keep the wheels of biomedical science turning.\" About FasterCures<br> FasterCures\/The Center for Accelerating Medical Solutions is committed to saving lives by saving time in the research, discovery and development of new treatments for deadly and debilitating diseases. FasterCures, as a center of the Milken Institute, is nonpartisan, nonprofit and independent of interest groups. For more information, visit www.fastercures.org. For more information, contact:<br> Cecilia O. Arradaza <br>\nCommunications Director<br>\nFasterCures<br>\n1101 New York Avenue, NW, Ste. 620<br>\nWashington, DC 20005<br>\n202.336.8912 (office)<br>\n202.460.5913 (cell)<br>",
+    "format": "rich_text",
+    "processed": "WASHINGTON, D.C. - FasterCures president Gregory C. Simon, former Chief Domestic Policy Advisor to Vice President Al Gore, has been named by President-elect Barack Obama to his transition team. Simon is part of the team reviewing the Department of Health and Human Services (HHS). He brings experience and expertise in biomedical research policy, knowledge of the transition process, and close familiarity with the mission of HHS and its 11 operating divisions, including the National Institutes of Health and the U.S. Food and Drug Administration. \"I am honored to join President-elect Obama's HHS transition team to help ensure that the important work of the agency continues to move forward seamlessly,\" said Simon. \"HHS touches the lives of millions of Americans every day in its quest to protect the health of all Americans and provide essential human services.\" Greg Simon is president of FasterCures, a center of the Milken Institute formed in 2003. Simon's leadership has positioned FasterCures into an organization valued and recognized for catalyzing systematic change in the process of discovery and development of new therapies for deadly and debilitating diseases. In October 2008, Nature Medicine named Greg one of 10 influential people to watch in biomedical policy and noted that he is among a \"handful of influential people who quietly help keep the wheels of biomedical science turning.\" About FasterCures<br \/> FasterCures\/The Center for Accelerating Medical Solutions is committed to saving lives by saving time in the research, discovery and development of new treatments for deadly and debilitating diseases. FasterCures, as a center of the Milken Institute, is nonpartisan, nonprofit and independent of interest groups. For more information, visit www.fastercures.org. For more information, contact:<br \/> Cecilia O. Arradaza <br \/>\nCommunications Director<br \/>\nFasterCures<br \/>\n1101 New York Avenue, NW, Ste. 620<br \/>\nWashington, DC 20005<br \/>\n202.336.8912 (office)<br \/>\n202.460.5913 (cell)<br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

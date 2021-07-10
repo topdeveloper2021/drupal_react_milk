@@ -1,0 +1,19 @@
+uuid: 3227db95-3b0d-416e-a86a-a9c86a992187
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_ushape
+id: rooms.rooms.field_ushape
+field_name: field_ushape
+entity_type: rooms
+bundle: rooms
+label: ushape
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

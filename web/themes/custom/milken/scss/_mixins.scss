@@ -1,0 +1,418 @@
+
+// use with  @include
+@mixin hoverEffect($url, $url_hover){
+  height: 44px;
+  width: 44px;
+  position: relative;
+  background-color: $backgroundSocial;
+  border-radius: 50%;
+
+  &:after {
+    content: '';
+    background-size: cover;
+    background-image: url(unquote('/themes/contrib/milken/images/social/' + $url));
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+
+  &:hover {
+    &:after {
+      background-image: url(unquote('/themes/contrib/milken/images/social/' + $url_hover));
+    }
+  }
+}
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+}
+
+@mixin truncateText($width){
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: $width;
+}
+
+@mixin marginTopBottom($value){
+    margin-top: $value;
+    margin-bottom: $value;
+}
+
+@mixin marginLeftRight($value){
+    margin-left: $value;
+    margin-right: $value;
+}
+
+@mixin paddedBorderedBox($value){
+    padding-left: $value;
+    padding-right: $value;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #000;
+}
+
+@mixin equilateralBox($padding, $margin, $color){
+    background-color:$color;
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin boxedLink($color, $padding){
+    text-decoration: none;
+    padding: $padding;
+    border: 1px solid $color;
+    color: $color;
+}
+
+@mixin importabtResponsive(){
+    width:100%!important;
+    height:auto!important;
+}
+
+@mixin black-squared-link {
+    border: 1.5px solid black;
+    color:black;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@mixin withe-squared-link {
+    color: white;
+    border: 1.5px solid white;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@mixin speaker-img{
+    width: 60px;
+    border-radius: 30px;
+    height: 60px;
+}
+
+@mixin fixedWH($w, $h){
+    width: $w;
+    height: $h;
+}
+
+@mixin absoluteBox($top, $left){
+    position: absolute;
+    left: $left;
+    top:$top;
+}
+
+@mixin fixedBox($top, $left){
+    position: fixed;
+    left: $left;
+    top:$top;
+}
+
+@mixin marginpadding($m, $p){
+    margin: $m;
+    padding:$p;
+}
+
+@mixin learMoreBtn(){
+    color: black!important;
+    text-decoration: none!important;
+    padding: 10px 57px!important;
+    border: 2px solid black!important;
+    font-size: 25px!important;
+}
+
+/*** BEGIN MIXINS FOR FINAL DESIGN STYLES **/
+@mixin mainTitle($color){
+    font-family: 'LatoWebBold';
+    font-size: 20px;
+}
+
+@mixin pdfButton(){
+    text-align: left;
+    @media (max-width: $breakpointPhone){
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    a{
+        color: $lightTitle;
+        width: 240px;
+        text-align: center;
+        letter-spacing: 2px!important;
+        font-size: 14px;
+        font-family: 'LatoWebBold';
+        background-color: $orangeButtons;
+        vertical-align: middle;
+        line-height: 43px;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 0 15px 0 0;
+        letter-spacing: 1.5px;
+        padding: 0 18px;
+        display: inline-block;
+    }
+}
+/**
+ * The negative margin and negative positioning below is to
+ * "break" the pull quote into pulling over the right boundery of the container.
+ **/
+@mixin rightQuotes1(){
+    float: right;
+    width: 50%;
+    border: none;
+    color: $reportsBlack;
+    font-size: 20px;
+    line-height: 26px;
+    font-style: normal;
+    position: relative;
+    text-align: left;
+    font-family: LatoWebBold;
+    margin: 50px 20px 50px 7px;
+    background-color: $white;
+    box-shadow: 0 0 26px 0 rgba(50,50,50,.1);
+    padding: 20px;
+
+    br{
+        display: none;
+    }
+    @media (min-width: ($breakpointPhone + 1px)) {
+      font-size: 24px;
+      line-height: 30px;
+      margin: 50px 20px 50px 50px;
+      right: -87px;
+      margin-left: -50px;
+      padding: 20px 25px;
+
+    }
+    @media (min-width: $breakpointTableMD) {
+      font-size: 28px;
+      line-height: 36px;
+      padding: 20px 15px 20px 30px;
+      //padding: 0 0 0 20px;
+      right: -150px;
+      margin-left: -100px;
+    }
+
+    &:before {
+        display: inline-block;
+        content: "\201C";
+        position: absolute;
+        color: $darkBlue;
+        font-weight: normal;
+        vertical-align: bottom;
+        font-size: 48px;
+        left: -10px;
+        top: 0px;
+        @media (min-width: $breakpointTableMD) {
+            font-size: 60px;
+
+        }
+    }
+
+    &:after {
+        display: inline-block;
+        content: "\201D";
+        position: absolute;
+        color: $darkBlue;
+        font-weight: normal;
+        font-size: 48px;
+        bottom: -27px;
+        right: -10px;
+
+        @media (min-width: $breakpointTableMD) {
+            font-size: 60px;
+            bottom: -35px;
+        }
+
+
+    }
+
+    @media (max-width: $breakpointPhone){
+        float: none;
+        width: 94%;
+    }
+}
+
+@mixin tagCloud1(){
+    .field--name-field-topics {
+      overflow: hidden;
+    }
+    .field--item, .field--name-field-gc-tags,
+    .field-event-tag-item {
+        display: flex;
+        float: left;
+        margin-right: 13px;
+        font-family: 'LatoWebBold';
+        a{
+            color: $lightTitle;
+            margin-top: 8px;
+            padding: 4px 12px;
+            text-decoration: none;
+            background-color: $tagsViolet;
+            font-size: 12px;
+            display: inline-block;
+            line-height: 16px;
+            white-space: nowrap;
+        }
+    }
+}
+
+@mixin orangelink-clean(){
+    color: $lightTitle;
+    font-size: 14px;
+    font-family: 'LatoWebBold';
+    background-color: $orangeButtons;
+    padding: 18px;
+    vertical-align: middle;
+    line-height: 42px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    &:focus{
+      outline: none;
+    }
+
+    @media (max-width: $breakpointTablet) {
+      font-size: 12px;
+    }
+}
+
+@mixin text-ellipsis($font-size,$line-height,$lines-to-show) {
+    display: block; /* Fallback for non-webkit */
+    max-width: 100%;
+    height: auto;
+    font-size: $font-size;
+    line-height: $line-height;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin fonts-attr($size: false, $lh: false, $weight: false, $colour: false ) {
+    @if $size { font-size: $size; }
+    @if $colour { color: $colour; }
+    @if $weight { font-weight: $weight; }
+    @if $lh { line-height: $lh; }
+}
+
+
+@mixin nextSlickButton(){
+  display: none;
+  background-image: url('/themes/contrib/milken/images/slider-nextSprite.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 0;
+  transition: background-image .25s ease;
+  -webkit-transition: background-image .25s ease;
+  -moz-transition: background-image .25s ease;
+  width: 54px;
+  height: 54px;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  right: 30px;
+
+  &:hover {
+    background-position: 0 -54px;
+    cursor: pointer;
+    right: 30px;
+  }
+  &:active,
+  &:focus{
+    background-position: 0 -108px;
+    outline: none;
+    right: 30px;
+  }
+  @media only screen and (max-width: $breakpointPhone) {
+    display: none;
+  }
+
+  @media (min-width: $breakpointTablet) {
+    right: 50px;
+    display: block;
+  }
+  @media (min-width: $breakpointTablet) {
+    right: 105px;
+
+  }
+}
+
+@mixin hoverState(){
+  box-shadow: 0 0 12px rgba(0,0,0, .24), 0 2px 3px rgba(0,0,0, .10);
+}
+
+@mixin editor-headings() {
+  h1 {
+    font-size: 34px;
+    color: $mainFontColor;
+    font-family: LatoWebBold;
+    margin: 32px 0 20px;
+    text-transform: none;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 32px;
+    color: $mainFontColor;
+    font-family: LatoWebBold;
+    margin: 32px 0 20px;
+    text-transform: none;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 28px;
+    color: $mainFontColor;
+    font-family: LatoWebBold;
+    margin: 32px 0 20px;
+    text-transform: none;
+    line-height: 1.1;
+  }
+
+  h4 {
+    font-size: 26px;
+    color: $mainFontColor;
+    font-family: LatoWebBold;
+    margin: 32px 0 20px;
+    text-transform: none;
+    line-height: 1.1;
+  }
+
+  h5 {
+    font-size: 22px;
+    color: $mainFontColor;
+    font-family: LatoWebBold;
+    margin: 32px 0 20px;
+    text-transform: none;
+    line-height: 1.1;
+  }
+
+  h6 {
+    font-size: 20px;
+    color: $mainFontColor;
+    font-family: LatoWebBold;
+    margin: 32px 0 20px;
+    text-transform: none;
+    line-height: 1.1;
+  }
+}

@@ -1,0 +1,19 @@
+uuid: 8d8d9015-01a4-4251-b66c-bd6fbaf4f76a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.tiles_sponsors
+id: paragraph.tiles_sponsors.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: tiles_sponsors
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

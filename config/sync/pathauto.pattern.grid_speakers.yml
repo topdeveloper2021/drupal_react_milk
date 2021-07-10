@@ -1,0 +1,23 @@
+uuid: acf88849-7d28-4a3d-8cea-2ddb7cc86d76
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - eck
+id: grid_speakers
+label: 'Grid Speakers'
+type: 'canonical_entities:grid_speakers'
+pattern: '/events/[grid_speakers:field_eventid]/speakers/[grid_speakers:id]'
+selection_criteria:
+  0c4c29a6-2dd3-4ac4-9c59-f8eb01306e75:
+    id: 'entity_bundle:grid_speakers'
+    bundles:
+      speakers: speakers
+    negate: false
+    context_mapping:
+      grid_speakers: grid_speakers
+    uuid: 0c4c29a6-2dd3-4ac4-9c59-f8eb01306e75
+selection_logic: and
+weight: -5
+relationships: {  }

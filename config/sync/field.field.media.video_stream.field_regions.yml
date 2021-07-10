@@ -1,0 +1,29 @@
+uuid: c36ea7f1-1ff1-42c9-ac1a-209716016eb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_regions
+    - media.type.video_stream
+    - taxonomy.vocabulary.region
+id: media.video_stream.field_regions
+field_name: field_regions
+entity_type: media
+bundle: video_stream
+label: Regions
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      region: region
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

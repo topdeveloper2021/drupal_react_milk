@@ -1,0 +1,312 @@
+uuid: be333ec3-6ae2-41c7-acc4-9bae53a79d4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.field.event.summit.field_blurb
+    - field.field.event.summit.field_campaign_id
+    - field.field.event.summit.field_campaign_name
+    - field.field.event.summit.field_campaign_owner
+    - field.field.event.summit.field_campaign_type
+    - field.field.event.summit.field_campaign_type_public
+    - field.field.event.summit.field_centers
+    - field.field.event.summit.field_collections
+    - field.field.event.summit.field_content_tabs
+    - field.field.event.summit.field_description
+    - field.field.event.summit.field_event_date
+    - field.field.event.summit.field_events
+    - field.field.event.summit.field_grid_event_id
+    - field.field.event.summit.field_hero_image
+    - field.field.event.summit.field_meta_tags
+    - field.field.event.summit.field_name_short
+    - field.field.event.summit.field_published
+    - field.field.event.summit.field_regions
+    - field.field.event.summit.field_registration_deadline
+    - field.field.event.summit.field_related_media
+    - field.field.event.summit.field_sequential_id
+    - field.field.event.summit.field_social_network_links
+    - field.field.event.summit.field_speakers
+    - field.field.event.summit.field_sponsors
+    - field.field.event.summit.field_streaming_now
+    - field.field.event.summit.field_tags
+    - field.field.event.summit.field_title_card_image
+    - field.field.event.summit.field_topics
+    - field.field.event.summit.field_tracks
+    - field.field.event.summit.field_venue
+  module:
+    - datetime
+    - entity_reference_revisions
+    - image
+    - key_value_field
+    - metatag
+    - text
+id: event.summit.default
+targetEntityType: event
+bundle: summit
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_blurb:
+    weight: 11
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_campaign_id:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_name:
+    weight: 6
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_owner:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_type:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_type_public:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_centers:
+    weight: 29
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_collections:
+    weight: 30
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_content_tabs:
+    weight: 23
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_description:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_event_date:
+    weight: 27
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_events:
+    weight: 31
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_grid_event_id:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_hero_image:
+    weight: 18
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_meta_tags:
+    weight: 21
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_name_short:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_published:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_regions:
+    weight: 32
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_registration_deadline:
+    weight: 2
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_related_media:
+    weight: 25
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_sequential_id:
+    weight: 16
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_social_network_links:
+    weight: 22
+    label: above
+    settings:
+      value_only: false
+    third_party_settings: {  }
+    type: key_value
+    region: content
+  field_speakers:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_sponsors:
+    weight: 26
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_streaming_now:
+    weight: 28
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tags:
+    weight: 33
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_title_card_image:
+    weight: 20
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_topics:
+    weight: 34
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tracks:
+    weight: 15
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_venue:
+    weight: 24
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  langcode: true
+  search_api_excerpt: true

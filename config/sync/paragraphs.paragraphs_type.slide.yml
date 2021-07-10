@@ -1,0 +1,17 @@
+uuid: 42622ad6-139f-4ef7-b70b-13445d8869c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:b898ce03-5d19-4a0f-936d-9fe5a815358a'
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: sites/default/files/paragraphs_type_icon/slide-default-icon.svg
+id: slide
+label: Slideshow
+icon_uuid: b898ce03-5d19-4a0f-936d-9fe5a815358a
+icon_default: 'data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhcyIgZGF0YS1pY29uPSJpbWFnZXMiIGNsYXNzPSJzdmctaW5saW5lLS1mYSBmYS1pbWFnZXMgZmEtdy0xOCIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik00ODAgNDE2djE2YzAgMjYuNTEtMjEuNDkgNDgtNDggNDhINDhjLTI2LjUxIDAtNDgtMjEuNDktNDgtNDhWMTc2YzAtMjYuNTEgMjEuNDktNDggNDgtNDhoMTZ2MjA4YzAgNDQuMTEyIDM1Ljg4OCA4MCA4MCA4MGgzMzZ6bTk2LTgwVjgwYzAtMjYuNTEtMjEuNDktNDgtNDgtNDhIMTQ0Yy0yNi41MSAwLTQ4IDIxLjQ5LTQ4IDQ4djI1NmMwIDI2LjUxIDIxLjQ5IDQ4IDQ4IDQ4aDM4NGMyNi41MSAwIDQ4LTIxLjQ5IDQ4LTQ4ek0yNTYgMTI4YzAgMjYuNTEtMjEuNDkgNDgtNDggNDhzLTQ4LTIxLjQ5LTQ4LTQ4IDIxLjQ5LTQ4IDQ4LTQ4IDQ4IDIxLjQ5IDQ4IDQ4em0tOTYgMTQ0bDU1LjUxNS01NS41MTVjNC42ODYtNC42ODYgMTIuMjg0LTQuNjg2IDE2Ljk3MSAwTDI3MiAyNTZsMTM1LjUxNS0xMzUuNTE1YzQuNjg2LTQuNjg2IDEyLjI4NC00LjY4NiAxNi45NzEgMEw1MTIgMjA4djExMkgxNjB2LTQ4eiI+PC9wYXRoPjwvc3ZnPg=='
+description: 'One or more Slide(s) displayed as Hero or carousel when 2+. FOR STACKING or displaying in a row as cards, use the "Tiles - Slide" paragraph not this one.'
+behavior_plugins: {  }

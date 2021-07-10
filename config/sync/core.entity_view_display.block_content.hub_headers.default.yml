@@ -1,0 +1,24 @@
+uuid: 36350265-ed80-4c1c-8683-5ac408569f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hub_headers
+    - field.field.block_content.hub_headers.field_event_ref
+id: block_content.hub_headers.default
+targetEntityType: block_content
+bundle: hub_headers
+mode: default
+content:
+  field_event_ref:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

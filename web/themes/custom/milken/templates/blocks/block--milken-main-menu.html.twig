@@ -1,0 +1,44 @@
+<header id="menu-sticky-main">
+    <div class="row menu-main-container">
+        <div class="col-lg-6 col-sm-5 col-xs-8 header-img-ctc  bar-two" id="logo-theme">
+            {% if logo_override %}
+
+                <a class="logo navbar-btn pull-left desktop-logo-img" href="/">
+                    <img src="{{ file_url(logo_override.logo) }}" width="600" height="54" alt="Asia Center" typeof="foaf:Image" class="img-responsive">
+
+                    {% if logo_override.center %}
+                    <img src="{{ file_url(logo_override.center) }}" width="600" height="54" alt="Asia Center" typeof="foaf:Image" class="img-responsive">
+                    {% endif %}
+                </a>
+
+                <a class="logo navbar-btn pull-left mobile-logo-img" href="/">
+                    <img class="img-responsive" src="{{ file_url(logo_override.mobile) }}">
+                </a>
+
+            {% else %}
+                {{ drupal_entity('block','sitebranding', check_access=false) }}
+            {% endif %}
+        </div>
+        <div class="col-lg-6 col-sm-7 col-xs-4 searchform-header form-update-menu-search text-right bar-two">
+            <span class="close-search"></span>
+            <div class="hamb-on hamburguer-menu pull-right perfectly-centered "></div>
+
+
+
+            {% set currenturl = url('<current>')  %}
+
+            {% if '/search' in currenturl|render|render %}
+
+            {%  else %}
+                {{ drupal_entity('block','milken_search', check_access=false) }}
+            {%  endif %}
+
+            <a class="search-single-icon" href="/search"><img src="/{{ directory }}/images/search-inactive.png" /></a>
+
+        </div>
+    </div>
+
+    {% block content %}
+        {{ content }}
+    {% endblock %}
+</header>

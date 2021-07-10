@@ -1,0 +1,23 @@
+uuid: 99701faf-61a6-4179-b493-8a5004b0fbd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_show_title
+    - paragraphs.paragraphs_type.body_content
+id: paragraph.body_content.field_show_title
+field_name: field_show_title
+entity_type: paragraph
+bundle: body_content
+label: 'Show Title'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

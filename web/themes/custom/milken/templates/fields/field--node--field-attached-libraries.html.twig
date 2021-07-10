@@ -1,0 +1,11 @@
+<!--
+
+
+    Field Attached Libraries!!!!!!!
+
+
+-->
+{% for item in items %}
+  <!-- Attaching: {{ item.content['#context'].value }} -->
+  {{ attach_library(item.content['#context'].value) }}
+{% endfor %}

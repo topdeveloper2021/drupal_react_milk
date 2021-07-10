@@ -1,0 +1,33 @@
+name: 'Entity Browser'
+machine_name: EntityBrowser
+description: 'Entity Browser entry file'
+type: block
+core_version_requirement:  ^8 || ^9
+js:
+  'EntityBrowser.entry.js': { }
+cache:
+  max-age: 60
+
+
+form_configuration:
+  id:
+    type: textfield
+    title: "Id"
+  type:
+    type: textfield
+    title: "Type"
+  view_mode:
+    type: textfield
+    title: "View Mode"
+    default_value: "card"
+  url:
+    type: textfield
+    title: "Url"
+  tag:
+    type: textfield
+    title: "html tag"
+    default_value: "entity-browser"
+  attach_library:
+    type: textfield
+    title: "Attach Library"
+    default_value: "milken_base/EntityBrowser"

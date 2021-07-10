@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-august-27-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/144?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 772
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9ae3482f-cb20-438e-977d-97f66896ce8a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 772
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/144?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5dcc2b88-03cb-4393-99a5-d819a56f0f9b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - August 27, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-08-27T13:09:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T21:22:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-august-27-2018",
+            "pid": 825,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech in Context Last week, I discussed the need to ensure that efforts to apply digital technologies to economic challenges do not impede the establishment of basic infrastructure and good governance. Yet even in the presence of these essential building blocks, the ultimate impact of technology is determined by the context in which it is applied. In FinTech\u2019s case, its impact will be determined in no small part by the efficacy of the social contract between financial institutions and the public. This is the argument advanced in compelling fashion by Cornell Professor Saule T. Omarova in a new paper, \u201cNew Tech v. New Deal: Fintech As A Systemic Phenomenon.\u201d After discussing some of the imbalances created by the erosion of the \u201cNew Deal settlement\u201d in finance (namely, the \u201cprivatization of gains and socialization of losses\u201d), Omarova discusses the role of technology and financial innovation in bringing about this erosion. FinTech, she posits, must be considered within this context and judged by the extent to which it corrects or exacerbates these imbalances. While Omarova acknowledges the potential benefits of FinTech, she is afraid FinTech is more likely to amplify the dysfunctional dynamics of our existing financial system. FinTech, in other words, is not intrinsically good. Whether or not one agrees with this assessment of where FinTech is heading, Omarova\u2019s argument points to an important truth. FinTech is a tool. The context in which that tool is used, by whom, and to what end, are the factors that will ultimately determine its impact. For those curious what contextual correction might make this tool more effective, there is a growing body of research on how the provision of financial services could be better aligned with the public\u2019s interests. And for those who are curious what good can be done today? Well, our recent white paper on RegTech makes the point that while financial institutions may indeed remain one step ahead of their regulators, there are measures we can take to help financial regulators narrow the gap. Industry Headlines <i>AltFi:<\/i> Last week was a rough one for public offerings, not to mention bizarre buyouts. Not only did the Saudi Aramco\u2019s IPO saga and Tesla\u2019s \u201cfunding secured\u201d saga draw to a close, but Ant Financial grabbed the FinTech world\u2019s attention by announcing it was punting on its own IPO once more. This comes as the Chinese authorities have continued their crackdown on marketplace lenders, and Ant has seen increasing competition from Tencent. Elsewhere, Crowdcube, SocietyOne, and Upgrade found themselves at some type of 500 million mark last week (GBP, AUD, and USD, respectively). The British crowdfunding platform reported \u00a3500 million in pledged investments on its platform, while the Australian peer-to-peer lender expects its total lending to surpass $500 million in September, just after its sixth anniversary. Finally, Renaud Laplanche\u2019s new lending venture achieved a $500 million valuation on its third funding round. <i>Blockchain and Crypto:<\/i> While much of the news in blockchain and cryptocurrency was made by regulators this week (more below), some noteworthy developments come from Ripple and Bittrex. According to a Ripple vice president, the company has its eye on the Chinese market, where it will likely try to encourage further adoption of its cryptocurrency, XRP, in order to promote its blockchain-based payments platform. Meanwhile, cryptocurrency exchange Bittrex is joining forces with Rialto to offer a trading venue for crypto assets that are registered as securities. <i>InsurTech:<\/i> Two major investments made InsurTech news last week. First, SoftBank announced an investment of an undisclosed amount into ZhongAn, the Chinese InsurTech giant. The funding will be used to take ZhongAn international. Second, Alphabet announced a $375 million investment in Oscar, which the InsurTech will use to expand its footprint and offerings, including a Medicare Advantage plan. <i>Payments:<\/i>\u00a0Safaricom and WorldRemit signed a partnership agreement, allowing instant cross-border payments to M-Pesa accounts. This comes after both firms have achieved leading positions in the international payments. Elsewhere, WeChat launched a digital payments platform in Malaysia last week, as Tencent continues to vie with Ant Financial for mobile payments supremacy. Finally, PayPal is weighing whether to make payments on its Venmo platform a little less public. Criticism of Venmo for defaulting its users to public payments has increased of late, causing PayPal to rethink its platform. On a less serious (but more fun) note, The Onion compiled an excellent list of the pros and cons of mobile payments apps. <i>Wealth Management:<\/i> In response to a study from the Financial Conduct Authority (FCA), British robo-advisors are looking to band together in a new lobbying effort. The FCA\u2019s study, released in May, found that some robo-advisors were not requesting sufficient information from their clients: in some cases, even neglecting to ask clients questions about their current debt. Global Developments <i>European Union:<\/i> The EU\u2019s Fifth Anti-Money Laundering Directive (MLD5) has formalized the EU\u2019s first definition of virtual currencies and brought services related to virtual currencies within the scope of the EU\u2019s anti-money laundering framework. Notably, MLD5\u2019s definition of virtual currencies is broad enough to cover most ICOs, a signal that the EU wants to ensure it has a firm hold on the space. <i>China:<\/i> The fallout from the collapse of the peer-to-peer bubble continues in China. Last week, Chinese regulators ordered the bailout of peer-to-peer lenders by state-controlled asset managers. Regulators are hoping this will stabilize the peer-to-peer industry, but others are concerned that the asset managers in question are already over-burdened with distressed assets. Meanwhile, Chinese regulators have also continued their crackdown on cryptocurrency exchanges. Last week, regulators blocked access to 124 cryptocurrency exchanges that operate outside of China. <i>Japan:<\/i>\u00a0Japan\u2019s Financial Services Agency reported a precipitous drop in the number of inquiries related to cryptocurrencies in the second quarter. This comes as some of the hype in the space is beginning to subside. <i>Spain:<\/i> The Bank of Spain has become the latest central bank to adopt a cautious approach with regards to central bank digital currencies (CBDCs). In a bulletin, the bank expressed concerned that CBDCs could worsen panics. <i>South Korea:<\/i>\u00a0South Korea\u2019s Financial Supervisory Service expects that the value of mobile payments transactions in the country will more than double in 2018. Mobile payments in Japan in the first five months of the year nearly equaled the 2017 total. <i>Russia:<\/i>\u00a0A product developed by Sberbank has become the first to pass the piloting phase of the Bank of Russia\u2019s regulatory sandbox. The Bank of Russia launched its regulatory sandbox in April. <i>United Arab Emirates:<\/i> The Abu Dhabi Global Market is organizing their second FinTech Abu Dhabi event, an effort to bring the FinTech community together from across the MENA region. <i>United States:\u00a0<\/i>Last week was a turbulent one for the cryptocurrency world in the United States. On Wednesday, staff at the Securities and Exchange Commission (SEC) rejected nine applications for bitcoin exchange-traded funds (ETFs). The reason the SEC cited for rejecting these applications was that they were not convinced that enough care was taken to ensure the ETFs would not fall victim to the type of fraud that has plagued the rest of the industry. However, SEC commissioners pulled rank the following day and announced they will review their staff\u2019s rejection of the ETFs in question. Details are foggy on when the review will be completed by or what it will entail. Elsewhere, the battle about the Office of the Comptroller of the Currency\u2019s FinTech charter continues. PYMNTS reports the charter\u2019s legal uncertainty is among the reasons that FinTechs will be hesitant to be the first to apply for the charter. Finally, Regulation CF campaigns hit a monthly high in July with issuers raising $10.7 million.",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech in Context Last week, I discussed the need to ensure that efforts to apply digital technologies to economic challenges do not impede the establishment of basic infrastructure and good governance. Yet even in the presence of these essential building blocks, the ultimate impact of technology is determined by the context in which it is applied. In FinTech\u2019s case, its impact will be determined in no small part by the efficacy of the social contract between financial institutions and the public. This is the argument advanced in compelling fashion by Cornell Professor Saule T. Omarova in a new paper, \u201cNew Tech v. New Deal: Fintech As A Systemic Phenomenon.\u201d After discussing some of the imbalances created by the erosion of the \u201cNew Deal settlement\u201d in finance (namely, the \u201cprivatization of gains and socialization of losses\u201d), Omarova discusses the role of technology and financial innovation in bringing about this erosion. FinTech, she posits, must be considered within this context and judged by the extent to which it corrects or exacerbates these imbalances. While Omarova acknowledges the potential benefits of FinTech, she is afraid FinTech is more likely to amplify the dysfunctional dynamics of our existing financial system. FinTech, in other words, is not intrinsically good. Whether or not one agrees with this assessment of where FinTech is heading, Omarova\u2019s argument points to an important truth. FinTech is a tool. The context in which that tool is used, by whom, and to what end, are the factors that will ultimately determine its impact. For those curious what contextual correction might make this tool more effective, there is a growing body of research on how the provision of financial services could be better aligned with the public\u2019s interests. And for those who are curious what good can be done today? Well, our recent white paper on RegTech makes the point that while financial institutions may indeed remain one step ahead of their regulators, there are measures we can take to help financial regulators narrow the gap. Industry Headlines <i>AltFi:<\/i> Last week was a rough one for public offerings, not to mention bizarre buyouts. Not only did the Saudi Aramco\u2019s IPO saga and Tesla\u2019s \u201cfunding secured\u201d saga draw to a close, but Ant Financial grabbed the FinTech world\u2019s attention by announcing it was punting on its own IPO once more. This comes as the Chinese authorities have continued their crackdown on marketplace lenders, and Ant has seen increasing competition from Tencent. Elsewhere, Crowdcube, SocietyOne, and Upgrade found themselves at some type of 500 million mark last week (GBP, AUD, and USD, respectively). The British crowdfunding platform reported \u00a3500 million in pledged investments on its platform, while the Australian peer-to-peer lender expects its total lending to surpass $500 million in September, just after its sixth anniversary. Finally, Renaud Laplanche\u2019s new lending venture achieved a $500 million valuation on its third funding round. <i>Blockchain and Crypto:<\/i> While much of the news in blockchain and cryptocurrency was made by regulators this week (more below), some noteworthy developments come from Ripple and Bittrex. According to a Ripple vice president, the company has its eye on the Chinese market, where it will likely try to encourage further adoption of its cryptocurrency, XRP, in order to promote its blockchain-based payments platform. Meanwhile, cryptocurrency exchange Bittrex is joining forces with Rialto to offer a trading venue for crypto assets that are registered as securities. <i>InsurTech:<\/i> Two major investments made InsurTech news last week. First, SoftBank announced an investment of an undisclosed amount into ZhongAn, the Chinese InsurTech giant. The funding will be used to take ZhongAn international. Second, Alphabet announced a $375 million investment in Oscar, which the InsurTech will use to expand its footprint and offerings, including a Medicare Advantage plan. <i>Payments:<\/i>\u00a0Safaricom and WorldRemit signed a partnership agreement, allowing instant cross-border payments to M-Pesa accounts. This comes after both firms have achieved leading positions in the international payments. Elsewhere, WeChat launched a digital payments platform in Malaysia last week, as Tencent continues to vie with Ant Financial for mobile payments supremacy. Finally, PayPal is weighing whether to make payments on its Venmo platform a little less public. Criticism of Venmo for defaulting its users to public payments has increased of late, causing PayPal to rethink its platform. On a less serious (but more fun) note, The Onion compiled an excellent list of the pros and cons of mobile payments apps. <i>Wealth Management:<\/i> In response to a study from the Financial Conduct Authority (FCA), British robo-advisors are looking to band together in a new lobbying effort. The FCA\u2019s study, released in May, found that some robo-advisors were not requesting sufficient information from their clients: in some cases, even neglecting to ask clients questions about their current debt. Global Developments <i>European Union:<\/i> The EU\u2019s Fifth Anti-Money Laundering Directive (MLD5) has formalized the EU\u2019s first definition of virtual currencies and brought services related to virtual currencies within the scope of the EU\u2019s anti-money laundering framework. Notably, MLD5\u2019s definition of virtual currencies is broad enough to cover most ICOs, a signal that the EU wants to ensure it has a firm hold on the space. <i>China:<\/i> The fallout from the collapse of the peer-to-peer bubble continues in China. Last week, Chinese regulators ordered the bailout of peer-to-peer lenders by state-controlled asset managers. Regulators are hoping this will stabilize the peer-to-peer industry, but others are concerned that the asset managers in question are already over-burdened with distressed assets. Meanwhile, Chinese regulators have also continued their crackdown on cryptocurrency exchanges. Last week, regulators blocked access to 124 cryptocurrency exchanges that operate outside of China. <i>Japan:<\/i>\u00a0Japan\u2019s Financial Services Agency reported a precipitous drop in the number of inquiries related to cryptocurrencies in the second quarter. This comes as some of the hype in the space is beginning to subside. <i>Spain:<\/i> The Bank of Spain has become the latest central bank to adopt a cautious approach with regards to central bank digital currencies (CBDCs). In a bulletin, the bank expressed concerned that CBDCs could worsen panics. <i>South Korea:<\/i>\u00a0South Korea\u2019s Financial Supervisory Service expects that the value of mobile payments transactions in the country will more than double in 2018. Mobile payments in Japan in the first five months of the year nearly equaled the 2017 total. <i>Russia:<\/i>\u00a0A product developed by Sberbank has become the first to pass the piloting phase of the Bank of Russia\u2019s regulatory sandbox. The Bank of Russia launched its regulatory sandbox in April. <i>United Arab Emirates:<\/i> The Abu Dhabi Global Market is organizing their second FinTech Abu Dhabi event, an effort to bring the FinTech community together from across the MENA region. <i>United States:\u00a0<\/i>Last week was a turbulent one for the cryptocurrency world in the United States. On Wednesday, staff at the Securities and Exchange Commission (SEC) rejected nine applications for bitcoin exchange-traded funds (ETFs). The reason the SEC cited for rejecting these applications was that they were not convinced that enough care was taken to ensure the ETFs would not fall victim to the type of fraud that has plagued the rest of the industry. However, SEC commissioners pulled rank the following day and announced they will review their staff\u2019s rejection of the ETFs in question. Details are foggy on when the review will be completed by or what it will entail. Elsewhere, the battle about the Office of the Comptroller of the Currency\u2019s FinTech charter continues. PYMNTS reports the charter\u2019s legal uncertainty is among the reasons that FinTechs will be hesitant to be the first to apply for the charter. Finally, Regulation CF campaigns hit a monthly high in July with issuers raising $10.7 million.",
+    "summary": null,
+    "summary_processed": ""
+}

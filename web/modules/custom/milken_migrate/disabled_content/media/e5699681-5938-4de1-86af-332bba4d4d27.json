@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7810\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/KFHI00Xzt_Fv9xoEdthtzM-ZM21nW2NnYZJ0FxYKq5g.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7810
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e5699681-5938-4de1-86af-332bba4d4d27"
+        }
+    ],
+    "vid": [
+        {
+            "value": 477
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/KFHI00Xzt_Fv9xoEdthtzM-ZM21nW2NnYZJ0FxYKq5g.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd41ef9b-1866-4960-a8a8-7e22953db4db"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Transforming Global Supply Chains to Be Humane and Ethical",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:06:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "How can we harness the power of business and develop investment strategies that drive reform and make the economic case to end unfair and unequal labor practices, such as modern slavery? Leading CEOs, government, nonprofit and religious leaders, including the Vatican, are developing tactical alliances to stop illegal and inhumane employment practices and create programs to improve the lives of workers around the world. Come hear from leaders who will discuss the challenges in addressing modern slavery in companies and the business rationale for doing so, the development of a replacement economy, and lessons from building sustainable supply chains that empower communities, often with a focus on women and families. By investing in operational performance and putting a proper value on human capital, the market and investors can help drive solutions. How can we make better use of modern technologies to empower companies and consumers to make informed decisions about the products they buy? Please join us for a conversation about solutions, collaboration, best practices and incentives to bring employers to the table to transform the way business is done.",
+    "format": "rich_text",
+    "processed": "How can we harness the power of business and develop investment strategies that drive reform and make the economic case to end unfair and unequal labor practices, such as modern slavery? Leading CEOs, government, nonprofit and religious leaders, including the Vatican, are developing tactical alliances to stop illegal and inhumane employment practices and create programs to improve the lives of workers around the world. Come hear from leaders who will discuss the challenges in addressing modern slavery in companies and the business rationale for doing so, the development of a replacement economy, and lessons from building sustainable supply chains that empower communities, often with a focus on women and families. By investing in operational performance and putting a proper value on human capital, the market and investors can help drive solutions. How can we make better use of modern technologies to empower companies and consumers to make informed decisions about the products they buy? Please join us for a conversation about solutions, collaboration, best practices and incentives to bring employers to the table to transform the way business is done.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/Gym8M98nL64",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/KFHI00Xzt_Fv9xoEdthtzM-ZM21nW2NnYZJ0FxYKq5g.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

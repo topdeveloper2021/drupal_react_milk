@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/longevity-and-future-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/93?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 574
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c7c69748-be97-4111-9d2c-f54f0337f698"
+        }
+    ],
+    "vid": [
+        {
+            "value": 574
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/93?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "96d1860b-3865-4a27-9f94-2096919d2edd"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Longevity and the Future of Health",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T18:05:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/longevity-and-future-health",
+            "pid": 627,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "We\u2019re at a unique time in our history. Increased longevity is converging with unprecedented innovations in biomedical research, genomics, health, and technology to disrupt aging in ways previously unimaginable\u2014empowering us to choose how we live as we age. We have made tremendous progress with health and health care. But as millions of people are living longer, we\u2019re beginning to realize our health has more to do with the choices we make each day than it does an occasional visit to the doctor\u2019s office. We now know changes in lifestyle and medical advances can increase our healthy lifespan and shrink the number of years spent with a disability. In fact, a healthy lifestyle adds an average of 6.5 disability-free years after age 65. We\u2019re also discovering it\u2019s increasingly possible to improve health in later years. As our population continues to age at unprecedented rates, we realize many of our support systems were designed for a 20th-century lifestyle and don\u2019t adequately support the way we live today, nor do they reflect the advances in technology that allow us to live better as we grow older. We must embrace a new vision of health that emphasizes well-being throughout our lives. This requires four shifts: Instead of just treating ailments, we need to focus more on preventing disease and improving wellbeing. Instead of just focusing on the medical and physical aspects of health, we need to also focus on the social determinants of health, like loneliness and social isolation, by helping people realize a sense of purpose and helping them develop a more positive, optimistic outlook on aging. We need to enable people to become empowered users of the health-care system\u2014not dependent patients. And, we need to ensure people have dependable access to quality care throughout their lives. Making this vision important a reality requires some radical changes. It calls for an integrated approach involving collaboration from all sectors of society, and especially those in the technology sector. Health care is happening at home. Ninety percent of people 65 and over want to age in place. And, technology is allowing more people to do that. Telehealth in particular holds great promise in helping to combat loneliness and social isolation. In fact, our research indicates people age 50 and over view \u201cconnectedness\u201d as the primary benefit of telehealth. It can also have a positive impact on caregiving. As the oldest segment of the population increases rapidly in the coming decades, telehealth can make it easier for those needing care to live independently in their homes\u2014and for those providing care to obtain important medical information about the person for whom they care. For example, those who may live in a different part of the country can be linked into an appointment with a loved one. Telehealth also enables people in rural or underserved areas to see providers or specialists who are far away. And it can help address language and cultural barriers by giving people access to doctors or other providers who speak their language. Achieving a new vision of health also demands we become much more aggressive in finding treatments and, ultimately, a cure for dementia. More than 6 million people in the United States suffer from various types of dementia, including Alzheimer\u2019s disease. And, those numbers are growing at an alarming rate. Based on current projections, by 2050 that number will exceed 16 million people, or about one in five Americans age 65 and older. Dementia takes a devastating emotional, financial, and physical toll on the families of those who are diagnosed with these ailments. In 2016, nearly 16 million family members and friends provided more than 18 billion hours of unpaid caregiving assistance to those with Alzheimer\u2019s and other types of dementia. That\u2019s why AARP\u2019s Brain Health Fund is investing $60 million in the Dementia Discovery Fund (DDF), which invests in research and development of breakthrough treatments for dementia. By bringing together the world\u2019s best minds to accelerate global research efforts, the DDF is helping to kick-start a different approach to dementia research by applying the venture capital model to fund research toward new therapies. Founded in 2015, the fund has already invested in 17 organizations exploring new pathways for treating dementia. This investment in the DDF provides hope for the future by recognizing that the urgent need to find better treatments will require cooperation among scientific researchers, public health agencies, and investors. In less than two years, people age 65 and over will outnumber children age five and under. In 2030\u2014less than 12 years from now\u2014the first millennials will reach 50, and the first Gen Xers will reach 65. At the end of 2030, the first boomers will be 85, swelling the ranks of what is already our country\u2019s fastest growing age group. Living to 100 years of age is a real possibility, especially for younger generations, and some have speculated the first person to live to age 150 is alive today. This is the future we face. To address the opportunities and challenges it presents, we must embrace a new vision of health that ensures people will have access to health care at any age, at an affordable price, and that we will all be better equipped to care for each other as we age.",
+    "format": "rich_text",
+    "processed": "We\u2019re at a unique time in our history. Increased longevity is converging with unprecedented innovations in biomedical research, genomics, health, and technology to disrupt aging in ways previously unimaginable\u2014empowering us to choose how we live as we age. We have made tremendous progress with health and health care. But as millions of people are living longer, we\u2019re beginning to realize our health has more to do with the choices we make each day than it does an occasional visit to the doctor\u2019s office. We now know changes in lifestyle and medical advances can increase our healthy lifespan and shrink the number of years spent with a disability. In fact, a healthy lifestyle adds an average of 6.5 disability-free years after age 65. We\u2019re also discovering it\u2019s increasingly possible to improve health in later years. As our population continues to age at unprecedented rates, we realize many of our support systems were designed for a 20th-century lifestyle and don\u2019t adequately support the way we live today, nor do they reflect the advances in technology that allow us to live better as we grow older. We must embrace a new vision of health that emphasizes well-being throughout our lives. This requires four shifts: Instead of just treating ailments, we need to focus more on preventing disease and improving wellbeing. Instead of just focusing on the medical and physical aspects of health, we need to also focus on the social determinants of health, like loneliness and social isolation, by helping people realize a sense of purpose and helping them develop a more positive, optimistic outlook on aging. We need to enable people to become empowered users of the health-care system\u2014not dependent patients. And, we need to ensure people have dependable access to quality care throughout their lives. Making this vision important a reality requires some radical changes. It calls for an integrated approach involving collaboration from all sectors of society, and especially those in the technology sector. Health care is happening at home. Ninety percent of people 65 and over want to age in place. And, technology is allowing more people to do that. Telehealth in particular holds great promise in helping to combat loneliness and social isolation. In fact, our research indicates people age 50 and over view \u201cconnectedness\u201d as the primary benefit of telehealth. It can also have a positive impact on caregiving. As the oldest segment of the population increases rapidly in the coming decades, telehealth can make it easier for those needing care to live independently in their homes\u2014and for those providing care to obtain important medical information about the person for whom they care. For example, those who may live in a different part of the country can be linked into an appointment with a loved one. Telehealth also enables people in rural or underserved areas to see providers or specialists who are far away. And it can help address language and cultural barriers by giving people access to doctors or other providers who speak their language. Achieving a new vision of health also demands we become much more aggressive in finding treatments and, ultimately, a cure for dementia. More than 6 million people in the United States suffer from various types of dementia, including Alzheimer\u2019s disease. And, those numbers are growing at an alarming rate. Based on current projections, by 2050 that number will exceed 16 million people, or about one in five Americans age 65 and older. Dementia takes a devastating emotional, financial, and physical toll on the families of those who are diagnosed with these ailments. In 2016, nearly 16 million family members and friends provided more than 18 billion hours of unpaid caregiving assistance to those with Alzheimer\u2019s and other types of dementia. That\u2019s why AARP\u2019s Brain Health Fund is investing $60 million in the Dementia Discovery Fund (DDF), which invests in research and development of breakthrough treatments for dementia. By bringing together the world\u2019s best minds to accelerate global research efforts, the DDF is helping to kick-start a different approach to dementia research by applying the venture capital model to fund research toward new therapies. Founded in 2015, the fund has already invested in 17 organizations exploring new pathways for treating dementia. This investment in the DDF provides hope for the future by recognizing that the urgent need to find better treatments will require cooperation among scientific researchers, public health agencies, and investors. In less than two years, people age 65 and over will outnumber children age five and under. In 2030\u2014less than 12 years from now\u2014the first millennials will reach 50, and the first Gen Xers will reach 65. At the end of 2030, the first boomers will be 85, swelling the ranks of what is already our country\u2019s fastest growing age group. Living to 100 years of age is a real possibility, especially for younger generations, and some have speculated the first person to live to age 150 is alive today. This is the future we face. To address the opportunities and challenges it presents, we must embrace a new vision of health that ensures people will have access to health care at any age, at an affordable price, and that we will all be better equipped to care for each other as we age.",
+    "summary": null,
+    "summary_processed": ""
+}

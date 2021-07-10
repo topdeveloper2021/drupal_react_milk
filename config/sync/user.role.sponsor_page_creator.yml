@@ -1,0 +1,37 @@
+uuid: 42a8d722-7046-4314-bde4-f9dc5db62a51
+langcode: en
+status: true
+dependencies: {  }
+id: sponsor_page_creator
+label: 'Sponsor Page creator'
+weight: 69
+is_admin: false
+permissions:
+  - 'administer display modes'
+  - 'administer event fields'
+  - 'administer media fields'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer paragraph fields'
+  - 'administer people fields'
+  - 'administer slide fields'
+  - 'administer taxonomy_term fields'
+  - 'create event entities'
+  - 'create panel entities'
+  - 'create people entities'
+  - 'create rooms entities'
+  - 'delete any event entities'
+  - 'delete any missing_migration entities'
+  - 'delete any panel entities'
+  - 'delete any people entities'
+  - 'delete any rooms entities'
+  - 'delete own panel entities'
+  - 'delete own rooms entities'
+  - 'edit any event entities'
+  - 'edit any missing_migration entities'
+  - 'edit any panel entities'
+  - 'edit any people entities'
+  - 'edit any rooms entities'
+  - 'edit own panel entities'
+  - 'edit own rooms entities'
+  - 'view any people entities'

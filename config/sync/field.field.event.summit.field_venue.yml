@@ -1,0 +1,28 @@
+uuid: 441f101a-92cf-4e08-8cfb-cbb150b79238
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - eck.eck_type.location.conference_center
+    - field.storage.event.field_venue
+id: event.summit.field_venue
+field_name: field_venue
+entity_type: event
+bundle: summit
+label: Venue
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:location'
+  handler_settings:
+    target_bundles:
+      conference_center: conference_center
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

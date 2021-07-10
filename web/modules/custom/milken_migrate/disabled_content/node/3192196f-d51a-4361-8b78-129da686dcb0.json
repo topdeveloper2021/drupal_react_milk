@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/underfunded-private-sector-pension-plans-threaten-retirement-security-millions-americans?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 111
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3192196f-d51a-4361-8b78-129da686dcb0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 111
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Underfunded private-sector pension plans threaten the retirement security of millions of Americans",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/underfunded-private-sector-pension-plans-threaten-retirement-security-millions-americans",
+            "pid": 164,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>(LOS ANGELES) - <\/b>Most private pension plans lack sufficient assets to provide the benefits employers promised to current and future retirees. Innovative approaches to filling the pension funding gap are needed, according to the new Milken Institute report, \"Protecting Private Pensions and the Public Interest: Solutions for the Shortfalls in Employer-Sponsored Defined-Benefit Plans,\" released today at the Global Conference.The report gives an overview of the underfunding problem in the defined-benefit pension system that covers 20 percent of U.S. workers and suggests practical finance, regulatory and policy responses to the challenges. It is based on a Financial Innovations LabTM that convened stakeholders and experts in the field.\nTotal underfunding in single-employer pension plans was equal to roughly $504 billion in 2009 (the most recent data available), according to the Pension Benefit Guaranty Corporation, a government-sponsored corporation that insures the plans.\n\"Responsibly and rationally addressing so-called legacy costs is essential to protecting the solvency of these plans, the retirement security of the workers they cover, the sponsoring employers and the taxpayers who could be on the hook if the federal pension insurance program is unable to cover future losses,\" said Bradley Belt, senior managing director of the Milken Institute and former executive director of the Pension Benefit Guaranty Corporation. \"The Financial Innovations Lab discussion focused on innovative ways to close the funding gap.\"\nThe Institute's report outlines several approaches for addressing the current funding shortfall, with the goal of fairly allocating the burden of existing legacy costs and providing a framework for a better, sustainable pension model incorporating the best features of defined-benefit and defined-contribution models going forward. They include: Expand the PBGC's authority to negotiate pension funding and termination agreements. The PBGC has a hatchet (the ability to terminate a plan), but it requires a scalpel (the ability to intervene before a plan is too far underwater). It needs the flexibility to work with distressed plan sponsors to avoid plan bankruptcy or termination by restructuring the pension liability on commercially reasonable terms. Use the PBGC as a financing source by exchanging bonds between a sponsoring corporation and the PBGC. The corporation would use the money to fund its plan, and then repay the PBGC over a set time frame, followed by a second stage in which full funding is tightly enforced. Expand the use of the annuity market to partially reduce plan liabilities. Sponsoring companies should consider expanding the use of annuities held as assets in the plan that would be matched against a portion of the liabilities. This \"buy-in\" approach would be less costly than a full plan buyout and would reduce both the sponsors' and beneficiaries' risk. Using the private capital markets, companies could trade pension claims, allowing firms to remove legacy liabilities from their balance sheets. The risks for an investor would be small because the pension claims are guaranteed by the PBGC, so it would likely be less costly for plan sponsors than purchasing an annuity. Consolidate \"orphan liabilities\" - the obligations of a bankrupt plan sponsor that other sponsors must cover in multi-employer plans - under the PGBC. These orphan liabilities burden the remaining contributing sponsors of already troubled plans. Recognizing these \"sunk costs\" as soon as possible could allow otherwise viable companies to survive, as well as potentially lower the long-run costs to the PGBC. Allow employers and participants to negotiate reductions in accrued benefits in appropriate circumstances. Current law prohibits reductions in accrued benefits, but employees might rationally conclude that a reduced annuitized benefit and additional job security would be preferable if the ability of the employer to meet its obligations over the long-term is less certain. The Institute is grateful for support from the United Food and Commercial Workers for the Financial Innovations Lab upon which the report is based. Participants included financial and institutional investors, asset managers, reinsurers, academics, actuaries, and representatives from unions, insurance companies, government, and pension funds.\nThe report includes an examination of the factors that contributed to the underfunding challenge, the principles that guided the group's discussions, and several proposed solutions. The full report is available at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "<b>(LOS ANGELES) - <\/b>Most private pension plans lack sufficient assets to provide the benefits employers promised to current and future retirees. Innovative approaches to filling the pension funding gap are needed, according to the new Milken Institute report, \"Protecting Private Pensions and the Public Interest: Solutions for the Shortfalls in Employer-Sponsored Defined-Benefit Plans,\" released today at the Global Conference.The report gives an overview of the underfunding problem in the defined-benefit pension system that covers 20 percent of U.S. workers and suggests practical finance, regulatory and policy responses to the challenges. It is based on a Financial Innovations LabTM that convened stakeholders and experts in the field.\nTotal underfunding in single-employer pension plans was equal to roughly $504 billion in 2009 (the most recent data available), according to the Pension Benefit Guaranty Corporation, a government-sponsored corporation that insures the plans.\n\"Responsibly and rationally addressing so-called legacy costs is essential to protecting the solvency of these plans, the retirement security of the workers they cover, the sponsoring employers and the taxpayers who could be on the hook if the federal pension insurance program is unable to cover future losses,\" said Bradley Belt, senior managing director of the Milken Institute and former executive director of the Pension Benefit Guaranty Corporation. \"The Financial Innovations Lab discussion focused on innovative ways to close the funding gap.\"\nThe Institute's report outlines several approaches for addressing the current funding shortfall, with the goal of fairly allocating the burden of existing legacy costs and providing a framework for a better, sustainable pension model incorporating the best features of defined-benefit and defined-contribution models going forward. They include: Expand the PBGC's authority to negotiate pension funding and termination agreements. The PBGC has a hatchet (the ability to terminate a plan), but it requires a scalpel (the ability to intervene before a plan is too far underwater). It needs the flexibility to work with distressed plan sponsors to avoid plan bankruptcy or termination by restructuring the pension liability on commercially reasonable terms. Use the PBGC as a financing source by exchanging bonds between a sponsoring corporation and the PBGC. The corporation would use the money to fund its plan, and then repay the PBGC over a set time frame, followed by a second stage in which full funding is tightly enforced. Expand the use of the annuity market to partially reduce plan liabilities. Sponsoring companies should consider expanding the use of annuities held as assets in the plan that would be matched against a portion of the liabilities. This \"buy-in\" approach would be less costly than a full plan buyout and would reduce both the sponsors' and beneficiaries' risk. Using the private capital markets, companies could trade pension claims, allowing firms to remove legacy liabilities from their balance sheets. The risks for an investor would be small because the pension claims are guaranteed by the PBGC, so it would likely be less costly for plan sponsors than purchasing an annuity. Consolidate \"orphan liabilities\" - the obligations of a bankrupt plan sponsor that other sponsors must cover in multi-employer plans - under the PGBC. These orphan liabilities burden the remaining contributing sponsors of already troubled plans. Recognizing these \"sunk costs\" as soon as possible could allow otherwise viable companies to survive, as well as potentially lower the long-run costs to the PGBC. Allow employers and participants to negotiate reductions in accrued benefits in appropriate circumstances. Current law prohibits reductions in accrued benefits, but employees might rationally conclude that a reduced annuitized benefit and additional job security would be preferable if the ability of the employer to meet its obligations over the long-term is less certain. The Institute is grateful for support from the United Food and Commercial Workers for the Financial Innovations Lab upon which the report is based. Participants included financial and institutional investors, asset managers, reinsurers, academics, actuaries, and representatives from unions, insurance companies, government, and pension funds.\nThe report includes an examination of the factors that contributed to the underfunding challenge, the principles that guided the group's discussions, and several proposed solutions. The full report is available at www.milkeninstitute.org.",
+    "summary": null,
+    "summary_processed": ""
+}

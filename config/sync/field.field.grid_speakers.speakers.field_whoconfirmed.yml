@@ -1,0 +1,19 @@
+uuid: 461f598e-b194-47e7-acd1-c7de143f99d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_whoconfirmed
+id: grid_speakers.speakers.field_whoconfirmed
+field_name: field_whoconfirmed
+entity_type: grid_speakers
+bundle: speakers
+label: whoconfirmed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

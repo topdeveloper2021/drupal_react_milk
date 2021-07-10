@@ -1,0 +1,243 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/13355\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/QIaAd-npQoMSP6nKMU1aGFPpI8dzoG0YXQuJeVFaMNQ.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_term_collection": [
+            {
+                "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13355
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c2a31523-271c-4952-a4e5-50455c6a8922"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2372
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/QIaAd-npQoMSP6nKMU1aGFPpI8dzoG0YXQuJeVFaMNQ.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c08dccfc-8e41-4cee-8b48-772523a1cd2f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/centers"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "178be8c7-a708-4414-a8fe-b62e084aeee6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_term_collection": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/collections"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adce34a1-89b1-4112-b0e4-2628f51abbe4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/collections"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adce34a1-89b1-4112-b0e4-2628f51abbe4"
+                    }
+                ]
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Playing the Long Game: The Future of Sports in Asia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-29T06:28:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-08T18:19:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Few things connect millions of people across geographies, time zones, and cultures quite like sports. The global sports market has been growing at a historic rate, led by a booming fan base across the Asia-Pacific region. What are the forces driving this growth? Will technology hinder or enhance the ability to engage fans and nurture lasting relationships? How has the power dynamics between athletes and team shifted over the years and what are the implications for branding, team loyalty, and viewership? Our panel discusses what it takes to stay at the top of the leaderboard in an industry driven by competition and passion.",
+    "format": "rich_text",
+    "processed": "Few things connect millions of people across geographies, time zones, and cultures quite like sports. The global sports market has been growing at a historic rate, led by a booming fan base across the Asia-Pacific region. What are the forces driving this growth? Will technology hinder or enhance the ability to engage fans and nurture lasting relationships? How has the power dynamics between athletes and team shifted over the years and what are the implications for branding, team loyalty, and viewership? Our panel discusses what it takes to stay at the top of the leaderboard in an industry driven by competition and passion.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/b1Mf-2uan8U",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/QIaAd-npQoMSP6nKMU1aGFPpI8dzoG0YXQuJeVFaMNQ.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

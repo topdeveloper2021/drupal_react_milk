@@ -1,0 +1,75 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+#}
+
+
+{{ attach_library('milken_base/main_navigation') }}
+
+
+<milken-menu-{{ menu_name }} class="d-flex">
+  <div id="main-nav-wrapper" class="container-fluid">
+    <nav class="nav nav-tabs" role="tablist">
+      <a href="#" role="tab" data-rb-event-key="Milken Institute" aria-selected="true" class="nav-item nav-link active d-none">Milken Institute</a>
+    </nav>
+    <div class="tab-content">
+      <div role="tabpanel" aria-hidden="false" class="fade tab-pane active show">
+        <div id="milken-main" class="pb-5 row">
+          {% for key,value in items %}
+            <div class="col {{ value.title == 'Others' ? 'others' : '' }}">
+              <h5 class="menu-title">{{ value.title }}</h5>
+              <ul class="list-group">
+                {% if value.below %}
+                  {% for itemKey,itemValue in value.below %}
+                    <li>
+                      <a href="{{ itemValue.url }}">{{ itemValue.title }}</a>
+                      {% if itemValue.entity.toArray.description.0.value %}
+                        <p>{{ itemValue.entity.toArray.description.0.value }}</p>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                {% endif %}
+              </ul>
+              {# Render Social Media icons if current columns is "Others" #}
+              {% if value.title == 'Others' %}
+                <ul class="social-icons">
+                  <li>
+                    <a href="https://www.facebook.com/milkeninstitute/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/milkeninstitute" target="_blank"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/milkeninstitute/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/milkeninstitute/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="https://www.youtube.com/channel/UCIRzxohZ6SbwsPqHFQGMJ7A" target="_blank"><i class="fab fa-youtube"></i></a>
+                  </li>
+                </ul>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</milken-main-{{ menu_name }}>

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/new-research-banking-experts-milken-institute-asks-question-just-how-big-too-big-fail?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 101
+        }
+    ],
+    "uuid": [
+        {
+            "value": "282985ae-dc11-4e1d-adf1-e994da16056d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 101
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "New research from banking experts at the Milken Institute asks the question: \"Just How Big Is the Too Big to Fail Problem?\" Their answer: perhaps not as big as many fear.",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/new-research-banking-experts-milken-institute-asks-question-just-how-big-too-big-fail",
+            "pid": 154,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- \"Just How Big Is the Too Big to Fail Problem?\", a new report from the Milken Institute, examines the impact of changes in banking regulation since the recent financial crisis. The authors -- Senior Finance Fellow James Barth, Economist Penny Prabha and Senior Fellow Philip Swagel -- suggest that it is uncertain if the changes will truly eliminate TBTF risk. According to the authors, the new resolution authority designed to allow troubled big banks to fail will, apart from other issues, \"be incomplete and perhaps unworkable until there is more progress on the international coordination of bankruptcy regimes.\" Other provisions in Dodd-Frank, such as the Volcker rule, limit firms' activities and scale. \"But it is difficult to evaluate the cost-benefit ratio,\" the authors state, \"since there is little evidence on either side. In a sense, it is not even easy to pinpoint the problem to which the Volcker Rule is the solution.\" The report also puts the U.S. \"too big to fail\" institutions into international comparison, pointing out that of the 50 biggest banks in the U.S., only seven are among the 50 biggest banks in the world. According to the report, \"To the extent that the U.S. banks are limited in size they may be put at a competitive disadvantage as compared to the biggest banks in other countries.\" The first TBTF bailout in the United States took place in the early 1980s, but policy makers neglected to implement any serious regulatory measures that would allow deeply troubled big banks to fail until the financial crisis of 2007-2009. In the intervening years, banks have gotten even bigger and banking assets more concentrated in far fewer banks. Citigroup, the largest U.S. bank in 1983, has seen its assets grow 1,387 percent. In 1980, the combined assets of the 50 biggest banks in the U.S. were a third of GDP; by 2011, the ratio had jumped to 98%. Dodd-Frank, enacted in July 2010, was the U.S. government's effort to address the TBTF problem, with a provision designed to allow deeply troubled banks to fail without negative spillovers. New, more stringent requirements for capital and liquidity also raise the cost of being big. But will these and other reforms taking place worldwide help or hinder the TBTF problem? For the complete report, \"Just How Big is the Too Big to Fail Problem?\" click here.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- \"Just How Big Is the Too Big to Fail Problem?\", a new report from the Milken Institute, examines the impact of changes in banking regulation since the recent financial crisis. The authors -- Senior Finance Fellow James Barth, Economist Penny Prabha and Senior Fellow Philip Swagel -- suggest that it is uncertain if the changes will truly eliminate TBTF risk. According to the authors, the new resolution authority designed to allow troubled big banks to fail will, apart from other issues, \"be incomplete and perhaps unworkable until there is more progress on the international coordination of bankruptcy regimes.\" Other provisions in Dodd-Frank, such as the Volcker rule, limit firms' activities and scale. \"But it is difficult to evaluate the cost-benefit ratio,\" the authors state, \"since there is little evidence on either side. In a sense, it is not even easy to pinpoint the problem to which the Volcker Rule is the solution.\" The report also puts the U.S. \"too big to fail\" institutions into international comparison, pointing out that of the 50 biggest banks in the U.S., only seven are among the 50 biggest banks in the world. According to the report, \"To the extent that the U.S. banks are limited in size they may be put at a competitive disadvantage as compared to the biggest banks in other countries.\" The first TBTF bailout in the United States took place in the early 1980s, but policy makers neglected to implement any serious regulatory measures that would allow deeply troubled big banks to fail until the financial crisis of 2007-2009. In the intervening years, banks have gotten even bigger and banking assets more concentrated in far fewer banks. Citigroup, the largest U.S. bank in 1983, has seen its assets grow 1,387 percent. In 1980, the combined assets of the 50 biggest banks in the U.S. were a third of GDP; by 2011, the ratio had jumped to 98%. Dodd-Frank, enacted in July 2010, was the U.S. government's effort to address the TBTF problem, with a provision designed to allow deeply troubled banks to fail without negative spillovers. New, more stringent requirements for capital and liquidity also raise the cost of being big. But will these and other reforms taking place worldwide help or hinder the TBTF problem? For the complete report, \"Just How Big is the Too Big to Fail Problem?\" click here.",
+    "summary": null,
+    "summary_processed": ""
+}

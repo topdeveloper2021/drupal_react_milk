@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/experienced-talent-can-power-social-change?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/19?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 478
+        }
+    ],
+    "uuid": [
+        {
+            "value": "082918d7-22ab-4ff6-a70a-4ab7d6f49773"
+        }
+    ],
+    "vid": [
+        {
+            "value": 478
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/19?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "41553ff5-bc0f-47a2-a2f5-80dbf88ad4d6"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Experienced Talent Can Power Social Change",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:38:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/experienced-talent-can-power-social-change",
+            "pid": 531,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Attorney, venture capitalist, and Portland native Ken Harris was ripe for retirement\u2014a notion he rejected in favor of working with a nonprofit that could use his expertise. \u201cTo me, that\u2019s what life is all about,\u201d said Ken. \u201cWhat can you do to make life better for your family, your community?\u201dHarris connected with the Encore Fellowships Network, via Social Venture Partners Portland, which placed him at the Boys & Girls Club. As a part-time Encore Fellow there, he helped raise more than $7 million in one year, funding a new building for at-risk kids in the Rockwood neighborhood. The benefits he delivered far outstrip the $25,000 stipend he earned.\u201cKen Harris was heaven-sent to us, absolutely heaven-sent,\u201d said Erin Hubert, CEO of the Portland Boys and Girls Clubs. \u201cIn terms of just the complexity of this project, the financing of it, the legalities of it,\u201d Hubert said, \u201cKen traversed it in a way that I couldn\u2019t have. I would have had to pay a lot of money to have that expertise come in.\u201dWorld-class management expertise for $25,000 a year may seem like a pipe dream\u2014or a typo. But Ken Harris is not alone.More than 1,600 experienced, savvy corporate professionals have made contributions in the nonprofit sector as Encore Fellows, each one bringing a powerful inventory of talent, knowledge, and human skills to a new environment.Given shifting demographics and a future labor force with three or four generations working side by side, Encore Fellowships are a model for the kinds of talent innovation we need more of. Call it adaptive reuse for the human-capital set.Consider Fred Gyger, who retired after 35 years in the semiconductor industry, and now runs four resale stores for Habitat for Humanity, improving performance and profits. Teresa Carstens, a senior Silicon Valley marketing professional, is developing programs to engage and retain volunteers with Second Harvest Food Bank of Santa Clara\/San Mateo Counties, which provides more than a million pounds of food a week to low-income residents.Dr. Elisa Ross sought a way to make a difference after 25 years in private practice. Discovering a passion for data science, she improved health outcomes and cancer screenings at the clinic where she was a fellow. \u201cUsing her wealth of clinical experience and our data, Elisa created a program to increase cancer screening rates [by] almost 50 percent. We couldn\u2019t have accomplished that without her,\u201d said Jean Polster, president and CEO of the Neighborhood Family Practice in Cleveland.\u00a0Nonprofit leaders who have worked with Encore Fellows say they have an outsized impact on their communities, contributing new ideas and approaches to stubborn problems, launching new programs, increasing visibility to funders, and generating economic gains.[i] Overwhelmingly, these leaders say that fellows bring soft skills to complement their knowledge: fellows understand how to navigate organizations, how to mentor, and how to put an organization\u2019s mission\u2014or a team\u2019s goals\u2014first.Organizations like IBM, HP, Qualcomm, and Intel have offered year-long, part-time Encore Fellowships\u00a0to employees transitioning from their companies.\u00a0They recognize that their outgoing professionals have powerful skills to offer\u2014as well as a powerful desire to improve their communities.As the proportion of U.S. workers approaching the traditional age of retirement climbs in the coming decades, more corporations should take the cue from these pioneers and unleash the human capital needed to help bridge the gaps that divide our communities in so many ways.Sadly, most companies give short shrift to employees leaving the workforce. According to a report from The Conference Board, only about a quarter of firms provide \u201cgeneral support\u201d for people approaching retirement\u2014or those seeking to move into new, post-retirement roles. A tiny fraction of companies\u2014roughly, one in 20\u2014offer programs that focus on the transition to work in the social sector.[ii]That\u2019s a big gap\u2014especially given the demographic changes staring us in the face.There are now 48 million Americans age 65 and older, comprising 15 percent of the populations. By 2060, according to Census Bureau projections, that number will more than double\u2014to 98 million\u2014and the share will rise to 24 percent.[iii]Even as innovations in medicine and science have yielded the gift of more time, as a society, we are at a loss as to how to best use the extra decades of vigor and creativity that often characterize extended midlife. That\u2019s not so much a problem to solve as an opportunity to seize.Encore Fellowships provide a win for all involved. Individuals leaving full-time work in later life have the opportunity to use and share their expertise to benefit social-impact organizations that badly need leadership and experience (and can rarely afford it). Businesses can proudly offer employees a transition to what\u2019s next while increasing nonprofits\u2019 power, efficacy and impact in the local community. Those served by the nonprofit sector\u2014our most vulnerable\u2014gain the most in the long run.Sometimes something that looks too good to be true is just that. In the case of Encore Fellowships, though, the bargain is real\u2014and the organizations that participate have the potential to improve millions of lives.[i] Jim Emerman and Betsy Werley, The Encore Impact Project, February 2016. http:\/\/encore.org\/wp-content\/uploads\/2016\/02\/ImpactStudy.pdf. [ii] Rich Eisenberg, Firms to Retirees: Lots o\u2019Luck, Next Avenue, November 2014 http:\/\/www.nextavenue.org\/firms-their-pre-retirees-lots-o-luck. [iii] U.S. Census, An Aging Nation: The Older Population in the United States, May 2014. https:\/\/www.census.gov\/prod\/2014pubs\/p25-1140.pdf. <table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Attorney, venture capitalist, and Portland native Ken Harris was ripe for retirement\u2014a notion he rejected in favor of working with a nonprofit that could use his expertise. \u201cTo me, that\u2019s what life is all about,\u201d said Ken. \u201cWhat can you do to make life better for your family, your community?\u201dHarris connected with the Encore Fellowships Network, via Social Venture Partners Portland, which placed him at the Boys &amp; Girls Club. As a part-time Encore Fellow there, he helped raise more than $7 million in one year, funding a new building for at-risk kids in the Rockwood neighborhood. The benefits he delivered far outstrip the $25,000 stipend he earned.\u201cKen Harris was heaven-sent to us, absolutely heaven-sent,\u201d said Erin Hubert, CEO of the Portland Boys and Girls Clubs. \u201cIn terms of just the complexity of this project, the financing of it, the legalities of it,\u201d Hubert said, \u201cKen traversed it in a way that I couldn\u2019t have. I would have had to pay a lot of money to have that expertise come in.\u201dWorld-class management expertise for $25,000 a year may seem like a pipe dream\u2014or a typo. But Ken Harris is not alone.More than 1,600 experienced, savvy corporate professionals have made contributions in the nonprofit sector as Encore Fellows, each one bringing a powerful inventory of talent, knowledge, and human skills to a new environment.Given shifting demographics and a future labor force with three or four generations working side by side, Encore Fellowships are a model for the kinds of talent innovation we need more of. Call it adaptive reuse for the human-capital set.Consider Fred Gyger, who retired after 35 years in the semiconductor industry, and now runs four resale stores for Habitat for Humanity, improving performance and profits. Teresa Carstens, a senior Silicon Valley marketing professional, is developing programs to engage and retain volunteers with Second Harvest Food Bank of Santa Clara\/San Mateo Counties, which provides more than a million pounds of food a week to low-income residents.Dr. Elisa Ross sought a way to make a difference after 25 years in private practice. Discovering a passion for data science, she improved health outcomes and cancer screenings at the clinic where she was a fellow. \u201cUsing her wealth of clinical experience and our data, Elisa created a program to increase cancer screening rates [by] almost 50 percent. We couldn\u2019t have accomplished that without her,\u201d said Jean Polster, president and CEO of the Neighborhood Family Practice in Cleveland.\u00a0Nonprofit leaders who have worked with Encore Fellows say they have an outsized impact on their communities, contributing new ideas and approaches to stubborn problems, launching new programs, increasing visibility to funders, and generating economic gains.[i] Overwhelmingly, these leaders say that fellows bring soft skills to complement their knowledge: fellows understand how to navigate organizations, how to mentor, and how to put an organization\u2019s mission\u2014or a team\u2019s goals\u2014first.Organizations like IBM, HP, Qualcomm, and Intel have offered year-long, part-time Encore Fellowships\u00a0to employees transitioning from their companies.\u00a0They recognize that their outgoing professionals have powerful skills to offer\u2014as well as a powerful desire to improve their communities.As the proportion of U.S. workers approaching the traditional age of retirement climbs in the coming decades, more corporations should take the cue from these pioneers and unleash the human capital needed to help bridge the gaps that divide our communities in so many ways.Sadly, most companies give short shrift to employees leaving the workforce. According to a report from The Conference Board, only about a quarter of firms provide \u201cgeneral support\u201d for people approaching retirement\u2014or those seeking to move into new, post-retirement roles. A tiny fraction of companies\u2014roughly, one in 20\u2014offer programs that focus on the transition to work in the social sector.[ii]That\u2019s a big gap\u2014especially given the demographic changes staring us in the face.There are now 48 million Americans age 65 and older, comprising 15 percent of the populations. By 2060, according to Census Bureau projections, that number will more than double\u2014to 98 million\u2014and the share will rise to 24 percent.[iii]Even as innovations in medicine and science have yielded the gift of more time, as a society, we are at a loss as to how to best use the extra decades of vigor and creativity that often characterize extended midlife. That\u2019s not so much a problem to solve as an opportunity to seize.Encore Fellowships provide a win for all involved. Individuals leaving full-time work in later life have the opportunity to use and share their expertise to benefit social-impact organizations that badly need leadership and experience (and can rarely afford it). Businesses can proudly offer employees a transition to what\u2019s next while increasing nonprofits\u2019 power, efficacy and impact in the local community. Those served by the nonprofit sector\u2014our most vulnerable\u2014gain the most in the long run.Sometimes something that looks too good to be true is just that. In the case of Encore Fellowships, though, the bargain is real\u2014and the organizations that participate have the potential to improve millions of lives.[i] Jim Emerman and Betsy Werley, The Encore Impact Project, February 2016. http:\/\/encore.org\/wp-content\/uploads\/2016\/02\/ImpactStudy.pdf. [ii] Rich Eisenberg, Firms to Retirees: Lots o\u2019Luck, Next Avenue, November 2014 http:\/\/www.nextavenue.org\/firms-their-pre-retirees-lots-o-luck. [iii] U.S. Census, An Aging Nation: The Older Population in the United States, May 2014. https:\/\/www.census.gov\/prod\/2014pubs\/p25-1140.pdf. <table><tr><td>View Report \u2192<\/td>\n<\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

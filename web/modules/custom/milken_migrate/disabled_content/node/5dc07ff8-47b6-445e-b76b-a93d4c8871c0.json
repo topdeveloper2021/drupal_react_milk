@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/aging-populations-blessing-business?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/32?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 494
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5dc07ff8-47b6-445e-b76b-a93d4c8871c0"
+        }
+    ],
+    "vid": [
+        {
+            "value": 494
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/32?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f208ba69-8f89-4d84-adb8-8f36911400f4"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Aging Populations: A Blessing for Business",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:42:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-27T01:54:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/aging-populations-blessing-business",
+            "pid": 547,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The global population age 60-and-over will encompass more than one in five human beings by mid-century, rising from 900 million in 2015 to 2.1 billion in 2050, according to the World Health Organization. Those 60 and older will soon outnumber children younger than five; in developed markets, the 65-and-over cohort already surpasses those under 15. In the U.S., adults 60 and older will account for 25 percent of the population by 2030. As demography shifts, spiraling health costs and questions about the adequacy of public and private pension programs and retirement funds rightly stir concerns. Those issues must be addressed, of course, but there is a silver lining. Increasing longevity has spurred unprecedented economic growth and new opportunities for personal fulfillment. Older individuals are generally healthier than their counterparts in generations past, and they seek to remain engaged and relevant as long as possible. Advances in bioscience offer the prospect of even longer, healthier, and more active lives. With growing numbers, older adults represent a dynamic emerging market and human capital resource. As markets evolve to meet their needs and aspirations, opportunities abound. Charles Darwin recognized that survival is about adaptation to changing environments, a quality that is as imperative for businesses as it is for species. The private sector has been at the forefront of industrialization and scientific innovation, developing new markets, and opening pathways for diverse stakeholders. Aging is their next frontier. With consumption habits and service needs distinct from those of younger adults, Americans over 50 already account for $7.6 trillion in direct spending and related economic activity annually and control more than 80 percent of household wealth, according to Oxford Economics. \u201cThe Longevity Economy is redrawing economic lines, changing the face of the workforce, advancing technology and innovations, and busting perceptions of what it means to age,\u201d states an AARP publication.1 And this market crosses borders. Bank of America Merrill Lynch projects that the global spending power of those age 60-plus will reach $15 trillion annually by 2020. The opportunities are only beginning. In the health sector alone, \u201cgray is the new black,\u201d a Reuters piece observed.2 A stream of new offerings in biotechnology, devices, pharmaceuticals, and care services target older consumers. In Japan, robot caregivers, or \u201ccarebots,\u201d have made a splash. When it comes to housing, transportation, entertainment, food, and alcohol, older people already have their checkbooks out. Americans 60-plus are expected to account for at least 40 percent of consumption growth in those areas between 2015 and 2030. A golden age for financial services is ahead, driven by an enormous increase in household financial assets predominantly controlled by older investors. From smart homes to innovative services, from lifelong learning on campus and online to new offerings in food, transit, and travel, a vast and lucrative market for new products, services and innovations awaits. But there\u2019s more. Aging adults are not only consumers\u2014they are our only increasing natural resource\u2014a talent pool that can power the businesses and enhance the communities of the future. And they are ready, willing, and able to be deployed. Today\u2019s older adults seek meaning and purpose, disrupting retirement norms and expressing increasing interest in lifelong work and volunteering. This profile defies outmoded stereotypes of geriatric citizens weighing down the economy. In fact, when older people actively participate, the benefits flow in all directions. They contribute experience and stability to their workplaces and civic endeavors; financial security helps them bolster the economy as taxpayers and consumers; engagement enhances their own health and wellness. Older employees provide emotional stability, complex problem-solving skills, nuanced thinking, and institutional know-how. Their talents complement those of younger counterparts. As a widely recognized BMW experiment showed, productivity improves when work teams are intergenerational. Older workers can be mentors and serve as role models to younger colleagues. Age-diverse teams do better at problem-solving and generating ideas than same-age groups. For aging individuals, the benefits of work are well documented. Research tells us that purpose in life enhances well-being and helps to stave off cognitive decline. A remarkable study found that people who held positive views of their own aging process, such as might be fostered if their contributions were sought and valued in the workplace, lived on average 7.5 years longer than those with less positive outlooks. Unfortunately, ageism continues to devalue older workers and older adults across society. They too often find themselves shut out of hiring, promotions, and even volunteer opportunities due to bias. In the same way that other movements have changed hearts, minds, and the culture itself, there\u2019s a spreading sense that it\u2019s time for age diversity to take its place on center stage. Businesses can take the lead, setting examples and making positive impacts even as they focus on improving productivity and performance. Businesses are uniquely positioned to advance smart policies and change attitudes--to champion the needs and wants, as well as the potential, of older adults. The aging megatrend will test the leadership of every CEO in the 21st century. Each corporate board should prioritize a \u201clongevity strategy\u201d to address the growing impact of the demographic shift. Awareness of the issues should spread to every corner of their companies. The issues are too big\u2014the numbers too compelling\u2014to ignore. The aging population can be a blessing for business. With awareness and a new approach, businesses across the U.S. and the world can enjoy a brighter future offering benefits both to the bottom-line and the broader society. 1 Oxford Economics for AARP, \u201cThe Longevity Economy: Generating Economic Growth and New Opportunities for Business,\u201d AARP, October 2013. 2 Reuters Staff, \u201dHealthcare: A remedy for long-term investors,\u201d Reuters, August 4, 2014. <table> <tr> <td>View Report \u2192<\/td> <\/tr> <\/table>",
+    "format": "rich_text",
+    "processed": "The global population age 60-and-over will encompass more than one in five human beings by mid-century, rising from 900 million in 2015 to 2.1 billion in 2050, according to the World Health Organization. Those 60 and older will soon outnumber children younger than five; in developed markets, the 65-and-over cohort already surpasses those under 15. In the U.S., adults 60 and older will account for 25 percent of the population by 2030. As demography shifts, spiraling health costs and questions about the adequacy of public and private pension programs and retirement funds rightly stir concerns. Those issues must be addressed, of course, but there is a silver lining. Increasing longevity has spurred unprecedented economic growth and new opportunities for personal fulfillment. Older individuals are generally healthier than their counterparts in generations past, and they seek to remain engaged and relevant as long as possible. Advances in bioscience offer the prospect of even longer, healthier, and more active lives. With growing numbers, older adults represent a dynamic emerging market and human capital resource. As markets evolve to meet their needs and aspirations, opportunities abound. Charles Darwin recognized that survival is about adaptation to changing environments, a quality that is as imperative for businesses as it is for species. The private sector has been at the forefront of industrialization and scientific innovation, developing new markets, and opening pathways for diverse stakeholders. Aging is their next frontier. With consumption habits and service needs distinct from those of younger adults, Americans over 50 already account for $7.6 trillion in direct spending and related economic activity annually and control more than 80 percent of household wealth, according to Oxford Economics. \u201cThe Longevity Economy is redrawing economic lines, changing the face of the workforce, advancing technology and innovations, and busting perceptions of what it means to age,\u201d states an AARP publication.1 And this market crosses borders. Bank of America Merrill Lynch projects that the global spending power of those age 60-plus will reach $15 trillion annually by 2020. The opportunities are only beginning. In the health sector alone, \u201cgray is the new black,\u201d a Reuters piece observed.2 A stream of new offerings in biotechnology, devices, pharmaceuticals, and care services target older consumers. In Japan, robot caregivers, or \u201ccarebots,\u201d have made a splash. When it comes to housing, transportation, entertainment, food, and alcohol, older people already have their checkbooks out. Americans 60-plus are expected to account for at least 40 percent of consumption growth in those areas between 2015 and 2030. A golden age for financial services is ahead, driven by an enormous increase in household financial assets predominantly controlled by older investors. From smart homes to innovative services, from lifelong learning on campus and online to new offerings in food, transit, and travel, a vast and lucrative market for new products, services and innovations awaits. But there\u2019s more. Aging adults are not only consumers\u2014they are our only increasing natural resource\u2014a talent pool that can power the businesses and enhance the communities of the future. And they are ready, willing, and able to be deployed. Today\u2019s older adults seek meaning and purpose, disrupting retirement norms and expressing increasing interest in lifelong work and volunteering. This profile defies outmoded stereotypes of geriatric citizens weighing down the economy. In fact, when older people actively participate, the benefits flow in all directions. They contribute experience and stability to their workplaces and civic endeavors; financial security helps them bolster the economy as taxpayers and consumers; engagement enhances their own health and wellness. Older employees provide emotional stability, complex problem-solving skills, nuanced thinking, and institutional know-how. Their talents complement those of younger counterparts. As a widely recognized BMW experiment showed, productivity improves when work teams are intergenerational. Older workers can be mentors and serve as role models to younger colleagues. Age-diverse teams do better at problem-solving and generating ideas than same-age groups. For aging individuals, the benefits of work are well documented. Research tells us that purpose in life enhances well-being and helps to stave off cognitive decline. A remarkable study found that people who held positive views of their own aging process, such as might be fostered if their contributions were sought and valued in the workplace, lived on average 7.5 years longer than those with less positive outlooks. Unfortunately, ageism continues to devalue older workers and older adults across society. They too often find themselves shut out of hiring, promotions, and even volunteer opportunities due to bias. In the same way that other movements have changed hearts, minds, and the culture itself, there\u2019s a spreading sense that it\u2019s time for age diversity to take its place on center stage. Businesses can take the lead, setting examples and making positive impacts even as they focus on improving productivity and performance. Businesses are uniquely positioned to advance smart policies and change attitudes--to champion the needs and wants, as well as the potential, of older adults. The aging megatrend will test the leadership of every CEO in the 21st century. Each corporate board should prioritize a \u201clongevity strategy\u201d to address the growing impact of the demographic shift. Awareness of the issues should spread to every corner of their companies. The issues are too big\u2014the numbers too compelling\u2014to ignore. The aging population can be a blessing for business. With awareness and a new approach, businesses across the U.S. and the world can enjoy a brighter future offering benefits both to the bottom-line and the broader society. 1 Oxford Economics for AARP, \u201cThe Longevity Economy: Generating Economic Growth and New Opportunities for Business,\u201d AARP, October 2013. 2 Reuters Staff, \u201dHealthcare: A remedy for long-term investors,\u201d Reuters, August 4, 2014. <table><tr><td>View Report \u2192<\/td> <\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

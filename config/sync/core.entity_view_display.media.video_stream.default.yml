@@ -1,0 +1,114 @@
+uuid: 9f83d1e8-66b2-4918-88c4-d3a1b7ee3649
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.video_stream.field_centers
+    - field.field.media.video_stream.field_collections
+    - field.field.media.video_stream.field_event_reference
+    - field.field.media.video_stream.field_events
+    - field.field.media.video_stream.field_media_oembed_video
+    - field.field.media.video_stream.field_people
+    - field.field.media.video_stream.field_regions
+    - field.field.media.video_stream.field_start_finish_time
+    - field.field.media.video_stream.field_tags
+    - field.field.media.video_stream.field_topics
+    - media.type.video_stream
+  module:
+    - datetime_range
+    - media
+id: media.video_stream.default
+targetEntityType: media
+bundle: video_stream
+mode: default
+content:
+  field_centers:
+    weight: 10
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_collections:
+    weight: 9
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_event_reference:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_events:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_media_oembed_video:
+    type: oembed
+    label: visually_hidden
+    weight: 0
+    settings:
+      max_width: 0
+      max_height: 0
+    third_party_settings: {  }
+    region: content
+  field_people:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_regions:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_start_finish_time:
+    weight: 4
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_tags:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_topics:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,176 @@
+uuid: d1724047-a072-4ae0-a6b8-0fb677fc01f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.video_stream.field_centers
+    - field.field.media.video_stream.field_collections
+    - field.field.media.video_stream.field_event_reference
+    - field.field.media.video_stream.field_events
+    - field.field.media.video_stream.field_media_oembed_video
+    - field.field.media.video_stream.field_people
+    - field.field.media.video_stream.field_regions
+    - field.field.media.video_stream.field_start_finish_time
+    - field.field.media.video_stream.field_tags
+    - field.field.media.video_stream.field_topics
+    - media.type.video_stream
+  module:
+    - datetime_range
+    - field_group
+    - path
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_content
+        - group_promotion
+        - group_authoring
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_content:
+      children:
+        - field_media_oembed_video
+        - field_start_finish_time
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: Content
+    group_authoring:
+      children:
+        - langcode
+        - uid
+        - created
+        - path
+        - status
+      parent_name: group_tabs
+      weight: 30
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Authoring
+    group_promotion:
+      children:
+        - field_people
+        - field_thumbnail
+        - field_event_reference
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Promotion
+id: media.video_stream.media_library
+targetEntityType: media
+bundle: video_stream
+mode: media_library
+content:
+  created:
+    type: datetime_timestamp
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_event_reference:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_media_oembed_video:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_people:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_start_finish_time:
+    type: daterange_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 0
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 0
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_centers: true
+  field_collections: true
+  field_events: true
+  field_regions: true
+  field_tags: true
+  field_topics: true

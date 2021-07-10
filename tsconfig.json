@@ -1,0 +1,59 @@
+{
+  "baseUrl": ".",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "sourceMap": false,
+    "listEmittedFiles": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "types": [
+      "jquery",
+      "bootstrap",
+      "node",
+      "youtube"
+    ],
+    "noErrorTruncation": true,
+    "experimentalDecorators": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "typescript-eslint-language-service"
+    }
+  ],
+  "include": [
+    "./web/themes/custom/milken/js",
+    "./web/themes/custom/milken/config",
+    "./web/themes/custom/milken/gulp",
+    "./web/modules/custom/milken_base",
+    "./config/node",
+    "web/modules/custom/podcasts/components/PodcastsBrowser"
+  ],
+  "lib": [
+    "dom",
+    "dom.iterable",
+    "es2016",
+    "esnext",
+    "es2020"
+  ],
+  "exclude": [
+    "**/*.d.ts",
+    "node_modules",
+    "src/components",
+    "web/modules/custom/**/*.entry.*",
+    "web/themes/custom/milken/js/*.entry.*",
+    "./web/libraries/**/*.js"
+  ]
+}

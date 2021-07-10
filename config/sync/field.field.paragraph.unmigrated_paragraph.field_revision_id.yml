@@ -1,0 +1,19 @@
+uuid: 2616b974-26bd-47da-a7f3-948f1c19c90e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_revision_id
+    - paragraphs.paragraphs_type.unmigrated_paragraph
+id: paragraph.unmigrated_paragraph.field_revision_id
+field_name: field_revision_id
+entity_type: paragraph
+bundle: unmigrated_paragraph
+label: revision_id
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

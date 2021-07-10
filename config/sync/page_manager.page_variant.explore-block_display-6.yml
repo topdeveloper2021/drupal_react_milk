@@ -1,0 +1,45 @@
+uuid: b25051a4-6c22-4179-83a2-6a739aa859a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-6
+label: Summits
+variant: block_display
+variant_settings:
+  blocks:
+    d718e03a-bd28-445c-b467-938f6a08913b:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: bottom
+      weight: 0
+      uuid: d718e03a-bd28-445c-b467-938f6a08913b
+      form_configuration:
+        id: summits_browser
+        type: event--sum
+        view_mode: card
+        url: '/jsonapi/event/summit?jsonapi_include=true&sort[event-date][path]=field_event_date&sort[event-date][direction]=desc'
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: 361e26f8-6b08-43e3-a9ad-32f4a64ebfd4
+  label: null
+  weight: 0
+  page_title: 'Explore Summits'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: "/explore/summit\r\n/explore/summits"
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

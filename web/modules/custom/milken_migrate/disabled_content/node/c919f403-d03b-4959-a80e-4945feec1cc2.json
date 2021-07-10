@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-june-19-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/209?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 837
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c919f403-d03b-4959-a80e-4945feec1cc2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 837
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/209?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ae0fc4b5-6bba-4d7b-8ad0-81b8c364c9cf"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - June 19, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-19T21:12:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-09T21:41:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-june-19-2019",
+            "pid": 890,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Calibrating a Currency As you will have heard by now, Facebook released its Libra white paper yesterday. There is quite a lot to unpack, but in short, Libra is a stablecoin backed by a basket of low-volatility assets, running on a permissioned blockchain (or something), and governed by an independent consortium of large firms called the Libra Association, which includes Visa, Uber, and Andreessen Horowitz, among others. Libra\u2019s stated purpose is to better serve unbanked and under-banked consumers around the world, many of whom have access to mobile phones, the internet, and, well, Facebook. However, the white paper is a bit unclear on how exactly Libra will achieve this, and even raises the prospect of new risks for consumers. For example, while most assume that Libra\u2019s initial rollout will take place on Facebook\u2019s Messenger and WhatsApp platforms for cross-border payments, there are also allusions to making Libra an accepted unit of currency for other purposes. Far from introducing stability into consumers\u2019 lives, it\u2019s worth asking if this could actually <i>increase<\/i> consumers\u2019 exposure to exchange rate volatility. Moreover, Libra\u2019s ambitions require a great deal of trust. While Facebook has a lot of resources at its disposal, trust from consumers and policymakers is not currently one of them. In theory, Facebook should be able to mimic Tencent and use its scale to become a payments powerhouse. However, its previous efforts have been characterized by underwhelming consumer adoption and regulatory impasses. This time around, Facebook tried to appease policymakers by standing up the Libra Association as a governing body and separating financial data housed in the Calibra digital wallet from social media data housed on Facebook\u2019s other platforms. Unfortunately for Facebook, its history of broken promises has not been forgotten, and policymakers do not seem pleased. Yet of all the technical questions raised by yesterday\u2019s white paper, the most important question is philosophical. Until now, critics of big tech\u2019s banking ambitions have missed that Facebook is not launching a payments platform to compete with commercial banks. Rather, it is launching a monetary system to compete with central banks. Whether or not the Libra Association <i>can<\/i> manage such a system, we need to be asking whether it <i>should<\/i>. Industry Headlines <i>AltFi: <\/i>Amazon and Synchrony Financial announced the launch of Amazon Credit Builder last week, a secured credit card designed to help consumers build or improve their credit. The card will offer 5 percent cash back on purchases on Amazon.com and carries an APR of 28.24 percent. <i>Cryptocurrency: <\/i>Coinbase\u2019s cryptocurrency debit card will soon be available in Spain, Germany, France, Italy, Ireland, and the Netherlands. This comes after its April debut in the UK and will allow users to make purchases with the card in any store that accepts Visa. <i>Payments:<\/i> A consortium of mobile wallets in Europe are working with Alipay to increase adoption in Europe, according to <i>Quartz<\/i>. The group is working to create a common QR code that can be used by any of the mobile wallets\u2019 users, as well as Chinese tourists and others using AliPay. Line Pay and Visa announced a partnership last week that will allow Line users to transact at any merchant that accepts Visa, and Revolut has expanded support for Apple Pay to 16 European countries. Global Developments <i>International Monetary Fund: <\/i>The IMF\u2019s Managing Director, Christine Lagarde, expressed concerns about FinTech and big tech in recent remarks. While acknowledging the benefits that technology may bring to financial services, Lagarde cautioned that the risks are not to be underestimated or dismissed. Pointing to China, Lagarde said, \u201cOver the last five years, technology growth in China has been extremely successful and allowed millions of new entrants to benefit from access to financial products and the creation of high-quality jobs\u2026 But it has also led to two firms controlling more than 90% of the mobile payments market.\u201d <i>Financial Action Task Force: <\/i>As if there weren\u2019t already enough announcements this week, the Financial Action Task Force will unveil new rules concerning the regulation of virtual assets. It will still be up to individual regulators how to interpret the rules of course, but cryptocurrency exchanges will be paying close attention to what comes out on Friday. <i>United States: <\/i>According to <i>American Banker<\/i>, dozens of firms met with the Office of the Comptroller of the Currency (OCC) over the past year to explore applying for the OCC\u2019s FinTech charter. Most notably, Google and PayPal are among the firms that met with the OCC but ultimately decided against applying for the charter due to litigation uncertainty. Meanwhile, Senators Elizabeth Warren (D-MA) and Doug Jones (D-AL) sent a letter to Federal Reserve Chairman Jerome Powell, Comptroller of the Currency Joseph Otting, and Director of the Consumer Financial Protection Bureau Kathy Kraninger to express their concerns over a recent study finding evidence of discrimination in algorithmic underwriting. Senator Warren stated, \u201cWhile some FinTech products have the potential to expand access to financial services for underserved populations, we believe these new business models and products also present new challenges for regulators.\u201d <i>United Kingdom: <\/i>One last piece of news on Libra: Bank of England Governor Mark Carney joined the chorus of regulators commenting on Facebook\u2019s initiative yesterday, stating that while he is keeping an open mind, \u201cAnything that works in this world, will become instantly systemic and will have to be subject to the highest standards of regulations.\u201d",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Calibrating a Currency As you will have heard by now, Facebook released its Libra white paper yesterday. There is quite a lot to unpack, but in short, Libra is a stablecoin backed by a basket of low-volatility assets, running on a permissioned blockchain (or something), and governed by an independent consortium of large firms called the Libra Association, which includes Visa, Uber, and Andreessen Horowitz, among others. Libra\u2019s stated purpose is to better serve unbanked and under-banked consumers around the world, many of whom have access to mobile phones, the internet, and, well, Facebook. However, the white paper is a bit unclear on how exactly Libra will achieve this, and even raises the prospect of new risks for consumers. For example, while most assume that Libra\u2019s initial rollout will take place on Facebook\u2019s Messenger and WhatsApp platforms for cross-border payments, there are also allusions to making Libra an accepted unit of currency for other purposes. Far from introducing stability into consumers\u2019 lives, it\u2019s worth asking if this could actually <i>increase<\/i> consumers\u2019 exposure to exchange rate volatility. Moreover, Libra\u2019s ambitions require a great deal of trust. While Facebook has a lot of resources at its disposal, trust from consumers and policymakers is not currently one of them. In theory, Facebook should be able to mimic Tencent and use its scale to become a payments powerhouse. However, its previous efforts have been characterized by underwhelming consumer adoption and regulatory impasses. This time around, Facebook tried to appease policymakers by standing up the Libra Association as a governing body and separating financial data housed in the Calibra digital wallet from social media data housed on Facebook\u2019s other platforms. Unfortunately for Facebook, its history of broken promises has not been forgotten, and policymakers do not seem pleased. Yet of all the technical questions raised by yesterday\u2019s white paper, the most important question is philosophical. Until now, critics of big tech\u2019s banking ambitions have missed that Facebook is not launching a payments platform to compete with commercial banks. Rather, it is launching a monetary system to compete with central banks. Whether or not the Libra Association <i>can<\/i> manage such a system, we need to be asking whether it <i>should<\/i>. Industry Headlines <i>AltFi: <\/i>Amazon and Synchrony Financial announced the launch of Amazon Credit Builder last week, a secured credit card designed to help consumers build or improve their credit. The card will offer 5 percent cash back on purchases on Amazon.com and carries an APR of 28.24 percent. <i>Cryptocurrency: <\/i>Coinbase\u2019s cryptocurrency debit card will soon be available in Spain, Germany, France, Italy, Ireland, and the Netherlands. This comes after its April debut in the UK and will allow users to make purchases with the card in any store that accepts Visa. <i>Payments:<\/i> A consortium of mobile wallets in Europe are working with Alipay to increase adoption in Europe, according to <i>Quartz<\/i>. The group is working to create a common QR code that can be used by any of the mobile wallets\u2019 users, as well as Chinese tourists and others using AliPay. Line Pay and Visa announced a partnership last week that will allow Line users to transact at any merchant that accepts Visa, and Revolut has expanded support for Apple Pay to 16 European countries. Global Developments <i>International Monetary Fund: <\/i>The IMF\u2019s Managing Director, Christine Lagarde, expressed concerns about FinTech and big tech in recent remarks. While acknowledging the benefits that technology may bring to financial services, Lagarde cautioned that the risks are not to be underestimated or dismissed. Pointing to China, Lagarde said, \u201cOver the last five years, technology growth in China has been extremely successful and allowed millions of new entrants to benefit from access to financial products and the creation of high-quality jobs\u2026 But it has also led to two firms controlling more than 90% of the mobile payments market.\u201d <i>Financial Action Task Force: <\/i>As if there weren\u2019t already enough announcements this week, the Financial Action Task Force will unveil new rules concerning the regulation of virtual assets. It will still be up to individual regulators how to interpret the rules of course, but cryptocurrency exchanges will be paying close attention to what comes out on Friday. <i>United States: <\/i>According to <i>American Banker<\/i>, dozens of firms met with the Office of the Comptroller of the Currency (OCC) over the past year to explore applying for the OCC\u2019s FinTech charter. Most notably, Google and PayPal are among the firms that met with the OCC but ultimately decided against applying for the charter due to litigation uncertainty. Meanwhile, Senators Elizabeth Warren (D-MA) and Doug Jones (D-AL) sent a letter to Federal Reserve Chairman Jerome Powell, Comptroller of the Currency Joseph Otting, and Director of the Consumer Financial Protection Bureau Kathy Kraninger to express their concerns over a recent study finding evidence of discrimination in algorithmic underwriting. Senator Warren stated, \u201cWhile some FinTech products have the potential to expand access to financial services for underserved populations, we believe these new business models and products also present new challenges for regulators.\u201d <i>United Kingdom: <\/i>One last piece of news on Libra: Bank of England Governor Mark Carney joined the chorus of regulators commenting on Facebook\u2019s initiative yesterday, stating that while he is keeping an open mind, \u201cAnything that works in this world, will become instantly systemic and will have to be subject to the highest standards of regulations.\u201d",
+    "summary": null,
+    "summary_processed": ""
+}

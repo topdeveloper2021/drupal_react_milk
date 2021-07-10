@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+echo "removeing node_modules folder..."
+rm -Rf ./node_modules 2> /dev/null
+npm cache clear --force 2> /dev/null
+
+echo "removeing vendor folder..."
+rm -Rf ./vendor 2> /dev/null
+rm -Rf web/themes/contrib/gin
+echo "Cleaning out the web/* folder..."
+git clean -fdX web
+
+echo "Removing package manager locks..."
+rm -Rf yarn.lock package-lock.json 2> /dev/null
+
+echo "Reinstalling..."
+composer install && npm install
+
+cp -f .env.dist .env
+
+cd web/sites/default ln -s ../../../db/files .
+
+npm run build
+
+echo "grab the latest database and you should be good to go! (hint: bin/loadDatabase)"

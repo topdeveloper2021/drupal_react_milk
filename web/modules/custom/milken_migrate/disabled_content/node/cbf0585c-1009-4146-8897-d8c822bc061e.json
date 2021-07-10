@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/biggest-corporate-mergers-have-historically-improved-efficiencies-and-us-economy-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 241
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cbf0585c-1009-4146-8897-d8c822bc061e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 241
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Biggest corporate mergers have historically improved efficiencies and U.S. economy, Milken Institute finds",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/biggest-corporate-mergers-have-historically-improved-efficiencies-and-us-economy-milken",
+            "pid": 294,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Mergers and acquisitions have been part of the American corporate landscape for 150 years. The question is: Are they good for the corporations and consumers - and for the economy?<BR> The answer, according to new research from the Milken Institute, appears to be yes. <BR> In a detailed study of 276 publicly held Fortune 500 companies bought over a 15-year period, research economist Susanne Trimbath found that the large majority of the mergers - more than two-thirds - resulted in increased efficiency (measured by cost-per-unit of revenue) and a total savings of about $28 billion dollars, without significantly reducing employment.<BR> \"In most cases, the remaining firm improved its efficiency,\" said Dr. Trimbath, whose work on the subject stems from research she undertook at New York University before joining the Institute. \"They have resulted in huge savings for the companies, better profits, and increased economic output for the country.\"<BR> Her findings confirm what other academics, such as Michael C. Jensen of Harvard Business School, have said: takeovers of large inefficient firms have positive productivity effects for shareholders and society. <BR> Dr. Trimbath\u2032s research is contained in a new book published this month by the Milken Institute and Kluwer Academic Publishers, Mergers & Efficiency: Changes Across Time.<BR> Along with the book, the Milken Institute today released a list of the top 100 most-efficient mergers of publicly held Fortune 500 companies from 1981 to 1995. It looks at which companies produced the greatest percentage of savings one year after their merger. <BR> Number one is Freeport McMoRan Inc., which purchased the oil firm Petro-Lewis Corp. out of bankruptcy in 1987. The result was an increase in efficiency of 55 percent, resulting in a savings of $1.2 billion for Freeport McMoRan.<BR> The next four most efficient mergers were:<BR> 2. Comcast Corporation\u2032s purchase of American Cellular Corp. in 1988 (a 21 percent improvement in efficiency and $84 million in savings) <BR>\n3. Homestake Mining Company\u2032s merger with International Corona in 1992 (21 percent; $489 million) <BR>\n4. Cyprus Amax Mineral Company\u2032s purchase of Amax Inc. in 1993 (20 percent; $210 million) <BR>\n5. Intelligent Electronics Inc.\u2032s merger with Entre Computer Centers Inc. in 1989 (19 percent; $67 million) <BR> According to Dr. Trimbath, on average, the top 100 most-improved firms increased efficiency by 5 percent after their merger, for an annual savings of $250 million each. And while some layoffs did occur, for the most part, the job losses were not significant, she found. Most savings came from other areas, such as distribution and advertising.<BR> Out of the 276 firms that she studied in the 1980s and early 1990s, Dr. Trimbath was able to find post-merger data on 164 of the remaining companies. (Data was unavailable for the others because they were bought by private companies or foreign firms, or because entirely new companies were formed.) Of the 164 remaining firms, she found that 112 improved their efficiency, four were neutral, and 48 showed a decrease in efficiency. <BR> Her book contains some other revealing findings, including: <BR>\no\tFirms that use resources inefficiently are likely to be merged with more efficient firms. <BR> o\tRegulatory restrictions on M&A financing allowed larger firms to remain inefficient and independent after 1989. The result was a reduction in the positive effect on the overall economy from M&A activity. <BR> Dr. Trimbath found that efficiency gains from M&A were reduced after 1989 because regulations against mergers limited the opportunity for buyers to improve inefficient firms through changes in corporate control. <BR> \"The U.S. economy benefited an average of $46 million in cost reductions alone from each merger completed before anti-takeover regulations and only $15 million on average after government interference in the market for corporate control,\" Dr. Trimbath said. <BR> Mergers & Efficiency: Changes Across Time is the third in the Milken Institute Series on Financial Innovation and Economic Growth. It is available through Kluwer Academic Publishers online at http:\/\/www.wkap.nl\/prod\/s\/MILK. <BR> View a list of the top 100 most efficient mergers of publicly held Fortune 500 companies from 1981 to 1995.<BR>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Mergers and acquisitions have been part of the American corporate landscape for 150 years. The question is: Are they good for the corporations and consumers - and for the economy?<br \/> The answer, according to new research from the Milken Institute, appears to be yes. <br \/> In a detailed study of 276 publicly held Fortune 500 companies bought over a 15-year period, research economist Susanne Trimbath found that the large majority of the mergers - more than two-thirds - resulted in increased efficiency (measured by cost-per-unit of revenue) and a total savings of about $28 billion dollars, without significantly reducing employment.<br \/> \"In most cases, the remaining firm improved its efficiency,\" said Dr. Trimbath, whose work on the subject stems from research she undertook at New York University before joining the Institute. \"They have resulted in huge savings for the companies, better profits, and increased economic output for the country.\"<br \/> Her findings confirm what other academics, such as Michael C. Jensen of Harvard Business School, have said: takeovers of large inefficient firms have positive productivity effects for shareholders and society. <br \/> Dr. Trimbath\u2032s research is contained in a new book published this month by the Milken Institute and Kluwer Academic Publishers, Mergers &amp; Efficiency: Changes Across Time.<br \/> Along with the book, the Milken Institute today released a list of the top 100 most-efficient mergers of publicly held Fortune 500 companies from 1981 to 1995. It looks at which companies produced the greatest percentage of savings one year after their merger. <br \/> Number one is Freeport McMoRan Inc., which purchased the oil firm Petro-Lewis Corp. out of bankruptcy in 1987. The result was an increase in efficiency of 55 percent, resulting in a savings of $1.2 billion for Freeport McMoRan.<br \/> The next four most efficient mergers were:<br \/> 2. Comcast Corporation\u2032s purchase of American Cellular Corp. in 1988 (a 21 percent improvement in efficiency and $84 million in savings) <br \/>\n3. Homestake Mining Company\u2032s merger with International Corona in 1992 (21 percent; $489 million) <br \/>\n4. Cyprus Amax Mineral Company\u2032s purchase of Amax Inc. in 1993 (20 percent; $210 million) <br \/>\n5. Intelligent Electronics Inc.\u2032s merger with Entre Computer Centers Inc. in 1989 (19 percent; $67 million) <br \/> According to Dr. Trimbath, on average, the top 100 most-improved firms increased efficiency by 5 percent after their merger, for an annual savings of $250 million each. And while some layoffs did occur, for the most part, the job losses were not significant, she found. Most savings came from other areas, such as distribution and advertising.<br \/> Out of the 276 firms that she studied in the 1980s and early 1990s, Dr. Trimbath was able to find post-merger data on 164 of the remaining companies. (Data was unavailable for the others because they were bought by private companies or foreign firms, or because entirely new companies were formed.) Of the 164 remaining firms, she found that 112 improved their efficiency, four were neutral, and 48 showed a decrease in efficiency. <br \/> Her book contains some other revealing findings, including: <br \/>\no\tFirms that use resources inefficiently are likely to be merged with more efficient firms. <br \/> o\tRegulatory restrictions on M&amp;A financing allowed larger firms to remain inefficient and independent after 1989. The result was a reduction in the positive effect on the overall economy from M&amp;A activity. <br \/> Dr. Trimbath found that efficiency gains from M&amp;A were reduced after 1989 because regulations against mergers limited the opportunity for buyers to improve inefficient firms through changes in corporate control. <br \/> \"The U.S. economy benefited an average of $46 million in cost reductions alone from each merger completed before anti-takeover regulations and only $15 million on average after government interference in the market for corporate control,\" Dr. Trimbath said. <br \/> Mergers &amp; Efficiency: Changes Across Time is the third in the Milken Institute Series on Financial Innovation and Economic Growth. It is available through Kluwer Academic Publishers online at http:\/\/www.wkap.nl\/prod\/s\/MILK. <br \/> View a list of the top 100 most efficient mergers of publicly held Fortune 500 companies from 1981 to 1995.<br \/>",
+    "summary": null,
+    "summary_processed": ""
+}

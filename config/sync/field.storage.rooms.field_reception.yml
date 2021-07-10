@@ -1,0 +1,21 @@
+uuid: 239814f5-0d98-42f0-8986-398e507be149
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: rooms.field_reception
+field_name: field_reception
+entity_type: rooms
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

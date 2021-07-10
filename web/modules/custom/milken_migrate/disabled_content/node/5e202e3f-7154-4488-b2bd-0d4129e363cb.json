@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/companies-should-lean-too?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/163?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 791
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5e202e3f-7154-4488-b2bd-0d4129e363cb"
+        }
+    ],
+    "vid": [
+        {
+            "value": 791
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/163?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b48fc3a1-d5d7-4baa-9e50-0f4d989bc096"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Companies Should 'Lean In' Too",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-18T18:12:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:57:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/companies-should-lean-too",
+            "pid": 844,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "This week, 3,500 of the world\u2019s most creative and influential leaders from more than 60 nations will gather in Los Angeles for the 18th annual Milken Institute Global Conference. Over the years, the Global Conference has tackled the world\u2019s most complex challenges in 11 broad areas, including public health, energy and the environment, access to capital in emerging markets, technological disruption, government, philanthropy, education reform, aging, job creation and medical-research funding. A special focus of this year\u2019s conference is women and girls, an initiative reflected not only in the topics addressed, but also in the fact that nearly 30% of the 700 panelists are women. Among them is Sheryl Sandberg, whose 2013 book \u201cLean In\u201d sparked greater interest in gender equality and urged women to expect and demand more for their careers. There\u2019s no question this message is getting through, particularly among younger women, who are vocal in advocating for themselves. They see the greater number of women in public office as a hopeful sign. Yet the statistics tell us we still have a long way to go. Only 26 women are Fortune 500 CEOs. Eighty-three percent of these companies\u2019 executives are male. In the financial-services sector, entry-level employees reflect gender parity, but only 27% of senior managers are women. What\u2019s causing this divide? Asking women to \u201clean in\u201d is only half the battle. Companies need to accept greater responsibility for building more-diverse workplaces\u2014and that responsibility starts at the top. Too many companies treat gender equality as an issue for the human-resources department. Hiring a head of diversity is merely symbolic if that person doesn\u2019t have influence and regular access to the executive team. Change can happen fast when companies make a commitment at the highest levels. Helena Morrissey, another Global Conference participant and CEO of London-based investment management firm Newton, has led the way for many companies in the U.K. and around the world. Early in her career, after returning to work from her second maternity leave, Helena was passed over for a promotion because her employer didn\u2019t believe she would stay committed to her job. Several years later, with companies showing few signs of progress on diversity, Helena launched the 30% Club, with the goal of achieving that level of representation by women on the boards of directors of FTSE 100 companies from what was then 12.5%. In only five years, thanks in part to her dedication, board representation has nearly doubled. As important, all 100 companies have at least one woman on their board now, compared with just 27 when the effort began. The 30% Club\u2019s tremendous success in the U.K. can be replicated in the U.S., where currently 17% of Fortune 500 board members are women. Since launching in the U.S., the 30% Club has recruited more than 40 chairmen and CEOs to pledge their commitment to better gender balance. The U.S. 30% Club is also working with supporters to build a network of senior executives who will mentor promising midcareer women. Gender diversity on corporate boards is the right thing to do and it makes economic sense. Every day, we see the value of different backgrounds and perspectives in corporate decision-making. Diversity of background encourages diversity of thought and stronger leadership: A 2004 Catalyst\u00a0study\u00a0found that companies with more women in top management positions experienced better financial performance than their peers. Companies that prioritize gender diversity will be most successful when diversity is taken for granted in the C-suite and boardroom. Women are assuming greater ownership of their career advancement than ever before. It\u2019s time for companies to lean in, too. <i>Mr. Grauer is chairman of Bloomberg L.P. and U.S. chairman for the 30% Club. Mr. Milken is chairman of the Milken Institute. This article originally appeared in the\u00a0Wall Street Journal\u00a0on April 27, 2015<\/i>",
+    "format": "rich_text",
+    "processed": "This week, 3,500 of the world\u2019s most creative and influential leaders from more than 60 nations will gather in Los Angeles for the 18th annual Milken Institute Global Conference. Over the years, the Global Conference has tackled the world\u2019s most complex challenges in 11 broad areas, including public health, energy and the environment, access to capital in emerging markets, technological disruption, government, philanthropy, education reform, aging, job creation and medical-research funding. A special focus of this year\u2019s conference is women and girls, an initiative reflected not only in the topics addressed, but also in the fact that nearly 30% of the 700 panelists are women. Among them is Sheryl Sandberg, whose 2013 book \u201cLean In\u201d sparked greater interest in gender equality and urged women to expect and demand more for their careers. There\u2019s no question this message is getting through, particularly among younger women, who are vocal in advocating for themselves. They see the greater number of women in public office as a hopeful sign. Yet the statistics tell us we still have a long way to go. Only 26 women are Fortune 500 CEOs. Eighty-three percent of these companies\u2019 executives are male. In the financial-services sector, entry-level employees reflect gender parity, but only 27% of senior managers are women. What\u2019s causing this divide? Asking women to \u201clean in\u201d is only half the battle. Companies need to accept greater responsibility for building more-diverse workplaces\u2014and that responsibility starts at the top. Too many companies treat gender equality as an issue for the human-resources department. Hiring a head of diversity is merely symbolic if that person doesn\u2019t have influence and regular access to the executive team. Change can happen fast when companies make a commitment at the highest levels. Helena Morrissey, another Global Conference participant and CEO of London-based investment management firm Newton, has led the way for many companies in the U.K. and around the world. Early in her career, after returning to work from her second maternity leave, Helena was passed over for a promotion because her employer didn\u2019t believe she would stay committed to her job. Several years later, with companies showing few signs of progress on diversity, Helena launched the 30% Club, with the goal of achieving that level of representation by women on the boards of directors of FTSE 100 companies from what was then 12.5%. In only five years, thanks in part to her dedication, board representation has nearly doubled. As important, all 100 companies have at least one woman on their board now, compared with just 27 when the effort began. The 30% Club\u2019s tremendous success in the U.K. can be replicated in the U.S., where currently 17% of Fortune 500 board members are women. Since launching in the U.S., the 30% Club has recruited more than 40 chairmen and CEOs to pledge their commitment to better gender balance. The U.S. 30% Club is also working with supporters to build a network of senior executives who will mentor promising midcareer women. Gender diversity on corporate boards is the right thing to do and it makes economic sense. Every day, we see the value of different backgrounds and perspectives in corporate decision-making. Diversity of background encourages diversity of thought and stronger leadership: A 2004 Catalyst\u00a0study\u00a0found that companies with more women in top management positions experienced better financial performance than their peers. Companies that prioritize gender diversity will be most successful when diversity is taken for granted in the C-suite and boardroom. Women are assuming greater ownership of their career advancement than ever before. It\u2019s time for companies to lean in, too. <i>Mr. Grauer is chairman of Bloomberg L.P. and U.S. chairman for the 30% Club. Mr. Milken is chairman of the Milken Institute. This article originally appeared in the\u00a0Wall Street Journal\u00a0on April 27, 2015<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

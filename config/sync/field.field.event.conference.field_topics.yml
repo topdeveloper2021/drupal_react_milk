@@ -1,0 +1,29 @@
+uuid: b3d9411f-b03a-4b41-aebf-8080bb8ee821
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_topics
+    - taxonomy.vocabulary.topics
+id: event.conference.field_topics
+field_name: field_topics
+entity_type: event
+bundle: conference
+label: Topics
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

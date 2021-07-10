@@ -1,0 +1,11 @@
+uuid: 4e6925f6-aa5e-4826-9abe-110f59bbece1
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.ph_terms
+id: taxonomy_term.ph_terms
+target_entity_type_id: taxonomy_term
+target_bundle: ph_terms
+default_langcode: site_default
+language_alterable: false

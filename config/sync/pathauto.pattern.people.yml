@@ -1,0 +1,25 @@
+uuid: b04e3bf6-2c2b-408c-aee9-3636ea0fd437
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - eck
+id: people
+label: People
+type: 'canonical_entities:people'
+pattern: '[people:type]/[people:title]'
+selection_criteria:
+  150227ed-f253-49c4-b497-577943fdb481:
+    id: 'entity_bundle:people'
+    bundles:
+      experts: experts
+      speakers: speakers
+      staff: staff
+    negate: false
+    context_mapping:
+      people: people
+    uuid: 150227ed-f253-49c4-b497-577943fdb481
+selection_logic: and
+weight: -5
+relationships: {  }

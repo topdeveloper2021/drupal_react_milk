@@ -1,0 +1,20 @@
+uuid: 84e0c936-8425-4780-bee3-b023980b4362
+langcode: en
+status: true
+dependencies:
+  module:
+    - color_field
+    - eck
+id: slide.field_text_color
+field_name: field_text_color
+entity_type: slide
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

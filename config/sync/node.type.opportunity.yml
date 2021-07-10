@@ -1,0 +1,22 @@
+uuid: 2f0144a9-3f71-4443-ac79-8e27ba15f722
+langcode: en
+status: true
+dependencies:
+  module:
+    - gatsby
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+  gatsby:
+    preview: false
+    iframe: false
+    target: window
+name: Opportunity
+type: opportunity
+description: 'Philanthropy Hub Opportunity'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

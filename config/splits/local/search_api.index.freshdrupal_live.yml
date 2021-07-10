@@ -1,0 +1,490 @@
+uuid: eaf9cc42-9206-49fe-8751-dcf5a77da659
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_solr
+    - media
+    - eck
+    - paragraphs
+    - taxonomy
+    - node
+    - file
+    - search_api
+    - milken_base
+  config:
+    - field.storage.media.field_authors
+    - field.storage.people.field_first_name
+    - field.storage.people.field_last_name
+    - field.storage.people.field_middle_name
+    - field.storage.media.field_body
+    - field.storage.media.field_content
+    - field.storage.paragraph.field_body
+    - field.storage.media.field_tags
+    - field.storage.node.field_authors
+    - field.storage.node.field_content
+    - field.storage.media.field_media_image
+    - field.storage.node.field_hero_image
+    - field.storage.people.field_email
+    - search_api.server.freshdrupal_live
+third_party_settings:
+  search_api_solr:
+    finalize: false
+    commit_before_finalize: false
+    commit_after_finalize: false
+    multilingual:
+      limit_to_content_language: false
+      include_language_independent: true
+    highlighter:
+      maxAnalyzedChars: 51200
+      fragmenter: gap
+      regex:
+        slop: 0.5
+        pattern: blank
+        maxAnalyzedChars: 10000
+      usePhraseHighlighter: true
+      highlightMultiTerm: true
+      preserveMulti: false
+      highlight:
+        mergeContiguous: true
+        requireFieldMatch: true
+        snippets: 1
+        fragsize: 0
+    mlt:
+      mintf: 1
+      mindf: 1
+      maxdf: 0
+      maxdfpct: 0
+      minwl: 0
+      maxwl: 0
+      maxqt: 100
+      maxntp: 2000
+      boost: false
+      interestingTerms: none
+    term_modifiers:
+      slop: 1
+      fuzzy: 2
+    advanced:
+      index_prefix: ''
+      collection: ''
+      timezone: ''
+id: freshdrupal_live
+name: freshdrupal_live
+description: ''
+read_only: false
+field_settings:
+  aggregated_field_centers:
+    label: 'Aggregated field Centers'
+    property_path: aggregated_field
+    type: integer
+    boost: !!float 8
+    configuration:
+      type: union
+      fields:
+        - 'entity:media/field_centers'
+        - 'entity:node/field_centers'
+        - 'entity:people/field_centers'
+  aggregated_field_index_weight:
+    label: 'Aggregated field Index Weight'
+    property_path: aggregated_field
+    type: integer
+    configuration:
+      type: union
+      fields:
+        - 'entity:media/field_index_weight'
+        - 'entity:node/field_index_weight'
+        - 'entity:people/field_index_weight'
+  aggregated_field_published:
+    label: 'Aggregated field Published'
+    property_path: aggregated_field
+    type: date
+    configuration:
+      type: union
+      fields:
+        - 'entity:media/published_at'
+        - 'entity:node/published_at'
+        - 'entity:people/created'
+  aggregated_field_topics:
+    label: 'Aggregated field Topics'
+    property_path: aggregated_field
+    type: integer
+    boost: !!float 8
+    configuration:
+      type: union
+      fields:
+        - 'entity:media/field_topics'
+        - 'entity:node/field_topics'
+        - 'entity:people/field_topics'
+  aggregated_field_type:
+    label: 'Aggregated field Type'
+    property_path: aggregated_field
+    type: text
+    configuration:
+      type: union
+      fields:
+        - 'entity:node/field_page_type'
+        - search_api_bundle
+        - search_api_jsonapi_type
+  bundle:
+    label: Bundle
+    property_path: search_api_bundle
+    type: solr_string_storage
+  entity_type_id:
+    label: EntityTypeId
+    property_path: search_api_entity_type_id
+    type: solr_string_storage
+  field_body:
+    label: body
+    datasource_id: 'entity:media'
+    property_path: field_body
+    type: text
+    boost: 0.3
+    dependencies:
+      config:
+        - field.storage.media.field_body
+  jsonapi_type:
+    label: Type
+    property_path: search_api_jsonapi_type
+    type: solr_string_storage
+  label:
+    label: Label
+    property_path: search_api_label
+    type: string
+  media_authors_field_first_name:
+    label: 'Authors » People » First Name'
+    datasource_id: 'entity:media'
+    property_path: 'field_authors:entity:field_first_name'
+    type: text
+    boost: !!float 5
+    dependencies:
+      config:
+        - field.storage.media.field_authors
+        - field.storage.people.field_first_name
+      module:
+        - eck
+  media_authors_field_last_name:
+    label: 'Authors » People » Last Name'
+    datasource_id: 'entity:media'
+    property_path: 'field_authors:entity:field_last_name'
+    type: text
+    boost: !!float 5
+    dependencies:
+      config:
+        - field.storage.media.field_authors
+        - field.storage.people.field_last_name
+      module:
+        - eck
+  media_authors_field_middle_name:
+    label: 'Authors » People » Middle Name'
+    datasource_id: 'entity:media'
+    property_path: 'field_authors:entity:field_middle_name'
+    type: text
+    boost: !!float 5
+    dependencies:
+      config:
+        - field.storage.media.field_authors
+        - field.storage.people.field_middle_name
+      module:
+        - eck
+  media_content_field_body:
+    label: 'Content » Paragraph » body'
+    datasource_id: 'entity:media'
+    property_path: 'field_content:entity:field_body'
+    type: text
+    boost: 0.3
+    dependencies:
+      config:
+        - field.storage.media.field_content
+        - field.storage.paragraph.field_body
+      module:
+        - paragraphs
+  media_created:
+    label: 'Authored on'
+    datasource_id: 'entity:media'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - media
+  media_name:
+    label: Name
+    datasource_id: 'entity:media'
+    property_path: name
+    type: text
+    boost: !!float 2
+    dependencies:
+      module:
+        - media
+  media_tags_name:
+    label: 'Tags » Taxonomy term » Name'
+    datasource_id: 'entity:media'
+    property_path: 'field_tags:entity:name'
+    type: string
+    dependencies:
+      config:
+        - field.storage.media.field_tags
+      module:
+        - taxonomy
+  node_content_field_body:
+    label: 'Content » Paragraph » body'
+    datasource_id: 'entity:node'
+    property_path: 'field_content:entity:field_body'
+    type: text
+    boost: 0.3
+    dependencies:
+      config:
+        - field.storage.node.field_content
+        - field.storage.paragraph.field_body
+      module:
+        - paragraphs
+  node_created:
+    label: 'Authored on'
+    datasource_id: 'entity:node'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - node
+  node_field_first_name:
+    label: 'Authors » People » First Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_authors:entity:field_first_name'
+    type: text
+    boost: !!float 3
+    dependencies:
+      config:
+        - field.storage.node.field_authors
+        - field.storage.people.field_first_name
+      module:
+        - eck
+  node_field_last_name:
+    label: 'Authors » People » Last Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_authors:entity:field_last_name'
+    type: text
+    boost: !!float 3
+    dependencies:
+      config:
+        - field.storage.node.field_authors
+        - field.storage.people.field_last_name
+      module:
+        - eck
+  node_field_middle_name:
+    label: 'Authors » People » Middle Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_authors:entity:field_middle_name'
+    type: text
+    boost: !!float 3
+    dependencies:
+      config:
+        - field.storage.node.field_authors
+        - field.storage.people.field_middle_name
+      module:
+        - eck
+  node_grants:
+    label: 'Node access information'
+    property_path: search_api_node_grants
+    type: string
+    indexed_locked: true
+    type_locked: true
+    hidden: true
+  node_hero_image_tile:
+    label: 'Tile Thumbnail » Media » Image » File » URI » Root-relative file URL'
+    datasource_id: 'entity:node'
+    property_path: 'field_hero_image:entity:field_media_image:entity:uri:url'
+    type: solr_string_storage
+    dependencies:
+      config:
+        - field.storage.media.field_media_image
+        - field.storage.node.field_hero_image
+      module:
+        - file
+        - media
+  node_status:
+    label: status
+    datasource_id: 'entity:node'
+    property_path: status
+    type: boolean
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+  node_title:
+    label: Title
+    datasource_id: 'entity:node'
+    property_path: title
+    type: text
+    boost: !!float 2
+    dependencies:
+      module:
+        - node
+  node_uid:
+    label: uid
+    datasource_id: 'entity:node'
+    property_path: uid
+    type: integer
+    indexed_locked: true
+    type_locked: true
+    dependencies:
+      module:
+        - node
+  people_created:
+    label: 'Authored on'
+    datasource_id: 'entity:people'
+    property_path: created
+    type: date
+    dependencies:
+      module:
+        - eck
+  people_field_email:
+    label: email
+    datasource_id: 'entity:people'
+    property_path: field_email
+    type: string
+    dependencies:
+      config:
+        - field.storage.people.field_email
+  people_title:
+    label: Title
+    datasource_id: 'entity:people'
+    property_path: title
+    type: text
+    boost: !!float 3
+    dependencies:
+      module:
+        - eck
+  processed:
+    label: 'body » Processed text'
+    datasource_id: 'entity:media'
+    property_path: 'field_body:processed'
+    type: text
+    boost: 0.3
+    dependencies:
+      config:
+        - field.storage.media.field_body
+  url:
+    label: URI
+    property_path: search_api_url
+    type: solr_string_storage
+    configuration:
+      absolute: false
+  uuid:
+    label: UUID
+    property_path: search_api_uuid
+    type: solr_string_storage
+datasource_settings:
+  'entity:media':
+    bundles:
+      default: false
+      selected:
+        - podcast_episode
+        - report
+        - video
+    languages:
+      default: true
+      selected: {  }
+  'entity:node':
+    bundles:
+      default: false
+      selected:
+        - article
+        - landing_page
+    languages:
+      default: true
+      selected: {  }
+  'entity:people':
+    bundles:
+      default: false
+      selected:
+        - person
+        - staff
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  bundle: {  }
+  content_access:
+    weights:
+      preprocess_query: -30
+  double_quote_workaround:
+    all_fields: false
+    fields:
+      - bundle
+      - entity_type_id
+      - uuid
+    replacement: '|9999999998|'
+    weights:
+      postprocess_query: 0
+      preprocess_index: -15
+      preprocess_query: -15
+  entityTypeId: {  }
+  entity_status: {  }
+  highlight:
+    highlight: always
+    highlight_partial: true
+    excerpt: true
+    excerpt_length: 256
+    exclude_fields:
+      - node_title
+    prefix: '<strong>'
+    suffix: '</strong>'
+    weights:
+      postprocess_query: 0
+  html_filter:
+    all_fields: false
+    fields:
+      - bundle
+      - entity_type_id
+      - field_body
+      - media_content_field_body
+      - media_name
+      - node_content_field_body
+      - node_title
+      - uuid
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+    weights:
+      preprocess_index: -15
+      preprocess_query: -15
+  jsonapi_type: {  }
+  label: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+  reverse_entity_references: {  }
+  solr_date_range:
+    weights:
+      preprocess_index: 0
+  taxonomy_bucket: {  }
+  type_boost:
+    boosts:
+      'entity:media':
+        datasource_boost: !!float 1
+        bundle_boosts:
+          report: !!float 2
+          video: 0.8
+      'entity:node':
+        datasource_boost: !!float 1
+        bundle_boosts:
+          article: 0.8
+          landing_page: !!float 2
+      'entity:people':
+        datasource_boost: !!float 2
+    weights:
+      preprocess_index: 0
+  uuid: {  }
+tracker_settings:
+  default:
+    indexing_order: lifo
+options:
+  index_directly: false
+  cron_limit: 200
+server: freshdrupal_live

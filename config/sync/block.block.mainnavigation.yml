@@ -1,0 +1,25 @@
+uuid: f019db10-6e97-4bd6-8ce0-9df20f1beb00
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - milken
+id: mainnavigation
+theme: milken
+region: primary_menu
+weight: -2
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

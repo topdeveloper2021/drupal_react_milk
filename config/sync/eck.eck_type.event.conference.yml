@@ -1,0 +1,9 @@
+uuid: 1eac1538-d334-4e6a-a5ca-082336f6c4a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.event
+type: conference
+name: Conference
+description: 'Global Conference'

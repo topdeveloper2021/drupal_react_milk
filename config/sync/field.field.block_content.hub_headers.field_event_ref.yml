@@ -1,0 +1,32 @@
+uuid: 68eff51e-f996-4fa4-9905-d12918236c04
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hub_headers
+    - eck.eck_type.event.conference
+    - eck.eck_type.event.meeting
+    - eck.eck_type.event.summit
+    - field.storage.block_content.field_event_ref
+id: block_content.hub_headers.field_event_ref
+field_name: field_event_ref
+entity_type: block_content
+bundle: hub_headers
+label: 'Event Ref'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:event'
+  handler_settings:
+    target_bundles:
+      conference: conference
+      meeting: meeting
+      summit: summit
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: meeting
+field_type: entity_reference

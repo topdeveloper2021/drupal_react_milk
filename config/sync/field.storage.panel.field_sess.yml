@@ -1,0 +1,21 @@
+uuid: 22427565-ed39-4d48-88cb-3793fe4b2ebf
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: panel.field_sess
+field_name: field_sess
+entity_type: panel
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

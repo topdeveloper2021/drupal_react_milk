@@ -1,0 +1,19 @@
+uuid: 7fb16de6-d608-4c03-a89c-7ad4928f6f3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_twitternotes
+id: grid_speakers.speakers.field_twitternotes
+field_name: field_twitternotes
+entity_type: grid_speakers
+bundle: speakers
+label: twitternotes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

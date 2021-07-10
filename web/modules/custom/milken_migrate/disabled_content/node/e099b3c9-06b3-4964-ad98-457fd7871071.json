@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/best-way-improve-brain-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/103?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 585
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e099b3c9-06b3-4964-ad98-457fd7871071"
+        }
+    ],
+    "vid": [
+        {
+            "value": 585
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/103?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5109ad7f-e1e9-4777-bd0e-17452035ef2b"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Best Way to Improve Brain Health",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:25:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/best-way-improve-brain-health",
+            "pid": 638,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Renowned neurosurgeon, Keith<\/i>\u00a0<i>Black, has<\/i> <i>pioneered advances in our understanding and treatment of brain cancers and complex neurological conditions. Black is also a research scientist studying targeted drug delivery, cancer stem cells, and Alzheimer's detection through retinal imaging, among many other areas. In an interview with the Milken Institute Center for the Future of Aging, Black talks about the importance of developing a test for early onset Alzheimer\u2019s and his goal to inspire the next generation.<\/i><b>What is the most important thing that people should know about improving brain health?<br><\/b>People need to know how important lifestyle is to sustain health. Lifestyle, diet, exercise, moderating stress, making sure you get a good eight hours of sleep when you can, making sure you keep your brain engaged particularly in novel activities\u2014all of\u00a0these matter. You have to remember the brain is a living organism very much like a muscle\u2014the more you use it, the stronger it becomes\u00a0We need to treat our brains better. For example, try to avoid excessive alcohol and make sure that you screen yourself for diseases that can be devastating to the brain.<b>What will be the benefits of having a reliable test for early onset Alzheimer\u2019s?<\/b>I think there\u2019s a huge misconception that if you get Alzheimer\u2019s or if you\u2019re going to get Alzheimer\u2019s, there\u2019s nothing that you can do about it. And I think the science shows that that perception is incorrect.We know two things now that address your question. The first is that Alzheimer\u2019s starts about two decades before a person develops symptoms. During that period of 20 years, you\u2019re losing brain cells, and you\u2019re losing brain connectivity. If you can detect the disease at the very start, particularly before you lose enough brain cells to become symptomatic, we may have the ability to stop the process or at least slow it down and prevent an individual from becoming symptomatic.If one is developing Alzheimer\u2019s in their 50s and 60s, they are going to become symptomatic in their 70s and 80s. If you can slow the overall process and have people become symptomatic in their late 90s or 100s, you have the ability to essentially prevent the disease from being symptomatic in most of our lifetimes. That\u2019s really the major reason to move towards early detection, because preventing brain loss is a lot easier than restoring brain cells once they\u2019ve died.The other reason people should be interested is that even though we don\u2019t have a pill that can stop the progression, we know that Alzheimer\u2019s also has a lifestyle component. The scientific evidence shows that lifestyle habits such as a Mediterranean diet, exercise, sleep, meditation, and other types of mindfulness modify stress levels. We\u2019re seeing that potentially even micronutrients like the omega-3 fish oils may be very important in slowing the progression of Alzheimer\u2019s disease.<b>What\u2019s your take on Pfizer\u00a0ending\u00a0research to find new drugs aimed at treating Alzheimer's and Parkinson\u2019s disease? How do you think it will impact ongoing research?<\/b>I think a lot of the trials that have failed for Alzheimer\u2019s disease, including the Pfizer trial, could\u2019ve been better designed and better developed. I think we have a lot to learn from the failure of those trials.For example, how do we get the drugs into the brain more effectively? How can we better select the right population of patients to treat? I think addressing those potential reasons for the failures of those drugs will lead to successful therapies and hopefully successful approvals.",
+    "format": "rich_text",
+    "processed": "<i>Renowned neurosurgeon, Keith<\/i>\u00a0<i>Black, has<\/i> <i>pioneered advances in our understanding and treatment of brain cancers and complex neurological conditions. Black is also a research scientist studying targeted drug delivery, cancer stem cells, and Alzheimer's detection through retinal imaging, among many other areas. In an interview with the Milken Institute Center for the Future of Aging, Black talks about the importance of developing a test for early onset Alzheimer\u2019s and his goal to inspire the next generation.<\/i><b>What is the most important thing that people should know about improving brain health?<br \/><\/b>People need to know how important lifestyle is to sustain health. Lifestyle, diet, exercise, moderating stress, making sure you get a good eight hours of sleep when you can, making sure you keep your brain engaged particularly in novel activities\u2014all of\u00a0these matter. You have to remember the brain is a living organism very much like a muscle\u2014the more you use it, the stronger it becomes\u00a0We need to treat our brains better. For example, try to avoid excessive alcohol and make sure that you screen yourself for diseases that can be devastating to the brain.<b>What will be the benefits of having a reliable test for early onset Alzheimer\u2019s?<\/b>I think there\u2019s a huge misconception that if you get Alzheimer\u2019s or if you\u2019re going to get Alzheimer\u2019s, there\u2019s nothing that you can do about it. And I think the science shows that that perception is incorrect.We know two things now that address your question. The first is that Alzheimer\u2019s starts about two decades before a person develops symptoms. During that period of 20 years, you\u2019re losing brain cells, and you\u2019re losing brain connectivity. If you can detect the disease at the very start, particularly before you lose enough brain cells to become symptomatic, we may have the ability to stop the process or at least slow it down and prevent an individual from becoming symptomatic.If one is developing Alzheimer\u2019s in their 50s and 60s, they are going to become symptomatic in their 70s and 80s. If you can slow the overall process and have people become symptomatic in their late 90s or 100s, you have the ability to essentially prevent the disease from being symptomatic in most of our lifetimes. That\u2019s really the major reason to move towards early detection, because preventing brain loss is a lot easier than restoring brain cells once they\u2019ve died.The other reason people should be interested is that even though we don\u2019t have a pill that can stop the progression, we know that Alzheimer\u2019s also has a lifestyle component. The scientific evidence shows that lifestyle habits such as a Mediterranean diet, exercise, sleep, meditation, and other types of mindfulness modify stress levels. We\u2019re seeing that potentially even micronutrients like the omega-3 fish oils may be very important in slowing the progression of Alzheimer\u2019s disease.<b>What\u2019s your take on Pfizer\u00a0ending\u00a0research to find new drugs aimed at treating Alzheimer's and Parkinson\u2019s disease? How do you think it will impact ongoing research?<\/b>I think a lot of the trials that have failed for Alzheimer\u2019s disease, including the Pfizer trial, could\u2019ve been better designed and better developed. I think we have a lot to learn from the failure of those trials.For example, how do we get the drugs into the brain more effectively? How can we better select the right population of patients to treat? I think addressing those potential reasons for the failures of those drugs will lead to successful therapies and hopefully successful approvals.",
+    "summary": null,
+    "summary_processed": ""
+}

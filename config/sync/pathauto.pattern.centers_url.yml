@@ -1,0 +1,34 @@
+uuid: 8397b88a-1e42-4955-847d-bff748d8e5fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: centers_url
+label: 'Centers URL'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:vocabulary]/[term:parents:join-path]/[term:machine_name]'
+selection_criteria:
+  5ad8a06b-5035-446f-abb6-00b014b493ac:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      centers: centers
+      collections: collections
+      department: department
+      location: location
+      milken_tags: milken_tags
+      people: people
+      program_initiatives: program_initiatives
+      projects: projects
+      region: region
+      seniority: seniority
+      teams: teams
+      topics: topics
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 5ad8a06b-5035-446f-abb6-00b014b493ac
+selection_logic: and
+weight: -5
+relationships: {  }

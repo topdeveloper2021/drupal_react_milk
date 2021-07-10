@@ -1,0 +1,29 @@
+uuid: 85712ca6-ba25-40f2-b408-d8424b9408d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_centers
+    - node.type.career
+    - taxonomy.vocabulary.centers
+id: node.career.field_centers
+field_name: field_centers
+entity_type: node
+bundle: career
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

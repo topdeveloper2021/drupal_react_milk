@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7453\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7453
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bbb37768-6b7f-48ac-a6e0-7f42d7b01462"
+        }
+    ],
+    "vid": [
+        {
+            "value": 222
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0828ffb5-a2c6-4dcc-8bf2-8292700e71c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Digital Reality: How Interconnectedness Is Reshaping Our Lives",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-06-23T10:00:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As more of our lives are conducted in, or with the assistance of, the digital world, it is obvious that an ever-expanding portion of the global GDP is becoming digitized. As this trend promises to continue, our panel leaders and expert interpreters of this brave new digital reality discuss where we\u2019re headed next.<br><br> Moderator:<br> Kara Swisher, Executive Editor, Re\/code<br> Speakers:<br> Michael Ferro, Chairman and CEO, Merrick Ventures, LLC<br> Bobby Kotick, CEO, Activision Blizzard<br> Marne Levine, Chief Operating Officer, Instagram<br> Evan Sharp, Co-Founder, and Chief Product Officer, Pinterest",
+    "format": "rich_text",
+    "processed": "As more of our lives are conducted in, or with the assistance of, the digital world, it is obvious that an ever-expanding portion of the global GDP is becoming digitized. As this trend promises to continue, our panel leaders and expert interpreters of this brave new digital reality discuss where we\u2019re headed next.<br \/><br \/> Moderator:<br \/> Kara Swisher, Executive Editor, Re\/code<br \/> Speakers:<br \/> Michael Ferro, Chairman and CEO, Merrick Ventures, LLC<br \/> Bobby Kotick, CEO, Activision Blizzard<br \/> Marne Levine, Chief Operating Officer, Instagram<br \/> Evan Sharp, Co-Founder, and Chief Product Officer, Pinterest",
+    "summary": null,
+    "summary_processed": "",
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/videoseries",
+            "lang": "en"
+        }
+    ]
+}

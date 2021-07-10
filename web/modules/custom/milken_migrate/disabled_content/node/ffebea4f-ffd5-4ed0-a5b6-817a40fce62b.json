@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/what-prosperity-without-quality-life?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/76?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 542
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ffebea4f-ffd5-4ed0-a5b6-817a40fce62b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 542
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/76?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "11a56753-d748-46d4-8cab-c9d8b3fac2f3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What is Prosperity Without Quality of Life?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T14:00:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T14:57:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/what-prosperity-without-quality-life",
+            "pid": 595,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Working together to find cures and treatments for disease means that no patient is left behind. <\/b><\/i> Prosperity is an interesting word, and for many, I would expect, the concept of wealth changes over time. In my younger years, I would have suggested prosperity meant sufficient wealth to provide for my family. Translated, this would include education, security, and well-being, to the degree possible, to ensure quality of life. My ancestors are German. As I grew up, I recall conversations suggesting we were made from \u201cgood stock.\u201d This term was used without explanation, but the interpretation or assumption was that the \u201cgood stock\u201d referred to health, intelligence, and long life. In 1984, my sons were diagnosed with Duchenne muscular dystrophy\u2014a rare, monogenetic disease. The term \u201cgood stock\u201d no longer held. We had no family history, though I was found to be a genetic carrier. I looked for answers. My parents smoked. My father owned a factory that made doctor bags. Each Sunday we would go to the factory to light the gluepots to ensure the temperature of the glue was sufficiently hot to adhere to the wood frame. Was that it? Sufficient to mutate a gene, create a somatic carrier, and, later, give two boys a lethal diagnosis? What is wealth, and what is the concept of prosperity when every part of life changes so dramatically? What becomes important? I borrowed money, $100,000. Had I known at the time that the cost of developing therapies was $1 billion, I would have tried to borrow more. My sons were worth that, and more. And what was wealth if it could not provide security for your own family? In 1994, I started an organization focused on Duchenne called Parent Project Muscular Dystrophy. The goal was multi-focused: identify the patients, characterize the disease, develop standards of care, invest in research, leverage government money, attract industry, seek approvals, and ensure access. I weighed every investment against the timeline of my sons. Intellectually, I wanted to drive the field forward. Emotionally, I wanted my sons to have treatments. I wanted to watch them grow up and grow old. Years passed. Research takes time. More time than they had. As I learned and traveled, I realized disease unites us. I found a new family\u2014one that shared goals, plans, and aspirations. And together, we found we were stronger and our message clearer. We shared our successes and our failures. We learned how to make progress together. Some years back, while in Rome, I met the mother of a boy from Africa. He was just nine and had already lost the ability to walk. She, too, had borrowed money, sufficient to travel with her son to this meeting. She described how they were ostracized from her community and her family, that this genetic disease was not understood, that Duchenne was the result of some wrong <i>she<\/i> had committed. While this woman\u2019s face was beautiful, she had visible scars on her neck and arms. She had sacrificed much to join this family, to learn what she could, to access what was possible in an attempt to improve the quality of her son\u2019s life. So, what is prosperity if treatments or cures are developed and available for some and not all? What good is wealth if children are not accurately diagnosed, cared for, or have access to treatment? What comfort might we take in treating only those we know and leaving behind so many? Culture, geography, class, religion, pedigree, color, gender, sexual orientation are unacceptable reasons for one to have access to care and treatment and not another. What if we all stood equal in one another\u2019s eyes and worked together to ensure access to accurate diagnosis, to care, to therapies? Just after my son Chris died, I found a post-it note stuck in his Latin notebook. It said, \u201cthe quality of life is to make sure others have a life of quality.\u201d That is my current definition of prosperity. ",
+    "format": "rich_text",
+    "processed": "<i><b>Working together to find cures and treatments for disease means that no patient is left behind. <\/b><\/i> Prosperity is an interesting word, and for many, I would expect, the concept of wealth changes over time. In my younger years, I would have suggested prosperity meant sufficient wealth to provide for my family. Translated, this would include education, security, and well-being, to the degree possible, to ensure quality of life. My ancestors are German. As I grew up, I recall conversations suggesting we were made from \u201cgood stock.\u201d This term was used without explanation, but the interpretation or assumption was that the \u201cgood stock\u201d referred to health, intelligence, and long life. In 1984, my sons were diagnosed with Duchenne muscular dystrophy\u2014a rare, monogenetic disease. The term \u201cgood stock\u201d no longer held. We had no family history, though I was found to be a genetic carrier. I looked for answers. My parents smoked. My father owned a factory that made doctor bags. Each Sunday we would go to the factory to light the gluepots to ensure the temperature of the glue was sufficiently hot to adhere to the wood frame. Was that it? Sufficient to mutate a gene, create a somatic carrier, and, later, give two boys a lethal diagnosis? What is wealth, and what is the concept of prosperity when every part of life changes so dramatically? What becomes important? I borrowed money, $100,000. Had I known at the time that the cost of developing therapies was $1 billion, I would have tried to borrow more. My sons were worth that, and more. And what was wealth if it could not provide security for your own family? In 1994, I started an organization focused on Duchenne called Parent Project Muscular Dystrophy. The goal was multi-focused: identify the patients, characterize the disease, develop standards of care, invest in research, leverage government money, attract industry, seek approvals, and ensure access. I weighed every investment against the timeline of my sons. Intellectually, I wanted to drive the field forward. Emotionally, I wanted my sons to have treatments. I wanted to watch them grow up and grow old. Years passed. Research takes time. More time than they had. As I learned and traveled, I realized disease unites us. I found a new family\u2014one that shared goals, plans, and aspirations. And together, we found we were stronger and our message clearer. We shared our successes and our failures. We learned how to make progress together. Some years back, while in Rome, I met the mother of a boy from Africa. He was just nine and had already lost the ability to walk. She, too, had borrowed money, sufficient to travel with her son to this meeting. She described how they were ostracized from her community and her family, that this genetic disease was not understood, that Duchenne was the result of some wrong <i>she<\/i> had committed. While this woman\u2019s face was beautiful, she had visible scars on her neck and arms. She had sacrificed much to join this family, to learn what she could, to access what was possible in an attempt to improve the quality of her son\u2019s life. So, what is prosperity if treatments or cures are developed and available for some and not all? What good is wealth if children are not accurately diagnosed, cared for, or have access to treatment? What comfort might we take in treating only those we know and leaving behind so many? Culture, geography, class, religion, pedigree, color, gender, sexual orientation are unacceptable reasons for one to have access to care and treatment and not another. What if we all stood equal in one another\u2019s eyes and worked together to ensure access to accurate diagnosis, to care, to therapies? Just after my son Chris died, I found a post-it note stuck in his Latin notebook. It said, \u201cthe quality of life is to make sure others have a life of quality.\u201d That is my current definition of prosperity. ",
+    "summary": null,
+    "summary_processed": ""
+}

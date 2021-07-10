@@ -1,0 +1,19 @@
+uuid: 00cd493f-2183-4c9d-9898-45f0f5c5507d
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_name_short
+field_name: field_name_short
+entity_type: event
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

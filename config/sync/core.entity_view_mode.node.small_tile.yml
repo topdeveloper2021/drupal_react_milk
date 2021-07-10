@@ -1,0 +1,10 @@
+uuid: ac8ad526-697d-4e3e-a473-f52244ea28c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.small_tile
+label: 'Small Tile'
+targetEntityType: node
+cache: true

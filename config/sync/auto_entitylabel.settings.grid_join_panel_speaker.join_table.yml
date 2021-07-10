@@ -1,0 +1,9 @@
+status: 0
+pattern: 'Panel_ID: [grid_join_panel_speaker:field_panel_speaker_id] - Speaker_ID: [grid_join_panel_speaker:field_speaker_id]'
+escape: false
+preserve_titles: false
+save: 0
+chunk: '50'
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table

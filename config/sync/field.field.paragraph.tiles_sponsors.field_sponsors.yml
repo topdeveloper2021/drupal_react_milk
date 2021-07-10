@@ -1,0 +1,21 @@
+uuid: 1949211e-f275-418f-86c7-c8d2faee4403
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sponsors
+    - paragraphs.paragraphs_type.tiles_sponsors
+id: paragraph.tiles_sponsors.field_sponsors
+field_name: field_sponsors
+entity_type: paragraph
+bundle: tiles_sponsors
+label: Sponsors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

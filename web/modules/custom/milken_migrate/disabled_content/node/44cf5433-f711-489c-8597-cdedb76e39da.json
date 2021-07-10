@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/chris-brummer-joins-milken-institute-senior-fellow-brings-expertise-international-finance?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 567
+        }
+    ],
+    "uuid": [
+        {
+            "value": "44cf5433-f711-489c-8597-cdedb76e39da"
+        }
+    ],
+    "vid": [
+        {
+            "value": 567
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Chris Brummer joins the Milken Institute as a Senior Fellow, brings expertise in international finance to Institute's Center for Financial Market Understanding in Washington, D.C.",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T13:40:34+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/chris-brummer-joins-milken-institute-senior-fellow-brings-expertise-international-finance",
+            "pid": 620,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "(LOS ANGELES) - Chris Brummer, professor of law at Georgetown University Law Center, has joined the Milken Institute as a senior fellow. He will bring his expertise in international financial regulation, market microstructure, securities regulation, and international trade to the work of the Institute and its recently established Center for Financial Market Understanding in Washington, D.C. The Center is charged with increasing policymakers' understanding of the operations of financial markets in the U.S. and worldwide, with a focus on the myriad impacts of policy decisions, both intended and not. Brummer's grasp of the connectedness of markets around the world will help the Milken Institute offer legislators, regulators, executives and journalists a greater insight into how markets function.\n\"Chris brings an entrepreneurial approach to his work - a trait that's perhaps unusual in law professors,\" said Bradley Belt, senior managing director and head of the Center for Financial Market Understanding. \"His depth of knowledge about regulation in overseas markets and the increasingly connected global economy will enrich the resources we can offer to leaders in policy and business.\"\nBrummer has taught at the University of Basel, and will serve as a visiting professor next year at the University of Heidelberg and the London School of Economics. Before coming to Georgetown, he was an assistant professor of law at Vanderbilt University Law School. He also practiced law in the New York and London offices of Cravath, Swaine & Moore, where his practice focused on high-yield debt offerings. In 2008, he was the Securities and Exchange Commission's first academic fellow, and worked in the Office of International Affairs.\n\"I'm delighted to have the opportunity to join the Milken Institute, particularly at this point in time, when one sees the need for a more focused, less ideological policy discussion on financial markets and their role in society,\" Brummer said. \"No other institution brings to the table the energy and creative thinking required for tackling the emerging challenges of the modern financial marketplace.\"\nBrummer's research has appeared in many of the country's most prestigious journals, including the California Law Review, the University of Chicago Law Review, the Georgetown Law Journal, the Southern California Law Review and the Vanderbilt Law Review. He periodically serves as an expert on NASDAQ hearings panels on de-listings.\nBrummer lectures widely on finance and global governance at universities. His book, \"Soft Law and the Global Financial System,\" will be published later this year by Cambridge University Press. He earned his J.D. from Columbia Law School, where he graduated with honors, and holds a Ph.D. in Germanic studies from the University of Chicago.",
+    "format": "rich_text",
+    "processed": "(LOS ANGELES) - Chris Brummer, professor of law at Georgetown University Law Center, has joined the Milken Institute as a senior fellow. He will bring his expertise in international financial regulation, market microstructure, securities regulation, and international trade to the work of the Institute and its recently established Center for Financial Market Understanding in Washington, D.C. The Center is charged with increasing policymakers' understanding of the operations of financial markets in the U.S. and worldwide, with a focus on the myriad impacts of policy decisions, both intended and not. Brummer's grasp of the connectedness of markets around the world will help the Milken Institute offer legislators, regulators, executives and journalists a greater insight into how markets function.\n\"Chris brings an entrepreneurial approach to his work - a trait that's perhaps unusual in law professors,\" said Bradley Belt, senior managing director and head of the Center for Financial Market Understanding. \"His depth of knowledge about regulation in overseas markets and the increasingly connected global economy will enrich the resources we can offer to leaders in policy and business.\"\nBrummer has taught at the University of Basel, and will serve as a visiting professor next year at the University of Heidelberg and the London School of Economics. Before coming to Georgetown, he was an assistant professor of law at Vanderbilt University Law School. He also practiced law in the New York and London offices of Cravath, Swaine &amp; Moore, where his practice focused on high-yield debt offerings. In 2008, he was the Securities and Exchange Commission's first academic fellow, and worked in the Office of International Affairs.\n\"I'm delighted to have the opportunity to join the Milken Institute, particularly at this point in time, when one sees the need for a more focused, less ideological policy discussion on financial markets and their role in society,\" Brummer said. \"No other institution brings to the table the energy and creative thinking required for tackling the emerging challenges of the modern financial marketplace.\"\nBrummer's research has appeared in many of the country's most prestigious journals, including the California Law Review, the University of Chicago Law Review, the Georgetown Law Journal, the Southern California Law Review and the Vanderbilt Law Review. He periodically serves as an expert on NASDAQ hearings panels on de-listings.\nBrummer lectures widely on finance and global governance at universities. His book, \"Soft Law and the Global Financial System,\" will be published later this year by Cambridge University Press. He earned his J.D. from Columbia Law School, where he graduated with honors, and holds a Ph.D. in Germanic studies from the University of Chicago.",
+    "summary": null,
+    "summary_processed": ""
+}

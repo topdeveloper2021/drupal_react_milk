@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/would-big-hike-minimum-wage-destroy-jobs-not-so-argues-alan-manning-latest-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 77
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0b4437ed-2d2e-4589-83f8-27a39ac44c31"
+        }
+    ],
+    "vid": [
+        {
+            "value": 77
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Would a big hike in minimum wage destroy jobs?  Not so, argues Alan Manning in the latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/would-big-hike-minimum-wage-destroy-jobs-not-so-argues-alan-manning-latest-milken-institute",
+            "pid": 130,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES -- Economist Alan Manning of the London School of Economics takes on the conventional wisdom that President Obama's proposed $9 minimum wage will price unskilled workers out of the market. The latest research, he says, suggests that a government-mandated increase would actually create jobs. Yet, \"faced with a conflict between the evidence and 20th century economic models, many economists reject the evidence rather than the theory.<br>?Also in this issue:Nicholas Lardy and Nicholas Borst of the Peterson Institute for International Economics outline the daunting challenges China now faces in redirecting its economy from an exports-as-usual strategy to consumption-friendly growth. \" conventional wisdom that vested interests have strangled change over the past decade,<br>? they write. \"But the interest-group barrier argument is less clear-cut with respect to the key reforms for rebalancing.<br>?Jim Barth andPenny Prabha of the Milken Institute recount the tale of how the Federal Reserve accumulated more than $3 trillion in assorted securities in an effort to increase global liquidity\u2014 and how that cache is creating unprecedented problems as the Fed ponders when and how to reverse course.Michael Levi of the Council on Foreign Relations lays out the technology and economics behind the resurgence in natural gas and speculates on the global impact. \"In principle,<br>? he writes, the gas boom \"could turn geopolitics on its head.<br>? Poland, for example, has more than 300 times as much natural gas locked in shale as it consumes every year, while Chinese resources add up to more than 400 times annual consumption. If even a modest fraction were brought into production, their dependence on the Russian bear would evaporate.Anna Pomeranets of the Bank of Canada weighs the case for the Europe Union's coming tax on financial transactions, and finds it wanting. \"FTTs are seductive because they promise to reduce market volatility, even as they raise revenues by taking a tiny slice out of vast numbers of transactions,<br>? she explains. But the evidence just doesn't offer good reasons to expect that the tax will do the job.Greg Rushford, publisher of the online journal, \"The Rushford Report,<br>? explains how supply-chain manufacturing have made reflexively protectionist interest groups their own worst enemies. \"Rapidly evolving trade patterns have scrambled who does and who doesn't benefit from imports,<br>? he notes, \"putting many opponents of open trade in the position of undermining their constituents' long-term interests.<br>?John Rosenthal, a California-based writer, analyzes the method behind the madness that has morphed small-market baseball franchises into pots of gold and led an investor group to pay a record-shattering $2.15 billion for the large-market Los Angeles Dodgers. Television, he writes, \"is (once again) transforming the economics of professional sports.<br>?The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&ID=38801424&cat=mir, where you can also download the app for iPhone and iPad.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES -- Economist Alan Manning of the London School of Economics takes on the conventional wisdom that President Obama's proposed $9 minimum wage will price unskilled workers out of the market. The latest research, he says, suggests that a government-mandated increase would actually create jobs. Yet, \"faced with a conflict between the evidence and 20th century economic models, many economists reject the evidence rather than the theory.<br \/>?Also in this issue:Nicholas Lardy and Nicholas Borst of the Peterson Institute for International Economics outline the daunting challenges China now faces in redirecting its economy from an exports-as-usual strategy to consumption-friendly growth. \" conventional wisdom that vested interests have strangled change over the past decade,<br \/>? they write. \"But the interest-group barrier argument is less clear-cut with respect to the key reforms for rebalancing.<br \/>?Jim Barth andPenny Prabha of the Milken Institute recount the tale of how the Federal Reserve accumulated more than $3 trillion in assorted securities in an effort to increase global liquidity\u2014 and how that cache is creating unprecedented problems as the Fed ponders when and how to reverse course.Michael Levi of the Council on Foreign Relations lays out the technology and economics behind the resurgence in natural gas and speculates on the global impact. \"In principle,<br \/>? he writes, the gas boom \"could turn geopolitics on its head.<br \/>? Poland, for example, has more than 300 times as much natural gas locked in shale as it consumes every year, while Chinese resources add up to more than 400 times annual consumption. If even a modest fraction were brought into production, their dependence on the Russian bear would evaporate.Anna Pomeranets of the Bank of Canada weighs the case for the Europe Union's coming tax on financial transactions, and finds it wanting. \"FTTs are seductive because they promise to reduce market volatility, even as they raise revenues by taking a tiny slice out of vast numbers of transactions,<br \/>? she explains. But the evidence just doesn't offer good reasons to expect that the tax will do the job.Greg Rushford, publisher of the online journal, \"The Rushford Report,<br \/>? explains how supply-chain manufacturing have made reflexively protectionist interest groups their own worst enemies. \"Rapidly evolving trade patterns have scrambled who does and who doesn't benefit from imports,<br \/>? he notes, \"putting many opponents of open trade in the position of undermining their constituents' long-term interests.<br \/>?John Rosenthal, a California-based writer, analyzes the method behind the madness that has morphed small-market baseball franchises into pots of gold and led an investor group to pay a record-shattering $2.15 billion for the large-market Los Angeles Dodgers. Television, he writes, \"is (once again) transforming the economics of professional sports.<br \/>?The Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=detail&amp;ID=38801424&amp;cat=mir, where you can also download the app for iPhone and iPad.",
+    "summary": null,
+    "summary_processed": ""
+}

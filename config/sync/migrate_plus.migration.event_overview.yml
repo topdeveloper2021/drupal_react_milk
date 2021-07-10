@@ -1,0 +1,132 @@
+uuid: 33d85835-bab8-42b9-81b3-e25cb3a9495c
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: event_overview
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - media
+migration_group: milken
+label: 'migrate event paragraph data for the OVERVIEW tab'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/node/event'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/node/event
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - field_4_tile_section_1
+    - field_event_live_info
+    - field_event_overview_image
+    - field_event_pp_image
+    - field_event_featured_content
+    - field_event_header_image
+    - field_event_image
+    - field_event_program
+    - field_event_related_videos
+    - field_event_sponsors
+    - field_term_program_initiatives
+  fields:
+    -
+      name: grid_event_id
+      label: 'Grid Event ID'
+      selector: /field_grid_event_id
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: name
+      label: name
+      selector: /name
+    -
+      name: title
+      label: title
+      selector: /title
+    -
+      name: langcode
+      label: 'Language Code'
+      selector: /langcode
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: status
+      label: Status
+      selector: /status
+    -
+      name: field_4_tile_section_1
+      label: field_4_tile_section_1
+      selector: /field_4_tile_section_1
+    -
+      name: field_event_live_info
+      label: field_event_live_info
+      selector: /field_event_live_info
+    -
+      name: field_event_overview_image
+      label: field_event_overview_image
+      selector: /field_event_overview_image
+    -
+      name: field_event_pp_image
+      label: field_event_pp_image
+      selector: /field_event_pp_image
+    -
+      name: field_event_featured_content
+      label: field_event_featured_content
+      selector: field_event_featured_content
+    -
+      name: field_event_header_image
+      label: field_event_header_image
+      selector: /field_event_header_image
+    -
+      name: field_event_image
+      label: field_event_image
+      selector: /field_event_image
+    -
+      name: field_event_program
+      label: field_event_program
+      selector: /field_event_program
+    -
+      name: field_event_related_videos
+      label: field_event_related_videos
+      selector: /field_event_related_videos
+    -
+      name: field_event_sponsors
+      label: field_event_sponsors
+      selector: /field_event_sponsors
+    -
+      name: field_term_program_initiatives
+      label: field_term_program_initiatives
+      selector: /field_term_program_initiatives
+  constants:
+    source_url_base: 'https://milkeninstitute.org'
+  ids:
+    grid_event_id:
+      type: string
+process:
+  field_grid_event_id: grid_event_id
+  langcode:
+    plugin: default_value
+    default_value: en
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  status:
+    plugin: default_value
+    default_value: true
+destination:
+  plugin: 'milken_migrate:event'
+migration_dependencies: {  }

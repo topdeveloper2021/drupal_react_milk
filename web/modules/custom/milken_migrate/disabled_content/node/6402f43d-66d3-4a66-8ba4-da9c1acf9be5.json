@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/help-nepal-needs?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/160?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 788
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6402f43d-66d3-4a66-8ba4-da9c1acf9be5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 788
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/160?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ee7a3f56-cb4c-44a6-8867-ad99785485fd"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Help Nepal Needs",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T22:42:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:48:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/help-nepal-needs",
+            "pid": 841,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The world responded to Nepal\u2019s April 25 earthquake and May 12 aftershock with compassion, and rightly so. The Himalayan nation needs massive help to treat the wounded and shelter the homeless. The international community, including the World Bank, Asian Development Bank, USAID and numerous other aid agencies have delivered more than $280 million in immediate assistance, as well as vital medical and logistics support. However, the magnitude of the need must not blind us to the danger of aid setting back Nepal\u2019s development. Well-intentioned assistance by donor nations and international aid organizations make things worse in the long run if they discourage entrepreneurship and self-reliance. This is a point that\u00a0Tenzing Norgay,\u00a0the first man to climb Mount Everest along withEdmund Hillary\u00a062 years ago, often made. \u201cNo man, on a mountain or elsewhere, gets more out of anything than he puts into it,\u201d he said. Short-term charity and aid must not undercut and delay the long-term power of local markets to create jobs and wealth. The international response to the earthquake that struck Haiti in January 2010 made this mistake. In a June 2011 working paper for the Organization for Economic Cooperation and Development,\u00a0Jonathan Patrick\u00a0wrote that a greater focus on private-sector support to the humanitarian response in Haiti from day one could have accelerated the recovery process. It also could have made the immediate humanitarian response more robust and cost-effective. This is equally true for Nepal. So what can the international community do to ensure its response to this latest natural disaster does not undermine Nepal\u2019s struggling private sector and its long-term success? First, aid delivery must recognize and leverage the innate resilience of the people of Nepal. As in Haiti, the first responders in Nepal were its own citizens. Nepalese took the lead in digging out the vast majority of people from collapsed houses and buildings, and made the immediate decisions on how best to save lives, what to recover and what needed to be done in the hours before international search-and-rescue teams arrived. Villages and households in devastated communities retain capacities and resilience that should not be undercut. As rebuilding moves forward, meaningful engagement with community and civic leaders, as well as business owners including of small-scale shops, restaurants and other enterprises, will be vital. The quality and timeliness of results will benefit from such on-the-ground engagement and understanding of local context and capacity. Second, aid providers and policy makers must be cognizant of the unintended side effects on Nepal\u2019s economy and society of any extended provision of free, imported humanitarian goods and services. Outside procurement without due consideration for the local market should give way to sourcing relatively less expensive goods and services in Nepal, as feasible. Employing individuals from local communities is also a means of providing short-term livelihoods and building longer-term capacity. One noteworthy example is the United Nations World Food Program\u2019s decision to hire unemployed porters to deliver food and other assistance to an estimated 100,000 people in remote, high-altitude areas that cannot be reached by road. The drop in tourism after the earthquake left many porters out of work. Third, and most critically, those who seek to assist Nepal, including the country\u2019s own leaders, must create a more conducive environment for business growth and private-sector investment. Bureaucracy and corruption sapped the spirit of the people of Nepal well before the earthquake. Rebuilding a nation that was already in crisis can only begin when the government acts with a sense of urgency and clears the path for its citizens to innovate and succeed. In the Sherpa village of Thame in the Solo Khumbu region just below Everest, where Tenzing Norgay spent much of his childhood, the devastation is evident. More than 90% of the houses are now uninhabitable, and many individuals there, including our own friends and Norgay family members, are currently living in tents. \u201cBe great, make others great,\u201d said Tenzing Norgay in capturing the essence of teamwork that helped get him and Hillary to the top of Everest. There will be much talk by the international aid community of a commitment to team with Nepal to help the nation rebuild and to do so without rebuilding vulnerability. Such assistance is appreciated. But the nation\u2019s development track record makes clear that even the most well-intended aid programs alone can\u2019t solve Nepal\u2019s enduring problems. Until business drives growth, a reliance on good intentions will remain one of Nepal\u2019s biggest mountains to overcome. <i>Mr. Chin, a former U.S. ambassador to the Asian Development Bank, is the managing director of advisory firm RiverPeak Group, LLC. Dhamey Norgay is the youngest son of Tenzing Norgay and the owner of the Noble Traveller, a family-run adventure travel company in Bhutan.<\/i> <i>This article originally appeared in the\u00a0Wall Street Journal\u00a0on June 3, 2015.<\/i>",
+    "format": "rich_text",
+    "processed": "The world responded to Nepal\u2019s April 25 earthquake and May 12 aftershock with compassion, and rightly so. The Himalayan nation needs massive help to treat the wounded and shelter the homeless. The international community, including the World Bank, Asian Development Bank, USAID and numerous other aid agencies have delivered more than $280 million in immediate assistance, as well as vital medical and logistics support. However, the magnitude of the need must not blind us to the danger of aid setting back Nepal\u2019s development. Well-intentioned assistance by donor nations and international aid organizations make things worse in the long run if they discourage entrepreneurship and self-reliance. This is a point that\u00a0Tenzing Norgay,\u00a0the first man to climb Mount Everest along withEdmund Hillary\u00a062 years ago, often made. \u201cNo man, on a mountain or elsewhere, gets more out of anything than he puts into it,\u201d he said. Short-term charity and aid must not undercut and delay the long-term power of local markets to create jobs and wealth. The international response to the earthquake that struck Haiti in January 2010 made this mistake. In a June 2011 working paper for the Organization for Economic Cooperation and Development,\u00a0Jonathan Patrick\u00a0wrote that a greater focus on private-sector support to the humanitarian response in Haiti from day one could have accelerated the recovery process. It also could have made the immediate humanitarian response more robust and cost-effective. This is equally true for Nepal. So what can the international community do to ensure its response to this latest natural disaster does not undermine Nepal\u2019s struggling private sector and its long-term success? First, aid delivery must recognize and leverage the innate resilience of the people of Nepal. As in Haiti, the first responders in Nepal were its own citizens. Nepalese took the lead in digging out the vast majority of people from collapsed houses and buildings, and made the immediate decisions on how best to save lives, what to recover and what needed to be done in the hours before international search-and-rescue teams arrived. Villages and households in devastated communities retain capacities and resilience that should not be undercut. As rebuilding moves forward, meaningful engagement with community and civic leaders, as well as business owners including of small-scale shops, restaurants and other enterprises, will be vital. The quality and timeliness of results will benefit from such on-the-ground engagement and understanding of local context and capacity. Second, aid providers and policy makers must be cognizant of the unintended side effects on Nepal\u2019s economy and society of any extended provision of free, imported humanitarian goods and services. Outside procurement without due consideration for the local market should give way to sourcing relatively less expensive goods and services in Nepal, as feasible. Employing individuals from local communities is also a means of providing short-term livelihoods and building longer-term capacity. One noteworthy example is the United Nations World Food Program\u2019s decision to hire unemployed porters to deliver food and other assistance to an estimated 100,000 people in remote, high-altitude areas that cannot be reached by road. The drop in tourism after the earthquake left many porters out of work. Third, and most critically, those who seek to assist Nepal, including the country\u2019s own leaders, must create a more conducive environment for business growth and private-sector investment. Bureaucracy and corruption sapped the spirit of the people of Nepal well before the earthquake. Rebuilding a nation that was already in crisis can only begin when the government acts with a sense of urgency and clears the path for its citizens to innovate and succeed. In the Sherpa village of Thame in the Solo Khumbu region just below Everest, where Tenzing Norgay spent much of his childhood, the devastation is evident. More than 90% of the houses are now uninhabitable, and many individuals there, including our own friends and Norgay family members, are currently living in tents. \u201cBe great, make others great,\u201d said Tenzing Norgay in capturing the essence of teamwork that helped get him and Hillary to the top of Everest. There will be much talk by the international aid community of a commitment to team with Nepal to help the nation rebuild and to do so without rebuilding vulnerability. Such assistance is appreciated. But the nation\u2019s development track record makes clear that even the most well-intended aid programs alone can\u2019t solve Nepal\u2019s enduring problems. Until business drives growth, a reliance on good intentions will remain one of Nepal\u2019s biggest mountains to overcome. <i>Mr. Chin, a former U.S. ambassador to the Asian Development Bank, is the managing director of advisory firm RiverPeak Group, LLC. Dhamey Norgay is the youngest son of Tenzing Norgay and the owner of the Noble Traveller, a family-run adventure travel company in Bhutan.<\/i> <i>This article originally appeared in the\u00a0Wall Street Journal\u00a0on June 3, 2015.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7046\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/5r20SPr-7uS8WqMsICH_ZRUtX4eSu9gJBHv305nX6zY.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7046
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b64a5828-61a8-4cda-9dfb-e32f7c97fcac"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2138
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/5r20SPr-7uS8WqMsICH_ZRUtX4eSu9gJBHv305nX6zY.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adf84273-b1a4-4984-b993-dd9690784bc8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Building Funds of Tomorrow: Technology and Talent in the Future of Asset Management",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T11:08:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-25T16:36:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "This year as asset managers find new investment opportunities that stay ahead of geopolitical uncertainty and market volatility, they are also developing new paths to scale and grow their firms. All the while, rapidly evolving new tools like artificial intelligence and predictive technologies are impacting the demands and requirements of the talent pool. How can fund managers pick the right strategies and people necessary to build a world-class investment team? How do fund managers view the relative role of humans versus computers in their business as new technologies continue to transform the investment industry? What are specific examples of how new technologies, including data analytics, have transformed strategies not only for investing but building out their company and brand? How can managers think about growing your business in the face of capacity constraints? What strategies can asset managers implement to maintain steady growth, even in times of geopolitical uncertainty? How do human capital issues like training and retaining the best talent, be solved? ",
+    "format": "rich_text",
+    "processed": "This year as asset managers find new investment opportunities that stay ahead of geopolitical uncertainty and market volatility, they are also developing new paths to scale and grow their firms. All the while, rapidly evolving new tools like artificial intelligence and predictive technologies are impacting the demands and requirements of the talent pool. How can fund managers pick the right strategies and people necessary to build a world-class investment team? How do fund managers view the relative role of humans versus computers in their business as new technologies continue to transform the investment industry? What are specific examples of how new technologies, including data analytics, have transformed strategies not only for investing but building out their company and brand? How can managers think about growing your business in the face of capacity constraints? What strategies can asset managers implement to maintain steady growth, even in times of geopolitical uncertainty? How do human capital issues like training and retaining the best talent, be solved? ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/d3obhvYr-_c",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/5r20SPr-7uS8WqMsICH_ZRUtX4eSu9gJBHv305nX6zY.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

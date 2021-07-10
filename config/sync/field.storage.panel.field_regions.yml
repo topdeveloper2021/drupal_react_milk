@@ -1,0 +1,20 @@
+uuid: e2b77c27-f0eb-499e-b7cd-2a6939a9777b
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - taxonomy
+id: panel.field_regions
+field_name: field_regions
+entity_type: panel
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

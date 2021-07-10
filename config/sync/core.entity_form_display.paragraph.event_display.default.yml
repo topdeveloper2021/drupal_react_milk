@@ -1,0 +1,54 @@
+uuid: 56df1096-0618-47ff-8899-282cfe79cbca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.event_display.field_display_program
+    - field.field.paragraph.event_display.field_display_speakers
+    - field.field.paragraph.event_display.field_grid_event_id
+    - field.field.paragraph.event_display.field_time_zone
+    - paragraphs.paragraphs_type.event_display
+id: paragraph.event_display.default
+targetEntityType: paragraph
+bundle: event_display
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_display_program:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_display_speakers:
+    weight: 4
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_grid_event_id:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_time_zone:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

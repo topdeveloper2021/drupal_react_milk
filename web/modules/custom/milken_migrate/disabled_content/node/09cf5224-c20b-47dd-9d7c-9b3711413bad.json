@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/xinhua-finance-and-milken-institute-launch-china-indicators?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 636
+        }
+    ],
+    "uuid": [
+        {
+            "value": "09cf5224-c20b-47dd-9d7c-9b3711413bad"
+        }
+    ],
+    "vid": [
+        {
+            "value": 636
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Xinhua Finance and Milken Institute Launch China Indicators",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:06:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/xinhua-finance-and-milken-institute-launch-china-indicators",
+            "pid": 689,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "SHANGHAI\/NEW YORK - Xinhua Finance Ltd. (TSE Mothers: 9399 and OTC: XHFNY) and the Milken Institute today released the first three of eight new economic indicators tracking China\u2032s financial markets. The three indicators, whose launch was announced at the US-China Executive Summit in New York, are aimed at providing investors, analysts and financial professionals with deeper insight into China\u2032s money and capital markets. According to the CEO of Xinhua Finance, Fredy Bush, they \"greatly demystify the Chinese macro economy by matching the rigor of the Milken Institute\u2032s empirical methodologies with the rigor of Xinhua Finance-compiled data.\" The first three of the Xinhua Finance\/Milken Institute China Indicators series objectively evaluate three important facets of China\u2032s economy: the currency market, the equity capital market and the debt capital market. They are: <b>Renminbi Pressure Indicator (RPI)<\/b>: The monthly RPI measures the appreciation pressure on the renminbi, mainly relative to the U.S. dollar, by combining data on exchange rates, foreign exchange reserves and interest rates. This indicator shows that upward pressure on China\u2032s currency increased 14.6 percent from July 2004 to July 2005, when the currency was revalued. In the 12 months since the revaluation, the pressure has slowed to 9.4 percent. <b>Chinese Initial Public Offering Indicator (IPO Indicator)<\/b>: The monthly IPO Indicator offers a summary of composition and performance changes in the Chinese IPO market, as measured by market capitalization. Its release coincides with resurging interest in Chinese new issuances, such as last month\u2032s record-breaking IPO of Industrial and Commercial Bank of China in Hong Kong and Shanghai. The indicator, composed of a monthly average of 102 companies, shows an 80 percent price appreciation in new issues from December 1997 to August 2006. <b>Market-Adjusted Debt Indicator (MAD Indicator)<\/b>: The quarterly MAD indicator focuses on China\u2032s debt capital market. It measures the capital structure of Chinese companies, using a long-term debt-to-equity ratio based on market value, instead of book value. It shows that, from 2001 to the first quarter of 2006, the amount of market debt outstanding increased from 6.6 cents to 22.2 cents for each dollar of equity capital, a 236 percent increase. This indicator finds that Chinese firms are underleveraged when compared with their counterparts in developed countries. Ms. Bush said that she is proud of Xinhua Finance and Milken Institute\u2032s unprecedented initiative toward delivering greater transparency and efficiency to the Chinese financial market. \"The indicators contribute more useful, quantitative ways of looking at China\u2032s financial markets. They advance our organizations\u2032 joint mission of facilitating market growth by laying the groundwork for the development of robust foreign exchange, corporate bond, equity and derivatives markets.\" Milken Institute President and CEO Michael L. Klowden agreed that the indicators are an important new tool to help understand China\u2032s markets. \"The three indicators will benefit a wide set of market participants as they can be used as effective tools to judge and assess market circumstances and movements in support of investment decision-making,\" he said. Xinhua Finance, China's leading financial information and media organization, and the Milken Institute, one of the world\u2032s leading economic and financial research think tanks, agreed in April to create a set of eight new economic indicators tracking China\u2032s markets. The indicators use Xinhua Finance\u2032s extensive local data-gathering capabilities in the production process and the Milken Institute\u2032s expertise and established methodologies for capital-market research. The other five indicators to be launched in 2007 are the Chinese Banking Sector Indicator, the Chinese Mergers and Acquisitions Indicator, the Chinese Privatization and Joint Venture Indicator, the Chinese Corporate Governance Indicator and the Trade Openness Indicator. For more information, go to www.xinhuafinance.com\/indicators or www.milkeninstitute.org\/chinaindicators. <b>Contact information for Xinhua Finance: Xinhua Finance<\/b>\nChina<b>\nMs. Joy Tsang, +8621-6113-5999, +852-948-64363, joy.tsang@xinhuafinance.com Japan<br>\nMr. Jiong Sun, +81-3-3221-9500, jsun@xinhuafinance.com <b>Taylor Rafferty<\/b> (Media contact for Xinhua Finance)\nJapan <b>\nMr. James Hawrylak, +81-3-5733-2621, James.hawrylak@taylor-rafferty.com United States<br>\nMs. Ishviene Arora, +1 212 889 4350, ishviene.arora@taylor-rafferty.com Europe<br>\nMr. John Dudzinsky, +44 20 7614 2900, John.Dudzinsky@taylor-rafferty.co.uk <b>About Xinhua Finance Limited<\/b>\nXinhua Finance Limited is China\u2032s unchallenged leader in financial information and media, and is listed on the Mothers board of the Tokyo Stock Exchange (symbol: 9399) (OTC ADRs: XHFNY). Bridging China\u2032s financial markets and the world, Xinhua Finance serves financial institutions, corporations and re-distributors through four focused and complementary service lines: Indices, Ratings, Financial News and Investor Relations. Founded in November 1999, the Company is headquartered in Shanghai with 20 news bureaus and offices in 19 locations across Asia, Australia, North America and Europe. For more information, please visit www.xinhuafinance.com. <b>Information for Milken Institute:<\/b>",
+    "format": "rich_text",
+    "processed": "SHANGHAI\/NEW YORK - Xinhua Finance Ltd. (TSE Mothers: 9399 and OTC: XHFNY) and the Milken Institute today released the first three of eight new economic indicators tracking China\u2032s financial markets. The three indicators, whose launch was announced at the US-China Executive Summit in New York, are aimed at providing investors, analysts and financial professionals with deeper insight into China\u2032s money and capital markets. According to the CEO of Xinhua Finance, Fredy Bush, they \"greatly demystify the Chinese macro economy by matching the rigor of the Milken Institute\u2032s empirical methodologies with the rigor of Xinhua Finance-compiled data.\" The first three of the Xinhua Finance\/Milken Institute China Indicators series objectively evaluate three important facets of China\u2032s economy: the currency market, the equity capital market and the debt capital market. They are: <b>Renminbi Pressure Indicator (RPI)<\/b>: The monthly RPI measures the appreciation pressure on the renminbi, mainly relative to the U.S. dollar, by combining data on exchange rates, foreign exchange reserves and interest rates. This indicator shows that upward pressure on China\u2032s currency increased 14.6 percent from July 2004 to July 2005, when the currency was revalued. In the 12 months since the revaluation, the pressure has slowed to 9.4 percent. <b>Chinese Initial Public Offering Indicator (IPO Indicator)<\/b>: The monthly IPO Indicator offers a summary of composition and performance changes in the Chinese IPO market, as measured by market capitalization. Its release coincides with resurging interest in Chinese new issuances, such as last month\u2032s record-breaking IPO of Industrial and Commercial Bank of China in Hong Kong and Shanghai. The indicator, composed of a monthly average of 102 companies, shows an 80 percent price appreciation in new issues from December 1997 to August 2006. <b>Market-Adjusted Debt Indicator (MAD Indicator)<\/b>: The quarterly MAD indicator focuses on China\u2032s debt capital market. It measures the capital structure of Chinese companies, using a long-term debt-to-equity ratio based on market value, instead of book value. It shows that, from 2001 to the first quarter of 2006, the amount of market debt outstanding increased from 6.6 cents to 22.2 cents for each dollar of equity capital, a 236 percent increase. This indicator finds that Chinese firms are underleveraged when compared with their counterparts in developed countries. Ms. Bush said that she is proud of Xinhua Finance and Milken Institute\u2032s unprecedented initiative toward delivering greater transparency and efficiency to the Chinese financial market. \"The indicators contribute more useful, quantitative ways of looking at China\u2032s financial markets. They advance our organizations\u2032 joint mission of facilitating market growth by laying the groundwork for the development of robust foreign exchange, corporate bond, equity and derivatives markets.\" Milken Institute President and CEO Michael L. Klowden agreed that the indicators are an important new tool to help understand China\u2032s markets. \"The three indicators will benefit a wide set of market participants as they can be used as effective tools to judge and assess market circumstances and movements in support of investment decision-making,\" he said. Xinhua Finance, China's leading financial information and media organization, and the Milken Institute, one of the world\u2032s leading economic and financial research think tanks, agreed in April to create a set of eight new economic indicators tracking China\u2032s markets. The indicators use Xinhua Finance\u2032s extensive local data-gathering capabilities in the production process and the Milken Institute\u2032s expertise and established methodologies for capital-market research. The other five indicators to be launched in 2007 are the Chinese Banking Sector Indicator, the Chinese Mergers and Acquisitions Indicator, the Chinese Privatization and Joint Venture Indicator, the Chinese Corporate Governance Indicator and the Trade Openness Indicator. For more information, go to www.xinhuafinance.com\/indicators or www.milkeninstitute.org\/chinaindicators. <b>Contact information for Xinhua Finance: Xinhua Finance<\/b>\nChina<b>\nMs. Joy Tsang, +8621-6113-5999, +852-948-64363, joy.tsang@xinhuafinance.com Japan<br \/>\nMr. Jiong Sun, +81-3-3221-9500, jsun@xinhuafinance.com <b>Taylor Rafferty<\/b> (Media contact for Xinhua Finance)\nJapan <b>\nMr. James Hawrylak, +81-3-5733-2621, James.hawrylak@taylor-rafferty.com United States<br \/>\nMs. Ishviene Arora, +1 212 889 4350, ishviene.arora@taylor-rafferty.com Europe<br \/>\nMr. John Dudzinsky, +44 20 7614 2900, John.Dudzinsky@taylor-rafferty.co.uk <b>About Xinhua Finance Limited<\/b>\nXinhua Finance Limited is China\u2032s unchallenged leader in financial information and media, and is listed on the Mothers board of the Tokyo Stock Exchange (symbol: 9399) (OTC ADRs: XHFNY). Bridging China\u2032s financial markets and the world, Xinhua Finance serves financial institutions, corporations and re-distributors through four focused and complementary service lines: Indices, Ratings, Financial News and Investor Relations. Founded in November 1999, the Company is headquartered in Shanghai with 20 news bureaus and offices in 19 locations across Asia, Australia, North America and Europe. For more information, please visit www.xinhuafinance.com. <b>Information for Milken Institute:<\/b><\/b><\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

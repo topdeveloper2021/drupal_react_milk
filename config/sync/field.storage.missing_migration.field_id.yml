@@ -1,0 +1,21 @@
+uuid: 4ab11ed1-f6be-407a-9e34-cb7e85d10648
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: missing_migration.field_id
+field_name: field_id
+entity_type: missing_migration
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

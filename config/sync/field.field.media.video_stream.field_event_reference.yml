@@ -1,0 +1,21 @@
+uuid: 68267bd1-cc06-4132-9ee4-1c3465bd2cc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_event_reference
+    - media.type.video_stream
+id: media.video_stream.field_event_reference
+field_name: field_event_reference
+entity_type: media
+bundle: video_stream
+label: 'Event Reference'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:event'
+  handler_settings: {  }
+field_type: entity_reference

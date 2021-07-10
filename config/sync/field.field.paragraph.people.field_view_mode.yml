@@ -1,0 +1,23 @@
+uuid: b9d3f5d0-0d21-4a5a-a8ea-b743872f3640
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.people
+  module:
+    - options
+id: paragraph.people.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: people
+label: 'View Mode'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: card
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/michael-bernick-outgoing-director-california-employment-development-department-joins-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 226
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9a4d7956-75bd-45e0-b690-ca392732b204"
+        }
+    ],
+    "vid": [
+        {
+            "value": 226
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Michael Bernick, Outgoing Director of the California Employment Development Department, Joins Milken Institute as a Research Fellow",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/michael-bernick-outgoing-director-california-employment-development-department-joins-milken",
+            "pid": 279,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Michael Bernick, the outgoing Director of the California Employment Development Department (EDD), will join the Milken Institute as a Research Fellow, focusing on job creation and workforce development projects. Bernick was the head of the 10,000-person EDD from early 1999 through last month. Bernick brings to the Institute more than 25 years of participation in local and state job-training projects in California. He is the author of three books on employment and economic development, and is currently writing The Director of Employment, which focuses on the key challenges facing employment and job-training practitioners. Chief among project areas will be skills upgrading for California's low-wage workforce, the next stages of welfare reform, non-governmental anti-poverty approaches and increasing employment among workers with disabilities. These are among the many issues that are a part of the Institute\u2032s core work, where job creation has been a major focus for more than a dozen years. Bernick also will be rejoining the HNTB Companies, the nationwide transportation and infrastructure firm, for which he served as counsel prior to his appointment at EDD. At HNTB, he will be involved in transit and highway projects in California and other states. Bernick, 51, is a graduate of Harvard College, Oxford University (Balliol College), and the Boalt Hall law school at the University of California, Berkeley.",
+    "format": "rich_text",
+    "processed": "Michael Bernick, the outgoing Director of the California Employment Development Department (EDD), will join the Milken Institute as a Research Fellow, focusing on job creation and workforce development projects. Bernick was the head of the 10,000-person EDD from early 1999 through last month. Bernick brings to the Institute more than 25 years of participation in local and state job-training projects in California. He is the author of three books on employment and economic development, and is currently writing The Director of Employment, which focuses on the key challenges facing employment and job-training practitioners. Chief among project areas will be skills upgrading for California's low-wage workforce, the next stages of welfare reform, non-governmental anti-poverty approaches and increasing employment among workers with disabilities. These are among the many issues that are a part of the Institute\u2032s core work, where job creation has been a major focus for more than a dozen years. Bernick also will be rejoining the HNTB Companies, the nationwide transportation and infrastructure firm, for which he served as counsel prior to his appointment at EDD. At HNTB, he will be involved in transit and highway projects in California and other states. Bernick, 51, is a graduate of Harvard College, Oxford University (Balliol College), and the Boalt Hall law school at the University of California, Berkeley.",
+    "summary": null,
+    "summary_processed": ""
+}

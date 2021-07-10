@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7844\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/G5ZhBNsgJyjVRtoHvTPld1dgAd2SmG6kaBr38-JYk70.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7844
+        }
+    ],
+    "uuid": [
+        {
+            "value": "283c13aa-733f-4dcb-a84f-0a1f95b2d836"
+        }
+    ],
+    "vid": [
+        {
+            "value": 501
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/G5ZhBNsgJyjVRtoHvTPld1dgAd2SmG6kaBr38-JYk70.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "632f4610-12a3-4a8f-a500-fdfbfc10015f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Infrastructure as an Asset Class",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T19:30:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The World Bank, the G-20 and other multilateral institutions are encouraging new investments to address the need for improvements in global infrastructure. Traditionally, countries have relied on project finance to cover the cost of building roads, power grids, communications networks and water systems. However, a growing interest in reliable, long-term investments is drawing attention to alternatives, such as publicly traded funds and public-private partnerships, which can attract a wider variety of investors. The search is prompting some to ask if infrastructure will become the newest asset class. What are the challenges to creating bankable infrastructure projects around the world? And what are the best practices for accelerating growth of infrastructure investments as an asset class and reduce uncertainty regarding projects? Join us as leaders in infrastructure share their outlook and discuss where infrastructure fits in their portfolios.",
+    "format": "rich_text",
+    "processed": "The World Bank, the G-20 and other multilateral institutions are encouraging new investments to address the need for improvements in global infrastructure. Traditionally, countries have relied on project finance to cover the cost of building roads, power grids, communications networks and water systems. However, a growing interest in reliable, long-term investments is drawing attention to alternatives, such as publicly traded funds and public-private partnerships, which can attract a wider variety of investors. The search is prompting some to ask if infrastructure will become the newest asset class. What are the challenges to creating bankable infrastructure projects around the world? And what are the best practices for accelerating growth of infrastructure investments as an asset class and reduce uncertainty regarding projects? Join us as leaders in infrastructure share their outlook and discuss where infrastructure fits in their portfolios.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/lqBuOPIwB1w",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/G5ZhBNsgJyjVRtoHvTPld1dgAd2SmG6kaBr38-JYk70.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

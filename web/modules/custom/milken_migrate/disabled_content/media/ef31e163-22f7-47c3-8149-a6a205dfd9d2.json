@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7400\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Q_V_73HHqYgRi2N2OPVRAR0K0bsEbYCTmaZ4BPmGsHw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7400
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ef31e163-22f7-47c3-8149-a6a205dfd9d2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2261
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Q_V_73HHqYgRi2N2OPVRAR0K0bsEbYCTmaZ4BPmGsHw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2460202-ca17-4a58-8619-64644741c9f0"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Businesses That Thrive Through Diversity and Inclusion",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-13T13:55:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:29:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The 21st century workplace is a place of change. More businesses are taking a stand on issues that matter to their employees and their customers. Companies and their employees must develop the new skills needed to succeed while also instilling an intergenerational workforce with a deeper appreciation for and understanding of diversity. This interactive panel will bring together leaders across industries to discuss how to build an engaged and diverse workforce that capitalizes on individual contributions to build organizational strength.<br><br>What tools or strategies do businesses use to engage employees?<br>Why do companies with a diverse workforce thrive?<br>What's distinctive about campaigns that take on major issues effectively?<br>What are the success factors and traps corporate leaders should be aware of?",
+    "format": "rich_text",
+    "processed": "The 21st century workplace is a place of change. More businesses are taking a stand on issues that matter to their employees and their customers. Companies and their employees must develop the new skills needed to succeed while also instilling an intergenerational workforce with a deeper appreciation for and understanding of diversity. This interactive panel will bring together leaders across industries to discuss how to build an engaged and diverse workforce that capitalizes on individual contributions to build organizational strength.<br \/><br \/>What tools or strategies do businesses use to engage employees?<br \/>Why do companies with a diverse workforce thrive?<br \/>What's distinctive about campaigns that take on major issues effectively?<br \/>What are the success factors and traps corporate leaders should be aware of?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/NGK7tbBg6Oc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/Q_V_73HHqYgRi2N2OPVRAR0K0bsEbYCTmaZ4BPmGsHw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

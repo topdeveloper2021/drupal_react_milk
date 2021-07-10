@@ -1,0 +1,20 @@
+uuid: 6d264acb-5c0d-47de-86d4-6d92fbfb1988
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - taxonomy
+id: people.field_teams
+field_name: field_teams
+entity_type: people
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

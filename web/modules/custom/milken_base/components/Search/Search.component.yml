@@ -1,0 +1,34 @@
+name: 'Search'
+machine_name: Search
+description: 'Search react component'
+type: block
+core_version_requirement:  ^8 || ^9
+js:
+  'Search.entry.js': { }
+cache:
+  max-age: 60
+
+
+
+form_configuration:
+  id:
+    type: textfield
+    title: 'Id'
+  type:
+    type: textfield
+    title: 'Type'
+  view_mode:
+    type: textfield
+    title: 'View Mode'
+    default_value: 'accordion'
+  url:
+    type: textfield
+    title: 'Url'
+  tag:
+    type: textfield
+    title: 'html tag'
+    default_value: 'podcast-browser'
+  attach_library:
+    type: textfield
+    title: "Attach Library"
+    default_value: "milken_base/Search"

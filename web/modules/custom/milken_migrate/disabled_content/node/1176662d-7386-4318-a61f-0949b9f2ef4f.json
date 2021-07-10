@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-october-30-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/130?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 758
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1176662d-7386-4318-a61f-0949b9f2ef4f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 758
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/130?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3b571664-0f97-4f0f-b8d8-de9859bf4e14"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus October 30, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-30T12:09:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:18:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-october-30-2018",
+            "pid": 811,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech Revenue Models The Omidyar Network and Oliver Wyman are out with a report on FinTech revenue models, highlighting the importance of revenue models in building consumer trust. Leaving credit-led revenue models aside, the report identifies three primary models associated with consumers themselves, third-party sellers, and third-party beneficiaries as payers. Of the firms reviewed for the report, 65 percent of them use the consumer pay approach. However, many firms had more than one revenue source, and the report found that, on average, those firms received twice as much funding from investors. The report goes on to break down these categories even further, as well as to highlight case studies in each. For those with a policy mindset, it\u2019s worth reading this report alongside one from Accenture discussing four archetypal business models for retail and commercial banks in the future. To the extent these FinTech and banking models interact with each other, one can\u2019t help but wonder who will own the customer relationship in the future. <br \/> <i>Sources: The Omidyar Network and Oliver Wyman, \u201cBreaking New Ground in FinTech\u201d; Accenture, \u201cBeyond North Star Gazing\u201d<\/i> Industry Headlines <i>AltFi:<\/i> Two new bank partnerships caught our eye this week. First, PNC and OnDeck announced a new partnership for small business lending last week. Starting in 2019, businesses will be able to apply for lines of credit up to $100,000 on PNC\u2019s website and receive a response within minutes. Second, HSBC announced the launch of a consumer lending platform powered by Avant. HSBC\u2019s last foray into consumer lending in the U.S. didn\u2019t go so well; it was forced to swallow a $10.6 billion loss in 2009. Elsewhere, LendUp is reportedly splitting off its credit card business from its lending business, and Affirm chose Pittsburgh as the location of its second headquarters. <i>Data Intermediation:<\/i> Only a week after the launch of the Financial Data Exchange, JPMorgan signed an agreement with Plaid to allow secure access to customer data using APIs. This is big news in the FinTech world, as Plaid counts Acorns, PayPal, and Robinhood as customers. Banks and aggregators aren\u2019t the only ones with open banking on their minds, however. IBM announced the launch of an open banking platform for financial institutions last week, with the initial rollout planned for the EU market. <i>Digital Banking:<\/i> There was mixed news in the digital banking world last week. To start with the good news, Revolut announced it has 20,000 Australians on a waiting list. The challenger bank plans to launch down under before the end of the year. When they do so, however, one hopes their customer acquisition strategy differs from the one they recently employed (ahem) in Spain. I refer to a story last week about Revolut\u2019s interview process for business development roles, which apparently required prospective employees to recruit 200 new customers for Revolut before they were even hired. That\u2019s a particularly terrible look in Spain, where the unemployment rate is 15 percent and disgust with banks is near universal. Elsewhere, WirtschaftsWoche reports that opening a bank account with N26 is possible with even the most childish of fake identification. N26 was already facing an inquiry from Germany\u2019s Federal Financial Supervisory Authority (BaFin) over its use of selfies for identity verification. <i>Wealth Management:\u00a0<\/i>HSBC announced a partnership with Marstone to develop a robo-advisory service for customers with at least $5,000 in an IRA and $10,000 in discretionary accounts. The service is expected to launch next year. Global Developments <i>International:<\/i> The Financial Action Task Force (FATF), a standard setting body for anti-money laundering and counter-terrorism financing, is widening its standards to include cryptocurrency exchanges, wallets, and other service providers. The FATF said crypto firms should be required to perform due diligence, monitor transactions, and report suspicious activity. <i>European Union:<\/i> The European debate over how to tax big tech is gaining steam, and the idea seems to have caught on beyond Europe. Though only tangentially related to FinTech for the time being, the issue is worth keeping tabs on as it is likely to affect the entire tech industry in one way or another. This week, the United Kingdom announced a unilateral approach to taxing big tech, a move that will draw the ire of some American policymakers and add a new twist to the debate in continental Europe. <i>Barbados:<\/i> The Central Bank of Barbados and the Financial Services Commission jointly announced the launch of a regulatory sandbox in Barbados. <i>India:<\/i> While international tech firms compete for a piece of the Indian payments market, Indian regulators are competing to determine who gets to be the referee. The question is whether the Reserve Bank of India (RBI) or an independent Payments Regulatory Board (PRB) have the right to regulate transactions in the country. The Modi government has aligned itself with the latter approach, drawing a strong rebuke from the RBI. Meanwhile, the Indian government approved a joint FinTech working group between India and Singapore. <i>Ireland:<\/i> A speech by Gerry Cross, the Director of Policy and Risk at the Central Bank of Ireland, sounded positive on the Central Bank\u2019s Innovation Hub. According to Cross, payments and RegTech firms have been the most active in engaging with the Innovation Hub at this point. <i>Japan:<\/i> Masayoshi Amamiya, the Deputy Governor of the Bank of Japan, became the latest central banker to cast doubt on the idea of a central bank digital currency (CBDC) last week. Amamiya said the Bank of Japan is not planning on issuing a CBDC, and CBDCs cannot overcome the zero lower bound without getting rid of cash entirely. That would be a tall order for Japan, where cash is widely used. <i>Ukraine:<\/i> The National Bank of Ukraine published a white paper for public discussion on the regulation of the non-bank financial sector in the country. This comes as a bill is working its way through Ukrainian parliament that would transfer regulation of the sector to the central bank. <i>United Kingdom:<\/i> The U.K.\u2019s National Payments System Operator has rebranded itself as Pay.UK, and is seeking a partner to help it create the country\u2019s new payments infrastructure. Pay.UK\u2019s chief executive said, \u201cPublication of this prospectus is the launch pad for the delivery of this unique undertaking, representing a massive opportunity for potential partners to be involved in delivering the core of a next-generation retail payments ecosystem.\u201d Meanwhile, a Treasury Committee is calling on the Financial Conduct Authority to regulate small business lending and bolster its support for alternative finance. <i>United States:<\/i> In a widely anticipated move, the Conference of State Bank Supervisors (CSBS) is suing the Office of the Comptroller of the Currency (OCC) to prevent it from granting special purpose national bank (SPNB) charters to FinTech firms. This comes only a month after a similar lawsuit by the New York Department of Financial Services (NYDFS), and after the OCC announced their intentions to carry on with SPNB charters despite impending lawsuits. As a reminder, both CSBS and NYDFS have had their previous lawsuits on this matter dismissed. Whether or not that happens again, the lawsuits are hardly encouraging for FinTech firms who might be considering an application.",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech Revenue Models The Omidyar Network and Oliver Wyman are out with a report on FinTech revenue models, highlighting the importance of revenue models in building consumer trust. Leaving credit-led revenue models aside, the report identifies three primary models associated with consumers themselves, third-party sellers, and third-party beneficiaries as payers. Of the firms reviewed for the report, 65 percent of them use the consumer pay approach. However, many firms had more than one revenue source, and the report found that, on average, those firms received twice as much funding from investors. The report goes on to break down these categories even further, as well as to highlight case studies in each. For those with a policy mindset, it\u2019s worth reading this report alongside one from Accenture discussing four archetypal business models for retail and commercial banks in the future. To the extent these FinTech and banking models interact with each other, one can\u2019t help but wonder who will own the customer relationship in the future. <br \/><i>Sources: The Omidyar Network and Oliver Wyman, \u201cBreaking New Ground in FinTech\u201d; Accenture, \u201cBeyond North Star Gazing\u201d<\/i> Industry Headlines <i>AltFi:<\/i> Two new bank partnerships caught our eye this week. First, PNC and OnDeck announced a new partnership for small business lending last week. Starting in 2019, businesses will be able to apply for lines of credit up to $100,000 on PNC\u2019s website and receive a response within minutes. Second, HSBC announced the launch of a consumer lending platform powered by Avant. HSBC\u2019s last foray into consumer lending in the U.S. didn\u2019t go so well; it was forced to swallow a $10.6 billion loss in 2009. Elsewhere, LendUp is reportedly splitting off its credit card business from its lending business, and Affirm chose Pittsburgh as the location of its second headquarters. <i>Data Intermediation:<\/i> Only a week after the launch of the Financial Data Exchange, JPMorgan signed an agreement with Plaid to allow secure access to customer data using APIs. This is big news in the FinTech world, as Plaid counts Acorns, PayPal, and Robinhood as customers. Banks and aggregators aren\u2019t the only ones with open banking on their minds, however. IBM announced the launch of an open banking platform for financial institutions last week, with the initial rollout planned for the EU market. <i>Digital Banking:<\/i> There was mixed news in the digital banking world last week. To start with the good news, Revolut announced it has 20,000 Australians on a waiting list. The challenger bank plans to launch down under before the end of the year. When they do so, however, one hopes their customer acquisition strategy differs from the one they recently employed (ahem) in Spain. I refer to a story last week about Revolut\u2019s interview process for business development roles, which apparently required prospective employees to recruit 200 new customers for Revolut before they were even hired. That\u2019s a particularly terrible look in Spain, where the unemployment rate is 15 percent and disgust with banks is near universal. Elsewhere, WirtschaftsWoche reports that opening a bank account with N26 is possible with even the most childish of fake identification. N26 was already facing an inquiry from Germany\u2019s Federal Financial Supervisory Authority (BaFin) over its use of selfies for identity verification. <i>Wealth Management:\u00a0<\/i>HSBC announced a partnership with Marstone to develop a robo-advisory service for customers with at least $5,000 in an IRA and $10,000 in discretionary accounts. The service is expected to launch next year. Global Developments <i>International:<\/i> The Financial Action Task Force (FATF), a standard setting body for anti-money laundering and counter-terrorism financing, is widening its standards to include cryptocurrency exchanges, wallets, and other service providers. The FATF said crypto firms should be required to perform due diligence, monitor transactions, and report suspicious activity. <i>European Union:<\/i> The European debate over how to tax big tech is gaining steam, and the idea seems to have caught on beyond Europe. Though only tangentially related to FinTech for the time being, the issue is worth keeping tabs on as it is likely to affect the entire tech industry in one way or another. This week, the United Kingdom announced a unilateral approach to taxing big tech, a move that will draw the ire of some American policymakers and add a new twist to the debate in continental Europe. <i>Barbados:<\/i> The Central Bank of Barbados and the Financial Services Commission jointly announced the launch of a regulatory sandbox in Barbados. <i>India:<\/i> While international tech firms compete for a piece of the Indian payments market, Indian regulators are competing to determine who gets to be the referee. The question is whether the Reserve Bank of India (RBI) or an independent Payments Regulatory Board (PRB) have the right to regulate transactions in the country. The Modi government has aligned itself with the latter approach, drawing a strong rebuke from the RBI. Meanwhile, the Indian government approved a joint FinTech working group between India and Singapore. <i>Ireland:<\/i> A speech by Gerry Cross, the Director of Policy and Risk at the Central Bank of Ireland, sounded positive on the Central Bank\u2019s Innovation Hub. According to Cross, payments and RegTech firms have been the most active in engaging with the Innovation Hub at this point. <i>Japan:<\/i> Masayoshi Amamiya, the Deputy Governor of the Bank of Japan, became the latest central banker to cast doubt on the idea of a central bank digital currency (CBDC) last week. Amamiya said the Bank of Japan is not planning on issuing a CBDC, and CBDCs cannot overcome the zero lower bound without getting rid of cash entirely. That would be a tall order for Japan, where cash is widely used. <i>Ukraine:<\/i> The National Bank of Ukraine published a white paper for public discussion on the regulation of the non-bank financial sector in the country. This comes as a bill is working its way through Ukrainian parliament that would transfer regulation of the sector to the central bank. <i>United Kingdom:<\/i> The U.K.\u2019s National Payments System Operator has rebranded itself as Pay.UK, and is seeking a partner to help it create the country\u2019s new payments infrastructure. Pay.UK\u2019s chief executive said, \u201cPublication of this prospectus is the launch pad for the delivery of this unique undertaking, representing a massive opportunity for potential partners to be involved in delivering the core of a next-generation retail payments ecosystem.\u201d Meanwhile, a Treasury Committee is calling on the Financial Conduct Authority to regulate small business lending and bolster its support for alternative finance. <i>United States:<\/i> In a widely anticipated move, the Conference of State Bank Supervisors (CSBS) is suing the Office of the Comptroller of the Currency (OCC) to prevent it from granting special purpose national bank (SPNB) charters to FinTech firms. This comes only a month after a similar lawsuit by the New York Department of Financial Services (NYDFS), and after the OCC announced their intentions to carry on with SPNB charters despite impending lawsuits. As a reminder, both CSBS and NYDFS have had their previous lawsuits on this matter dismissed. Whether or not that happens again, the lawsuits are hardly encouraging for FinTech firms who might be considering an application.",
+    "summary": null,
+    "summary_processed": ""
+}

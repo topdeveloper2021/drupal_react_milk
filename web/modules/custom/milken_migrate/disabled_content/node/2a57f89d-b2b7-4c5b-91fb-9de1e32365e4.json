@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fastercures-mobilizes-next-phase-work-save-lives-improving-global-medical-rd-system?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 584
+        }
+    ],
+    "uuid": [
+        {
+            "value": "2a57f89d-b2b7-4c5b-91fb-9de1e32365e4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 584
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FasterCures mobilizes for next phase of work to save lives by improving  the global medical R&D system, launches health data initiative",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-22T10:47:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fastercures-mobilizes-next-phase-work-save-lives-improving-global-medical-rd-system",
+            "pid": 637,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON, October 22, 2018 \u2013 FasterCures, the Milken Institute center whose mission is to save lives by speeding medical breakthroughs to patients, is announcing new initiatives to engage the private sector, strengthen global partnerships and harness the power of data to save lives. The new direction for FasterCures was announced by executive director Tanisha Carino prior to the Milken Institute Future of Health Summit, which begins Tuesday, October 23 in Washington, D.C. Among other priorities, FasterCures is focusing on efforts to: Advance policies that break down regulatory and other barriers to getting scientific advances to patients more quickly; Identify incentives to increase private sector investments in biomedical R&D; Build global communities that expand capacity to treat disease; Put patients \u2013 and their health data \u2013 at the center of biomedical research and analysis. Groundbreaking cures require access to, and analysis of vast amounts of health data. Researchers face obstacles to collecting these data because medical providers often fail to share information with patients, or because patients distrust a system that does not explain how the data will be used or ensure its privacy and security. <i>Pictured (from left): Dan Mendelson, Founder, Avalere Health; Annalisa Jenkins, Chair, The Court of the London School of Hygiene & Tropical Medicine; Richard Merkin, CEO and Founder, Heritage Provider Network; Tanisha Carino, Executive Director, FasterCures; Shmuel Meitar, Founder and Principal, Aurec Group and Time to Know; Margaret Anderson, Managing Director, Deloitte Consulting LLP; and David Feinberg, President and CEO, Geisinger<\/i> FasterCures has created tools to help people understand what makes up their health data, how the information is collected and shared, and how it is used. The initiative is called \u201cHealth Data Basics.\u201d Today, the center called on partners to commit to health data principles that will improve patient access to \u2013 and motivate sharing of \u2013 medical information. \u201cReal progress against disease is possible if, and only if, medical researchers can access and analyze the vast amounts of genetic and environmental data collected about patients,\u201d Carino explains. \u201cTogether, we and our partners can identify best practices and advocate for policies that will help patients obtain their health information and share it in ways that benefit themselves and science.\u201d FasterCures also announced the creation of an advisory board comprising eminent medical researchers and industry executives that will help inform the center\u2019s work going forward. The board includes: <b>Amy Abernethy<\/b>, Chief Medical Officer, Chief Scientific Officer, and Senior Vice President, Oncology, Flatiron Health, Inc. <b>Margaret Anderson<\/b>, Managing Director, Deloitte Consulting LLP; <b>David Baltimore<\/b>, Nobel Laureate, President Emeritus, and Robert Andrews Millikan Professor of Biology, California Institute of Technology; <b>David Feinberg<\/b>, President and CEO, Geisinger; <b>Margaret Hamburg<\/b>, Foreign Secretary, National Academy of Medicine; President, American Association for the Advancement of Science; <b>Annalisa Jenkins<\/b>, Chair, The Court of the London School of Hygiene & Tropical Medicine; <b>Freda Lewis-Hall<\/b>, Executive Vice President and Chief Medical Officer, Pfizer; <b>Mark McClellan<\/b>, Director and Robert J. Margolis, MD, Professor of Business, Medicine and Policy, Duke-Margolis Center for Health Policy, Duke University; <b>Shmuel Meitar<\/b>, Founder and Principal, Aurec Group and Time to Know; <b>Dan Mendelson<\/b>, Founder, Avalere Health; <b>Richard Merkin<\/b>, CEO and Founder, Heritage Provider Network; and <b>Michael Milken<\/b>, Chairman, Milken Institute. \u201cWe are honored such a distinguished group of leaders is joining FasterCures in this important work,\u201d said Richard Ditizio, president of the Milken Institute. \u201cWith more than 10,000 diseases, but only about 500 treatments discovered to date, there is much work to do. The promise of technology along with the ability to access health data from millions of people can bring more cures within reach.\u201d These initiatives build on decades of efforts to strengthen investment in biomedical research and accelerate new products and therapies. FasterCures has also helped dozens of nonprofit patient organizations expand capacity and impact by using venture philanthropy. In recent years, FasterCures was actively engaged in efforts that led to the 21st Century Cures Act, working closely with Congress, federal agencies, and the advocacy community throughout its consideration and ultimate passage before becoming law in 2016. ",
+    "format": "rich_text",
+    "processed": "WASHINGTON, October 22, 2018 \u2013 FasterCures, the Milken Institute center whose mission is to save lives by speeding medical breakthroughs to patients, is announcing new initiatives to engage the private sector, strengthen global partnerships and harness the power of data to save lives. The new direction for FasterCures was announced by executive director Tanisha Carino prior to the Milken Institute Future of Health Summit, which begins Tuesday, October 23 in Washington, D.C. Among other priorities, FasterCures is focusing on efforts to: Advance policies that break down regulatory and other barriers to getting scientific advances to patients more quickly; Identify incentives to increase private sector investments in biomedical R&amp;D; Build global communities that expand capacity to treat disease; Put patients \u2013 and their health data \u2013 at the center of biomedical research and analysis. Groundbreaking cures require access to, and analysis of vast amounts of health data. Researchers face obstacles to collecting these data because medical providers often fail to share information with patients, or because patients distrust a system that does not explain how the data will be used or ensure its privacy and security. <i>Pictured (from left): Dan Mendelson, Founder, Avalere Health; Annalisa Jenkins, Chair, The Court of the London School of Hygiene &amp; Tropical Medicine; Richard Merkin, CEO and Founder, Heritage Provider Network; Tanisha Carino, Executive Director, FasterCures; Shmuel Meitar, Founder and Principal, Aurec Group and Time to Know; Margaret Anderson, Managing Director, Deloitte Consulting LLP; and David Feinberg, President and CEO, Geisinger<\/i> FasterCures has created tools to help people understand what makes up their health data, how the information is collected and shared, and how it is used. The initiative is called \u201cHealth Data Basics.\u201d Today, the center called on partners to commit to health data principles that will improve patient access to \u2013 and motivate sharing of \u2013 medical information. \u201cReal progress against disease is possible if, and only if, medical researchers can access and analyze the vast amounts of genetic and environmental data collected about patients,\u201d Carino explains. \u201cTogether, we and our partners can identify best practices and advocate for policies that will help patients obtain their health information and share it in ways that benefit themselves and science.\u201d FasterCures also announced the creation of an advisory board comprising eminent medical researchers and industry executives that will help inform the center\u2019s work going forward. The board includes: <b>Amy Abernethy<\/b>, Chief Medical Officer, Chief Scientific Officer, and Senior Vice President, Oncology, Flatiron Health, Inc. <b>Margaret Anderson<\/b>, Managing Director, Deloitte Consulting LLP; <b>David Baltimore<\/b>, Nobel Laureate, President Emeritus, and Robert Andrews Millikan Professor of Biology, California Institute of Technology; <b>David Feinberg<\/b>, President and CEO, Geisinger; <b>Margaret Hamburg<\/b>, Foreign Secretary, National Academy of Medicine; President, American Association for the Advancement of Science; <b>Annalisa Jenkins<\/b>, Chair, The Court of the London School of Hygiene &amp; Tropical Medicine; <b>Freda Lewis-Hall<\/b>, Executive Vice President and Chief Medical Officer, Pfizer; <b>Mark McClellan<\/b>, Director and Robert J. Margolis, MD, Professor of Business, Medicine and Policy, Duke-Margolis Center for Health Policy, Duke University; <b>Shmuel Meitar<\/b>, Founder and Principal, Aurec Group and Time to Know; <b>Dan Mendelson<\/b>, Founder, Avalere Health; <b>Richard Merkin<\/b>, CEO and Founder, Heritage Provider Network; and <b>Michael Milken<\/b>, Chairman, Milken Institute. \u201cWe are honored such a distinguished group of leaders is joining FasterCures in this important work,\u201d said Richard Ditizio, president of the Milken Institute. \u201cWith more than 10,000 diseases, but only about 500 treatments discovered to date, there is much work to do. The promise of technology along with the ability to access health data from millions of people can bring more cures within reach.\u201d These initiatives build on decades of efforts to strengthen investment in biomedical research and accelerate new products and therapies. FasterCures has also helped dozens of nonprofit patient organizations expand capacity and impact by using venture philanthropy. In recent years, FasterCures was actively engaged in efforts that led to the 21st Century Cures Act, working closely with Congress, federal agencies, and the advocacy community throughout its consideration and ultimate passage before becoming law in 2016. ",
+    "summary": null,
+    "summary_processed": ""
+}

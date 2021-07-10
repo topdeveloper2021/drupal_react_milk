@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+pv db/${BACKUP_FILE_NAME} | gunzip | mysql -u root --password=${MYSQL_ROOT_PASSWORD} -h $DB_HOST --port ${DB_PORT} ${DATABASE_NAME}

@@ -1,0 +1,21 @@
+uuid: 76496e0c-f788-4350-984b-efcff54731bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_devorganization
+field_name: field_devorganization
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

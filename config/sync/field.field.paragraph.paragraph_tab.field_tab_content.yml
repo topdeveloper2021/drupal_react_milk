@@ -1,0 +1,97 @@
+uuid: 63bb2ea0-35df-42bb-8066-b7a9d36e6f29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tab_content
+    - paragraphs.paragraphs_type.paragraph_tab
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: paragraph.paragraph_tab.field_tab_content
+field_name: field_tab_content
+entity_type: paragraph
+bundle: paragraph_tab
+label: 'Tab Content'
+description: 'Group content in order to show it conditionally i.e. based on URL path'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      paragraph_tab: paragraph_tab
+    target_bundles_drag_drop:
+      author:
+        weight: -43
+        enabled: false
+      block:
+        weight: -42
+        enabled: false
+      body_content:
+        weight: -41
+        enabled: false
+      content_tiles:
+        weight: -40
+        enabled: false
+      event_display:
+        weight: -45
+        enabled: false
+      event_tiles:
+        weight: -39
+        enabled: false
+      facet_explorer:
+        weight: -29
+        enabled: false
+      items_from_an_entityqueue:
+        weight: -38
+        enabled: false
+      link_bar:
+        weight: -28
+        enabled: false
+      media_tiles:
+        weight: -37
+        enabled: false
+      paragraph_tab:
+        enabled: true
+        weight: -36
+      people:
+        weight: -44
+        enabled: false
+      podcast_episode:
+        weight: -35
+        enabled: false
+      program_day:
+        weight: -27
+        enabled: false
+      pull_quote:
+        weight: -34
+        enabled: false
+      slide:
+        weight: -33
+        enabled: false
+      slide_tiles:
+        weight: -32
+        enabled: false
+      stats:
+        weight: -26
+        enabled: false
+      tiles_social:
+        weight: -25
+        enabled: false
+      tiles_sponsors:
+        weight: -24
+        enabled: false
+      tiles_taxonomy:
+        weight: -31
+        enabled: false
+      unmigrated_paragraph:
+        weight: -30
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,10 @@
+uuid: f91c7311-66a0-4eed-977a-3274917cbfd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.tabs
+label: Tabs
+targetEntityType: event
+cache: true

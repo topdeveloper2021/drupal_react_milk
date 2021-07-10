@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-research-director-glenn-yago-appointed-israeli-securities-authority?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 197
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c08a75b2-c00c-48a0-84c2-c80bf59231d7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 197
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Research Director Glenn Yago Appointed to Israeli Securities Authority Advisory Board",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-research-director-glenn-yago-appointed-israeli-securities-authority",
+            "pid": 250,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Glenn Yago, director of Capital Studies at the Milken Institute, has been appointed to the International Advisory Board of the Israel Securities Authority (ISA), the government body that oversees and regulates the Israeli capital market. The ISA serves the same function as the Securities and Exchange Commission in the United States. Yago joined key Israeli economic policy makers, including ISA Chairman Moshe Tery, Bank of Israel Gov. Stanley Fischer and Tel-Aviv Stock Exchange Chairman Yair Orgler, for the first meeting of the International Advisory Board in New York City today. Other board members from the U.S. include Leo Melamed, chairman emeritus of the Chicago Mercantile Exchange; Douglas Shulman of the National Association of Securities Dealers; Bill Brodsky, chairman of the Chicago Board Options Exchange; Milton Harris of the University of Chicago School of Business; and David Loglisci, deputy comptroller of the State of New York. Tery said that the International Advisory Board will help advance the goal to \"promote capital market activity and create more liquid and efficient financial markets through greater transparency, accountability and corporate governance.\" In appointing Yago, Tery said that he wanted the economist\u2032s experience and insight \"to help build the legal and economic infrastructure to advance Israel's capital markets and its standing as a venue for global investment.\" Yago is a leading authority on financial innovations and capital markets. Among his areas of interest are privatization projects to improve the economic climate in the Middle East. He has worked with municipal, government, business and academic leaders in the region to promote economic reform. He is a Senior Koret Knesset Fellow and teaches at Tel-Aviv University and the Interdisciplinary Center-Herzliya. He is the author of numerous books and studies, including The Economic Road Map: Beyond the Israeli-Palestinian Conflict (Milken Institute, 2005). \"The Milken Institute has long been focused on developing financial innovations and advocating for progressive legislative reform that will stimulate the Israeli capital markets,\" said Michael Klowden, president and CEO of the Institute. \"Economic growth and diversification will result in broad-based prosperity and a more independent, stable future for the State of Israel. We view the formation of this Advisory Board as a crucial step forward, and look forward to our continued work with Chairman Moshe Tery and the ISA.\"",
+    "format": "rich_text",
+    "processed": "Glenn Yago, director of Capital Studies at the Milken Institute, has been appointed to the International Advisory Board of the Israel Securities Authority (ISA), the government body that oversees and regulates the Israeli capital market. The ISA serves the same function as the Securities and Exchange Commission in the United States. Yago joined key Israeli economic policy makers, including ISA Chairman Moshe Tery, Bank of Israel Gov. Stanley Fischer and Tel-Aviv Stock Exchange Chairman Yair Orgler, for the first meeting of the International Advisory Board in New York City today. Other board members from the U.S. include Leo Melamed, chairman emeritus of the Chicago Mercantile Exchange; Douglas Shulman of the National Association of Securities Dealers; Bill Brodsky, chairman of the Chicago Board Options Exchange; Milton Harris of the University of Chicago School of Business; and David Loglisci, deputy comptroller of the State of New York. Tery said that the International Advisory Board will help advance the goal to \"promote capital market activity and create more liquid and efficient financial markets through greater transparency, accountability and corporate governance.\" In appointing Yago, Tery said that he wanted the economist\u2032s experience and insight \"to help build the legal and economic infrastructure to advance Israel's capital markets and its standing as a venue for global investment.\" Yago is a leading authority on financial innovations and capital markets. Among his areas of interest are privatization projects to improve the economic climate in the Middle East. He has worked with municipal, government, business and academic leaders in the region to promote economic reform. He is a Senior Koret Knesset Fellow and teaches at Tel-Aviv University and the Interdisciplinary Center-Herzliya. He is the author of numerous books and studies, including The Economic Road Map: Beyond the Israeli-Palestinian Conflict (Milken Institute, 2005). \"The Milken Institute has long been focused on developing financial innovations and advocating for progressive legislative reform that will stimulate the Israeli capital markets,\" said Michael Klowden, president and CEO of the Institute. \"Economic growth and diversification will result in broad-based prosperity and a more independent, stable future for the State of Israel. We view the formation of this Advisory Board as a crucial step forward, and look forward to our continued work with Chairman Moshe Tery and the ISA.\"",
+    "summary": null,
+    "summary_processed": ""
+}

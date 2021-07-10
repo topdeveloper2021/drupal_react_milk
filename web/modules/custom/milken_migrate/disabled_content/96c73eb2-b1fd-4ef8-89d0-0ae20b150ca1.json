@@ -1,0 +1,115 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/dev-milken-institute.pantheonsite.io\/admin\/structure\/menu\/item\/152\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/asia"
+        }
+    },
+    "id": [
+        {
+            "value": 152
+        }
+    ],
+    "uuid": [
+        {
+            "value": "96c73eb2-b1fd-4ef8-89d0-0ae20b150ca1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "asia"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Japan Symposium",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "Brings together the brightest minds and most influential figures to tackle critical geopolitical, economic, and social issues facing Japan",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "asia"
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/events\/japan-symposium-2019-0",
+            "title": "",
+            "options": []
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": true
+        }
+    ],
+    "weight": [
+        {
+            "value": -48
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:61123991-fe11-4521-987d-f8691aa87917"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-13T00:02:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "view_mode": [
+        {
+            "value": "default",
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "Node view | Milken Institute",
+                "twitter_cards_type": "summary_large_image",
+                "canonical_url": "http:\/\/dev-milken-institute.pantheonsite.io\/homepage",
+                "twitter_cards_site": "@MilkenInstitute",
+                "article_publisher": "https:\/\/www.facebook.com\/milkeninstitute\/"
+            }
+        }
+    ]
+}

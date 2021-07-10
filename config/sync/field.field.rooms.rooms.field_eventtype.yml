@@ -1,0 +1,19 @@
+uuid: eb0225eb-3044-4061-8aa7-67b362e089dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_eventtype
+id: rooms.rooms.field_eventtype
+field_name: field_eventtype
+entity_type: rooms
+bundle: rooms
+label: eventtype
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

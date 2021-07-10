@@ -1,0 +1,361 @@
+uuid: 25d8dbd0-29e0-4881-9a8d-23ba8e5ed258
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.podcast_episode.field_body
+    - field.field.media.podcast_episode.field_centers
+    - field.field.media.podcast_episode.field_collections
+    - field.field.media.podcast_episode.field_episode
+    - field.field.media.podcast_episode.field_events
+    - field.field.media.podcast_episode.field_filemime
+    - field.field.media.podcast_episode.field_filesize
+    - field.field.media.podcast_episode.field_guests
+    - field.field.media.podcast_episode.field_index_weight
+    - field.field.media.podcast_episode.field_media_audio_file
+    - field.field.media.podcast_episode.field_media_image
+    - field.field.media.podcast_episode.field_media_in_library
+    - field.field.media.podcast_episode.field_meta_tags
+    - field.field.media.podcast_episode.field_people
+    - field.field.media.podcast_episode.field_promo_image
+    - field.field.media.podcast_episode.field_regions
+    - field.field.media.podcast_episode.field_service_links
+    - field.field.media.podcast_episode.field_summary
+    - field.field.media.podcast_episode.field_tags
+    - field.field.media.podcast_episode.field_topics
+    - field.field.media.podcast_episode.field_transcript
+    - image.style.thumbnail
+    - media.type.podcast_episode
+  module:
+    - field_group
+    - file
+    - image
+    - key_value_field
+    - media_library
+    - metatag
+    - path
+    - publication_date
+    - text
+third_party_settings:
+  field_group:
+    group_settings:
+      children:
+        - group_content
+        - group_tags
+        - group_promotion
+      parent_name: ''
+      weight: 23
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Settings
+    group_content:
+      children:
+        - published_at
+        - field_promo_image
+        - field_episode
+        - field_summary
+        - field_body
+        - field_media_image
+        - field_media_audio_file
+        - field_transcript
+        - field_service_links
+        - field_filemime
+        - field_filesize
+      parent_name: group_settings
+      weight: 21
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Content
+    group_tags:
+      children:
+        - field_topics
+        - field_tags
+        - field_centers
+        - field_regions
+        - field_collections
+        - field_events
+        - field_meta_tags
+      parent_name: group_settings
+      weight: 22
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Tags
+    group_promotion:
+      children:
+        - status
+        - field_media_in_library
+        - field_people
+        - field_guests
+        - uid
+        - created
+        - path
+        - langcode
+      parent_name: group_settings
+      weight: 23
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Promotion
+id: media.podcast_episode.default
+targetEntityType: media
+bundle: podcast_episode
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 32
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_body:
+    weight: 14
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_centers:
+    weight: 22
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_collections:
+    weight: 24
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_episode:
+    weight: 12
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_events:
+    weight: 25
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_filemime:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_filesize:
+    weight: 20
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_guests:
+    type: entity_reference_autocomplete
+    weight: 30
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_index_weight:
+    weight: 35
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_media_audio_file:
+    weight: 16
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_media_image:
+    weight: 15
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_media_in_library:
+    weight: 28
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_meta_tags:
+    weight: 26
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_people:
+    type: entity_reference_autocomplete
+    weight: 29
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_promo_image:
+    type: media_library_widget
+    weight: 11
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    region: content
+  field_regions:
+    weight: 23
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_service_links:
+    weight: 18
+    settings:
+      key_size: 60
+      key_label: Key
+      key_placeholder: ''
+      value_label: Value
+      description_enabled: true
+      description_label: Description
+      description_rows: 5
+      description_placeholder: ''
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: key_value_textfield
+    region: content
+  field_summary:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_tags:
+    weight: 21
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_topics:
+    weight: 20
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_transcript:
+    type: file_generic
+    weight: 17
+    region: content
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 34
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 33
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  published_at:
+    type: publication_date_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 27
+    region: content
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 31
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+hidden: {  }

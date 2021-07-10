@@ -1,0 +1,21 @@
+uuid: 4a741a95-ac93-406f-83cc-bd53422a68ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_salesforceid
+field_name: field_salesforceid
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

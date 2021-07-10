@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-july-09-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/136?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 764
+        }
+    ],
+    "uuid": [
+        {
+            "value": "63530013-681f-409b-a594-c0991b8ad142"
+        }
+    ],
+    "vid": [
+        {
+            "value": 764
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/136?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f185b5aa-84c2-48ad-9789-7ae7b47cf059"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - July 09, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-09T17:24:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:39:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-july-09-2018",
+            "pid": 817,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Squaring Commerce with Banking On Thursday, Square confirmed the withdrawal of its application for an industrial loan company (ILC) charter while emphasizing that that it is merely regrouping to strengthen its application moving forward. This comes as a surprise to many FinTech observers, as new Federal Deposit Insurance Corporation (FDIC) Chair Jelena McWilliams has signaled that she is open to moving forward with ILC applications. Taking Square at their word, the next effort to get an ILC will likely kick off a battle over ILCs and the separation of banking and commerce. When Square submitted its ILC application in 2017, it ignited a firestorm of criticism from community banks, consumer advocates, and others who believe in the separation of banking and commerce. The Milken Institute weighed in on this debate, pointing out that many of the concerns raised by ILC opponents were in fact competitive concerns in disguise, and are derived from the debate about whether the Federal Reserve or the FDIC is best placed to regulate ILCs. Research by James Barth, Mehrsa Baradaran, and others has shown that many of the criticisms of ILCs are unfounded, and ILCs have actually proven themselves to be quite resilient. More broadly speaking, there is also a strong argument to be made that allowing commerce and banking to intermingle could make financial markets safer to the extent that ILCs are owned by well-capitalized commercial firms. However, the next battle over ILCs and the separation of banking and commerce will not merely be a rehash of the debate that stopped Walmart in its tracks. The rise of Big Tech firms wielding tremendous market power adds a new dimension to the conversation. Already, firms like Amazon, Apple, Google, and Facebook have extended their reach into nearly every industry and have begun to make significant inroads into financial services. In China, Alibaba and Tencent are locked in a battle for payments data supremacy, while Ant Financial\u2019s valuation recently surpassed that of Goldman Sachs. All of this comes at a time when policymakers and the public are increasingly asking questions about Big Tech firms, and how they use their data. That raises a new question in the ILC debate: is it wise to open the door for firms who already control an unprecedented amount of personal data to also control banking data? Of course, none of the big tech firms have applied for an ILC, nor have they signaled that they plan to. Nevertheless, Square\u2019s bid for an ILC has already been called a Trojan horse for Big Tech, so Silicon Valley\u2019s giants are likely to feature prominently in the debate. With growing interest in reforming anti-trust enforcement in the United States and the recent implementation of data rights laws in the European Union, it is worth remembering that the Bank Holding Company Act itself was enacted with competition policy in mind after a failed antitrust case against Transamerica, another industrial giant that flew just a little too close to the financial sun. Industry Headlines <i>AltFi:<\/i> Zopa announced good news last week, as the firm saw its revenue grow by 40 percent from last year. This comes a year after Zopa received full authorization by the Financial Conduct Authority (FCA). <i>Data Access and Open Banking<\/i>: A new report by PwC and the Open Data Institute states the open banking economy will be worth \u00a37.2 billion by 2022. The report finds that there is still work to be done in raising awareness of open banking, however, with consumers lagging behind SMEs in their understanding of the law. Elsewhere, USAA signed a data sharing agreement with Intuit and Finicity, a data aggregator. <i>Crypto and Blockchain:<\/i> We gave up on reporting Bitcoin\u2019s price swings a long time ago, but it\u2019s worth noting that it\u2019s been a rough couple of weeks with Bitcoin\u2019s price briefly dipping below $6,000 last week. Adding insult to injury, over 800 cryptocurrencies are now dead and worth less than one cent, according to CNBC. Meanwhile, 40 percent of the FCA\u2019s newly announced regulatory sandbox cohort is using distributed ledger technology. The cohort is made up of 29 firms after the FCA received 69 applications. Christopher Woolard, the FCA\u2019s executive director of strategy and competition, stated: \u201cI am pleased to say that this is the largest sandbox cohort to date with a record number of applicants meeting our eligibility criteria. Cohort 4 has seen a large increase in the number of firms testing wholesale propositions including firms that are aiming to increase the efficiency of the capital-raising process. Alongside these we can see significant use of distributed ledger technology (DLT), some experimentation with cryptoassets which will help inform our policy work and propositions aimed at helping lower income consumers.\u201d Finally, Redfin found that 10 percent of millennial homebuyers made their down payments by selling cryptocurrency. <i>Digital Banking:<\/i> Monzo, a British challenger bank, found itself involved in Ticketmaster\u2019s data breach story. Monzo revealed that it spotted suspicious activity involving Ticketmaster back in April. Ticketmaster, however, did not disclose the breach until June 27 despite Monzo\u2019s warning. Meanwhile, Tide, a challenger bank focused on small businesses, announced last week that it is partnering with PayPoint to allow cash deposits at small businesses. <i>Payments:<\/i> The Federal Reserve Bank of Boston\u2019s Consumers Payment Study found that debit cards remain the most popular consumer payment method with 32 percent of consumers using debit, 27 percent using cash, and 23 percent using credit cards or charge payments. The report also found that while most payments happen in-store, consumers\u2019 online payments have increased to 8 percent of their annual transactions. <i>Wealth Management:\u00a0<\/i>Betterment was slapped with a $400,000 fine by the Financial Industry Regulatory Authority last week for record keeping violations and failing to follow the Customer Protection Rule. Global Developments <b>Europe<\/b> <i>European Union<\/i><b> The European Banking Authority published two reports on FinTech. The first report covers FinTech\u2019s impact on incumbent lenders, and categorizes those lenders based upon whether they are reactive, proactive, or passive in terms of their FinTech engagement and innovation. The second report covers the prudential risks and opportunities created by FinTech. <i>Finland<\/i><br \/> A paper released by the Bank of Finland last week was titled, \u201cThe Great Illusion of Cryptocurrencies,\u201d and its assertions are no less provocative than its title. The paper asserts that cryptocurrencies are not currencies at all, but \u201caccounting systems for non-existent assets,\u201d and that blockchains are, in fact, centralized. <i>Germany<\/i><br \/> According to a new report by Oliver Wyman, the 50 largest commercial banks will spend 6 billion euros on digitization by 2020, excluding their regular IT spending. Some of this spending will be geared toward building the bank\u2019s own mobile and online banking platforms, while some will be aimed at establishing partnerships with FinTech firms. Elsewhere, Germany\u2019s telecommunications regulator is taking aim at American Big Tech firms, stating that firms who provide messaging or email services should be regulated like other telecom firms. Jochen Homann, president of Germany\u2019s Federal Network Agency, stated that \u201cIt cannot be right that a company providing traditional telecommunications services has to meet certain regulatory requirements, like those concerning data protection, while a company providing comparable services over the web does not.\u201d <i>Lithuania<\/i><br \/> The Bank of Lithuania introduced an e-licensing tool in response to the increasing number of applications for operating licenses, driven by the growth of FinTechs. <i>Malta<\/i><br \/> Malta continues to pass crypto-friendly legislation, adding three new crypto and blockchain bills recently. The bills regulate initial coin offerings, establish the Malta Digital Innovation Authority as the industry\u2019s regulatory body, and strengthen the regulatory framework for crypto exchanges. <i>Switzerland<\/i><br \/> The Swiss town of Zug became the latest place to successfully trial blockchain voting recently. The vote was a simulation of a fictional issue, and the town will now go back and evaluate its effectiveness. <i>United Kingdom<\/i><br \/> The U.K.\u2019s New Payment Systems Operator (NPSO) took over responsibility for running the country\u2019s check and credit clearings last week, just as the Cheque and Credit Clearing Company Limited became a subsidiary of the NPSO. In a statement, NPSE Chief Executive Paul Horlock stated that \u201cThis is our opportunity to create the future of retail payments in the U.K., driving value for people and businesses and enabling a vibrant U.K. economy. We will be the leading payments authority that will create a best in class payment infrastructure and standards in the U.K. for the benefit of people everywhere.\u201d Meanwhile, the U.K. Home Office is finally out with its biometrics report after a six-year delay, although the report has been met largely with disappointment. Biometrics Commissioner Paul Wiles stated, \u201cUnfortunately the strategy says little about what future plans the Home Office has for the use of biometrics and the sharing of biometric data. A debate is needed given the rapid improvements in biometric matching technologies and the increasing ability to hold and analyse large biometric databases.\u201d <strong>Asia<\/b> <i>China<\/i><b> Alibaba and Tencent will take a significant hit from a new rule by the People\u2019s Bank of China (PBoC), obligating them to deposit their customers\u2019 prepaid funds with the central bank. The rule, which will come fully into effect in 2019, is set to cost the tech giants their interest revenue on these funds. This rule comes in the wake of a cap on mobile payments by the central bank earlier this year as a part of President Xi Xinping\u2019s bid to reign in financial markets. Meanwhile, after significant crackdowns on cryptocurrencies earlier this year, the PBoC seems to be staking its own claim in the cryptocurrency space. The PBoC filed a patent for a digital wallet that people can use to track cryptocurrency transactions last week. Concurrently, the China Banking Regulatory Commission released a working paper that advocates for Chinese regulators to issue licenses for crypto-related activities within China\u2019s current regulatory structure. <i>Hong Kong<\/i><br \/> The Hong Kong Monetary Authority signed a FinTech cooperation agreement with Abu Dhabi to create a DLT-based trade finance system. <i>India<\/i><br \/> The Reserve Bank of India ordered all banks to shut down the accounts of anyone who deals in bitcoin or other virtual currencies last week. This is the latest in a string of actions by the Indian government to crack down on cryptocurrencies, which Quartz has helpfully summarized here. <strong>Americas<\/b> <i>United States<\/i><br \/> The Government Accountability Office (GAO) offered a somewhat vague statement on derisking to the House Subcommittee on Financial Institutions and Consumer Credit, stating that \u201cwithout accessing the full range of BSA\/AML factors that may be influencing banks to derisk or close branches, Treasury, the federal banking regulators, and Congress do not have the information needed to determine if BSA\/AML regulations and their implementation can be made more effective or less burdensome.\u201d The GAO\u2019s recent reports on derisking made several recommendations, but it remains unclear how exactly they believe derisking should be addressed. According to Kyle Armstrong, the FBI agent in charge of cryptocurrency cases, the Bureau currently has 130 cryptocurrency cases. The cases are tied to human trafficking, illicit drug sales, kidnapping, and ransomware attacks, according to Bloomberg. Finally, the New York Department of Financial Services seems to be making progress on its backlog of BitLicense applications. ",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Squaring Commerce with Banking On Thursday, Square confirmed the withdrawal of its application for an industrial loan company (ILC) charter while emphasizing that that it is merely regrouping to strengthen its application moving forward. This comes as a surprise to many FinTech observers, as new Federal Deposit Insurance Corporation (FDIC) Chair Jelena McWilliams has signaled that she is open to moving forward with ILC applications. Taking Square at their word, the next effort to get an ILC will likely kick off a battle over ILCs and the separation of banking and commerce. When Square submitted its ILC application in 2017, it ignited a firestorm of criticism from community banks, consumer advocates, and others who believe in the separation of banking and commerce. The Milken Institute weighed in on this debate, pointing out that many of the concerns raised by ILC opponents were in fact competitive concerns in disguise, and are derived from the debate about whether the Federal Reserve or the FDIC is best placed to regulate ILCs. Research by James Barth, Mehrsa Baradaran, and others has shown that many of the criticisms of ILCs are unfounded, and ILCs have actually proven themselves to be quite resilient. More broadly speaking, there is also a strong argument to be made that allowing commerce and banking to intermingle could make financial markets safer to the extent that ILCs are owned by well-capitalized commercial firms. However, the next battle over ILCs and the separation of banking and commerce will not merely be a rehash of the debate that stopped Walmart in its tracks. The rise of Big Tech firms wielding tremendous market power adds a new dimension to the conversation. Already, firms like Amazon, Apple, Google, and Facebook have extended their reach into nearly every industry and have begun to make significant inroads into financial services. In China, Alibaba and Tencent are locked in a battle for payments data supremacy, while Ant Financial\u2019s valuation recently surpassed that of Goldman Sachs. All of this comes at a time when policymakers and the public are increasingly asking questions about Big Tech firms, and how they use their data. That raises a new question in the ILC debate: is it wise to open the door for firms who already control an unprecedented amount of personal data to also control banking data? Of course, none of the big tech firms have applied for an ILC, nor have they signaled that they plan to. Nevertheless, Square\u2019s bid for an ILC has already been called a Trojan horse for Big Tech, so Silicon Valley\u2019s giants are likely to feature prominently in the debate. With growing interest in reforming anti-trust enforcement in the United States and the recent implementation of data rights laws in the European Union, it is worth remembering that the Bank Holding Company Act itself was enacted with competition policy in mind after a failed antitrust case against Transamerica, another industrial giant that flew just a little too close to the financial sun. Industry Headlines <i>AltFi:<\/i> Zopa announced good news last week, as the firm saw its revenue grow by 40 percent from last year. This comes a year after Zopa received full authorization by the Financial Conduct Authority (FCA). <i>Data Access and Open Banking<\/i>: A new report by PwC and the Open Data Institute states the open banking economy will be worth \u00a37.2 billion by 2022. The report finds that there is still work to be done in raising awareness of open banking, however, with consumers lagging behind SMEs in their understanding of the law. Elsewhere, USAA signed a data sharing agreement with Intuit and Finicity, a data aggregator. <i>Crypto and Blockchain:<\/i> We gave up on reporting Bitcoin\u2019s price swings a long time ago, but it\u2019s worth noting that it\u2019s been a rough couple of weeks with Bitcoin\u2019s price briefly dipping below $6,000 last week. Adding insult to injury, over 800 cryptocurrencies are now dead and worth less than one cent, according to CNBC. Meanwhile, 40 percent of the FCA\u2019s newly announced regulatory sandbox cohort is using distributed ledger technology. The cohort is made up of 29 firms after the FCA received 69 applications. Christopher Woolard, the FCA\u2019s executive director of strategy and competition, stated: \u201cI am pleased to say that this is the largest sandbox cohort to date with a record number of applicants meeting our eligibility criteria. Cohort 4 has seen a large increase in the number of firms testing wholesale propositions including firms that are aiming to increase the efficiency of the capital-raising process. Alongside these we can see significant use of distributed ledger technology (DLT), some experimentation with cryptoassets which will help inform our policy work and propositions aimed at helping lower income consumers.\u201d Finally, Redfin found that 10 percent of millennial homebuyers made their down payments by selling cryptocurrency. <i>Digital Banking:<\/i> Monzo, a British challenger bank, found itself involved in Ticketmaster\u2019s data breach story. Monzo revealed that it spotted suspicious activity involving Ticketmaster back in April. Ticketmaster, however, did not disclose the breach until June 27 despite Monzo\u2019s warning. Meanwhile, Tide, a challenger bank focused on small businesses, announced last week that it is partnering with PayPoint to allow cash deposits at small businesses. <i>Payments:<\/i> The Federal Reserve Bank of Boston\u2019s Consumers Payment Study found that debit cards remain the most popular consumer payment method with 32 percent of consumers using debit, 27 percent using cash, and 23 percent using credit cards or charge payments. The report also found that while most payments happen in-store, consumers\u2019 online payments have increased to 8 percent of their annual transactions. <i>Wealth Management:\u00a0<\/i>Betterment was slapped with a $400,000 fine by the Financial Industry Regulatory Authority last week for record keeping violations and failing to follow the Customer Protection Rule. Global Developments <b>Europe<\/b> <i>European Union<\/i><b> The European Banking Authority published two reports on FinTech. The first report covers FinTech\u2019s impact on incumbent lenders, and categorizes those lenders based upon whether they are reactive, proactive, or passive in terms of their FinTech engagement and innovation. The second report covers the prudential risks and opportunities created by FinTech. <i>Finland<\/i><br \/> A paper released by the Bank of Finland last week was titled, \u201cThe Great Illusion of Cryptocurrencies,\u201d and its assertions are no less provocative than its title. The paper asserts that cryptocurrencies are not currencies at all, but \u201caccounting systems for non-existent assets,\u201d and that blockchains are, in fact, centralized. <i>Germany<\/i><br \/> According to a new report by Oliver Wyman, the 50 largest commercial banks will spend 6 billion euros on digitization by 2020, excluding their regular IT spending. Some of this spending will be geared toward building the bank\u2019s own mobile and online banking platforms, while some will be aimed at establishing partnerships with FinTech firms. Elsewhere, Germany\u2019s telecommunications regulator is taking aim at American Big Tech firms, stating that firms who provide messaging or email services should be regulated like other telecom firms. Jochen Homann, president of Germany\u2019s Federal Network Agency, stated that \u201cIt cannot be right that a company providing traditional telecommunications services has to meet certain regulatory requirements, like those concerning data protection, while a company providing comparable services over the web does not.\u201d <i>Lithuania<\/i><br \/> The Bank of Lithuania introduced an e-licensing tool in response to the increasing number of applications for operating licenses, driven by the growth of FinTechs. <i>Malta<\/i><br \/> Malta continues to pass crypto-friendly legislation, adding three new crypto and blockchain bills recently. The bills regulate initial coin offerings, establish the Malta Digital Innovation Authority as the industry\u2019s regulatory body, and strengthen the regulatory framework for crypto exchanges. <i>Switzerland<\/i><br \/> The Swiss town of Zug became the latest place to successfully trial blockchain voting recently. The vote was a simulation of a fictional issue, and the town will now go back and evaluate its effectiveness. <i>United Kingdom<\/i><br \/> The U.K.\u2019s New Payment Systems Operator (NPSO) took over responsibility for running the country\u2019s check and credit clearings last week, just as the Cheque and Credit Clearing Company Limited became a subsidiary of the NPSO. In a statement, NPSE Chief Executive Paul Horlock stated that \u201cThis is our opportunity to create the future of retail payments in the U.K., driving value for people and businesses and enabling a vibrant U.K. economy. We will be the leading payments authority that will create a best in class payment infrastructure and standards in the U.K. for the benefit of people everywhere.\u201d Meanwhile, the U.K. Home Office is finally out with its biometrics report after a six-year delay, although the report has been met largely with disappointment. Biometrics Commissioner Paul Wiles stated, \u201cUnfortunately the strategy says little about what future plans the Home Office has for the use of biometrics and the sharing of biometric data. A debate is needed given the rapid improvements in biometric matching technologies and the increasing ability to hold and analyse large biometric databases.\u201d <strong>Asia<\/strong><\/b> <i>China<\/i><b> Alibaba and Tencent will take a significant hit from a new rule by the People\u2019s Bank of China (PBoC), obligating them to deposit their customers\u2019 prepaid funds with the central bank. The rule, which will come fully into effect in 2019, is set to cost the tech giants their interest revenue on these funds. This rule comes in the wake of a cap on mobile payments by the central bank earlier this year as a part of President Xi Xinping\u2019s bid to reign in financial markets. Meanwhile, after significant crackdowns on cryptocurrencies earlier this year, the PBoC seems to be staking its own claim in the cryptocurrency space. The PBoC filed a patent for a digital wallet that people can use to track cryptocurrency transactions last week. Concurrently, the China Banking Regulatory Commission released a working paper that advocates for Chinese regulators to issue licenses for crypto-related activities within China\u2019s current regulatory structure. <i>Hong Kong<\/i><br \/> The Hong Kong Monetary Authority signed a FinTech cooperation agreement with Abu Dhabi to create a DLT-based trade finance system. <i>India<\/i><br \/> The Reserve Bank of India ordered all banks to shut down the accounts of anyone who deals in bitcoin or other virtual currencies last week. This is the latest in a string of actions by the Indian government to crack down on cryptocurrencies, which Quartz has helpfully summarized here. <strong>Americas<\/strong><\/b> <i>United States<\/i><br \/> The Government Accountability Office (GAO) offered a somewhat vague statement on derisking to the House Subcommittee on Financial Institutions and Consumer Credit, stating that \u201cwithout accessing the full range of BSA\/AML factors that may be influencing banks to derisk or close branches, Treasury, the federal banking regulators, and Congress do not have the information needed to determine if BSA\/AML regulations and their implementation can be made more effective or less burdensome.\u201d The GAO\u2019s recent reports on derisking made several recommendations, but it remains unclear how exactly they believe derisking should be addressed. According to Kyle Armstrong, the FBI agent in charge of cryptocurrency cases, the Bureau currently has 130 cryptocurrency cases. The cases are tied to human trafficking, illicit drug sales, kidnapping, and ransomware attacks, according to Bloomberg. Finally, the New York Department of Financial Services seems to be making progress on its backlog of BitLicense applications. ",
+    "summary": null,
+    "summary_processed": ""
+}

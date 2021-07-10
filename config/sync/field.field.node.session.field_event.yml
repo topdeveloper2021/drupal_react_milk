@@ -1,0 +1,33 @@
+uuid: b97f20ae-6ebe-4f3a-9fb8-9989b15ed39f
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - eck.eck_type.event.meeting
+    - eck.eck_type.event.summit
+    - field.storage.node.field_event
+    - node.type.session
+id: node.session.field_event
+field_name: field_event
+entity_type: node
+bundle: session
+label: Event
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:event'
+  handler_settings:
+    target_bundles:
+      conference: conference
+      meeting: meeting
+      summit: summit
+    sort:
+      field: created
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: meeting
+field_type: entity_reference

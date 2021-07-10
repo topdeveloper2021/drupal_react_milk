@@ -1,0 +1,59 @@
+{#
+/**
+ * @file
+ * Milken Header Region
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region div.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+<header id="header" class="container-fluid" role="banner" aria-label="{{ 'Site header'|t}}">
+  <nav class="row navbar navbar-expand-lg" id="navbar-main">
+    <div class="col" id="logo-theme">
+      {{ drupal_block('system_branding_block') }}
+    </div>
+    <div class="col text-right">
+      <div class="d-flex">
+        <div class="col-9 col-sm-10 d-none d-sm-block">
+          {% set currenturl = url('<current>')  %}
+
+          {% if '/search' in currenturl|render|render %}
+
+          {%  else %}
+            <form id="navbar-search" class="" action="/search">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="search-milken"><a class="fas fa-search" href="#">&nbsp;</a></span>
+                </div>
+                <input id="navbar-search-input-keywords"
+                       name="keywords"
+                       type="text"
+                       class="form-control"
+                       autocomplete="off"
+                       placeholder="Search Milken Institute"
+                       aria-label="Search Milken Institute"
+                       aria-describedby="search-milken" />
+              </div>
+            </form>
+          {%  endif %}
+        </div>
+
+        <div class="col text-right px-0">
+          <div class="hamburger hamburger--squeeze js-hamburger" id="menu-reveal">
+            <div class="hamburger-box">
+              <div class="hamburger-inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </nav>
+</header>

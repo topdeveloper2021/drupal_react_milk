@@ -1,0 +1,33 @@
+uuid: 8304a240-89b9-418d-90e3-893e51bc66f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero_image
+    - media.type.image
+    - node.type.landing_page
+  content:
+    - 'media:image:d6208026-94cc-420e-8bbd-45ad71a32776'
+id: node.landing_page.field_hero_image
+field_name: field_hero_image
+entity_type: node
+bundle: landing_page
+label: 'Tile Thumbnail'
+description: 'The image to show when featuring this page as a Tile or Card.'
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: d6208026-94cc-420e-8bbd-45ad71a32776
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

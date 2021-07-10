@@ -1,0 +1,148 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost\/home?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/react"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/react\/revision_uid": [
+            {
+                "href": "http:\/\/localhost\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/react\/uid": [
+            {
+                "href": "http:\/\/localhost\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3c05355d-84f7-4eda-88b5-1762dfe57c11"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "react"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-03-13T16:17:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/react\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b0a8ec4e-fdd9-4208-b9db-312860544706"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/react\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b0a8ec4e-fdd9-4208-b9db-312860544706"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "home",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-03-13T16:16:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-03-13T16:17:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/home",
+            "pid": 819,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_attached_libraries": [
+        {
+            "value": "milken\/homepage"
+        }
+    ]
+}

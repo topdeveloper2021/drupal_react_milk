@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7045\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/iWytXHIZJwoLQiXIlqf2AotdU3OmYVemaS0DZwQ6m00.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7045
+        }
+    ],
+    "uuid": [
+        {
+            "value": "816ea1f9-cea0-4e3e-9a05-e7827854a073"
+        }
+    ],
+    "vid": [
+        {
+            "value": 17
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/iWytXHIZJwoLQiXIlqf2AotdU3OmYVemaS0DZwQ6m00.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d9dd620f-8148-4818-9d20-1186861607f1"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Uncertain Times: The State of Global Capital Markets",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T11:06:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "A possible global trade war, strong earnings combined with shifts in monetary policies have all been a consistent source of concerns for investors this year. The volatility and geopolitical tensions show no sign of letting up in the close of 2018. Where are investors finding the biggest opportunities despite this risks in global capital markets? How will are investors cutting through the geopolitical noise to find opportunities to make money in the short term and in the long term? How is new technology changing the way these decisions are being made? Can increasingly systematized markets function properly in unprecedented situations? What often overlooked indicators should investors consider as they think about asset allocation and capital structure strategies? Which indicators are being given too much weight? What are the investment themes that will shape the markets in 2019? ",
+    "format": "rich_text",
+    "processed": "A possible global trade war, strong earnings combined with shifts in monetary policies have all been a consistent source of concerns for investors this year. The volatility and geopolitical tensions show no sign of letting up in the close of 2018. Where are investors finding the biggest opportunities despite this risks in global capital markets? How will are investors cutting through the geopolitical noise to find opportunities to make money in the short term and in the long term? How is new technology changing the way these decisions are being made? Can increasingly systematized markets function properly in unprecedented situations? What often overlooked indicators should investors consider as they think about asset allocation and capital structure strategies? Which indicators are being given too much weight? What are the investment themes that will shape the markets in 2019? ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/IiCch5GxFrI",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/iWytXHIZJwoLQiXIlqf2AotdU3OmYVemaS0DZwQ6m00.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

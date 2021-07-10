@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7242\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/vZWOoMo2S2kxmqOloU8kPJztnXVApMEuXjWNAK2dr5k.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7242
+        }
+    ],
+    "uuid": [
+        {
+            "value": "33b795b0-61fc-448a-8822-0b9c2cf52674"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1672
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/vZWOoMo2S2kxmqOloU8kPJztnXVApMEuXjWNAK2dr5k.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "846178f4-593f-4c49-b29f-421c9785ba61"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "A Continental Wake-up Call: Challenges and Opportunities for a Post-Brexit Europe ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-28T05:14:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T18:46:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As Great Britain's political turmoil burdens its efforts to leave Europe, the E.U., sensing an advantage, is refusing to begin Brexit trade talks, and the United States, distracted by the glitter of inward-looking nationalism, is no longer a beacon of trans-Atlantic leadership. Britain's economy, Europe's viability and potentially tens of thousands of Brexit-impacted jobs and citizen rights are at stake. Which side emerges from the maelstrom stronger, and what should we expect in the year ahead, at what cost?",
+    "format": "rich_text",
+    "processed": "As Great Britain's political turmoil burdens its efforts to leave Europe, the E.U., sensing an advantage, is refusing to begin Brexit trade talks, and the United States, distracted by the glitter of inward-looking nationalism, is no longer a beacon of trans-Atlantic leadership. Britain's economy, Europe's viability and potentially tens of thousands of Brexit-impacted jobs and citizen rights are at stake. Which side emerges from the maelstrom stronger, and what should we expect in the year ahead, at what cost?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/d_3lOsnM-r0",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/vZWOoMo2S2kxmqOloU8kPJztnXVApMEuXjWNAK2dr5k.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

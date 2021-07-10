@@ -1,0 +1,20 @@
+uuid: b3e6c15d-cb26-4a9e-b3a2-c79c881bd3c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - eck
+id: event.field_registration_deadline
+field_name: field_registration_deadline
+entity_type: event
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

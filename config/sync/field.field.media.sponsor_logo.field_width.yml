@@ -1,0 +1,23 @@
+uuid: 24966e67-32a8-49d9-9af3-483f8bab5e1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_width
+    - media.type.sponsor_logo
+id: media.sponsor_logo.field_width
+field_name: field_width
+entity_type: media
+bundle: sponsor_logo
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

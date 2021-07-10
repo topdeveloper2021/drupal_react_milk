@@ -1,0 +1,25 @@
+uuid: 0d6bd99c-2fc6-4a5a-af81-47e396a8a902
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - milken
+id: breadcrumbs_3
+theme: milken
+region: content
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /home
+    negate: true
+    context_mapping: {  }

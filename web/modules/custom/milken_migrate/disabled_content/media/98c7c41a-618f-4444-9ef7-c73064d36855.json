@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7858\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/bVSnjNOzzB2XohP9Udt5FK4Tn7MCLcnIHAxenet0B80.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7858
+        }
+    ],
+    "uuid": [
+        {
+            "value": "98c7c41a-618f-4444-9ef7-c73064d36855"
+        }
+    ],
+    "vid": [
+        {
+            "value": 515
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/bVSnjNOzzB2XohP9Udt5FK4Tn7MCLcnIHAxenet0B80.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a0e2bc67-ec8d-42e7-a6c5-d4f0d9ab23d3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Precision Medicine: Accelerating Treatments From Potential to Reality",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T22:45:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "A revolution in medicine is underway. Precision medicine--a field that draws on genomics, advanced devices and computers science--enables doctors to diagnose and design unique treatments for individual patients. This new approach represents a major leap forward from the one-therapy-fits-all approach of the past. In particular, it offers hope to the most vulnerable patients--the very young, the very old and those who suffer from autoimmune diseases. Precision medicine also offers an economic benefit: productivity will increase if people are healthier and need to take fewer sick days. President Obama recently proposed a precision medicine initiative, and at a time when bipartisan agreement is rare, the concept has won support from both sides of the aisle. This panel will discuss this exciting, disruptive new field and what can be done to accelerate its use against life-threatening diseases.",
+    "format": "rich_text",
+    "processed": "A revolution in medicine is underway. Precision medicine--a field that draws on genomics, advanced devices and computers science--enables doctors to diagnose and design unique treatments for individual patients. This new approach represents a major leap forward from the one-therapy-fits-all approach of the past. In particular, it offers hope to the most vulnerable patients--the very young, the very old and those who suffer from autoimmune diseases. Precision medicine also offers an economic benefit: productivity will increase if people are healthier and need to take fewer sick days. President Obama recently proposed a precision medicine initiative, and at a time when bipartisan agreement is rare, the concept has won support from both sides of the aisle. This panel will discuss this exciting, disruptive new field and what can be done to accelerate its use against life-threatening diseases.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/iognAsX97FY",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/bVSnjNOzzB2XohP9Udt5FK4Tn7MCLcnIHAxenet0B80.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

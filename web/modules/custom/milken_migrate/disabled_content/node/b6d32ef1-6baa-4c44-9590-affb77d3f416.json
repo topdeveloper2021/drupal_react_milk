@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/resnick-foundation-pledges-25-million-lynda-and-stewart-resnick-center-public-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 607
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b6d32ef1-6baa-4c44-9590-affb77d3f416"
+        }
+    ],
+    "vid": [
+        {
+            "value": 607
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Resnick Foundation Pledges $25 Million to the  Lynda and Stewart Resnick Center for Public Health ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-04-29T12:18:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:13:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/resnick-foundation-pledges-25-million-lynda-and-stewart-resnick-center-public-health",
+            "pid": 660,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014The Milken Institute announced today that its Center for Public Health, headquartered in Washington, D.C., has been renamed the Lynda and Stewart Resnick Center for Public Health in recognition of a $25-million gift from the Resnick Foundation. The gift will greatly expand and accelerate the Institute\u2019s public health programs in the United States and other nations.\u201cThis generous contribution demonstrates the Resnicks\u2019 profound commitment to the health of people everywhere,\u201d said Institute Chairman Michael Milken. \u201cIt will help bring to population-level health the same focus that has allowed bioscience and medical research to extend and enhance lives of individuals so remarkably over the past century.\u201dThe Lynda and Stewart Resnick Center for Public Health is a global clearinghouse for best practices among more than 100 schools and programs in public health; a driver of actionable public health information; a center for rigorous research; and a convener of individuals and institutions that can save untold lives. Recognizing the crucial role of prevention in reducing health-care costs, the Center brings together the government, academic and nonprofit sectors with consumer products companies, retailers, manufacturers, other large employers, health insurers and the media to focus on public health issues such as smoking and obesity.Lynda and Stewart Resnick said: \u201cThe Milken Institute has been at the forefront of so much groundbreaking work, and it is our privilege to partner with this visionary organization in building a center that will change the landscape of public health and save lives.\u201dWashington, D.C., is home to much of the global health community, with the Resnick Center a short distance from the World Bank, the State Department, the White House, Congress, the National Institutes of Health, the Food and Drug Administration, the Washington offices of the Centers for Disease Control and Prevention, the Department of Health and Human Services, the National Science Foundation, and many other national and international organizations. The Center will mentor leaders in developing nations in building public health infrastructure and help coordinate efforts to assure global health security.<b>Contact<\/b> <br>Conrad Kiechel <br>Managing Director, Communications <br>(310) 570-4668; ckiechel@milkeninstitute.org",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014The Milken Institute announced today that its Center for Public Health, headquartered in Washington, D.C., has been renamed the Lynda and Stewart Resnick Center for Public Health in recognition of a $25-million gift from the Resnick Foundation. The gift will greatly expand and accelerate the Institute\u2019s public health programs in the United States and other nations.\u201cThis generous contribution demonstrates the Resnicks\u2019 profound commitment to the health of people everywhere,\u201d said Institute Chairman Michael Milken. \u201cIt will help bring to population-level health the same focus that has allowed bioscience and medical research to extend and enhance lives of individuals so remarkably over the past century.\u201dThe Lynda and Stewart Resnick Center for Public Health is a global clearinghouse for best practices among more than 100 schools and programs in public health; a driver of actionable public health information; a center for rigorous research; and a convener of individuals and institutions that can save untold lives. Recognizing the crucial role of prevention in reducing health-care costs, the Center brings together the government, academic and nonprofit sectors with consumer products companies, retailers, manufacturers, other large employers, health insurers and the media to focus on public health issues such as smoking and obesity.Lynda and Stewart Resnick said: \u201cThe Milken Institute has been at the forefront of so much groundbreaking work, and it is our privilege to partner with this visionary organization in building a center that will change the landscape of public health and save lives.\u201dWashington, D.C., is home to much of the global health community, with the Resnick Center a short distance from the World Bank, the State Department, the White House, Congress, the National Institutes of Health, the Food and Drug Administration, the Washington offices of the Centers for Disease Control and Prevention, the Department of Health and Human Services, the National Science Foundation, and many other national and international organizations. The Center will mentor leaders in developing nations in building public health infrastructure and help coordinate efforts to assure global health security.<b>Contact<\/b> <br \/>Conrad Kiechel <br \/>Managing Director, Communications <br \/>(310) 570-4668; ckiechel@milkeninstitute.org",
+    "summary": null,
+    "summary_processed": ""
+}

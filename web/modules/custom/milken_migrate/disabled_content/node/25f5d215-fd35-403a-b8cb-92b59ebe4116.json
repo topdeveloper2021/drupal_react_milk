@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-october-24-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/139?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 767
+        }
+    ],
+    "uuid": [
+        {
+            "value": "25f5d215-fd35-403a-b8cb-92b59ebe4116"
+        }
+    ],
+    "vid": [
+        {
+            "value": 767
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/139?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b1e689ff-5625-4a5e-a8f0-3027a948b6c0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus October 24, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-24T12:06:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:42:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-october-24-2018",
+            "pid": 820,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Robinhood Model Early last week, Bloomberg made waves when it reported that Robinhood made over 40 percent of its revenue in 2018 by selling investor\u2019s orders to high frequency trading firms. This was noteworthy not because the practice is novel or unusual, but because it didn\u2019t quite comport with Robinhood\u2019s public image. Moreover, Robinhood seemed to have buried the disclosure of this practice in the fine print rather than make it apparent to customers on their website. This arrangement is concerning to some, but Matt Levine of Bloomberg offered an alternative take on the story. In Levine\u2019s view, payment for order flow is bad for investors whose orders aren\u2019t sold to market makers, but good for investors whose orders are sold to market makers. For the second group of investors, high frequency trading firms are effectively paying for retail investors to be able to trade freely. As Levine put it, this \u201cfeels pretty Robin-Hoody!\u201d Taking the long view, however, this raises larger questions about transparency. A Facebook user whose \u201cfree\u201d social media activity is only possible because user data is sold to advertisers is not very different from a Robinhood user whose \u201cfree\u201d trading is only possible because investor orders are sold to high frequency traders. To the extent that policymakers decide that the former is not a very transparent business model, it might be worth extending the logic to the latter. Industry Headlines <i>AltFi:<\/i> For those interested in the use of cash flow data for credit scoring, Fair Isaac Corp. (FICO), Experian, and Finicity announced the launch of a new credit score, called UltraFICO. UltraFICO will aim to use data from customer\u2019s bank accounts to better determine their ability to repay, and will allow lenders to offer borrowers the opportunity to have their score recalculated to include their bank account data if their traditional FICO score is too low. <i>Blockchain and Crypto:<\/i> An unsurprising, yet eyebrow-raising new report from Ernst & Young found that ICOs don\u2019t exactly have an impressive track record. In fact, it\u2019s downright terrible. The report found that during the first half of 2018, 86 percent of the leading ICOs from 2017 were below their listing price. Almost a third of ICOs have lost \u201csubstantially all their value,\u201d and 99 percent of the gains have been concentrated among the top 10 ICOs. Elsewhere, Fidelity announced the launch of Fidelity Digital Assets, a crypto trading platform for institutional clients. The platform will be limited to Bitcoin and Ether for the time being. Finally, in news that may or may not be related to last week\u2019s stable coin debacle, Bitfinex announced an improved deposit system for fiat currencies. <i>Data Intermediation:<\/i> Perhaps the biggest news of all last week came from the Financial Services Information Sharing and Analysis Center (FS-ISAC), which announced the launch of the Financial Data Exchange (FDX). FDX is a partnership between large banks, data aggregators, and certain FinTechs whose purpose is to establish consistent standards for the sharing of customer data. Specifically, the organization aims to unify the financial industry around FS-ISAC\u2019s Durable Data API. Notably, the launch of FDX does not mark a common agreement about the specific data to be shared between members or propose a liability framework for financial data. Meanwhile,Intuit is set to announce two new partnerships with LendingClub and Wealthfront at Money 20\/20 this week in Las Vegas. The newly formed partnership will allow LendingClub and Wealthfront to use TurboTax data to speed up the loan application process and tailor financial advice for their customers. <i>Digital Banking:<\/i> Speaking of APIs, BBVA will begin to offer its \u201cBanking as a Service\u201d products in the U.S. through its BBVA Open Platform program. The platform will allow third parties who pass security and compliance checks to access some of BBVA\u2019s services, including money transmission, identity verification, account origination, and card issuance. The move signals that BBVA is trying to stay ahead of the curve on data portability in the U.S., just as it has in Europe. <i>RegTech:<\/i> The International RegTech Association (IRTA) published its \u201cPrinciples for RegTech Firms\u201d document last week, and is seeking feedback until January 14, 2019. The document outlines a list of voluntary principles for IRTA members. IRTA Chief Executive Ben Richmond stated that these principles are crucial now, saying, \u201cIf open standards had existed in 2007, the degree of risk within financial services would have been more visible, and regulatory requirements could have been translated and applied digitally.\u201d <i>Payments:<\/i> Square pivoted from a tough news cycle last week with the launch of Terminal, a new point-of-sale hardware device. Square hopes Terminal can replace older payment terminals, and that placing the hardware in stores will drive adoption of Square\u2019s point-of-sale software. Terminal will not only accept payments through Square Payments. The device will accept card payments as well as mobile payments from Apple Pay, Google Pay, Samsung Pay, and NFC. Square wasn\u2019t the only payments firm with a big announcement last week, however. PayPal and American Express announced a new partnership which will allow Amex users to use Membership Rewards for purchases via PayPal and add their Amex card to their PayPal wallet directly from the Amex app. Moving abroad, Ant Financial and Tencent say that stolen Apple IDs allowed the theft of customer funds. Apple said it is looking into the issue, while Ant Financial has taken the step of warning Chinese iPhone users of the danger. Elsewhere, SoftBank and Paytm-backed PayPay has officialy launched in Japan. The app is based on QR technology, which has achieved a great deal of success throughout the region. Global Developments <i>International:<\/i> The World Bank and the International Monetary Fund (IMF) launched the Bali FinTech Agenda, which includes 12 high-level principles for policymakers around the world to consider in their response to FinTech. IMF Managing Director Christine Lagarde stated, \u201cThere are an estimated 1.7 billion adults in the world without access to financial services. Fintech can have a major social and economic impact for them and across the membership in general. All countries are trying to reap these benefits, while also mitigating the risks. We need greater international cooperation to achieve that, and to make sure the FinTech revolution benefits the many and not just the few. This Agenda provides a useful framework for countries to assess their policy options and adapt them to their own circumstances and priorities.\u201d Meanwhile, the International Finance Corporation (IFC) and Ant Financial jointly announced the \u201c10x1000 Tech for Inclusion\u201d program, which hopes to support technology leaders making strides in financial inclusion. <i>France:<\/i> A report from KPMG and the French Crowdfunding Association found that online lending and equity crowdfunding are on divergent paths in France, with the former up 76 percent in the first half of 2018, while the latter is down 50 percent. <i>Russia:<\/i> The Central Bank of Russia published a request for comments on the bank\u2019s recent paper on RegTech and SupTech. Comments are due November 16 (paper in Russian). <i>United Kingdom:<\/i> The U.K.\u2019s Financial Conduct Authority (FCA) announced their Green FinTech Challenge last week, which will support a cohort of firms attempting to help the U.K. in its transition to a green economy. Successful applicants will have a dedicated advisor from the FCA Innovate team, support receiving FCA authorization, and the opportunity for live market testing in the FCA sandbox. Application for the Green FinTech Challenge are due January 11, 2019. <i>United States:<\/i> Jelena McWilliams, the Chairman of the Federal Deposit Insurance Corporation (FDIC), announced the launch of an office of innovation to encourage banks to adopt FinTech solutions. In an interview at an American Bankers Association conference, McWilliams discussed her concern that our regulatory environment actually discourages banks from innovating. From her perspective, the FDIC can play a role in financial innovation by considering industrial loan company charters, regulating third party vendor relationships, and working with technology providers to increase banks\u2019 efficiency. Last week, the Securities and Exchange Commission announced the launch of their Strategic Hub for Innovation and Technology (FinHub). The initiative is a portal for the public to explore the SEC\u2019s FinTech related work, and will be led by Valerie A. Szczepanik, Senior Advisor for Digital Assets and Innovation and Associate Director in the SEC's Division of Corporation Finance. Finally, the Milken Institute published a comment letter to the Global Financial Innovation Network (GFIN) last week. The letter includes recommendations that the GFIN develop a list of problem statements, prioritize its first two functions, and resist the temptation to form a steering committee. Further, the letter includes an extensive summary of regulatory sandbox developments around the world from the ever inexhaustible Jackson Mueller.",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The Robinhood Model Early last week, Bloomberg made waves when it reported that Robinhood made over 40 percent of its revenue in 2018 by selling investor\u2019s orders to high frequency trading firms. This was noteworthy not because the practice is novel or unusual, but because it didn\u2019t quite comport with Robinhood\u2019s public image. Moreover, Robinhood seemed to have buried the disclosure of this practice in the fine print rather than make it apparent to customers on their website. This arrangement is concerning to some, but Matt Levine of Bloomberg offered an alternative take on the story. In Levine\u2019s view, payment for order flow is bad for investors whose orders aren\u2019t sold to market makers, but good for investors whose orders are sold to market makers. For the second group of investors, high frequency trading firms are effectively paying for retail investors to be able to trade freely. As Levine put it, this \u201cfeels pretty Robin-Hoody!\u201d Taking the long view, however, this raises larger questions about transparency. A Facebook user whose \u201cfree\u201d social media activity is only possible because user data is sold to advertisers is not very different from a Robinhood user whose \u201cfree\u201d trading is only possible because investor orders are sold to high frequency traders. To the extent that policymakers decide that the former is not a very transparent business model, it might be worth extending the logic to the latter. Industry Headlines <i>AltFi:<\/i> For those interested in the use of cash flow data for credit scoring, Fair Isaac Corp. (FICO), Experian, and Finicity announced the launch of a new credit score, called UltraFICO. UltraFICO will aim to use data from customer\u2019s bank accounts to better determine their ability to repay, and will allow lenders to offer borrowers the opportunity to have their score recalculated to include their bank account data if their traditional FICO score is too low. <i>Blockchain and Crypto:<\/i> An unsurprising, yet eyebrow-raising new report from Ernst &amp; Young found that ICOs don\u2019t exactly have an impressive track record. In fact, it\u2019s downright terrible. The report found that during the first half of 2018, 86 percent of the leading ICOs from 2017 were below their listing price. Almost a third of ICOs have lost \u201csubstantially all their value,\u201d and 99 percent of the gains have been concentrated among the top 10 ICOs. Elsewhere, Fidelity announced the launch of Fidelity Digital Assets, a crypto trading platform for institutional clients. The platform will be limited to Bitcoin and Ether for the time being. Finally, in news that may or may not be related to last week\u2019s stable coin debacle, Bitfinex announced an improved deposit system for fiat currencies. <i>Data Intermediation:<\/i> Perhaps the biggest news of all last week came from the Financial Services Information Sharing and Analysis Center (FS-ISAC), which announced the launch of the Financial Data Exchange (FDX). FDX is a partnership between large banks, data aggregators, and certain FinTechs whose purpose is to establish consistent standards for the sharing of customer data. Specifically, the organization aims to unify the financial industry around FS-ISAC\u2019s Durable Data API. Notably, the launch of FDX does not mark a common agreement about the specific data to be shared between members or propose a liability framework for financial data. Meanwhile,Intuit is set to announce two new partnerships with LendingClub and Wealthfront at Money 20\/20 this week in Las Vegas. The newly formed partnership will allow LendingClub and Wealthfront to use TurboTax data to speed up the loan application process and tailor financial advice for their customers. <i>Digital Banking:<\/i> Speaking of APIs, BBVA will begin to offer its \u201cBanking as a Service\u201d products in the U.S. through its BBVA Open Platform program. The platform will allow third parties who pass security and compliance checks to access some of BBVA\u2019s services, including money transmission, identity verification, account origination, and card issuance. The move signals that BBVA is trying to stay ahead of the curve on data portability in the U.S., just as it has in Europe. <i>RegTech:<\/i> The International RegTech Association (IRTA) published its \u201cPrinciples for RegTech Firms\u201d document last week, and is seeking feedback until January 14, 2019. The document outlines a list of voluntary principles for IRTA members. IRTA Chief Executive Ben Richmond stated that these principles are crucial now, saying, \u201cIf open standards had existed in 2007, the degree of risk within financial services would have been more visible, and regulatory requirements could have been translated and applied digitally.\u201d <i>Payments:<\/i> Square pivoted from a tough news cycle last week with the launch of Terminal, a new point-of-sale hardware device. Square hopes Terminal can replace older payment terminals, and that placing the hardware in stores will drive adoption of Square\u2019s point-of-sale software. Terminal will not only accept payments through Square Payments. The device will accept card payments as well as mobile payments from Apple Pay, Google Pay, Samsung Pay, and NFC. Square wasn\u2019t the only payments firm with a big announcement last week, however. PayPal and American Express announced a new partnership which will allow Amex users to use Membership Rewards for purchases via PayPal and add their Amex card to their PayPal wallet directly from the Amex app. Moving abroad, Ant Financial and Tencent say that stolen Apple IDs allowed the theft of customer funds. Apple said it is looking into the issue, while Ant Financial has taken the step of warning Chinese iPhone users of the danger. Elsewhere, SoftBank and Paytm-backed PayPay has officialy launched in Japan. The app is based on QR technology, which has achieved a great deal of success throughout the region. Global Developments <i>International:<\/i> The World Bank and the International Monetary Fund (IMF) launched the Bali FinTech Agenda, which includes 12 high-level principles for policymakers around the world to consider in their response to FinTech. IMF Managing Director Christine Lagarde stated, \u201cThere are an estimated 1.7 billion adults in the world without access to financial services. Fintech can have a major social and economic impact for them and across the membership in general. All countries are trying to reap these benefits, while also mitigating the risks. We need greater international cooperation to achieve that, and to make sure the FinTech revolution benefits the many and not just the few. This Agenda provides a useful framework for countries to assess their policy options and adapt them to their own circumstances and priorities.\u201d Meanwhile, the International Finance Corporation (IFC) and Ant Financial jointly announced the \u201c10x1000 Tech for Inclusion\u201d program, which hopes to support technology leaders making strides in financial inclusion. <i>France:<\/i> A report from KPMG and the French Crowdfunding Association found that online lending and equity crowdfunding are on divergent paths in France, with the former up 76 percent in the first half of 2018, while the latter is down 50 percent. <i>Russia:<\/i> The Central Bank of Russia published a request for comments on the bank\u2019s recent paper on RegTech and SupTech. Comments are due November 16 (paper in Russian). <i>United Kingdom:<\/i> The U.K.\u2019s Financial Conduct Authority (FCA) announced their Green FinTech Challenge last week, which will support a cohort of firms attempting to help the U.K. in its transition to a green economy. Successful applicants will have a dedicated advisor from the FCA Innovate team, support receiving FCA authorization, and the opportunity for live market testing in the FCA sandbox. Application for the Green FinTech Challenge are due January 11, 2019. <i>United States:<\/i> Jelena McWilliams, the Chairman of the Federal Deposit Insurance Corporation (FDIC), announced the launch of an office of innovation to encourage banks to adopt FinTech solutions. In an interview at an American Bankers Association conference, McWilliams discussed her concern that our regulatory environment actually discourages banks from innovating. From her perspective, the FDIC can play a role in financial innovation by considering industrial loan company charters, regulating third party vendor relationships, and working with technology providers to increase banks\u2019 efficiency. Last week, the Securities and Exchange Commission announced the launch of their Strategic Hub for Innovation and Technology (FinHub). The initiative is a portal for the public to explore the SEC\u2019s FinTech related work, and will be led by Valerie A. Szczepanik, Senior Advisor for Digital Assets and Innovation and Associate Director in the SEC's Division of Corporation Finance. Finally, the Milken Institute published a comment letter to the Global Financial Innovation Network (GFIN) last week. The letter includes recommendations that the GFIN develop a list of problem statements, prioritize its first two functions, and resist the temptation to form a steering committee. Further, the letter includes an extensive summary of regulatory sandbox developments around the world from the ever inexhaustible Jackson Mueller.",
+    "summary": null,
+    "summary_processed": ""
+}

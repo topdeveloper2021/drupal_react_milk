@@ -1,0 +1,20 @@
+uuid: 07af0edf-cd40-4dc0-b92c-c6e52c4c8ec0
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - node
+id: node.field_authors
+field_name: field_authors
+entity_type: node
+type: entity_reference
+settings:
+  target_type: people
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

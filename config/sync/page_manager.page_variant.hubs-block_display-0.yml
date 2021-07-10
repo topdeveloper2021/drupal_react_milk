@@ -1,0 +1,62 @@
+uuid: df4056e5-27d9-4ea1-98df-25cea84de1bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.hubs
+id: hubs-block_display-0
+label: 'Hub View'
+variant: layout_builder
+variant_settings:
+  id: layout_builder
+  blocks: {  }
+  uuid: dc30bc69-823d-4344-9b03-3b18db923ca8
+  label: null
+  weight: 0
+  page_title: ''
+  sections:
+    -
+      layout_id: layout_onecol
+      layout_settings:
+        label: Content
+      components:
+        63670537-b73a-4970-ad49-bcfbf06a3cc3:
+          uuid: 63670537-b73a-4970-ad49-bcfbf06a3cc3
+          region: content
+          configuration:
+            id: 'component:PhilanthropyHub'
+            label: 'Philanthropy Hub'
+            provider: component
+            label_display: visible
+            form_configuration:
+              id: philanthropy_hub
+              type: node--opportunity
+              view_mode: card
+              url: '/jsonapi/node/opportunity?jsonapi_include=true&include=field_region,field_focus,field_terms,field_actions,field_hub'
+              tag: philanthropy-hub
+              attach_library: milken_base/PhilanthropyHub
+            context_mapping: {  }
+          additional:
+            layout_builder_styles_style: ''
+          weight: 1
+        638be396-5706-40c3-acc0-c5aa94aed406:
+          uuid: 638be396-5706-40c3-acc0-c5aa94aed406
+          region: content
+          configuration:
+            id: 'block_content:4db4fb05-4ee9-426c-b5d7-6b7ba5faf895'
+            label: 'Hub Header Philanthropy'
+            provider: block_content
+            label_display: '0'
+            status: true
+            info: ''
+            view_mode: full
+            context_mapping: {  }
+          additional:
+            layout_builder_styles_style: ''
+          weight: 0
+      third_party_settings: {  }
+page: hubs
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

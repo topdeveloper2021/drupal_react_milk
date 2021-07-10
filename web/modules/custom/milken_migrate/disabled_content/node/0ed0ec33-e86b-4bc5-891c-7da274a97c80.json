@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/what-we-can-learn-about-aging-little-singapore?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/149?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 777
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0ed0ec33-e86b-4bc5-891c-7da274a97c80"
+        }
+    ],
+    "vid": [
+        {
+            "value": 777
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/149?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "22238d55-54ce-4b5b-9df3-09c800139ee7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": " What We Can Learn About Aging From Little Singapore",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-11T21:00:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:00:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/what-we-can-learn-about-aging-little-singapore",
+            "pid": 830,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "When it achieved independence 50 years ago, Singapore was an unexceptional place, other than for its challenges. With few natural resources, weak infrastructure and year-round tropical heat, there was little reason to believe in the prospects for the small Asian city-state. So Singapore focused on its people. New ideas, ambitious leadership and forward thinking investment led to rapid advances in economic development, education and public health. It was hard to ignore Singapore's example and emergence as one of the most successful economies in the world. Now Singapore is at it again, setting a new standard for human capital leadership through an ambitious \"Action Plan for Successful Aging\" to help Singaporeans age confidently and actively. Population aging is spreading worldwide due to increasing longevity and declining birth rates, resulting in a relative reduction in the proportion of children and an increase in the proportion of older adults in the population. Globally, the number of individuals over 60 is projected to more than double by 2050, to more than two billion. Many in the U.S. and other societies with aging populations see this progressing demographic shift as nothing less than a \"silver tsunami,\" leading inevitably to debt, disease and despair. The defeatists have their logic. It's hard to deny that the world faces a population aging challenge. The economy of the future will be unable to rely on a repeat of the same demographic inputs that fueled global growth in years past. Costs of chronic disease and dementia continue to grow. Major social and economic challenges loom as dependency ratios -- the ratio of the population aged 65-plus to the population aged 15 to 64 -- continue to fall, with resulting pressures on public and private support systems. Without bold changes in policy, practice and culture, population aging will present one of the great risks to a brighter future for future generations. But there is another and very different view of aging and the changing demography. This view realizes that increasing life span can be a positive force for economic and social opportunity, enhanced cohesion and intergenerational harmony. It understands that older adults represent a massive human capital asset waiting for a call to action. It appreciates the promise of disease prevention and wellness to extend health span. It acknowledges the abundant possibilities that the longevity dividend confers. This recognition of the opportunities -- of the upside of aging -- is reflected in the innovations announced as part of Singapore's Action Plan. The Action Plan includes 60 initiatives focused on health and wellness, learning, employment and financial security, volunteerism, housing, transportation, community enhancement and social inclusion. Singapore aims to build a \"nation for all ages\" with programs at the individual, community and city levels. A National Silver Academy will offer educational opportunities for older adults across the country, as individuals are encouraged to learn, retrain and acquire fresh skills for the economy of the future. The President's Challenge will champion a national movement of elder volunteerism. Companies in Singapore will be supported in their efforts to redesign jobs and workplaces to suit an older workforce. Social safety nets will be strengthened to serve elders in need. New policies will promote healthy aging, intergenerational programs, and age-friendly housing, transit systems, parks and urban centers. Active aging hubs will engage older adults in new ways. Research support to transform the experience of aging will be increased. Singapore's leadership, under Prime Minister Lee Hsien Loong, sees the opportunity to incorporate older adults into a growth framework ensuring inclusiveness, enhancing resilience, and offering the potential for lifelong engagement and employability. As Singapore continues its transformation to become a \"nation for all ages,\" it's time for leaders on this side of the Pacific -- and elsewhere -- to take notice and step up. In a generation, Singapore emerged from modest circumstances to pass the U.S. and many other developed nations in education standards, employment rates, health measures, safety, longevity and other indicators of success. Now Singapore, at a fraction of our size and strength, is investing in its older adults and re-envisioning the future of aging and life course. As we consider the policies and practices that can ensure our own future leadership position in the world, let's learn from little Singapore. The strength of societies derives from many sources but, above all, it's the people that make a difference. With increasing longevity and a growing portion of our own population aging, our direction should be clear. It's time to invest and work toward a better future for older adults, one that offers opportunity, dignity and purpose, and asks for engagement and beneficial contribution in return.<br \/> <br \/> <i>Paul Irving is Chairman of the Center for the Future of Aging at the Milken Institute and Distinguished Scholar in Residence at the University of Southern California Davis School of Gerontology<\/i> <i>This article originally appeared in The Huffington Post on December 9, 2015<\/i>",
+    "format": "rich_text",
+    "processed": "When it achieved independence 50 years ago, Singapore was an unexceptional place, other than for its challenges. With few natural resources, weak infrastructure and year-round tropical heat, there was little reason to believe in the prospects for the small Asian city-state. So Singapore focused on its people. New ideas, ambitious leadership and forward thinking investment led to rapid advances in economic development, education and public health. It was hard to ignore Singapore's example and emergence as one of the most successful economies in the world. Now Singapore is at it again, setting a new standard for human capital leadership through an ambitious \"Action Plan for Successful Aging\" to help Singaporeans age confidently and actively. Population aging is spreading worldwide due to increasing longevity and declining birth rates, resulting in a relative reduction in the proportion of children and an increase in the proportion of older adults in the population. Globally, the number of individuals over 60 is projected to more than double by 2050, to more than two billion. Many in the U.S. and other societies with aging populations see this progressing demographic shift as nothing less than a \"silver tsunami,\" leading inevitably to debt, disease and despair. The defeatists have their logic. It's hard to deny that the world faces a population aging challenge. The economy of the future will be unable to rely on a repeat of the same demographic inputs that fueled global growth in years past. Costs of chronic disease and dementia continue to grow. Major social and economic challenges loom as dependency ratios -- the ratio of the population aged 65-plus to the population aged 15 to 64 -- continue to fall, with resulting pressures on public and private support systems. Without bold changes in policy, practice and culture, population aging will present one of the great risks to a brighter future for future generations. But there is another and very different view of aging and the changing demography. This view realizes that increasing life span can be a positive force for economic and social opportunity, enhanced cohesion and intergenerational harmony. It understands that older adults represent a massive human capital asset waiting for a call to action. It appreciates the promise of disease prevention and wellness to extend health span. It acknowledges the abundant possibilities that the longevity dividend confers. This recognition of the opportunities -- of the upside of aging -- is reflected in the innovations announced as part of Singapore's Action Plan. The Action Plan includes 60 initiatives focused on health and wellness, learning, employment and financial security, volunteerism, housing, transportation, community enhancement and social inclusion. Singapore aims to build a \"nation for all ages\" with programs at the individual, community and city levels. A National Silver Academy will offer educational opportunities for older adults across the country, as individuals are encouraged to learn, retrain and acquire fresh skills for the economy of the future. The President's Challenge will champion a national movement of elder volunteerism. Companies in Singapore will be supported in their efforts to redesign jobs and workplaces to suit an older workforce. Social safety nets will be strengthened to serve elders in need. New policies will promote healthy aging, intergenerational programs, and age-friendly housing, transit systems, parks and urban centers. Active aging hubs will engage older adults in new ways. Research support to transform the experience of aging will be increased. Singapore's leadership, under Prime Minister Lee Hsien Loong, sees the opportunity to incorporate older adults into a growth framework ensuring inclusiveness, enhancing resilience, and offering the potential for lifelong engagement and employability. As Singapore continues its transformation to become a \"nation for all ages,\" it's time for leaders on this side of the Pacific -- and elsewhere -- to take notice and step up. In a generation, Singapore emerged from modest circumstances to pass the U.S. and many other developed nations in education standards, employment rates, health measures, safety, longevity and other indicators of success. Now Singapore, at a fraction of our size and strength, is investing in its older adults and re-envisioning the future of aging and life course. As we consider the policies and practices that can ensure our own future leadership position in the world, let's learn from little Singapore. The strength of societies derives from many sources but, above all, it's the people that make a difference. With increasing longevity and a growing portion of our own population aging, our direction should be clear. It's time to invest and work toward a better future for older adults, one that offers opportunity, dignity and purpose, and asks for engagement and beneficial contribution in return.<br \/><br \/><i>Paul Irving is Chairman of the Center for the Future of Aging at the Milken Institute and Distinguished Scholar in Residence at the University of Southern California Davis School of Gerontology<\/i> <i>This article originally appeared in The Huffington Post on December 9, 2015<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

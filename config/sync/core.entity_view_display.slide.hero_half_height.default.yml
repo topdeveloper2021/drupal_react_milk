@@ -1,0 +1,112 @@
+uuid: 2cae907f-0535-4893-be69-b13783f7e9e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.hero_half_height
+    - field.field.slide.hero_half_height.field_background_color
+    - field.field.slide.hero_half_height.field_background_image
+    - field.field.slide.hero_half_height.field_link
+    - field.field.slide.hero_half_height.field_promoted
+    - field.field.slide.hero_half_height.field_published
+    - field.field.slide.hero_half_height.field_slide_text
+    - field.field.slide.hero_half_height.field_text_color
+  module:
+    - color_field
+    - image
+    - key_value_field
+    - link
+id: slide.hero_half_height.default
+targetEntityType: slide
+bundle: hero_half_height
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_background_color:
+    weight: 3
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  field_background_image:
+    weight: 5
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link:
+    weight: 7
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_promoted:
+    weight: 1
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_published:
+    weight: 2
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_slide_text:
+    weight: 6
+    label: above
+    settings:
+      value_only: false
+    third_party_settings: {  }
+    type: key_value
+    region: content
+  field_text_color:
+    weight: 4
+    label: above
+    settings:
+      format: hex
+      opacity: true
+    third_party_settings: {  }
+    type: color_field_formatter_text
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  langcode: true
+  search_api_excerpt: true

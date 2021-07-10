@@ -1,0 +1,23 @@
+uuid: a2d4fd55-289c-4848-b03f-efd4c2d52b79
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_track.join_table
+    - field.storage.grid_join_panel_track.field_panel_track_id
+id: grid_join_panel_track.join_table.field_panel_track_id
+field_name: field_panel_track_id
+entity_type: grid_join_panel_track
+bundle: join_table
+label: 'Panel Track ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

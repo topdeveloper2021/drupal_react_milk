@@ -1,0 +1,29 @@
+uuid: 29de9beb-dd3c-4a6a-939a-2541b879e9f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_centers
+    - taxonomy.vocabulary.centers
+id: people.person.field_centers
+field_name: field_centers
+entity_type: people
+bundle: person
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: cdade618-b1b3-48b0-845d-5dd336d26da5
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_displaychinese
+field_name: field_displaychinese
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,663 @@
+uuid: e8bf198b-33cc-43aa-a3d3-83f600966cec
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.field.grid_speakers.speakers.field_attendeeid
+    - field.field.grid_speakers.speakers.field_biolink
+    - field.field.grid_speakers.speakers.field_biopic
+    - field.field.grid_speakers.speakers.field_biotext
+    - field.field.grid_speakers.speakers.field_cancelled
+    - field.field.grid_speakers.speakers.field_city
+    - field.field.grid_speakers.speakers.field_connections
+    - field.field.grid_speakers.speakers.field_contactid
+    - field.field.grid_speakers.speakers.field_createdbyid
+    - field.field.grid_speakers.speakers.field_cventid
+    - field.field.grid_speakers.speakers.field_datecreated
+    - field.field.grid_speakers.speakers.field_datemodified
+    - field.field.grid_speakers.speakers.field_datesuggested
+    - field.field.grid_speakers.speakers.field_description
+    - field.field.grid_speakers.speakers.field_developmentpriority
+    - field.field.grid_speakers.speakers.field_devorganization
+    - field.field.grid_speakers.speakers.field_devrelationcontact
+    - field.field.grid_speakers.speakers.field_devrelationship
+    - field.field.grid_speakers.speakers.field_displaychinese
+    - field.field.grid_speakers.speakers.field_eventid
+    - field.field.grid_speakers.speakers.field_facebook
+    - field.field.grid_speakers.speakers.field_facebookfollowers
+    - field.field.grid_speakers.speakers.field_first_name
+    - field.field.grid_speakers.speakers.field_instagram
+    - field.field.grid_speakers.speakers.field_invitationextend
+    - field.field.grid_speakers.speakers.field_invitationwhom
+    - field.field.grid_speakers.speakers.field_ipnum
+    - field.field.grid_speakers.speakers.field_last_name
+    - field.field.grid_speakers.speakers.field_linkedin
+    - field.field.grid_speakers.speakers.field_location
+    - field.field.grid_speakers.speakers.field_middle_name
+    - field.field.grid_speakers.speakers.field_modifiedbyid
+    - field.field.grid_speakers.speakers.field_needsfinaledit
+    - field.field.grid_speakers.speakers.field_notes
+    - field.field.grid_speakers.speakers.field_panelid
+    - field.field.grid_speakers.speakers.field_pgid
+    - field.field.grid_speakers.speakers.field_pgtitle
+    - field.field.grid_speakers.speakers.field_phoneticname
+    - field.field.grid_speakers.speakers.field_photomoddate
+    - field.field.grid_speakers.speakers.field_primarytrack
+    - field.field.grid_speakers.speakers.field_rawfiletype
+    - field.field.grid_speakers.speakers.field_recbio
+    - field.field.grid_speakers.speakers.field_recbiodate
+    - field.field.grid_speakers.speakers.field_recphoto
+    - field.field.grid_speakers.speakers.field_recphotodate
+    - field.field.grid_speakers.speakers.field_recwaiver
+    - field.field.grid_speakers.speakers.field_recwaiverdate
+    - field.field.grid_speakers.speakers.field_rolechangedate
+    - field.field.grid_speakers.speakers.field_salesforceid
+    - field.field.grid_speakers.speakers.field_salutation
+    - field.field.grid_speakers.speakers.field_schedulenotes
+    - field.field.grid_speakers.speakers.field_secondarytrack
+    - field.field.grid_speakers.speakers.field_showflownotes
+    - field.field.grid_speakers.speakers.field_sortorder
+    - field.field.grid_speakers.speakers.field_speakerliaison
+    - field.field.grid_speakers.speakers.field_speakerrole
+    - field.field.grid_speakers.speakers.field_speakertopics
+    - field.field.grid_speakers.speakers.field_speakertype
+    - field.field.grid_speakers.speakers.field_spideremaildate
+    - field.field.grid_speakers.speakers.field_spkemail
+    - field.field.grid_speakers.speakers.field_status
+    - field.field.grid_speakers.speakers.field_suffix
+    - field.field.grid_speakers.speakers.field_topicnotes
+    - field.field.grid_speakers.speakers.field_twitter
+    - field.field.grid_speakers.speakers.field_twitter2
+    - field.field.grid_speakers.speakers.field_twitternotes
+    - field.field.grid_speakers.speakers.field_webfiletype
+    - field.field.grid_speakers.speakers.field_whoconfirmed
+    - field.field.grid_speakers.speakers.field_whoentered
+    - field.field.grid_speakers.speakers.field_whosuggested
+    - field.field.grid_speakers.speakers.field_womensreport
+id: grid_speakers.speakers.default
+targetEntityType: grid_speakers
+bundle: speakers
+mode: default
+content:
+  field_attendeeid:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_biolink:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_biopic:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_biotext:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_cancelled:
+    weight: 7
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_city:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_connections:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_contactid:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_createdbyid:
+    weight: 11
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_cventid:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_datecreated:
+    weight: 13
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_datemodified:
+    weight: 14
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_datesuggested:
+    weight: 15
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_description:
+    weight: 16
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_developmentpriority:
+    weight: 17
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_devorganization:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_devrelationcontact:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_devrelationship:
+    weight: 20
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_displaychinese:
+    weight: 21
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_eventid:
+    weight: 22
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_facebook:
+    weight: 23
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_facebookfollowers:
+    weight: 24
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_first_name:
+    weight: 25
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_instagram:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_invitationextend:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_invitationwhom:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ipnum:
+    weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_last_name:
+    weight: 30
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_linkedin:
+    weight: 31
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_location:
+    weight: 32
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_middle_name:
+    weight: 33
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_modifiedbyid:
+    weight: 34
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_needsfinaledit:
+    weight: 35
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_notes:
+    weight: 36
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_panelid:
+    weight: 37
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pgid:
+    weight: 38
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_pgtitle:
+    weight: 39
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_phoneticname:
+    weight: 40
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photomoddate:
+    weight: 41
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_primarytrack:
+    weight: 42
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_rawfiletype:
+    weight: 43
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_recbio:
+    weight: 44
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_recbiodate:
+    weight: 45
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_recphoto:
+    weight: 46
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_recphotodate:
+    weight: 47
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_recwaiver:
+    weight: 48
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_recwaiverdate:
+    weight: 49
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_rolechangedate:
+    weight: 50
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_salesforceid:
+    weight: 51
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_salutation:
+    weight: 52
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_schedulenotes:
+    weight: 53
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_secondarytrack:
+    weight: 54
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_showflownotes:
+    weight: 55
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_sortorder:
+    weight: 57
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_speakerliaison:
+    weight: 56
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_speakerrole:
+    weight: 58
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_speakertopics:
+    weight: 59
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_speakertype:
+    weight: 60
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_spideremaildate:
+    weight: 61
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_spkemail:
+    weight: 62
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_status:
+    weight: 63
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_suffix:
+    weight: 64
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_topicnotes:
+    weight: 65
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_twitter:
+    weight: 66
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_twitter2:
+    weight: 67
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_twitternotes:
+    weight: 68
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_webfiletype:
+    weight: 69
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_whoconfirmed:
+    weight: 70
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_whoentered:
+    weight: 71
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_whosuggested:
+    weight: 72
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_womensreport:
+    weight: 73
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

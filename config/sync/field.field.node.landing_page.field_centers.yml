@@ -1,0 +1,29 @@
+uuid: 013e16a8-ef14-4445-97b8-979cb8a6a330
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_centers
+    - node.type.landing_page
+    - taxonomy.vocabulary.centers
+id: node.landing_page.field_centers
+field_name: field_centers
+entity_type: node
+bundle: landing_page
+label: Centers
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      centers: centers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,69 @@
+uuid: 28eb3ddf-660f-467a-a247-8587008da389
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.sponsor_logo.field_filemime
+    - field.field.media.sponsor_logo.field_filesize
+    - field.field.media.sponsor_logo.field_height
+    - field.field.media.sponsor_logo.field_media_image
+    - field.field.media.sponsor_logo.field_width
+    - image.style.large
+    - media.type.sponsor_logo
+  module:
+    - image
+id: media.sponsor_logo.default
+targetEntityType: media
+bundle: sponsor_logo
+mode: default
+content:
+  field_filemime:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_filesize:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_height:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_media_image:
+    label: visually_hidden
+    weight: 0
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_width:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

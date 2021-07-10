@@ -1,0 +1,29 @@
+uuid: 9ec110d6-d284-44d5-85f3-19b386c95b2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_tracks.tracks
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_tracks
+id: panel.panel.field_tracks
+field_name: field_tracks
+entity_type: panel
+bundle: panel
+label: Tracks
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:grid_tracks'
+  handler_settings:
+    target_bundles:
+      tracks: tracks
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,399 @@
+uuid: e5cc78a7-4cb2-43c6-81c8-61397853e770
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: node_session
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - event
+migration_group: milken
+label: 'Node => Session VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milken-dev.reapbooster.com:8443/jsonapi/panels'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milken-dev.reapbooster.com:8443'
+  jsonapi_endpoint: /jsonapi/panels
+  item_selector: data
+  jsonapi_include: true
+  fields:
+    -
+      name: pid
+      label: PID
+      selector: /id
+    -
+      name: name
+      label: Name
+      selector: /attributes/panel
+    -
+      name: sess
+      label: Sess
+      selector: /attributes/sess
+    -
+      name: description
+      label: 'body array'
+      selector: /attributes/description
+    -
+      name: video
+      label: Video
+      selector: /attributes/video
+    -
+      name: vdfile1
+      label: 'Video File 1'
+      selector: /attributes/vdfile1
+    -
+      name: vdfile2
+      label: 'Video File 2'
+      selector: /attributes/vdfile2
+    -
+      name: vdfile3
+      label: 'Video File 3'
+      selector: /attributes/vdfile3
+    -
+      name: vdfile4
+      label: 'Video File 4'
+      selector: /attributes/vdfile4
+    -
+      name: audio
+      label: Audio
+      selector: /attributes/audio
+    -
+      name: adfile
+      label: 'Audio File'
+      selector: /attributes/adfile
+    -
+      name: paneltext
+      label: 'Panel Short Description'
+      selector: /attributes/paneltxt
+    -
+      name: why
+      label: Why
+      selector: /attributes/why
+    -
+      name: session
+      label: Session
+      selector: /attributes/sess
+    -
+      name: summary
+      label: Summary
+      selector: /attributes/summ
+    -
+      name: eventid
+      label: 'Event ID'
+      selector: /attributes/eventid
+    -
+      name: linktext1
+      label: 'Link Text 1'
+      selector: /attributes/lktxt1
+    -
+      name: link1
+      label: Link1
+      selector: /attributes/link1
+    -
+      name: linktext2
+      label: 'Link Text 2'
+      selector: /attributes/lktxt2
+    -
+      name: link2
+      label: Link2
+      selector: /attributes/link2
+    -
+      name: linktext3
+      label: 'Link Text 3'
+      selector: /attributes/lktxt3
+    -
+      name: link3
+      label: Link3
+      selector: /attributes/link3
+    -
+      name: linktext4
+      label: 'Link Text 4'
+      selector: /attributes/lktxt4
+    -
+      name: link4
+      label: Link4
+      selector: /attributes/link4
+    -
+      name: linktext5
+      label: 'Link Text 5'
+      selector: /attributes/lktxt5
+    -
+      name: link5
+      label: Link5
+      selector: /attributes/link5
+    -
+      name: linktext6
+      label: 'Link Text 6'
+      selector: /attributes/lktxt6
+    -
+      name: link6
+      label: Link6
+      selector: /attributes/link6
+    -
+      name: linktext7
+      label: 'Link Text 7'
+      selector: /attributes/lktxt7
+    -
+      name: link7
+      label: Link7
+      selector: /attributes/link7
+    -
+      name: linktext8
+      label: 'Link Text 8'
+      selector: /attributes/lktxt8
+    -
+      name: link8
+      label: Link8
+      selector: /attributes/link8
+    -
+      name: linktext9
+      label: 'Link Text 9'
+      selector: /attributes/lktxt9
+    -
+      name: link9
+      label: Link9
+      selector: /attributes/link9
+    -
+      name: linktext10
+      label: 'Link Text 10'
+      selector: /attributes/lktxt10
+    -
+      name: link10
+      label: Link10
+      selector: /attributes/link10
+    -
+      name: private
+      label: Private
+      selector: /attributes/private
+    -
+      name: created
+      label: 'Link Text 10'
+      selector: /attributes/datecreated
+    -
+      name: changed
+      label: Link10
+      selector: /attributes/datemodified
+    -
+      name: starttime
+      label: 'Start Time'
+      selector: /attributes/starttimed
+    -
+      name: endtimed
+      label: 'End Time'
+      selector: /attributes/endtimed
+    -
+      name: publish
+      lable: Publish
+      selector: /attributes/publish
+  ids:
+    pid:
+      type: integer
+process:
+  pid: pid
+  title:
+    -
+      plugin: skip_on_empty
+      source: name
+      method: row
+    -
+      plugin: get
+      source: name
+  name: name
+  langcode:
+    plugin: default_value
+    default_value: en
+  field_event:
+    plugin: 'milken_migrate:event_reference'
+    source: eventid
+  status: publish
+  field_description/value: description
+  field_description/format:
+    plugin: default_value
+    default_value: full_html
+  field_short_summary/value: summary
+  field_short_summary/format:
+    plugin: default_value
+    default_value: full_html
+  field_private: private
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+  field_url/0/uri:
+    -
+      plugin: skip_on_empty
+      source: link1
+      method: process
+    -
+      plugin: get
+      source: link1
+  field_url/0/title:
+    -
+      plugin: skip_on_empty
+      source: linktext1
+      method: process
+    -
+      plugin: get
+      source: linktext1
+  field_url/1/uri:
+    -
+      plugin: skip_on_empty
+      source: link2
+      method: process
+    -
+      plugin: get
+      source: link2
+  field_url/1/title:
+    -
+      plugin: skip_on_empty
+      source: linktext2
+      method: process
+    -
+      plugin: get
+      source: linktext2
+  field_url/2/uri:
+    -
+      plugin: skip_on_empty
+      source: link3
+      method: process
+    -
+      plugin: get
+      source: link3
+  field_url/2/title:
+    -
+      plugin: skip_on_empty
+      source: linktext3
+      method: process
+    -
+      plugin: get
+      source: linktext3
+  field_url/3/uri:
+    -
+      plugin: skip_on_empty
+      source: link4
+      method: process
+    -
+      plugin: get
+      source: link4
+  field_url/3/title:
+    -
+      plugin: skip_on_empty
+      source: linktext4
+      method: process
+    -
+      plugin: get
+      source: linktext4
+  field_url/4/uri:
+    -
+      plugin: skip_on_empty
+      source: link5
+      method: process
+    -
+      plugin: get
+      source: link5
+  field_url/4/title:
+    -
+      plugin: skip_on_empty
+      source: linktext5
+      method: process
+    -
+      plugin: get
+      source: linktext5
+  field_url/5/uri:
+    -
+      plugin: skip_on_empty
+      source: link6
+      method: process
+    -
+      plugin: get
+      source: link6
+  field_url/5/title:
+    -
+      plugin: skip_on_empty
+      source: linktext6
+      method: process
+    -
+      plugin: get
+      source: linktext6
+  field_url/6/uri:
+    -
+      plugin: skip_on_empty
+      source: link7
+      method: process
+    -
+      plugin: get
+      source: link7
+  field_url/6/title:
+    -
+      plugin: skip_on_empty
+      source: linktext7
+      method: process
+    -
+      plugin: get
+      source: linktext7
+  field_url/7/uri:
+    -
+      plugin: skip_on_empty
+      source: link8
+      method: process
+    -
+      plugin: get
+      source: link8
+  field_url/7/title:
+    -
+      plugin: skip_on_empty
+      source: linktext8
+      method: process
+    -
+      plugin: get
+      source: linktext8
+  field_url/8/uri:
+    -
+      plugin: skip_on_empty
+      source: link9
+      method: process
+    -
+      plugin: get
+      source: link9
+  field_url/8/title:
+    -
+      plugin: skip_on_empty
+      source: linktext9
+      method: process
+    -
+      plugin: get
+      source: linktext9
+  field_url/9/uri:
+    -
+      plugin: skip_on_empty
+      source: link10
+      method: process
+    -
+      plugin: get
+      source: link10
+  field_url/9/title:
+    -
+      plugin: skip_on_empty
+      source: linktext10
+      method: process
+    -
+      plugin: get
+      source: linktext10
+  field_start_end/value:
+    plugin: 'milken_migrate:unix_date'
+    source: starttime
+  field_start_end/end_value:
+    plugin: 'milken_migrate:unix_date'
+    source: endtimed
+destination:
+  plugin: 'entity:node'
+  default_bundle: session
+migration_dependencies: {  }

@@ -1,0 +1,28 @@
+uuid: 05d01aec-4a16-4b88-b27c-34ac5a731375
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_sponsors
+    - media.type.sponsor_logo
+id: event.summit.field_sponsors
+field_name: field_sponsors
+entity_type: event
+bundle: summit
+label: Sponsors
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      sponsor_logo: sponsor_logo
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: sponsor_logo
+field_type: entity_reference

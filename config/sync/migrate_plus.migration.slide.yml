@@ -1,0 +1,107 @@
+uuid: 4f28f7c7-a011-4bce-b661-0721478632da
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+      - eck
+id: slide
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - slide
+migration_group: milken
+label: 'Slides VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/paragraph/center_header'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/paragraph/center_header
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - field_ch_image_carrousel
+  fields:
+    -
+      name: uuid
+      label: UUID
+      selector: /id
+    -
+      name: pid
+      label: 'Paragraph ID'
+      selector: /drupal_internal__id
+    -
+      name: type
+      label: Type
+      selector: /type
+    -
+      name: name
+      label: Name
+      selector: /field_center_header_center_name
+    -
+      name: image
+      label: Image
+      selector: /field_ch_image_carrousel
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: field_ch_supporting_text_above
+      label: 'Text Above'
+      selector: /field_ch_supporting_text_above
+    -
+      name: field_ch_supporting_text_below
+      label: 'Text Below'
+      selector: /field_ch_supporting_text_below
+    -
+      name: field_supertitle_cta
+      label: Supertitle
+      selctor: /field_supertitle_cta
+  ids:
+    pid:
+      type: integer
+    uuid:
+      type: string
+process:
+  uuid:
+    -
+      plugin: 'milken_migrate:uuid_exists'
+      source: uuid
+      entity_type: paragraph
+    -
+      plugin: get
+      source: uuid
+  name: name
+  title: name
+  field_slide_text:
+    plugin: 'milken_migrate:key_value_field'
+    source:
+      - field_ch_supporting_text_above
+      - name
+      - field_ch_supporting_text_below
+      - field_supertitle_cta
+  langcode:
+    plugin: default_value
+    default_value: en
+  field_background_image:
+    plugin: 'milken_migrate:remote_file'
+    source: image
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+destination:
+  plugin: 'entity:slide'
+  default_bundle: full_width_one_column
+migration_dependencies: {  }

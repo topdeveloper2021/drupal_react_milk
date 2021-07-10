@@ -1,0 +1,19 @@
+uuid: a76a17b0-07b6-4473-8323-0488cfb04b84
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - link
+id: slide.field_link
+field_name: field_link
+entity_type: slide
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

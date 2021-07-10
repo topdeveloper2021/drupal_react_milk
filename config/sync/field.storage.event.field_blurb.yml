@@ -1,0 +1,19 @@
+uuid: 7bd3bbbe-c378-4425-9d41-3912487d424c
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: event.field_blurb
+field_name: field_blurb
+entity_type: event
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

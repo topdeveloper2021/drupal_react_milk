@@ -1,0 +1,247 @@
+uuid: 89ae9b1f-0114-4de5-89cd-a793a51eb26b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - entity_browser.browser.browse_files
+    - field.field.people.staff.field_biotext
+    - field.field.people.staff.field_centers
+    - field.field.people.staff.field_collections
+    - field.field.people.staff.field_email
+    - field.field.people.staff.field_event
+    - field.field.people.staff.field_events
+    - field.field.people.staff.field_first_name
+    - field.field.people.staff.field_hidden
+    - field.field.people.staff.field_index_weight
+    - field.field.people.staff.field_last_name
+    - field.field.people.staff.field_meta_tags
+    - field.field.people.staff.field_middle_name
+    - field.field.people.staff.field_pgtitle
+    - field.field.people.staff.field_photo
+    - field.field.people.staff.field_regions
+    - field.field.people.staff.field_social_media
+    - field.field.people.staff.field_status
+    - field.field.people.staff.field_summary
+    - field.field.people.staff.field_tags
+    - field.field.people.staff.field_teams
+    - field.field.people.staff.field_topics
+  module:
+    - entity_browser
+    - metatag
+    - path
+    - social_media
+    - text
+id: people.staff.default
+targetEntityType: people
+bundle: staff
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 22
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_biotext:
+    weight: 10
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_centers:
+    weight: 12
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_collections:
+    weight: 17
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_email:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_event:
+    weight: 19
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_events:
+    weight: 18
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_first_name:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_hidden:
+    weight: 1
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_index_weight:
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_last_name:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_meta_tags:
+    weight: 24
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_middle_name:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_pgtitle:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photo:
+    weight: 3
+    settings:
+      entity_browser: browse_files
+      field_widget_remove: true
+      field_widget_replace: true
+      selection_mode: selection_edit
+      preview_image_style: thumbnail
+      field_widget_edit: true
+      open: false
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_browser_file
+    region: content
+  field_regions:
+    weight: 15
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_social_media:
+    weight: 11
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: social_media_default
+    region: content
+  field_status:
+    weight: 2
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_summary:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_tags:
+    weight: 14
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_teams:
+    weight: 13
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_topics:
+    weight: 16
+    region: content
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 21
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

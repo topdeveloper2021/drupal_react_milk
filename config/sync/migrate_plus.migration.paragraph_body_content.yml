@@ -1,0 +1,101 @@
+uuid: 8fa2d549-af5b-4ae6-a611-0d52156605dc
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: paragraph_body_content
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - paragraphs
+migration_group: milken
+label: 'Paragraph--body_content VIA JSON API'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/paragraph/body_content_alternative'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/paragraph/body_content_alternative
+  item_selector: data
+  jsonapi_include: true
+  fields:
+    -
+      name: paragraph_id
+      label: 'Node ID'
+      selector: drupal_internal__id
+    -
+      name: paragraph_revision_id
+      label: 'Revision ID'
+      selector: drupal_internal__revision_id
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: langcode
+      label: 'Language Code'
+      selector: langcode
+    -
+      name: field_content_alternative_area_value
+      label: 'Body Content'
+      selector: field_content_alternative_area/value
+    -
+      name: field_content_alternative_area_format
+      label: 'Body Content Format'
+      selector: field_content_alternative_area/format
+    -
+      name: created
+      label: Created
+      selector: created
+    -
+      name: changed
+      label: Changed
+      selector: changed
+    -
+      name: status
+      label: Status
+      selector: status
+  ids:
+    paragraph_id:
+      type: integer
+    paragraph_revision_id:
+      type: integer
+process:
+  uuid:
+    -
+      plugin: 'milken_migrate:uuid_exists'
+      source: uuid
+      entity_type: paragraph
+    -
+      plugin: get
+      source: uuid
+  langcode:
+    plugin: default_value
+    default_value: en
+  status:
+    plugin: default_value
+    default_value: true
+  uid:
+    plugin: default_value
+    default_value: 2
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+  field_body/value: field_content_alternative_area_value
+  field_body/format:
+    plugin: default_value
+    default_value: full_html
+  field_field_num_text_columns:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'milken_reference_revisions:paragraph'
+  default_bundle: body_content
+migration_dependencies: {  }

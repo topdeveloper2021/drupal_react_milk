@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/arizona-needs-build-resources-high-tech-job-growth-when-recovery-comes-according-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 136
+        }
+    ],
+    "uuid": [
+        {
+            "value": "42733ebc-5b63-4b9a-a5fa-b99737e36adc"
+        }
+    ],
+    "vid": [
+        {
+            "value": 136
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Arizona needs to build on resources for high-tech job growth when recovery comes, according to Milken Institute",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:07+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/arizona-needs-build-resources-high-tech-job-growth-when-recovery-comes-according-milken",
+            "pid": 189,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "If Arizona wants to remain competitive in the post-recession economy, it must move quickly to build a healthy, job-intensive technology sector, according to a new report from the Milken Institute. The report, <b>Charting a Course for Arizona's Technology-Based Economic Development<\/b>, suggests that strategic planning, virtual and brick and mortar business incubators, retaining high-tech graduates, and creating incentives for green technology are all necessary to keep the state competitive in science and technology sectors. \"The downturn in the economy has definitely hit Arizona's high-tech industry, but the state needs to be thinking about how it will seize opportunities for job growth in an upturn,\" said Kevin Klowden, managing economist at the Milken Institute and lead author of the report. \"Other states -- including Colorado, Utah, New Mexico and Oregon -- are better prepared to move forward. Arizona can't afford to be stuck behind the gate when the race starts.\" Arizona has several important resources needed to build a successful high-tech economy, including three large research universities, several existing high-tech industries and organizations that promote technology growth, the report says. However, it adds, the state lags in terms of \"skilled, educated workers; sufficient capital to fund research and expansion by entrepreneurs; and state-level leadership that is informed and committed to implementing well-considered, long-range development strategies.\" The analysis stems from the Milken Institute's State Technology and Science Index, a comprehensive analysis of state-level assets and competitiveness in the 21st-century knowledge economy. <b>Charting a Course for Arizona's Technology-Based Economic Development<\/b> takes a deeper look at Arizona's comparative strengths and weaknesses, and benchmarks the state against five competitors in the western U.S. (Colorado, Nevada, New Mexico, Oregon and Utah), plus four outside the region with similar attributes (Georgia, Indiana, Minnesota and Virginia). The report includes recommendations to enhance Arizona's competitiveness: <b>Expand programs - and make a concerted effort to retain graduates - in engineering and applied sciences, especially in those fields in high demand by local employers, while utilizing two-year colleges to train local workers for entry-level positions.<\/b> Arizona now ranks last in the nation for concentration of life and physical scientists, and the greatest threat to its high-tech future is its inability to develop and retain skilled technicians. To develop a stronger presence in biotechnology and green technology, the state needs to place in the top 30 at a minimum. <b>Further develop the technology clusters around the state universities and improve the ease of technology transfer.<\/b> Arizona currently ranks among the bottom 10 states in the nation for the number of business incubators per 10,000 business establishments. Arizona needs to move into at least the top 30 to be able to compete with states that are actively fostering clusters and reaping the rewards of technology transfer for economic development and job growth. <b>Keep and grow high-tech companies by providing coordinated assistance for firms at all levels of government and improving access to capital. <\/b>Arizona has historically relied on its light regulation, low individual tax burden and high quality of life to recruit and retain companies. The state actually ranks 3rd in the country for the number of business starts per 100,000 people. But too many high-tech firms fold or leave the state due to the lack of local angel investors and venture capital. <b>Implement an incentive-based strategy in green technology, especially solar energy. <\/b>Arizona currently ranks 18th in the nation for venture capital investment in clean tech, lagging far behind many of its peer states in the West. Offering incentives and rebates to keep clean-tech manufacturing local will help propel the state into the top 10, which is where it needs to be to stay competitive. <b>Develop and execute a comprehensive strategic plan led by government, industry and universities, and guarantee funding over several years to produce results.<\/b> Arizona lacks an overall strategy for moving forward with a robust tech sector. In order for a strategy to take hold, stakeholders in the governor's office, legislature, regional development agencies, the business community and Arizona's universities must be able to work together and do so over the long haul. The report was sponsored by Science Foundation Arizona and completed with the cooperation of Arizona State University. The full report and executive summary are available online at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "If Arizona wants to remain competitive in the post-recession economy, it must move quickly to build a healthy, job-intensive technology sector, according to a new report from the Milken Institute. The report, <b>Charting a Course for Arizona's Technology-Based Economic Development<\/b>, suggests that strategic planning, virtual and brick and mortar business incubators, retaining high-tech graduates, and creating incentives for green technology are all necessary to keep the state competitive in science and technology sectors. \"The downturn in the economy has definitely hit Arizona's high-tech industry, but the state needs to be thinking about how it will seize opportunities for job growth in an upturn,\" said Kevin Klowden, managing economist at the Milken Institute and lead author of the report. \"Other states -- including Colorado, Utah, New Mexico and Oregon -- are better prepared to move forward. Arizona can't afford to be stuck behind the gate when the race starts.\" Arizona has several important resources needed to build a successful high-tech economy, including three large research universities, several existing high-tech industries and organizations that promote technology growth, the report says. However, it adds, the state lags in terms of \"skilled, educated workers; sufficient capital to fund research and expansion by entrepreneurs; and state-level leadership that is informed and committed to implementing well-considered, long-range development strategies.\" The analysis stems from the Milken Institute's State Technology and Science Index, a comprehensive analysis of state-level assets and competitiveness in the 21st-century knowledge economy. <b>Charting a Course for Arizona's Technology-Based Economic Development<\/b> takes a deeper look at Arizona's comparative strengths and weaknesses, and benchmarks the state against five competitors in the western U.S. (Colorado, Nevada, New Mexico, Oregon and Utah), plus four outside the region with similar attributes (Georgia, Indiana, Minnesota and Virginia). The report includes recommendations to enhance Arizona's competitiveness: <b>Expand programs - and make a concerted effort to retain graduates - in engineering and applied sciences, especially in those fields in high demand by local employers, while utilizing two-year colleges to train local workers for entry-level positions.<\/b> Arizona now ranks last in the nation for concentration of life and physical scientists, and the greatest threat to its high-tech future is its inability to develop and retain skilled technicians. To develop a stronger presence in biotechnology and green technology, the state needs to place in the top 30 at a minimum. <b>Further develop the technology clusters around the state universities and improve the ease of technology transfer.<\/b> Arizona currently ranks among the bottom 10 states in the nation for the number of business incubators per 10,000 business establishments. Arizona needs to move into at least the top 30 to be able to compete with states that are actively fostering clusters and reaping the rewards of technology transfer for economic development and job growth. <b>Keep and grow high-tech companies by providing coordinated assistance for firms at all levels of government and improving access to capital. <\/b>Arizona has historically relied on its light regulation, low individual tax burden and high quality of life to recruit and retain companies. The state actually ranks 3rd in the country for the number of business starts per 100,000 people. But too many high-tech firms fold or leave the state due to the lack of local angel investors and venture capital. <b>Implement an incentive-based strategy in green technology, especially solar energy. <\/b>Arizona currently ranks 18th in the nation for venture capital investment in clean tech, lagging far behind many of its peer states in the West. Offering incentives and rebates to keep clean-tech manufacturing local will help propel the state into the top 10, which is where it needs to be to stay competitive. <b>Develop and execute a comprehensive strategic plan led by government, industry and universities, and guarantee funding over several years to produce results.<\/b> Arizona lacks an overall strategy for moving forward with a robust tech sector. In order for a strategy to take hold, stakeholders in the governor's office, legislature, regional development agencies, the business community and Arizona's universities must be able to work together and do so over the long haul. The report was sponsored by Science Foundation Arizona and completed with the cooperation of Arizona State University. The full report and executive summary are available online at www.milkeninstitute.org.",
+    "summary": null,
+    "summary_processed": ""
+}

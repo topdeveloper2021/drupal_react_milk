@@ -1,0 +1,17 @@
+{{ attach_library('milken_base/node_article') }}
+
+{% set node_value =  []
+  | merge({ 'entityTypeId': node.getEntityTypeId })
+  | merge({ 'id': node.uuid.value })
+  | merge({ 'drupal_internal__id': node.id })
+  | merge({ 'includes': "field_promo_slide,field_promo_slide.field_background_image" })
+%}
+
+
+<node-article
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ node_value | jsonapi }}"
+>
+</node-article>

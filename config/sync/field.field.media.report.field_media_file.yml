@@ -1,0 +1,27 @@
+uuid: 01e03b25-bff1-4396-abd2-cd9f56b7101a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.report
+  module:
+    - file
+id: media.report.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: report
+label: 'PDF File'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

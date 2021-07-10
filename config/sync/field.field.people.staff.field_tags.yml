@@ -1,0 +1,29 @@
+uuid: f062e18e-d236-4b95-a3c5-635a1723f911
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.staff
+    - field.storage.people.field_tags
+    - taxonomy.vocabulary.milken_tags
+id: people.staff.field_tags
+field_name: field_tags
+entity_type: people
+bundle: staff
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      milken_tags: milken_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

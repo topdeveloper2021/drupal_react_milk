@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/saying-no-pervasive-ageism?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/29?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 490
+        }
+    ],
+    "uuid": [
+        {
+            "value": "78c2c2cc-a941-4354-8791-bce35ad29c93"
+        }
+    ],
+    "vid": [
+        {
+            "value": 490
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/29?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "558244ea-3c52-4046-a14e-ccaa1cee2ee0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Saying No to Pervasive Ageism",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:16:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-13T00:10:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/saying-no-pervasive-ageism",
+            "pid": 543,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Bill Thomas is an author, entrepreneur, and physician internationally recognized for his expertise in geriatric medicine and eldercare. Known for his health-care system innovations, Thomas blogs regularly at ChangingAging,\u00a0a platform he co-founded to challenge conventional views on aging. In an interview with the Milken Institute Center for the Future of Aging, Thomas explains why it\u2019s important to combat ageism and how care services for older people have improved over the years.<\/i> Do you think we\u2019ll ever be able to get rid of ageism? Ageism is a cultural construct. If the culture changes in a way that no longer supports judging people by their age, then ageism will wither away. There is nothing about ageism that suggests it is a permanent feature of human societies. <b>Why did you decide to launch\u00a0ChangingAging? What is the mission and your vision for its impact?\u00a0<\/b> The media are dominated by a narrative that deifies youth and disdains age. We found that the only time we could get coverage for our work was when we were, in some way, reinforcing ageist stereotypes. We felt we needed an alternative platform that could accurately reflect our point of view. Collaboration is an important virtue for us, so we decided from the start that this would be a shared platform that would give voice to a wide range of people who want to change aging. In the end, it is stories that change the world and ChangingAging is a place where those stories can be told and shared. <b>Can you tell us more about your new initiative,\u00a0Minka\u00a0Homes and Communities?<\/b> Housing is the axis around which independence turns. We learn this at a young age when we strive to \u201cget a place of our own.\u201d In later life, society gives us mixed signals. People are supposed to \u201cage in place\u201d but then must occupy houses that were built for raising children but are bad for aging with independence. We work with what we call the \u201ctriple alloy\u201d of architecture, culture, and technology. Minka exists to synthesize these three domains and use that synthesis to generate a whole new generation of independence-oriented solutions. Our houses are intended to be the building blocks around which these new models can coalesce. They are compact, easy to assemble, employ advanced technology, adhere to universal design principles, and are exceptionally easy to live in. <b>Do you think we\u2019ll come to a point where we don\u2019t need nursing homes?<\/b> We have already come to a point where we no longer need orphanages, insane asylums, TB sanitaria, and leper colonies. Do I think that someday we will no longer engage in the mass institutionalization of people living with frailty? Yes, I do. I think the buildings will survive, mostly repurposed for \u201chigher\u201d levels of care. The people will survive and find new ways of living and working. The policies will change, and the money that currently fuels the system will be exhausted. In the long run, skilled nursing facilities will be seen as a fascinating social-cultural experiment, and many Ph.D. theses will be written about the history. Older people will find and create clever new ways of protecting and extending independence. <b>What lessons have you learned since you began your mission of reforming long-term care?\u00a0<\/b> Patience is a virtue. The harder you push, the more resistance you inspire. I have come to prefer coalition-building. That might seem obvious, but it was not obvious to me for a very long time. Also, creating a superior model that yields superior results offers no guarantee of success. All innovations are held to a de minimis financial model derived from an institutional model that many older people fear more than death. This constraint creates a powerful \u201clock in\u201d advantage for existing facilities and services. The low expectations generated by our culture\u2019s pervasive ageism are part of a self-stoking cycle in which those expectations normalize poor outcomes that then reinforce low expectations. This is the true enemy of progress. <b>Do you think care services for older people are getting better or worse?\u00a0<\/b> Better! WOW! So much better! I am old enough to remember when older people were tied to the railings with bed sheets. I remember things being done to elders that are too horrible to write about. Over the past 30 years, we have experienced tremendous progress, and we have won many victories. We need to celebrate those victories. And, we must also remember that we have a very long way to go. The trick here is to avoid both discouragement and complacency. <b>Your Age of Disruption Tour is a kind of theater piece that combines music, storytelling and neuroscience with the aim of changing people\u2019s perception of aging. You\u2019ve called it \u201ca TED talk on steroids.\" Since 2014, it has played in over 80 U.S. cities. Are there any plans for it to become global?<\/b> We see the Age of Disruption Tour\u2019s unique form of \u201cnonfiction\u201d theater succeeding on the global stage, because aging is a universal human story. People all over the world struggle to reconcile the virtues and difficulties of aging with cultural biases that make it difficult to think clearly about aging. This is why I am equally opposed to \u201cpositive ageism\u201d that, in a sense, deifies older people and \u201cnegative ageism\u201d that disdains them. People are people. Older people are people. In my experience, the arts have the best tools for reminding people of these fundamental truths. <b>What do you hope to achieve next?\u00a0<\/b> My next project is MyMinka.com. I think I can launch a new approach to housing that is compact, affordable, and explicitly supportive of aging with independence.",
+    "format": "rich_text",
+    "processed": "<i>Bill Thomas is an author, entrepreneur, and physician internationally recognized for his expertise in geriatric medicine and eldercare. Known for his health-care system innovations, Thomas blogs regularly at ChangingAging,\u00a0a platform he co-founded to challenge conventional views on aging. In an interview with the Milken Institute Center for the Future of Aging, Thomas explains why it\u2019s important to combat ageism and how care services for older people have improved over the years.<\/i> Do you think we\u2019ll ever be able to get rid of ageism? Ageism is a cultural construct. If the culture changes in a way that no longer supports judging people by their age, then ageism will wither away. There is nothing about ageism that suggests it is a permanent feature of human societies. <b>Why did you decide to launch\u00a0ChangingAging? What is the mission and your vision for its impact?\u00a0<\/b> The media are dominated by a narrative that deifies youth and disdains age. We found that the only time we could get coverage for our work was when we were, in some way, reinforcing ageist stereotypes. We felt we needed an alternative platform that could accurately reflect our point of view. Collaboration is an important virtue for us, so we decided from the start that this would be a shared platform that would give voice to a wide range of people who want to change aging. In the end, it is stories that change the world and ChangingAging is a place where those stories can be told and shared. <b>Can you tell us more about your new initiative,\u00a0Minka\u00a0Homes and Communities?<\/b> Housing is the axis around which independence turns. We learn this at a young age when we strive to \u201cget a place of our own.\u201d In later life, society gives us mixed signals. People are supposed to \u201cage in place\u201d but then must occupy houses that were built for raising children but are bad for aging with independence. We work with what we call the \u201ctriple alloy\u201d of architecture, culture, and technology. Minka exists to synthesize these three domains and use that synthesis to generate a whole new generation of independence-oriented solutions. Our houses are intended to be the building blocks around which these new models can coalesce. They are compact, easy to assemble, employ advanced technology, adhere to universal design principles, and are exceptionally easy to live in. <b>Do you think we\u2019ll come to a point where we don\u2019t need nursing homes?<\/b> We have already come to a point where we no longer need orphanages, insane asylums, TB sanitaria, and leper colonies. Do I think that someday we will no longer engage in the mass institutionalization of people living with frailty? Yes, I do. I think the buildings will survive, mostly repurposed for \u201chigher\u201d levels of care. The people will survive and find new ways of living and working. The policies will change, and the money that currently fuels the system will be exhausted. In the long run, skilled nursing facilities will be seen as a fascinating social-cultural experiment, and many Ph.D. theses will be written about the history. Older people will find and create clever new ways of protecting and extending independence. <b>What lessons have you learned since you began your mission of reforming long-term care?\u00a0<\/b> Patience is a virtue. The harder you push, the more resistance you inspire. I have come to prefer coalition-building. That might seem obvious, but it was not obvious to me for a very long time. Also, creating a superior model that yields superior results offers no guarantee of success. All innovations are held to a de minimis financial model derived from an institutional model that many older people fear more than death. This constraint creates a powerful \u201clock in\u201d advantage for existing facilities and services. The low expectations generated by our culture\u2019s pervasive ageism are part of a self-stoking cycle in which those expectations normalize poor outcomes that then reinforce low expectations. This is the true enemy of progress. <b>Do you think care services for older people are getting better or worse?\u00a0<\/b> Better! WOW! So much better! I am old enough to remember when older people were tied to the railings with bed sheets. I remember things being done to elders that are too horrible to write about. Over the past 30 years, we have experienced tremendous progress, and we have won many victories. We need to celebrate those victories. And, we must also remember that we have a very long way to go. The trick here is to avoid both discouragement and complacency. <b>Your Age of Disruption Tour is a kind of theater piece that combines music, storytelling and neuroscience with the aim of changing people\u2019s perception of aging. You\u2019ve called it \u201ca TED talk on steroids.\" Since 2014, it has played in over 80 U.S. cities. Are there any plans for it to become global?<\/b> We see the Age of Disruption Tour\u2019s unique form of \u201cnonfiction\u201d theater succeeding on the global stage, because aging is a universal human story. People all over the world struggle to reconcile the virtues and difficulties of aging with cultural biases that make it difficult to think clearly about aging. This is why I am equally opposed to \u201cpositive ageism\u201d that, in a sense, deifies older people and \u201cnegative ageism\u201d that disdains them. People are people. Older people are people. In my experience, the arts have the best tools for reminding people of these fundamental truths. <b>What do you hope to achieve next?\u00a0<\/b> My next project is MyMinka.com. I think I can launch a new approach to housing that is compact, affordable, and explicitly supportive of aging with independence.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/us-investment-surges-us-markets-remain-magnet-global-capital?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/43?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 508
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b57b6c41-a3c3-4518-9059-6e23f6e8ab6e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 508
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/43?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2eb823f6-c05b-4f8a-9feb-c88350bd81a0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "U.S. Investment Surges as U.S. Markets Remain a Magnet for Global Capital",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T17:12:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-30T19:39:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/us-investment-surges-us-markets-remain-magnet-global-capital",
+            "pid": 561,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "U.S. investment opportunities continue to fixate global investors and spur them to tap U.S. equity markets to raise capital. The Fed\u2019s move to normalize monetary policy also vindicates prospects for sustained growth and higher returns, as business investment spending gains momentum. Global capital inflows, especially direct investment, provide funds for new listings in U.S. markets to capitalize on investment opportunities. Rising Non-tangible Business Investment Holds Promise for Better U.S. Productivity Ahead The much-awaited investment-led expansion is finally underway. Punching well above its weight in GDP (12\u00a0percent), business fixed investment contributed to half of the 2.2 and 2.9\u00a0percent GDP growth reported for the first quarter of this year and the last quarter of 2017, respectively. The impetus from tax reform may likely outweigh the drag from monetary normalization if rates rise to their neutral levels and do not drift much higher for too long. Businesses directed the majority of their investment spending into computers, intellectual property, and software (Figure). This holds out the promise that newer technologies and innovative business practices may soon boost productivity and potential growth. At a minimum, raising intangible investments is critical for enabling the U.S. to compete with China in key high-value-added activities. Indeed, China hopes to dominate the world in some strategic sectors (especially in biomedicine, telecom, robotics, energy, and aerospace) by executing its \u201cMade in China 2025\u201d plan. Domestic Firms Delist Even As Global Investors Eye U.S. Markets<sup>1<\/sup> Following the 2008 Crisis, publicly listed companies have rushed to go private and delist even as more foreign firms have seized on the opportunity to list on U.S. stock exchanges. Compared with the over-8000 publicly listed companies in 1996, today U.S. stock markets list only about half as many. Private equity (PE) firms took advantage of a decade of low-interest rates to finance many takeovers and leveraged buy-outs. In recent years, the surfeit of private equity capital has enabled PE firms to provide five times more capital than was raised with initial public offerings. Moreover, companies have managed to stay private longer than in the past because PE firms have begun to sell their holdings to other PE firms instead of offering them to shareholders in the public markets. Public Equity Markets Incentivize Short-term Corporate Actions Often the impetus for U.S. firms to delist and remain private stems from onerous administrative and reporting requirements (e.g., quarterly earnings reports). They purportedly promote attaining short-term financial targets at the expense of executing more profitable medium-term strategies. In contrast to the internal incentives and rewards used by privately owned firms, under-achieving expected quarterly earnings forecasts often induce sharp equity price revaluations, and exposes managers to public criticism. Indeed, prominent CEOs (e.g., Warren Buffett and Jamie Dimon) have called for eliminating the quarterly earnings reporting ritual in favor of deeper management discussions of progress in executing corporate strategic plans and the risks that may impinge on their success.<sup>2<\/sup> Quarterly earnings guidance is a bad influence on company managers and mainly serve to anchor the forecasts made by financial analysts covering these companies. These quarterly company announcements often cause unnecessary and amplify harmful (\u201cmark-to-market\u201d) stock price volatility when company estimates differ from those of the analysts. Markets punish the companies if they miss estimates, and markets run up the stock prices if the company beats estimates. Investors would be served better if companies offered narratives that update clearly, how their company strategies are performing, and examine underlying risks that might cause them to make tactical and even wholesale changes to their plans (e.g., \u201cOur plans to sell new loudspeakers aimed at the North to the South Korean government must now be put on hold\u201d). The current practice of focusing on the short-run path for \u201cearnings-per-share\u201d without examining its underlying determinants and risks for missing targets is useless for most investors. Foreign Firms List in U.S. Markets Instead of Those Abroad The number of foreign-owned firms listing in U.S. markets rose (figure \u2013 right) even as many domestic firms delisted (figure \u2013 left). Moreover, foreign investors have found U.S. investment opportunities sufficiently attractive that foreign direct investment flows have surged in the 2014-2017 period, thereby adding to the pool funds available in U.S. markets. Interestingly, foreign firms do not find other large liquid equity markets such as those in the U.K. and Germany as welcoming as U.S. stock exchanges (figure \u2013 right). Concluding Thoughts: Vital to Strengthen U.S. Attractiveness for Global Investors It is vital that policymakers preserve the attractiveness and openness of U.S. capital markets to help finance more U.S. investment, which is vital for boosting growth and productivity. Regulatory and corporate tax reforms now underway are integral for reshaping the incentives influencing global capital to flow into U.S. markets. With the globally largest domestic markets located in the U.S. and China, these two countries will be competing furiously to attract global capital to finance the innovations that will determine which country will emerge as the global powerhouse for the 21<sup>st<\/sup> century. [1] This section builds on the ongoing research of my colleague Jakob Wilhelmus. [2] I recently commented on this topic in a PBS Nightly Business News broadcast https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:6410879795374231552 <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i>",
+    "format": "rich_text",
+    "processed": "U.S. investment opportunities continue to fixate global investors and spur them to tap U.S. equity markets to raise capital. The Fed\u2019s move to normalize monetary policy also vindicates prospects for sustained growth and higher returns, as business investment spending gains momentum. Global capital inflows, especially direct investment, provide funds for new listings in U.S. markets to capitalize on investment opportunities. Rising Non-tangible Business Investment Holds Promise for Better U.S. Productivity Ahead The much-awaited investment-led expansion is finally underway. Punching well above its weight in GDP (12\u00a0percent), business fixed investment contributed to half of the 2.2 and 2.9\u00a0percent GDP growth reported for the first quarter of this year and the last quarter of 2017, respectively. The impetus from tax reform may likely outweigh the drag from monetary normalization if rates rise to their neutral levels and do not drift much higher for too long. Businesses directed the majority of their investment spending into computers, intellectual property, and software (Figure). This holds out the promise that newer technologies and innovative business practices may soon boost productivity and potential growth. At a minimum, raising intangible investments is critical for enabling the U.S. to compete with China in key high-value-added activities. Indeed, China hopes to dominate the world in some strategic sectors (especially in biomedicine, telecom, robotics, energy, and aerospace) by executing its \u201cMade in China 2025\u201d plan. Domestic Firms Delist Even As Global Investors Eye U.S. Markets<sup>1<\/sup> Following the 2008 Crisis, publicly listed companies have rushed to go private and delist even as more foreign firms have seized on the opportunity to list on U.S. stock exchanges. Compared with the over-8000 publicly listed companies in 1996, today U.S. stock markets list only about half as many. Private equity (PE) firms took advantage of a decade of low-interest rates to finance many takeovers and leveraged buy-outs. In recent years, the surfeit of private equity capital has enabled PE firms to provide five times more capital than was raised with initial public offerings. Moreover, companies have managed to stay private longer than in the past because PE firms have begun to sell their holdings to other PE firms instead of offering them to shareholders in the public markets. Public Equity Markets Incentivize Short-term Corporate Actions Often the impetus for U.S. firms to delist and remain private stems from onerous administrative and reporting requirements (e.g., quarterly earnings reports). They purportedly promote attaining short-term financial targets at the expense of executing more profitable medium-term strategies. In contrast to the internal incentives and rewards used by privately owned firms, under-achieving expected quarterly earnings forecasts often induce sharp equity price revaluations, and exposes managers to public criticism. Indeed, prominent CEOs (e.g., Warren Buffett and Jamie Dimon) have called for eliminating the quarterly earnings reporting ritual in favor of deeper management discussions of progress in executing corporate strategic plans and the risks that may impinge on their success.<sup>2<\/sup> Quarterly earnings guidance is a bad influence on company managers and mainly serve to anchor the forecasts made by financial analysts covering these companies. These quarterly company announcements often cause unnecessary and amplify harmful (\u201cmark-to-market\u201d) stock price volatility when company estimates differ from those of the analysts. Markets punish the companies if they miss estimates, and markets run up the stock prices if the company beats estimates. Investors would be served better if companies offered narratives that update clearly, how their company strategies are performing, and examine underlying risks that might cause them to make tactical and even wholesale changes to their plans (e.g., \u201cOur plans to sell new loudspeakers aimed at the North to the South Korean government must now be put on hold\u201d). The current practice of focusing on the short-run path for \u201cearnings-per-share\u201d without examining its underlying determinants and risks for missing targets is useless for most investors. Foreign Firms List in U.S. Markets Instead of Those Abroad The number of foreign-owned firms listing in U.S. markets rose (figure \u2013 right) even as many domestic firms delisted (figure \u2013 left). Moreover, foreign investors have found U.S. investment opportunities sufficiently attractive that foreign direct investment flows have surged in the 2014-2017 period, thereby adding to the pool funds available in U.S. markets. Interestingly, foreign firms do not find other large liquid equity markets such as those in the U.K. and Germany as welcoming as U.S. stock exchanges (figure \u2013 right). Concluding Thoughts: Vital to Strengthen U.S. Attractiveness for Global Investors It is vital that policymakers preserve the attractiveness and openness of U.S. capital markets to help finance more U.S. investment, which is vital for boosting growth and productivity. Regulatory and corporate tax reforms now underway are integral for reshaping the incentives influencing global capital to flow into U.S. markets. With the globally largest domestic markets located in the U.S. and China, these two countries will be competing furiously to attract global capital to finance the innovations that will determine which country will emerge as the global powerhouse for the 21<sup>st<\/sup> century. [1] This section builds on the ongoing research of my colleague Jakob Wilhelmus. [2] I recently commented on this topic in a PBS Nightly Business News broadcast https:\/\/www.linkedin.com\/feed\/update\/urn:li:activity:6410879795374231552 <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

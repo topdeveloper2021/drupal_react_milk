@@ -1,0 +1,14 @@
+diff -ur a/core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorage.php b/core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorage.php
+--- a/core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorage.php	2019-12-18 13:34:03.000000000 +0300
++++ b/core/lib/Drupal/Core/Entity/Sql/SqlContentEntityStorage.php	2020-01-10 15:01:22.588417487 +0300
+@@ -1663,6 +1663,10 @@
+     $table_mapping = $this->getTableMapping();
+     $table_name = $table_mapping->getDedicatedDataTableName($storage_definition, $storage_definition->isDeleted());
+ 
++    if (!$this->database->schema()->tableExists($table_name)) {
++      return [];
++    }
++
+     // Get the entities which we want to purge first.
+     $entity_query = $this->database->select($table_name, 't', ['fetch' => \PDO::FETCH_ASSOC]);
+     $or = $entity_query->orConditionGroup();

@@ -1,0 +1,22 @@
+uuid: 6c09f430-4010-4f76-95d5-d1fa03ad7c30
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.opportunity
+id: node.opportunity.promote
+field_name: promote
+entity_type: node
+bundle: opportunity
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

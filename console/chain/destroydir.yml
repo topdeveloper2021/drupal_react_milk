@@ -1,0 +1,15 @@
+command:
+  name: site:milken:destroydir
+  description: 'empty & fix directories in sites/default'
+commands:
+  - command: exec
+    arguments:
+      bin: rm -Rf /var/www/html/sites/default/files/*
+    options:
+      working-directory: "/var/www/html"
+
+  - command: exec
+    arguments:
+      bin: rm -Rf /var/www/html/sites/default/private/*
+    options:
+      working-directory: "/var/www/html"

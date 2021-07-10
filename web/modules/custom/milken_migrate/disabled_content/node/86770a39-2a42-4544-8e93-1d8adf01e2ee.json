@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/latest-milken-institute-review-former-adviser-president-european-commission-argues-germanys?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 48
+        }
+    ],
+    "uuid": [
+        {
+            "value": "86770a39-2a42-4544-8e93-1d8adf01e2ee"
+        }
+    ],
+    "vid": [
+        {
+            "value": 48
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In the latest Milken Institute Review: Former adviser to the president of the European Commission argues that Germany\u2019s much celebrated economy is no model for Europe",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-20T16:26:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/latest-milken-institute-review-former-adviser-president-european-commission-argues-germanys",
+            "pid": 101,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 <b>Philippe Legrain<\/b> challenges the received wisdom that Germany\u2019s mix of wage discipline and focus on exports is the cure for what ails the rest of Europe. \u201cGermany is using its clout in the European Union to try to reshape the Eurozone in its own image,\u201d he writes. \u201cBut far from being an archetype of success that merits imitation, a close look reveals that Germany\u2019s economy is dysfunctional in surprising ways.\u201d\u00a0Also in this issue:\n<b>Staci Warden<\/b>, the director of the Milken Institute\u2019s Center for Financial Markets, outlines a grim unintended consequence of the U.S. Treasury\u2019s effort to close the global financial system to terrorists. It\u2019s working \u2013 but in the process it is shutting out friends as well as foes. \u201cFinancial integration is essential to the growth of emerging-market countries as well as to the decentralization of economic power within them, she writes, \u201cand their exclusion from the global financial system runs counter to the United States\u2019 broader goals of peaceful international cooperation, poverty alleviation, and broad-based economic development. \u201c\n<b>Katharine Abraham<\/b>, a former member of Pres. Obama\u2019s Council of Economic Advisers, slices and dices the employment numbers for clues to the fate of labor-force dropouts. \u201cSome of these people could well return to the workforce if sufficient demand for their services were to materialize,\u201d she argues. \u201cAnd the more of them there are, the more misleading the unemployment rate is likely to be as an indicator of labor market slack\u2014and the more of a mistake it could be for policymakers to rely on the unemployment rate to gauge how much room there is for short-term growth that doesn\u2019t set the stage for inflation.\u201d\n<b>Noah Smith<\/b>, the creator of the economics blog Noahpinion, lays out the unpalatable options before Japanese policymakers, who must manage the government\u2019s Olympian mountain of public debt. \u201cJapan is dealing with problems no country has ever confronted before,\u201d he writes. \u201cIt faces an epochal choice: whether to take the sure path of continued stagnation and keep its promise to the Baby Boom generation, or whether to launch a bold and risky experiment of debt monetization that would relieve the burden on the young.\u201d\n<b>Robert Looney<\/b>, an economist at the Naval Postgraduate School in California, takes a hard look at the new Nigerian government\u2019s prospects for dodging economic and social disaster. \u201cWhen Nigeria faced an equally dangerous tipping point following its 1967-1970 civil war, the country survived -- thanks in part to the balm of oil-export revenues,\u201d he reminds. \u201cNow, survival will largely depend on whether Nigeria has the societal strength to rein in rampant corruption, invest wisely in development infrastructure, and manage ethnic and religious strife.\u201d\n<b>Charles Castaldi<\/b>, a former Latin America correspondent for NPR, visits Buenos Aires in search of explanations for Argentine particularism in the wake of the latest political scandals. \u201cArgentina now holds the dubious distinction of having fallen further and faster than any other in modern times,\u201d he writes. \u201cA century of dysfunctional government and economic mismanagement have kept it on a Sisyphean slope; each time Argentina appears poised for a comeback, another crisis sends it tumbling.\u201d\n<b>Michele Boldrin<\/b> and<b> David Levine<\/b>, economists at the University of Washington in St. Louis, challenge the conventional wisdom that the current patent system is vital to sustaining economic growth \u2013 or, for that matter, the idea that it does more good than harm. \u201cIt\u2019s not hard to convince people that the enforcement of patents is costly to them,\u201d they write. \u201cThe hard part is explaining that, in most cases, the inherent production and marketing advantages to being the innovator offers plenty of room for profit even without the benefit of patent protection.\u201d\nFind the latest Milken Institute Review here: http:\/\/www.milkeninstitute.org\/publications\/view\/681",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 <b>Philippe Legrain<\/b> challenges the received wisdom that Germany\u2019s mix of wage discipline and focus on exports is the cure for what ails the rest of Europe. \u201cGermany is using its clout in the European Union to try to reshape the Eurozone in its own image,\u201d he writes. \u201cBut far from being an archetype of success that merits imitation, a close look reveals that Germany\u2019s economy is dysfunctional in surprising ways.\u201d\u00a0Also in this issue:\n<b>Staci Warden<\/b>, the director of the Milken Institute\u2019s Center for Financial Markets, outlines a grim unintended consequence of the U.S. Treasury\u2019s effort to close the global financial system to terrorists. It\u2019s working \u2013 but in the process it is shutting out friends as well as foes. \u201cFinancial integration is essential to the growth of emerging-market countries as well as to the decentralization of economic power within them, she writes, \u201cand their exclusion from the global financial system runs counter to the United States\u2019 broader goals of peaceful international cooperation, poverty alleviation, and broad-based economic development. \u201c\n<b>Katharine Abraham<\/b>, a former member of Pres. Obama\u2019s Council of Economic Advisers, slices and dices the employment numbers for clues to the fate of labor-force dropouts. \u201cSome of these people could well return to the workforce if sufficient demand for their services were to materialize,\u201d she argues. \u201cAnd the more of them there are, the more misleading the unemployment rate is likely to be as an indicator of labor market slack\u2014and the more of a mistake it could be for policymakers to rely on the unemployment rate to gauge how much room there is for short-term growth that doesn\u2019t set the stage for inflation.\u201d\n<b>Noah Smith<\/b>, the creator of the economics blog Noahpinion, lays out the unpalatable options before Japanese policymakers, who must manage the government\u2019s Olympian mountain of public debt. \u201cJapan is dealing with problems no country has ever confronted before,\u201d he writes. \u201cIt faces an epochal choice: whether to take the sure path of continued stagnation and keep its promise to the Baby Boom generation, or whether to launch a bold and risky experiment of debt monetization that would relieve the burden on the young.\u201d\n<b>Robert Looney<\/b>, an economist at the Naval Postgraduate School in California, takes a hard look at the new Nigerian government\u2019s prospects for dodging economic and social disaster. \u201cWhen Nigeria faced an equally dangerous tipping point following its 1967-1970 civil war, the country survived -- thanks in part to the balm of oil-export revenues,\u201d he reminds. \u201cNow, survival will largely depend on whether Nigeria has the societal strength to rein in rampant corruption, invest wisely in development infrastructure, and manage ethnic and religious strife.\u201d\n<b>Charles Castaldi<\/b>, a former Latin America correspondent for NPR, visits Buenos Aires in search of explanations for Argentine particularism in the wake of the latest political scandals. \u201cArgentina now holds the dubious distinction of having fallen further and faster than any other in modern times,\u201d he writes. \u201cA century of dysfunctional government and economic mismanagement have kept it on a Sisyphean slope; each time Argentina appears poised for a comeback, another crisis sends it tumbling.\u201d\n<b>Michele Boldrin<\/b> and<b> David Levine<\/b>, economists at the University of Washington in St. Louis, challenge the conventional wisdom that the current patent system is vital to sustaining economic growth \u2013 or, for that matter, the idea that it does more good than harm. \u201cIt\u2019s not hard to convince people that the enforcement of patents is costly to them,\u201d they write. \u201cThe hard part is explaining that, in most cases, the inherent production and marketing advantages to being the innovator offers plenty of room for profit even without the benefit of patent protection.\u201d\nFind the latest Milken Institute Review here: http:\/\/www.milkeninstitute.org\/publications\/view\/681",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,6 @@
+status: 1
+pattern: '[missing_migration:field_type]'
+escape: false
+dependencies:
+  config:
+    - eck.eck_type.missing_migration.missing_migration

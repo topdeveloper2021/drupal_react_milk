@@ -1,0 +1,21 @@
+uuid: 331210a1-7d2a-4e51-97cf-47444e453e0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_photo_subject_name
+field_name: field_photo_subject_name
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

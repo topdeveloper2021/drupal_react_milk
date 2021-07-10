@@ -1,0 +1,19 @@
+uuid: 6f597809-a4c1-4525-acd4-fd9cd2738b25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_section_subheader
+    - paragraphs.paragraphs_type.tiles_sponsors
+id: paragraph.tiles_sponsors.field_section_subheader
+field_name: field_section_subheader
+entity_type: paragraph
+bundle: tiles_sponsors
+label: 'Section Subheader'
+description: 'Text to display below the section header.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

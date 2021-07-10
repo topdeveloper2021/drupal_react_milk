@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7175\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/rYFXUO0jt6Y8xkS6gxhetpJPntA7jXR0SgKR2ycirO0.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7175
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f850f0c7-4500-436c-b4e2-e7ce1e798836"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1607
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/rYFXUO0jt6Y8xkS6gxhetpJPntA7jXR0SgKR2ycirO0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dc600fa7-e2bb-4ffd-8ef2-ec3c0208c598"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "How the New Tax Cuts Are Shaping the U.S. Economy\u2014and Our Fiscal Future ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-06-12T18:40:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T13:39:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The Tax Cuts and Jobs Act that passed into law at the beginning of this year has been described as America's most far-reaching tax overhaul since the 1980s. With lower corporate tax rates, alterations to individual income taxes, and incentives for U.S. businesses to bring capital back home, the new policy is already having an effect. Corporations have announced stock buybacks, employee raises and bonuses, and investments in worker training\u2014and attributed these moves to their new financial headroom. How will these changes further influence the U.S. economy, corporate finance, and both capital holders and wage earners? Will supply-side gains from the tax cut produce revenues to offset gaps in the federal ledger or trigger new inflationary pressure?",
+    "format": "rich_text",
+    "processed": "The Tax Cuts and Jobs Act that passed into law at the beginning of this year has been described as America's most far-reaching tax overhaul since the 1980s. With lower corporate tax rates, alterations to individual income taxes, and incentives for U.S. businesses to bring capital back home, the new policy is already having an effect. Corporations have announced stock buybacks, employee raises and bonuses, and investments in worker training\u2014and attributed these moves to their new financial headroom. How will these changes further influence the U.S. economy, corporate finance, and both capital holders and wage earners? Will supply-side gains from the tax cut produce revenues to offset gaps in the federal ledger or trigger new inflationary pressure?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/RBR11PQTWuw",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/rYFXUO0jt6Y8xkS6gxhetpJPntA7jXR0SgKR2ycirO0.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

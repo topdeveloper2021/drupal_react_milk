@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7319\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/3d5yfya6SAUz5Gm3BlBWLPui9NUSGwdZqUhoBOufPeE.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7319
+        }
+    ],
+    "uuid": [
+        {
+            "value": "412218e3-d03d-4cfc-8f34-783e1ae4a2e8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 119
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/3d5yfya6SAUz5Gm3BlBWLPui9NUSGwdZqUhoBOufPeE.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6231c8ba-7ea2-4f2d-b28c-713a9191d7b5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Trusting Brands: Companies That Create and Inspire Change",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-10T00:47:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Trusting Brands: Companies That Create and Inspire Change<br><br> The executives on this panel lead companies that integrate sustainability into both their business models and company cultures. Watch as they discuss how they utilize their efforts have empower them to build trust around their brands, inspire customer loyalty, and create alignment within their workforces.<br> Moderator:Aim\u00e9e Christensen, CEO, Christensen Global Strategies; Executive Director, Sun Valley Institute<br><br> Speakers:Joanne Bradford, Chief Operating Officer, SoFi<br><br> David Denholm, CEO, Kashi<br><br> Brian Norgard, Head of Product and Revenue, Tinder<br><br> Cameron Saul, CEO, Bottletop<br><br> Jeff Seabright, Chief Sustainability Officer, Unilever",
+    "format": "rich_text",
+    "processed": "Trusting Brands: Companies That Create and Inspire Change<br \/><br \/> The executives on this panel lead companies that integrate sustainability into both their business models and company cultures. Watch as they discuss how they utilize their efforts have empower them to build trust around their brands, inspire customer loyalty, and create alignment within their workforces.<br \/> Moderator:Aim\u00e9e Christensen, CEO, Christensen Global Strategies; Executive Director, Sun Valley Institute<br \/><br \/> Speakers:Joanne Bradford, Chief Operating Officer, SoFi<br \/><br \/> David Denholm, CEO, Kashi<br \/><br \/> Brian Norgard, Head of Product and Revenue, Tinder<br \/><br \/> Cameron Saul, CEO, Bottletop<br \/><br \/> Jeff Seabright, Chief Sustainability Officer, Unilever",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/hRG-HPkFlgQ",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/3d5yfya6SAUz5Gm3BlBWLPui9NUSGwdZqUhoBOufPeE.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

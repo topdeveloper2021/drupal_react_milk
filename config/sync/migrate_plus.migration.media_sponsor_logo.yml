@@ -1,0 +1,109 @@
+uuid: 627b8c97-00c2-433f-aecf-4b5a9f1031a9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: media_sponsor_logo
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - media
+migration_group: milken
+label: 'migrate media Sponsor Logo entities'
+source:
+  plugin: url
+  urls: 'https://milkeninstitute.org/jsonapi/node/sponsor'
+  data_fetcher_plugin: http
+  data_parser_plugin: jsonapi
+  jsonapi_host: 'https://milkeninstitute.org'
+  jsonapi_endpoint: /jsonapi/node/sponsor
+  item_selector: data
+  jsonapi_include: true
+  included:
+    - field_sponsor_image
+  fields:
+    -
+      name: mid
+      label: 'Media ID'
+      selector: /drupal_internal__nid
+    -
+      name: uuid
+      label: 'Unique ID'
+      selector: id
+    -
+      name: name
+      label: title/name
+      selector: /title
+    -
+      name: langcode
+      label: 'Language Code'
+      selector: /langcode
+    -
+      name: created
+      label: Created
+      selector: /created
+    -
+      name: changed
+      label: Changed
+      selector: /changed
+    -
+      name: status
+      label: Status
+      selector: /status
+    -
+      name: image
+      label: Image
+      selector: /field_sponsor_image
+    -
+      name: height
+      label: Height
+      selector: /field_sponsor_image/meta/height
+    -
+      name: width
+      label: Width
+      selector: /field_sponsor_image/meta/width
+    -
+      name: filesize
+      label: 'File Size'
+      selector: /field_sponsor_image/filesize
+    -
+      name: filemime
+      label: 'File Mime'
+      selector: /field_sponsor_image/filemime
+  constants:
+    source_url_base: 'https://milkeninstitute.org'
+  ids:
+    mid:
+      type: integer
+    uuid:
+      type: string
+process:
+  id: mid
+  uuid: uuid
+  name: name
+  langcode:
+    plugin: default_value
+    default_value: en
+  created:
+    plugin: 'milken_migrate:unix_date'
+    source: created
+  status:
+    plugin: default_value
+    default_value: true
+  field_filesize: filesize
+  field_filemime: filemime
+  field_media_image:
+    plugin: 'milken_migrate:remote_file'
+    source: image
+  field_width: width
+  field_height: height
+  changed:
+    plugin: 'milken_migrate:unix_date'
+    source: changed
+destination:
+  plugin: 'entity:media'
+  default_bundle: sponsor_logo
+migration_dependencies: {  }

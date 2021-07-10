@@ -1,0 +1,29 @@
+uuid: 9f300b05-c786-428b-8c47-f513ac02a838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_terms
+    - node.type.opportunity
+    - taxonomy.vocabulary.ph_terms
+id: node.opportunity.field_terms
+field_name: field_terms
+entity_type: node
+bundle: opportunity
+label: Terms
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ph_terms: ph_terms
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

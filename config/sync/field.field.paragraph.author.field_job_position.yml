@@ -1,0 +1,19 @@
+uuid: a9ab1007-5de3-4025-b6d0-fc2f0e61cff1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_job_position
+    - paragraphs.paragraphs_type.author
+id: paragraph.author.field_job_position
+field_name: field_job_position
+entity_type: paragraph
+bundle: author
+label: Job/Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

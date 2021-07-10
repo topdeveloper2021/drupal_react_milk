@@ -1,0 +1,80 @@
+uuid: ee6f24a7-7b82-49f8-8536-a46ebe11e01f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.large
+    - field.field.media.video.field_body
+    - field.field.media.video.field_centers
+    - field.field.media.video.field_collections
+    - field.field.media.video.field_embedded_id
+    - field.field.media.video.field_embedded_oembed
+    - field.field.media.video.field_embedded_service
+    - field.field.media.video.field_event_reference
+    - field.field.media.video.field_events
+    - field.field.media.video.field_height
+    - field.field.media.video.field_index_weight
+    - field.field.media.video.field_media_oembed_video
+    - field.field.media.video.field_meta_tags
+    - field.field.media.video.field_people
+    - field.field.media.video.field_program_initiatives
+    - field.field.media.video.field_regions
+    - field.field.media.video.field_subheader
+    - field.field.media.video.field_tags
+    - field.field.media.video.field_term_collection
+    - field.field.media.video.field_thumbnail_uri
+    - field.field.media.video.field_topics
+    - field.field.media.video.field_video_height
+    - field.field.media.video.field_video_width
+    - field.field.media.video.field_width
+    - media.type.video
+  module:
+    - layout_builder
+    - media
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: media.video.large
+targetEntityType: media
+bundle: video
+mode: large
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: visually_hidden
+    weight: 0
+    settings:
+      max_width: 0
+      max_height: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_body: true
+  field_centers: true
+  field_collections: true
+  field_embedded_id: true
+  field_embedded_oembed: true
+  field_embedded_service: true
+  field_event_reference: true
+  field_events: true
+  field_height: true
+  field_index_weight: true
+  field_meta_tags: true
+  field_people: true
+  field_program_initiatives: true
+  field_regions: true
+  field_subheader: true
+  field_tags: true
+  field_term_collection: true
+  field_thumbnail_uri: true
+  field_topics: true
+  field_video_height: true
+  field_video_width: true
+  field_width: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

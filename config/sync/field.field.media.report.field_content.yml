@@ -1,0 +1,50 @@
+uuid: 59ef5fad-6e4c-49cb-b18e-9b16200f7da3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_content
+    - media.type.report
+  module:
+    - entity_reference_revisions
+id: media.report.field_content
+field_name: field_content
+entity_type: media
+bundle: report
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      author:
+        weight: 9
+        enabled: false
+      body_content:
+        weight: 10
+        enabled: false
+      four_tile_block_queue:
+        weight: 11
+        enabled: false
+      four_tile_block_taxonomy:
+        weight: 12
+        enabled: false
+      podcast_episode:
+        weight: 13
+        enabled: false
+      pull_quote:
+        weight: 14
+        enabled: false
+      slide:
+        weight: 15
+        enabled: false
+      unmigrated_paragraph:
+        weight: 16
+        enabled: false
+field_type: entity_reference_revisions

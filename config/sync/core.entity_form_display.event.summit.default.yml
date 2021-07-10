@@ -1,0 +1,476 @@
+uuid: a1abae09-99a7-4743-95a2-d90d36be41dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.field.event.summit.field_blurb
+    - field.field.event.summit.field_campaign_id
+    - field.field.event.summit.field_campaign_name
+    - field.field.event.summit.field_campaign_owner
+    - field.field.event.summit.field_campaign_type
+    - field.field.event.summit.field_campaign_type_public
+    - field.field.event.summit.field_centers
+    - field.field.event.summit.field_collections
+    - field.field.event.summit.field_content_tabs
+    - field.field.event.summit.field_description
+    - field.field.event.summit.field_event_date
+    - field.field.event.summit.field_events
+    - field.field.event.summit.field_grid_event_id
+    - field.field.event.summit.field_hero_image
+    - field.field.event.summit.field_meta_tags
+    - field.field.event.summit.field_name_short
+    - field.field.event.summit.field_published
+    - field.field.event.summit.field_regions
+    - field.field.event.summit.field_registration_deadline
+    - field.field.event.summit.field_related_media
+    - field.field.event.summit.field_sequential_id
+    - field.field.event.summit.field_social_network_links
+    - field.field.event.summit.field_speakers
+    - field.field.event.summit.field_sponsors
+    - field.field.event.summit.field_streaming_now
+    - field.field.event.summit.field_tags
+    - field.field.event.summit.field_title_card_image
+    - field.field.event.summit.field_topics
+    - field.field.event.summit.field_tracks
+    - field.field.event.summit.field_venue
+    - image.style.thumbnail
+  module:
+    - datetime
+    - field_group
+    - image
+    - key_value_field
+    - media_library
+    - metatag
+    - milken_base
+    - paragraphs_browser
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_overview
+        - group_dates
+        - group_promotion
+        - group_event_details
+        - group_media
+        - group_authoring
+      parent_name: ''
+      weight: 20
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_overview:
+      children:
+        - field_description
+        - field_blurb
+        - field_name_short
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: true
+      label: Overview
+    group_authoring:
+      children:
+        - langcode
+        - created
+        - field_published
+        - path
+      parent_name: group_tabs
+      weight: 60
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Authoring
+    group_dates:
+      children:
+        - field_registration_deadline
+        - field_event_date
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Dates
+    group_promotion:
+      children:
+        - field_sponsors
+        - field_campaign_id
+        - field_campaign_name
+        - field_campaign_owner
+        - field_campaign_type
+        - field_campaign_type_public
+        - field_meta_tags
+        - field_social_network_links
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Promotion
+    group_event_details:
+      children:
+        - field_content_tabs
+        - field_grid_event_id
+        - field_speakers
+        - field_venue
+        - field_tracks
+        - field_sequential_id
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: 'Event Details'
+    group_media:
+      children:
+        - field_related_media
+        - field_hero_image
+        - field_title_card_image
+      parent_name: group_tabs
+      weight: 20
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: true
+      label: Media
+id: event.summit.default
+targetEntityType: event
+bundle: summit
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_blurb:
+    weight: 21
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_campaign_id:
+    weight: 15
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_campaign_name:
+    weight: 16
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_campaign_owner:
+    weight: 17
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_campaign_type:
+    weight: 18
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_campaign_type_public:
+    weight: 19
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_centers:
+    weight: 63
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_collections:
+    weight: 64
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_content_tabs:
+    weight: 61
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: '0'
+      add_mode: paragraphs_browser
+      form_display_mode: default
+      default_paragraph_type: paragraph_tab
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: add_above
+      paragraphs_browser: content
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings: {  }
+    type: paragraphs_browser
+    region: content
+  field_description:
+    weight: 14
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_event_date:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_events:
+    weight: 65
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_grid_event_id:
+    weight: 20
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_hero_image:
+    weight: 28
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_meta_tags:
+    weight: 33
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_name_short:
+    weight: 22
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_published:
+    weight: 11
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_regions:
+    weight: 66
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_registration_deadline:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_related_media:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_sequential_id:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_social_network_links:
+    weight: 34
+    settings:
+      key_size: 60
+      key_label: Key
+      key_placeholder: ''
+      value_label: Value
+      description_enabled: true
+      description_label: Description
+      description_rows: 5
+      description_placeholder: ''
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: key_value_textfield
+    region: content
+  field_speakers:
+    weight: 23
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_sponsors:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_streaming_now:
+    weight: 62
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tags:
+    weight: 67
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_title_card_image:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_topics:
+    weight: 68
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tracks:
+    weight: 25
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_venue:
+    weight: 24
+    settings: {  }
+    third_party_settings: {  }
+    type: milken_layouts_selection_icons
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

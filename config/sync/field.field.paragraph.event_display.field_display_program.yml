@@ -1,0 +1,23 @@
+uuid: b5d974b9-432f-43fd-bf76-bdb07457aae9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_display_program
+    - paragraphs.paragraphs_type.event_display
+id: paragraph.event_display.field_display_program
+field_name: field_display_program
+entity_type: paragraph
+bundle: event_display
+label: 'Display Program'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

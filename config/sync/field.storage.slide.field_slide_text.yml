@@ -1,0 +1,21 @@
+uuid: 51d6b655-478b-49e6-b48e-87fddd7fffc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - key_value_field
+id: slide.field_slide_text
+field_name: field_slide_text
+entity_type: slide
+type: key_value_long
+settings:
+  key_max_length: 255
+  key_is_ascii: false
+module: key_value_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

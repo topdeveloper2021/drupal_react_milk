@@ -1,0 +1,35 @@
+uuid: 21a6767e-c26a-4809-bfa6-cefa6def4ced
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: subqueue
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - media
+migration_group: milken
+label: 'landing pages'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      uuid: eead5551-18f8-4fdf-960a-74e977531855
+      title: Home
+      items:
+        - one
+        - two
+  ids:
+    uuid:
+      type: string
+process:
+  uuid: uuid
+  title: title
+  items: items
+destination:
+  plugin: 'entity:node'
+  default_bundle: landing_page
+migration_dependencies: {  }

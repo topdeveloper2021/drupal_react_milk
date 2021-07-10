@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/new-social-contract-retirement?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/52?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 517
+        }
+    ],
+    "uuid": [
+        {
+            "value": "597d819b-726e-4f73-bab6-ef6f36d4ef20"
+        }
+    ],
+    "vid": [
+        {
+            "value": 517
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/52?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "53f41b39-569b-4b0f-a8c4-3446a6ecd013"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "A New Social Contract for Retirement",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T12:46:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T20:05:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/new-social-contract-retirement",
+            "pid": 570,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "T<b>he Asia-Pacific region is facing the formidable challenge of how to provide adequate and sustainable retirement income for its aging population. The number of older persons in the Asia-Pacific region is expected to more than double, from 535 million in 2015 to about 1.3 billion in 2050. By then, one in four people in the region will be age 60 or older, according to UNESCAP.<\/b> Population aging, resulting from increases in life expectancies and lower birthrates, is placing severe financial strain on government-sponsored pension benefits in the Asia-Pacific region and countries around the world. Today, individuals are expected to take on increasing risk and responsibility in self-funding a greater portion of their retirement income. According to the Aegon Retirement Readiness Survey 2018 of 16,000 workers and retirees in 15 countries spanning the Americas, Europe, Asia, and Australia, only 25 percent of workers globally believe that they are on course to achieve their expected retirement income needs\u20149 percent Japan, 32 percent China, 33 percent India. A new social contract for retirement is needed, one that honors the principles of sustainability and solidarity, while providing adequate safety nets that enable people to age with dignity and avoid poverty in old age. It must be flexible and adaptable to our ever-changing times. <b>Nine essential design features of the new social contract are:<\/b> <b>Sustainable social security benefits<\/b> that serve as a meaningful source of guaranteed retirement income and avoid risk of poverty among retirees. <b>Universal access to retirement savings arrangements<\/b> for employed workers, and alternative arrangements for the self-employed and people who are not in the workforce due to parenting, caregiving, or other responsibilities. <b>Automatic savings and other applications of behavioral economics<\/b> in retirement-related products and services that make it easier for people to save and invest. <b>Guaranteed lifetime income solutions<\/b> in addition to social security benefits. Education for individuals to strategically plan how to manage their savings to avoid running out of money. <b>Financial education and literacy<\/b> is imperative so that people can make informed financial decisions. It must be part of the educational curriculum so that young people learn the basics of budgeting, investing, and managing their savings. <b>Lifelong learning, longer working lives, and flexible retirement<\/b> to help people to stay economically active longer and transition into retirement on their own terms\u2014with adequate financial protections if they are no longer able to work. <b>Accessible and affordable health care<\/b> to promote healthy aging. Governments play a vital role in overseeing health care systems. Employers should provide healthy work environments and consider offering workplace wellness programs. <b>A positive view of aging<\/b> that celebrates the value of older individuals and takes full advantage of the gift of longevity. <b>An age-friendly world<\/b> in which people can \u201cage in place\u201d in their own homes, and live in vibrant communities designed for people of all ages that promote vitality, health, productivity, and economic growth. Governments should take center stage in orchestrating retirement systems in their countries that\u00a0ensure that everyone, especially at-risk segments of the population, is included. Employers should\u00a0help by offering workplace retirement savings benefits to employees. Individuals should take on a\u00a0more proactive role in \u201cowning\u201d their retirement security. Finally, new social partners such as academics, think tanks, industry, charities, and NGOs should work more closely in public-private\u00a0collaborations to share expertise, innovate, and implement solutions. <i>\u201cThe New Social Contract: A Blueprint for Retirement in the 21st Century\u201d contains in-depth analysis, country comparisons, case studies and detailed recommendations. The report is based on findings from the 7th Annual Aegon Retirement Readiness Survey, which is based on a survey of 14,400 workers and 1,600 retired people in 15 countries: Australia, Brazil, Canada, China, France, Germany, Hungary, India, Japan, the Netherlands, Poland, Spain, Turkey, the U.K., and the U.S. The online survey was conducted in respondents\u2019 native languages between January 29 and February 19, 2018. The survey is a collaboration among Aegon Center for Longevity and Retirement and nonprofits Transamerica Center for Retirement Studies\u00ae and Instituto de Longevidade Mongeral Aegon. The report can be downloaded at www.aegon.com\/thecenter.\u00a0<\/i>",
+    "format": "rich_text",
+    "processed": "T<b>he Asia-Pacific region is facing the formidable challenge of how to provide adequate and sustainable retirement income for its aging population. The number of older persons in the Asia-Pacific region is expected to more than double, from 535 million in 2015 to about 1.3 billion in 2050. By then, one in four people in the region will be age 60 or older, according to UNESCAP.<\/b> Population aging, resulting from increases in life expectancies and lower birthrates, is placing severe financial strain on government-sponsored pension benefits in the Asia-Pacific region and countries around the world. Today, individuals are expected to take on increasing risk and responsibility in self-funding a greater portion of their retirement income. According to the Aegon Retirement Readiness Survey 2018 of 16,000 workers and retirees in 15 countries spanning the Americas, Europe, Asia, and Australia, only 25 percent of workers globally believe that they are on course to achieve their expected retirement income needs\u20149 percent Japan, 32 percent China, 33 percent India. A new social contract for retirement is needed, one that honors the principles of sustainability and solidarity, while providing adequate safety nets that enable people to age with dignity and avoid poverty in old age. It must be flexible and adaptable to our ever-changing times. <b>Nine essential design features of the new social contract are:<\/b> <b>Sustainable social security benefits<\/b> that serve as a meaningful source of guaranteed retirement income and avoid risk of poverty among retirees. <b>Universal access to retirement savings arrangements<\/b> for employed workers, and alternative arrangements for the self-employed and people who are not in the workforce due to parenting, caregiving, or other responsibilities. <b>Automatic savings and other applications of behavioral economics<\/b> in retirement-related products and services that make it easier for people to save and invest. <b>Guaranteed lifetime income solutions<\/b> in addition to social security benefits. Education for individuals to strategically plan how to manage their savings to avoid running out of money. <b>Financial education and literacy<\/b> is imperative so that people can make informed financial decisions. It must be part of the educational curriculum so that young people learn the basics of budgeting, investing, and managing their savings. <b>Lifelong learning, longer working lives, and flexible retirement<\/b> to help people to stay economically active longer and transition into retirement on their own terms\u2014with adequate financial protections if they are no longer able to work. <b>Accessible and affordable health care<\/b> to promote healthy aging. Governments play a vital role in overseeing health care systems. Employers should provide healthy work environments and consider offering workplace wellness programs. <b>A positive view of aging<\/b> that celebrates the value of older individuals and takes full advantage of the gift of longevity. <b>An age-friendly world<\/b> in which people can \u201cage in place\u201d in their own homes, and live in vibrant communities designed for people of all ages that promote vitality, health, productivity, and economic growth. Governments should take center stage in orchestrating retirement systems in their countries that\u00a0ensure that everyone, especially at-risk segments of the population, is included. Employers should\u00a0help by offering workplace retirement savings benefits to employees. Individuals should take on a\u00a0more proactive role in \u201cowning\u201d their retirement security. Finally, new social partners such as academics, think tanks, industry, charities, and NGOs should work more closely in public-private\u00a0collaborations to share expertise, innovate, and implement solutions. <i>\u201cThe New Social Contract: A Blueprint for Retirement in the 21st Century\u201d contains in-depth analysis, country comparisons, case studies and detailed recommendations. The report is based on findings from the 7th Annual Aegon Retirement Readiness Survey, which is based on a survey of 14,400 workers and 1,600 retired people in 15 countries: Australia, Brazil, Canada, China, France, Germany, Hungary, India, Japan, the Netherlands, Poland, Spain, Turkey, the U.K., and the U.S. The online survey was conducted in respondents\u2019 native languages between January 29 and February 19, 2018. The survey is a collaboration among Aegon Center for Longevity and Retirement and nonprofits Transamerica Center for Retirement Studies\u00ae and Instituto de Longevidade Mongeral Aegon. The report can be downloaded at www.aegon.com\/thecenter.\u00a0<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

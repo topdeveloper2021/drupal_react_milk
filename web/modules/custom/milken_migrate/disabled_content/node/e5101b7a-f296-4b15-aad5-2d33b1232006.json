@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/preparing-future-ready-junk-hierarchy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/48?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 513
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e5101b7a-f296-4b15-aad5-2d33b1232006"
+        }
+    ],
+    "vid": [
+        {
+            "value": 513
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/48?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "54dc6886-ea01-47d9-bee9-17217d2dce06"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Preparing for the Future: Ready to Junk Hierarchy?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T06:34:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T19:20:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/preparing-future-ready-junk-hierarchy",
+            "pid": 566,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "C<b>all it my aha moment if you will\u2014the other day, I watched in amazement as my two-and-a-half-year-old grandson keyed in the passcode to unlock the iPad. His finger swiped over the screen and for a moment, I thought he was going to skip the YouTube Kids app. I pre-empted him with a swift tap on the right app.<\/b> It then dawned on me that someday, sooner than I perhaps thought, he will be the one in control and guiding me on where to find information, how to get things done, and generally how to live. The World That We Are Familiar With The world I grew up in revolved around organizations and societies established as hierarchies according to seniority. This frequently meant seniority in terms of age or experience. For a long time, those words were somewhat synonymous. In the late \u201880s, I made a conscious decision to do two things\u2014pursue an MBA whilst on unpaid childcare leave and quit the government to join the financial services sector. Even back then, the financial services sector was constantly in transition. Bright young dealers drew embarrassingly high salaries, thanks to the innovative ideas and money they brought to their firms. The pulse was enticing; I told myself that being new, I needed to be prepared to work really hard, and more importantly, for a boss younger than I. I never imagined the need to adapt would be the mantra for survival these days\u2014junking old operating systems and learning new ones, serving markets well beyond one\u2019s shores, contemplating completely different types of careers and work arrangements, and most critically, embracing the reality that the bulk of innovation and business leadership would come from younger people. The Order That We Are Now Dismantling Most Asian societies and organizations emphasized seniority, particularly in age. Younger family members are expected to afford their elders respect, even beyond immediate family members. Likewise, many organizations tend to reward seniority of experience and, in essence, age. There are very few occasions where the boss is much younger than his subordinates. Compensation principles also tend to be based upon length of experience and age. The greatest challenge lies in nurturing and rewarding innovation within any organization, and to some extent, society at large. Many organizations and societies are at odds when addressing the resulting corporate culture upheaval. Take, for example, the tech billionaires that China has produced. Contrast that with the real estate tycoons in, say, Hong Kong or Singapore. The former grouping tends to lead businesses that are constantly being re-structured, often dramatically, but highly responsive to changes. The latter tends to be anchored in well-established organizational structures that have stood the test of tough business cycles. Wherever on the spectrum a company finds itself, ultimately, what\u2019s undeniable is that the traditional seniority-based system is fast outliving its usefulness, in both the private sector and government. Hitherto, the owner of information called the shots. With the advent of blockchain, big data expertise, and a vulnerability to hacking, the traditional leadership of government is no longer given. How can governments lead in order to support innovation? Making incremental organizational changes will no longer do. Decisive, concrete steps are necessary. <b>Innovation and Collaboration Are Key<\/b> What\u2019s more challenging for the governments of today is the shift in the balance of economic contribution between old and young. It is no longer the predictable cycle of each generation being nurtured and then sustained by the next as it ages. Structural unemployment is a very real and increasingly critical phenomenon for the middle-age groups. The social order is being thrown into question as age no longer equates to more experience or higher income. Each individual now has a greater responsibility for his own welfare. In order to remain relevant for as long as possible, life-long learning and re-skilling becomes inevitable. And the sooner the individual and governments understand this, the better for society as a whole. Innovation and collaboration, regardless of age, will be key to surviving a world in transition. ",
+    "format": "rich_text",
+    "processed": "C<b>all it my aha moment if you will\u2014the other day, I watched in amazement as my two-and-a-half-year-old grandson keyed in the passcode to unlock the iPad. His finger swiped over the screen and for a moment, I thought he was going to skip the YouTube Kids app. I pre-empted him with a swift tap on the right app.<\/b> It then dawned on me that someday, sooner than I perhaps thought, he will be the one in control and guiding me on where to find information, how to get things done, and generally how to live. The World That We Are Familiar With The world I grew up in revolved around organizations and societies established as hierarchies according to seniority. This frequently meant seniority in terms of age or experience. For a long time, those words were somewhat synonymous. In the late \u201880s, I made a conscious decision to do two things\u2014pursue an MBA whilst on unpaid childcare leave and quit the government to join the financial services sector. Even back then, the financial services sector was constantly in transition. Bright young dealers drew embarrassingly high salaries, thanks to the innovative ideas and money they brought to their firms. The pulse was enticing; I told myself that being new, I needed to be prepared to work really hard, and more importantly, for a boss younger than I. I never imagined the need to adapt would be the mantra for survival these days\u2014junking old operating systems and learning new ones, serving markets well beyond one\u2019s shores, contemplating completely different types of careers and work arrangements, and most critically, embracing the reality that the bulk of innovation and business leadership would come from younger people. The Order That We Are Now Dismantling Most Asian societies and organizations emphasized seniority, particularly in age. Younger family members are expected to afford their elders respect, even beyond immediate family members. Likewise, many organizations tend to reward seniority of experience and, in essence, age. There are very few occasions where the boss is much younger than his subordinates. Compensation principles also tend to be based upon length of experience and age. The greatest challenge lies in nurturing and rewarding innovation within any organization, and to some extent, society at large. Many organizations and societies are at odds when addressing the resulting corporate culture upheaval. Take, for example, the tech billionaires that China has produced. Contrast that with the real estate tycoons in, say, Hong Kong or Singapore. The former grouping tends to lead businesses that are constantly being re-structured, often dramatically, but highly responsive to changes. The latter tends to be anchored in well-established organizational structures that have stood the test of tough business cycles. Wherever on the spectrum a company finds itself, ultimately, what\u2019s undeniable is that the traditional seniority-based system is fast outliving its usefulness, in both the private sector and government. Hitherto, the owner of information called the shots. With the advent of blockchain, big data expertise, and a vulnerability to hacking, the traditional leadership of government is no longer given. How can governments lead in order to support innovation? Making incremental organizational changes will no longer do. Decisive, concrete steps are necessary. <b>Innovation and Collaboration Are Key<\/b> What\u2019s more challenging for the governments of today is the shift in the balance of economic contribution between old and young. It is no longer the predictable cycle of each generation being nurtured and then sustained by the next as it ages. Structural unemployment is a very real and increasingly critical phenomenon for the middle-age groups. The social order is being thrown into question as age no longer equates to more experience or higher income. Each individual now has a greater responsibility for his own welfare. In order to remain relevant for as long as possible, life-long learning and re-skilling becomes inevitable. And the sooner the individual and governments understand this, the better for society as a whole. Innovation and collaboration, regardless of age, will be key to surviving a world in transition. ",
+    "summary": null,
+    "summary_processed": ""
+}

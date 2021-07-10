@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/decentralized-technology-new-revolution?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/49?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 514
+        }
+    ],
+    "uuid": [
+        {
+            "value": "982b2ab3-c6a0-46ac-9c03-ee7186aec502"
+        }
+    ],
+    "vid": [
+        {
+            "value": 514
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/49?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "952803f9-1458-4f03-80ac-66bf06178ce3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Decentralized Technology: A New Revolution",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T06:20:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-05T19:31:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/decentralized-technology-new-revolution",
+            "pid": 567,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "W<b>e are on the precipice of a new kind of revolution.<\/b> This is not a revolution of despots and dictators, nor tyrants and taxation, nor of racism, religion, or oppression. Instead, we are amidst an ideological revolution, a reformation of fundamental governance. Historically, there have been five core principles used by societies and organizations to govern themselves: liberty, agency, efficiency, transparency, and privacy. An agent or group of agents is elected or chosen (either informally or through the notion of divine right) to protect universal rights and to create efficiency in collective decision-making. Societies and organizations have typically been required to compromise, unable to fully achieve all five elements. The societies or organizations whose governance systems lacked some or all of these traits experienced reformation or revolution:\u00a0oppression, corrupt and opaque agents, inefficient public and social-good allocation, and lack of basic rights have been the cause of countless upheavals throughout history. On the cusp of yet another revolution, we must realize that this one has potential to disrupt core inefficiencies of conventional governance. Decentralized systems were first introduced a decade ago and have been consistently maturing. Traditional rent-taking agents that governed centralized systems are being replaced with peer-to-peer (P2P) systems. In these systems, governance is transparent, and individuals can contribute information while also retaining their right to liberty, through censorship resistance and privacy. Open and secure decentralized networks coupled with incentivized governance represent an opportunity to change how we interact with one another. Satoshi\u2019s Bitcoin created a P2P money transfer system without a centralized party that incentivized participation and governance through a native currency. The governance of crypto asset networks over the last decade followed a similar blueprint. Increased financial and human capital investment in the development and maturation of decentralized technologies has and will continue to disrupt the status quo, which will lead to a better balance of decentralization and centralization in our digital infrastructure. Today\u2019s blockchain platforms are slow, cumbersome, and expensive to operate. However, new types of consensus and scaling solutions are tackling these bottlenecks. There has been significant progress toward competing consensus and scalability solutions, while interoperability networks are in various stages of development and may offer more efficient solutions for communicating across distributed infrastructure. Privacy continues to be a key focus to protect private information on public blockchains. Improvements in zero-knowledge technology like zk-SNARKs and zk-STARKs are ongoing. Compression coupled with zero knowledge technology can offer solutions for both privacy and scalability. Beyond the core protocols, the ecosystem requires more developer tools for rapid iteration and deployment of commercial grade applications and software. For value generation and widespread adoption, protocols must continue to provide an ample feature set for developers, software applications, and end users. Seamless integrations across platforms and better user interfaces for the end user are also a necessity. The economics, valuation, and pricing of launched systems are becoming clearer through higher daily active users and more network transactions. Crypto assets have gone through cycles of growth over the last decade. However, the fundamentals and progress shaping crypto technology and adoption is nothing short of remarkable. The crypto asset ecosystem has grown immensely and developer communities around the world continue to be inundated with new talent. Meanwhile, global institutions are planting flags in the ecosystem. The ICE\/Bakkt deal is the first of many of its kind as robust infrastructure around custody, exchange, administration, banking, auditing, and taxation continues to develop. Moreover, trusted data sources, quality indices, and diversified derivatives will provide more tools and entry points for institutional investors. We\u2019d be remiss to ignore bitcoin, the provably finite, deflationary, and democratic global alternative store of value. Central bank failures and hyperinflationary policies around the globe have massively devalued local currencies and eradicated individual wealth at an alarming pace. The IMF recently predicted that Venezuela could reach 1,000,000% inflation by 2018 year-end, similar to that of Germany in 1923 or Zimbabwe in the late 2000s. Elsewhere, geopolitical turmoil and runaway inflation in Turkey and Iran have caused governments to widen fiscal deficits financed through monetary base expansion and fuel inflation. Hyperinflation, distressed economic activity, lack of public goods, and food shortages have resulted in significant migrant flows. Throughout the year, local bitcoin buying pressure has exploded as citizens in these distressed economies have flocked to bitcoin to preserve their wealth. Moving forward, we expect to see the global store of value narrative for bitcoin to strengthen. The critical alignment and incentivization of a global network of open-source programmers and users provides an opportunity for continued innovation and increased security of today\u2019s information infrastructure. While digital ledgers and networks have existed for decades, the alignment through economic incentives is a breakthrough in the creation, sharing, and governance of these networks. This Cambrian explosion of innovation has the potential to shift the foundations of how we create, share, and consume information, catalyzing us into the future.\u00a0",
+    "format": "rich_text",
+    "processed": "W<b>e are on the precipice of a new kind of revolution.<\/b> This is not a revolution of despots and dictators, nor tyrants and taxation, nor of racism, religion, or oppression. Instead, we are amidst an ideological revolution, a reformation of fundamental governance. Historically, there have been five core principles used by societies and organizations to govern themselves: liberty, agency, efficiency, transparency, and privacy. An agent or group of agents is elected or chosen (either informally or through the notion of divine right) to protect universal rights and to create efficiency in collective decision-making. Societies and organizations have typically been required to compromise, unable to fully achieve all five elements. The societies or organizations whose governance systems lacked some or all of these traits experienced reformation or revolution:\u00a0oppression, corrupt and opaque agents, inefficient public and social-good allocation, and lack of basic rights have been the cause of countless upheavals throughout history. On the cusp of yet another revolution, we must realize that this one has potential to disrupt core inefficiencies of conventional governance. Decentralized systems were first introduced a decade ago and have been consistently maturing. Traditional rent-taking agents that governed centralized systems are being replaced with peer-to-peer (P2P) systems. In these systems, governance is transparent, and individuals can contribute information while also retaining their right to liberty, through censorship resistance and privacy. Open and secure decentralized networks coupled with incentivized governance represent an opportunity to change how we interact with one another. Satoshi\u2019s Bitcoin created a P2P money transfer system without a centralized party that incentivized participation and governance through a native currency. The governance of crypto asset networks over the last decade followed a similar blueprint. Increased financial and human capital investment in the development and maturation of decentralized technologies has and will continue to disrupt the status quo, which will lead to a better balance of decentralization and centralization in our digital infrastructure. Today\u2019s blockchain platforms are slow, cumbersome, and expensive to operate. However, new types of consensus and scaling solutions are tackling these bottlenecks. There has been significant progress toward competing consensus and scalability solutions, while interoperability networks are in various stages of development and may offer more efficient solutions for communicating across distributed infrastructure. Privacy continues to be a key focus to protect private information on public blockchains. Improvements in zero-knowledge technology like zk-SNARKs and zk-STARKs are ongoing. Compression coupled with zero knowledge technology can offer solutions for both privacy and scalability. Beyond the core protocols, the ecosystem requires more developer tools for rapid iteration and deployment of commercial grade applications and software. For value generation and widespread adoption, protocols must continue to provide an ample feature set for developers, software applications, and end users. Seamless integrations across platforms and better user interfaces for the end user are also a necessity. The economics, valuation, and pricing of launched systems are becoming clearer through higher daily active users and more network transactions. Crypto assets have gone through cycles of growth over the last decade. However, the fundamentals and progress shaping crypto technology and adoption is nothing short of remarkable. The crypto asset ecosystem has grown immensely and developer communities around the world continue to be inundated with new talent. Meanwhile, global institutions are planting flags in the ecosystem. The ICE\/Bakkt deal is the first of many of its kind as robust infrastructure around custody, exchange, administration, banking, auditing, and taxation continues to develop. Moreover, trusted data sources, quality indices, and diversified derivatives will provide more tools and entry points for institutional investors. We\u2019d be remiss to ignore bitcoin, the provably finite, deflationary, and democratic global alternative store of value. Central bank failures and hyperinflationary policies around the globe have massively devalued local currencies and eradicated individual wealth at an alarming pace. The IMF recently predicted that Venezuela could reach 1,000,000% inflation by 2018 year-end, similar to that of Germany in 1923 or Zimbabwe in the late 2000s. Elsewhere, geopolitical turmoil and runaway inflation in Turkey and Iran have caused governments to widen fiscal deficits financed through monetary base expansion and fuel inflation. Hyperinflation, distressed economic activity, lack of public goods, and food shortages have resulted in significant migrant flows. Throughout the year, local bitcoin buying pressure has exploded as citizens in these distressed economies have flocked to bitcoin to preserve their wealth. Moving forward, we expect to see the global store of value narrative for bitcoin to strengthen. The critical alignment and incentivization of a global network of open-source programmers and users provides an opportunity for continued innovation and increased security of today\u2019s information infrastructure. While digital ledgers and networks have existed for decades, the alignment through economic incentives is a breakthrough in the creation, sharing, and governance of these networks. This Cambrian explosion of innovation has the potential to shift the foundations of how we create, share, and consume information, catalyzing us into the future.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

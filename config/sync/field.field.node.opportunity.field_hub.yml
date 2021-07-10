@@ -1,0 +1,33 @@
+uuid: a37c6e18-fd12-4056-a9b3-824d234c175a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hub
+    - node.type.opportunity
+    - taxonomy.vocabulary.ph_hub
+  content:
+    - 'taxonomy_term:ph_hub:39cf3ec8-0075-4480-a1fe-6cc0bb4c0cd9'
+id: node.opportunity.field_hub
+field_name: field_hub
+entity_type: node
+bundle: opportunity
+label: Hub
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 39cf3ec8-0075-4480-a1fe-6cc0bb4c0cd9
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ph_hub: ph_hub
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

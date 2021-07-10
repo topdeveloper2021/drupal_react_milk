@@ -1,0 +1,23 @@
+uuid: 21d7f82f-01f4-42a4-9eda-3c5c37373dc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_index_weight
+  module:
+    - options
+id: people.person.field_index_weight
+field_name: field_index_weight
+entity_type: people
+bundle: person
+label: 'Index Weight'
+description: 'Specify how high on the search results this item should be, where 0 is at the top of the list, followed by 1,2,3,....'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

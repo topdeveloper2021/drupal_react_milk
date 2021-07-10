@@ -1,0 +1,19 @@
+{{ attach_library('podcasts/podcast_episode') }}
+
+{% set media_value =  []
+  | merge({ 'entityTypeId': media.getEntityTypeId })
+  | merge({ 'id': media.uuid.value })
+  | merge({ 'drupal_internal__id': media.id })
+  | merge({ 'type': media.bundle })
+  | merge({ 'includes': "field_media_image" })
+%}
+
+
+<media-podcast-episode
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ media_value | jsonapi }}"
+>
+
+</media-podcast-episode>

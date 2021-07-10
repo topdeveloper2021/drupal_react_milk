@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7826\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/GxpxXlCQXyPV7VtoYodmzRMmk8zZ3Kn71jiw030XTT4.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7826
+        }
+    ],
+    "uuid": [
+        {
+            "value": "4c080f4b-f085-49df-b6dd-da2043e52d6d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 487
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/GxpxXlCQXyPV7VtoYodmzRMmk8zZ3Kn71jiw030XTT4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bf0c8ac2-d65d-4156-b542-5f86198f41c6"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Economic Implications of Climate Change",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:41:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The economic impact of climate change can't be measured only in terms of dollars and cents. Rising temperatures will likely change the crops we grow, how much energy we use and our access to natural resources. Warming trends that may boost food production in cold climates will almost certainly take a toll on farming in temperate regions. Some businesses are investing now to reduce the effects of climate change. For example, Bloomberg LP is moving one of its computer centers from lower Manhattan to upstate New York because of increased flooding risk. For others, expenses have come in the form of higher regulatory costs. Compliance with the Clean Air Act will cost U.S. businesses $65 billion in 2020, up from $53 billion in 2010, according to government reports. When does increasing regulation start harming business and the economy, even if it does help clean the air? How will changes in temperature affect the supply food and energy? And how will living in a warmer world effect health costs? Panelists will discuss the economic consequences of climate change and the steps that can be taken now to mitigate them.",
+    "format": "rich_text",
+    "processed": "The economic impact of climate change can't be measured only in terms of dollars and cents. Rising temperatures will likely change the crops we grow, how much energy we use and our access to natural resources. Warming trends that may boost food production in cold climates will almost certainly take a toll on farming in temperate regions. Some businesses are investing now to reduce the effects of climate change. For example, Bloomberg LP is moving one of its computer centers from lower Manhattan to upstate New York because of increased flooding risk. For others, expenses have come in the form of higher regulatory costs. Compliance with the Clean Air Act will cost U.S. businesses $65 billion in 2020, up from $53 billion in 2010, according to government reports. When does increasing regulation start harming business and the economy, even if it does help clean the air? How will changes in temperature affect the supply food and energy? And how will living in a warmer world effect health costs? Panelists will discuss the economic consequences of climate change and the steps that can be taken now to mitigate them.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/kGLJAJl4oUU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/GxpxXlCQXyPV7VtoYodmzRMmk8zZ3Kn71jiw030XTT4.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

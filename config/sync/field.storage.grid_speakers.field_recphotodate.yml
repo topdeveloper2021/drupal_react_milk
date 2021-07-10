@@ -1,0 +1,21 @@
+uuid: e02e718c-a2ca-4f88-8c2e-8859d96a5aae
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_recphotodate
+field_name: field_recphotodate
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 4befde2a-0d4a-48ae-8aa2-6233f16411f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_tag_color
+    - taxonomy.vocabulary.ph_terms
+  module:
+    - color_field
+id: taxonomy_term.ph_terms.field_tag_color
+field_name: field_tag_color
+entity_type: taxonomy_term
+bundle: ph_terms
+label: 'Tag Color'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    color: '#ffffff'
+    opacity: !!float 1
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/boston-new-york-philadelphia-chicago-and-los-angeles-are-nations-leading-centers-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 605
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b47cc647-e9be-45a1-a593-080d84ce709f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 605
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Boston, New York, Philadelphia, Chicago and Los Angeles Are Nation's Leading Centers for Health Care Industries",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:13:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/boston-new-york-philadelphia-chicago-and-los-angeles-are-nations-leading-centers-health",
+            "pid": 658,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Cities and regions with the greatest health-care resources could be big economic winners in the decades ahead. People are living longer, the elderly population is growing, and demands for better health care are pushing new innovations in medicine. That makes for vibrant local economies, according to a new Milken Institute report. The report, which examines the potential impact of the growing health-care sector on regional economies, ranks Boston, New York, Philadelphia, Chicago and Los Angeles at the top of the list. Each has a major stake in health care, from hospitals to pharmaceuticals to biotechnology, which pump millions of dollars into their local economies and provide tens of thousands of jobs. \"The health-care sector provides a huge economic base for some of these regions, and it promises to be a major global economic force in the years ahead,\" says Ross DeVol, the Institute\u2032s Director of Regional Economics. \"Nurturing expansion in this sector is increasingly vital to regional economic prosperity, and there is an important race underway that will determine which areas will be the dominant health-care centers.\" How important is the health-care industry to the economy? Health-care consumption in the U.S. has doubled since 1970, from 7 percent of GDP to 14 percent. It is expected to reach 17 percent by 2011 as this country\u2032s senior population grows. Globally, the over-65 population is expected to expand from 600 million to more than one billion by 2020. The Top 20 metros on the Milken Institute Health Pole Index: 1.\tBoston <BR>\n2.\tNew York <BR>\n3.\tPhiladelphia <BR>\n4.\tChicago <BR>\n5.\tLos Angeles <BR>\n6.\tWashington, D.C. <BR>\n7.\tDetroit <BR>\n8.\tNassau-Suffolk <BR>\n9.\tNewark <BR>\n10.\tMinneapolis-St. Paul <BR>\n11.\tPittsburgh <BR>\n12.\tBaltimore <BR>\n13.\tSt. Louis <BR>\n14.\tCleveland <BR>\n15.\tHouston <BR>\n16.\tNew Haven-Meriden <BR>\n17.\tSan Diego <BR>\n18.\tRochester, MN <BR>\n19.\tTampa <BR>\n20.\tMiami <BR> The study examines more than 300 metropolitan areas as well as all 50 states to quantify the importance of this sector to regional, state and U.S. economies. Applying mathematical models used in the Institute\u2032s 1999 groundbreaking study, America\u2032s High-Tech Economy, Milken Institute researchers examined employment in 13 health-care industries, from hospitals, drugs and medical supplies to health insurance and medical research. The heart of the study is the Milken Institute\u2032s list of the Top 20 Metro Health Poles, which ranks metropolitan regions based on the concentration of health-care employment in their economy and as a share of U.S. health-care employment. (The word \"poles\" is used, since these regions act as magnets, drawing other health industries and related companies, and the employment and incomes associated with them.) Boston, a center of biotechnology and home to some of this country\u2032s top medical schools, is ranked number one on the index. Right behind it in a virtual tie is New York, which employs tens of thousands of workers in its hospitals and other health-related industries. Philadelphia, a leading employer in pharmaceuticals, is third, Chicago, a leading center for health insurance firms, is fourth, Los Angeles, with its numerous physician offices, clinics and laboratories, is fifth, and Washington, D.C., home to the country\u2032s top research organizations, such as the National Institutes of Health, is sixth. The index includes some metropolitan areas that often do not fare well on economic indexes. These include Detroit, which has become a major player in health-care services (ranked 7th); Pittsburgh, home to the 31,000-worker University of Pittsburgh Health System (11th); St. Louis, where hospitals are the second-biggest employer (13th); and Cleveland, whose world-renowned Cleveland Clinic employs more than 23,000 people (14th). The report also looks at which states and regions have the largest concentrations of health-care employment. The top-ranked states are, in order, Pennsylvania, Massachusetts and Rhode Island (tie), New Jersey and Connecticut. Regionally, the top areas are the New England and Middle Atlantic states. In 2001, for example, more than 800,000 New England residents held jobs in the health-care sector. \"Biotechnology and biomedicine particularly are important drivers in this field,\" said DeVol. \"These two fields of health care may mean to the first half of the 21st century what electronics and computers meant to the latter half of the 20th century.\" View America's Health Care Economy report. View the metro rankings. View the state rankings. ",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Cities and regions with the greatest health-care resources could be big economic winners in the decades ahead. People are living longer, the elderly population is growing, and demands for better health care are pushing new innovations in medicine. That makes for vibrant local economies, according to a new Milken Institute report. The report, which examines the potential impact of the growing health-care sector on regional economies, ranks Boston, New York, Philadelphia, Chicago and Los Angeles at the top of the list. Each has a major stake in health care, from hospitals to pharmaceuticals to biotechnology, which pump millions of dollars into their local economies and provide tens of thousands of jobs. \"The health-care sector provides a huge economic base for some of these regions, and it promises to be a major global economic force in the years ahead,\" says Ross DeVol, the Institute\u2032s Director of Regional Economics. \"Nurturing expansion in this sector is increasingly vital to regional economic prosperity, and there is an important race underway that will determine which areas will be the dominant health-care centers.\" How important is the health-care industry to the economy? Health-care consumption in the U.S. has doubled since 1970, from 7 percent of GDP to 14 percent. It is expected to reach 17 percent by 2011 as this country\u2032s senior population grows. Globally, the over-65 population is expected to expand from 600 million to more than one billion by 2020. The Top 20 metros on the Milken Institute Health Pole Index: 1.\tBoston <br \/>\n2.\tNew York <br \/>\n3.\tPhiladelphia <br \/>\n4.\tChicago <br \/>\n5.\tLos Angeles <br \/>\n6.\tWashington, D.C. <br \/>\n7.\tDetroit <br \/>\n8.\tNassau-Suffolk <br \/>\n9.\tNewark <br \/>\n10.\tMinneapolis-St. Paul <br \/>\n11.\tPittsburgh <br \/>\n12.\tBaltimore <br \/>\n13.\tSt. Louis <br \/>\n14.\tCleveland <br \/>\n15.\tHouston <br \/>\n16.\tNew Haven-Meriden <br \/>\n17.\tSan Diego <br \/>\n18.\tRochester, MN <br \/>\n19.\tTampa <br \/>\n20.\tMiami <br \/> The study examines more than 300 metropolitan areas as well as all 50 states to quantify the importance of this sector to regional, state and U.S. economies. Applying mathematical models used in the Institute\u2032s 1999 groundbreaking study, America\u2032s High-Tech Economy, Milken Institute researchers examined employment in 13 health-care industries, from hospitals, drugs and medical supplies to health insurance and medical research. The heart of the study is the Milken Institute\u2032s list of the Top 20 Metro Health Poles, which ranks metropolitan regions based on the concentration of health-care employment in their economy and as a share of U.S. health-care employment. (The word \"poles\" is used, since these regions act as magnets, drawing other health industries and related companies, and the employment and incomes associated with them.) Boston, a center of biotechnology and home to some of this country\u2032s top medical schools, is ranked number one on the index. Right behind it in a virtual tie is New York, which employs tens of thousands of workers in its hospitals and other health-related industries. Philadelphia, a leading employer in pharmaceuticals, is third, Chicago, a leading center for health insurance firms, is fourth, Los Angeles, with its numerous physician offices, clinics and laboratories, is fifth, and Washington, D.C., home to the country\u2032s top research organizations, such as the National Institutes of Health, is sixth. The index includes some metropolitan areas that often do not fare well on economic indexes. These include Detroit, which has become a major player in health-care services (ranked 7th); Pittsburgh, home to the 31,000-worker University of Pittsburgh Health System (11th); St. Louis, where hospitals are the second-biggest employer (13th); and Cleveland, whose world-renowned Cleveland Clinic employs more than 23,000 people (14th). The report also looks at which states and regions have the largest concentrations of health-care employment. The top-ranked states are, in order, Pennsylvania, Massachusetts and Rhode Island (tie), New Jersey and Connecticut. Regionally, the top areas are the New England and Middle Atlantic states. In 2001, for example, more than 800,000 New England residents held jobs in the health-care sector. \"Biotechnology and biomedicine particularly are important drivers in this field,\" said DeVol. \"These two fields of health care may mean to the first half of the 21st century what electronics and computers meant to the latter half of the 20th century.\" View America's Health Care Economy report. View the metro rankings. View the state rankings. ",
+    "summary": null,
+    "summary_processed": ""
+}

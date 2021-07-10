@@ -1,0 +1,19 @@
+uuid: 7c30792f-69ff-4a78-8d22-f0460a5f95ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - text
+id: panel.field_description
+field_name: field_description
+entity_type: panel
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

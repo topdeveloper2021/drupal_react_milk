@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/boston-greater-philadelphia-and-greater-san-francisco-top-milken-institutes-ranking-life?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 142
+        }
+    ],
+    "uuid": [
+        {
+            "value": "479ea08f-da05-4b64-ad32-cffb8db7704e"
+        }
+    ],
+    "vid": [
+        {
+            "value": 142
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Boston, Greater Philadelphia and Greater San Francisco top Milken Institute's ranking of life sciences clusters in U.S.",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/boston-greater-philadelphia-and-greater-san-francisco-top-milken-institutes-ranking-life",
+            "pid": 195,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "ATLANTA - Jobs and economic growth are scarce these days, but Boston, Greater Philadelphia and Greater San Francisco continue to be the most successful regions at sustaining and building value in the life sciences - an industry prepared to weather the economic downturn and poised to benefit from federal policy and stimulus initiatives and future overall recovery, according to a new report from the Milken Institute. <b>The Greater Philadelphia Life Sciences Cluster 2009: An Economic and Comparative Assessment<\/b>, released today at BIO International Convention, updates the Institute\u2032s 2005 study of the U.S. top life sciences clusters. In the new rankings, Boston remains on top, Greater Philadelphia moves up to second from third, and San Francisco drops one spot to third. \"We\u2032ve been saying for years that regions that cultivate their life sciences assets -- including universities, hospitals, tech spin-off and start-ups -- are best prepared to succeed in a changing economy,\" said Ross DeVol, director of Regional Economics at the Milken Institute. \"These top performers are well suited to ride out the recession and thrive in the recovery.\" The study, sponsored BioAdvance, PhRMA, PricewaterhouseCoopers, Select Greater Philadelphia, BioNJ, Delaware BioScience Association, Greater Philadelphia Life Sciences Congress and Pennsylvania Bio. The purpose of the study was to define Greater Philadelphia\u2032s opportunities and challenges in life sciences by measuring the region\u2032s progress since the 2005 study, and to serve as a guide for strategic planning for further development of the sector. The report compares Greater Philadelphia to 10 other metropolitan areas considered to be the leading life sciences clusters in the U.S. and ranks them based on employment, research and development capacity, output, work force, investment and dozens of other measures. Here is the Milken Institute Overall Composite Index ranking: <table> <tr>\n<b>2009 Ranking\nRegion\n2009 Score2005 Ranking2005 Score\n<\/tr>\n<tr>\n<td>1<\/td>\n<td>Boston<\/td><td>100.0<\/td><td>1<\/td><td>100<\/td>\n<\/tr><tr>\n<td>2<\/td>\n<td>Greater Philadelphia<\/td><td>97.7<\/td><td>3<\/td><td>97.1<\/td>\n<\/tr><tr>\n<td>3<\/td><td>Greater San Francisco<\/td><td>92.1<\/td><td>2<\/td><td>98.4<\/td>\n<\/tr><tr>\n<td>4<\/td><td>Greater New York<\/td><td>92.0<\/td><td>4<\/td><td>94.6<\/td>\n<\/tr><tr>\n<td>5<\/td><td>Greater Raleigh-Durham<\/td><td>88.2<\/td><td>5<\/td><td>91.1<\/td>\n<\/tr><tr>\n<td>6<\/td><td>Greater Los Angeles<\/td><td>86.8<\/td><td>7<\/td><td>87.0<\/td>\n<\/tr><tr>\n<td>7<\/td><td>Chicago<\/td><td>80.1<\/td><td>9<\/td><td>75.9<\/td>\n<\/tr><tr>\n<td>8<\/td><td>San Diego<\/td><td>78.7<\/td><td>6<\/td><td>90.7<\/td>\n<\/tr><tr>\n<td>9<\/td><td>Minneapolis<\/td><td>78.2<\/td><td>8<\/td><td>77.9<\/td>\n<\/tr> <tr>\n<td>10<\/td><td>Washington, D.C.<\/td><td>74.8<\/td><td>N\/A<\/td><td>N\/A<\/td>\n<\/tr>\n<tr>\n<td>11<\/td><td>Seattle<\/td><td>69.2<\/td><td>10<\/td><td>70.9<\/td>\n<\/tr>\n<\/table>\nThe life sciences industry - which includes biotechnology, pharmaceuticals, life sciences R&D, medical devices and health-care services - has been highly sought by economic development agencies for its high-paying jobs and tremendous growth potential. The sector continues to show promise based on its ability to innovate, creating new products and services, and based on growing demand from an aging and increasingly unhealthy population. In addition to the sector\u2032s internal job-building capacity, it fosters a tremendous amount of related local economic activity. Among the study\u2032s findings: After accounting for economic ripple effects, as base companies and employees purchase goods and services in the local economy, the life sciences sector in Greater Philadelphia was responsible for generating 380,800 jobs, $20.2 billion in earnings and $39.7 billion in output in 2007. Fifteen percent of all economic activity and one out of every six jobs in the region can be traced back to life sciences. <br> Boston continues to have a strong lead in R&D capacity among the ranked regions and also leads in success rate of National Science Foundation funding for submitted proposals at 27 percent. <br> Greater Raleigh-Durham emerged as the top performer for indexed relative employment growth between 2002 and 2007, 14 percent above the national average.\nGreater Los Angeles leads in life sciences small-business vitality in terms of number, share and growth of firms, with the other California regions of Greater San Francisco and San Diego close behind. <br> Greater San Francisco continues to be strong in life sciences, particularly in the availability of risk capital and in relative growth, but slipped in the Overall Composite Index due to Greater Philadelphia\u2032s advances in biotechnology R&D and other measures. The study also points out opportunities for improvement in Greater Philadelphia\u2032s industry, noting that there are strong economic forces driving consolidation in the industry that will eliminate jobs. To maintain its advantage, Greater Philadelphia needs to be proactive in attracting and starting biotech firms that can re-absorb human capital quickly. The report also notes that Greater Philadelphia needs to foster more extensive networks that can increase the availability of risk capital for the industry. Milken Institute researchers use more than 60 core measurements to create the Overall Composite Index for Life Sciences. The main criteria are the Current Impact Assessment, which measures an area\u2032s success in bringing research ideas to the marketplace and creating companies, jobs and products; the Innovation Pipeline, which measures the assets that allow a metro to capitalize on its life sciences knowledge and creativity, such as the quality of its work force; and new in this update, Small Business Vitality, which measures the region\u2032s ability to create new entrepreneurial firms. The full report and executive summary are available.",
+    "format": "rich_text",
+    "processed": "ATLANTA - Jobs and economic growth are scarce these days, but Boston, Greater Philadelphia and Greater San Francisco continue to be the most successful regions at sustaining and building value in the life sciences - an industry prepared to weather the economic downturn and poised to benefit from federal policy and stimulus initiatives and future overall recovery, according to a new report from the Milken Institute. <b>The Greater Philadelphia Life Sciences Cluster 2009: An Economic and Comparative Assessment<\/b>, released today at BIO International Convention, updates the Institute\u2032s 2005 study of the U.S. top life sciences clusters. In the new rankings, Boston remains on top, Greater Philadelphia moves up to second from third, and San Francisco drops one spot to third. \"We\u2032ve been saying for years that regions that cultivate their life sciences assets -- including universities, hospitals, tech spin-off and start-ups -- are best prepared to succeed in a changing economy,\" said Ross DeVol, director of Regional Economics at the Milken Institute. \"These top performers are well suited to ride out the recession and thrive in the recovery.\" The study, sponsored BioAdvance, PhRMA, PricewaterhouseCoopers, Select Greater Philadelphia, BioNJ, Delaware BioScience Association, Greater Philadelphia Life Sciences Congress and Pennsylvania Bio. The purpose of the study was to define Greater Philadelphia\u2032s opportunities and challenges in life sciences by measuring the region\u2032s progress since the 2005 study, and to serve as a guide for strategic planning for further development of the sector. The report compares Greater Philadelphia to 10 other metropolitan areas considered to be the leading life sciences clusters in the U.S. and ranks them based on employment, research and development capacity, output, work force, investment and dozens of other measures. Here is the Milken Institute Overall Composite Index ranking: <table><tr><b>2009 Ranking\nRegion\n2009 Score2005 Ranking2005 Score\n<\/b><\/tr><tr><td>1<\/td>\n<td>Boston<\/td><td>100.0<\/td><td>1<\/td><td>100<\/td>\n<\/tr><tr><td>2<\/td>\n<td>Greater Philadelphia<\/td><td>97.7<\/td><td>3<\/td><td>97.1<\/td>\n<\/tr><tr><td>3<\/td><td>Greater San Francisco<\/td><td>92.1<\/td><td>2<\/td><td>98.4<\/td>\n<\/tr><tr><td>4<\/td><td>Greater New York<\/td><td>92.0<\/td><td>4<\/td><td>94.6<\/td>\n<\/tr><tr><td>5<\/td><td>Greater Raleigh-Durham<\/td><td>88.2<\/td><td>5<\/td><td>91.1<\/td>\n<\/tr><tr><td>6<\/td><td>Greater Los Angeles<\/td><td>86.8<\/td><td>7<\/td><td>87.0<\/td>\n<\/tr><tr><td>7<\/td><td>Chicago<\/td><td>80.1<\/td><td>9<\/td><td>75.9<\/td>\n<\/tr><tr><td>8<\/td><td>San Diego<\/td><td>78.7<\/td><td>6<\/td><td>90.7<\/td>\n<\/tr><tr><td>9<\/td><td>Minneapolis<\/td><td>78.2<\/td><td>8<\/td><td>77.9<\/td>\n<\/tr><tr><td>10<\/td><td>Washington, D.C.<\/td><td>74.8<\/td><td>N\/A<\/td><td>N\/A<\/td>\n<\/tr><tr><td>11<\/td><td>Seattle<\/td><td>69.2<\/td><td>10<\/td><td>70.9<\/td>\n<\/tr><\/table>\nThe life sciences industry - which includes biotechnology, pharmaceuticals, life sciences R&amp;D, medical devices and health-care services - has been highly sought by economic development agencies for its high-paying jobs and tremendous growth potential. The sector continues to show promise based on its ability to innovate, creating new products and services, and based on growing demand from an aging and increasingly unhealthy population. In addition to the sector\u2032s internal job-building capacity, it fosters a tremendous amount of related local economic activity. Among the study\u2032s findings: After accounting for economic ripple effects, as base companies and employees purchase goods and services in the local economy, the life sciences sector in Greater Philadelphia was responsible for generating 380,800 jobs, $20.2 billion in earnings and $39.7 billion in output in 2007. Fifteen percent of all economic activity and one out of every six jobs in the region can be traced back to life sciences. <br \/> Boston continues to have a strong lead in R&amp;D capacity among the ranked regions and also leads in success rate of National Science Foundation funding for submitted proposals at 27 percent. <br \/> Greater Raleigh-Durham emerged as the top performer for indexed relative employment growth between 2002 and 2007, 14 percent above the national average.\nGreater Los Angeles leads in life sciences small-business vitality in terms of number, share and growth of firms, with the other California regions of Greater San Francisco and San Diego close behind. <br \/> Greater San Francisco continues to be strong in life sciences, particularly in the availability of risk capital and in relative growth, but slipped in the Overall Composite Index due to Greater Philadelphia\u2032s advances in biotechnology R&amp;D and other measures. The study also points out opportunities for improvement in Greater Philadelphia\u2032s industry, noting that there are strong economic forces driving consolidation in the industry that will eliminate jobs. To maintain its advantage, Greater Philadelphia needs to be proactive in attracting and starting biotech firms that can re-absorb human capital quickly. The report also notes that Greater Philadelphia needs to foster more extensive networks that can increase the availability of risk capital for the industry. Milken Institute researchers use more than 60 core measurements to create the Overall Composite Index for Life Sciences. The main criteria are the Current Impact Assessment, which measures an area\u2032s success in bringing research ideas to the marketplace and creating companies, jobs and products; the Innovation Pipeline, which measures the assets that allow a metro to capitalize on its life sciences knowledge and creativity, such as the quality of its work force; and new in this update, Small Business Vitality, which measures the region\u2032s ability to create new entrepreneurial firms. The full report and executive summary are available.",
+    "summary": null,
+    "summary_processed": ""
+}

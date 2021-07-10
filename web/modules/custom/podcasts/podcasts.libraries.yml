@@ -1,0 +1,10 @@
+media_podcast_episode:
+  version: 1.0
+  js:
+    components/media-podcast-episode/media-podcast-episode.entry.js: { source: 'components/media-podcast-episode/media-podcast-episode.entry.ts' }
+
+
+PodcastBrowser:
+  version: 1.0
+  js:
+    components/PodcastBrowser/PodcastBrowser.entry.js: { source: 'components/PodcastBrowser/PodcastBrowser.entry.tsx' }

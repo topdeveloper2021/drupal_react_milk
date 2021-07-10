@@ -1,0 +1,29 @@
+uuid: 925929f7-1d5a-4913-97f1-74109a4111d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_program_initiatives
+    - media.type.video
+    - taxonomy.vocabulary.program_initiatives
+id: media.video.field_program_initiatives
+field_name: field_program_initiatives
+entity_type: media
+bundle: video
+label: 'Program Initiatives'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      program_initiatives: program_initiatives
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: b460734d-7a8f-4426-b04a-61425f314695
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: philanthropy_hub_opportunities
+label: 'Philanthropy Hub Opportunities'
+type: 'canonical_entities:node'
+pattern: '/philanthropy/hub/[node:title]'
+selection_criteria:
+  8f4f0c2d-25c4-4105-a4a6-476226c92c75:
+    id: node_type
+    bundles:
+      opportunity: opportunity
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8f4f0c2d-25c4-4105-a4a6-476226c92c75
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,31 @@
+uuid: 1d50c8ad-57a5-4f68-b2a8-ef4524766861
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - eck.eck_type.people.staff
+    - field.storage.node.field_authors
+    - node.type.article
+id: node.article.field_authors
+field_name: field_authors
+entity_type: node
+bundle: article
+label: Authors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:people'
+  handler_settings:
+    target_bundles:
+      person: person
+      staff: staff
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: person
+field_type: entity_reference

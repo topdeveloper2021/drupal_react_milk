@@ -1,0 +1,20 @@
+uuid: 1b9d88d0-bc23-4683-b576-c4d949c60b2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - media
+id: media.field_event_reference
+field_name: field_event_reference
+entity_type: media
+type: entity_reference
+settings:
+  target_type: event
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

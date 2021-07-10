@@ -1,0 +1,243 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/13382\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/wX5hDTldCIBQ4VWQ8pAjKWHfnf5i-uNnY2Ouyh7FfWM.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_term_collection": [
+            {
+                "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13382
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b4ef6281-2436-47f8-a082-1f185e110d1b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2397
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/wX5hDTldCIBQ4VWQ8pAjKWHfnf5i-uNnY2Ouyh7FfWM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "727d1796-8212-43fd-bc95-236ba77d9d9b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/centers"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "178be8c7-a708-4414-a8fe-b62e084aeee6"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_term_collection": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/collections"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adce34a1-89b1-4112-b0e4-2628f51abbe4"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/collections\/asiasummit2019?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/collections"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "adce34a1-89b1-4112-b0e4-2628f51abbe4"
+                    }
+                ]
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Opportunities in Private Equity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-29T07:54:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-11T22:09:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": " Private equity has seen incredible growth over the past decade. Yet, as dry powder has grown to over $2 trillion, there is increasingly a sense of too much cash chasing too few deals. How are investors adjusting to a crowded field and should investors be worried as the longest economic expansion in US history continues? Are valuations overly optimistic and how will EBITDA add-backs and cov-lite play out in a market turn? Join our discussion on the decade long growth, developments in financing and capital structure, as well as regional differences of private equity.",
+    "format": "rich_text",
+    "processed": " Private equity has seen incredible growth over the past decade. Yet, as dry powder has grown to over $2 trillion, there is increasingly a sense of too much cash chasing too few deals. How are investors adjusting to a crowded field and should investors be worried as the longest economic expansion in US history continues? Are valuations overly optimistic and how will EBITDA add-backs and cov-lite play out in a market turn? Join our discussion on the decade long growth, developments in financing and capital structure, as well as regional differences of private equity.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/9qIctLn5xMw",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/wX5hDTldCIBQ4VWQ8pAjKWHfnf5i-uNnY2Ouyh7FfWM.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

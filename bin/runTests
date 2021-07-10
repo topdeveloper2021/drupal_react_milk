@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#
+# This script runs the Behat tests on the local docker instance.
+#
+
+# Verbose mode and exit on errors
+set -ex
+
+# Dynamically set Behat configuration parameters
+export BEHAT_PARAMS='{"extensions" : {"Behat\\MinkExtension" : {"base_url" : "http://localhost:8080" }, "Drupal\\DrupalExtension" : {"drush" :   {  "alias":  "docker.docker" }} }}'
+
+# Start headless Chrome
+echo "\n Starting Chrome in headless mode ..."
+supervisorctl restart googlechrome 2>/dev/null
+
+echo "::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "Behat test site: http://localhost:8080"
+echo "::::::::::::::::::::::::::::::::::::::::::::::::"
+echo
+
+# Run the Behat tests
+./vendor/bin/behat --config=tests/behat/behat-docker.yml --snippets-for=cli "$@"

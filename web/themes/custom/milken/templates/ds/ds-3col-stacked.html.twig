@@ -1,0 +1,59 @@
+{#
+/**
+ * @file
+ * Display Suite 3 column stacked template.
+ *
+ * Available variables:
+ * - outer_wrapper: outer wrapper element
+ * - header_wrapper: wrapper element around header region
+ * - left_wrapper: wrapper element around left region
+ * - middle_wrapper: wrapper element around middle region
+ * - right_wrapper: wrapper element around right region
+ * - footer_wrapper: wrapper element around footer region
+ * - attributes: layout attributes
+ * - header_attributes: attributes for header region
+ * - left_attributes: attributes for left region
+ * - middle_attributes: attributes for middle region
+ * - right_attributes: attributes for right region
+ * - footer_attributes: attributes for footer region
+ * - header: content of header region
+ * - left: content of left region
+ * - middle: content of middle region
+ * - right: content of right region
+ * - footer: content of footer region
+ */
+#}
+<{{ outer_wrapper }}{{ attributes.addClass('row') }}>
+
+  {{ title_suffix.contextual_links }}
+
+</{{ outer_wrapper }}>
+<{{ outer_wrapper }}{{ attributes.addClass('row') }}>
+
+  <{{ header_wrapper }}{{ header_attributes.addClass('col', 'col-lg-12') }}>
+    {{ header }}
+  </{{ header_wrapper }}>
+
+</{{ outer_wrapper }}>
+<{{ outer_wrapper }}{{ attributes.addClass('row') }}>
+
+  <{{ left_wrapper }}{{ left_attributes.addClass('col', 'col-lg-4') }}>
+    {{ left }}
+  </{{ left_wrapper }}>
+
+  <{{ middle_wrapper }}{{ middle_attributes.addClass('col', 'col-lg-4') }}>
+    {{ middle }}
+  </{{ middle_wrapper }}>
+
+  <{{ right_wrapper }}{{ right_attributes.addClass('col', 'col-lg-4') }}>
+    {{ right }}
+  </{{ right_wrapper }}>
+
+</{{ outer_wrapper }}>
+<{{ outer_wrapper }}{{ attributes.addClass('row') }}>
+
+  <{{ footer_wrapper }}{{ footer_attributes.addClass('col', 'col-lg-12') }}>
+    {{ footer }}
+  </{{ footer_wrapper }}>
+
+</{{ outer_wrapper }}>

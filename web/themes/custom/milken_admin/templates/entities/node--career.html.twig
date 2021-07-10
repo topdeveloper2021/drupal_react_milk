@@ -1,0 +1,18 @@
+{{ attach_library('milken_base/node_career') }}
+
+{% set node_value =  []
+  | merge({ 'entityTypeId': node.getEntityTypeId })
+  | merge({ 'id': node.uuid.value })
+  | merge({ 'type': node.bundle })
+  | merge({ 'drupal_internal__id': node.id })
+  | merge({ 'includes': "&" })
+%}
+
+
+<node-career
+  {{ attributes }}
+  {{ content_attributes }}
+  data-view-mode="card"
+  data-entity="{{ node_value | jsonapi }}"
+>
+</node-career>

@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10159\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/L5Me-xeL5pQ99-DZ4PICaT9TlHmd6pvs1iLvL0rpkA8.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10159
+        }
+    ],
+    "uuid": [
+        {
+            "value": "61b0c984-f8fa-4f29-8c47-3849bdfa7cc1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1789
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/L5Me-xeL5pQ99-DZ4PICaT9TlHmd6pvs1iLvL0rpkA8.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1efc1338-475c-4138-91d2-392a19bff080"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "If We Do Nothing: Earth's Climate at the Tipping Point",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-02T17:30:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The science is clear and alarming. Human-induced global warming has created a pathway in the next few decades toward irreversible and catastrophic changes that will devastate populations, nations, and economies. So what are we supposed to do about it, and are there market steps that lead to solutions? The U.N.'s Intergovernmental Panel on Climate Change found in October that the increase in global warming could still be held to less than 3 degrees (relative to preindustrial levels) if CO2 emissions decline by 45 percent by 2030 from 2010 levels. But holding warming to even 1.5 degrees would require a staggering transformation of the global energy system, far beyond what world leaders today are contemplating. If we don't act decisively, what consequences will our grandchildren face, and what are the solutions?",
+    "format": "rich_text",
+    "processed": "The science is clear and alarming. Human-induced global warming has created a pathway in the next few decades toward irreversible and catastrophic changes that will devastate populations, nations, and economies. So what are we supposed to do about it, and are there market steps that lead to solutions? The U.N.'s Intergovernmental Panel on Climate Change found in October that the increase in global warming could still be held to less than 3 degrees (relative to preindustrial levels) if CO2 emissions decline by 45 percent by 2030 from 2010 levels. But holding warming to even 1.5 degrees would require a staggering transformation of the global energy system, far beyond what world leaders today are contemplating. If we don't act decisively, what consequences will our grandchildren face, and what are the solutions?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/BwWdss4hnuo",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/L5Me-xeL5pQ99-DZ4PICaT9TlHmd6pvs1iLvL0rpkA8.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

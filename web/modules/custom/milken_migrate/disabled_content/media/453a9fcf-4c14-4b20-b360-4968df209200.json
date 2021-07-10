@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7461\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/QTvow0mmryOAdquxb0LuPEbkDYj1wnvDJ-mT5KK6Iqw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7461
+        }
+    ],
+    "uuid": [
+        {
+            "value": "453a9fcf-4c14-4b20-b360-4968df209200"
+        }
+    ],
+    "vid": [
+        {
+            "value": 226
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/QTvow0mmryOAdquxb0LuPEbkDYj1wnvDJ-mT5KK6Iqw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "41f518d3-d06b-4aad-8896-085f7ead3bd0"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Charting New Frontiers in Asset Ownership",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-06-23T10:49:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "On this panel, our experts discuss the unique innovations they are exploring at their respective funds and how these new models can help asset owners create long-term value and meet their goals in today\u2019s environment of low returns.<br><br> Moderator:<br> Thomas Finke, Chairman and CEO, Barings<br><br> Speakers:<br> Christopher Ailman, Chief Investment Officer, California State Teachers Retirement System; Co-Chair, Global Capital Markets Advisory Council, Milken Institute<br> Hiromichi Mizuno, Executive Managing Director and Chief Investment Officer, Government Pension Investment Fund, Japan; Co-Chair, Global Capital Markets Advisory Council, Milken Institute<br> Jagdeep Singh Bachher, Chief Investment Officer and Vice President of Investments, University of California<br> Carrie Thome, Director of Investments, Wisconsin Alumni Research Foundation",
+    "format": "rich_text",
+    "processed": "On this panel, our experts discuss the unique innovations they are exploring at their respective funds and how these new models can help asset owners create long-term value and meet their goals in today\u2019s environment of low returns.<br \/><br \/> Moderator:<br \/> Thomas Finke, Chairman and CEO, Barings<br \/><br \/> Speakers:<br \/> Christopher Ailman, Chief Investment Officer, California State Teachers Retirement System; Co-Chair, Global Capital Markets Advisory Council, Milken Institute<br \/> Hiromichi Mizuno, Executive Managing Director and Chief Investment Officer, Government Pension Investment Fund, Japan; Co-Chair, Global Capital Markets Advisory Council, Milken Institute<br \/> Jagdeep Singh Bachher, Chief Investment Officer and Vice President of Investments, University of California<br \/> Carrie Thome, Director of Investments, Wisconsin Alumni Research Foundation",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/XRtC-mTcrwI",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/QTvow0mmryOAdquxb0LuPEbkDYj1wnvDJ-mT5KK6Iqw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/one-every-250-california-based-jobs-linked-chevrons-economic-footprint-according-milken?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 150
+        }
+    ],
+    "uuid": [
+        {
+            "value": "034a75fe-e861-4660-b86d-0d435527fefd"
+        }
+    ],
+    "vid": [
+        {
+            "value": 150
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "One in every 250 California-based jobs linked to Chevron's economic footprint, according to Milken Institute analysis",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/one-every-250-california-based-jobs-linked-chevrons-economic-footprint-according-milken",
+            "pid": 203,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - California\u2032s oil and gas industry employs approximately 65,000 people in the state, providing high-paying jobs ranging from manufacturing to research and development that are critical building blocks of the state\u2032s economic recovery, according to a new report from the Milken Institute. In 2007, the oil and gas industry generated $46.3 billion in total economic output in California. <b>Energizing California: Mapping Chevron\u2032s Economic Impacts on the Golden State<\/b> explores the employment and economic impact of the energy sector and specifically examines Chevron\u2032s direct and indirect contributions to the state\u2032s economy, its investment in R&D to diversify the state\u2032s energy portfolio and its investment in human and social capital. The study was made possible by a grant from Chevron, which is California\u2032s top Fortune 500 company and the only oil and gas company headquartered in the state. \"With a budget finally in place, California needs to focus on recovering the jobs, investment and quality of life that are threatened by the global economic situation,\" said Ross DeVol, director of regional economics at the Milken Institute. \"The state has 50 remaining Fortune 500 companies, down from 55 in 2000, so 'anchor\u2032 companies such as Chevron are important to maintain the supplier and service networks that foster sustainable economic growth and add to the tax base.\" Among the statewide impact data points from the analysis: The oil and gas sector as a whole directly employs approximately 65,000 people in California, with a ripple impact, as the companies and their employees consume goods and services, of 304,500 jobs, $16.3 billion in workers\u2032 earnings, and $46.3 billion in economic output. <b> In 2007, Chevron directly employed approximately 10,000 workers in California. These workers contributed employee earnings of $1.2 billion and total economic output of $4.5 billion to the state\u2032s economy. <br> Through the multiplier effect - the full indirect impacts of Chevron\u2032s operations - supported a total of 68,700 jobs, or about 1 in every 250 jobs in the state in 2007, generating $3.9 billion in employee earnings and $9.2 billion in output. <br> In 2007, Chevron spent approximately $750 million to help develop small, minority - and women-owned businesses in the state. The company has a strong presence in the Bay Area, Bakersfield and Los Angeles. The report also examines the specific regional impacts for these areas. <b>The Bay Area<\/b> (Including headquarters in San Ramon, refinery and other operations in Richmond and Chevron Energy Solutions in San Francisco):\n7,080 directly employed with a ripple effect amounting to 30,000 jobs <b>\nDirect employee earnings of $970 million and indirect generation of $1.5 billion in the region<br>\n$2.7 billion in direct Chevron output, which in turn stimulates $1.7 billion in other sectors <b>Bakersfield<\/b> (San Joaquin Valley oil and natural gas production facilities):\nChevron employed almost 1,140 workers with a ripple effect amounting to 3,900 jobs. <b>\nDirect employee earnings of $109 million and indirect generation of an additional $133 million in employee earnings in the region. <br>\n$492 million in direct Chevron output, which in turn stimulates $392 million in other sectors. <b>Los Angeles<\/b> (El Segundo refinery and marketing support): Chevron employed almost 1,460 workers with a ripple effect amounting to 8,500 jobs. <br>\nDirect employee earnings of $131 million and indirect generation of $278 million in additional earnings in the region. <br>\n$860 million in direct Chevron output, which in turn stimulates $847 billion in other sectors. In addition, the report includes an assessment of major challenges facing California and Chevron\u2032s current and potential impact on those issues, including a rising demand for energy, research and development of alternative energy, support of entrepreneurship, development of human capital, conservation and the building of social capital. The full report is available here. The Milken Institute analysis stems from the work being done in its California Center to measure, evaluate and analyze the state's economic, demographic and social conditions and trends in California.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - California\u2032s oil and gas industry employs approximately 65,000 people in the state, providing high-paying jobs ranging from manufacturing to research and development that are critical building blocks of the state\u2032s economic recovery, according to a new report from the Milken Institute. In 2007, the oil and gas industry generated $46.3 billion in total economic output in California. <b>Energizing California: Mapping Chevron\u2032s Economic Impacts on the Golden State<\/b> explores the employment and economic impact of the energy sector and specifically examines Chevron\u2032s direct and indirect contributions to the state\u2032s economy, its investment in R&amp;D to diversify the state\u2032s energy portfolio and its investment in human and social capital. The study was made possible by a grant from Chevron, which is California\u2032s top Fortune 500 company and the only oil and gas company headquartered in the state. \"With a budget finally in place, California needs to focus on recovering the jobs, investment and quality of life that are threatened by the global economic situation,\" said Ross DeVol, director of regional economics at the Milken Institute. \"The state has 50 remaining Fortune 500 companies, down from 55 in 2000, so 'anchor\u2032 companies such as Chevron are important to maintain the supplier and service networks that foster sustainable economic growth and add to the tax base.\" Among the statewide impact data points from the analysis: The oil and gas sector as a whole directly employs approximately 65,000 people in California, with a ripple impact, as the companies and their employees consume goods and services, of 304,500 jobs, $16.3 billion in workers\u2032 earnings, and $46.3 billion in economic output. <b> In 2007, Chevron directly employed approximately 10,000 workers in California. These workers contributed employee earnings of $1.2 billion and total economic output of $4.5 billion to the state\u2032s economy. <br \/> Through the multiplier effect - the full indirect impacts of Chevron\u2032s operations - supported a total of 68,700 jobs, or about 1 in every 250 jobs in the state in 2007, generating $3.9 billion in employee earnings and $9.2 billion in output. <br \/> In 2007, Chevron spent approximately $750 million to help develop small, minority - and women-owned businesses in the state. The company has a strong presence in the Bay Area, Bakersfield and Los Angeles. The report also examines the specific regional impacts for these areas. <b>The Bay Area<\/b> (Including headquarters in San Ramon, refinery and other operations in Richmond and Chevron Energy Solutions in San Francisco):\n7,080 directly employed with a ripple effect amounting to 30,000 jobs <b>\nDirect employee earnings of $970 million and indirect generation of $1.5 billion in the region<br \/>\n$2.7 billion in direct Chevron output, which in turn stimulates $1.7 billion in other sectors <b>Bakersfield<\/b> (San Joaquin Valley oil and natural gas production facilities):\nChevron employed almost 1,140 workers with a ripple effect amounting to 3,900 jobs. <b>\nDirect employee earnings of $109 million and indirect generation of an additional $133 million in employee earnings in the region. <br \/>\n$492 million in direct Chevron output, which in turn stimulates $392 million in other sectors. <b>Los Angeles<\/b> (El Segundo refinery and marketing support): Chevron employed almost 1,460 workers with a ripple effect amounting to 8,500 jobs. <br \/>\nDirect employee earnings of $131 million and indirect generation of $278 million in additional earnings in the region. <br \/>\n$860 million in direct Chevron output, which in turn stimulates $847 billion in other sectors. In addition, the report includes an assessment of major challenges facing California and Chevron\u2032s current and potential impact on those issues, including a rising demand for energy, research and development of alternative energy, support of entrepreneurship, development of human capital, conservation and the building of social capital. The full report is available here. The Milken Institute analysis stems from the work being done in its California Center to measure, evaluate and analyze the state's economic, demographic and social conditions and trends in California.<\/b><\/b><\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

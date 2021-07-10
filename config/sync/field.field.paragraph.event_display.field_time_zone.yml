@@ -1,0 +1,23 @@
+uuid: 3e597485-bba8-49c3-94e0-b66b79abb820
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_time_zone
+    - paragraphs.paragraphs_type.event_display
+  module:
+    - options
+id: paragraph.event_display.field_time_zone
+field_name: field_time_zone
+entity_type: paragraph
+bundle: event_display
+label: 'Time Zone'
+description: 'Time zone to display for this event.'
+required: false
+translatable: false
+default_value:
+  -
+    value: pst
+default_value_callback: ''
+settings: {  }
+field_type: list_string

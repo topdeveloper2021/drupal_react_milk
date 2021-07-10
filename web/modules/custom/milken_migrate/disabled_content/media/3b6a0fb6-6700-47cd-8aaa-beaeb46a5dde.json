@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7745\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/NwJRbR6-vVOmHoHJGGbsoEnoJQQvaeHYndkMeF1Uoxs.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7745
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3b6a0fb6-6700-47cd-8aaa-beaeb46a5dde"
+        }
+    ],
+    "vid": [
+        {
+            "value": 428
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/NwJRbR6-vVOmHoHJGGbsoEnoJQQvaeHYndkMeF1Uoxs.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c9374b6f-8731-493d-8525-402824175d64"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Architecture of the American Economy: Policies to Drive Economic Growth and Our Competitiveness",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-27T19:11:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The U.S. economy continues to recover, creating jobs and enjoying sustained, if yet not sizzling, growth. Still, policy concerns remain. In the near term, they revolve around strengthening the recovery and ensuring that the gains are shared, and over a longer horizon, tackling the U.S. budget imbalance. Addressing these challenges requires policies that will enhance American competitiveness and support stronger productivity growth and rising incomes for all Americans. The administration has proposed a range of initiatives, including investments in infrastructure, education and additional support for scientific research, while working to open key export markets for American firms. This panel of government and business leaders will focus on policies to address our nation's challenges, both near-term and long-term, in a way that reflects our priorities.",
+    "format": "rich_text",
+    "processed": "The U.S. economy continues to recover, creating jobs and enjoying sustained, if yet not sizzling, growth. Still, policy concerns remain. In the near term, they revolve around strengthening the recovery and ensuring that the gains are shared, and over a longer horizon, tackling the U.S. budget imbalance. Addressing these challenges requires policies that will enhance American competitiveness and support stronger productivity growth and rising incomes for all Americans. The administration has proposed a range of initiatives, including investments in infrastructure, education and additional support for scientific research, while working to open key export markets for American firms. This panel of government and business leaders will focus on policies to address our nation's challenges, both near-term and long-term, in a way that reflects our priorities.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/06YpYtz-nu4",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/NwJRbR6-vVOmHoHJGGbsoEnoJQQvaeHYndkMeF1Uoxs.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+uuid: ff9c09e9-d91c-464e-b0f4-ac83b91adde9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_description
+  module:
+    - text
+id: event.meeting.field_description
+field_name: field_description
+entity_type: event
+bundle: meeting
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,30 @@
+uuid: 994e0cc0-f246-45a8-b25e-dd63b9430d98
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - file
+    - image
+id: people.field_photo
+field_name: field_photo
+entity_type: people
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

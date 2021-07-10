@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10108\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/l-nWNjV2sq7Op08uTTTqiMVefAnkwl-VseN0JEIWM84.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10108
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5c76a6be-7fe4-4fcc-a3f6-ea825d85e9c3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1815
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/l-nWNjV2sq7Op08uTTTqiMVefAnkwl-VseN0JEIWM84.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7ba13308-4240-48ed-bba8-8723d1ea700c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "AI and Machine Learning in Cancer Medicine",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T02:25:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": " The panel will focus on uses of artificial intelligence and machine learning for the early detection of cancer, its diagnosis, drug development, and clinical decision-making. These technologies have the potential to accelerate our understanding of cancer at the cellular and the systems (or \"whole person\") level. The AI health-care market is estimated to be $2.1 billion today and to grow to more than $30 billion by 2025. To support such growth, the biopharma industry is rapidly expanding its human capital in this area through multiple means. Advances in machine learning are improving analysis of radiological images for cancer detection, as well as analysis of pathology slides and blood samples for cancer diagnosis and prognosis. In addition, AI and machine learning are being deployed to aid in the discovery of novel therapies, optimize patient selection for treatment, and monitor for drug resistance and disease recurrence. The potential impact of artificial intelligence in oncology is great, and the panel will also explore challenges and obstacles that may delay widespread application.",
+    "format": "rich_text",
+    "processed": " The panel will focus on uses of artificial intelligence and machine learning for the early detection of cancer, its diagnosis, drug development, and clinical decision-making. These technologies have the potential to accelerate our understanding of cancer at the cellular and the systems (or \"whole person\") level. The AI health-care market is estimated to be $2.1 billion today and to grow to more than $30 billion by 2025. To support such growth, the biopharma industry is rapidly expanding its human capital in this area through multiple means. Advances in machine learning are improving analysis of radiological images for cancer detection, as well as analysis of pathology slides and blood samples for cancer diagnosis and prognosis. In addition, AI and machine learning are being deployed to aid in the discovery of novel therapies, optimize patient selection for treatment, and monitor for drug resistance and disease recurrence. The potential impact of artificial intelligence in oncology is great, and the panel will also explore challenges and obstacles that may delay widespread application.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/MD3yxNK2qHs",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/l-nWNjV2sq7Op08uTTTqiMVefAnkwl-VseN0JEIWM84.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

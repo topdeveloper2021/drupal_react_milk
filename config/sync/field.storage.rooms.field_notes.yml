@@ -1,0 +1,19 @@
+uuid: 9df0f71e-8246-415f-aae9-4425884f2a39
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: rooms.field_notes
+field_name: field_notes
+entity_type: rooms
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

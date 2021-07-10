@@ -1,0 +1,17 @@
+{{ attach_library('milken/EventDisplay') }}
+
+<event-detail
+    {{ attributes }}
+    {{ content_attributes }}
+    data-drupal-selector="drupal-event-json"
+    data-id="{{ eck_entity.uuid.value }}"
+    data-type="{{ eck_entity.getEntityTypeId }}--{{ eck_entity.bundle }}"
+    data-drupal-internal-id="{{ eck_entity.id.value }}"
+    data-entity-type-id="{{ eck_entity.getEntityTypeId }}"
+    data-bundle="{{ eck_entity.bundle }}"
+    data-view-mode="card"
+    data-field-event-grid-id="{{ eck_entity.get('field_grid_event_id').value }}"
+>
+
+</event-detail>
+

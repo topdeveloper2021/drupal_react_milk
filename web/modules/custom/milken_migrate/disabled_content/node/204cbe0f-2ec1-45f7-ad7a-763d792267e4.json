@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/how-universities-drive-innovation-aging-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/14?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 473
+        }
+    ],
+    "uuid": [
+        {
+            "value": "204cbe0f-2ec1-45f7-ad7a-763d792267e4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 473
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/14?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4dd62b9f-88e0-42fc-8077-8cf68ef0ca19"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "How Universities Drive Innovation in Aging",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T11:25:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/how-universities-drive-innovation-aging-0",
+            "pid": 526,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Aging is big business.A growing demand for everything from comfortable shoes to on-call caregivers prompted a New York Times headline to declare baby boomers as the hottest start-up market in 2016.In fact, the sum of all economic activity devoted to serving the needs of more than 110 million Americans over age 50 now exceeds $7.6 trillion, a staggering amount that surpasses the total gross domestic product of any nation except the U.S. and China, according to an AARP\/Oxford Economics report.As we consider the drivers of the new longevity economy\u2014what the AARP describes as a powerful force of people, products, and services that are changing the face of America\u2014it is important to acknowledge the crucial roles that universities play in fostering this entrepreneurial enterprise that recognizes aging as an age of opportunity.<b>From Labs to Lives<\/b>From Google to Gatorade, many successful businesses began on college campuses. We can thank university researchers for developing many of the treatments, techniques, and technologies that emerged during the 20th century and contributed to the increase in life expectancy\u2014from around age 50 in 1900 to around age 80 today\u2014that has been called one of society\u2019s greatest achievements. These include insulin for managing diabetes, chemotherapies for fighting cancers, antibiotics for attacking infections, vaccines for eradicating deadly diseases, and numerous other scientific and medical innovations.\u00a0Until recently the FDA only approved interventions to address specific diseases. Recent efforts by collaborators of our school resulted in a green light for the first-of-its-kind TAME (targeting aging with metformin) study, which could lead the way to treatments for aging itself\u2014the most important and most common risk factor for many of the socially and economically important diseases we face.Beyond medications, scientists here at the USC Leonard Davis School of Gerontology and elsewhere are looking at how lifestyle changes, from specific exercises to specialized diets, can promote healthy aging. Some have launched companies providing health and wellness products based on promising research results.<b>Improving Healthspans<\/b>In the 21st century, the challenge for researchers and industry is to focus not just on lifespans\u2014 how long we live\u2014but also on healthspans, or how well we live. Continued university breakthroughs help to advance many new consumer technologies with the potential to make lives easier for older adults, such as self-driving cars, robotic assistants, and digital apps for health monitoring and assessment.\u00a0Through collaborations with universities, industries serving older adults are gaining specialized training and insights designed to increase awareness of aging issues and promote best practices. The USC Leonard Davis School has developed specialized curricula focused on the needs of older adults for professionals in the financial, wellness and housing sectors.A recent collaboration with the Hartford Center for Mature Market Excellence found that nearly 90 percent of homeowners made home modifications, including fall-prevention-friendly improvements, following receipt of educational materials about universal design.Examples of education-focused, aging-inspired businesses abound. University-based retirement communities, a growing trend in the senior living sector, allow older adults to remain engaged by taking college classes. Social entrepreneurship organizations like Encore.org harness the skills and experience of older adults to inspire\u2014and teach\u2014younger generations. These intergenerational interactions provide benefits for students and seniors alike.<b>A Personal Approach<\/b>In the area of biotechnology, a market predicted to exceed $600 billion by 2020, we are now moving into the what I call the precision longevity era\u2014one where we can leverage DNA and other biomarkers to better understand each person\u2019s ability to healthfully age to their full potential. Propelled by sequencing advances and discoveries taking place in university research labs, this personalized approach to aging will undoubtedly inspire countless initiatives based on tailored treatment and prevention efforts.Current companies like 23andMe may be just the tip of the iceberg. Forbes recently published a pronouncement that hyper-personalization is about to disrupt the health, fitness and beauty industries. In the area of nutrition alone, scientists, including several here at the USC Leonard Davis School, are uncovering links between genotypes and the ability of specific diets to provide resistance to aging\u2019s maladies.\u00a0<b>The Most Valuable Asset<\/b>As increased life expectancy and a new generation of older adults demand we redefine how later life is lived, it can be said that people are perhaps a university\u2019s most important export. Our graduates have gone on to start businesses, shape policy, practice medicine, develop technologies, lead research and serve seniors with a focus on making lives better for all of us. Individuals from institutions of higher education, including our stellar students and world-class faculty, are spurring aging-related advances and providing case studies for how to improve health and well-being today and far into the future.And that may be the most important bottom line of all.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Aging is big business.A growing demand for everything from comfortable shoes to on-call caregivers prompted a New York Times headline to declare baby boomers as the hottest start-up market in 2016.In fact, the sum of all economic activity devoted to serving the needs of more than 110 million Americans over age 50 now exceeds $7.6 trillion, a staggering amount that surpasses the total gross domestic product of any nation except the U.S. and China, according to an AARP\/Oxford Economics report.As we consider the drivers of the new longevity economy\u2014what the AARP describes as a powerful force of people, products, and services that are changing the face of America\u2014it is important to acknowledge the crucial roles that universities play in fostering this entrepreneurial enterprise that recognizes aging as an age of opportunity.<b>From Labs to Lives<\/b>From Google to Gatorade, many successful businesses began on college campuses. We can thank university researchers for developing many of the treatments, techniques, and technologies that emerged during the 20th century and contributed to the increase in life expectancy\u2014from around age 50 in 1900 to around age 80 today\u2014that has been called one of society\u2019s greatest achievements. These include insulin for managing diabetes, chemotherapies for fighting cancers, antibiotics for attacking infections, vaccines for eradicating deadly diseases, and numerous other scientific and medical innovations.\u00a0Until recently the FDA only approved interventions to address specific diseases. Recent efforts by collaborators of our school resulted in a green light for the first-of-its-kind TAME (targeting aging with metformin) study, which could lead the way to treatments for aging itself\u2014the most important and most common risk factor for many of the socially and economically important diseases we face.Beyond medications, scientists here at the USC Leonard Davis School of Gerontology and elsewhere are looking at how lifestyle changes, from specific exercises to specialized diets, can promote healthy aging. Some have launched companies providing health and wellness products based on promising research results.<b>Improving Healthspans<\/b>In the 21st century, the challenge for researchers and industry is to focus not just on lifespans\u2014 how long we live\u2014but also on healthspans, or how well we live. Continued university breakthroughs help to advance many new consumer technologies with the potential to make lives easier for older adults, such as self-driving cars, robotic assistants, and digital apps for health monitoring and assessment.\u00a0Through collaborations with universities, industries serving older adults are gaining specialized training and insights designed to increase awareness of aging issues and promote best practices. The USC Leonard Davis School has developed specialized curricula focused on the needs of older adults for professionals in the financial, wellness and housing sectors.A recent collaboration with the Hartford Center for Mature Market Excellence found that nearly 90 percent of homeowners made home modifications, including fall-prevention-friendly improvements, following receipt of educational materials about universal design.Examples of education-focused, aging-inspired businesses abound. University-based retirement communities, a growing trend in the senior living sector, allow older adults to remain engaged by taking college classes. Social entrepreneurship organizations like Encore.org harness the skills and experience of older adults to inspire\u2014and teach\u2014younger generations. These intergenerational interactions provide benefits for students and seniors alike.<b>A Personal Approach<\/b>In the area of biotechnology, a market predicted to exceed $600 billion by 2020, we are now moving into the what I call the precision longevity era\u2014one where we can leverage DNA and other biomarkers to better understand each person\u2019s ability to healthfully age to their full potential. Propelled by sequencing advances and discoveries taking place in university research labs, this personalized approach to aging will undoubtedly inspire countless initiatives based on tailored treatment and prevention efforts.Current companies like 23andMe may be just the tip of the iceberg. Forbes recently published a pronouncement that hyper-personalization is about to disrupt the health, fitness and beauty industries. In the area of nutrition alone, scientists, including several here at the USC Leonard Davis School, are uncovering links between genotypes and the ability of specific diets to provide resistance to aging\u2019s maladies.\u00a0<b>The Most Valuable Asset<\/b>As increased life expectancy and a new generation of older adults demand we redefine how later life is lived, it can be said that people are perhaps a university\u2019s most important export. Our graduates have gone on to start businesses, shape policy, practice medicine, develop technologies, lead research and serve seniors with a focus on making lives better for all of us. Individuals from institutions of higher education, including our stellar students and world-class faculty, are spurring aging-related advances and providing case studies for how to improve health and well-being today and far into the future.And that may be the most important bottom line of all.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

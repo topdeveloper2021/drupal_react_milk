@@ -1,0 +1,203 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/13347\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8IbTpxVaO9cu10dcj5ymkNDSmr-NQNlvnuF5JkUB7oM.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 13347
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b7ebebac-d229-4a81-a126-4852603b1de9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2367
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/8IbTpxVaO9cu10dcj5ymkNDSmr-NQNlvnuF5JkUB7oM.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6528fed8-edce-414e-ab0a-64b467363bfc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/centers\/asiacenter?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/centers"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "178be8c7-a708-4414-a8fe-b62e084aeee6"
+                    }
+                ]
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Innovation Hubs: Revolutionizing Urban Frameworks",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-09-29T05:57:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-08T18:15:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": " What moves urban centers from being business-friendly to business-exciting? Beyond the basics--a stable economic and political regime, supportive regulatory, legal, and financial institutions, good infrastructure, and a pool of talent--cities are increasingly integrating technology and urban design to improve efficiency, enhance sustainability, and boost competitiveness in an already competitive global market. How can urban planners, developers, and governments find an optimal blend of technology and a human-centric approach to ensure a better quality of life and unlock savings and attract investment when developing these innovation hubs?",
+    "format": "rich_text",
+    "processed": " What moves urban centers from being business-friendly to business-exciting? Beyond the basics--a stable economic and political regime, supportive regulatory, legal, and financial institutions, good infrastructure, and a pool of talent--cities are increasingly integrating technology and urban design to improve efficiency, enhance sustainability, and boost competitiveness in an already competitive global market. How can urban planners, developers, and governments find an optimal blend of technology and a human-centric approach to ensure a better quality of life and unlock savings and attract investment when developing these innovation hubs?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/KIqdB7oR6uc",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/8IbTpxVaO9cu10dcj5ymkNDSmr-NQNlvnuF5JkUB7oM.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

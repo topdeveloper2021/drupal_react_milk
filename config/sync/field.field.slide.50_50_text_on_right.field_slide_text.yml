@@ -1,0 +1,22 @@
+uuid: 4764921f-ad77-4207-bdc6-7e66fe46a22a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.50_50_text_on_right
+    - field.storage.slide.field_slide_text
+  module:
+    - key_value_field
+id: slide.50_50_text_on_right.field_slide_text
+field_name: field_slide_text
+entity_type: slide
+bundle: 50_50_text_on_right
+label: 'Slide Text'
+description: 'HTML tags will be stripped from the "value" inside the component.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  default_format: plain_text
+field_type: key_value_long

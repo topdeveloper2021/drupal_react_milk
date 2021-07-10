@@ -1,0 +1,29 @@
+uuid: b1333bc1-d466-4233-8ca9-a0de89ee8800
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actions
+    - node.type.opportunity
+    - taxonomy.vocabulary.ph_actions
+id: node.opportunity.field_actions
+field_name: field_actions
+entity_type: node
+bundle: opportunity
+label: Actions
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ph_actions: ph_actions
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

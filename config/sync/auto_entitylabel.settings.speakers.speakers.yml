@@ -1,0 +1,6 @@
+status: 1
+pattern: '[speakers:field_last_name], [speakers:field_salutation] [speakers:field_first_name] [speakers:field_middle_name] '
+escape: true
+dependencies:
+  config:
+    - eck.eck_type.speakers.speakers

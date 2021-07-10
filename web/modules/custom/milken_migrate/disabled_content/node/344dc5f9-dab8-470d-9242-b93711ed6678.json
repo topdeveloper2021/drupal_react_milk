@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/top-business-and-policy-leaders-gather-milken-institute-state-state-conference-october-13?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 683
+        }
+    ],
+    "uuid": [
+        {
+            "value": "344dc5f9-dab8-470d-9242-b93711ed6678"
+        }
+    ],
+    "vid": [
+        {
+            "value": 683
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Top business and policy leaders gather at Milken Institute State of the State Conference on October 13 in Los Angeles",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:20:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/top-business-and-policy-leaders-gather-milken-institute-state-state-conference-october-13",
+            "pid": 736,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>LOS ANGELES<\/b> \u2014 Hundreds of California's leading business executives and policymakers will gather for the Milken Institute's 13th annual State of the State Conference. This all-day event will take place at The Beverly Hilton in Los Angeles.<br><br> The State of the State Conference brings together CEOs, investors, labor leaders, government officials, elected leaders and other experts to discuss the state's business environment, creating jobs, the housing market, urban renewal, and California's innovation pipeline.<br><br> During the luncheon session, Gov. Jerry Brown will sit down with Institute chairman Mike Milken for a conversation about how the Golden State can meet its challenges.<br><br> Speakers include:Frank Baxter, Chairman Emeritus, Jefferies & Company Inc.\nJeffrey Berg, Chairman and CEO, International Creative Management\nJean-Lou Chameau, President, California Institute of Technology\nHenry Cisneros, Executive Chairman, CityView; former Secretary, Housing and Urban Development\nLewis Feldman, Partner and Los Angeles Chair, Goodwin Procter LLP\nSusan Kennedy, Senior Policy Advisor, Alston & Bird LLP, former Chief of Staff of Gov. Schwarzenegger\nTimothy Leiweke, President and CEO, AEG\nKenneth Lombard, President, Capri Urban Investors LLC; Partner, Capri Capital Partners LLC\nMonica Lozano, CEO, impreMedia; Member, President's Council on Jobs and Competitiveness\nScott Minerd, Chief Investment Officer, Guggenheim Partners\nGavin Newsom, California Lieutenant Governor\nArt Pulaski, Executive Secretary-Treasurer, California Labor Federation, AFL-CIO\nMiguel Pulido, Santa Ana Mayor\nGwynne Shotwell, President, SpaceX\nPeter Taylor, Chief Financial Officer, University of California\nShariq Yosufzai, Chairman, California Chamber of Commerce; Vice President, Chevron Corp.<br><br>\nVisit the Institute's site for the full list of speakers and agenda details.<br><br> The State of the State conference is planned by the Institute's California Center, which is dedicated to measuring, evaluating and analyzing the state's economic, demographic and social conditions and trends.<br><br> Note to media: Credentialed members of the press wishing to cover the 2011 State of the State Conference must use the registration form on the website's registration page and enter code mediasos11. Please note that you are not registered until your application has been approved and you receive confirmation.",
+    "format": "rich_text",
+    "processed": "<b>LOS ANGELES<\/b> \u2014 Hundreds of California's leading business executives and policymakers will gather for the Milken Institute's 13th annual State of the State Conference. This all-day event will take place at The Beverly Hilton in Los Angeles.<br \/><br \/> The State of the State Conference brings together CEOs, investors, labor leaders, government officials, elected leaders and other experts to discuss the state's business environment, creating jobs, the housing market, urban renewal, and California's innovation pipeline.<br \/><br \/> During the luncheon session, Gov. Jerry Brown will sit down with Institute chairman Mike Milken for a conversation about how the Golden State can meet its challenges.<br \/><br \/> Speakers include:Frank Baxter, Chairman Emeritus, Jefferies &amp; Company Inc.\nJeffrey Berg, Chairman and CEO, International Creative Management\nJean-Lou Chameau, President, California Institute of Technology\nHenry Cisneros, Executive Chairman, CityView; former Secretary, Housing and Urban Development\nLewis Feldman, Partner and Los Angeles Chair, Goodwin Procter LLP\nSusan Kennedy, Senior Policy Advisor, Alston &amp; Bird LLP, former Chief of Staff of Gov. Schwarzenegger\nTimothy Leiweke, President and CEO, AEG\nKenneth Lombard, President, Capri Urban Investors LLC; Partner, Capri Capital Partners LLC\nMonica Lozano, CEO, impreMedia; Member, President's Council on Jobs and Competitiveness\nScott Minerd, Chief Investment Officer, Guggenheim Partners\nGavin Newsom, California Lieutenant Governor\nArt Pulaski, Executive Secretary-Treasurer, California Labor Federation, AFL-CIO\nMiguel Pulido, Santa Ana Mayor\nGwynne Shotwell, President, SpaceX\nPeter Taylor, Chief Financial Officer, University of California\nShariq Yosufzai, Chairman, California Chamber of Commerce; Vice President, Chevron Corp.<br \/><br \/>\nVisit the Institute's site for the full list of speakers and agenda details.<br \/><br \/> The State of the State conference is planned by the Institute's California Center, which is dedicated to measuring, evaluating and analyzing the state's economic, demographic and social conditions and trends.<br \/><br \/> Note to media: Credentialed members of the press wishing to cover the 2011 State of the State Conference must use the registration form on the website's registration page and enter code mediasos11. Please note that you are not registered until your application has been approved and you receive confirmation.",
+    "summary": null,
+    "summary_processed": ""
+}

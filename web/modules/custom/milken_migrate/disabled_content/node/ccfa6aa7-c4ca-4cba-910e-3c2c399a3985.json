@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/geopolitical-risks-and-heightened-market-volatility-are-new-risks-global-growth?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/42?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 507
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ccfa6aa7-c4ca-4cba-910e-3c2c399a3985"
+        }
+    ],
+    "vid": [
+        {
+            "value": 507
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/42?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a6c42e90-1ba3-42c3-b69a-ee109904a779"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Geopolitical Risks and Heightened Market Volatility are New Risks to Global Growth ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T16:59:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-30T19:29:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/geopolitical-risks-and-heightened-market-volatility-are-new-risks-global-growth",
+            "pid": 560,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Markets are reacting badly to rising tensions between North Korea and the United States even as most forecasters have been revising up global growth projections. While North Korea is nowhere near China\u2019s systemic importance, uncertainty about China in 2015 tanked markets, heightened concerns about global growth, and raised market tensions enough to delay Fed policy normalization. North Korea\u2019s Military Threats Backed by Robust Financing Raise Market Uncertainty and Risks to Global Growth Specific North Korean military threats and President Trump\u2019s latest tweets have amplified geopolitical risks and uncertainty. The paucity of reliable intelligence about North Korea\u2019s military prowess feeds the uncertainty. North Korea\u2019s saber rattling has escalated from missile testing programs to plans for a military strike on Guam. At the same time, Presidential tweets have become more heated\u2014with \u201cfire and fury.\u201d These and related actions have shaken market complacency. Elevated and sustained market volatility will influence and possibly delay Fed and other global central banks policies. <br \/> <i>William Lee, chief economist at the Milken Institute, discusses market volatility on Bloomberg's \"What'd You Miss?\"<\/i> Another more formidable threat may be the size and possibly nefarious sources of the flows financing North Korea\u2019s growing nuclear capabilities. In June, the U.S. Treasury invoked the Patriot Act to isolate further North Korea from the international financial system. It prohibits U.S. financial institutions from having correspondent accounts with North Korean financial institutions or to process transactions on their behalf. In the latest G20 meeting, U.S. Treasury Secretary Steven Mnuchin appealed for global support for combatting terrorist financing, a potential conduit for North Korean financing. It is difficult to assess the efficacy of such sanctions. Recent reports show U.S. prosecutors have acted against eight global banks believed to have processed more than $700 million of \"prohibited\" transactions on behalf of entities tied to North Korea since 2009. [1] In addition, North Korea may use terrorist financing channels to access hard currencies. Unlike Iran, which succumbed to financial sanctions because it transacted billions of dollars in monthly oil and other energy exports, North Korea often deals in cash. As a potential source of training and equipment for terrorists, North Korea has access to a plentiful supply of cash funneled through a hidden and opaque underground network. In addition, North Korea was one of the largest counterfeiters of U.S. $100 bills until the note was redesigned. Increasingly Optimistic Global Growth Forecasts Contain Significant Downside Policy Risks The IMF and most other forecasters have revised up their global growth projections. Most of the improvement in the last six months stems from better reports from the euro area and their emerging market trading partners in Eastern Europe. Efforts to stabilize growing credit risks and other supply side reforms have improved China's prospects, especially for 2018. By contrast, U.S. growth appears to be stuck on a tepid 1\u00bd to 2 percent trajectory. For 2017, U.S. growth has come primarily from consumption and a modest rebound in investment related to expanding shale oil extraction. Despite extraordinarily low unemployment rates that currently hover below 4\u00bd percent, inflation has not yet materialized. Even though job openings have reached historically high levels, employers have not been willing to raise wages to hire workers to fill these vacancies more rapidly. Indeed, with U.S. growth projected to rise at a modest pace, it is unlikely that there will be a sudden rush to raise aggregate wages. However, those sectors with shortages (e.g., skilled construction workers and programmers) will continue to see outsized relative wage increases. A major source of uncertainty for global growth is whether the United States will pass tax reform that is sufficiently substantial to boost U.S. GDP growth with higher investment and productivity. Without revenue from the border tax and reduced expenditures from health care reform, it is unlikely that corporate and personal tax reductions will be as large or as \u201cpermanent\u201d as previously expected. One way to limit the rise in the federal deficit would be to place \u201csunset\u201d requirements to some of the tax cuts, as was done in 2001 with President George W. Bush\u2019s tax cuts. However, temporary tax cuts can be expected to provide a smaller boost to growth than permanent cuts. Concluding Thoughts: Monetary Policy Uncertainty Is Heightened by New Geopolitical Risks The schedule for Federal Reserve interest normalization depends critically on continuing modest growth and rising inflation. Both are now at risk. Geopolitical uncertainty threatens to derail modest growth as incremental investments may seek safe havens rather than projects that expand production and employment. Recalcitrant inflation performance that defies most forecasters\u2019 models is already a topic of heated debate for the Federal Open Market Committee. Continued subdued or declining inflation may delay Fed action further, as would a rise in market volatility to actionable levels observed in the fall of 2015. <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i> <i>[1] As reported by Reuters on July 6, 2017. http:\/\/www.reuters.com\/article\/us-usa-northkorea-banks-idUSKBN19S014<\/i>",
+    "format": "rich_text",
+    "processed": "Markets are reacting badly to rising tensions between North Korea and the United States even as most forecasters have been revising up global growth projections. While North Korea is nowhere near China\u2019s systemic importance, uncertainty about China in 2015 tanked markets, heightened concerns about global growth, and raised market tensions enough to delay Fed policy normalization. North Korea\u2019s Military Threats Backed by Robust Financing Raise Market Uncertainty and Risks to Global Growth Specific North Korean military threats and President Trump\u2019s latest tweets have amplified geopolitical risks and uncertainty. The paucity of reliable intelligence about North Korea\u2019s military prowess feeds the uncertainty. North Korea\u2019s saber rattling has escalated from missile testing programs to plans for a military strike on Guam. At the same time, Presidential tweets have become more heated\u2014with \u201cfire and fury.\u201d These and related actions have shaken market complacency. Elevated and sustained market volatility will influence and possibly delay Fed and other global central banks policies. <br \/><i>William Lee, chief economist at the Milken Institute, discusses market volatility on Bloomberg's \"What'd You Miss?\"<\/i> Another more formidable threat may be the size and possibly nefarious sources of the flows financing North Korea\u2019s growing nuclear capabilities. In June, the U.S. Treasury invoked the Patriot Act to isolate further North Korea from the international financial system. It prohibits U.S. financial institutions from having correspondent accounts with North Korean financial institutions or to process transactions on their behalf. In the latest G20 meeting, U.S. Treasury Secretary Steven Mnuchin appealed for global support for combatting terrorist financing, a potential conduit for North Korean financing. It is difficult to assess the efficacy of such sanctions. Recent reports show U.S. prosecutors have acted against eight global banks believed to have processed more than $700 million of \"prohibited\" transactions on behalf of entities tied to North Korea since 2009. [1] In addition, North Korea may use terrorist financing channels to access hard currencies. Unlike Iran, which succumbed to financial sanctions because it transacted billions of dollars in monthly oil and other energy exports, North Korea often deals in cash. As a potential source of training and equipment for terrorists, North Korea has access to a plentiful supply of cash funneled through a hidden and opaque underground network. In addition, North Korea was one of the largest counterfeiters of U.S. $100 bills until the note was redesigned. Increasingly Optimistic Global Growth Forecasts Contain Significant Downside Policy Risks The IMF and most other forecasters have revised up their global growth projections. Most of the improvement in the last six months stems from better reports from the euro area and their emerging market trading partners in Eastern Europe. Efforts to stabilize growing credit risks and other supply side reforms have improved China's prospects, especially for 2018. By contrast, U.S. growth appears to be stuck on a tepid 1\u00bd to 2 percent trajectory. For 2017, U.S. growth has come primarily from consumption and a modest rebound in investment related to expanding shale oil extraction. Despite extraordinarily low unemployment rates that currently hover below 4\u00bd percent, inflation has not yet materialized. Even though job openings have reached historically high levels, employers have not been willing to raise wages to hire workers to fill these vacancies more rapidly. Indeed, with U.S. growth projected to rise at a modest pace, it is unlikely that there will be a sudden rush to raise aggregate wages. However, those sectors with shortages (e.g., skilled construction workers and programmers) will continue to see outsized relative wage increases. A major source of uncertainty for global growth is whether the United States will pass tax reform that is sufficiently substantial to boost U.S. GDP growth with higher investment and productivity. Without revenue from the border tax and reduced expenditures from health care reform, it is unlikely that corporate and personal tax reductions will be as large or as \u201cpermanent\u201d as previously expected. One way to limit the rise in the federal deficit would be to place \u201csunset\u201d requirements to some of the tax cuts, as was done in 2001 with President George W. Bush\u2019s tax cuts. However, temporary tax cuts can be expected to provide a smaller boost to growth than permanent cuts. Concluding Thoughts: Monetary Policy Uncertainty Is Heightened by New Geopolitical Risks The schedule for Federal Reserve interest normalization depends critically on continuing modest growth and rising inflation. Both are now at risk. Geopolitical uncertainty threatens to derail modest growth as incremental investments may seek safe havens rather than projects that expand production and employment. Recalcitrant inflation performance that defies most forecasters\u2019 models is already a topic of heated debate for the Federal Open Market Committee. Continued subdued or declining inflation may delay Fed action further, as would a rise in market volatility to actionable levels observed in the fall of 2015. <i>All views expressed here are those of the author and do not necessarily reflect those of the Milken Institute or its affiliates.<\/i> <i>[1] As reported by Reuters on July 6, 2017. http:\/\/www.reuters.com\/article\/us-usa-northkorea-banks-idUSKBN19S014<\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

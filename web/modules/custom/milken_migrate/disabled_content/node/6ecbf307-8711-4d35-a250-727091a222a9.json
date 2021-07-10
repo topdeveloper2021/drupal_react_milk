@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/relationship-between-delirium-and-dementia?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/10?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 469
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6ecbf307-8711-4d35-a250-727091a222a9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 469
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/10?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "da1ae5d8-a8b0-4bbc-a3a6-3ea94fbdcdbf"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Relationship Between Delirium and Dementia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:40:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/relationship-between-delirium-and-dementia",
+            "pid": 522,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Harvard professor Sharon Inouye is one of the world\u2019s leaders in geriatrics research and innovation. She founded the Hospital Elder Life Program (HELP) to prevent delirium in hospitalized patients. In an interview with the Milken Institute Center for the Future of Aging, Inouye talks about the role delirium plays in the development of Alzheimer\u2019s and other <\/i>dementias,<i> and simple, effective ways to prevent it from occurring.<\/i><b>Can you explain how delirium affects the aging brain?\u00a0<\/b>Our studies have shown that delirium\u2014an acute confusional state that develops in the face of acute illness, hospitalization, surgery, anesthesia, and medications\u2014can lead to long-term cognitive decline and, potentially, dementia. The exact mechanisms of how delirium affects the aging brain remain elusive, and this is an area of active research for my group. Along with a team of superb interdisciplinary investigators, we have just been awarded a $13.6 million grant from the National Institute on Aging to examine the pathophysiologic basis and biomarkers for delirium. Using cerebrospinal fluid and plasma assays, electroencephalography, and functional imaging, we will be examining its relationship to Alzheimer\u2019s disease biomarkers, inflammatory biomarkers, neuroimaging changes, and markers of brain plasticity. This study will be an important advance for the field, allowing us to identify mechanisms that we hope will lead to effective treatment strategies in the future. <b>What are the most important parts of building brain health? Are we missing key information about improving brain health?<\/b>The most important parts of building brain health are: exercise, healthy diet, adequate sleep, avoiding tobacco and excessive alcohol, reducing obesity, and treating high blood pressure and diabetes. However, not enough attention is being paid to protecting the brain during illness, hospitalization, and surgery\u2014times when the aging brain is extremely vulnerable to damage that may not be reversible. Much can be done to prevent delirium in these settings\u2014for instance, providing early mobility and exercise, reducing use of immobilizing devices (like bed and chair alarms), assuring orientation and cognitively stimulating activities, enhancing sleep without medications, avoiding dehydration and malnutrition, and minimizing use of psychoactive drugs\u2014those that adversely affect the brain, such as sleeping medications and tranquilizers. Patients and families should be made aware that there is much that can be done, and helpful hints can be found on our website for the\u00a0Hospital Elder Life Program.<b>What do you think is the most important thing people have yet to learn about the brain?<\/b>The brain is incredibly resilient, and many people in their 80s and 90s never develop any cognitive impairment. We need to learn how to enhance this resilience and keep the brain highly functional throughout our lives, even with exposure to the many adverse factors that are a part of daily life for all of us. <b>Since delirium is especially common in patients with Alzheimer\u2019s disease, how has your research influenced your views about the disease?<\/b>I view delirium as a great untapped domain for Alzheimer\u2019s disease research and treatment. Understanding where the brain acutely goes wrong holds so many important lessons for the treatment of Alzheimer\u2019s disease. Given that there is growing evidence that delirium can lead to dramatically accelerated cognitive decline in those both with and without Alzheimer\u2019s disease, it represents a critical juncture where intervention may fundamentally alter clinical course. Delirium and Alzheimer\u2019s disease share many underlying pathophysiologic contributors, thus, preventing delirium may, in turn, prevent Alzheimer\u2019s disease.<b>What impact will your research on delirium and cognitive decline have on healthy aging?<\/b>Acute illness and hospitalization occur as part of usual aging for most older adults. Delirium occurs in a substantial proportion of these events, and making sure people can survive and recover well is part of our mission. Moreover, our research in delirium\u2014and how acute stressors affect the brain\u2014will advance our understanding of how to help the brain age successfully age.<b>Can people with Alzheimer\u2019s and other dementias have a positive quality of life?<\/b>Most definitely. I have cared for hundreds of people with Alzheimer\u2019s and related dementias, and my primary goal is to help them and their families maximize their quality of life. There is so much that can be done to enhance the quality of life, ranging from addressing daily activities, living situation, socialization, finding ways to keep them active and engaged. We also work to help the caregivers understand the limitations while making the most of the situation. The specifics details of living need to change with dementia, but the quality of life need not be diminished in the early and moderate stages.Each year, more than 12 million older Americans develop delirium. How do you hope your research will change the way patients with delirium are cared for in the future?In the future, I hope that much of delirium is prevented through effective strategies that are already well-established. I hope health care professionals and systems recognize the importance of delirium and prioritize its prevention and management. I hope that humanistic, person-centered programs like HELP can be implemented widely to improve quality of care for all patients.\u00a0<b>What do you hope to achieve next?\u00a0<\/b>My hope, my dream is a world without delirium. To get there, we will need delirium prevention programs in every emergency room, hospital, ICU, post-acute and long-term care setting, and palliative care globally. So that is my next goal.",
+    "format": "rich_text",
+    "processed": "<i>Harvard professor Sharon Inouye is one of the world\u2019s leaders in geriatrics research and innovation. She founded the Hospital Elder Life Program (HELP) to prevent delirium in hospitalized patients. In an interview with the Milken Institute Center for the Future of Aging, Inouye talks about the role delirium plays in the development of Alzheimer\u2019s and other <\/i>dementias,<i> and simple, effective ways to prevent it from occurring.<\/i><b>Can you explain how delirium affects the aging brain?\u00a0<\/b>Our studies have shown that delirium\u2014an acute confusional state that develops in the face of acute illness, hospitalization, surgery, anesthesia, and medications\u2014can lead to long-term cognitive decline and, potentially, dementia. The exact mechanisms of how delirium affects the aging brain remain elusive, and this is an area of active research for my group. Along with a team of superb interdisciplinary investigators, we have just been awarded a $13.6 million grant from the National Institute on Aging to examine the pathophysiologic basis and biomarkers for delirium. Using cerebrospinal fluid and plasma assays, electroencephalography, and functional imaging, we will be examining its relationship to Alzheimer\u2019s disease biomarkers, inflammatory biomarkers, neuroimaging changes, and markers of brain plasticity. This study will be an important advance for the field, allowing us to identify mechanisms that we hope will lead to effective treatment strategies in the future. <b>What are the most important parts of building brain health? Are we missing key information about improving brain health?<\/b>The most important parts of building brain health are: exercise, healthy diet, adequate sleep, avoiding tobacco and excessive alcohol, reducing obesity, and treating high blood pressure and diabetes. However, not enough attention is being paid to protecting the brain during illness, hospitalization, and surgery\u2014times when the aging brain is extremely vulnerable to damage that may not be reversible. Much can be done to prevent delirium in these settings\u2014for instance, providing early mobility and exercise, reducing use of immobilizing devices (like bed and chair alarms), assuring orientation and cognitively stimulating activities, enhancing sleep without medications, avoiding dehydration and malnutrition, and minimizing use of psychoactive drugs\u2014those that adversely affect the brain, such as sleeping medications and tranquilizers. Patients and families should be made aware that there is much that can be done, and helpful hints can be found on our website for the\u00a0Hospital Elder Life Program.<b>What do you think is the most important thing people have yet to learn about the brain?<\/b>The brain is incredibly resilient, and many people in their 80s and 90s never develop any cognitive impairment. We need to learn how to enhance this resilience and keep the brain highly functional throughout our lives, even with exposure to the many adverse factors that are a part of daily life for all of us. <b>Since delirium is especially common in patients with Alzheimer\u2019s disease, how has your research influenced your views about the disease?<\/b>I view delirium as a great untapped domain for Alzheimer\u2019s disease research and treatment. Understanding where the brain acutely goes wrong holds so many important lessons for the treatment of Alzheimer\u2019s disease. Given that there is growing evidence that delirium can lead to dramatically accelerated cognitive decline in those both with and without Alzheimer\u2019s disease, it represents a critical juncture where intervention may fundamentally alter clinical course. Delirium and Alzheimer\u2019s disease share many underlying pathophysiologic contributors, thus, preventing delirium may, in turn, prevent Alzheimer\u2019s disease.<b>What impact will your research on delirium and cognitive decline have on healthy aging?<\/b>Acute illness and hospitalization occur as part of usual aging for most older adults. Delirium occurs in a substantial proportion of these events, and making sure people can survive and recover well is part of our mission. Moreover, our research in delirium\u2014and how acute stressors affect the brain\u2014will advance our understanding of how to help the brain age successfully age.<b>Can people with Alzheimer\u2019s and other dementias have a positive quality of life?<\/b>Most definitely. I have cared for hundreds of people with Alzheimer\u2019s and related dementias, and my primary goal is to help them and their families maximize their quality of life. There is so much that can be done to enhance the quality of life, ranging from addressing daily activities, living situation, socialization, finding ways to keep them active and engaged. We also work to help the caregivers understand the limitations while making the most of the situation. The specifics details of living need to change with dementia, but the quality of life need not be diminished in the early and moderate stages.Each year, more than 12 million older Americans develop delirium. How do you hope your research will change the way patients with delirium are cared for in the future?In the future, I hope that much of delirium is prevented through effective strategies that are already well-established. I hope health care professionals and systems recognize the importance of delirium and prioritize its prevention and management. I hope that humanistic, person-centered programs like HELP can be implemented widely to improve quality of care for all patients.\u00a0<b>What do you hope to achieve next?\u00a0<\/b>My hope, my dream is a world without delirium. To get there, we will need delirium prevention programs in every emergency room, hospital, ICU, post-acute and long-term care setting, and palliative care globally. So that is my next goal.",
+    "summary": null,
+    "summary_processed": ""
+}

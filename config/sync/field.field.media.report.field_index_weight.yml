@@ -1,0 +1,23 @@
+uuid: d6c57f50-ae64-4a69-af37-b0a2f1754812
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_index_weight
+    - media.type.report
+  module:
+    - options
+id: media.report.field_index_weight
+field_name: field_index_weight
+entity_type: media
+bundle: report
+label: 'Index Weight'
+description: 'Specify how high on the search results this item should be, where 0 is at the top of the list, followed by 1,2,3,....'
+required: true
+translatable: false
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

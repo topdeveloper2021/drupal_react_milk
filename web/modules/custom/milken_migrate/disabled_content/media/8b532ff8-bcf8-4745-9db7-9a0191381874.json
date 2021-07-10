@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/9857\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Oa9DUdRdnJKAEgtNYYvcJZ_yWYNiVJvLOdC9Nj5nv_E.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 9857
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8b532ff8-bcf8-4745-9db7-9a0191381874"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1721
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Oa9DUdRdnJKAEgtNYYvcJZ_yWYNiVJvLOdC9Nj5nv_E.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "35966f1f-4df8-4664-ad9c-2163182c17ef"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "The Emergence of Venture Capital Mega-Funds",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T21:20:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-22T21:22:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As investors, companies, and corporates maintain a strong interest in the tech industry, growing tech businesses turn to venture capital as their go-to funding source. VC firms are bullish on tech, and the favorable fundraising environment is resulting in new expansion and opportunity funds. While raising VC for seed investing is challenging, there is plenty of capital for successful late-stage companies. In each of the last four years, annual U.S. venture fundraising has topped $30 billion. With excessive dry powder in the ecosystem, companies are choosing to stay private longer. Specialists will discuss the confluence of factors that have led to the rise and reign of super-giant funding rounds of $100 million or more.",
+    "format": "rich_text",
+    "processed": "As investors, companies, and corporates maintain a strong interest in the tech industry, growing tech businesses turn to venture capital as their go-to funding source. VC firms are bullish on tech, and the favorable fundraising environment is resulting in new expansion and opportunity funds. While raising VC for seed investing is challenging, there is plenty of capital for successful late-stage companies. In each of the last four years, annual U.S. venture fundraising has topped $30 billion. With excessive dry powder in the ecosystem, companies are choosing to stay private longer. Specialists will discuss the confluence of factors that have led to the rise and reign of super-giant funding rounds of $100 million or more.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/C6_KAYZx7Lk",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/Oa9DUdRdnJKAEgtNYYvcJZ_yWYNiVJvLOdC9Nj5nv_E.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

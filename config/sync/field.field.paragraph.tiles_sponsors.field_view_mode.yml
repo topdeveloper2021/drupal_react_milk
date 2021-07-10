@@ -1,0 +1,23 @@
+uuid: 22c481f5-6c20-4f53-a8f2-9a7fec6b75d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_view_mode
+    - paragraphs.paragraphs_type.tiles_sponsors
+  module:
+    - options
+id: paragraph.tiles_sponsors.field_view_mode
+field_name: field_view_mode
+entity_type: paragraph
+bundle: tiles_sponsors
+label: 'View Mode'
+description: 'Always use Tile for Sponsors'
+required: true
+translatable: true
+default_value:
+  -
+    value: tile
+default_value_callback: ''
+settings: {  }
+field_type: list_string

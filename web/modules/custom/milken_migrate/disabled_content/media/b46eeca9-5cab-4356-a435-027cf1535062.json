@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7815\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/RHQibl-tP87QHv-DyuFVMAI2ZP1uhDNVpHuiysJ07Nk.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7815
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b46eeca9-5cab-4356-a435-027cf1535062"
+        }
+    ],
+    "vid": [
+        {
+            "value": 480
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/RHQibl-tP87QHv-DyuFVMAI2ZP1uhDNVpHuiysJ07Nk.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "71fcd347-c4ca-4e3d-82fb-bcb69f68371d"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Cyber-Security: Protecting Companies and Citizens From Assault",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T01:20:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "High-profile cyber-attacks of banks, retailers and health care providers demonstrate how vulnerable businesses and their customers are to hackers. The efficiency of electronic data networks is beyond question. But they also have created new security concerns. In the business world, companies risk losing sales if consumers aren't satisfied that confidential information is safe. Cyber-security also is critical to government efforts to monitor the communications and movements of terror organizations. How can the government and private business work together to protect privacy and keep the nation safe from attack? How can we balance security concerns with the need for data to move freely between businesses and their customers? This panel will discuss the threats that lurk in cyberspace and steps that are being taken to counter them.",
+    "format": "rich_text",
+    "processed": "High-profile cyber-attacks of banks, retailers and health care providers demonstrate how vulnerable businesses and their customers are to hackers. The efficiency of electronic data networks is beyond question. But they also have created new security concerns. In the business world, companies risk losing sales if consumers aren't satisfied that confidential information is safe. Cyber-security also is critical to government efforts to monitor the communications and movements of terror organizations. How can the government and private business work together to protect privacy and keep the nation safe from attack? How can we balance security concerns with the need for data to move freely between businesses and their customers? This panel will discuss the threats that lurk in cyberspace and steps that are being taken to counter them.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/_1hjI66DKrk",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/RHQibl-tP87QHv-DyuFVMAI2ZP1uhDNVpHuiysJ07Nk.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

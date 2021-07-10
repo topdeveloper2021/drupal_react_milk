@@ -1,0 +1,5 @@
+services:
+  milken_migrate.commands:
+    class: \Drupal\milken_migrate\Commands\MilkenMigrateCommands
+    tags:
+      - { name: drush.command }

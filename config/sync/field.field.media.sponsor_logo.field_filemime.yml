@@ -1,0 +1,19 @@
+uuid: 2c097045-562c-4250-afc6-fe7197646059
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_filemime
+    - media.type.sponsor_logo
+id: media.sponsor_logo.field_filemime
+field_name: field_filemime
+entity_type: media
+bundle: sponsor_logo
+label: filemime
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

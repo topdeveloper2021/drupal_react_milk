@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/why-empathy-crucial-communication?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/28?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 489
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e06c3279-942e-4aba-b817-9217f691dce9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 489
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/28?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "220bd4af-df6a-4893-af30-7684570118fb"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Why Empathy Is Crucial for Communication",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:18:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-12T21:57:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/why-empathy-crucial-communication",
+            "pid": 542,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Six-time\u00a0Emmy Award\u00a0and\u00a0Golden Globe\u00a0winner, Alan Alda, wants people to have better conversations. Alda is the former host of PBS\u2019s\u00a0Scientific American Frontiers, where he interviewed scientists and helped them communicate complex ideas to broad audiences. In an interview with the Milken Institute Center for the Future of Aging, Alda explains how better communication about science and medicine can lead to improved health outcomes.<\/i> <b>From inter-family communication to explaining medical procedures to patients, why do you think it\u2019s difficult to learn empathy?<\/b> This is a mystery to me. Almost all of us have some capacity for empathy, and we think of ourselves as social animals, yet we have to keep re-learning the basic tools of life with others. It feels so good to be in close contact with other people, you\u2019d think it would be self-reinforcing. Instead, we seem to need to be constantly re-introduced to the pleasures of empathy and relating. <b>In the first chapter of your book, If I Understood You, Would I Have This Look on My Face?, you recount that you had a difficult time convincing a scientist about the importance of science communication. How do we make the case to scientists that clear communication is important?<\/b> There aren\u2019t many scientists now who don\u2019t see the value of greater clarity. I see a growing awareness that clear and vivid communication is essential if we\u2019re going to close the gap between the public and science. When we started the Center for Communicating Science at Stony Brook University eight years ago, it wasn\u2019t unusual for scientists to question the need for it. Now, we are having trouble keeping up with the demand for our services. <b>Should universities tackle the issue of jargon by teaching science students how to communicate with the public?<\/b> Yes! My hope has always been that one day all science education would include communication training. We should turn out holders of graduate degrees who are not only accomplished scientists but good communicators as well. They\u2019ll need that skill to get funding for their work, to collaborate with other scientists across disciplines, and to help people like me enjoy the wonders of nature in a way only science can make possible. But we don\u2019t only train students. We\u2019ve had great success working with senior scientists who are leaders in their field. They\u2019re out there right now explaining science, and every time they have a chance to communicate\u2014to the public or Congress\u2014it should be as compelling as possible. <b>Will better communication from scientists encourage the public to take a greater interest in scientific discoveries that affect their health?<\/b> It\u2019s bound to. And one of the benefits I hope for is not just the communication of the latest advance in medicine, but also a side dish of teaching how science works. For instance, when we read that coffee is bad for you and then a year later that it has some good qualities, and then a year later that it has some bad qualities, too, it\u2019s easy for people to throw up their hands and stop listening. We need to learn that one study doesn\u2019t leave a question resolved for all time. Almost every study leads to more questions. It\u2019s not that scientists can\u2019t make up their minds about coffee, it\u2019s that they keep thinking of new questions to ask. Once we get used to that, it\u2019s kind of exciting to see where these questions lead. <b>How can scientists resonate with audiences when they haven't had the human moment described in Chapter 6 of your book?<\/b> We see over and over that when we ask scientists to tell us a story about their work, at first, they don\u2019t think they have one. But everyone has a story. Interestingly, it\u2019s the failures, the blind alleys along the way, even accidentally stumbling across something you didn\u2019t expect, that capture our attention and make us root for the hero. <b>You write about the significance of improv. How can this improve communication between people?<\/b> The improvisation exercises we teach are all designed to bring you into better contact with the other person. It\u2019s not comedy improv. It\u2019s a series of experiences that strengthen your ability to relate. <b>What are the key takeaways from science communication that can help people live healthier lives?<\/b> I think an obvious connection is what we were talking about earlier. It feels good to relate in an open, personal way. There are many studies that suggest that living without spouses and friends can shorten your life. The more comfortably you can relate to others, the more likely you are to have those life-enhancing relationships. At least, that\u2019s how it seems to me. <b>What do you hope readers take out of your book?<\/b> I hope they carry with them the awareness that every time they try to communicate with someone, they have to put at least as much attention on what\u2019s going on in the other person\u2019s head as they do on what they have to tell them. The listener is your partner, not your target.",
+    "format": "rich_text",
+    "processed": "<i>Six-time\u00a0Emmy Award\u00a0and\u00a0Golden Globe\u00a0winner, Alan Alda, wants people to have better conversations. Alda is the former host of PBS\u2019s\u00a0Scientific American Frontiers, where he interviewed scientists and helped them communicate complex ideas to broad audiences. In an interview with the Milken Institute Center for the Future of Aging, Alda explains how better communication about science and medicine can lead to improved health outcomes.<\/i> <b>From inter-family communication to explaining medical procedures to patients, why do you think it\u2019s difficult to learn empathy?<\/b> This is a mystery to me. Almost all of us have some capacity for empathy, and we think of ourselves as social animals, yet we have to keep re-learning the basic tools of life with others. It feels so good to be in close contact with other people, you\u2019d think it would be self-reinforcing. Instead, we seem to need to be constantly re-introduced to the pleasures of empathy and relating. <b>In the first chapter of your book, If I Understood You, Would I Have This Look on My Face?, you recount that you had a difficult time convincing a scientist about the importance of science communication. How do we make the case to scientists that clear communication is important?<\/b> There aren\u2019t many scientists now who don\u2019t see the value of greater clarity. I see a growing awareness that clear and vivid communication is essential if we\u2019re going to close the gap between the public and science. When we started the Center for Communicating Science at Stony Brook University eight years ago, it wasn\u2019t unusual for scientists to question the need for it. Now, we are having trouble keeping up with the demand for our services. <b>Should universities tackle the issue of jargon by teaching science students how to communicate with the public?<\/b> Yes! My hope has always been that one day all science education would include communication training. We should turn out holders of graduate degrees who are not only accomplished scientists but good communicators as well. They\u2019ll need that skill to get funding for their work, to collaborate with other scientists across disciplines, and to help people like me enjoy the wonders of nature in a way only science can make possible. But we don\u2019t only train students. We\u2019ve had great success working with senior scientists who are leaders in their field. They\u2019re out there right now explaining science, and every time they have a chance to communicate\u2014to the public or Congress\u2014it should be as compelling as possible. <b>Will better communication from scientists encourage the public to take a greater interest in scientific discoveries that affect their health?<\/b> It\u2019s bound to. And one of the benefits I hope for is not just the communication of the latest advance in medicine, but also a side dish of teaching how science works. For instance, when we read that coffee is bad for you and then a year later that it has some good qualities, and then a year later that it has some bad qualities, too, it\u2019s easy for people to throw up their hands and stop listening. We need to learn that one study doesn\u2019t leave a question resolved for all time. Almost every study leads to more questions. It\u2019s not that scientists can\u2019t make up their minds about coffee, it\u2019s that they keep thinking of new questions to ask. Once we get used to that, it\u2019s kind of exciting to see where these questions lead. <b>How can scientists resonate with audiences when they haven't had the human moment described in Chapter 6 of your book?<\/b> We see over and over that when we ask scientists to tell us a story about their work, at first, they don\u2019t think they have one. But everyone has a story. Interestingly, it\u2019s the failures, the blind alleys along the way, even accidentally stumbling across something you didn\u2019t expect, that capture our attention and make us root for the hero. <b>You write about the significance of improv. How can this improve communication between people?<\/b> The improvisation exercises we teach are all designed to bring you into better contact with the other person. It\u2019s not comedy improv. It\u2019s a series of experiences that strengthen your ability to relate. <b>What are the key takeaways from science communication that can help people live healthier lives?<\/b> I think an obvious connection is what we were talking about earlier. It feels good to relate in an open, personal way. There are many studies that suggest that living without spouses and friends can shorten your life. The more comfortably you can relate to others, the more likely you are to have those life-enhancing relationships. At least, that\u2019s how it seems to me. <b>What do you hope readers take out of your book?<\/b> I hope they carry with them the awareness that every time they try to communicate with someone, they have to put at least as much attention on what\u2019s going on in the other person\u2019s head as they do on what they have to tell them. The listener is your partner, not your target.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,21 @@
+uuid: 7b88fb73-3e24-499a-a95b-99773ad4d419
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.storage.event.field_event_date
+  module:
+    - datetime
+id: event.conference.field_event_date
+field_name: field_event_date
+entity_type: event
+bundle: conference
+label: 'Event Date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

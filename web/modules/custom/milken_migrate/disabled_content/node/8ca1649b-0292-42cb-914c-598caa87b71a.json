@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/collaborative-research-path-healthy-brains-all?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/226?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 854
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8ca1649b-0292-42cb-914c-598caa87b71a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 854
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/226?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4b1e17e0-5cee-48a1-a4d6-e239a880ddc1"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Collaborative Research: The Path to \u201cHealthy Brains for All\u201d",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-17T01:36:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:18:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/collaborative-research-path-healthy-brains-all",
+            "pid": 907,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "It\u2019s no secret that mental illness is one of the greatest challenges of our time. Physically, mentally, economically, and scientifically, the toll it takes is tremendous\u2014and it strikes every population in the world, without regard for gender, race, nationality, or creed. One in four people worldwide suffers from at least one mental health disorder, with over two-thirds of those people failing to receive the care they need. Each year, mental health conditions generate as much as $3 trillion in direct and indirect costs\u2014 and that number is projected to grow to $6 trillion by 2030. It doesn\u2019t help that many mental illnesses are still stigmatized and poorly understood. And mental health treatments are severely lacking: Research into new treatments is wildly underfunded, and existing treatments have left significant unmet need. Fortunately, there\u2019s hope. Collaborative research practices to advance treatment development and care delivery have incredible potential to advance scientific knowledge\u2014because, at the end of the day, we need answers, and we need cures. To achieve these goals, we must work together, not in silos. We already know that collaborative research works. In 1983, a study by the World Health Organization (WHO) concluded that cross-cultural collaborative research was effective in improving mental health care, particularly for those in greatest need. Collaborative research programs, wherein multiple organizations conduct research in service of a common goal, have successfully developed new treatments for depression and presented new and effective methods of care. Other, more unconventional methods of collaboration have also proven effective at driving innovative, much-needed scientific research. Public-private partnerships capitalize on the strengths of both sectors, using basic science and funding from the public sector and more in-depth research from the private sector to make scientific inroads and develop new medications and treatments. Such partnerships have enabled the National Association for Behavioral Healthcare in the US to develop new clinical measures. Public-private partnerships also work on the local level: A public-private partnership empowered the US metropolitan community of the Twin Cities, Minnesota, to improve care for people with mental illnesses, reduce the need for emergency psychiatric services, and lower overall costs related to psychiatric treatment. And the mental health community is even now working to forge ever more creative methods of collaboration and advancement. The new model of benefit corporations can turn some pharmaceutical companies into mission-driven entities, bound both by fiduciary interests and a social mission. A number of pharmaceutical companies around the globe are already using this model to develop life-changing therapeutics at accessible prices. Fortunately, the global leadership community has already taken initial steps toward engaging with the issue of mental illness. Heads of state and national leaders are recognizing the importance of mental health and calling for stronger, more urgent responses around the world; just last year, at the 2018 G7 meeting, Prime Minister of Canada Justin Trudeau and other global leaders recognized mental illness as a top priority. New science and new financing methods are being developed by a coalition of global leaders in neuroscience, finance, and policy and advocacy. With the support of the World Bank, WHO, and Organization for Economic Cooperation and Development, One Mind and the National Academy of Medicine are leading the Healthy Brains Financing Initiative with the goal of issuing a $10 billion social impact bond to fund accelerated global research on brain health. Independently-verified metrics will prove the reduction in the $3 trillion annual burden of mental illness sufficient to retire the bonds. Four separate working groups have been formed involving more than 30 participants with an initial report meeting in July 2019. This global collaboration is unprecedented in neuroscience and holds the potential of other chronic illnesses to follow this lead. As another incentive mechanism in the US, we are developing Congressional legislation seeking to provide tax credits for new neuroscience research to help \u201cde-risk\u201d research and experimentation into new treatments. This bipartisan bill is targeted to pass before year-end 2019. These many efforts to address the global mental health crisis give us hope, but there\u2019s much work yet to be done. By funding and collaborating on scientific research and policy, we can begin to move toward the eradication of mental illness and toward better lives for a global citizenry. One day, our vision of \u201chealthy brains for all\u201d will be achieved.",
+    "format": "rich_text",
+    "processed": "It\u2019s no secret that mental illness is one of the greatest challenges of our time. Physically, mentally, economically, and scientifically, the toll it takes is tremendous\u2014and it strikes every population in the world, without regard for gender, race, nationality, or creed. One in four people worldwide suffers from at least one mental health disorder, with over two-thirds of those people failing to receive the care they need. Each year, mental health conditions generate as much as $3 trillion in direct and indirect costs\u2014 and that number is projected to grow to $6 trillion by 2030. It doesn\u2019t help that many mental illnesses are still stigmatized and poorly understood. And mental health treatments are severely lacking: Research into new treatments is wildly underfunded, and existing treatments have left significant unmet need. Fortunately, there\u2019s hope. Collaborative research practices to advance treatment development and care delivery have incredible potential to advance scientific knowledge\u2014because, at the end of the day, we need answers, and we need cures. To achieve these goals, we must work together, not in silos. We already know that collaborative research works. In 1983, a study by the World Health Organization (WHO) concluded that cross-cultural collaborative research was effective in improving mental health care, particularly for those in greatest need. Collaborative research programs, wherein multiple organizations conduct research in service of a common goal, have successfully developed new treatments for depression and presented new and effective methods of care. Other, more unconventional methods of collaboration have also proven effective at driving innovative, much-needed scientific research. Public-private partnerships capitalize on the strengths of both sectors, using basic science and funding from the public sector and more in-depth research from the private sector to make scientific inroads and develop new medications and treatments. Such partnerships have enabled the National Association for Behavioral Healthcare in the US to develop new clinical measures. Public-private partnerships also work on the local level: A public-private partnership empowered the US metropolitan community of the Twin Cities, Minnesota, to improve care for people with mental illnesses, reduce the need for emergency psychiatric services, and lower overall costs related to psychiatric treatment. And the mental health community is even now working to forge ever more creative methods of collaboration and advancement. The new model of benefit corporations can turn some pharmaceutical companies into mission-driven entities, bound both by fiduciary interests and a social mission. A number of pharmaceutical companies around the globe are already using this model to develop life-changing therapeutics at accessible prices. Fortunately, the global leadership community has already taken initial steps toward engaging with the issue of mental illness. Heads of state and national leaders are recognizing the importance of mental health and calling for stronger, more urgent responses around the world; just last year, at the 2018 G7 meeting, Prime Minister of Canada Justin Trudeau and other global leaders recognized mental illness as a top priority. New science and new financing methods are being developed by a coalition of global leaders in neuroscience, finance, and policy and advocacy. With the support of the World Bank, WHO, and Organization for Economic Cooperation and Development, One Mind and the National Academy of Medicine are leading the Healthy Brains Financing Initiative with the goal of issuing a $10 billion social impact bond to fund accelerated global research on brain health. Independently-verified metrics will prove the reduction in the $3 trillion annual burden of mental illness sufficient to retire the bonds. Four separate working groups have been formed involving more than 30 participants with an initial report meeting in July 2019. This global collaboration is unprecedented in neuroscience and holds the potential of other chronic illnesses to follow this lead. As another incentive mechanism in the US, we are developing Congressional legislation seeking to provide tax credits for new neuroscience research to help \u201cde-risk\u201d research and experimentation into new treatments. This bipartisan bill is targeted to pass before year-end 2019. These many efforts to address the global mental health crisis give us hope, but there\u2019s much work yet to be done. By funding and collaborating on scientific research and policy, we can begin to move toward the eradication of mental illness and toward better lives for a global citizenry. One day, our vision of \u201chealthy brains for all\u201d will be achieved.",
+    "summary": null,
+    "summary_processed": ""
+}

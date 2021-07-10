@@ -1,0 +1,34 @@
+uuid: b29d1d1e-d5b8-4c5d-b3bc-7373104404b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hub_headers
+    - field.field.block_content.hub_headers.field_event_ref
+id: block_content.hub_headers.default
+targetEntityType: block_content
+bundle: hub_headers
+mode: default
+content:
+  field_event_ref:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/risk-reward-shifting-perspectives-benefit-retirement-saving?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/82?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 548
+        }
+    ],
+    "uuid": [
+        {
+            "value": "19616f7a-550f-4e41-9d76-60c00ecfb9d4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 548
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/82?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d5d0e5b2-089b-4207-8790-fcc82f74a896"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "From Risk to Reward: Shifting Perspectives to Benefit Retirement Saving ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T14:52:25+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T19:57:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/risk-reward-shifting-perspectives-benefit-retirement-saving",
+            "pid": 601,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Reducing financial stress for retirees involves the proactive work of all key stakeholders. <\/b><\/i> In my 35 years at our 140-year-old company, my focus has always been on helping people achieve long-term financial security, in particular, secure retirements. To me, shared prosperity means not only eliminating elderly poverty but also reducing financial stress for as many retirees as possible. I see retirement security as having two distinct phases: Accumulation\u2014where it is critical to save enough and invest appropriately for a retirement that could last longer than ones\u2019 working career De-accumulation\u2014where it is critical to invest in ways that not only address the need for a lifetime of income but also address issues such as inflation and market volatility While different countries offer various combinations of government safety nets, mandatory and voluntary workplace savings, and individual savings vehicles, the importance of self-reliance has only been reinforced over the course of my career. Clearly, the responsibility for decision-making and funding financial security continues to shift from governments and employers to individuals. This has become even more challenging as demographic trends have resulted in fewer workers per retiree. It is compounded by longer life expectancies, a low-interest rate environment, and the large informal workforce around the world. We often hear about people\u2019s inability to save. Yet I would argue for many it has more to do with spending habits. Immediate gratification tends to rule the day. Delayed gratification is difficult to instill in a household, let alone across society. It demands focus, discipline, and hard work. I think the answer is in creating a retirement ecosystem in which key stakeholders come together to help create adequate income in retirement without putting an undue burden on future generations of workers. These are the key stakeholders and what I see as their most important roles: <b>Workers<\/b>: Workers need to curb their passion for spending and develop a passion for saving. Attention to personal health is critical in order to lower what can be a significant expense in retirement\u2014out-of-pocket health-care costs. <b>Employers<\/b>: Employers need to perceive the investment in employees\u2019 financial well-being as an investment in productivity. In addition to offering retirement savings options, employers should provide access to tools and guidance and encourage savings through matching contributions. <b>Advisors<\/b>: Advisors should be there to help people sort out competing demands on limited financial resources. They should advocate for savings rates that can create adequate income in retirement, as well as help guide retirement income planning. <b>Retirement plan service providers<\/b>: Providers should create programs that encourage better savings behaviors. This includes streamlining enrollment, improving plan design (and the use of automatic enrollment and automatic savings increases), and better tools and guidance. <b>Investment managers<\/b>: Investment managers must help people create resilient investment portfolios. This means outcome-oriented products that address four key risks: inflation, market volatility, income, and longevity. <b>Policymakers<\/b>: Policymakers should encourage businesses, particularly small and medium-sized businesses, to create retirement plans. Policymakers, along with other stakeholders, should be championing financial literacy, and they should make sure that rules governing financial advice do not have the unintended consequence of making it harder for people to access guidance. By 2050, we could face a global pension shortfall of about $400 trillion. That number is daunting, but not dire if we prioritize savings. Workers and governments alike also benefit from a growing middle class. More than half the world\u2019s population already is or soon will be considered middle class. This widely shared economic progress is one antidote to the demographics of global aging. Basic math compels us: The average American worker, for example, would need to save approximately 15 percent of his or her annual paycheck to replace 85 percent of income in retirement starting at age 65. Those who save early benefit from the power of compounding. None of this is going to be easy, but we need to embrace what\u2019s already working. We\u2019ve built strong foundations and have seen some meaningful successes. We also need to shift the focus from the risks to the reward and appreciate how overall society will benefit from financially secure retirees.",
+    "format": "rich_text",
+    "processed": "<i><b>Reducing financial stress for retirees involves the proactive work of all key stakeholders. <\/b><\/i> In my 35 years at our 140-year-old company, my focus has always been on helping people achieve long-term financial security, in particular, secure retirements. To me, shared prosperity means not only eliminating elderly poverty but also reducing financial stress for as many retirees as possible. I see retirement security as having two distinct phases: Accumulation\u2014where it is critical to save enough and invest appropriately for a retirement that could last longer than ones\u2019 working career De-accumulation\u2014where it is critical to invest in ways that not only address the need for a lifetime of income but also address issues such as inflation and market volatility While different countries offer various combinations of government safety nets, mandatory and voluntary workplace savings, and individual savings vehicles, the importance of self-reliance has only been reinforced over the course of my career. Clearly, the responsibility for decision-making and funding financial security continues to shift from governments and employers to individuals. This has become even more challenging as demographic trends have resulted in fewer workers per retiree. It is compounded by longer life expectancies, a low-interest rate environment, and the large informal workforce around the world. We often hear about people\u2019s inability to save. Yet I would argue for many it has more to do with spending habits. Immediate gratification tends to rule the day. Delayed gratification is difficult to instill in a household, let alone across society. It demands focus, discipline, and hard work. I think the answer is in creating a retirement ecosystem in which key stakeholders come together to help create adequate income in retirement without putting an undue burden on future generations of workers. These are the key stakeholders and what I see as their most important roles: <b>Workers<\/b>: Workers need to curb their passion for spending and develop a passion for saving. Attention to personal health is critical in order to lower what can be a significant expense in retirement\u2014out-of-pocket health-care costs. <b>Employers<\/b>: Employers need to perceive the investment in employees\u2019 financial well-being as an investment in productivity. In addition to offering retirement savings options, employers should provide access to tools and guidance and encourage savings through matching contributions. <b>Advisors<\/b>: Advisors should be there to help people sort out competing demands on limited financial resources. They should advocate for savings rates that can create adequate income in retirement, as well as help guide retirement income planning. <b>Retirement plan service providers<\/b>: Providers should create programs that encourage better savings behaviors. This includes streamlining enrollment, improving plan design (and the use of automatic enrollment and automatic savings increases), and better tools and guidance. <b>Investment managers<\/b>: Investment managers must help people create resilient investment portfolios. This means outcome-oriented products that address four key risks: inflation, market volatility, income, and longevity. <b>Policymakers<\/b>: Policymakers should encourage businesses, particularly small and medium-sized businesses, to create retirement plans. Policymakers, along with other stakeholders, should be championing financial literacy, and they should make sure that rules governing financial advice do not have the unintended consequence of making it harder for people to access guidance. By 2050, we could face a global pension shortfall of about $400 trillion. That number is daunting, but not dire if we prioritize savings. Workers and governments alike also benefit from a growing middle class. More than half the world\u2019s population already is or soon will be considered middle class. This widely shared economic progress is one antidote to the demographics of global aging. Basic math compels us: The average American worker, for example, would need to save approximately 15 percent of his or her annual paycheck to replace 85 percent of income in retirement starting at age 65. Those who save early benefit from the power of compounding. None of this is going to be easy, but we need to embrace what\u2019s already working. We\u2019ve built strong foundations and have seen some meaningful successes. We also need to shift the focus from the risks to the reward and appreciate how overall society will benefit from financially secure retirees.",
+    "summary": null,
+    "summary_processed": ""
+}

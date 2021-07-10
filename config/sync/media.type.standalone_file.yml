@@ -1,0 +1,14 @@
+uuid: cae14650-5d0e-4037-90ab-eb964b730ef7
+langcode: en
+status: true
+dependencies: {  }
+id: standalone_file
+label: 'Standalone File'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name

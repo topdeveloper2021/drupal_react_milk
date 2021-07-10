@@ -1,0 +1,20 @@
+uuid: a1816d5a-05e9-4160-a854-282053f22183
+langcode: en
+status: true
+dependencies:
+  theme:
+    - milken_admin
+_core:
+  default_config_hash: PffmQ-ABSz5tFjWmVsR7NesunDnEivvopnJnBjl8KNE
+id: milken_admin_local_actions
+theme: milken_admin
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

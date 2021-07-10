@@ -1,0 +1,23 @@
+uuid: ff3920ea-7ab9-4af5-a8c5-b734378b1edc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_visibility
+    - taxonomy.vocabulary.ph_terms
+id: taxonomy_term.ph_terms.field_visibility
+field_name: field_visibility
+entity_type: taxonomy_term
+bundle: ph_terms
+label: Visibility
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Visible
+  off_label: Hidden
+field_type: boolean

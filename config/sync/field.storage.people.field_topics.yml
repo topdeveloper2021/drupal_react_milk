@@ -1,0 +1,20 @@
+uuid: 0ec8fb13-56f3-41a5-8840-a9c689055ebf
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - taxonomy
+id: people.field_topics
+field_name: field_topics
+entity_type: people
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 61337e35-90ef-45fc-a754-38e28ea0f79b
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_middle_name
+id: people.person.field_middle_name
+field_name: field_middle_name
+entity_type: people
+bundle: person
+label: 'Middle Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,19 @@
+uuid: 5abb6a42-a64a-4b77-83f7-4a4eabe7e153
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_spideremaildate
+id: grid_speakers.speakers.field_spideremaildate
+field_name: field_spideremaildate
+entity_type: grid_speakers
+bundle: speakers
+label: spideremaildate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

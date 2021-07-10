@@ -1,0 +1,23 @@
+uuid: 0d1adf30-76e2-4583-a365-04f6ba24576b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_index_weight
+    - media.type.podcast_episode
+  module:
+    - options
+id: media.podcast_episode.field_index_weight
+field_name: field_index_weight
+entity_type: media
+bundle: podcast_episode
+label: 'Index Weight'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

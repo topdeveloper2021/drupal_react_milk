@@ -1,0 +1,20 @@
+uuid: 127425b0-b364-4686-b9ec-3ae22f40efc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - entityqueue
+id: entity_subqueue.field_missing_migrations
+field_name: field_missing_migrations
+entity_type: entity_subqueue
+type: entity_reference
+settings:
+  target_type: missing_migration
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

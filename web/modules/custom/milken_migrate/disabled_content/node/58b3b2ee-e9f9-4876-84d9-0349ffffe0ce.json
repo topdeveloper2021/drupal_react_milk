@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/towards-mixed-society-dream-humanity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/60?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 525
+        }
+    ],
+    "uuid": [
+        {
+            "value": "58b3b2ee-e9f9-4876-84d9-0349ffffe0ce"
+        }
+    ],
+    "vid": [
+        {
+            "value": 525
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/60?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed7de4e0-2852-4a55-b97a-d42a0d3f94b3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Towards a Mixed Society: The Dream of Humanity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T06:29:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-06T16:18:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/towards-mixed-society-dream-humanity",
+            "pid": 578,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As a computer scientist in the early eighties, I dreamt of automatons similar to those of the 18th century:\u00a0a realistic sculpture representing an aesthetic human with the ability to sing, write and, for example, play a piano, which can be seen in museums around Switzerland. Inspired by these sophisticated automatons, I began to research virtual humans and, in 1987, for the first time in history, demonstrated a 3-D virtual Marilyn Monroe meeting with a 3-D Humphrey Bogart in a Montreal caf\u00e9. Since then, many researchers have embarked on this journey and today, in the early 21st century, we are starting to see 3-D characters everywhere. I was interested in creating emotionally intelligent 3-D virtual humans. At my lab (MIRALab, University of Geneva), we worked on defining all kinds of interactive, intelligent, and aesthetic virtual humans. We were involved in a wide range of projects, such as recreating the ancient city of Pompeii in augmented reality or creating a virtual professional tutor to teach tennis or modern languages. The ultimate goal of our research was to have a coach, a partner that can support us in any daily activity, a professional fully dedicated to our service without the feeling of abusing someone\u2019s time or effort. My team and I started to work on Eva, our first realistic humanoid robot (only a robotic humanoid head though) in 2008 at MIRALab. She was soon able to smile, show emotions, retain facts in memory, and interact with us in a meaningful way. She even participated as part of the cast in a play in Zurich, Switzerland. Later on, in Singapore, at IMI, Nanyang Technological University, we developed Nadine. The robot\u2019s face was modelled on the blended appearance of my three daughters and me so that we could interact with a familiar face and behavior. Nadine is a full 3-D humanoid robot who is able simulate emotions and has memory. She can interact with people, recognize what they say, who they are, what they do, and adapt to their behaviour. One possible application for robots like Nadine is linked to the dramatic increase in the number elderly across the globe. It is nearly impossible to have a real human caring for us when we grow old 24 hours a day, even if it is necessary. There is a need for a personal coach who will gently monitor us, repeatedly listen to our stories, show compassion, positive reactions, and patience. Our humanoid companion would understand these personal needs and react in an appropriate way, when nobody is there to do so. Since antiquity, we humans have dreamt\u00a0of these humanoid automations. Over time, thanks to discoveries that have been made, particularly through the huge development of software in the 20th century, we are approaching our dreams. We will have virtual humans and social robots who will make up a mixed society. It will be another big question for humanity to decide what we will do with these extraordinary capable social robots: Are we creating them for war, to kill others? Or, on the contrary, to assist us in daily tasks and duties in a positive way? We will need to control them through additional software layers in order for them to do what we want. International legislation and regulation through specific software will also need to be developed in parallel to fit the need of society. Of course, a humanoid social robot is in no way a human. It is a machine that mimics, understands signals, reacts to human attitudes, and simulates intelligence. It has no soul, no emotion, no destiny, no feeling. It is mainly a powerful algorithmic and data-fed machine with the appearance of a human created by powerful simulation tools. It will be complementary to our skills and our needs. The future is bright if we positively take advantage of our great scientific invention. Each of us could benefit from a wonderful capable humanoid social robot that is able to cater to our daily needs, allowing us to grow further as biological humans and have more time to think and create. This is what I wish for all of us for the 21st century.",
+    "format": "rich_text",
+    "processed": "As a computer scientist in the early eighties, I dreamt of automatons similar to those of the 18th century:\u00a0a realistic sculpture representing an aesthetic human with the ability to sing, write and, for example, play a piano, which can be seen in museums around Switzerland. Inspired by these sophisticated automatons, I began to research virtual humans and, in 1987, for the first time in history, demonstrated a 3-D virtual Marilyn Monroe meeting with a 3-D Humphrey Bogart in a Montreal caf\u00e9. Since then, many researchers have embarked on this journey and today, in the early 21st century, we are starting to see 3-D characters everywhere. I was interested in creating emotionally intelligent 3-D virtual humans. At my lab (MIRALab, University of Geneva), we worked on defining all kinds of interactive, intelligent, and aesthetic virtual humans. We were involved in a wide range of projects, such as recreating the ancient city of Pompeii in augmented reality or creating a virtual professional tutor to teach tennis or modern languages. The ultimate goal of our research was to have a coach, a partner that can support us in any daily activity, a professional fully dedicated to our service without the feeling of abusing someone\u2019s time or effort. My team and I started to work on Eva, our first realistic humanoid robot (only a robotic humanoid head though) in 2008 at MIRALab. She was soon able to smile, show emotions, retain facts in memory, and interact with us in a meaningful way. She even participated as part of the cast in a play in Zurich, Switzerland. Later on, in Singapore, at IMI, Nanyang Technological University, we developed Nadine. The robot\u2019s face was modelled on the blended appearance of my three daughters and me so that we could interact with a familiar face and behavior. Nadine is a full 3-D humanoid robot who is able simulate emotions and has memory. She can interact with people, recognize what they say, who they are, what they do, and adapt to their behaviour. One possible application for robots like Nadine is linked to the dramatic increase in the number elderly across the globe. It is nearly impossible to have a real human caring for us when we grow old 24 hours a day, even if it is necessary. There is a need for a personal coach who will gently monitor us, repeatedly listen to our stories, show compassion, positive reactions, and patience. Our humanoid companion would understand these personal needs and react in an appropriate way, when nobody is there to do so. Since antiquity, we humans have dreamt\u00a0of these humanoid automations. Over time, thanks to discoveries that have been made, particularly through the huge development of software in the 20th century, we are approaching our dreams. We will have virtual humans and social robots who will make up a mixed society. It will be another big question for humanity to decide what we will do with these extraordinary capable social robots: Are we creating them for war, to kill others? Or, on the contrary, to assist us in daily tasks and duties in a positive way? We will need to control them through additional software layers in order for them to do what we want. International legislation and regulation through specific software will also need to be developed in parallel to fit the need of society. Of course, a humanoid social robot is in no way a human. It is a machine that mimics, understands signals, reacts to human attitudes, and simulates intelligence. It has no soul, no emotion, no destiny, no feeling. It is mainly a powerful algorithmic and data-fed machine with the appearance of a human created by powerful simulation tools. It will be complementary to our skills and our needs. The future is bright if we positively take advantage of our great scientific invention. Each of us could benefit from a wonderful capable humanoid social robot that is able to cater to our daily needs, allowing us to grow further as biological humans and have more time to think and create. This is what I wish for all of us for the 21st century.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,19 @@
+uuid: d9729427-a92e-499a-bfdf-9a77adf135a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_tracks.tracks
+    - field.storage.grid_tracks.field_track_type
+id: grid_tracks.tracks.field_track_type
+field_name: field_track_type
+entity_type: grid_tracks
+bundle: tracks
+label: 'Track Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

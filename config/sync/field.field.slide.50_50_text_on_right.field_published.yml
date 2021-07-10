@@ -1,0 +1,23 @@
+uuid: b5e17712-dc73-470a-a490-df886d7220d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.50_50_text_on_right
+    - field.storage.slide.field_published
+id: slide.50_50_text_on_right.field_published
+field_name: field_published
+entity_type: slide
+bundle: 50_50_text_on_right
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

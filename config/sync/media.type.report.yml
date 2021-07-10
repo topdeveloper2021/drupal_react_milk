@@ -1,0 +1,21 @@
+uuid: ff145712-428b-472b-9135-4c68e7949f8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+third_party_settings:
+  crop:
+    image_field: field_cover
+id: report
+label: Report
+description: 'Document, document preview, and paragraphs field to show published research papers.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name
+  mimetype: field_filemime
+  filesize: field_filesize

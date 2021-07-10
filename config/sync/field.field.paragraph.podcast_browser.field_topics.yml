@@ -1,0 +1,33 @@
+uuid: 8ef9b055-986e-49e5-9605-b28f7e627b93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_topics
+    - paragraphs.paragraphs_type.podcast_browser
+    - taxonomy.vocabulary.topics
+  content:
+    - 'taxonomy_term:topics:74573486-a08f-48b7-902e-13d0bff9f690'
+id: paragraph.podcast_browser.field_topics
+field_name: field_topics
+entity_type: paragraph
+bundle: podcast_browser
+label: Topics
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: 74573486-a08f-48b7-902e-13d0bff9f690
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,33 @@
+name: 'Main Navigation'
+machine_name: main-navigation
+description: 'Main Navigation Webcomponent Entry file'
+type: block
+core_version_requirement:  ^8 || ^9
+js:
+  'main-navigation.entry.js': { source: 'main-navigation.entry.ts' }
+cache:
+  max-age: 60
+
+
+form_configuration:
+  id:
+    type: textfield
+    title: "Id"
+  type:
+    type: textfield
+    title: "Type"
+  view_mode:
+    type: textfield
+    title: "View Mode"
+    default_value: "card"
+  url:
+    type: textfield
+    title: "Url"
+  tag:
+    type: textfield
+    title: "html tag"
+    default_value: "main-navigation"
+  attach_library:
+    type: textfield
+    title: "Attach Library"
+    default_value: "milken_base/main_navigation"

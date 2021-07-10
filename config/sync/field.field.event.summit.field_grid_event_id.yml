@@ -1,0 +1,19 @@
+uuid: 5311aa61-a9bf-47ab-974c-3f55eac95560
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_grid_event_id
+id: event.summit.field_grid_event_id
+field_name: field_grid_event_id
+entity_type: event
+bundle: summit
+label: 'GRID event id'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,17 @@
+{{ attach_library('milken_base/ArticleDetail') }}
+
+<article-detail
+    {{ attributes }}
+    id="milken-node-detail"
+    data-id="{{ node.uuid.value }}"
+    data-type="node--{{node.bundle}}"
+    data-uuid="{{ node.uuid.value }}"
+    data-drupal-internal-nid="{{ node.id }}"
+    data-entity-type-id="node"
+    data-bundle="{{ node.bundle }}"
+    data-view-mode="{{ view_mode }}"
+    data-can-edit="{{ user.hasPermission('edit-any-article-content') }}"
+></article-detail>
+
+
+

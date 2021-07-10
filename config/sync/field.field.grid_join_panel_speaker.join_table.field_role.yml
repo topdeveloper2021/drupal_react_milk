@@ -1,0 +1,19 @@
+uuid: 7cfe51e0-4f51-4c90-85d4-3e7817d57377
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - field.storage.grid_join_panel_speaker.field_role
+id: grid_join_panel_speaker.join_table.field_role
+field_name: field_role
+entity_type: grid_join_panel_speaker
+bundle: join_table
+label: Role
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

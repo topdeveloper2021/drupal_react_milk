@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/latest-milken-institute-review-president-obamas-chief-economic-adviser-challenges-thomas?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 60
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9613408a-03fb-4ecd-8a07-bc711c56c5b3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 60
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In the latest Milken Institute Review: President Obama\u2019s chief economic adviser challenges Thomas Piketty\u2019s pessimism",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-10-16T18:10:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/latest-milken-institute-review-president-obamas-chief-economic-adviser-challenges-thomas",
+            "pid": 113,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 <b>Jason Furman<\/b>, chairman of President Obama\u2019s Council of Economic Advisers documents the alarming stagnation of middle-class incomes, but contends that the growing fissure between the rich and everyone else need not be accepted as the price of the free market system. \u201cModern economics has long been in the thrall of the view that virtually any interference with free market incentives with the goal of a more progressive distribution of income would exact a price in economic efficiency,\u201d he writes in \u201cInclusive Growth: For once, some good news.\u201d In fact, \u201cthere is just no compelling reason to believe well-designed policies to narrow this widening gap would meaningfully reduce growth, and every reason to believe they could provide a meaningful boost to working families.\u201d Download the Milken Institute Review at no charge here: http:\/\/www.milkeninstitute.org\/publications\/view\/664.Also in this issue:<b>Dani Rodrik<\/b>, an economist at the Institute for Advanced Study in Princeton, offers a reality check on the new optimism about Africa\u2019s economic prospects. \u201cWhile the region\u2019s fundamentals have improved, the payoffs to macroeconomic stability and improved governance are mainly to foster resilience and to lay the groundwork for growth, rather than to ignite and sustain it,\u201d he warns. \u201cThe traditional engines behind rapid growth and convergence \u2013 structural change and industrialization \u2013 are operating at less than full power.\u201d\u201cOptimists can make a case that the safety net works \u2013 that tens of millions of Americans who suffered during the recession were buffered against the worst of it,\u201d writes <b>Robert Moffitt<\/b>, an economist at Johns Hopkins University. \u201cBut there is also a case to be made that this glass is half empty: Washington has no plans for helping those permanently injured by this recession, the millions of long-term unemployed who are not likely to work again either because their skills are marginal or their r\u00e9sum\u00e9s have been tainted by years of joblessness.\u201dState franchise laws have long served to protect established businesses from the winds of change, concludes <b>Larry Fisher<\/b>, a former New York Times reporter. \u201cBut this sleeping dog may not snooze indefinitely,\u201d he writes. \u201cA light has been shown on these hitherto obscure laws, thanks in part to Tesla Motors\u2019 high-profile effort to sell its electric cars through company-owned stores -- much as Apple sells iMacs and iPhones.\u201dPuerto Rico\u2019s economy is poised on the edge of the abyss, warns <b>Bob Looney<\/b>, an economist at the Naval Postgraduate School in California. \u201cWith the public utilities immobilized by debt and island businesses forced to pay wages unjustified by productivity gains, there is little hope that operating costs can be controlled,\u201d Looney writes. \u201cThere is, however, a modest source of hope in the form of business-friendly local government initiatives and the commonwealth\u2019s remaining tax advantages.\u201dCars that drive themselves are poised to disrupt business as usual, acknowledges <b>Rob Atkinson<\/b>, the president of the Information Technology and Innovation Foundation. But \u201cthe direct productivity gains are likely to be modest,\u201d he writes. \u201cThe bulk of the gains will come from reducing the costs associated with accidents and traffic congestion.\u201dGenetically engineered crops may spook the technophobic, writes <b>Jayson Lusk<\/b>, an economist at Oklahoma State University. \u201cBut given the confluence of tightening water supplies, climate change, rising demand for meat in emerging-market countries like India and China, and a growing world population, genetic engineering will be necessary if we are to feed future generations at reasonable cost.\u201dSouth Korea\u2019s quirky Jeonse system for financing housing served as a secret weapon in that country\u2019s dramatic rise to prosperity, writes <b>Matt Phillips<\/b>, a former reporter for the Wall Street Journal. But as Korea faces the stresses of affluence \u201cthe dynamic has changed,\u201d he explains, undermining households\u2019 incentives to save and putting the economy in peril of a major housing bust.Find the latest Milken Institute Review here: http:\/\/www.milkeninstitute.org\/publications\/view\/664.It\u2019s also available in iTunes: https:\/\/itunes.apple.com\/us\/app\/milken-institute-review\/id497370209?mt=8 ",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 <b>Jason Furman<\/b>, chairman of President Obama\u2019s Council of Economic Advisers documents the alarming stagnation of middle-class incomes, but contends that the growing fissure between the rich and everyone else need not be accepted as the price of the free market system. \u201cModern economics has long been in the thrall of the view that virtually any interference with free market incentives with the goal of a more progressive distribution of income would exact a price in economic efficiency,\u201d he writes in \u201cInclusive Growth: For once, some good news.\u201d In fact, \u201cthere is just no compelling reason to believe well-designed policies to narrow this widening gap would meaningfully reduce growth, and every reason to believe they could provide a meaningful boost to working families.\u201d Download the Milken Institute Review at no charge here: http:\/\/www.milkeninstitute.org\/publications\/view\/664.Also in this issue:<b>Dani Rodrik<\/b>, an economist at the Institute for Advanced Study in Princeton, offers a reality check on the new optimism about Africa\u2019s economic prospects. \u201cWhile the region\u2019s fundamentals have improved, the payoffs to macroeconomic stability and improved governance are mainly to foster resilience and to lay the groundwork for growth, rather than to ignite and sustain it,\u201d he warns. \u201cThe traditional engines behind rapid growth and convergence \u2013 structural change and industrialization \u2013 are operating at less than full power.\u201d\u201cOptimists can make a case that the safety net works \u2013 that tens of millions of Americans who suffered during the recession were buffered against the worst of it,\u201d writes <b>Robert Moffitt<\/b>, an economist at Johns Hopkins University. \u201cBut there is also a case to be made that this glass is half empty: Washington has no plans for helping those permanently injured by this recession, the millions of long-term unemployed who are not likely to work again either because their skills are marginal or their r\u00e9sum\u00e9s have been tainted by years of joblessness.\u201dState franchise laws have long served to protect established businesses from the winds of change, concludes <b>Larry Fisher<\/b>, a former New York Times reporter. \u201cBut this sleeping dog may not snooze indefinitely,\u201d he writes. \u201cA light has been shown on these hitherto obscure laws, thanks in part to Tesla Motors\u2019 high-profile effort to sell its electric cars through company-owned stores -- much as Apple sells iMacs and iPhones.\u201dPuerto Rico\u2019s economy is poised on the edge of the abyss, warns <b>Bob Looney<\/b>, an economist at the Naval Postgraduate School in California. \u201cWith the public utilities immobilized by debt and island businesses forced to pay wages unjustified by productivity gains, there is little hope that operating costs can be controlled,\u201d Looney writes. \u201cThere is, however, a modest source of hope in the form of business-friendly local government initiatives and the commonwealth\u2019s remaining tax advantages.\u201dCars that drive themselves are poised to disrupt business as usual, acknowledges <b>Rob Atkinson<\/b>, the president of the Information Technology and Innovation Foundation. But \u201cthe direct productivity gains are likely to be modest,\u201d he writes. \u201cThe bulk of the gains will come from reducing the costs associated with accidents and traffic congestion.\u201dGenetically engineered crops may spook the technophobic, writes <b>Jayson Lusk<\/b>, an economist at Oklahoma State University. \u201cBut given the confluence of tightening water supplies, climate change, rising demand for meat in emerging-market countries like India and China, and a growing world population, genetic engineering will be necessary if we are to feed future generations at reasonable cost.\u201dSouth Korea\u2019s quirky Jeonse system for financing housing served as a secret weapon in that country\u2019s dramatic rise to prosperity, writes <b>Matt Phillips<\/b>, a former reporter for the Wall Street Journal. But as Korea faces the stresses of affluence \u201cthe dynamic has changed,\u201d he explains, undermining households\u2019 incentives to save and putting the economy in peril of a major housing bust.Find the latest Milken Institute Review here: http:\/\/www.milkeninstitute.org\/publications\/view\/664.It\u2019s also available in iTunes: https:\/\/itunes.apple.com\/us\/app\/milken-institute-review\/id497370209?mt=8 ",
+    "summary": null,
+    "summary_processed": ""
+}

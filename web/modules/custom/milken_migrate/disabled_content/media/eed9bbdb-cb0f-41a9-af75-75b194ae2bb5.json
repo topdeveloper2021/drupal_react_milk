@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7178\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Dxm4bgIm3nvt6pUocO9LKjnkiNfUY66TXEm82F1YD6M.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7178
+        }
+    ],
+    "uuid": [
+        {
+            "value": "eed9bbdb-cb0f-41a9-af75-75b194ae2bb5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1614
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/Dxm4bgIm3nvt6pUocO9LKjnkiNfUY66TXEm82F1YD6M.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e88d5c19-5a41-4f47-bc5e-009cd463d12c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Cryptocurrencies: Irrational Exuberance or Brave New World?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-05-15T14:19:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T14:27:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "After peaking near $20,000 at the end of December 2017, Bitcoin's price collapsed by more than 50 percent at the start of 2018. Other cryptocurrencies have experienced similar volatility, and the share prices of certain publicly traded firms have shot through the roof at the mere mention of \"blockchain.\" Similarly, the initial coin offering market surpassed $5 billion dollars in 2017\u2014a 2,200 percent increase from 2016. Are these the signs of a bubble ready to burst, or are we witnessing a paradigm shift in how companies raise capital? What are the most interesting things happening in the cryptocurrency space, and where are the true investment opportunities? We will consider these questions and determine where the ecosystem has matured and where it needs support, in terms of market infrastructure and policy.",
+    "format": "rich_text",
+    "processed": "After peaking near $20,000 at the end of December 2017, Bitcoin's price collapsed by more than 50 percent at the start of 2018. Other cryptocurrencies have experienced similar volatility, and the share prices of certain publicly traded firms have shot through the roof at the mere mention of \"blockchain.\" Similarly, the initial coin offering market surpassed $5 billion dollars in 2017\u2014a 2,200 percent increase from 2016. Are these the signs of a bubble ready to burst, or are we witnessing a paradigm shift in how companies raise capital? What are the most interesting things happening in the cryptocurrency space, and where are the true investment opportunities? We will consider these questions and determine where the ecosystem has matured and where it needs support, in terms of market infrastructure and policy.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/MMZGQSWD4tU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/Dxm4bgIm3nvt6pUocO9LKjnkiNfUY66TXEm82F1YD6M.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

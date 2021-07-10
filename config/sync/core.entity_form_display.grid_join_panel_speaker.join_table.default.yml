@@ -1,0 +1,96 @@
+uuid: e162490d-5935-4ab3-984e-0f0a90f9b7c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_join_panel_speaker.join_table
+    - field.field.grid_join_panel_speaker.join_table.field_event
+    - field.field.grid_join_panel_speaker.join_table.field_panel
+    - field.field.grid_join_panel_speaker.join_table.field_panel_id
+    - field.field.grid_join_panel_speaker.join_table.field_panel_speaker_id
+    - field.field.grid_join_panel_speaker.join_table.field_role
+    - field.field.grid_join_panel_speaker.join_table.field_speaker
+    - field.field.grid_join_panel_speaker.join_table.field_speaker_id
+id: grid_join_panel_speaker.join_table.default
+targetEntityType: grid_join_panel_speaker
+bundle: join_table
+mode: default
+content:
+  field_event:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_panel:
+    weight: 4
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_panel_id:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_panel_speaker_id:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_role:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_speaker:
+    weight: 7
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_speaker_id:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

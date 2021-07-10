@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/latest-milken-institute-review-brad-delong-former-clinton-administration-economist?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 41
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9663dd9d-e4b2-47f3-be14-b17901ab890a"
+        }
+    ],
+    "vid": [
+        {
+            "value": 41
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "In the latest Milken Institute Review:  Brad DeLong, a Former Clinton Administration Economist, Challenges the Conventional Wisdom That the Rich Market Economies Can Thrive Without Aggressive Government Intervention",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-10-16T10:58:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/latest-milken-institute-review-brad-delong-former-clinton-administration-economist",
+            "pid": 94,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 <b>Brad DeLong,<\/b> of the University of California, Berkeley, offers an analysis of Former Treasury Secretary Larry Summers\u2019 controversial claim that the United States and Europe face a bleak economic future unless government provides an ongoing boost. \u201cThe debate over secular stagnation is, I believe, the most important policy-relevant debate in economics since John Maynard Keynes\u2019s debate with himself in the 1930s, which transformed him from a monetarist to the apostle of active fiscal policy,\u201d DeLong writes.Also in this issue:<b>Staci Warden,<\/b> of the Milken Institute, concurs with the mainstream view that \u201cBitcoin\u2019s core value proposition as a substitute for regular currencies is, frankly, questionable.\u201d On the other hand, the underlying technology threatens to disrupt the huge financial services industry \u2013 and save investors and consumers hundreds of billions.<b>Barry Eichengreen,<\/b> another economist at Berkeley, steps back from the speculation about the prospects for the Chinese renminbi as a global currency to ask why it matters. \u201cThe big question \u2013 well, really, questions \u2013 are what the Chinese government is prepared to do to make the RMB a true world currency that can readily serve as a substitute for dollars in international transactions, why the slew of reforms that must precede full internationalization are probably more important to China at home than abroad, and how internationalization will affect global financial markets now largely tied to the dollar (and to its regulators in Washington).\u201d<b>Charles Castaldi,<\/b> a former NPR journalist, takes a trip back to his native Italy to assay the country\u2019s prospects in the midst of Europe\u2019s financial agonies. \u201cItalians certainly don\u2019t lack survival skills,\u201d he explains, \u201csurviving in style is a well-honed tradition. The problem is that Italy\u2019s success depends in large part on the kindness \u2013 or at least the exercise of enlightened self-interest \u2013 on the part of northern Europeans.\u201d<b>William Gale, Aaron Krupkin and Kim Rueben<\/b> of the Brookings-Urban Institute Tax Policy Center in Washington examine state governments\u2019 obsession with supply-side tax policy. \u201cThe states have no good reasons to believe that tax cuts will bring the desired manna,\u201d the economists conclude. \u201cYet they continue to erode their tax bases in the name of business growth in an era in which few states can afford to cut critical services (that businesses care about) ranging from education to infrastructure repair.\u201d<b>Alvin Roth,<\/b> a Nobel economist who is the author of the new book, Who Gets What \u2013 and Why, explores \u201cmatching markets,\u201d in which price alone can\u2019t balance supply and demand \u2013 think of markets for everything from marriage to college admissions to donated kidneys. \u201cPart of making a market \u2018thick\u2019 involves finding a time at which lots of people will participate at the same time. But gaming the system when the system is \u2018first come, first served\u2019 can mean contriving to be earlier than your competitors. That\u2019s why, for example, the recruitment of college freshmen to join fraternities and sororities is called rush\u2026 and the reason that Oklahomans are called Sooners.\u201d<b>Thomas Krause,<\/b> a consultant on workplace safety, argues that the first step in reducing unnecessary hospital deaths is to measure the horrific toll accurately. \u201cThe sheer size, degree of interest-group conflict and decentralization of the health care establishment make virtually any change exceptionally difficult,\u201d he acknowledges. \u201cBut, by the same token, the potential rewards have never been greater.\u201dFind the latest Milken Institute Review here: <b>http:\/\/www.milkeninstitute.org\/publications\/view\/742<\/b>",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 <b>Brad DeLong,<\/b> of the University of California, Berkeley, offers an analysis of Former Treasury Secretary Larry Summers\u2019 controversial claim that the United States and Europe face a bleak economic future unless government provides an ongoing boost. \u201cThe debate over secular stagnation is, I believe, the most important policy-relevant debate in economics since John Maynard Keynes\u2019s debate with himself in the 1930s, which transformed him from a monetarist to the apostle of active fiscal policy,\u201d DeLong writes.Also in this issue:<b>Staci Warden,<\/b> of the Milken Institute, concurs with the mainstream view that \u201cBitcoin\u2019s core value proposition as a substitute for regular currencies is, frankly, questionable.\u201d On the other hand, the underlying technology threatens to disrupt the huge financial services industry \u2013 and save investors and consumers hundreds of billions.<b>Barry Eichengreen,<\/b> another economist at Berkeley, steps back from the speculation about the prospects for the Chinese renminbi as a global currency to ask why it matters. \u201cThe big question \u2013 well, really, questions \u2013 are what the Chinese government is prepared to do to make the RMB a true world currency that can readily serve as a substitute for dollars in international transactions, why the slew of reforms that must precede full internationalization are probably more important to China at home than abroad, and how internationalization will affect global financial markets now largely tied to the dollar (and to its regulators in Washington).\u201d<b>Charles Castaldi,<\/b> a former NPR journalist, takes a trip back to his native Italy to assay the country\u2019s prospects in the midst of Europe\u2019s financial agonies. \u201cItalians certainly don\u2019t lack survival skills,\u201d he explains, \u201csurviving in style is a well-honed tradition. The problem is that Italy\u2019s success depends in large part on the kindness \u2013 or at least the exercise of enlightened self-interest \u2013 on the part of northern Europeans.\u201d<b>William Gale, Aaron Krupkin and Kim Rueben<\/b> of the Brookings-Urban Institute Tax Policy Center in Washington examine state governments\u2019 obsession with supply-side tax policy. \u201cThe states have no good reasons to believe that tax cuts will bring the desired manna,\u201d the economists conclude. \u201cYet they continue to erode their tax bases in the name of business growth in an era in which few states can afford to cut critical services (that businesses care about) ranging from education to infrastructure repair.\u201d<b>Alvin Roth,<\/b> a Nobel economist who is the author of the new book, Who Gets What \u2013 and Why, explores \u201cmatching markets,\u201d in which price alone can\u2019t balance supply and demand \u2013 think of markets for everything from marriage to college admissions to donated kidneys. \u201cPart of making a market \u2018thick\u2019 involves finding a time at which lots of people will participate at the same time. But gaming the system when the system is \u2018first come, first served\u2019 can mean contriving to be earlier than your competitors. That\u2019s why, for example, the recruitment of college freshmen to join fraternities and sororities is called rush\u2026 and the reason that Oklahomans are called Sooners.\u201d<b>Thomas Krause,<\/b> a consultant on workplace safety, argues that the first step in reducing unnecessary hospital deaths is to measure the horrific toll accurately. \u201cThe sheer size, degree of interest-group conflict and decentralization of the health care establishment make virtually any change exceptionally difficult,\u201d he acknowledges. \u201cBut, by the same token, the potential rewards have never been greater.\u201dFind the latest Milken Institute Review here: <b>http:\/\/www.milkeninstitute.org\/publications\/view\/742<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

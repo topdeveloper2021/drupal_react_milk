@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/speeding-adoption-new-lifesaving-medical-technology-special-issue-milken-institute-review?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 623
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b00fed95-3a6f-4de5-95d3-cca90da3b061"
+        }
+    ],
+    "vid": [
+        {
+            "value": 623
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Speeding the adoption of new lifesaving medical technology - A special issue of The Milken Institute Review focused on the issues of the Center for Accelerating Medical Solutions (CAMS)",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T16:59:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:35:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/speeding-adoption-new-lifesaving-medical-technology-special-issue-milken-institute-review",
+            "pid": 676,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \/ WASHINGTON - Consider: In Canada and Europe, consumers enjoy the benefits of government price controls on drugs, while their counterparts in the United States pay significantly higher prices for the same medicines. How can we get others to pay their fair share? <b> In Africa, malaria, tuberculosis and HIV kill five million people a year, in part because drug companies lack financial incentives to develop new vaccines for poor countries. What can be done to change this dynamic so vaccines can be created to fight these diseases?<br> Terminally ill patients are often prevented from using experimental pharmaceuticals that could extend, or even save, their lives. Is there a way to give them access without compromising clinical trials needed to prove safety and efficacy?<br> Every day across America, public policymakers, biotechnology and pharmaceutical researchers, physicians, scientists and, of course, patients and their families deal with these and many other difficult issues surrounding medical research. The Center for Accelerating Medical Solutions (CAMS), based in Washington, D.C., was formed last year under the auspices of the Milken Institute to develop and recommend new multidisciplinary approaches that can speed access to new medical technology. And to mark the Center\u2032s opening, The Milken Institute Review has devoted an entire issue to this one subject. Editor Peter Passell and CAMS President Greg Simon have assembled a distinguished group of experts from academia, private consulting firms, nonprofit organizations and government to highlight the challenges to CAMS: <B> Frank Lichtenberg<\/b> of the Columbia University Business School shows how valuable new drugs have been to society: the average new drug saves 11,200 life-years annually - a remarkable return on investment to society. \"There seems little doubt that innovation in pharmaceuticals has been spectacularly valuable to society,\" he writes. <b> <B>Richard Foster<\/b>, a director of McKinsey & Co., uses insights from the electronics industry to project changes in the pharmaceutical and biotechnology industries that will affect the efficiency of their innovation machinery. \"There will be no substitute for understanding the basic science, the risks that come with it, the need for a balanced portfolio, the highest ethical standards and a strong balance sheet,\" he writes. <b> <B>Michael Kremer<\/b>, a Harvard economist, says that guaranteeing markets for new vaccines for poor countries is a far more efficient way of providing incentives than traditional research grants. \"The process of creating large, credible commitments to a market for vaccines won\u2032t be easy, and it certainly won\u2032t lack risks,\" he writes. \"But the alternative - a status quo in which millions die annually from malaria, tuberculosis and HIV - is simply not acceptable.\"<b> <B>F. Desmond McCarthy<\/b>, a World Bank consultant, and <b>Holger Wolf<\/b> and <b>Yi Wu<\/b> of Georgetown University explore how much eradicating malaria would increase output in desperately poor parts of Africa. \"Putting a dollar figure on the human cost of this terrible disease is very hard,\" they write. \"But it is possible to calculate the far smaller tangible costs associated with reduced productivity. Our calculations imply that the cost of delaying the eradication of the disease by even a few years could run to tens of billions of dollars.\" <b> <B>Paul Pecorino<\/b>, a professor of economics at the University of Alabama, explains the peculiar economics of re-importing drugs from Canada. He finds that allowing Americans to get cheaper drugs from Canada would, ironically, benefit drug companies while hurting Canadian consumers. \"A re-importation policy could thus undo what is essentially an optimal Canadian trade policy, under which the Canadians benefit at the expense of the United States,\" he writes. \"Does anyone in Washington really understand what\u2032s going on here?\" <b> Also in this 1st Quarter, 2004 issue of the Review: <B>Mark McClellan<\/b>, commissioner of the FDA, outlines his case for more equitable sharing of the fixed costs of drug development by nations around the world. In an accompanying article, <b>Iain Cockburn<\/b> of Boston University describes how difficult that will be to achieve. <b> Nobel laureate <B>David Baltimore<\/b>, president of Cal Tech and a member of the CAMS board, offers his idea on how to make the system for medical treatments more effective.<b> <B>Steven Walker<\/b>, an advisor to the Abigail Alliance for Better Access to Developmental Drugs, and <b>Dan Popeo<\/b>, Chairman of the Washington Legal Foundation, explain how FDA rules unnecessarily prevent terminally ill patients from using experimental pharmaceuticals.<b> <B>Jean Lanjouw<\/b> of the Brookings Institution offers a solution for providing generic versions of drugs to poor countries without undermining patent rights in rich countries.<b> This issue\u2032s book excerpt is from The Health Care Value Chain, a detailed portrait of how the wholesale drug market works, by <B>Lawton Burns<\/b> and <b>Patricia Danzon<\/b> of the University of Pennsylvania\u2032s Wharton School.<b> The Milken Institute Review is distributed to some 10,000 corporate and financial executives, policymakers, academics and journalists throughout the world. Its editor is Peter Passell, former economics columnist for The New York Times. <B>About the Center for Accelerating Medical Solutions<\/b>: CAMS is dedicated to saving lives by saving time. We believe we can identify and implement global solutions to accelerate the process of discovery and clinical development of new therapies for the treatment of deadly and debilitating diseases. (www.fastercures.org.) For more information, contact Starr Terrell, Director of Communications and Marketing, at 202-654-7085.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \/ WASHINGTON - Consider: In Canada and Europe, consumers enjoy the benefits of government price controls on drugs, while their counterparts in the United States pay significantly higher prices for the same medicines. How can we get others to pay their fair share? <b> In Africa, malaria, tuberculosis and HIV kill five million people a year, in part because drug companies lack financial incentives to develop new vaccines for poor countries. What can be done to change this dynamic so vaccines can be created to fight these diseases?<br \/> Terminally ill patients are often prevented from using experimental pharmaceuticals that could extend, or even save, their lives. Is there a way to give them access without compromising clinical trials needed to prove safety and efficacy?<br \/> Every day across America, public policymakers, biotechnology and pharmaceutical researchers, physicians, scientists and, of course, patients and their families deal with these and many other difficult issues surrounding medical research. The Center for Accelerating Medical Solutions (CAMS), based in Washington, D.C., was formed last year under the auspices of the Milken Institute to develop and recommend new multidisciplinary approaches that can speed access to new medical technology. And to mark the Center\u2032s opening, The Milken Institute Review has devoted an entire issue to this one subject. Editor Peter Passell and CAMS President Greg Simon have assembled a distinguished group of experts from academia, private consulting firms, nonprofit organizations and government to highlight the challenges to CAMS: <b> Frank Lichtenberg<\/b> of the Columbia University Business School shows how valuable new drugs have been to society: the average new drug saves 11,200 life-years annually - a remarkable return on investment to society. \"There seems little doubt that innovation in pharmaceuticals has been spectacularly valuable to society,\" he writes. <b> <b>Richard Foster<\/b>, a director of McKinsey &amp; Co., uses insights from the electronics industry to project changes in the pharmaceutical and biotechnology industries that will affect the efficiency of their innovation machinery. \"There will be no substitute for understanding the basic science, the risks that come with it, the need for a balanced portfolio, the highest ethical standards and a strong balance sheet,\" he writes. <b> <b>Michael Kremer<\/b>, a Harvard economist, says that guaranteeing markets for new vaccines for poor countries is a far more efficient way of providing incentives than traditional research grants. \"The process of creating large, credible commitments to a market for vaccines won\u2032t be easy, and it certainly won\u2032t lack risks,\" he writes. \"But the alternative - a status quo in which millions die annually from malaria, tuberculosis and HIV - is simply not acceptable.\"<b> <b>F. Desmond McCarthy<\/b>, a World Bank consultant, and <b>Holger Wolf<\/b> and <b>Yi Wu<\/b> of Georgetown University explore how much eradicating malaria would increase output in desperately poor parts of Africa. \"Putting a dollar figure on the human cost of this terrible disease is very hard,\" they write. \"But it is possible to calculate the far smaller tangible costs associated with reduced productivity. Our calculations imply that the cost of delaying the eradication of the disease by even a few years could run to tens of billions of dollars.\" <b> <b>Paul Pecorino<\/b>, a professor of economics at the University of Alabama, explains the peculiar economics of re-importing drugs from Canada. He finds that allowing Americans to get cheaper drugs from Canada would, ironically, benefit drug companies while hurting Canadian consumers. \"A re-importation policy could thus undo what is essentially an optimal Canadian trade policy, under which the Canadians benefit at the expense of the United States,\" he writes. \"Does anyone in Washington really understand what\u2032s going on here?\" <b> Also in this 1st Quarter, 2004 issue of the Review: <b>Mark McClellan<\/b>, commissioner of the FDA, outlines his case for more equitable sharing of the fixed costs of drug development by nations around the world. In an accompanying article, <b>Iain Cockburn<\/b> of Boston University describes how difficult that will be to achieve. <b> Nobel laureate <b>David Baltimore<\/b>, president of Cal Tech and a member of the CAMS board, offers his idea on how to make the system for medical treatments more effective.<b> <b>Steven Walker<\/b>, an advisor to the Abigail Alliance for Better Access to Developmental Drugs, and <b>Dan Popeo<\/b>, Chairman of the Washington Legal Foundation, explain how FDA rules unnecessarily prevent terminally ill patients from using experimental pharmaceuticals.<b> <b>Jean Lanjouw<\/b> of the Brookings Institution offers a solution for providing generic versions of drugs to poor countries without undermining patent rights in rich countries.<b> This issue\u2032s book excerpt is from The Health Care Value Chain, a detailed portrait of how the wholesale drug market works, by <b>Lawton Burns<\/b> and <b>Patricia Danzon<\/b> of the University of Pennsylvania\u2032s Wharton School.<b> The Milken Institute Review is distributed to some 10,000 corporate and financial executives, policymakers, academics and journalists throughout the world. Its editor is Peter Passell, former economics columnist for The New York Times. <b>About the Center for Accelerating Medical Solutions<\/b>: CAMS is dedicated to saving lives by saving time. We believe we can identify and implement global solutions to accelerate the process of discovery and clinical development of new therapies for the treatment of deadly and debilitating diseases. (www.fastercures.org.) For more information, contact Starr Terrell, Director of Communications and Marketing, at 202-654-7085.<\/b><\/b><\/b><\/b><\/b><\/b><\/b><\/b><\/b><\/b><\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

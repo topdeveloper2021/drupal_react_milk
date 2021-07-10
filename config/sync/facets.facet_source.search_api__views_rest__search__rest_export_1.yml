@@ -1,0 +1,12 @@
+uuid: 5b2808a2-83df-416e-b8ae-e946d2e8589f
+langcode: en
+status: true
+dependencies: {  }
+id: search_api__views_rest__search__rest_export_1
+name: 'search_api:views_rest__search__rest_export_1'
+filter_key: content_type
+url_processor: facets_pretty_paths
+breadcrumb:
+  active: true
+  before: false
+  group: false

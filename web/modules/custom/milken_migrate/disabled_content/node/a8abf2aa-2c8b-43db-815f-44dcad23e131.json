@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-august-07-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/133?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 761
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a8abf2aa-2c8b-43db-815f-44dcad23e131"
+        }
+    ],
+    "vid": [
+        {
+            "value": 761
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/133?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4e3d7fb7-eae2-495d-9cba-6373b2228d9d"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus August 07, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-08-06T17:31:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:18:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-august-07-2018",
+            "pid": 814,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech\u2019s Big Week Hello FinTech in Focus readers, apologies for the late release this week. For some reason, the U.S. Department of the Treasury and the Office of the Comptroller of the Currency (OCC) saw fit to make some of the biggest FinTech announcements of the year on the same week that I moved into a new apartment. Murphy\u2019s Law, am I right? Anyway, as attentive students of FinTech, I\u2019m sure you all have read Treasury\u2019s\u00a0Nonbank Financial, Fintech, and Innovation\u00a0report by now. If not, the report covers a wide range of topics and is well worth your time. Some of the more talked-about items in the report include: 1. <i>Endorsement of regulatory sandboxes<\/i><br \/> 2. <i>Endorsement of the OCC\u2019s FinTech charter<\/i><br \/> 3. <i>Call for the codification of \u201cvalid when made\u201d<\/i><br \/> 4. <i>Call for the payday lending rule to be rescinded<\/i><br \/> 5. <i>Call for increased consumer control over financial data<\/i><br \/> 6. <i>Call for a national standard for data breach notification<\/i><br \/> 7. <i>Call for harmonization of money transfer rules across states<\/i> Shortly after the report was released, the OCC announced that they would begin accepting applications for a\u00a0special purpose national bank (SPNB) charter\u00a0for FinTech firms. Some of the above positions, such as the codification of \u201cvalid when made\u201d and rescinding the payday lending rule, have drawn criticism from\u00a0consumer advocates, who have also\u00a0voiced concerns about the SPNB\u2019s revised financial inclusion plan.\u00a0Industry\u00a0groups, on the other hand, have been largely upbeat on the report\u2019s contents and Treasury\u2019s openness to financial innovation. For our part, the Milken Institute released a statement on the report, which can be found\u00a0here. Industry Headlines <i>Big Tech:\u00a0<\/i>Despite a rocky financial news cycle for the tech giants, Apple reported some impressive metrics for Apple Pay. On their earnings call last week, Tim Cook revealed that Apple Pay\u2019s transactions have tripled since this time last year. Apple now leads Square in transactions and leads PayPal in mobile payments. <br \/> Meanwhile, Facebook is reported to have held discussions with several large banks over the past year about ways it can collaborate to offer financial insights to bank customers. Some of the features discussed include fraud alerts and checking account balances offered through Facebook\u2019s platform. Privacy concerns have been the main obstacle to such a deal thus far, but the effort reflects Facebook\u2019s ambitions to compete in the FinTech and ecommerce spaces. <i>Blockchain & Crypto:\u00a0<\/i>The Wall Street Journal came out with an eyebrow-raising analysis over the weekend, showing that dozens of groups of cryptocurrency traders are effectively coordinating \u201cpump and dump\u201d schemes on messaging apps such as Telegram. The analysis found 175 different schemes involving 121 different cryptocurrencies. One group called \u201cBig Pump Signal\u201d has promoted 26 pump operations with $222 million in trades since December. <br \/> Elsewhere, Goldman Sachs made waves late last week by making some strikingly bearish statements on cryptocurrencies. Chief Investment Officer Sharmin Mossavar-Rahamani stated that Goldman\u2019s prediction that cryptocurrencies would not retain their value came true more quickly than even they expected. Mossavar-Rahamani said that, \u201cWe expect further declines in the future given our view that these cryptocurrencies do not fulfill any of the three traditional roles of a currency: they are neither a medium of exchange, nor a unit of measurement, nor a store of value.\u201d Speaking of Goldman, former Executive Director Benedicte Nolens will join Circle as its new head of global regulatory affairs and head of compliance for Europe and Asia. On a more positive note, Intercontinental Exchange Inc. (ICE) announced they will form a trading platform for cryptocurrencies called Bakkt. ICE, which owns the New York Stock Exchange, does not have a launch date yet, but says the exchange will be launched using Microsoft\u2019s cloud and in partnership with Starbucks and the Boston Consulting Group, among others. <i>Digital Banking:\u00a0<\/i>BBVA reported strong quarterly profits last week, led by a significant uptick in digital customers, as well as robust earnings in Mexico. The bank, which has made a name for itself by being digitally savvy, saw a 26 percent increase in its digital customers since last year. <i>Payments:<\/i> Paytm is on the defensive in India after a member of Parliament argued that Alibaba\u2019s stake in Paytm is a national security threat. The member of Parliament in question, Narenda Jadhav, raised concerns that Alibaba having access to data from millions of Indian citizens could constitute a significant geopolitical risk, given Alibaba\u2019s close association with the Chinese government. In response, Paytm stated that it does not share data with any investors or foreign firms. Elsewhere, Alipay will target a group of customers who may be less concerned about geopolitics: Australian buskers. The pilot program will be launched in Melbourne, giving Chinese tourists the option to pay the street musicians in a manner that is cash (but not irony) free. Finally, Dunkin Donuts announced their intention to build a mobile ordering and payment platform. The platform comes after Starbucks, Dunkin\u2019s competitor, has had success with their own mobile platform. For coffee drinkers who prefer mobile payments and coffee that isn\u2019t burned, this could be great news. <i>Wealth Management:<\/i>\u00a0Barron\u2019s released a ranking of robo-advisors last week, with Vanguard\u2019s Personal Advisor Services taking the top spot. Vanguard\u2019s robo-advisor claims $112 billion assets under management. Betterment, the largest independent robo-advisory service, took second place. Global Developments <i>China:<\/i> China\u2019s State Administration of Foreign Exchange fined Alibaba, Tencent, and 25 other firms $88,000 each last week for breaking rules related to foreign exchange transactions. <i>Cyprus:<\/i> The Cyprus Securities and Exchange Commission announced the launch of an innovation hub last week. The hub will focus on innovation in FinTech and RegTech and will serve as a venue for innovators to engage with regulators. <i>India:<\/i>\u00a0The discussion about personal data protection is accelerating in India, with a draft bill being submitted last week. The Personal Data Protection bill is not without critics, however, as the report in Quartz discusses in detail. <i>Iran:<\/i> Iranian state media reports that the central bank is working on a central bank digital currency for the country in an effort to evade U.S. sanctions. This comes as a similar effort in Venezuela has gotten a great deal of press. <i>Romania:<\/i>\u00a0The Romanian Ministry of Finance has drafted an emergency bill to regulate cryptocurrencies. The bill would limit the types of organizations that can issue cryptocurrencies to credit institutions, electronic money institutions, the European Central Bank, and the national central banks. Regulation for cryptocurrencies will fall under the Romanian National Bank. <i>United States:<\/i> In addition to Treasury\u2019s report and the OCC\u2019s charter announcement, there have been several other notable developments in the United States. First, the Securities and Exchange Commission (SEC) is said to be taking a closer look at brokerages who deal in cryptocurrencies. Specifically, the SEC is seeking information about fees, ICOs, and any involvement by investment advisors. Second, the Federal Housing Finance Agency has suspended their plans to update their credit scoring models, citing a need to focus on implementation of the recently enacted Economic Growth, Regulatory Relief, and Consumer Protection Act. ",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb FinTech\u2019s Big Week Hello FinTech in Focus readers, apologies for the late release this week. For some reason, the U.S. Department of the Treasury and the Office of the Comptroller of the Currency (OCC) saw fit to make some of the biggest FinTech announcements of the year on the same week that I moved into a new apartment. Murphy\u2019s Law, am I right? Anyway, as attentive students of FinTech, I\u2019m sure you all have read Treasury\u2019s\u00a0Nonbank Financial, Fintech, and Innovation\u00a0report by now. If not, the report covers a wide range of topics and is well worth your time. Some of the more talked-about items in the report include: 1. <i>Endorsement of regulatory sandboxes<\/i><br \/> 2. <i>Endorsement of the OCC\u2019s FinTech charter<\/i><br \/> 3. <i>Call for the codification of \u201cvalid when made\u201d<\/i><br \/> 4. <i>Call for the payday lending rule to be rescinded<\/i><br \/> 5. <i>Call for increased consumer control over financial data<\/i><br \/> 6. <i>Call for a national standard for data breach notification<\/i><br \/> 7. <i>Call for harmonization of money transfer rules across states<\/i> Shortly after the report was released, the OCC announced that they would begin accepting applications for a\u00a0special purpose national bank (SPNB) charter\u00a0for FinTech firms. Some of the above positions, such as the codification of \u201cvalid when made\u201d and rescinding the payday lending rule, have drawn criticism from\u00a0consumer advocates, who have also\u00a0voiced concerns about the SPNB\u2019s revised financial inclusion plan.\u00a0Industry\u00a0groups, on the other hand, have been largely upbeat on the report\u2019s contents and Treasury\u2019s openness to financial innovation. For our part, the Milken Institute released a statement on the report, which can be found\u00a0here. Industry Headlines <i>Big Tech:\u00a0<\/i>Despite a rocky financial news cycle for the tech giants, Apple reported some impressive metrics for Apple Pay. On their earnings call last week, Tim Cook revealed that Apple Pay\u2019s transactions have tripled since this time last year. Apple now leads Square in transactions and leads PayPal in mobile payments. <br \/> Meanwhile, Facebook is reported to have held discussions with several large banks over the past year about ways it can collaborate to offer financial insights to bank customers. Some of the features discussed include fraud alerts and checking account balances offered through Facebook\u2019s platform. Privacy concerns have been the main obstacle to such a deal thus far, but the effort reflects Facebook\u2019s ambitions to compete in the FinTech and ecommerce spaces. <i>Blockchain &amp; Crypto:\u00a0<\/i>The Wall Street Journal came out with an eyebrow-raising analysis over the weekend, showing that dozens of groups of cryptocurrency traders are effectively coordinating \u201cpump and dump\u201d schemes on messaging apps such as Telegram. The analysis found 175 different schemes involving 121 different cryptocurrencies. One group called \u201cBig Pump Signal\u201d has promoted 26 pump operations with $222 million in trades since December. <br \/> Elsewhere, Goldman Sachs made waves late last week by making some strikingly bearish statements on cryptocurrencies. Chief Investment Officer Sharmin Mossavar-Rahamani stated that Goldman\u2019s prediction that cryptocurrencies would not retain their value came true more quickly than even they expected. Mossavar-Rahamani said that, \u201cWe expect further declines in the future given our view that these cryptocurrencies do not fulfill any of the three traditional roles of a currency: they are neither a medium of exchange, nor a unit of measurement, nor a store of value.\u201d Speaking of Goldman, former Executive Director Benedicte Nolens will join Circle as its new head of global regulatory affairs and head of compliance for Europe and Asia. On a more positive note, Intercontinental Exchange Inc. (ICE) announced they will form a trading platform for cryptocurrencies called Bakkt. ICE, which owns the New York Stock Exchange, does not have a launch date yet, but says the exchange will be launched using Microsoft\u2019s cloud and in partnership with Starbucks and the Boston Consulting Group, among others. <i>Digital Banking:\u00a0<\/i>BBVA reported strong quarterly profits last week, led by a significant uptick in digital customers, as well as robust earnings in Mexico. The bank, which has made a name for itself by being digitally savvy, saw a 26 percent increase in its digital customers since last year. <i>Payments:<\/i> Paytm is on the defensive in India after a member of Parliament argued that Alibaba\u2019s stake in Paytm is a national security threat. The member of Parliament in question, Narenda Jadhav, raised concerns that Alibaba having access to data from millions of Indian citizens could constitute a significant geopolitical risk, given Alibaba\u2019s close association with the Chinese government. In response, Paytm stated that it does not share data with any investors or foreign firms. Elsewhere, Alipay will target a group of customers who may be less concerned about geopolitics: Australian buskers. The pilot program will be launched in Melbourne, giving Chinese tourists the option to pay the street musicians in a manner that is cash (but not irony) free. Finally, Dunkin Donuts announced their intention to build a mobile ordering and payment platform. The platform comes after Starbucks, Dunkin\u2019s competitor, has had success with their own mobile platform. For coffee drinkers who prefer mobile payments and coffee that isn\u2019t burned, this could be great news. <i>Wealth Management:<\/i>\u00a0Barron\u2019s released a ranking of robo-advisors last week, with Vanguard\u2019s Personal Advisor Services taking the top spot. Vanguard\u2019s robo-advisor claims $112 billion assets under management. Betterment, the largest independent robo-advisory service, took second place. Global Developments <i>China:<\/i> China\u2019s State Administration of Foreign Exchange fined Alibaba, Tencent, and 25 other firms $88,000 each last week for breaking rules related to foreign exchange transactions. <i>Cyprus:<\/i> The Cyprus Securities and Exchange Commission announced the launch of an innovation hub last week. The hub will focus on innovation in FinTech and RegTech and will serve as a venue for innovators to engage with regulators. <i>India:<\/i>\u00a0The discussion about personal data protection is accelerating in India, with a draft bill being submitted last week. The Personal Data Protection bill is not without critics, however, as the report in Quartz discusses in detail. <i>Iran:<\/i> Iranian state media reports that the central bank is working on a central bank digital currency for the country in an effort to evade U.S. sanctions. This comes as a similar effort in Venezuela has gotten a great deal of press. <i>Romania:<\/i>\u00a0The Romanian Ministry of Finance has drafted an emergency bill to regulate cryptocurrencies. The bill would limit the types of organizations that can issue cryptocurrencies to credit institutions, electronic money institutions, the European Central Bank, and the national central banks. Regulation for cryptocurrencies will fall under the Romanian National Bank. <i>United States:<\/i> In addition to Treasury\u2019s report and the OCC\u2019s charter announcement, there have been several other notable developments in the United States. First, the Securities and Exchange Commission (SEC) is said to be taking a closer look at brokerages who deal in cryptocurrencies. Specifically, the SEC is seeking information about fees, ICOs, and any involvement by investment advisors. Second, the Federal Housing Finance Agency has suspended their plans to update their credit scoring models, citing a need to focus on implementation of the recently enacted Economic Growth, Regulatory Relief, and Consumer Protection Act. ",
+    "summary": null,
+    "summary_processed": ""
+}

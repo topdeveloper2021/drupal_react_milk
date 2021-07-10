@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/silicon-valley-continues-lead-north-american-metros-strength-its-high-tech-industry-growth?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 141
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ccba442a-1f66-495b-854e-443e0cab17b7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 141
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Silicon Valley continues to lead North American metros in strength of its high-tech industry, but growth in other regions shows integration across continent, says Milken Institute study",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/silicon-valley-continues-lead-north-american-metros-strength-its-high-tech-industry-growth",
+            "pid": 194,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - Silicon Valley, the largest and most influential high-tech center in the world, continues to lead all other metropolitan regions in North America in the breadth and scope of economic activity it creates through technological innovation. But many other metros have built strong and diverse industries that should allow them to prosper when the global economy recovers, according to a new report from the Milken Institute. \"High-tech industries are an important and sustaining anchor for regions to survive the slump and to rebuild their economies around high-wage jobs,\" says Ross DeVol, Director of Regional Economics at the Institute and author of the newly released report, <b>North America's High-Tech Economy: The Geography of Knowledge-Based Industries. <\/b> \"Every sector has been impacted by the current economic downturn, but high-tech centers will come out on top,\" continues DeVol. \"In 2003, many said that the era of technology-based economic development was over. However, the industry defied the naysayers and grew rapidly in the following years, proving that regions that promote and sustain the vital inputs to a high-tech sector are best prepared to recover and generate broader stability and growth.\" According to the study, which ranks the top high-tech centers in the U.S., Canada and Mexico, most of the top tech metros are well known - like Seattle, Cambridge, Washington, D.C., New York and San Francisco. But there are many lesser-known regions that have made tremendous inroads in the past decade to build their technology assets, such as Toronto, Canada; Kalamazoo, Mich.; and even Baja California. The top-ten rankings for the preeminent high-tech metros in North America:<b> <table> <tr>\n<b>2007 Ranking\n2003 Ranking Metro AreaTotal High Tech Score\n<\/tr>\n<tr>\n<td>1<\/td>\n<td>1<\/td><td> San Jose - Sunnyvale-Santa Clara, CA <\/td><td>100.0<\/td>\n<\/tr><tr>\n<td>2<\/td>\n<td>3<\/td><td> Seattle-Bellevue-Everett, WA <\/td><td>46.4<\/td>\n<\/tr><tr>\n<td>3<\/td><td>2<\/td><td> Cambridge-Newton-Framingham, MA <\/td><td>45.2<\/td>\n<\/tr><tr>\n<td>4<\/td><td>5<\/td><td> Washington-Arlington-Alexandria, DC-VA-MD-WV <\/td><td>41.8<\/td>\n<\/tr><tr>\n<td>5<\/td><td>4<\/td><td> Los Angeles - Long Beach - Glendale, CA <\/td><td>40.2<\/td>\n<\/tr><tr>\n<td>6<\/td><td>6<\/td><td> Dallas - Plano - Irving, TX <\/td><td>21.8<\/td>\n<\/tr><tr>\n<td>7<\/td><td>7<\/td><td> San Diego - Carlsbad - San Marcos, CA <\/td><td>19.3<\/td>\n<\/tr><tr>\n<td>8<\/td><td>11<\/td><td> Santa Ana - Anaheim-Irvine, CA <\/td><td>17.7<\/td>\n<\/tr><tr>\n<td>9<\/td><td>9<\/td><td> New York - White Plains - Wayne, NY-NJ <\/td><td>16.8<\/td>\n<\/tr> <tr>\n<td>10<\/td><td>8<\/td><td> San Francisco - San Mateo-Redwood City, CA <\/td><td>16.1<\/td>\n<\/tr>\n<\/table> Like most of the economy, the high-tech sector has taken a beating in the last six months, but recent numbers show that these cuts may be leveling off and the sector could be primed to once again be an engine of sustainable growth when recovery begins to take root. DeVol says those cities with strong high-tech bases will perform best as the economy recovers because the jobs generated by these fields pay so well. That's why so many regions have worked tirelessly - with tax breaks and other incentives - to attract high-tech industries, whether computer manufacturing, medical devices development or life sciences research. The report includes benchmarking for 2003 for metros in the United States and Canada and states in Mexico. (This was the latest available data for Mexico and the best way to ensure an accurate analysis. Mexico does not have data available at the metro level.) The 2007 benchmarking data is the latest available data for U.S. and Canadian metros. By looking over time - particularly starting with 2003, just after the tech-bubble burst and the industry lost significantly more jobs than in this downturn - the relative stability in the rankings of successful regions demonstrates the staying power of this industry through good times and bad, DeVol says. Among some of the metros not often thought of as growing high-tech centers are:<br> Toronto ON jumped 10 places from 2003, showing impressive gains in building and attracting high-tech businesses in manufacturing and reproducing of optical media, biopharmaceuticals, and medical and diagnostic laboratories. <br>\nKalamazoo MI illustrates how entrepreneurs can overcome dramatic shifts in the local economy. The region was able to retain its human capital and redirect it after Pfizer's 2003 relocation of previous Pharmacia operations. The metro ranks 9th in North America for medical equipment manufacturing in 2007. <br>\nBaja California has become a key manufacturing center for high-tech giants such as Casio, Honeywell, Sanyo and Sony. The state finished in 2nd place in 2003, just after San Jose, in the ranking for manufacturing of semiconductors and other electronic components. It also leads North America in medical equipment and supplies manufacturing.<br>\nScranton-Wilkesboro PA ranks 3rd in audio and video equipment manufacturing and showed employment growth of at least double the North American average for the period 2003 to 2007.<br>\nCharlotte-Gastonia-Concord NC-SC ranks 4th in North America for data processing, hosting, and related services in 2007, but will need to ensure that recent consolidation and turmoil in the banking industry does not impact its future rankings.<br>\nVancouver BC showed the greatest rise among the top-10 metros for software publishing, climbing from 14th place in 2003 to 9th place in 2007. <br>\nDurham NC experienced the fastest job growth in scientific research and development services since 2003 among the top ten metros, and was the third fastest in North America. The report is an update to the Institute's 1999 publication, <b>America's High-Tech Economy: Growth, Development and Risks for Metropolitan Areas<\/b>, a groundbreaking study that was one of the first to show the importance of high-tech industry to regional economic growth. The new study has been expanded to include Canada and Mexico, highlighting the integration that has occurred in this industry in the last decade. The methodology has also been modified to move away from a strictly output-based measurement and instead provide a better assessment of the impact on the communities by assessing employment and wages, in addition to the relative concentrations of employment and wages to other metros in North America. The report was sponsored, in part, by Foreign Affairs and International Trade Canada. An executive summary, the full report and interactive data tables for all U.S. and Canadian metros and Mexican states, plus breakdowns for 19 separate high-tech industries, are available at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - Silicon Valley, the largest and most influential high-tech center in the world, continues to lead all other metropolitan regions in North America in the breadth and scope of economic activity it creates through technological innovation. But many other metros have built strong and diverse industries that should allow them to prosper when the global economy recovers, according to a new report from the Milken Institute. \"High-tech industries are an important and sustaining anchor for regions to survive the slump and to rebuild their economies around high-wage jobs,\" says Ross DeVol, Director of Regional Economics at the Institute and author of the newly released report, <b>North America's High-Tech Economy: The Geography of Knowledge-Based Industries. <\/b> \"Every sector has been impacted by the current economic downturn, but high-tech centers will come out on top,\" continues DeVol. \"In 2003, many said that the era of technology-based economic development was over. However, the industry defied the naysayers and grew rapidly in the following years, proving that regions that promote and sustain the vital inputs to a high-tech sector are best prepared to recover and generate broader stability and growth.\" According to the study, which ranks the top high-tech centers in the U.S., Canada and Mexico, most of the top tech metros are well known - like Seattle, Cambridge, Washington, D.C., New York and San Francisco. But there are many lesser-known regions that have made tremendous inroads in the past decade to build their technology assets, such as Toronto, Canada; Kalamazoo, Mich.; and even Baja California. The top-ten rankings for the preeminent high-tech metros in North America:<b> <table><tr><b>2007 Ranking\n2003 Ranking Metro AreaTotal High Tech Score\n<\/b><\/tr><tr><td>1<\/td>\n<td>1<\/td><td> San Jose - Sunnyvale-Santa Clara, CA <\/td><td>100.0<\/td>\n<\/tr><tr><td>2<\/td>\n<td>3<\/td><td> Seattle-Bellevue-Everett, WA <\/td><td>46.4<\/td>\n<\/tr><tr><td>3<\/td><td>2<\/td><td> Cambridge-Newton-Framingham, MA <\/td><td>45.2<\/td>\n<\/tr><tr><td>4<\/td><td>5<\/td><td> Washington-Arlington-Alexandria, DC-VA-MD-WV <\/td><td>41.8<\/td>\n<\/tr><tr><td>5<\/td><td>4<\/td><td> Los Angeles - Long Beach - Glendale, CA <\/td><td>40.2<\/td>\n<\/tr><tr><td>6<\/td><td>6<\/td><td> Dallas - Plano - Irving, TX <\/td><td>21.8<\/td>\n<\/tr><tr><td>7<\/td><td>7<\/td><td> San Diego - Carlsbad - San Marcos, CA <\/td><td>19.3<\/td>\n<\/tr><tr><td>8<\/td><td>11<\/td><td> Santa Ana - Anaheim-Irvine, CA <\/td><td>17.7<\/td>\n<\/tr><tr><td>9<\/td><td>9<\/td><td> New York - White Plains - Wayne, NY-NJ <\/td><td>16.8<\/td>\n<\/tr><tr><td>10<\/td><td>8<\/td><td> San Francisco - San Mateo-Redwood City, CA <\/td><td>16.1<\/td>\n<\/tr><\/table> Like most of the economy, the high-tech sector has taken a beating in the last six months, but recent numbers show that these cuts may be leveling off and the sector could be primed to once again be an engine of sustainable growth when recovery begins to take root. DeVol says those cities with strong high-tech bases will perform best as the economy recovers because the jobs generated by these fields pay so well. That's why so many regions have worked tirelessly - with tax breaks and other incentives - to attract high-tech industries, whether computer manufacturing, medical devices development or life sciences research. The report includes benchmarking for 2003 for metros in the United States and Canada and states in Mexico. (This was the latest available data for Mexico and the best way to ensure an accurate analysis. Mexico does not have data available at the metro level.) The 2007 benchmarking data is the latest available data for U.S. and Canadian metros. By looking over time - particularly starting with 2003, just after the tech-bubble burst and the industry lost significantly more jobs than in this downturn - the relative stability in the rankings of successful regions demonstrates the staying power of this industry through good times and bad, DeVol says. Among some of the metros not often thought of as growing high-tech centers are:<br \/> Toronto ON jumped 10 places from 2003, showing impressive gains in building and attracting high-tech businesses in manufacturing and reproducing of optical media, biopharmaceuticals, and medical and diagnostic laboratories. <br \/>\nKalamazoo MI illustrates how entrepreneurs can overcome dramatic shifts in the local economy. The region was able to retain its human capital and redirect it after Pfizer's 2003 relocation of previous Pharmacia operations. The metro ranks 9th in North America for medical equipment manufacturing in 2007. <br \/>\nBaja California has become a key manufacturing center for high-tech giants such as Casio, Honeywell, Sanyo and Sony. The state finished in 2nd place in 2003, just after San Jose, in the ranking for manufacturing of semiconductors and other electronic components. It also leads North America in medical equipment and supplies manufacturing.<br \/>\nScranton-Wilkesboro PA ranks 3rd in audio and video equipment manufacturing and showed employment growth of at least double the North American average for the period 2003 to 2007.<br \/>\nCharlotte-Gastonia-Concord NC-SC ranks 4th in North America for data processing, hosting, and related services in 2007, but will need to ensure that recent consolidation and turmoil in the banking industry does not impact its future rankings.<br \/>\nVancouver BC showed the greatest rise among the top-10 metros for software publishing, climbing from 14th place in 2003 to 9th place in 2007. <br \/>\nDurham NC experienced the fastest job growth in scientific research and development services since 2003 among the top ten metros, and was the third fastest in North America. The report is an update to the Institute's 1999 publication, <b>America's High-Tech Economy: Growth, Development and Risks for Metropolitan Areas<\/b>, a groundbreaking study that was one of the first to show the importance of high-tech industry to regional economic growth. The new study has been expanded to include Canada and Mexico, highlighting the integration that has occurred in this industry in the last decade. The methodology has also been modified to move away from a strictly output-based measurement and instead provide a better assessment of the impact on the communities by assessing employment and wages, in addition to the relative concentrations of employment and wages to other metros in North America. The report was sponsored, in part, by Foreign Affairs and International Trade Canada. An executive summary, the full report and interactive data tables for all U.S. and Canadian metros and Mexican states, plus breakdowns for 19 separate high-tech industries, are available at www.milkeninstitute.org.<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

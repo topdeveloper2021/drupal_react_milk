@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/want-build-skilled-workforce-focus-leaving-no-one-behind?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/83?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 549
+        }
+    ],
+    "uuid": [
+        {
+            "value": "347ec7d9-88d5-46e5-aa54-224bdfe82f0d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 549
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/83?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f5f0f43a-5bca-4c2b-9ad1-01df77112ca8"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Want to Build a Skilled Workforce? Focus on Leaving No One Behind",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T07:47:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-12T20:05:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/want-build-skilled-workforce-focus-leaving-no-one-behind",
+            "pid": 602,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<b>The rise of the Fourth Industrial Revolution has made me even more optimistic for the future of work.<\/b> I see technology, as it always has, <i>elevating<\/i> the role of the human in the workplace. I\u2019m an optimist by nature. I see challenges as opportunities. I always imagine a brighter future for my grandchildren. That\u2019s not to say my outlook isn\u2019t occasionally tested. Take the rise of the Fourth Industrial Revolution that has led some to predict that robots, not humans, are the future of work. As I saw headlines suggesting artificial intelligence and advanced automation will eventually take over, I had to ask myself: <i>Is the future of work as positive as I\u2019d like to believe<\/i>? So I thought about our business strategy and our vision to use digital technology to create value for society. I was able to join the American Workforce Policy Advisory Board alongside leaders representing business, government, education, and labor to share best practices for workforce development that can be used across the country. And I took advantage of my front-row seat at a company that has contributed to each industrial revolution, has reinvented itself into a top-10 global software company, and is now creating many of the technologies changing how we work. And you know what? I\u2019ve come out of this <i>more<\/i> optimistic about the future. I don\u2019t see robots automating away our future at all. I see technology, as it always has, <i>elevating<\/i> the role of the human in the workplace. This leads me to what I believe is the even bigger opportunity presented by the Fourth Industrial Revolution: <b>using workforce development as a tool to drive shared prosperity<\/b>. As we focus on closing skills gaps, the question we need to ask ourselves is: <i>How can we manage our workforce development agenda in a way that doesn\u2019t leave anybody behind<\/i>? You might call this socially responsible, and it is. Yet after reading the World Economic Forum\u2019s (WEF) Future of Jobs Report, I\u2019d also call it essential. The WEF report notes that the Fourth Industrial Revolution is expected to change 75 million jobs globally while also creating 133 million new ones. Jobs aren\u2019t disappearing. But as technology plays a bigger role, tasks are changing\u2014and one of the smartest, most effective ways we can respond is by reskilling the very people currently doing those tasks. The WEF report finds that the vast majority of workers in at-risk roles <i>can<\/i> be reskilled for evolved positions. That\u2019s what I mean when I say let\u2019s not leave anybody behind. So let me share a few ways we can make a difference. First<b>, <\/b>lifelong learning needs to be an accepted reality of life today. At this rate of technological transformation, no one can rely on our education systems to teach them everything they\u2019ll need to know throughout their careers. Today, Siemens invests $50 million annually in continuing education programs for our 50,000 US employees. Second, company-led training programs will be more effective if they are non-proprietary and open-source. It\u2019s our sense that we need to create programs that address Siemens\u2019 business needs while creating an ecosystem to support the broader talent needs of all US businesses, including our customers. This was top of mind for the Siemens Foundation, Siemens Building Technologies, and the Association of Controls Professionals in launching a new workforce training program for building automation professionals and continues to motivate Siemens to donate our hardware and software to schools. Third, let\u2019s publicize all the pathways to the American dream and make it clear that four-year degrees are not the only way to get there. One prominent path to success is the pursuit of middle-skill positions in fields such as energy, manufacturing, health care, mobility, and building technologies that can be attained by pursuing technical education beyond high school, including at community colleges. These are the skills and careers that will give the middle class a real leg up. Siemens\u2019 manufacturing sites now use a middle-skill-focused apprenticeship program to attract and retain talent. The program has expanded from a pilot site to 10 programs in nine states, each location working with a community college. And while our apprentices are high school seniors and US military veterans, long-time employees are now leveraging the program as well to update their skills. I like to end a lot of my talks by asking folks to imagine a future in which access to education, training, and lifelong learning is as abundant as the human capabilities that we possess. I\u2019ll ask anyone reading this now to imagine our investment in human capital and technological advancement enhancing prosperity across the nation and around the globe. ",
+    "format": "rich_text",
+    "processed": "<b>The rise of the Fourth Industrial Revolution has made me even more optimistic for the future of work.<\/b> I see technology, as it always has, <i>elevating<\/i> the role of the human in the workplace. I\u2019m an optimist by nature. I see challenges as opportunities. I always imagine a brighter future for my grandchildren. That\u2019s not to say my outlook isn\u2019t occasionally tested. Take the rise of the Fourth Industrial Revolution that has led some to predict that robots, not humans, are the future of work. As I saw headlines suggesting artificial intelligence and advanced automation will eventually take over, I had to ask myself: <i>Is the future of work as positive as I\u2019d like to believe<\/i>? So I thought about our business strategy and our vision to use digital technology to create value for society. I was able to join the American Workforce Policy Advisory Board alongside leaders representing business, government, education, and labor to share best practices for workforce development that can be used across the country. And I took advantage of my front-row seat at a company that has contributed to each industrial revolution, has reinvented itself into a top-10 global software company, and is now creating many of the technologies changing how we work. And you know what? I\u2019ve come out of this <i>more<\/i> optimistic about the future. I don\u2019t see robots automating away our future at all. I see technology, as it always has, <i>elevating<\/i> the role of the human in the workplace. This leads me to what I believe is the even bigger opportunity presented by the Fourth Industrial Revolution: <b>using workforce development as a tool to drive shared prosperity<\/b>. As we focus on closing skills gaps, the question we need to ask ourselves is: <i>How can we manage our workforce development agenda in a way that doesn\u2019t leave anybody behind<\/i>? You might call this socially responsible, and it is. Yet after reading the World Economic Forum\u2019s (WEF) Future of Jobs Report, I\u2019d also call it essential. The WEF report notes that the Fourth Industrial Revolution is expected to change 75 million jobs globally while also creating 133 million new ones. Jobs aren\u2019t disappearing. But as technology plays a bigger role, tasks are changing\u2014and one of the smartest, most effective ways we can respond is by reskilling the very people currently doing those tasks. The WEF report finds that the vast majority of workers in at-risk roles <i>can<\/i> be reskilled for evolved positions. That\u2019s what I mean when I say let\u2019s not leave anybody behind. So let me share a few ways we can make a difference. First<b>, <\/b>lifelong learning needs to be an accepted reality of life today. At this rate of technological transformation, no one can rely on our education systems to teach them everything they\u2019ll need to know throughout their careers. Today, Siemens invests $50 million annually in continuing education programs for our 50,000 US employees. Second, company-led training programs will be more effective if they are non-proprietary and open-source. It\u2019s our sense that we need to create programs that address Siemens\u2019 business needs while creating an ecosystem to support the broader talent needs of all US businesses, including our customers. This was top of mind for the Siemens Foundation, Siemens Building Technologies, and the Association of Controls Professionals in launching a new workforce training program for building automation professionals and continues to motivate Siemens to donate our hardware and software to schools. Third, let\u2019s publicize all the pathways to the American dream and make it clear that four-year degrees are not the only way to get there. One prominent path to success is the pursuit of middle-skill positions in fields such as energy, manufacturing, health care, mobility, and building technologies that can be attained by pursuing technical education beyond high school, including at community colleges. These are the skills and careers that will give the middle class a real leg up. Siemens\u2019 manufacturing sites now use a middle-skill-focused apprenticeship program to attract and retain talent. The program has expanded from a pilot site to 10 programs in nine states, each location working with a community college. And while our apprentices are high school seniors and US military veterans, long-time employees are now leveraging the program as well to update their skills. I like to end a lot of my talks by asking folks to imagine a future in which access to education, training, and lifelong learning is as abundant as the human capabilities that we possess. I\u2019ll ask anyone reading this now to imagine our investment in human capital and technological advancement enhancing prosperity across the nation and around the globe. ",
+    "summary": null,
+    "summary_processed": ""
+}

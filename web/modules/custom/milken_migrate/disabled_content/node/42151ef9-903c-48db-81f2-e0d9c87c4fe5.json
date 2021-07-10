@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/financial-inclusion-platform-prosper?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/61?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 526
+        }
+    ],
+    "uuid": [
+        {
+            "value": "42151ef9-903c-48db-81f2-e0d9c87c4fe5"
+        }
+    ],
+    "vid": [
+        {
+            "value": 526
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/61?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "751bc930-e3b1-4fea-a88f-281147fef574"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Financial Inclusion: The Platform to Prosper",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T13:48:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-06T18:48:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/financial-inclusion-platform-prosper",
+            "pid": 579,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>Discrete financial products are evolving into an ecosystem of applications and services that empowers participants in finance to select the services they want and own their own futures.<\/b><\/i> Fundamental to driving prosperity is the ability of individuals to participate in the global economy and thereby take ownership of their futures. One of the greatest barriers to prosperity is limited access to useful and affordable financial products and services. In other words, a deficit of financial inclusion. According to the World Bank, some 1.7 billion adults (31 percent) across the world do not have basic transaction accounts. For them, the financial services many of us take for granted aren\u2019t affordable or accessible enough for hard-to-reach or low-income users, locking these individuals out from a vital means to prosper. By extension, the countries where this \u201cunbanked\u201d constituency resides are also held back, with innovation hamstrung by a lack of access to growth finance. If we want to increase prosperity, we have to pursue financial inclusion and be willing to share the cost. But things are looking up. One of the most powerful forces driving financial inclusion today is the increasing digitization of financial services, enabled by the proliferation of smartphones\u2014a market that will add 1.75 billion new users by 2025 according to GSMA. In sub-Saharan Africa, the number of mobile internet users is expected to double between 2017 and 2025. It is in the hands of financial institutions to reach out to the newly connected multitudes with new and affordable financial services. Many of them are starting to react. Mobile-first economies will flourish through mobile-first banking, with innovative technology such as bots and machine learning or AI providing previously limited services to a mass audience. Recent<b> Finastra<\/b> research shows that customer demand for online and mobile banking is the greatest single factor driving implementation of Open Banking and digitalization in financial institutions globally. One of the most exciting recent developments in global finance has been the platformification of financial services\u2014catalyzed in part by growing trust in cloud computing, with Open Banking also acting as a driver. As a result we\u2019re seeing an unbundling of discrete financial products into an ecosystem of applications and services that empowers participants in finance to select the services they want and own their own futures. Banks are increasingly realizing that customers want to buy an end-product from them but care less about how they assemble the products and services that get them there. They want to buy a house\u2014not a mortgage. The same can be said for the unbanked 1.7 billion\u2014financial inclusion is not so much about gaining access to current accounts or loans as it is about presenting individuals with a way of achieveing their ambitions. Loans, current accounts, and other \u201cproducts\u201d are a means to an end, but the real impact is made when the end user grows their business or provides for their family in a way they couldn\u2019t have done before. Importantly, advances in Open Banking, open APIs, and platformification are helping banks, FinTechs, and small and medium-sized enterprises gain access to broader and deeper data sets to inform their activities and provide ever-more advanced and personalized services to customers. As we get better at interrogating and learning from mass data sets, the ability to make recommendations to customers improves with it, seamlessly connecting them to more efficient or novel ways of meeting their financial goals. Crucially, these technological developments also have the potential to free up a trapped and potentially limitless growth funding pool by opening up previously closed and illiquid assets to global trade. A new era of trust enabled by verification technologies, such as blockchain, is already allowing institutions to streamline and speed up information exchange around tradeable financial products like loans, reducing operating costs and lowering risk around transactions. Lower costs and lower risk mean a higher incentive to trade and show us a potential route to reducing the $1.6 trillion trade financing gap that continues to hinder developing nations in helping the less fortunate in their populations out of poverty. We are on the cusp of a great shift in how both the banked and unbanked portions of our global economy are helped to prosper. Greater financial inclusion, through services which are more accessible and more intelligent to billions globally, is one of the greatest opportunities to drive shared prosperity in the years to come. <b>Sources<\/b> Finastra Research https:\/\/www.worldbank.org\/en\/topic\/financialinclusion\/overview https:\/\/www.gsma.com\/mobileeconomy\/wp-content\/uploads\/2018\/02\/The-Mobile-Economy-Global-2018.pdf",
+    "format": "rich_text",
+    "processed": "<i><b>Discrete financial products are evolving into an ecosystem of applications and services that empowers participants in finance to select the services they want and own their own futures.<\/b><\/i> Fundamental to driving prosperity is the ability of individuals to participate in the global economy and thereby take ownership of their futures. One of the greatest barriers to prosperity is limited access to useful and affordable financial products and services. In other words, a deficit of financial inclusion. According to the World Bank, some 1.7 billion adults (31 percent) across the world do not have basic transaction accounts. For them, the financial services many of us take for granted aren\u2019t affordable or accessible enough for hard-to-reach or low-income users, locking these individuals out from a vital means to prosper. By extension, the countries where this \u201cunbanked\u201d constituency resides are also held back, with innovation hamstrung by a lack of access to growth finance. If we want to increase prosperity, we have to pursue financial inclusion and be willing to share the cost. But things are looking up. One of the most powerful forces driving financial inclusion today is the increasing digitization of financial services, enabled by the proliferation of smartphones\u2014a market that will add 1.75 billion new users by 2025 according to GSMA. In sub-Saharan Africa, the number of mobile internet users is expected to double between 2017 and 2025. It is in the hands of financial institutions to reach out to the newly connected multitudes with new and affordable financial services. Many of them are starting to react. Mobile-first economies will flourish through mobile-first banking, with innovative technology such as bots and machine learning or AI providing previously limited services to a mass audience. Recent<b> Finastra<\/b> research shows that customer demand for online and mobile banking is the greatest single factor driving implementation of Open Banking and digitalization in financial institutions globally. One of the most exciting recent developments in global finance has been the platformification of financial services\u2014catalyzed in part by growing trust in cloud computing, with Open Banking also acting as a driver. As a result we\u2019re seeing an unbundling of discrete financial products into an ecosystem of applications and services that empowers participants in finance to select the services they want and own their own futures. Banks are increasingly realizing that customers want to buy an end-product from them but care less about how they assemble the products and services that get them there. They want to buy a house\u2014not a mortgage. The same can be said for the unbanked 1.7 billion\u2014financial inclusion is not so much about gaining access to current accounts or loans as it is about presenting individuals with a way of achieveing their ambitions. Loans, current accounts, and other \u201cproducts\u201d are a means to an end, but the real impact is made when the end user grows their business or provides for their family in a way they couldn\u2019t have done before. Importantly, advances in Open Banking, open APIs, and platformification are helping banks, FinTechs, and small and medium-sized enterprises gain access to broader and deeper data sets to inform their activities and provide ever-more advanced and personalized services to customers. As we get better at interrogating and learning from mass data sets, the ability to make recommendations to customers improves with it, seamlessly connecting them to more efficient or novel ways of meeting their financial goals. Crucially, these technological developments also have the potential to free up a trapped and potentially limitless growth funding pool by opening up previously closed and illiquid assets to global trade. A new era of trust enabled by verification technologies, such as blockchain, is already allowing institutions to streamline and speed up information exchange around tradeable financial products like loans, reducing operating costs and lowering risk around transactions. Lower costs and lower risk mean a higher incentive to trade and show us a potential route to reducing the $1.6 trillion trade financing gap that continues to hinder developing nations in helping the less fortunate in their populations out of poverty. We are on the cusp of a great shift in how both the banked and unbanked portions of our global economy are helped to prosper. Greater financial inclusion, through services which are more accessible and more intelligent to billions globally, is one of the greatest opportunities to drive shared prosperity in the years to come. <b>Sources<\/b> Finastra Research https:\/\/www.worldbank.org\/en\/topic\/financialinclusion\/overview https:\/\/www.gsma.com\/mobileeconomy\/wp-content\/uploads\/2018\/02\/The-Mobile-Economy-Global-2018.pdf",
+    "summary": null,
+    "summary_processed": ""
+}

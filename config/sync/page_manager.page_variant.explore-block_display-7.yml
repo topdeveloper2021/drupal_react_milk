@@ -1,0 +1,45 @@
+uuid: a69af024-cfe2-462c-b25f-9a98c658e58c
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.explore
+  module:
+    - component
+    - system
+id: explore-block_display-7
+label: Events
+variant: block_display
+variant_settings:
+  blocks:
+    14426bce-3be1-47f7-b5e2-d360b1d193de:
+      id: 'component:EntityBrowser'
+      label: 'Entity Browser'
+      provider: component
+      label_display: '0'
+      region: top
+      weight: 0
+      uuid: 14426bce-3be1-47f7-b5e2-d360b1d193de
+      form_configuration:
+        id: events_browser
+        type: event--conference
+        view_mode: card
+        url: '/jsonapi/event/conference?jsonapi_include=true'
+        tag: entity-browser
+        attach_library: milken_base/EntityBrowser
+      context_mapping: {  }
+  id: block_display
+  uuid: 5b71e1c9-7d66-4317-a1da-812e665ca303
+  label: null
+  weight: 0
+  page_title: 'Explore Events'
+page: explore
+weight: 0
+selection_criteria:
+  -
+    id: request_path
+    pages: /explore/events
+    negate: false
+    context_mapping: {  }
+selection_logic: and
+static_context: {  }

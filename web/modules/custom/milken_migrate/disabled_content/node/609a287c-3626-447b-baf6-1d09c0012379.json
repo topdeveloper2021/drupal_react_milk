@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/can-macroprudential-policy-prevent-systemic-risk-new-report-milken-institute-highlights?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 670
+        }
+    ],
+    "uuid": [
+        {
+            "value": "609a287c-3626-447b-baf6-1d09c0012379"
+        }
+    ],
+    "vid": [
+        {
+            "value": 670
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Can Macroprudential Policy Prevent Systemic Risk? New Report from Milken Institute Highlights An Emerging Focus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-07-08T08:40:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:20:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/can-macroprudential-policy-prevent-systemic-risk-new-report-milken-institute-highlights",
+            "pid": 723,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES \u2013 In the wake of the global financial crisis, policymakers, investors, and lenders analyzed the lead-up to the meltdown to see what changes could prevent another near-collapse. The result: a new focus on how macroprudential policy can reduce systemic risk. In a report released today, \u201cMacroprudential Policy: Silver Bullet or Refighting the Last War?\u201d the Milken Institute explores the emerging macroprudential policy discussion and the implications for broader monetary policy.Prior to the crisis, financial \u201cfault lines\u201d worsened to extremes amid the complacency of financial institutions and regulators, who were overconfident in their ability to manage risk without regard for broader systemic impact. With hindsight, it is evident that seemingly unrelated risks were in fact intertwined and cumulatively posed serious threats to the global financial system. The crisis highlighted the need for macroprudential supervision, which takes a wider, systemic view. Such oversight is concerned with the stability of entire industries and the health of linkages within the financial sector that can shatter, or strengthen, the economy. It is emerging as a crucial tool to address a glaring policy gap.\u201cMacroprudential policy is a new field, and it is difficult to see how it will play out politically,\u201d says Claude Lopez, director of research at the Milken Institute and an author of the report. \u201cYet one of the most critical formative steps is building its institutional underpinnings.\u201dPresently, the macroprudential regime across developed economies is a mixed bag. In the United States, the Financial Stability Oversight Council (FSOC) must become more effective in the balkanized U.S. regulatory system. The FSOC structure needs greater independence to take potentially unpopular stands, especially on countercyclical macroprudential policy, such as reducing access to loans in an overheating real-estate market. The challenge in the euro zone: a lack of coordination between country-specific macroprudential policy and European Central Bank-driven monetary policy. In contrast, the Bank of England hosts both the Monetary Policy Committee and the Financial Policy Committee, which is responsible for macroprudential measures.One region that has successfully practiced macroprudential policy is Asia. \u201cMany Asian countries that employed macroprudential measures have been closed economies, with the ability to simultaneously coordinate monetary and fiscal measures,\u201d says Lopez.\u201cBy presenting this report on macroprudential policy, we hope to give policymakers, investors, and the general public\u2014all of whom have a stake in its successful implementation\u2014a platform of information and insight that will inform the unfolding discussion,\u201d says Ross DeVol, Milken Institute chief research officer. \u201cIt\u2019s an area that we plan to remain active in, not only in our research but in our ability to convene players from all sides of these complex but important issues.\u201dTo get a copy of \u201cMacroprudential Policy: Silver Bullet or Refighting the Last War?\u201d by Claude Lopez, Donald Markwardt and Keith Savard, visit http:\/\/www.milkeninstitute.org\/publications\/view\/722.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES \u2013 In the wake of the global financial crisis, policymakers, investors, and lenders analyzed the lead-up to the meltdown to see what changes could prevent another near-collapse. The result: a new focus on how macroprudential policy can reduce systemic risk. In a report released today, \u201cMacroprudential Policy: Silver Bullet or Refighting the Last War?\u201d the Milken Institute explores the emerging macroprudential policy discussion and the implications for broader monetary policy.Prior to the crisis, financial \u201cfault lines\u201d worsened to extremes amid the complacency of financial institutions and regulators, who were overconfident in their ability to manage risk without regard for broader systemic impact. With hindsight, it is evident that seemingly unrelated risks were in fact intertwined and cumulatively posed serious threats to the global financial system. The crisis highlighted the need for macroprudential supervision, which takes a wider, systemic view. Such oversight is concerned with the stability of entire industries and the health of linkages within the financial sector that can shatter, or strengthen, the economy. It is emerging as a crucial tool to address a glaring policy gap.\u201cMacroprudential policy is a new field, and it is difficult to see how it will play out politically,\u201d says Claude Lopez, director of research at the Milken Institute and an author of the report. \u201cYet one of the most critical formative steps is building its institutional underpinnings.\u201dPresently, the macroprudential regime across developed economies is a mixed bag. In the United States, the Financial Stability Oversight Council (FSOC) must become more effective in the balkanized U.S. regulatory system. The FSOC structure needs greater independence to take potentially unpopular stands, especially on countercyclical macroprudential policy, such as reducing access to loans in an overheating real-estate market. The challenge in the euro zone: a lack of coordination between country-specific macroprudential policy and European Central Bank-driven monetary policy. In contrast, the Bank of England hosts both the Monetary Policy Committee and the Financial Policy Committee, which is responsible for macroprudential measures.One region that has successfully practiced macroprudential policy is Asia. \u201cMany Asian countries that employed macroprudential measures have been closed economies, with the ability to simultaneously coordinate monetary and fiscal measures,\u201d says Lopez.\u201cBy presenting this report on macroprudential policy, we hope to give policymakers, investors, and the general public\u2014all of whom have a stake in its successful implementation\u2014a platform of information and insight that will inform the unfolding discussion,\u201d says Ross DeVol, Milken Institute chief research officer. \u201cIt\u2019s an area that we plan to remain active in, not only in our research but in our ability to convene players from all sides of these complex but important issues.\u201dTo get a copy of \u201cMacroprudential Policy: Silver Bullet or Refighting the Last War?\u201d by Claude Lopez, Donald Markwardt and Keith Savard, visit http:\/\/www.milkeninstitute.org\/publications\/view\/722.",
+    "summary": null,
+    "summary_processed": ""
+}

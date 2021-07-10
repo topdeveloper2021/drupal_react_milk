@@ -1,0 +1,29 @@
+uuid: fde09274-8990-4157-8750-8dc1d3197b97
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.people.person
+    - field.storage.people.field_topics
+    - taxonomy.vocabulary.topics
+id: people.person.field_topics
+field_name: field_topics
+entity_type: people
+bundle: person
+label: Topics
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

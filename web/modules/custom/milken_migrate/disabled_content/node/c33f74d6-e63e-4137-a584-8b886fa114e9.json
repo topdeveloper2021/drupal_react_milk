@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/power-online-learning-scale-future-behavioral-health?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/100?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 581
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c33f74d6-e63e-4137-a584-8b886fa114e9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 581
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/100?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e63c8189-f208-46d2-8432-6f0181476020"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Power of Online Learning to Scale the Future of Behavioral Health",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-07T19:05:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/power-online-learning-scale-future-behavioral-health",
+            "pid": 634,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "My life\u2019s work has taken me down a path where I\u2019ve learned and witnessed the incredible power of online education, and how it can be scaled to improve the future and quality of health care. My journey began 20 years ago in a general psychotherapist practice, and after 10 years took an unexpected turn. I was asked to become a counselor at the Marine Corps Recruit Depot in San Diego. I had no prior military experience, and I knew it would be a challenge to adequately understand the unique needs of those who served in the military. Marines don\u2019t seek preventive support; thus, with senior leadership encouragement, I developed and implemented a mandatory counseling program. I had the great privilege of interacting with over 500 drill instructors to ensure the program was effective. Within two years, Camp Pendleton embraced the program, and its reach expanded to thousands of men and women. The preventative nature of these visits created an outlet for counseling to be proactive rather than reactive. This ultimately led to more productive and healthy service members. I learned a tremendous amount about veteran issues through my experience working with Marines\u2014especially the chasm between the military community and the 99 percent of Americans, like myself, who haven\u2019t served. This lack of knowledge among medical and mental health professionals working with service members often results in miscommunication, misunderstanding, and poorer care for those who deserve it most\u2014America\u2019s veterans. But it was clear to me that we could help educate those who interact with and care for veterans. I founded PsychArmor Institute in 2014, a nonprofit to bridge the gap between the military and non-military communities through online education. PsychArmor hosts an online library of 125 (and growing) free, high-quality courses produced using live film and animation. We have experts and celebrities deliver the content in compelling, short to mid-length segments. Our goal is to educate all Americans who work with or care for veterans. PsychArmor has reached over a million learners through 400 partners, such as the Veterans Administration (VA), the Department of Defense, Comcast\/NBC\/Universal, and many other government and private entities. One of our priorities is training community mental health-care providers to effectively treat veterans with Post-Traumatic Stress Disorder (PTSD) using evidence-based interventions. TriWest Healthcare Alliance, the VA, and the Center for Deployment Psychology joined PsychArmor to take a risk on a ground-breaking venture creating online training for behavioral health providers in the two gold-standard treatments for PTSD: Cognitive Processing Therapy and Prolonged Exposure. A year after launching the program, it was demonstrated that veterans who were treated by trained providers had significant decreases in PTSD symptoms. We quickly realized the power, reach, and benefits targeted online education can have. Patrick Kennedy, one of America\u2019s strongest advocates in mental health and substance abuse treatment, has always had a keen interest in both veteran issues and education. When I shared with him the progress PsychArmor was making in treating PTSD, he immediately saw how this method could be scaled to the larger behavioral health space. Like myself, most therapists are generalists; we aren\u2019t trained in the latest evidence-based interventions to effectively treat the full spectrum of mental health symptoms and disorders. Therefore, if you need a clinician specialized in treating anxiety, an eating disorder, substance use, sleep issues, or other disorders, you really have no way of knowing who the true experts are. As Patrick and I continued to speak, it became clear to both of us that the solution to this widespread problem lies in expert, accessible training and acknowledged accreditations, so that clinicians can better serve the communities who seek them out. We\u2019ve since joined forces to create PsycHub, launching fall 2018. PsycHub is developing dozens of training videos to provide evidence-based interventions for a myriad of mental health symptoms and disorders. Once trained, mental health providers will be listed on the PsycHub registry, where consumers can easily search for and be matched with providers. We\u2019re also building over 100 free, consumer-focused two- to three-minute videos about the more common mental health conditions like substance use, depression, and suicide issues. I envision the future of health care to include a consumer-driven behavioral health ecosystem, where people can access specifically trained providers to match their symptoms, ultimately leading to a higher standard of care. We have excellent clinicians in this country operating in an antiquated model; I am truly honored to be part of a meaningful solution.",
+    "format": "rich_text",
+    "processed": "My life\u2019s work has taken me down a path where I\u2019ve learned and witnessed the incredible power of online education, and how it can be scaled to improve the future and quality of health care. My journey began 20 years ago in a general psychotherapist practice, and after 10 years took an unexpected turn. I was asked to become a counselor at the Marine Corps Recruit Depot in San Diego. I had no prior military experience, and I knew it would be a challenge to adequately understand the unique needs of those who served in the military. Marines don\u2019t seek preventive support; thus, with senior leadership encouragement, I developed and implemented a mandatory counseling program. I had the great privilege of interacting with over 500 drill instructors to ensure the program was effective. Within two years, Camp Pendleton embraced the program, and its reach expanded to thousands of men and women. The preventative nature of these visits created an outlet for counseling to be proactive rather than reactive. This ultimately led to more productive and healthy service members. I learned a tremendous amount about veteran issues through my experience working with Marines\u2014especially the chasm between the military community and the 99 percent of Americans, like myself, who haven\u2019t served. This lack of knowledge among medical and mental health professionals working with service members often results in miscommunication, misunderstanding, and poorer care for those who deserve it most\u2014America\u2019s veterans. But it was clear to me that we could help educate those who interact with and care for veterans. I founded PsychArmor Institute in 2014, a nonprofit to bridge the gap between the military and non-military communities through online education. PsychArmor hosts an online library of 125 (and growing) free, high-quality courses produced using live film and animation. We have experts and celebrities deliver the content in compelling, short to mid-length segments. Our goal is to educate all Americans who work with or care for veterans. PsychArmor has reached over a million learners through 400 partners, such as the Veterans Administration (VA), the Department of Defense, Comcast\/NBC\/Universal, and many other government and private entities. One of our priorities is training community mental health-care providers to effectively treat veterans with Post-Traumatic Stress Disorder (PTSD) using evidence-based interventions. TriWest Healthcare Alliance, the VA, and the Center for Deployment Psychology joined PsychArmor to take a risk on a ground-breaking venture creating online training for behavioral health providers in the two gold-standard treatments for PTSD: Cognitive Processing Therapy and Prolonged Exposure. A year after launching the program, it was demonstrated that veterans who were treated by trained providers had significant decreases in PTSD symptoms. We quickly realized the power, reach, and benefits targeted online education can have. Patrick Kennedy, one of America\u2019s strongest advocates in mental health and substance abuse treatment, has always had a keen interest in both veteran issues and education. When I shared with him the progress PsychArmor was making in treating PTSD, he immediately saw how this method could be scaled to the larger behavioral health space. Like myself, most therapists are generalists; we aren\u2019t trained in the latest evidence-based interventions to effectively treat the full spectrum of mental health symptoms and disorders. Therefore, if you need a clinician specialized in treating anxiety, an eating disorder, substance use, sleep issues, or other disorders, you really have no way of knowing who the true experts are. As Patrick and I continued to speak, it became clear to both of us that the solution to this widespread problem lies in expert, accessible training and acknowledged accreditations, so that clinicians can better serve the communities who seek them out. We\u2019ve since joined forces to create PsycHub, launching fall 2018. PsycHub is developing dozens of training videos to provide evidence-based interventions for a myriad of mental health symptoms and disorders. Once trained, mental health providers will be listed on the PsycHub registry, where consumers can easily search for and be matched with providers. We\u2019re also building over 100 free, consumer-focused two- to three-minute videos about the more common mental health conditions like substance use, depression, and suicide issues. I envision the future of health care to include a consumer-driven behavioral health ecosystem, where people can access specifically trained providers to match their symptoms, ultimately leading to a higher standard of care. We have excellent clinicians in this country operating in an antiquated model; I am truly honored to be part of a meaningful solution.",
+    "summary": null,
+    "summary_processed": ""
+}

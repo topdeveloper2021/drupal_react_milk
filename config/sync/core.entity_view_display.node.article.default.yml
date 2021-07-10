@@ -1,0 +1,90 @@
+uuid: 140d4d41-8aae-4d55-a29d-f671843808fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_authors
+    - field.field.node.article.field_centers
+    - field.field.node.article.field_collections
+    - field.field.node.article.field_content
+    - field.field.node.article.field_event
+    - field.field.node.article.field_events
+    - field.field.node.article.field_index_weight
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_promo_slide
+    - field.field.node.article.field_region
+    - field.field.node.article.field_summary
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_topics
+    - field.field.node.article.field_yoast_seo
+    - node.type.article
+  module:
+    - entity_reference_revisions
+    - layout_builder
+    - layout_builder_restrictions
+    - metatag
+    - user
+    - yoast_seo
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      whitelisted_blocks: {  }
+      blacklisted_blocks: {  }
+      allowed_layouts: {  }
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    region: content
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_empty_formatter
+    weight: 0
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_promotional_slide:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_yoast_seo:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: yoastseo_formatter
+    region: content
+hidden:
+  field_authors: true
+  field_centers: true
+  field_collections: true
+  field_event: true
+  field_events: true
+  field_index_weight: true
+  field_promo_slide: true
+  field_region: true
+  field_summary: true
+  field_tags: true
+  field_topics: true
+  langcode: true
+  layout_builder__layout: true
+  links: true
+  published_at: true
+  search_api_excerpt: true

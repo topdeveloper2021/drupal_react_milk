@@ -1,0 +1,19 @@
+uuid: be501aa0-9569-4210-92e2-6f460be0c158
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.meeting
+    - field.storage.event.field_campaign_id
+id: event.meeting.field_campaign_id
+field_name: field_campaign_id
+entity_type: event
+bundle: meeting
+label: 'Campaign ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

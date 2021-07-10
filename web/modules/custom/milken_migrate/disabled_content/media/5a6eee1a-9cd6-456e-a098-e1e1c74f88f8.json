@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7243\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7243
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5a6eee1a-9cd6-456e-a098-e1e1c74f88f8"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1673
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0828ffb5-a2c6-4dcc-8bf2-8292700e71c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Green Gold: Californias New Cash Crop",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-16T19:58:48+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T18:47:44+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "California, already the nation\u2019s largest producer of medical marijuana \u2013 a $7 billion industry \u2013 is poised to become the largest recreational marijuana market in the world. Anticipating strong recreational sales starting in 2018, California growers are buying up former prisons, vineyards and repair shops to stage their operations. Despite robust cash flow and consumer demand, marijuana businesses across the state still have few options for banking their cash. Most banks, wary of federal laws that criminalize marijuana-based commerce, largely decline to work with even the most established growers, distributors and dispensaries. Ripe conditions, critics say, for a black market that could rob the state of hundreds of millions of dollars in potential tax revenue. Moderator Joe Mathews, California and Innovation Editor, Z\u00f3calo Public Square; Co-President, Global Forum on Modern Direct Democracy Speakers Hezekiah Allen, Executive Director, California Growers Association Adam Bierman, Co-Founder and CEO, MedMen<br \/> Matthew Dababneh, Assemblymember, 45th District, State of California Cat Packer, Executive Director, Los Angeles Department of Cannabis Regulation, City of Los Angeles Karan Wadhera, Managing Partner, Casa Verde Capital",
+    "format": "rich_text",
+    "processed": "California, already the nation\u2019s largest producer of medical marijuana \u2013 a $7 billion industry \u2013 is poised to become the largest recreational marijuana market in the world. Anticipating strong recreational sales starting in 2018, California growers are buying up former prisons, vineyards and repair shops to stage their operations. Despite robust cash flow and consumer demand, marijuana businesses across the state still have few options for banking their cash. Most banks, wary of federal laws that criminalize marijuana-based commerce, largely decline to work with even the most established growers, distributors and dispensaries. Ripe conditions, critics say, for a black market that could rob the state of hundreds of millions of dollars in potential tax revenue. Moderator Joe Mathews, California and Innovation Editor, Z\u00f3calo Public Square; Co-President, Global Forum on Modern Direct Democracy Speakers Hezekiah Allen, Executive Director, California Growers Association Adam Bierman, Co-Founder and CEO, MedMen<br \/> Matthew Dababneh, Assemblymember, 45th District, State of California Cat Packer, Executive Director, Los Angeles Department of Cannabis Regulation, City of Los Angeles Karan Wadhera, Managing Partner, Casa Verde Capital",
+    "summary": null,
+    "summary_processed": "",
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/videoseries",
+            "lang": "en"
+        }
+    ]
+}

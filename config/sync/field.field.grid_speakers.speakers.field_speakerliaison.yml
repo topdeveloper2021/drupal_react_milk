@@ -1,0 +1,19 @@
+uuid: 8f4b3616-d2ad-43dd-b251-fceaaf7c19ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_speakerliaison
+id: grid_speakers.speakers.field_speakerliaison
+field_name: field_speakerliaison
+entity_type: grid_speakers
+bundle: speakers
+label: speakerliaison
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

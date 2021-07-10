@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/sba-and-milken-institute-launch-initiative-improve-access-capital-underserved-communities?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 23
+        }
+    ],
+    "uuid": [
+        {
+            "value": "32b850f3-c357-4962-8faa-ee7a5109431b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 23
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "SBA and Milken Institute Launch Initiative to Improve Access to Capital for Underserved Communities in Los Angeles",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-10-28T11:55:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/sba-and-milken-institute-launch-initiative-improve-access-capital-underserved-communities",
+            "pid": 76,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "SBA and Milken Institute Launch Initiative to Improve Access to Capital for Underserved Communities in Los AngelesLOS ANGELES \u2014 Today the U.S. Small Business Administration (SBA) and the Milken Institute jointly launched the Los Angeles pilot program: Partnership for Lending in Underserved Markets (PLUM). This groundbreaking collaboration will develop and test initiatives designed to more effectively deliver capital to deserving minority-owned businesses throughout the United States. Los Angeles is only the second American city with a pilot PLUM program. Today's launch event included a workshop at the University of Southern California that brought together small business leaders from Los Angeles with the SBA and Milken Institute.In making the announcement, <b>Maria Contreras-Sweet, SBA Administrator and the voice of small business on the President's Cabinet<\/b>, said: \"PLUM will give entrepreneurs the tools and resources they need to change lives and rebuild communities. And while we have made great progress -- SBA guaranteed loans have increased 21 percent to African-Americans and 18 percent to Hispanics in the past year -- we still have work to do. As we did in Baltimore, I look forward to expanding this effort in Los Angeles and applying what we learn in communities across the country.\"<b>Kevin Klowden, executive director of the Milken Institute's California Center<\/b> and <b>co-chair of the Los Angeles Task Force<\/b>, said: \"In launching our pilot in Los Angeles in conjunction with the SBA, we specifically want to focus on the need to bring capital to African-American and Latino small businesses and provide them with new opportunities for real growth. In addition, we seek to stimulate job creation through directly addressing lending gaps in underserved communities. We look forward to working with the leaders of both Los Angeles and Baltimore to do so.\"\"Small business is a crucial ingredient for creating jobs and widening prosperity,\" said <b>Eric Garcetti, Mayor of Los Angeles<\/b>. \"Widening access to capital for small businesses in traditionally underserved communities, especially African-American and Latino, is a key goal of my administration, and so I am delighted that the SBA and the Milken Institute will be working in the city of Los Angeles to help realize that goal.\"Following the Great Recession, small business owners, especially those setting up shop in underserved markets, have faced a recurring problem of limited access to capital. Conventional small business credit is still only at 85 percent of its pre-recession level. These gaps are especially evident in metropolitan areas with higher proportions of minority-owned businesses including Baltimore, Maryland and Los Angeles, California.The PLUM initiative responds to this persistent challenge by bringing together leaders and policy experts from SBA and the Milken Institute to develop policies, recommendations, and concrete steps toward increasing access to lending and other sources of business capital in minority and other underserved communities.The long term goal of the initiative is to increase the capacity of lenders to better serve historically underdeveloped sectors of the small business community. Baltimore and Los Angeles were chosen because their economies also impact surrounding communities and can help drive growth in larger regional economies.\"My Administration is committed to creating greater access to capital and business opportunities for Baltimore City's small, minority, and women-owned businesses,\" said <b>Stephanie Rawlings-Blake, Mayor of Baltimore<\/b>. \"Partnering with the SBA, Milken Institute and the city of Los Angeles on the PLUM initiative expands the opportunity to connect minority entrepreneurs and traditionally underrepresented business communities to programs that encourage their growth. Together we can create resources that address capital access disparities in order to bolster the health of local economies, which thrive when small and minority-owned businesses are successful.\"<b>Aron Betru, managing director of the Milken Institute's Center for Financial Markets<\/b> and <b>co-chair of the Baltimore Task Force<\/b>, said: \"After launching the Baltimore PLUM Pilot last month, I couldn't be more excited that we are now kicking off the Los Angeles PLUM Pilot, where the Milken Institute is headquartered. I know firsthand how the community of minority-owned small businesses in Los Angeles can benefit from this collaboration between the Milken Institute and the Small Business Administration to promote financial market understanding and increased access to capital.\"For its part the Milken Institute will provide direction, research and engagement with stakeholders to address specific challenges faced by small business lending in underserved markets. SBA will provide expert leadership, data and information to support the initiative and will market transferrable solutions to other cities and communities beyond Los Angeles and Baltimore.For more information on PLUM, visit milkeninstitute.org\/PLUM.<b> Left to right: Mark Robertson, Sr., President & CEO, Pacific Coast Regional Corp.; Kevin Klowden, Executive Director, California Center and Managing Economist, Milken Institute; Victor Parker, Los Angeles District Director, SBA; Isabel Guzman, Deputy Chief of Staff, SBA. Photo Credit: Tyrone D. Washington\/Wave Tech Media.<strong>ABOUT THE U.S. SMALL BUSINESS ADMINISTRATION (SBA)<\/b> The U.S. Small Business Administration (SBA) was created in 1953 and since January 13, 2012 has served as a Cabinet-level agency of the federal government to aid, counsel, assist and protect the interests of small business concerns, to preserve free competitive enterprise and to maintain and strengthen the overall economy of our nation. The SBA helps Americans start, build and grow businesses. Through an extensive network of field offices and partnerships with public and private organizations, the SBA delivers its services to people throughout the United States, Puerto Rico, the U.S. Virgin Islands and Guam.<br>www.sba.gov <br>@SBAgov",
+    "format": "rich_text",
+    "processed": "SBA and Milken Institute Launch Initiative to Improve Access to Capital for Underserved Communities in Los AngelesLOS ANGELES \u2014 Today the U.S. Small Business Administration (SBA) and the Milken Institute jointly launched the Los Angeles pilot program: Partnership for Lending in Underserved Markets (PLUM). This groundbreaking collaboration will develop and test initiatives designed to more effectively deliver capital to deserving minority-owned businesses throughout the United States. Los Angeles is only the second American city with a pilot PLUM program. Today's launch event included a workshop at the University of Southern California that brought together small business leaders from Los Angeles with the SBA and Milken Institute.In making the announcement, <b>Maria Contreras-Sweet, SBA Administrator and the voice of small business on the President's Cabinet<\/b>, said: \"PLUM will give entrepreneurs the tools and resources they need to change lives and rebuild communities. And while we have made great progress -- SBA guaranteed loans have increased 21 percent to African-Americans and 18 percent to Hispanics in the past year -- we still have work to do. As we did in Baltimore, I look forward to expanding this effort in Los Angeles and applying what we learn in communities across the country.\"<b>Kevin Klowden, executive director of the Milken Institute's California Center<\/b> and <b>co-chair of the Los Angeles Task Force<\/b>, said: \"In launching our pilot in Los Angeles in conjunction with the SBA, we specifically want to focus on the need to bring capital to African-American and Latino small businesses and provide them with new opportunities for real growth. In addition, we seek to stimulate job creation through directly addressing lending gaps in underserved communities. We look forward to working with the leaders of both Los Angeles and Baltimore to do so.\"\"Small business is a crucial ingredient for creating jobs and widening prosperity,\" said <b>Eric Garcetti, Mayor of Los Angeles<\/b>. \"Widening access to capital for small businesses in traditionally underserved communities, especially African-American and Latino, is a key goal of my administration, and so I am delighted that the SBA and the Milken Institute will be working in the city of Los Angeles to help realize that goal.\"Following the Great Recession, small business owners, especially those setting up shop in underserved markets, have faced a recurring problem of limited access to capital. Conventional small business credit is still only at 85 percent of its pre-recession level. These gaps are especially evident in metropolitan areas with higher proportions of minority-owned businesses including Baltimore, Maryland and Los Angeles, California.The PLUM initiative responds to this persistent challenge by bringing together leaders and policy experts from SBA and the Milken Institute to develop policies, recommendations, and concrete steps toward increasing access to lending and other sources of business capital in minority and other underserved communities.The long term goal of the initiative is to increase the capacity of lenders to better serve historically underdeveloped sectors of the small business community. Baltimore and Los Angeles were chosen because their economies also impact surrounding communities and can help drive growth in larger regional economies.\"My Administration is committed to creating greater access to capital and business opportunities for Baltimore City's small, minority, and women-owned businesses,\" said <b>Stephanie Rawlings-Blake, Mayor of Baltimore<\/b>. \"Partnering with the SBA, Milken Institute and the city of Los Angeles on the PLUM initiative expands the opportunity to connect minority entrepreneurs and traditionally underrepresented business communities to programs that encourage their growth. Together we can create resources that address capital access disparities in order to bolster the health of local economies, which thrive when small and minority-owned businesses are successful.\"<b>Aron Betru, managing director of the Milken Institute's Center for Financial Markets<\/b> and <b>co-chair of the Baltimore Task Force<\/b>, said: \"After launching the Baltimore PLUM Pilot last month, I couldn't be more excited that we are now kicking off the Los Angeles PLUM Pilot, where the Milken Institute is headquartered. I know firsthand how the community of minority-owned small businesses in Los Angeles can benefit from this collaboration between the Milken Institute and the Small Business Administration to promote financial market understanding and increased access to capital.\"For its part the Milken Institute will provide direction, research and engagement with stakeholders to address specific challenges faced by small business lending in underserved markets. SBA will provide expert leadership, data and information to support the initiative and will market transferrable solutions to other cities and communities beyond Los Angeles and Baltimore.For more information on PLUM, visit milkeninstitute.org\/PLUM.<b> Left to right: Mark Robertson, Sr., President &amp; CEO, Pacific Coast Regional Corp.; Kevin Klowden, Executive Director, California Center and Managing Economist, Milken Institute; Victor Parker, Los Angeles District Director, SBA; Isabel Guzman, Deputy Chief of Staff, SBA. Photo Credit: Tyrone D. Washington\/Wave Tech Media.<strong>ABOUT THE U.S. SMALL BUSINESS ADMINISTRATION (SBA)<\/strong><\/b> The U.S. Small Business Administration (SBA) was created in 1953 and since January 13, 2012 has served as a Cabinet-level agency of the federal government to aid, counsel, assist and protect the interests of small business concerns, to preserve free competitive enterprise and to maintain and strengthen the overall economy of our nation. The SBA helps Americans start, build and grow businesses. Through an extensive network of field offices and partnerships with public and private organizations, the SBA delivers its services to people throughout the United States, Puerto Rico, the U.S. Virgin Islands and Guam.<br \/>www.sba.gov <br \/>@SBAgov",
+    "summary": null,
+    "summary_processed": ""
+}

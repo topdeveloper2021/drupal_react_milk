@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7041\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/l6VvI4i8wSFoBMKpMjHinTNcogiXvq0ortevPzgHWvs.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7041
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d43c37d8-f5b4-4016-a349-9a2b3d4a0a9d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 13
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/l6VvI4i8wSFoBMKpMjHinTNcogiXvq0ortevPzgHWvs.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3e0e1406-04bf-4ee8-8f7f-a43a3da88325"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Global Credit Markets: Opportunities in Volatility",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-24T10:56:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The credit market appears to be on pace for record sales this year as investors flock toward collateralized loan obligations. The continued increase in demand is encouraging issuers to relax terms to an extent that could be well below the terms prior to the financial crisis. At the same time global monetary shifts and higher bond yields' continue to impact credit markets. On this panel, we ask several questions: what impact did central banks' decision to increase interest rates on investors credit strategies? And how are the adjusting for additional monetary policy changes? How are investors adjusting to concerns that credit terms might be getting weaker? What are some of the less obvious challenges facing this asset class? How will 2018 come to close for credit investors and what should investors expect for 2019? Will covenant light loans continue to dominate in 2019? Where are the bright spots? ",
+    "format": "rich_text",
+    "processed": "The credit market appears to be on pace for record sales this year as investors flock toward collateralized loan obligations. The continued increase in demand is encouraging issuers to relax terms to an extent that could be well below the terms prior to the financial crisis. At the same time global monetary shifts and higher bond yields' continue to impact credit markets. On this panel, we ask several questions: what impact did central banks' decision to increase interest rates on investors credit strategies? And how are the adjusting for additional monetary policy changes? How are investors adjusting to concerns that credit terms might be getting weaker? What are some of the less obvious challenges facing this asset class? How will 2018 come to close for credit investors and what should investors expect for 2019? Will covenant light loans continue to dominate in 2019? Where are the bright spots? ",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/YpNUxxb4Wao",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/l6VvI4i8wSFoBMKpMjHinTNcogiXvq0ortevPzgHWvs.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

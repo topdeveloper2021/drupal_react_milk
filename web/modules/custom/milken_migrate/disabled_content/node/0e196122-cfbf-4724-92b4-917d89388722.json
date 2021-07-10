@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/economists-call-inflation-antidote-blah-economy-really-read-it-latest-milken-institute?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 94
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0e196122-cfbf-4724-92b4-917d89388722"
+        }
+    ],
+    "vid": [
+        {
+            "value": 94
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Economists Call for Inflation as an Antidote to the Blah Economy -- Really! Read it in the Latest Milken Institute Review",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/economists-call-inflation-antidote-blah-economy-really-read-it-latest-milken-institute",
+            "pid": 147,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014- Menzie Chinn (University of Wisconsin) and Jeffry Frieden (Harvard) offer a crazy idea about how to deal with the global debt overhang\u2014 crazy, that is, like a fox. \"Raising the expected rate of inflation would reduce the real burden of debt on households, corporations and governments, spurring both investment and consumption,<br>? they write. \"And American households, which hold much of their wealth in the form of houses, would doubly benefit by a reduction of their mortgage debt relative to the value of their assets.<br>?\"We're not claiming that inflation is a painless way to speed deleveraging,<br>? they add. \"We are claiming, though, that it is less painful than the realistic alternatives.<br>?\nAlso in this issue:\nJames R. Barth, Apanard Prabha and Phillip Swagel of the Milken Institute report on what's been done to prevent another 2008-style financial meltdown -- and the prospects for their success. Turns out it's probably a lot more than you thought, but less than needs to be done to manage the incredibly complex, rapidly evolving global financial system.\nNicholas Eberstadt, a demographer at the American Enterprise Institute, offers startling (and welcome) information on population change in predominantly Muslim countries. \"Muslim societies,<br>? he explains, \"were widely believed to be stubbornly resistant to the great social and economic forces driving what is called the aEUR~demographic transition.' Well, guess what? Muslim societies aren't so different, after all: While some Muslim countries came late to the party, the factors that have reduced fertility to sub-replacement levels in virtually all of Europe and East Asia now seem to be working their magic in those societies as well.<br>?\nGary Burtless of the Brookings Institution explains everything you'd like to know\u2014 or maybe don't -- about the growing scourge of long-term unemployment. \"Some of those affected eventually exit the work force, retiring long before their capacity and willingness to work end,<br>? laments Burtless. \"Others may find employment, but in jobs that are a poor match for their skills and experience. These losses have consequences for the broader economy, shrinking potential output and increasing the burden on costly transfer programs, including Medicaid and Social Security Disability Insurance.<br>?\nRamanan Laxminarayan, director of the Center for Disease Dynamics, Economics and Policy in Washington, analyzes the economics of antibiotics. \"Sixty years after antibiotics were first routinely used to treat infectious diseases, biological resistance to these remarkable defenders against micro-organisms is widespread,<br>? he points out. \"But what still amounts to a cost problem in rich countries is becoming a serious threat to public health in the developing world: lower-income countries face a growing toll of death and morbidity from curable infections because the generally available antibiotics no longer work.<br>?\nJohn Rosenthal, a California-based freelance writer, examines the financial wreckage of the US Postal Service, concluding that much could be done to bring snail mail into the 21st century. \"Its universal service obligation to deliver to every mailbox, widely viewed as a burden, will eventually have to be exploited as an asset,<br>? he concludes. \"Last-mile delivery is very expensive, but advertisers and small local companies will continue to use it because the returns exceed the costs. E-mails and texts can be deleted, phone calls can be screened. Mail remains the most certain way to get into people's homes.<br>?\nLarry J. White, an economist at the Stern School of Business at NYU, revisits a housing crisis that threatens to outlast the Energizer Bunny. \"Your local RealtorA(R) has been claiming there has never been a better time to buy for at least three years\u2014 and one of these days she'll be right,<br>? he quips. \"But with hundreds of thousands of homes in foreclosure and a quarter of all mortgage borrowers underwater, there's very little light to glimpse at the end of the tunnel.<br>?\nHunt Allcott (NYU) and Michael Greenstone (MIT) wonder why businesses and households ignore ways to cut energy use that could painlessly save them money\u2014 or whether the observation is simply incorrect. \"What credible evidence there is for a pervasive energy-efficiency gap is underwhelming,<br>? they conclude. \"Some consumers appear to be imperfectly informed, leading to increases in energy use in a variety of settings. However, the magnitudes of the investment inefficiencies appear to be smaller\u2014 much smaller\u2014 than those implied by engineering analyses.<br>?\nThe Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=list&cat=mir, where you can also download the app for iPhone and iPad.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014- Menzie Chinn (University of Wisconsin) and Jeffry Frieden (Harvard) offer a crazy idea about how to deal with the global debt overhang\u2014 crazy, that is, like a fox. \"Raising the expected rate of inflation would reduce the real burden of debt on households, corporations and governments, spurring both investment and consumption,<br \/>? they write. \"And American households, which hold much of their wealth in the form of houses, would doubly benefit by a reduction of their mortgage debt relative to the value of their assets.<br \/>?\"We're not claiming that inflation is a painless way to speed deleveraging,<br \/>? they add. \"We are claiming, though, that it is less painful than the realistic alternatives.<br \/>?\nAlso in this issue:\nJames R. Barth, Apanard Prabha and Phillip Swagel of the Milken Institute report on what's been done to prevent another 2008-style financial meltdown -- and the prospects for their success. Turns out it's probably a lot more than you thought, but less than needs to be done to manage the incredibly complex, rapidly evolving global financial system.\nNicholas Eberstadt, a demographer at the American Enterprise Institute, offers startling (and welcome) information on population change in predominantly Muslim countries. \"Muslim societies,<br \/>? he explains, \"were widely believed to be stubbornly resistant to the great social and economic forces driving what is called the aEUR~demographic transition.' Well, guess what? Muslim societies aren't so different, after all: While some Muslim countries came late to the party, the factors that have reduced fertility to sub-replacement levels in virtually all of Europe and East Asia now seem to be working their magic in those societies as well.<br \/>?\nGary Burtless of the Brookings Institution explains everything you'd like to know\u2014 or maybe don't -- about the growing scourge of long-term unemployment. \"Some of those affected eventually exit the work force, retiring long before their capacity and willingness to work end,<br \/>? laments Burtless. \"Others may find employment, but in jobs that are a poor match for their skills and experience. These losses have consequences for the broader economy, shrinking potential output and increasing the burden on costly transfer programs, including Medicaid and Social Security Disability Insurance.<br \/>?\nRamanan Laxminarayan, director of the Center for Disease Dynamics, Economics and Policy in Washington, analyzes the economics of antibiotics. \"Sixty years after antibiotics were first routinely used to treat infectious diseases, biological resistance to these remarkable defenders against micro-organisms is widespread,<br \/>? he points out. \"But what still amounts to a cost problem in rich countries is becoming a serious threat to public health in the developing world: lower-income countries face a growing toll of death and morbidity from curable infections because the generally available antibiotics no longer work.<br \/>?\nJohn Rosenthal, a California-based freelance writer, examines the financial wreckage of the US Postal Service, concluding that much could be done to bring snail mail into the 21st century. \"Its universal service obligation to deliver to every mailbox, widely viewed as a burden, will eventually have to be exploited as an asset,<br \/>? he concludes. \"Last-mile delivery is very expensive, but advertisers and small local companies will continue to use it because the returns exceed the costs. E-mails and texts can be deleted, phone calls can be screened. Mail remains the most certain way to get into people's homes.<br \/>?\nLarry J. White, an economist at the Stern School of Business at NYU, revisits a housing crisis that threatens to outlast the Energizer Bunny. \"Your local RealtorA(R) has been claiming there has never been a better time to buy for at least three years\u2014 and one of these days she'll be right,<br \/>? he quips. \"But with hundreds of thousands of homes in foreclosure and a quarter of all mortgage borrowers underwater, there's very little light to glimpse at the end of the tunnel.<br \/>?\nHunt Allcott (NYU) and Michael Greenstone (MIT) wonder why businesses and households ignore ways to cut energy use that could painlessly save them money\u2014 or whether the observation is simply incorrect. \"What credible evidence there is for a pervasive energy-efficiency gap is underwhelming,<br \/>? they conclude. \"Some consumers appear to be imperfectly informed, leading to increases in energy use in a variety of settings. However, the magnitudes of the investment inefficiencies appear to be smaller\u2014 much smaller\u2014 than those implied by engineering analyses.<br \/>?\nThe Milken Institute Review is sent quarterly to the world's leading business and financial executives, senior policy makers and journalists. It is edited by Peter Passell, former economics columnist for The New York Times. You may find it on the Institute's site at http:\/\/www.milkeninstitute.org\/publications\/publications.taf?function=list&amp;cat=mir, where you can also download the app for iPhone and iPad.",
+    "summary": null,
+    "summary_processed": ""
+}

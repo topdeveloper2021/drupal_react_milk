@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7848\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/GGomjSVBUijbsWXAdK2W1t3VYUe3mnlYJNVVVnW2ELw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7848
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9603f8a6-ce34-430a-9a82-c3c612dd4005"
+        }
+    ],
+    "vid": [
+        {
+            "value": 505
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/GGomjSVBUijbsWXAdK2W1t3VYUe3mnlYJNVVVnW2ELw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "746ead6e-2670-4406-b5dd-3512b9742f40"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Expanding Our Frontiers: How Manned Spaceflight Can Change Your Future",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-04-29T22:29:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "As unmanned missions such as landing on a comet and exploring Mars inspire wonder and demonstrate what science can do, interest in the prospect of human space flight continues to rise. However, the U.S. collaboration with Russia on the International Space Station is nearing its end. How people will travel through space in the future has become an open question. If the U.S. decides to commit itself to the cause, can we do it alone? Can the space program become economically sustainable? Can the private sector make it profitable? Is asteroid mining a place to focus resources? And do we have the means to actually put someone on Mars? Our panel will probe the future of public and commercial space flight--the goals, the economics and how far the will to explore may take us.",
+    "format": "rich_text",
+    "processed": "As unmanned missions such as landing on a comet and exploring Mars inspire wonder and demonstrate what science can do, interest in the prospect of human space flight continues to rise. However, the U.S. collaboration with Russia on the International Space Station is nearing its end. How people will travel through space in the future has become an open question. If the U.S. decides to commit itself to the cause, can we do it alone? Can the space program become economically sustainable? Can the private sector make it profitable? Is asteroid mining a place to focus resources? And do we have the means to actually put someone on Mars? Our panel will probe the future of public and commercial space flight--the goals, the economics and how far the will to explore may take us.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/wwGLbHpM5dM",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/GGomjSVBUijbsWXAdK2W1t3VYUe3mnlYJNVVVnW2ELw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

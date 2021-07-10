@@ -1,0 +1,77 @@
+uuid: bf96d551-e16b-402c-a543-b8ef326b8699
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block_reference
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+id: paragraph.block.field_block_reference
+field_name: field_block_reference
+entity_type: paragraph
+bundle: block
+label: 'Block Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  selection: categories
+  selection_settings:
+    categories:
+      Block: Block
+      'Chaos Tools': 'Chaos Tools'
+      Consumer: Consumer
+      'Consumer fields': 'Consumer fields'
+      Content: Content
+      'Content fields': 'Content fields'
+      core: core
+      Crop: Crop
+      'Custom block': 'Custom block'
+      'Custom menu link': 'Custom menu link'
+      'Custom menu link fields': 'Custom menu link fields'
+      Devel: Devel
+      Embed: Embed
+      'Entity subqueue': 'Entity subqueue'
+      'Entity subqueue fields': 'Entity subqueue fields'
+      Event: Event
+      'Event fields': 'Event fields'
+      'Fake entity type fields': 'Fake entity type fields'
+      File: File
+      'File fields': 'File fields'
+      Forms: Forms
+      'Layout Builder Kit': 'Layout Builder Kit'
+      'Lists (Views)': 'Lists (Views)'
+      'Markdown filter': 'Markdown filter'
+      Media: Media
+      'Media fields': 'Media fields'
+      Menus: Menus
+      'Missing Migration': 'Missing Migration'
+      'Missing Migration fields': 'Missing Migration fields'
+      'OAuth2 token': 'OAuth2 token'
+      'OAuth2 token fields': 'OAuth2 token fields'
+      Panel: Panel
+      'Panel fields': 'Panel fields'
+      Paragraph: Paragraph
+      'Paragraph fields': 'Paragraph fields'
+      Rooms: Rooms
+      'Rooms fields': 'Rooms fields'
+      'Search task': 'Search task'
+      'Search task fields': 'Search task fields'
+      Slide: Slide
+      'Slide fields': 'Slide fields'
+      'Social media share': 'Social media share'
+      Speakers: Speakers
+      'Speakers fields': 'Speakers fields'
+      System: System
+      'Taxonomy term': 'Taxonomy term'
+      'Taxonomy term fields': 'Taxonomy term fields'
+      'URL alias': 'URL alias'
+      'URL alias fields': 'URL alias fields'
+      User: User
+      'User fields': 'User fields'
+      Webform: Webform
+      'Webform submission': 'Webform submission'
+field_type: block_field

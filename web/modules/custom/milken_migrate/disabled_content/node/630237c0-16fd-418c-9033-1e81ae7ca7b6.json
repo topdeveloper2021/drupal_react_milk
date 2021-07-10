@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/investing-growing-longevity-market?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/12?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 471
+        }
+    ],
+    "uuid": [
+        {
+            "value": "630237c0-16fd-418c-9033-1e81ae7ca7b6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 471
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d7d37c7a-b0e8-493a-b356-0834ce85fdd7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Investing in the Growing Longevity Market",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:43:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/investing-growing-longevity-market",
+            "pid": 524,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Jim Mellon is an entrepreneur, investor, and frequent speaker on topics ranging from longevity investment to future trends in technology. In an interview with the Milken Institute Center for the Future of Aging, Mellon talks about his book, Juvenescence, and shares his ideas and advice for future investors in longevity science.<\/i>Can you assess the current climate of longevity science? Is the market\u00a0ready for this opportunity?\u00a0The market is now ripe for development. The excitement over\u00a0rapalogs\u00a0and\u00a0senolytics, in particular, is helping, as is the prospect of\u00a0the metformin trial, TAME. I expect that in the next year a lot of venture capital and possibly public funding will flow the way of longevity science. I think we are at about the internet of 1995 in terms of development.<b>Is there a specific angle, such as wearables, that is more attractive as an investment opportunity?<\/b>Drugs and gene therapy are more attractive than devices. Drugs developed, at least in part, by artificial intelligence, have the capacity of being on the market within five to ten years and will be much more profitable than wearables.\u00a0<b>What critical advice can you give investors who want to invest in longevity science?<\/b>There is probably no finer investment for those who believe in the prospect of ultra-long lives than investing in the therapies that will make it happen. We have established Juvenescence as a zero fee, operating company. We now have 19 compounds available to us to develop and expect to be in gene therapy and stem cells before too long. Let\u2019s put the opportunity this way: how many people, given the opportunity of living 20-30 years of extra life in a healthy state, would not take it\u2014and more importantly from an investment point of view, wouldn\u2019t pay 5 or even 10 percent of their incomes to make it happen? The scale of the opportunity is immense. In an advert for the book <i>Juvenescence<\/i> in <i>The Economist<\/i>, the question is posed: the anti-aging market is worth US$150 billion globally today. Imagine how much it would be worth if the products actually worked?<b>How does the message of <i>Juvenescence<\/i> apply to nations that have yet to confront the challenges of population aging?\u00a0<\/b>This will be one of the challenges of our age. Africa is the only place in the world where populations continue to grow rapidly. There is no reason why the life expectancy of Africans on average won\u2019t reach at least 100 within 30 years. Policymakers really need to drill down into this.<b>In your book, you mention \u201cIf the aging syndrome could be treated as a disease, the associated diseases would be treated at the top of the cascade where they originate.\u201d Do you think this statement challenges or reinforces current stereotypes of aging?\u00a0<\/b>I think it helps to dispel the thought that aging is predetermined, inviolable, and a horrible process. Treating aging as a disease will make it less stigmatized and less feared.\u00a0<b>Why do you think death certificates changed most causes of death from \u201cold age\u201d or \u201cnatural causes\u201d to a cause other than age?\u00a0<\/b>I think this is because of advances in medical science, where specific diseases can be better identified. Funnily enough, old age may once again become a cause of death, with \u201cold\u201d being a much higher number. <b>A popular quote by Victor Hugo states:\u00a0\u201cWhen grace is joined with wrinkles, it is adorable. There is an unspeakable dawn in happy old age.\u201d\u00a0You take a different view. How do you respond or reconcile with people who have a positive outlook on aging?<\/b>Of course, a positive view is a good thing, but accepting what seems inevitable when science is catching up with the aspiration of a long life seems crazy. Aging, at least as we currently think of it, is not inevitable. Optimists can still abound in old age, but just move the counter on the dashboard forward!<b>Are there other ways, besides taking your view of aging as a disease, that might increase government and corporate-funded research into aging?\u00a0<\/b>Yes, we must improve our collective lobbying. The best way to do this is to point out the inevitability of pension scheme failures if governments don\u2019t recognize the ultra-longevity that is coming soon\u2014and quickly.<b>How are younger workers affected when older employees remain on the job past the traditional retirement age?<\/b>The nature of work will have to change. As Joan Ruff of the AARP has said, older workers will not only be hired, they will be required. I believe that there will be plenty of work for all, it will just be different. Don\u2019t get caught up in the gloom of automation. Just be observant of trends.\u00a0<b>You write: \u201cWhile dementia has a high genetic component, it is not an inevitable feature of old age.\u201d How can we promote this important fact?\u00a0<\/b>Very good point. Let\u2019s accelerate the development of diagnostics pointing to dementia and find prophylactic treatments that can be administered before plaques and protein tangles set in. I am optimistic about treatments for dementia.",
+    "format": "rich_text",
+    "processed": "<i>Jim Mellon is an entrepreneur, investor, and frequent speaker on topics ranging from longevity investment to future trends in technology. In an interview with the Milken Institute Center for the Future of Aging, Mellon talks about his book, Juvenescence, and shares his ideas and advice for future investors in longevity science.<\/i>Can you assess the current climate of longevity science? Is the market\u00a0ready for this opportunity?\u00a0The market is now ripe for development. The excitement over\u00a0rapalogs\u00a0and\u00a0senolytics, in particular, is helping, as is the prospect of\u00a0the metformin trial, TAME. I expect that in the next year a lot of venture capital and possibly public funding will flow the way of longevity science. I think we are at about the internet of 1995 in terms of development.<b>Is there a specific angle, such as wearables, that is more attractive as an investment opportunity?<\/b>Drugs and gene therapy are more attractive than devices. Drugs developed, at least in part, by artificial intelligence, have the capacity of being on the market within five to ten years and will be much more profitable than wearables.\u00a0<b>What critical advice can you give investors who want to invest in longevity science?<\/b>There is probably no finer investment for those who believe in the prospect of ultra-long lives than investing in the therapies that will make it happen. We have established Juvenescence as a zero fee, operating company. We now have 19 compounds available to us to develop and expect to be in gene therapy and stem cells before too long. Let\u2019s put the opportunity this way: how many people, given the opportunity of living 20-30 years of extra life in a healthy state, would not take it\u2014and more importantly from an investment point of view, wouldn\u2019t pay 5 or even 10 percent of their incomes to make it happen? The scale of the opportunity is immense. In an advert for the book <i>Juvenescence<\/i> in <i>The Economist<\/i>, the question is posed: the anti-aging market is worth US$150 billion globally today. Imagine how much it would be worth if the products actually worked?<b>How does the message of <i>Juvenescence<\/i> apply to nations that have yet to confront the challenges of population aging?\u00a0<\/b>This will be one of the challenges of our age. Africa is the only place in the world where populations continue to grow rapidly. There is no reason why the life expectancy of Africans on average won\u2019t reach at least 100 within 30 years. Policymakers really need to drill down into this.<b>In your book, you mention \u201cIf the aging syndrome could be treated as a disease, the associated diseases would be treated at the top of the cascade where they originate.\u201d Do you think this statement challenges or reinforces current stereotypes of aging?\u00a0<\/b>I think it helps to dispel the thought that aging is predetermined, inviolable, and a horrible process. Treating aging as a disease will make it less stigmatized and less feared.\u00a0<b>Why do you think death certificates changed most causes of death from \u201cold age\u201d or \u201cnatural causes\u201d to a cause other than age?\u00a0<\/b>I think this is because of advances in medical science, where specific diseases can be better identified. Funnily enough, old age may once again become a cause of death, with \u201cold\u201d being a much higher number. <b>A popular quote by Victor Hugo states:\u00a0\u201cWhen grace is joined with wrinkles, it is adorable. There is an unspeakable dawn in happy old age.\u201d\u00a0You take a different view. How do you respond or reconcile with people who have a positive outlook on aging?<\/b>Of course, a positive view is a good thing, but accepting what seems inevitable when science is catching up with the aspiration of a long life seems crazy. Aging, at least as we currently think of it, is not inevitable. Optimists can still abound in old age, but just move the counter on the dashboard forward!<b>Are there other ways, besides taking your view of aging as a disease, that might increase government and corporate-funded research into aging?\u00a0<\/b>Yes, we must improve our collective lobbying. The best way to do this is to point out the inevitability of pension scheme failures if governments don\u2019t recognize the ultra-longevity that is coming soon\u2014and quickly.<b>How are younger workers affected when older employees remain on the job past the traditional retirement age?<\/b>The nature of work will have to change. As Joan Ruff of the AARP has said, older workers will not only be hired, they will be required. I believe that there will be plenty of work for all, it will just be different. Don\u2019t get caught up in the gloom of automation. Just be observant of trends.\u00a0<b>You write: \u201cWhile dementia has a high genetic component, it is not an inevitable feature of old age.\u201d How can we promote this important fact?\u00a0<\/b>Very good point. Let\u2019s accelerate the development of diagnostics pointing to dementia and find prophylactic treatments that can be administered before plaques and protein tangles set in. I am optimistic about treatments for dementia.",
+    "summary": null,
+    "summary_processed": ""
+}

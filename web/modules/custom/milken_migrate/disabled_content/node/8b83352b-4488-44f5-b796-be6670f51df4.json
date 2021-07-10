@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/containing-cacophonous-central-bankers-does-not-ensure-credible-policymaking?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/110?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 667
+        }
+    ],
+    "uuid": [
+        {
+            "value": "8b83352b-4488-44f5-b796-be6670f51df4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 667
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/110?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "107d1f7f-5217-4d64-8eaa-024cefd5b39a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Containing Cacophonous Central Bankers Does Not Ensure Credible Policymaking",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-30T17:02:02+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:20:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/containing-cacophonous-central-bankers-does-not-ensure-credible-policymaking",
+            "pid": 720,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Why are financial markets obsessed with reducing the \u201cnoise\u201d surrounding central bank policy statements? That is because of the widespread belief that financial markets are more efficient in pricing assets when central bank actions are predicted accurately and reliably. Yet, policy makers from the Federal Reserve (Fed), European Central Bank (ECB), and the Bank of England (BOE) have increased policy uncertainty and degraded policy predictability with decisions that failed to follow through with previously-stated policy guidance. <br \/> <i>Watch Milken Institute Chief Economist William Lee on Bloomberg's \"What'd You Miss?\"<\/i> Credibility was further eroded when a multitude of policy makers presented unsatisfying excuses for deviating from forward guidance because of unanticipated data developments or political events. Explanations that could have help to limit the loss of credibility would have had to clarify how developments interfered with the transmission of monetary policy, and thereby would have reduced the central bank\u2019s ability to achieve its policy objectives if it followed its initial guidance. Without reference to such a framework, a host of central bank officials opining on data developments or events only made matters worse by raising the chances for more policy inconsistencies. Transparent but Ineffective Communications Reduced Central Bank Credibility Market skepticism about central bank announcements and forward policy guidance has increased. More transparency into central bank decision making has shown the increasing use of ad-hoc discretion, which has made the systematic component of monetary policy less predictable. This was especially so with the Fed\u2019s many attempts to begin policy normalization during 2015 and 2016. Expectations about the onset of Fed policy normalization were repeatedly frustrated by a myriad of excuses ranged from foreign market developments (e.g., in China), to foreign referendum results (e.g., Brexit), and even because of a single lower-than-expected employment release. Today, market skepticism continues to proliferate (evident in the flattening yield curve) as the Fed continues with both interest rate and balance sheet normalization in the absence of evidence supporting concerns about rising inflation. Long-term interest rates remain low, in part, because of trepidations about the downside consequences of policy errors caused by premature monetary tightening. Fears that the major central banks may be tightening too much or too soon are rapidly reverberating across all the global financial markets. As central bankers point to improving growth prospects and declining unemployment rates as reasons for inflation to rise in the U.S. and the euro area, recent\u00a0data showing low and even declining rates of inflation belie such risks. The absence of data supporting forecasts of rising inflation reduce the credibility and likely durability of any guidance suggesting the need for an imminent steady tightening of the monetary stance among any of the three major central banks, the Fed, the ECB, and the BOE.<sup>1<\/sup> Central Bank Operating Principles Would Help Preserve Policy Credibility Changing or clarifying central bank communications strategies will not restore lost credibility, but requiring a central bank to operate according to a policy framework, or well-specified principles, would allow policy changes to become more predictable and understandable \u2014 two important preconditions for retaining credibility. For example, communications tactics such as raising the inflation target or switching to an intermediate target such as nominal GDP would do little more than highlight the central banks\u2019 inability to influence the direction of inflation and\/or obfuscate the ultimate policy target (especially if the inflation-oriented ECB were to adopt nominal GDP targeting). As a long-run communications device, inflation or GDP targeting would be successful only if the central bank establishes a track record showing that it is committed to honoring and staying with such a framework. Frequent ad-hoc policy deviations will degrade the value of adopting such a framework. However, central bank credibility would be strengthened if it were to be guided by a clear set of principles that specify how (expected or surprising) developments in data or events may alter the monetary policy stance. Then monetary policy changes would evolve in an understandable fashion. That would be a sharp contrast to today\u2019s Fed policy-making process, which is \u201cdata dependent\u201d but without specifying the nature of the dependency. Concluding Thoughts: Central Bank Miscommunication May Unanchor Inflation Expectations Communications strategies are an important element in central bankers\u2019 toolkits for mitigating instability because they help to anchor inflation expectations, and make policy decisions more transparent, predictable and understandable. However, communicating a central bank\u2019s desire to achieve policy objectives alone will do little to anchor expectations. That is because markets require information about how the central bank will achieve its policy objectives. Ensuring a transparent and predictable monetary policy requires a framework that defines how the systematic component of policy is formulated and reacts to changing data and new events. Credible policies stem from central bank actions that follow a known and well-understood framework. The framework provides information about how the central bank intends to achieve its announced objectives and, if necessary, change the policy stance if the economic and financial environment changes. As the Federal Reserve Board undergoes a historic change in the number of Governor positions to be filled (including the Chair), it will be an opportune time to formulate, implement, and make public a robust policy framework that can help policy evolve over time in a credible manner. A challenge facing Governor Powell and his new colleagues will be to adopt and making known such a framework. Otherwise Fed policy may remain ad-hoc and personality driven. <sup>1<\/sup><i>U.K. inflation is acknowledged to stem largely from the temporary impulse due to the depreciation of sterling. <\/i> ",
+    "format": "rich_text",
+    "processed": "Why are financial markets obsessed with reducing the \u201cnoise\u201d surrounding central bank policy statements? That is because of the widespread belief that financial markets are more efficient in pricing assets when central bank actions are predicted accurately and reliably. Yet, policy makers from the Federal Reserve (Fed), European Central Bank (ECB), and the Bank of England (BOE) have increased policy uncertainty and degraded policy predictability with decisions that failed to follow through with previously-stated policy guidance. <br \/><i>Watch Milken Institute Chief Economist William Lee on Bloomberg's \"What'd You Miss?\"<\/i> Credibility was further eroded when a multitude of policy makers presented unsatisfying excuses for deviating from forward guidance because of unanticipated data developments or political events. Explanations that could have help to limit the loss of credibility would have had to clarify how developments interfered with the transmission of monetary policy, and thereby would have reduced the central bank\u2019s ability to achieve its policy objectives if it followed its initial guidance. Without reference to such a framework, a host of central bank officials opining on data developments or events only made matters worse by raising the chances for more policy inconsistencies. Transparent but Ineffective Communications Reduced Central Bank Credibility Market skepticism about central bank announcements and forward policy guidance has increased. More transparency into central bank decision making has shown the increasing use of ad-hoc discretion, which has made the systematic component of monetary policy less predictable. This was especially so with the Fed\u2019s many attempts to begin policy normalization during 2015 and 2016. Expectations about the onset of Fed policy normalization were repeatedly frustrated by a myriad of excuses ranged from foreign market developments (e.g., in China), to foreign referendum results (e.g., Brexit), and even because of a single lower-than-expected employment release. Today, market skepticism continues to proliferate (evident in the flattening yield curve) as the Fed continues with both interest rate and balance sheet normalization in the absence of evidence supporting concerns about rising inflation. Long-term interest rates remain low, in part, because of trepidations about the downside consequences of policy errors caused by premature monetary tightening. Fears that the major central banks may be tightening too much or too soon are rapidly reverberating across all the global financial markets. As central bankers point to improving growth prospects and declining unemployment rates as reasons for inflation to rise in the U.S. and the euro area, recent\u00a0data showing low and even declining rates of inflation belie such risks. The absence of data supporting forecasts of rising inflation reduce the credibility and likely durability of any guidance suggesting the need for an imminent steady tightening of the monetary stance among any of the three major central banks, the Fed, the ECB, and the BOE.<sup>1<\/sup> Central Bank Operating Principles Would Help Preserve Policy Credibility Changing or clarifying central bank communications strategies will not restore lost credibility, but requiring a central bank to operate according to a policy framework, or well-specified principles, would allow policy changes to become more predictable and understandable \u2014 two important preconditions for retaining credibility. For example, communications tactics such as raising the inflation target or switching to an intermediate target such as nominal GDP would do little more than highlight the central banks\u2019 inability to influence the direction of inflation and\/or obfuscate the ultimate policy target (especially if the inflation-oriented ECB were to adopt nominal GDP targeting). As a long-run communications device, inflation or GDP targeting would be successful only if the central bank establishes a track record showing that it is committed to honoring and staying with such a framework. Frequent ad-hoc policy deviations will degrade the value of adopting such a framework. However, central bank credibility would be strengthened if it were to be guided by a clear set of principles that specify how (expected or surprising) developments in data or events may alter the monetary policy stance. Then monetary policy changes would evolve in an understandable fashion. That would be a sharp contrast to today\u2019s Fed policy-making process, which is \u201cdata dependent\u201d but without specifying the nature of the dependency. Concluding Thoughts: Central Bank Miscommunication May Unanchor Inflation Expectations Communications strategies are an important element in central bankers\u2019 toolkits for mitigating instability because they help to anchor inflation expectations, and make policy decisions more transparent, predictable and understandable. However, communicating a central bank\u2019s desire to achieve policy objectives alone will do little to anchor expectations. That is because markets require information about how the central bank will achieve its policy objectives. Ensuring a transparent and predictable monetary policy requires a framework that defines how the systematic component of policy is formulated and reacts to changing data and new events. Credible policies stem from central bank actions that follow a known and well-understood framework. The framework provides information about how the central bank intends to achieve its announced objectives and, if necessary, change the policy stance if the economic and financial environment changes. As the Federal Reserve Board undergoes a historic change in the number of Governor positions to be filled (including the Chair), it will be an opportune time to formulate, implement, and make public a robust policy framework that can help policy evolve over time in a credible manner. A challenge facing Governor Powell and his new colleagues will be to adopt and making known such a framework. Otherwise Fed policy may remain ad-hoc and personality driven. <sup>1<\/sup><i>U.K. inflation is acknowledged to stem largely from the temporary impulse due to the depreciation of sterling. <\/i> ",
+    "summary": null,
+    "summary_processed": ""
+}

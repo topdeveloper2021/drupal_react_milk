@@ -1,0 +1,25 @@
+uuid: 286579a6-8d50-4eef-9ab6-48638c0ff9ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.50_50_text_on_left
+    - field.storage.slide.field_background_color
+  module:
+    - color_field
+id: slide.50_50_text_on_left.field_background_color
+field_name: field_background_color
+entity_type: slide
+bundle: 50_50_text_on_left
+label: 'Background Color'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    color: '#FFFFFF'
+    opacity: !!float 1
+default_value_callback: ''
+settings:
+  opacity: 1
+field_type: color_field_type

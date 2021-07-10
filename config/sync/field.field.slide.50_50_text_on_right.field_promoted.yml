@@ -1,0 +1,23 @@
+uuid: 9b5f0633-4edb-46ba-8cbb-7cbbc91815f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.slide.50_50_text_on_right
+    - field.storage.slide.field_promoted
+id: slide.50_50_text_on_right.field_promoted
+field_name: field_promoted
+entity_type: slide
+bundle: 50_50_text_on_right
+label: Promoted
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

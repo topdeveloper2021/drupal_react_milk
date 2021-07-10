@@ -1,0 +1,111 @@
+uuid: 496194e3-7291-4dd1-9d31-49dc54260a5f
+langcode: en
+status: false
+dependencies:
+  module:
+    - search_api_solr
+    - media
+    - search_api
+    - milken_base
+  config:
+    - field.storage.media.field_body
+    - search_api.server.freshdrupal_live
+third_party_settings:
+  search_api_solr:
+    finalize: false
+    commit_before_finalize: false
+    commit_after_finalize: false
+    multilingual:
+      limit_to_content_language: false
+      include_language_independent: true
+    highlighter:
+      maxAnalyzedChars: 51200
+      fragmenter: gap
+      regex:
+        slop: 0.5
+        pattern: blank
+        maxAnalyzedChars: 10000
+      usePhraseHighlighter: true
+      highlightMultiTerm: true
+      preserveMulti: false
+      highlight:
+        mergeContiguous: false
+        requireFieldMatch: false
+        snippets: 3
+        fragsize: 0
+    mlt:
+      mintf: 1
+      mindf: 1
+      maxdf: 0
+      maxdfpct: 0
+      minwl: 0
+      maxwl: 0
+      maxqt: 100
+      maxntp: 2000
+      boost: false
+      interestingTerms: none
+    term_modifiers:
+      slop: 3
+      fuzzy: 1
+    advanced:
+      index_prefix: ''
+      collection: ''
+      timezone: ''
+id: media_index
+name: media_index
+description: ''
+read_only: false
+field_settings:
+  bundle:
+    label: Bundle
+    property_path: search_api_bundle
+    type: string
+  field_body:
+    label: body
+    datasource_id: 'entity:media'
+    property_path: field_body
+    type: text
+    boost: !!float 3
+    dependencies:
+      config:
+        - field.storage.media.field_body
+  label:
+    label: Label
+    property_path: search_api_label
+    type: string
+  name:
+    label: Name
+    datasource_id: 'entity:media'
+    property_path: name
+    type: string
+    dependencies:
+      module:
+        - media
+datasource_settings:
+  'entity:media':
+    bundles:
+      default: false
+      selected:
+        - video
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  bundle: {  }
+  entityTypeId: {  }
+  jsonapi_type: {  }
+  label: {  }
+  language_with_fallback: {  }
+  rendered_item: {  }
+  solr_date_range: {  }
+  taxonomy_bucket: {  }
+  uuid: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: freshdrupal_live

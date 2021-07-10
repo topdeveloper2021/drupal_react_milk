@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7370\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/wL__uJgi0qEIdWHYpV9V2pbOBR9MCt5t-Hpwok730u4.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7370
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d87aec09-8fb7-4a5a-92e5-19e7bc90a938"
+        }
+    ],
+    "vid": [
+        {
+            "value": 161
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/wL__uJgi0qEIdWHYpV9V2pbOBR9MCt5t-Hpwok730u4.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f4af58e6-74bb-4ac6-b004-f6f117326234"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Young Entrepreneurs Who Are Rewriting the Biopharma Business Model",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-12T18:43:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Even as scientific progress accelerates, the industry that turns those advances into medical treatments is relying on decades-old business strategies. As one analyst put it, \"The dress code has changed more than the business model.\" The young entrepreneurs on this panel are creating solutions that can fundamentally alter the relationship between science and business. They will discuss:<br><br>What changes are required in an industry where return on R&D investment is declining and strategies lag far behind advances in science and health care?<br>Does the tech industry have solutions that could speed up progress in the infinitely complex realm of human biology?<br>What factors help new entrepreneurs succeed in a field where costs are so high and development times so long?",
+    "format": "rich_text",
+    "processed": "Even as scientific progress accelerates, the industry that turns those advances into medical treatments is relying on decades-old business strategies. As one analyst put it, \"The dress code has changed more than the business model.\" The young entrepreneurs on this panel are creating solutions that can fundamentally alter the relationship between science and business. They will discuss:<br \/><br \/>What changes are required in an industry where return on R&amp;D investment is declining and strategies lag far behind advances in science and health care?<br \/>Does the tech industry have solutions that could speed up progress in the infinitely complex realm of human biology?<br \/>What factors help new entrepreneurs succeed in a field where costs are so high and development times so long?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/i-6vvTib02M",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/wL__uJgi0qEIdWHYpV9V2pbOBR9MCt5t-Hpwok730u4.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7010\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/1hRl99uBfeKUXSY5Yaljl7ZHTilH5N7qAhO2vtdKsgY.jpg",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "href": "http:\/\/localhost:8080\/centers\/centerforpublichealth?_format=hal_json"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7010
+        }
+    ],
+    "uuid": [
+        {
+            "value": "3b333d54-9166-4dd1-93d5-0863a1e2383f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 2
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/1hRl99uBfeKUXSY5Yaljl7ZHTilH5N7qAhO2vtdKsgY.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6e3d4be3-304f-4ba8-88bc-029e9eb22a7b"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/field_centers": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/centers\/centerforpublichealth?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/centers"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bf0d6fa4-53a2-4436-8d84-277ec6a3881c"
+                    }
+                ]
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Conversation with Robert Redfield, Director, Centers for Disease Control and Prevention",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-23T14:47:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Partnerships can be the key to advancing global health innovation by providing increased expertise through multi-stakeholder collaboration, greater opportunities for scale through expanded reach, and further mechanisms to bridge looming financial gaps. In context of the UN Sustainable Development Goals, which target \"healthy lives and well-being for all at all ages\", this session will illuminate how mobilizing alternative sources of capital, employing innovative financial models, and engaging in new cross-sector partnerships can most effectively catalyze progress throughout the global health ecosystem.\u00a0",
+    "format": "rich_text",
+    "processed": "Partnerships can be the key to advancing global health innovation by providing increased expertise through multi-stakeholder collaboration, greater opportunities for scale through expanded reach, and further mechanisms to bridge looming financial gaps. In context of the UN Sustainable Development Goals, which target \"healthy lives and well-being for all at all ages\", this session will illuminate how mobilizing alternative sources of capital, employing innovative financial models, and engaging in new cross-sector partnerships can most effectively catalyze progress throughout the global health ecosystem.\u00a0",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/GHZNB9lACJA",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/1hRl99uBfeKUXSY5Yaljl7ZHTilH5N7qAhO2vtdKsgY.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

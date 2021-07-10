@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7377\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/fmFb-EDivCobQ-1gqazq1tpZ_L6p-6Yx91i8Exeztqs.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7377
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5bd444ca-a6a8-4662-af10-bd6c39c2de2f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 166
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/fmFb-EDivCobQ-1gqazq1tpZ_L6p-6Yx91i8Exeztqs.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "983aee5c-b685-4186-bbc3-9de5a0f968d8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Indias Great Strides",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-12T19:26:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "India, the world's second-most populous country, became the fastest-growing economy in 2015 and is on track to overtake the U.S. in GDP by 2040. The Indian economy is attracting a growing volume of investment and retaining macroeconomic stability even as the world economy staggers. India has not only established its importance in the region but also its role as an emerging superpower. This panel of experts will provide a macro view of the economy and discuss:<br><br>What challenges and opportunities exist in India's near future?<br>How will the world engage with this increasingly crucial global player?<br>Beyond closing the gap with rich nations, how can Indian policies ensure that living standards rise across the board within the country?",
+    "format": "rich_text",
+    "processed": "India, the world's second-most populous country, became the fastest-growing economy in 2015 and is on track to overtake the U.S. in GDP by 2040. The Indian economy is attracting a growing volume of investment and retaining macroeconomic stability even as the world economy staggers. India has not only established its importance in the region but also its role as an emerging superpower. This panel of experts will provide a macro view of the economy and discuss:<br \/><br \/>What challenges and opportunities exist in India's near future?<br \/>How will the world engage with this increasingly crucial global player?<br \/>Beyond closing the gap with rich nations, how can Indian policies ensure that living standards rise across the board within the country?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/7VsjzNr5Y98",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/fmFb-EDivCobQ-1gqazq1tpZ_L6p-6Yx91i8Exeztqs.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

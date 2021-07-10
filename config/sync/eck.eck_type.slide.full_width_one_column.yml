@@ -1,0 +1,9 @@
+uuid: a57f486f-bcd5-4188-a1b8-67e671484def
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.slide
+type: full_width_one_column
+name: 'HERO/Full Width One Column'
+description: 'Slide with a layout of full-width background photo and type/text across the middle.'

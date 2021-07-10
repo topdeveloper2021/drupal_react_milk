@@ -1,0 +1,21 @@
+uuid: d4c8dcde-c8d9-44d0-91e5-d16f81437285
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_facebookfollowers
+field_name: field_facebookfollowers
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

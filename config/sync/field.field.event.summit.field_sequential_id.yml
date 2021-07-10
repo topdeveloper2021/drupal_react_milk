@@ -1,0 +1,23 @@
+uuid: fd32337d-fa00-404c-9cc3-cb9dd0c7f0d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.summit
+    - field.storage.event.field_sequential_id
+id: event.summit.field_sequential_id
+field_name: field_sequential_id
+entity_type: event
+bundle: summit
+label: 'Sequential ID'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

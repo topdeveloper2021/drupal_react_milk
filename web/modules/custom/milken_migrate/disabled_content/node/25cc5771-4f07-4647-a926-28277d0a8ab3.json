@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/creating-food-systems-change-through-impact-campaign-documentary-film?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/87?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 553
+        }
+    ],
+    "uuid": [
+        {
+            "value": "25cc5771-4f07-4647-a926-28277d0a8ab3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 553
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/87?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8d307db9-9de1-49e6-a5ac-2afb8cd45473"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Creating Food Systems Change Through an Impact Campaign for a Documentary Film",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-09T11:04:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-14T18:52:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/creating-food-systems-change-through-impact-campaign-documentary-film",
+            "pid": 606,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>A story, told well, has the power to change the world by showcasing inequities and presenting opportunities to right wrongs.<\/b><\/i> Iowa is the equivalent of the 10th most populous country in the world in terms of the amount of fecal waste produced. How is this possible, when the human population is only around 3 million? According to a recent analysis conducted by Chris Jones at the University of Iowa\u2019s IIHR Hydroscience and Engineering, the amount of waste produced by Iowa\u2019s livestock population is the equivalent of the waste produced by about 133 million people. The vast majority of these animals do not live on outdoor, pastoral farms like in our collective imaginations\u2014instead, the animals are confined tightly together in \u201cfactory farm\u201d buildings or in close quarters on feedlots. These confinement facilities are called concentrated animal feeding operations (CAFOs), and the vast majority of CAFOs in the United States do not treat the fecal waste generated by the animals confined within them. Instead, CAFO waste is funneled to unlined, open-air lagoons or to litter pits. A story, told well, has the power to change the world by showcasing inequities and presenting opportunities to right wrongs. There is a growing movement of citizens who are starting to demand that their elected representatives protect them from the harms caused by untreated waste generated by CAFOs\u2014contaminated water in wells, polluted rivers and streams making fishing unsafe, and noxious odors affecting breathing. In areas with high concentrations of CAFOs such as the lower eastern shore of Maryland and Duplin County, North Carolina, this effort is linked to a fight against what is termed \u201cenvironmental racism;\u201d CAFOs are sited disproportionately in areas historically populated by people of color, many of whom are descendants of individuals who had been enslaved. I first learned about the harmful environmental effects of CAFOs\u2014and the movement to fight back\u2014through the documentary film\u00a0<i>Eating Animals<\/i>, directed and produced by Christopher Quinn and narrated by Natalie Portman, based on the book by Jonathan Safran Foer. My family and I saw the film when it premiered at the Telluride Film Festival, and we were astonished at how effectively the film told the stories of individuals who were fighting the CAFO system and finding new ways forward. We realized that the film could be a compelling tool to shed light on the regulatory and legal risks that the CAFO system presents for investors, as well as the opportunities for investors to deploy capital into CAFO alternatives such as plant-based proteins and meat raised outside the CAFO system on regenerative farms. Perhaps just as importantly, we also realized that the stories told through the film could influence the food purchasing choices made by individuals and institutions, thereby increasing demand for alternatives and contributing to a virtuous cycle in which more demand creates more investment, and more investment creates greater availability of alternatives. The more alternatives that are available and affordable, the more the CAFO system itself will be pressured into eventual collapse. Working in close partnership with Quinn and the film\u2019s distributors, I decided to produce and oversee an impact campaign that is focusing on the following strategies: hosting events that encourage investors, decision makers, and leaders of institutions in control of large food purchasing contracts to see the film providing grants to universities and community groups to host screenings of the film, thereby encouraging a shift in consumer demand to CAFO alternative supporting the policy advocacy, community organizing, and education efforts of the individual farmers and whistleblowers whose heroic stories are profiled in the film To date, the impact campaign has touched investors who are part of the Jeremy Coller Foundation\u2019s Farm Animal Investment Risk and Return Coalition, which currently represents over $12 trillion assets under management, as well as investors who are part of Howard Fischer\u2019s Gratitude Railroad impact investment community and Trammell Crow\u2019s Dallas-based EarthX network. The campaign has reached thousands of students at close to 500 colleges and universities across the US and has engaged more than 200 nonprofit organizations, including citizen activist groups in states with large concentrations of CAFOs. By philanthropically supporting this type of storytelling, individual donors and family foundations can be levers of change and leave a legacy on the world for generations to come. The experience I have had producing the philanthropic impact campaign for\u00a0<i>Eating Animals<\/i>\u00a0has made me realize the extraordinary power of documentary storytelling to highlight inequities and present opportunities to right wrongs. In partnership with the Milken Institute\u2019s Center for Strategic Philanthropy, I am now helping put together a \u201cGiving Smarter Guide\u201d for individual donors and family foundations that will demystify the documentary film process and present case studies of how storytelling through documentary film\u2014and other media\u2014can have an impact on the pressing societal challenges that are of concern to them. By philanthropically supporting this type of storytelling, individual donors and family foundations can be levers of change and leave a legacy on the world for generations to come.",
+    "format": "rich_text",
+    "processed": "<i><b>A story, told well, has the power to change the world by showcasing inequities and presenting opportunities to right wrongs.<\/b><\/i> Iowa is the equivalent of the 10th most populous country in the world in terms of the amount of fecal waste produced. How is this possible, when the human population is only around 3 million? According to a recent analysis conducted by Chris Jones at the University of Iowa\u2019s IIHR Hydroscience and Engineering, the amount of waste produced by Iowa\u2019s livestock population is the equivalent of the waste produced by about 133 million people. The vast majority of these animals do not live on outdoor, pastoral farms like in our collective imaginations\u2014instead, the animals are confined tightly together in \u201cfactory farm\u201d buildings or in close quarters on feedlots. These confinement facilities are called concentrated animal feeding operations (CAFOs), and the vast majority of CAFOs in the United States do not treat the fecal waste generated by the animals confined within them. Instead, CAFO waste is funneled to unlined, open-air lagoons or to litter pits. A story, told well, has the power to change the world by showcasing inequities and presenting opportunities to right wrongs. There is a growing movement of citizens who are starting to demand that their elected representatives protect them from the harms caused by untreated waste generated by CAFOs\u2014contaminated water in wells, polluted rivers and streams making fishing unsafe, and noxious odors affecting breathing. In areas with high concentrations of CAFOs such as the lower eastern shore of Maryland and Duplin County, North Carolina, this effort is linked to a fight against what is termed \u201cenvironmental racism;\u201d CAFOs are sited disproportionately in areas historically populated by people of color, many of whom are descendants of individuals who had been enslaved. I first learned about the harmful environmental effects of CAFOs\u2014and the movement to fight back\u2014through the documentary film\u00a0<i>Eating Animals<\/i>, directed and produced by Christopher Quinn and narrated by Natalie Portman, based on the book by Jonathan Safran Foer. My family and I saw the film when it premiered at the Telluride Film Festival, and we were astonished at how effectively the film told the stories of individuals who were fighting the CAFO system and finding new ways forward. We realized that the film could be a compelling tool to shed light on the regulatory and legal risks that the CAFO system presents for investors, as well as the opportunities for investors to deploy capital into CAFO alternatives such as plant-based proteins and meat raised outside the CAFO system on regenerative farms. Perhaps just as importantly, we also realized that the stories told through the film could influence the food purchasing choices made by individuals and institutions, thereby increasing demand for alternatives and contributing to a virtuous cycle in which more demand creates more investment, and more investment creates greater availability of alternatives. The more alternatives that are available and affordable, the more the CAFO system itself will be pressured into eventual collapse. Working in close partnership with Quinn and the film\u2019s distributors, I decided to produce and oversee an impact campaign that is focusing on the following strategies: hosting events that encourage investors, decision makers, and leaders of institutions in control of large food purchasing contracts to see the film providing grants to universities and community groups to host screenings of the film, thereby encouraging a shift in consumer demand to CAFO alternative supporting the policy advocacy, community organizing, and education efforts of the individual farmers and whistleblowers whose heroic stories are profiled in the film To date, the impact campaign has touched investors who are part of the Jeremy Coller Foundation\u2019s Farm Animal Investment Risk and Return Coalition, which currently represents over $12 trillion assets under management, as well as investors who are part of Howard Fischer\u2019s Gratitude Railroad impact investment community and Trammell Crow\u2019s Dallas-based EarthX network. The campaign has reached thousands of students at close to 500 colleges and universities across the US and has engaged more than 200 nonprofit organizations, including citizen activist groups in states with large concentrations of CAFOs. By philanthropically supporting this type of storytelling, individual donors and family foundations can be levers of change and leave a legacy on the world for generations to come. The experience I have had producing the philanthropic impact campaign for\u00a0<i>Eating Animals<\/i>\u00a0has made me realize the extraordinary power of documentary storytelling to highlight inequities and present opportunities to right wrongs. In partnership with the Milken Institute\u2019s Center for Strategic Philanthropy, I am now helping put together a \u201cGiving Smarter Guide\u201d for individual donors and family foundations that will demystify the documentary film process and present case studies of how storytelling through documentary film\u2014and other media\u2014can have an impact on the pressing societal challenges that are of concern to them. By philanthropically supporting this type of storytelling, individual donors and family foundations can be levers of change and leave a legacy on the world for generations to come.",
+    "summary": null,
+    "summary_processed": ""
+}

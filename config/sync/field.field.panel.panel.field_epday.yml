@@ -1,0 +1,19 @@
+uuid: 90955259-2ae3-44ea-bfad-e82db0cd89f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_epday
+id: panel.panel.field_epday
+field_name: field_epday
+entity_type: panel
+bundle: panel
+label: Epday
+description: 'Grid field for End Time Period (AM/PM)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,16 @@
+services:
+  milken_migrate.generate_plugin_queue:
+    class: Drupal\milken_migrate\Command\MigrateMenuItemsCommand
+    arguments: ['@milken_migrate.generate_plugin_queue_generator']
+    tags:
+      - { name: drupal.command }
+  milken_migrate.generate_plugin_queue_generator:
+    class: Drupal\milken_migrate\Generator\MigrateMenuItemsGenerator
+    arguments: []
+    tags:
+      - { name: drupal.generator }
+  milken_migrate.milken_migrate_event_title_card:
+    class: Drupal\milken_migrate\Command\EventTitleCardCommand
+    arguments: []
+    tags:
+      - { name: drupal.command }

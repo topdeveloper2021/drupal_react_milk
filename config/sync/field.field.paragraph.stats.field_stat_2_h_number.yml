@@ -1,0 +1,19 @@
+uuid: 7290152e-ca64-4865-9204-ee6d759f984f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_stat_2_h_number
+    - paragraphs.paragraphs_type.stats
+id: paragraph.stats.field_stat_2_h_number
+field_name: field_stat_2_h_number
+entity_type: paragraph
+bundle: stats
+label: 'Stat 2 Header Number'
+description: 'The actual statistic value for the first stat.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

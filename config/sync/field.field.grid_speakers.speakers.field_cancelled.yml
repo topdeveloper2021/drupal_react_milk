@@ -1,0 +1,23 @@
+uuid: 2660d7e4-40db-4feb-8a1b-3b19974349c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.grid_speakers.speakers
+    - field.storage.grid_speakers.field_cancelled
+id: grid_speakers.speakers.field_cancelled
+field_name: field_cancelled
+entity_type: grid_speakers
+bundle: speakers
+label: cancelled
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

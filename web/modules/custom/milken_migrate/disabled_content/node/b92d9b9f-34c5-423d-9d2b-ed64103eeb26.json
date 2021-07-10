@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/key-ultimate-health-bioresilience?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/106?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 588
+        }
+    ],
+    "uuid": [
+        {
+            "value": "b92d9b9f-34c5-423d-9d2b-ed64103eeb26"
+        }
+    ],
+    "vid": [
+        {
+            "value": 588
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/106?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1d640d97-24e9-4a36-9889-636a4da6fa43"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Key to Ultimate Health: Bioresilience",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:29:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T15:12:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/key-ultimate-health-bioresilience",
+            "pid": 641,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Let\u2019s envision a model for healthy, functional longevity based on evaluating and improving the body\u2019s bioresilience.Bioresilience is the body\u2019s capacity to respond to stress. One way to visualize bioresilience is to imagine a WeebleTM, the toy that self-centers when pushed. Evolution selects for increasing bioresilience, and it and so effective during youth that we notice it more by its decline after midlife when recovery from biologic stress\u2014be it a late night, hangover, jet lag, cough, injury, wound, or a rollercoaster ride\u2014diminishes. Our tolerance of environmental variation, such as changes in temperature or altitude, weakens. Our pupils respond inadequately to changes in light, so menus are harder to read at dinner.Now consider objective changes that we can\u2019t feel. When we are young, our bioresilience returns elevated blood pressure, glucose, and inflammation to baseline. As we age, those levels may no longer self-tune sufficiently, leading to hypertension, diabetes, and inflammation, respectively. If loss of bioresilience is a common framework that helps explain the diverse features of aging, could enhancing the body\u2019s bioresilience mitigate the aging process and promote healthy, functional longevity?For acute ailments such as trauma and infection, restoring the body to original equilibrium is paramount. For chronic conditions such as aging, however, forcing the body back to the original equilibrium treats the symptom but fails to solve the underlying problem. Furthermore, medically propping up the body\u2019s equilibrium\u2014akin to propping up a Weeble\u2014induces atrophy of bioresilience and progressive addiction to therapy. Many economic stakeholders benefit from this Whack-a-MoleTM approach to aging, but this approach also creates an ever-older population that consumes more health care, creating an unsustainable, vicious cycle of cost escalation. For aging (and other chronic diseases), we propose shifting the goal to increasing bioresilience as a path to ultimate health. This small conceptual change has radical implications.For instance, hypertension today is typically treated with medications to lower blood pressure. But taking such medications chronically can reduce our bodies\u2019 intrinsic ability to regulate blood pressure. Moreover, our bodies can build up a tolerance to antihypertensive medications, requiring us to take ever greater doses to achieve the same results. Instead, could low intermittent doses of prohypertensive interventions promote bioresilience and lower baseline blood pressure, similar to the way exercise creates stresses to our hearts and muscles in order to improve them? More generally, could \u201ceustress\u201d (i.e., capacity-building stress) be used to paradoxically promote bioresilience as a way to ameliorate chronic diseases? Such counterintuitive approaches are already validated by exercise, ischemic reconditioning, muscle training, and vaccination.\u00a0With bioresilience building as the new goal, we advocate everyday lifestyle interventions that help to stretch our dynamic range by emphasizing variance over fixed habits: meditation coupled with exhilaration; variations of exercise; exposure to a range of environments such as temperature, sunlight, and altitude; periods of fasting associated with a diet that itself is based on variation rather than narrow recommendations. We encourage exploration of many other forms of eustress that can build up our bioresilience.Our goal through the Palo Alto Prize series is to identify and ultimately change the genes and pathways involved in the erosion of natural bioresilience as a way to mitigate the aging process and promote healthy, functional longevity. To accelerate progress, we need to fundamentally change our thinking on how to measure biology. Dynamic systems such as biology cannot be studied effectively with static models. Yet modern science has largely relied on point-in-time static biomarkers to assess our health.Annual checks of heart rate, blood pressure, glucose, and cholesterol levels to assess health risks are tantamount to a seismic engineer relying on the degree of leaning, instead of the more valuable stress testing, to predict collapse risk from an earthquake.For example, baseline heart rate changes little with age, while heart rate recovery time after exercise (which is a dynamic measure of the heart\u2019s capacity) correlates with age. We also advocate the development of a broader array of dynamic diagnostic tests with capabilities for high-frequency sampling and stress testing to add a fourth dimension to the field of diagnostics\u2014time. The advent of fitness-tracking wearables, which collect biometric data continuously, may usher in tremendous opportunities in the coming years.The aging field is in its infancy. The end of aging would be the end of healthcare as we now know it. The feed-forward relationship between healthcare innovation and increasing future consumption of healthcare would finally be decoupled. Ifbioresilience is sustained, humans could persist at low annual mortality rates currently enjoyed by young adults. Healthy lifespan could telescope to a number of years that might have once seemed unimaginable. Human capacity would thus be unleashed.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Let\u2019s envision a model for healthy, functional longevity based on evaluating and improving the body\u2019s bioresilience.Bioresilience is the body\u2019s capacity to respond to stress. One way to visualize bioresilience is to imagine a WeebleTM, the toy that self-centers when pushed. Evolution selects for increasing bioresilience, and it and so effective during youth that we notice it more by its decline after midlife when recovery from biologic stress\u2014be it a late night, hangover, jet lag, cough, injury, wound, or a rollercoaster ride\u2014diminishes. Our tolerance of environmental variation, such as changes in temperature or altitude, weakens. Our pupils respond inadequately to changes in light, so menus are harder to read at dinner.Now consider objective changes that we can\u2019t feel. When we are young, our bioresilience returns elevated blood pressure, glucose, and inflammation to baseline. As we age, those levels may no longer self-tune sufficiently, leading to hypertension, diabetes, and inflammation, respectively. If loss of bioresilience is a common framework that helps explain the diverse features of aging, could enhancing the body\u2019s bioresilience mitigate the aging process and promote healthy, functional longevity?For acute ailments such as trauma and infection, restoring the body to original equilibrium is paramount. For chronic conditions such as aging, however, forcing the body back to the original equilibrium treats the symptom but fails to solve the underlying problem. Furthermore, medically propping up the body\u2019s equilibrium\u2014akin to propping up a Weeble\u2014induces atrophy of bioresilience and progressive addiction to therapy. Many economic stakeholders benefit from this Whack-a-MoleTM approach to aging, but this approach also creates an ever-older population that consumes more health care, creating an unsustainable, vicious cycle of cost escalation. For aging (and other chronic diseases), we propose shifting the goal to increasing bioresilience as a path to ultimate health. This small conceptual change has radical implications.For instance, hypertension today is typically treated with medications to lower blood pressure. But taking such medications chronically can reduce our bodies\u2019 intrinsic ability to regulate blood pressure. Moreover, our bodies can build up a tolerance to antihypertensive medications, requiring us to take ever greater doses to achieve the same results. Instead, could low intermittent doses of prohypertensive interventions promote bioresilience and lower baseline blood pressure, similar to the way exercise creates stresses to our hearts and muscles in order to improve them? More generally, could \u201ceustress\u201d (i.e., capacity-building stress) be used to paradoxically promote bioresilience as a way to ameliorate chronic diseases? Such counterintuitive approaches are already validated by exercise, ischemic reconditioning, muscle training, and vaccination.\u00a0With bioresilience building as the new goal, we advocate everyday lifestyle interventions that help to stretch our dynamic range by emphasizing variance over fixed habits: meditation coupled with exhilaration; variations of exercise; exposure to a range of environments such as temperature, sunlight, and altitude; periods of fasting associated with a diet that itself is based on variation rather than narrow recommendations. We encourage exploration of many other forms of eustress that can build up our bioresilience.Our goal through the Palo Alto Prize series is to identify and ultimately change the genes and pathways involved in the erosion of natural bioresilience as a way to mitigate the aging process and promote healthy, functional longevity. To accelerate progress, we need to fundamentally change our thinking on how to measure biology. Dynamic systems such as biology cannot be studied effectively with static models. Yet modern science has largely relied on point-in-time static biomarkers to assess our health.Annual checks of heart rate, blood pressure, glucose, and cholesterol levels to assess health risks are tantamount to a seismic engineer relying on the degree of leaning, instead of the more valuable stress testing, to predict collapse risk from an earthquake.For example, baseline heart rate changes little with age, while heart rate recovery time after exercise (which is a dynamic measure of the heart\u2019s capacity) correlates with age. We also advocate the development of a broader array of dynamic diagnostic tests with capabilities for high-frequency sampling and stress testing to add a fourth dimension to the field of diagnostics\u2014time. The advent of fitness-tracking wearables, which collect biometric data continuously, may usher in tremendous opportunities in the coming years.The aging field is in its infancy. The end of aging would be the end of healthcare as we now know it. The feed-forward relationship between healthcare innovation and increasing future consumption of healthcare would finally be decoupled. Ifbioresilience is sustained, humans could persist at low annual mortality rates currently enjoyed by young adults. Healthy lifespan could telescope to a number of years that might have once seemed unimaginable. Human capacity would thus be unleashed.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,21 @@
+uuid: 68fecce1-0c7b-4166-8df7-52567c6fe372
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_speakers.field_primarytrack
+field_name: field_primarytrack
+entity_type: grid_speakers
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

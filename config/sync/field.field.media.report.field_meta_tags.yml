@@ -1,0 +1,21 @@
+uuid: 004f4de6-c5b5-42be-b156-d4b4f4e46a76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_meta_tags
+    - media.type.report
+  module:
+    - metatag
+id: media.report.field_meta_tags
+field_name: field_meta_tags
+entity_type: media
+bundle: report
+label: 'Meta Tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/despite-economic-challenges-california-maintains-fourth-place-national-rankings-high-tech-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 114
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c25c7288-664d-4112-8de9-c2f914af4af2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 114
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Despite Economic Challenges, California Maintains Fourth Place in National Rankings of High-Tech Economies, According to Milken Institute Study",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/despite-economic-challenges-california-maintains-fourth-place-national-rankings-high-tech-0",
+            "pid": 167,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "(LOS ANGELES) California's technology industries are still gaining ground, but the state's eroding investment in education may put the brakes on those sectors, potentially stunting California's growth for years to come.According to the Milken Institute report, <i>California's Position in Technology and Science: A Comparative Benchmarking Assessment<\/i>, released today, the state still ranks fourth in the nation, but the gap between California and top-ranked Massachusetts continues to grow.\n\"The big issue for California is educating its future workforce,\" said Kevin Klowden, managing economist and director of the Milken Institute California Center. \"California remains one of the nation's leaders in technology, and it ranks high in a number of key measures. But continued success in all those categories hinges on investment in human capital.\"\nThe index, the Institute's fourth since 2002, is a bellwether of the state's economic performance, which relies heavily on its vital tech and science assets. A complement to the Institute's national <i>State Technology and Science Index 2010<\/i>, the California version provides key stakeholders in California with direct evidence of how the state is faring in the sectors that are most likely to impact the state's future economic position.\n<b>Five Composite Indexes<\/b><b> The report compares California to other states using five composite indexes based on 79 different indicators.\nWith top 10 performances in four of the five composite indexes, California's lowest ranking is 13th in the <strong>Human Capital Investment Composite Index<\/b>, which measures state spending on higher education, the availability of skilled workers, and the proportion of recent graduates in key science and engineering fields. The state lags behind in producing and retaining graduates in those fields. Unless a means can be found to improve this weakness, there is no guarantee the state's future workforce will match the quality of the current one.\nCalifornia slid to fourth in the <b>Research and Development Inputs Composite Index<\/b>, which gauges a state's ability to attract federal, industry and academic funding for R&D. Academic R&D funding remains a concern, especially when compared to the leader, Massachusetts.\nCalifornia ceded the top ranking in the <b>Risk Capital and Entrepreneurial Infrastructure Composite Index<\/b> to Massachusetts. This index examines venture capital investment, patent applications, new businesses formed, and initial public offerings \u2014 all key to turning research into products and services. California's weakness in this area is a lack of business incubators.\nThe state slipped one spot to seventh in the <b>Technology and Science Workforce Composite Index,<\/b> a look at the relevant labor pool. The decline is due more to Delaware's improved performance than to a change in California's fortunes. Still, California's cost of living and some reluctance of leading tech firms to expand hiring are partly responsible for some tech and science workers leaving the state.\nThe <b>Technology Concentration and Dynamism Composite Index<\/b> provided a bright spot, with California climbing two spots to fifth. This index measures growth in tech sectors, indicating how effective states are at attracting those companies. California is the leader in the number of high-tech industries, and finished in the top five in percent of employment and payroll in high-tech industries.\n\"The state's two greatest challenges are bolstering the development of human capital and arresting the decline of its finances,\" Klowden said. \"California's legislature and governor must address not only short-term revenue concerns but also long-term structural imbalances. As long as the state's finances are unstable, funding for its universities will be inconsistent, placing the state at a competitive disadvantage in both the areas of R&D and human capital.\"\nComplete rankings (including interactive tables and maps) and the full reports are available at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "(LOS ANGELES) California's technology industries are still gaining ground, but the state's eroding investment in education may put the brakes on those sectors, potentially stunting California's growth for years to come.According to the Milken Institute report, <i>California's Position in Technology and Science: A Comparative Benchmarking Assessment<\/i>, released today, the state still ranks fourth in the nation, but the gap between California and top-ranked Massachusetts continues to grow.\n\"The big issue for California is educating its future workforce,\" said Kevin Klowden, managing economist and director of the Milken Institute California Center. \"California remains one of the nation's leaders in technology, and it ranks high in a number of key measures. But continued success in all those categories hinges on investment in human capital.\"\nThe index, the Institute's fourth since 2002, is a bellwether of the state's economic performance, which relies heavily on its vital tech and science assets. A complement to the Institute's national <i>State Technology and Science Index 2010<\/i>, the California version provides key stakeholders in California with direct evidence of how the state is faring in the sectors that are most likely to impact the state's future economic position.\n<b>Five Composite Indexes<\/b><b> The report compares California to other states using five composite indexes based on 79 different indicators.\nWith top 10 performances in four of the five composite indexes, California's lowest ranking is 13th in the <strong>Human Capital Investment Composite Index<\/strong><\/b>, which measures state spending on higher education, the availability of skilled workers, and the proportion of recent graduates in key science and engineering fields. The state lags behind in producing and retaining graduates in those fields. Unless a means can be found to improve this weakness, there is no guarantee the state's future workforce will match the quality of the current one.\nCalifornia slid to fourth in the <b>Research and Development Inputs Composite Index<\/b>, which gauges a state's ability to attract federal, industry and academic funding for R&amp;D. Academic R&amp;D funding remains a concern, especially when compared to the leader, Massachusetts.\nCalifornia ceded the top ranking in the <b>Risk Capital and Entrepreneurial Infrastructure Composite Index<\/b> to Massachusetts. This index examines venture capital investment, patent applications, new businesses formed, and initial public offerings \u2014 all key to turning research into products and services. California's weakness in this area is a lack of business incubators.\nThe state slipped one spot to seventh in the <b>Technology and Science Workforce Composite Index,<\/b> a look at the relevant labor pool. The decline is due more to Delaware's improved performance than to a change in California's fortunes. Still, California's cost of living and some reluctance of leading tech firms to expand hiring are partly responsible for some tech and science workers leaving the state.\nThe <b>Technology Concentration and Dynamism Composite Index<\/b> provided a bright spot, with California climbing two spots to fifth. This index measures growth in tech sectors, indicating how effective states are at attracting those companies. California is the leader in the number of high-tech industries, and finished in the top five in percent of employment and payroll in high-tech industries.\n\"The state's two greatest challenges are bolstering the development of human capital and arresting the decline of its finances,\" Klowden said. \"California's legislature and governor must address not only short-term revenue concerns but also long-term structural imbalances. As long as the state's finances are unstable, funding for its universities will be inconsistent, placing the state at a competitive disadvantage in both the areas of R&amp;D and human capital.\"\nComplete rankings (including interactive tables and maps) and the full reports are available at www.milkeninstitute.org.",
+    "summary": null,
+    "summary_processed": ""
+}

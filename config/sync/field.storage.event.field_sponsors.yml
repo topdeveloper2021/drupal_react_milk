@@ -1,0 +1,20 @@
+uuid: e54e8ba3-8e69-40f7-96fa-00dcdcf08c04
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+    - media
+id: event.field_sponsors
+field_name: field_sponsors
+entity_type: event
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

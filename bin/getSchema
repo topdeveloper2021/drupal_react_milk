@@ -1,0 +1,60 @@
+#!/usr/bin/env ts-node --project ./tsconfig.json
+const AccessToken = require("../src/DataTypes/AccessToken").AccessToken;
+const Axios = require("axios");
+const https = require("https");
+const fs = require("fs");
+const path = require("path");
+const $RefParser = require("@apidevtools/json-schema-ref-parser");
+const convert = require("@openapi-contrib/json-schema-to-openapi-schema");
+
+const endpoint = new URL("http://localhost:8080");
+const baseURL = new URL(`${endpoint.toString()}/jsonapi/schema`);
+
+Axios.get(`${endpoint.toString()}/rest/session/token`, {
+  debug: true,
+  withCredentials: true,
+})
+  .then((res) => {
+    const sessionToken = res.data;
+    return AccessToken.getToken()
+      .then((res) => {
+        return new AccessToken(res);
+      })
+      .then((accessToken) => {
+        console.log("Access Token", accessToken);
+        return Axios.create({
+          method: "GET",
+          baseURL: baseURL,
+          headers: {
+            "Content-Type": "application/hal+json",
+            "X-CSRF-Token": sessionToken,
+            "Access-Control-Allow-Origin": "http://localhost:8080",
+            "Access-Control-Allow-Credentials": "true",
+            Authorization: accessToken.Authorization,
+          },
+          port: 8080,
+          debug: true,
+          withCredentials: true,
+        });
+      });
+  })
+  .then((axiosClient) => {
+    console.info("axios client", axiosClient);
+    axiosClient
+      .get(baseURL.toString())
+      .then((response) => {
+        convert(response.data, {
+          dereference: true,
+          cloneSchema: true,
+        }).then((convertedSchema) => {
+          console.debug("CONVERTED: ", convertedSchema);
+          fs.writeFileSync(
+            path.resolve("src/DataTypes/").concat("/openapi3.json"),
+            JSON.stringify(convertedSchema, null, 2)
+          );
+        });
+      })
+      .catch((e) => {
+        console.error("ERROR:", e.message);
+      });
+  });

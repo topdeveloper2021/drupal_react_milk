@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/preparing-population-aging?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/8?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 467
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6dbe237e-785f-45eb-8f63-2ab9cb326335"
+        }
+    ],
+    "vid": [
+        {
+            "value": 467
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "61ce0875-a294-487c-afe4-159b0e6426d0"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Preparing for Population Aging",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:37:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/preparing-population-aging",
+            "pid": 520,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>As a member of the British House of Lords, Baroness Sally Greengross presides over parliamentary groups examining dementia, corporate social responsibility, intergenerational futures, and continence care. She has been an ambassador for the Prince of Wales, supporting responsible business practices that promote employee health and well-being. In an interview with the Milken Institute Center for the Future of Aging, Greengross explains the importance of treating the elderly with dignity and why governments must make dementia research a priority.<\/i><b>How well do you think Europe is prepared to confront the challenges of an aging population?<\/b>Well, I don't think many countries have actually got it right yet. That being said, most countries in Europe are incredibly aware, because European populations have been aging along with other developed nations. It's very important that what the U.K. has learned is shared with others. We\u2019re part of Europe even if we're unfortunately going out of the European Union. But that doesn't affect this sort of work. Collaborating with other countries on how you manage a rapidly aging population is very much a European issue, as well as a major issue for the Asia-Pacific region.\u00a0Many poorer European countries and less industrialized nations, such as ones in Africa or Southeast Asia, are in a less fortunate position for addressing the changes that come with population aging. They do not have the resources or capital to address issues like caregiver needs and aging labor markets, and thus cannot celebrate the natural process of aging in the way wealthier, economically stabilized nations can. In the U.K., we\u2019re fortunate to be able to address these issues and hopefully other European countries can learn from us.<b>Can you explain your work with the Prince of Wales and how it relates to health?\u00a0<\/b>Because I'm interested in responsible businesses in our society, one of the things that a responsible business does is it looks after the health and wellbeing of its employees. So, I have co-chaired a parliamentary committee with somebody in The House of Commons, and we have many meetings which involve people from both houses of Parliament. We do research, publicize good work, and try to influence parliamentarians so that they understand the importance of responsible business practice. We also show employers how important preventive health care is to ensure that employees have the best opportunities to maintain good mental and physical health.<b>What healthy aging issue should the U.K. tackle next?<\/b>I think Alzheimer's or dementia. There are so many forms of dementia, but Alzheimer's is the most commonplace. I think we have about nearly a million people now living with dementia, and it's the sixth leading cause of death in the U.S. I think governments must make this a priority, because we still don't have a cure. We all need to work to fund research and find out what all these different dementias do to people. But in the meantime, given that you can live for many, many years with some form of dementia, we have to make sure that people are treated kindly. The concept of\u00a0dementia friendly communities\u00a0is growing in the U.K. where people with dementia can continue to participate and find purpose. The general public would have a better understanding of Alzheimer\u2019s and dementia if they were more engaged with individuals suffering from those diseases\u2014it would help ordinary people be more understanding when an elderly person is confused and needs a bit of extra time or a bit of help. We as a society can make efforts to help these people when we know how to be respectful of their condition.<b>Do you think we can ever have a world without ageism?<\/b>We must. I think ageism has to be tackled. We often muddle human rights with ageism. I'd prefer all adults to have human rights respected regardless of age rather than have special rights for older people, because I think we're all human, and we all have the same basic rights. We have to be sure that we don't get separated from other adults as we get older. So, I'd prefer us to think of human rights as a matter of legality, with equal services, equal provisions, and equal opportunities for us with no upper age limit. That is part of our rights as humans, and it shouldn't be taken away because we grow older. We have basic human rights and entitlements to services whatever our age.",
+    "format": "rich_text",
+    "processed": "<i>As a member of the British House of Lords, Baroness Sally Greengross presides over parliamentary groups examining dementia, corporate social responsibility, intergenerational futures, and continence care. She has been an ambassador for the Prince of Wales, supporting responsible business practices that promote employee health and well-being. In an interview with the Milken Institute Center for the Future of Aging, Greengross explains the importance of treating the elderly with dignity and why governments must make dementia research a priority.<\/i><b>How well do you think Europe is prepared to confront the challenges of an aging population?<\/b>Well, I don't think many countries have actually got it right yet. That being said, most countries in Europe are incredibly aware, because European populations have been aging along with other developed nations. It's very important that what the U.K. has learned is shared with others. We\u2019re part of Europe even if we're unfortunately going out of the European Union. But that doesn't affect this sort of work. Collaborating with other countries on how you manage a rapidly aging population is very much a European issue, as well as a major issue for the Asia-Pacific region.\u00a0Many poorer European countries and less industrialized nations, such as ones in Africa or Southeast Asia, are in a less fortunate position for addressing the changes that come with population aging. They do not have the resources or capital to address issues like caregiver needs and aging labor markets, and thus cannot celebrate the natural process of aging in the way wealthier, economically stabilized nations can. In the U.K., we\u2019re fortunate to be able to address these issues and hopefully other European countries can learn from us.<b>Can you explain your work with the Prince of Wales and how it relates to health?\u00a0<\/b>Because I'm interested in responsible businesses in our society, one of the things that a responsible business does is it looks after the health and wellbeing of its employees. So, I have co-chaired a parliamentary committee with somebody in The House of Commons, and we have many meetings which involve people from both houses of Parliament. We do research, publicize good work, and try to influence parliamentarians so that they understand the importance of responsible business practice. We also show employers how important preventive health care is to ensure that employees have the best opportunities to maintain good mental and physical health.<b>What healthy aging issue should the U.K. tackle next?<\/b>I think Alzheimer's or dementia. There are so many forms of dementia, but Alzheimer's is the most commonplace. I think we have about nearly a million people now living with dementia, and it's the sixth leading cause of death in the U.S. I think governments must make this a priority, because we still don't have a cure. We all need to work to fund research and find out what all these different dementias do to people. But in the meantime, given that you can live for many, many years with some form of dementia, we have to make sure that people are treated kindly. The concept of\u00a0dementia friendly communities\u00a0is growing in the U.K. where people with dementia can continue to participate and find purpose. The general public would have a better understanding of Alzheimer\u2019s and dementia if they were more engaged with individuals suffering from those diseases\u2014it would help ordinary people be more understanding when an elderly person is confused and needs a bit of extra time or a bit of help. We as a society can make efforts to help these people when we know how to be respectful of their condition.<b>Do you think we can ever have a world without ageism?<\/b>We must. I think ageism has to be tackled. We often muddle human rights with ageism. I'd prefer all adults to have human rights respected regardless of age rather than have special rights for older people, because I think we're all human, and we all have the same basic rights. We have to be sure that we don't get separated from other adults as we get older. So, I'd prefer us to think of human rights as a matter of legality, with equal services, equal provisions, and equal opportunities for us with no upper age limit. That is part of our rights as humans, and it shouldn't be taken away because we grow older. We have basic human rights and entitlements to services whatever our age.",
+    "summary": null,
+    "summary_processed": ""
+}

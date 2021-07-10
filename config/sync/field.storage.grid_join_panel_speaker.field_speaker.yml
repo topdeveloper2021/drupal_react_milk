@@ -1,0 +1,19 @@
+uuid: 408cba47-2285-4ca4-aa3a-1e2a66cf196e
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: grid_join_panel_speaker.field_speaker
+field_name: field_speaker
+entity_type: grid_join_panel_speaker
+type: entity_reference
+settings:
+  target_type: people
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

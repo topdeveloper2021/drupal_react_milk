@@ -1,0 +1,19 @@
+uuid: 86b7c3db-f340-4aad-8598-93ce2fab5e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.menu_link_content.field_description
+    - system.menu.asia
+id: menu_link_content.asia.field_description
+field_name: field_description
+entity_type: menu_link_content
+bundle: asia
+label: Description
+description: 'Description to show below each menu item.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

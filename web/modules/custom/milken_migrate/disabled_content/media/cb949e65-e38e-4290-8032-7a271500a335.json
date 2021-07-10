@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7433\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/1ICqMxht9Nm9GjwqRaLfvoSQDTqQdGGLSjgRbMhRudU.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7433
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cb949e65-e38e-4290-8032-7a271500a335"
+        }
+    ],
+    "vid": [
+        {
+            "value": 206
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/1ICqMxht9Nm9GjwqRaLfvoSQDTqQdGGLSjgRbMhRudU.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ff93588a-8399-4765-bf71-1754c828dade"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Activist Athletes: Embracing Social Advocacy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-17T14:28:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-10T16:30:04+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "At a time when the societal fabric of the United States can seem frayed--from the backlash after a bitter presidential election to persistent racial, gender and economic challenges--sports can be a common denominator that brings people together. Players are increasingly speaking out on social issues, hailing back to earlier generations of athletes who were involved in the civil rights movement. The Ross Initiative in Sports for Equality (RISE) was formed to support such actions by athletes, coaches and teams.<br><br>What are the personal stories behind these remarkable athletes, coaches and owners, and what drives them to make a difference?<br>As public personalities in a media-saturated environment, how do they ensure that their charitable work succeeds? How do they protect their images?<br>How has sports figures' social activism evolved over multiple generations?",
+    "format": "rich_text",
+    "processed": "At a time when the societal fabric of the United States can seem frayed--from the backlash after a bitter presidential election to persistent racial, gender and economic challenges--sports can be a common denominator that brings people together. Players are increasingly speaking out on social issues, hailing back to earlier generations of athletes who were involved in the civil rights movement. The Ross Initiative in Sports for Equality (RISE) was formed to support such actions by athletes, coaches and teams.<br \/><br \/>What are the personal stories behind these remarkable athletes, coaches and owners, and what drives them to make a difference?<br \/>As public personalities in a media-saturated environment, how do they ensure that their charitable work succeeds? How do they protect their images?<br \/>How has sports figures' social activism evolved over multiple generations?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/wKBCzkDH72A",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/1ICqMxht9Nm9GjwqRaLfvoSQDTqQdGGLSjgRbMhRudU.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

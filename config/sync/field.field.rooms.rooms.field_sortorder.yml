@@ -1,0 +1,23 @@
+uuid: 12a82c16-22ef-4031-9dca-29c2e62ce2ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_sortorder
+id: rooms.rooms.field_sortorder
+field_name: field_sortorder
+entity_type: rooms
+bundle: rooms
+label: sortorder
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,30 @@
+uuid: e482c266-79ff-462d-80fd-586f75be088e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_livestream
+    - media.type.video
+    - media.type.video_stream
+    - node.type.session
+id: node.session.field_livestream
+field_name: field_livestream
+entity_type: node
+bundle: session
+label: Livestream
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+      video_stream: video_stream
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: video_stream
+field_type: entity_reference

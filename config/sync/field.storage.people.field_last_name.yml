@@ -1,0 +1,19 @@
+uuid: 8acb9452-0d24-4c9c-8925-c30174c18b49
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: people.field_last_name
+field_name: field_last_name
+entity_type: people
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

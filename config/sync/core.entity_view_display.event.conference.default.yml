@@ -1,0 +1,316 @@
+uuid: 26348399-fd78-4cd4-9ec1-968ec0f21676
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.event.conference
+    - field.field.event.conference.field_blurb
+    - field.field.event.conference.field_campaign_id
+    - field.field.event.conference.field_campaign_name
+    - field.field.event.conference.field_campaign_owner
+    - field.field.event.conference.field_campaign_type
+    - field.field.event.conference.field_campaign_type_public
+    - field.field.event.conference.field_centers
+    - field.field.event.conference.field_collections
+    - field.field.event.conference.field_content_tabs
+    - field.field.event.conference.field_description
+    - field.field.event.conference.field_event_date
+    - field.field.event.conference.field_events
+    - field.field.event.conference.field_grid_event_id
+    - field.field.event.conference.field_hero_image
+    - field.field.event.conference.field_meta_tags
+    - field.field.event.conference.field_name_short
+    - field.field.event.conference.field_published
+    - field.field.event.conference.field_regions
+    - field.field.event.conference.field_registration_deadline
+    - field.field.event.conference.field_related_media
+    - field.field.event.conference.field_sequential_id
+    - field.field.event.conference.field_social_network_links
+    - field.field.event.conference.field_speakers
+    - field.field.event.conference.field_sponsors
+    - field.field.event.conference.field_streaming_now
+    - field.field.event.conference.field_tags
+    - field.field.event.conference.field_title_card_image
+    - field.field.event.conference.field_topics
+    - field.field.event.conference.field_tracks
+    - field.field.event.conference.field_venue
+  module:
+    - datetime
+    - entity_reference_revisions
+    - image
+    - key_value_field
+    - metatag
+    - text
+id: event.conference.default
+targetEntityType: event
+bundle: conference
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_blurb:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_campaign_id:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_name:
+    weight: 7
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_owner:
+    weight: 11
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_type:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_campaign_type_public:
+    weight: 10
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_centers:
+    weight: 36
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_collections:
+    weight: 35
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_content_tabs:
+    type: entity_reference_revisions_entity_view
+    weight: 25
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_description:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_event_date:
+    weight: 29
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_events:
+    weight: 33
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_grid_event_id:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_hero_image:
+    type: entity_reference_entity_view
+    weight: 18
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_meta_tags:
+    weight: 21
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_name_short:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_published:
+    weight: 13
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_regions:
+    weight: 34
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_registration_deadline:
+    weight: 14
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_related_media:
+    type: entity_reference_entity_view
+    weight: 27
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_sequential_id:
+    weight: 15
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_social_network_links:
+    weight: 22
+    label: above
+    settings:
+      value_only: false
+    third_party_settings: {  }
+    type: key_value
+    region: content
+  field_speakers:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_sponsors:
+    weight: 28
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_streaming_now:
+    type: entity_reference_entity_view
+    weight: 30
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 31
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_title_card_image:
+    weight: 20
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_topics:
+    weight: 32
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_tracks:
+    weight: 16
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_venue:
+    weight: 26
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  changed: true
+  field_tabs: true
+  langcode: true
+  search_api_excerpt: true

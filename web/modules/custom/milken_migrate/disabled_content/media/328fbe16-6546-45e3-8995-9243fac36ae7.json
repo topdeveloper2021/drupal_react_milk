@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10098\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/lXBfNX35BoGbzAI_ZUq6Y7sWBzwDQomXj7MBpaH0smw.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10098
+        }
+    ],
+    "uuid": [
+        {
+            "value": "328fbe16-6546-45e3-8995-9243fac36ae7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1823
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/lXBfNX35BoGbzAI_ZUq6Y7sWBzwDQomXj7MBpaH0smw.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60759ba2-ccaf-4a01-8128-90ec1711a5fc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Economic Prosperity in the Americas",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T00:54:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "With the uncertain future of the ratification of the USMCA, continuing political tensions on border security and migration, as well as the call to end corruption across Central and South America, the Americas have never been in a more critical position to work together and find solutions to the economic challenges facing their respective regions. It's also an opportunity to effect positive change for the Americas overall. In this panel, our speakers will explore the following questions: How will the varying approaches to political movements and eradication of such issues as corruption affect the economic policies and relationships of North, Central, and South American countries? How are the region's countries positioning themselves to appeal to foreign businesses and investment, and how are they working to keep native organizations from outsourcing jobs? <br \/> What policies are working to more effectively integrate refugees and migrants into the communities receiving them? <br \/> What steps can be taken to move the Americas towards greater economic integration and shared prosperity?\u00a0<br \/> ",
+    "format": "rich_text",
+    "processed": "With the uncertain future of the ratification of the USMCA, continuing political tensions on border security and migration, as well as the call to end corruption across Central and South America, the Americas have never been in a more critical position to work together and find solutions to the economic challenges facing their respective regions. It's also an opportunity to effect positive change for the Americas overall. In this panel, our speakers will explore the following questions: How will the varying approaches to political movements and eradication of such issues as corruption affect the economic policies and relationships of North, Central, and South American countries? How are the region's countries positioning themselves to appeal to foreign businesses and investment, and how are they working to keep native organizations from outsourcing jobs? <br \/> What policies are working to more effectively integrate refugees and migrants into the communities receiving them? <br \/> What steps can be taken to move the Americas towards greater economic integration and shared prosperity?\u00a0<br \/>",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/mhuqh15lvyo",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/lXBfNX35BoGbzAI_ZUq6Y7sWBzwDQomXj7MBpaH0smw.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

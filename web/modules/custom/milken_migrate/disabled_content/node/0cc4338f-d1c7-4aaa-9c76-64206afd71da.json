@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/new-milken-institute-report-finds-film-and-tv-production-flight-has-cost-california-more?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 125
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0cc4338f-d1c7-4aaa-9c76-64206afd71da"
+        }
+    ],
+    "vid": [
+        {
+            "value": 125
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "New Milken Institute report finds film and TV production flight has cost California more than 36,000 jobs",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/new-milken-institute-report-finds-film-and-tv-production-flight-has-cost-california-more",
+            "pid": 178,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES - California has lost 10,600 entertainment industry jobs, more than 25,500 related jobs, $2.4 billion in wages and $4.2 billion in total economic output since 1997 as film and TV production has moved to other states and countries, according to a new Milken Institute study, <b>\"Film Flight: Lost Production and Its Economic Impact on California\"<\/b>. States like New York, New Mexico and Michigan, and countries like Canada and Germany have been aggressively courting the lucrative film industry with extensive tax and wage incentives. \"The Blind Side,\" \"No Country for Old Men\" and \"The Incredible Hulk\" are among the many movies that have been filmed outside of California in recent years. \"There\u2032s no doubt that incentives have been drawing jobs and wages away from California,\" said Kevin Klowden, Director of the Milken Institute California Center and lead author of the report. \"And while California\u2032s incentive package, passed in February 2009, appears to be working, we have a lot of catch up to do just to get back the share of production we had in 1997.\" According to the report, forty-two states (including California), plus the District of Columbia, are currently vying for a piece of the $57 billion U.S. film production industry by offering tax incentives. In July 2009, California implemented a tax credit for projects filmed in state with budgets of $75 million or less. Since its inception, 75 projects have been approved to receive credits. These projects were estimated to spend more than $1 billion in the state, generating $500 million of wages for below-the-line staff. The report notes that California\u2032s tax credits are set to expire in 2014 and are more attractive to independent films and television series than to big-budget studio productions, because only projects with production costs below $75 million are eligible. Among the findings of <b>Film Flight<\/b>: The number of movies either wholly or partially filmed in California has fallen sharply, from 272 in 2000 to 160 in 2008.<b>\nCalifornia\u2032s share of North American employment in the industry has declined from 40 percent in 1997 to 37.4 percent in 2008. <br>\nJobs losses go beyond the movie industry, because for every job created in California\u2032s film sector, another 2.5 jobs are created in other sectors. The report makes a series of recommendations on how California can turn the tide, including: Design a two-tier film incentive program - one set of benefits to engage big-budget studio films that are not covered under the current incentive program, and another set to attract smaller independent production. <br>\nImplement a new digital-media tax credit to attract and retain developers of digital animation, visual effects, and video games. <br>\nMake tax incentive programs permanent, signaling long-term commitment. The report includes an analysis of what other countries and states are doing to attract film production and post-production business such as digital special effects, animation and 3-D video game development. Included in the analysis are Canada, Australia, the U.K., Germany, New Zealand, New York, Georgia, Louisiana, New Mexico, North Carolina and Michigan. <b>\"Film Flight: Lost Production and Its Economic Impact on California\"<\/b> is a product of the Milken Institute\u2032s California Center, which is dedicated to measuring, evaluating and analyzing the state's economic, demographic and social conditions and trends.",
+    "format": "rich_text",
+    "processed": "LOS ANGELES - California has lost 10,600 entertainment industry jobs, more than 25,500 related jobs, $2.4 billion in wages and $4.2 billion in total economic output since 1997 as film and TV production has moved to other states and countries, according to a new Milken Institute study, <b>\"Film Flight: Lost Production and Its Economic Impact on California\"<\/b>. States like New York, New Mexico and Michigan, and countries like Canada and Germany have been aggressively courting the lucrative film industry with extensive tax and wage incentives. \"The Blind Side,\" \"No Country for Old Men\" and \"The Incredible Hulk\" are among the many movies that have been filmed outside of California in recent years. \"There\u2032s no doubt that incentives have been drawing jobs and wages away from California,\" said Kevin Klowden, Director of the Milken Institute California Center and lead author of the report. \"And while California\u2032s incentive package, passed in February 2009, appears to be working, we have a lot of catch up to do just to get back the share of production we had in 1997.\" According to the report, forty-two states (including California), plus the District of Columbia, are currently vying for a piece of the $57 billion U.S. film production industry by offering tax incentives. In July 2009, California implemented a tax credit for projects filmed in state with budgets of $75 million or less. Since its inception, 75 projects have been approved to receive credits. These projects were estimated to spend more than $1 billion in the state, generating $500 million of wages for below-the-line staff. The report notes that California\u2032s tax credits are set to expire in 2014 and are more attractive to independent films and television series than to big-budget studio productions, because only projects with production costs below $75 million are eligible. Among the findings of <b>Film Flight<\/b>: The number of movies either wholly or partially filmed in California has fallen sharply, from 272 in 2000 to 160 in 2008.<b>\nCalifornia\u2032s share of North American employment in the industry has declined from 40 percent in 1997 to 37.4 percent in 2008. <br \/>\nJobs losses go beyond the movie industry, because for every job created in California\u2032s film sector, another 2.5 jobs are created in other sectors. The report makes a series of recommendations on how California can turn the tide, including: Design a two-tier film incentive program - one set of benefits to engage big-budget studio films that are not covered under the current incentive program, and another set to attract smaller independent production. <br \/>\nImplement a new digital-media tax credit to attract and retain developers of digital animation, visual effects, and video games. <br \/>\nMake tax incentive programs permanent, signaling long-term commitment. The report includes an analysis of what other countries and states are doing to attract film production and post-production business such as digital special effects, animation and 3-D video game development. Included in the analysis are Canada, Australia, the U.K., Germany, New Zealand, New York, Georgia, Louisiana, New Mexico, North Carolina and Michigan. <b>\"Film Flight: Lost Production and Its Economic Impact on California\"<\/b> is a product of the Milken Institute\u2032s California Center, which is dedicated to measuring, evaluating and analyzing the state's economic, demographic and social conditions and trends.<\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

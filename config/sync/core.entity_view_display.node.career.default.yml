@@ -1,0 +1,314 @@
+uuid: f88e58c3-e752-4d88-b865-eb030fa14c63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.career.field_body
+    - field.field.node.career.field_careers_apply
+    - field.field.node.career.field_centers
+    - field.field.node.career.field_centers_general
+    - field.field.node.career.field_collections
+    - field.field.node.career.field_department
+    - field.field.node.career.field_events
+    - field.field.node.career.field_hero_image
+    - field.field.node.career.field_link_to_video
+    - field.field.node.career.field_location
+    - field.field.node.career.field_meta_tags
+    - field.field.node.career.field_region
+    - field.field.node.career.field_seniority_level
+    - field.field.node.career.field_terms
+    - field.field.node.career.field_topics
+    - field.field.node.career.field_yoast_seo
+    - node.type.career
+  module:
+    - layout_builder
+    - layout_discovery
+    - link
+    - metatag
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          de43069a-e39d-4808-ac9e-505e9fe114fb:
+            uuid: de43069a-e39d-4808-ac9e-505e9fe114fb
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:career:links'
+            additional: {  }
+            weight: 0
+          b0ac77f9-0406-4fcf-90f2-d3f3e31192d6:
+            uuid: b0ac77f9-0406-4fcf-90f2-d3f3e31192d6
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_careers_apply'
+              formatter:
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+                type: link
+            additional: {  }
+            weight: 2
+          42ad3bdd-85f2-4e1a-ab2b-1a7b42ea87e1:
+            uuid: 42ad3bdd-85f2-4e1a-ab2b-1a7b42ea87e1
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_centers_general'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 3
+          4453ca2a-1ac6-42f2-a558-5ee94445d11e:
+            uuid: 4453ca2a-1ac6-42f2-a558-5ee94445d11e
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_department'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 4
+          fe013cca-5235-46fb-8e81-ec1ce7ed87af:
+            uuid: fe013cca-5235-46fb-8e81-ec1ce7ed87af
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_hero_image'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 5
+          550eb4f6-c805-430b-a3c8-1cc61ba405ca:
+            uuid: 550eb4f6-c805-430b-a3c8-1cc61ba405ca
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_link_to_video'
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+            additional: {  }
+            weight: 6
+          de2018f2-0575-4b6b-9268-6811c36413d9:
+            uuid: de2018f2-0575-4b6b-9268-6811c36413d9
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_location'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 7
+          23582e00-9802-42b3-8993-2f0efcb850a8:
+            uuid: 23582e00-9802-42b3-8993-2f0efcb850a8
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_meta_tags'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: metatag_empty_formatter
+            additional: {  }
+            weight: 8
+          babda5dc-a1d6-4519-b896-507cafdf8536:
+            uuid: babda5dc-a1d6-4519-b896-507cafdf8536
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_seniority_level'
+              formatter:
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+                type: entity_reference_label
+            additional: {  }
+            weight: 9
+          798e5e44-b9a9-417e-b261-d0bc03672290:
+            uuid: 798e5e44-b9a9-417e-b261-d0bc03672290
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_body'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 10
+          281d0241-a07b-401c-a12f-9078a1a4d7a6:
+            uuid: 281d0241-a07b-401c-a12f-9078a1a4d7a6
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:career:field_yoast_seo'
+              formatter:
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+            additional: {  }
+            weight: 11
+        third_party_settings: {  }
+id: node.career.default
+targetEntityType: node
+bundle: career
+mode: default
+content:
+  field_body:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_careers_apply:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_centers_general:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_department:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_hero_image:
+    weight: 105
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_link_to_video:
+    weight: 106
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_location:
+    weight: 107
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_meta_tags:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_seniority_level:
+    weight: 109
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_yoast_seo:
+    weight: 111
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_centers: true
+  field_collections: true
+  field_events: true
+  field_region: true
+  field_terms: true
+  field_topics: true
+  langcode: true
+  published_at: true
+  search_api_excerpt: true

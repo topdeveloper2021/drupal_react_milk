@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/aligning-science-across-parkinsons-collaborative-model-accelerating-biomedical-research?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/215?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 843
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6e6d6557-a684-4c71-98df-889f32b50f50"
+        }
+    ],
+    "vid": [
+        {
+            "value": 843
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/215?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f6fb00d2-e0e9-4e9d-a3e5-e1b83c587053"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Aligning Science Across Parkinson\u2019s: A Collaborative Model for Accelerating Biomedical Research",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-10-14T03:01:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-10-22T20:04:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/aligning-science-across-parkinsons-collaborative-model-accelerating-biomedical-research",
+            "pid": 896,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Around the globe, biomedical research has advanced dramatically since the end of the Second World War when government support for basic science in the US began. The prevailing model of support for curiosity-driven, investigator-initiated fundamental research was prompted by a transformative report called \u201cScience: The Endless Frontier,\u201d written by Vannevar Bush, who was the science advisor to Presidents Franklin D. Roosevelt and Harry S. Truman. Bush concluded that \u201cScientific progress on a broad front results from the free play of free intellects, working on subjects of their own choice, in the manner dictated by their curiosity for exploration of the unknown.\u201d As a result of this vision, support of research funded by the US National Institutes of Health has grown from a mere $4 million in 1947 to $39.2 billion in 2019\u2014an estimated 850-fold increase when adjusted to 2019 dollars. Although the US continues to outperform the rest of the world in biomedical science, progress on significant health-related goals is, in some cases, slow and halting. Stifled by what\u2019s been called a \u201chypercompetitive system\u201d in biomedicine, there have been major calls for fundamental changes to make federal research funding more stable, leading to a sustainable career path for young scientists that creates and encourages risky and innovative research. So far, efforts to implement proposed changes have been incremental at best. Of the many contributors to the problem, two are most pertinent: the academic reward structure and throttled information dissemination. In our current biomedical system, the academic reward structure favors the individual, resulting in inadequate recognition for cross-disciplinary collaboration. Further, a few for-profit journals hold the keys to important research publications, locking data behind paywalls that prevent researchers from using the best information available. There has been a clarion call to make peer-reviewed, published research free to anyone who wishes to access it, allowing research teams to build on existing knowledge more readily. These challenges hinder progress. While amazing strides have been made in disease areas such as cancer and infectious disease, neurodegeneration lags behind. Of the neurodegenerative disorders, Parkinson\u2019s disease is the fastest growing, affecting more than 6 million people worldwide\u2014and that\u2019s likely an underestimate. The cause is unknown, and there are no current therapies to treat its underlying causes. Solving this monumental challenge will need teams that bring diverse expertise to bear in a collaborative environment that values the open sharing of ideas and results. For this to happen, open science needs to be pushed aggressively by the very people who fund it. An open, collaborative environment for researchers and scientists creates an opportunity for philanthropic enterprises, which possess more latitude, flexibility, and independence than government, to experiment with new research models. Parkinson\u2019s disease (PD) presents the perfect challenge for a collaborative research model. As the second most common neurodegenerative disorder, behind Alzheimer\u2019s disease, it is of great clinical interest. It also involves inflammatory processes in the brain that are only beginning to be understood, yet appear to be a common thread in many neurological disorders. This is why Aligning Science Across Parkinson\u2019s, (ASAP), a philanthropically driven initiative, was born. In consultation with Parkinson\u2019s researchers and experts in related fields, ASAP has chosen to concentrate on three areas: understanding the function of PD-associated genes, identifying the inflammatory processes that occur in the condition, and tracing interactions between the deep brain regions affected by PD and the rest of the body. All three areas will also focus on sleep, the loss of smell, and other symptoms that often precede by years or decades the motor deficits that are considered the hallmark of PD. These areas bring together fields of expertise that no single team or lab could ever take on. To implement this far-reaching research agenda, ASAP policies will emphasize teamwork over individual recognition. Successful teams must be open to sharing new results on a virtual platform shared by ASAP groups, to posting work ready for publication on pre-print platforms, and to publishing finished work in a journal that offers immediate open access. It is our firm belief that open access and research transparency will accelerate the pace of discovery. The individual investigator-driven structure of support and recognition in biomedical science will, we hope, continue to generate crucial discoveries, many of which will bear on the problem of PD. By adopting a philanthropic model of support that rewards collaboration and openness, we hope to generate insights that exceed the efforts of isolated biomedical science laboratories. If ever there was a true-to-life example of something being greater than the sum of its parts, ASAP hopes to be that example. Other areas of science have shown what\u2019s possible when data are open, and teams, rather than individuals, are rewarded. Biomedicine must be the next frontier.\u00a0",
+    "format": "rich_text",
+    "processed": "Around the globe, biomedical research has advanced dramatically since the end of the Second World War when government support for basic science in the US began. The prevailing model of support for curiosity-driven, investigator-initiated fundamental research was prompted by a transformative report called \u201cScience: The Endless Frontier,\u201d written by Vannevar Bush, who was the science advisor to Presidents Franklin D. Roosevelt and Harry S. Truman. Bush concluded that \u201cScientific progress on a broad front results from the free play of free intellects, working on subjects of their own choice, in the manner dictated by their curiosity for exploration of the unknown.\u201d As a result of this vision, support of research funded by the US National Institutes of Health has grown from a mere $4 million in 1947 to $39.2 billion in 2019\u2014an estimated 850-fold increase when adjusted to 2019 dollars. Although the US continues to outperform the rest of the world in biomedical science, progress on significant health-related goals is, in some cases, slow and halting. Stifled by what\u2019s been called a \u201chypercompetitive system\u201d in biomedicine, there have been major calls for fundamental changes to make federal research funding more stable, leading to a sustainable career path for young scientists that creates and encourages risky and innovative research. So far, efforts to implement proposed changes have been incremental at best. Of the many contributors to the problem, two are most pertinent: the academic reward structure and throttled information dissemination. In our current biomedical system, the academic reward structure favors the individual, resulting in inadequate recognition for cross-disciplinary collaboration. Further, a few for-profit journals hold the keys to important research publications, locking data behind paywalls that prevent researchers from using the best information available. There has been a clarion call to make peer-reviewed, published research free to anyone who wishes to access it, allowing research teams to build on existing knowledge more readily. These challenges hinder progress. While amazing strides have been made in disease areas such as cancer and infectious disease, neurodegeneration lags behind. Of the neurodegenerative disorders, Parkinson\u2019s disease is the fastest growing, affecting more than 6 million people worldwide\u2014and that\u2019s likely an underestimate. The cause is unknown, and there are no current therapies to treat its underlying causes. Solving this monumental challenge will need teams that bring diverse expertise to bear in a collaborative environment that values the open sharing of ideas and results. For this to happen, open science needs to be pushed aggressively by the very people who fund it. An open, collaborative environment for researchers and scientists creates an opportunity for philanthropic enterprises, which possess more latitude, flexibility, and independence than government, to experiment with new research models. Parkinson\u2019s disease (PD) presents the perfect challenge for a collaborative research model. As the second most common neurodegenerative disorder, behind Alzheimer\u2019s disease, it is of great clinical interest. It also involves inflammatory processes in the brain that are only beginning to be understood, yet appear to be a common thread in many neurological disorders. This is why Aligning Science Across Parkinson\u2019s, (ASAP), a philanthropically driven initiative, was born. In consultation with Parkinson\u2019s researchers and experts in related fields, ASAP has chosen to concentrate on three areas: understanding the function of PD-associated genes, identifying the inflammatory processes that occur in the condition, and tracing interactions between the deep brain regions affected by PD and the rest of the body. All three areas will also focus on sleep, the loss of smell, and other symptoms that often precede by years or decades the motor deficits that are considered the hallmark of PD. These areas bring together fields of expertise that no single team or lab could ever take on. To implement this far-reaching research agenda, ASAP policies will emphasize teamwork over individual recognition. Successful teams must be open to sharing new results on a virtual platform shared by ASAP groups, to posting work ready for publication on pre-print platforms, and to publishing finished work in a journal that offers immediate open access. It is our firm belief that open access and research transparency will accelerate the pace of discovery. The individual investigator-driven structure of support and recognition in biomedical science will, we hope, continue to generate crucial discoveries, many of which will bear on the problem of PD. By adopting a philanthropic model of support that rewards collaboration and openness, we hope to generate insights that exceed the efforts of isolated biomedical science laboratories. If ever there was a true-to-life example of something being greater than the sum of its parts, ASAP hopes to be that example. Other areas of science have shown what\u2019s possible when data are open, and teams, rather than individuals, are rewarded. Biomedicine must be the next frontier.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

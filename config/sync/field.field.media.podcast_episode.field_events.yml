@@ -1,0 +1,29 @@
+uuid: c7933ef9-bcea-4fe5-919e-3c1745250616
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_events
+    - media.type.podcast_episode
+    - taxonomy.vocabulary.events
+id: media.podcast_episode.field_events
+field_name: field_events
+entity_type: media
+bundle: podcast_episode
+label: Events
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      events: events
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

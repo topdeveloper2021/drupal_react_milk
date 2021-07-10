@@ -1,0 +1,19 @@
+uuid: d60a11b7-b963-453b-8a5c-251074a9042d
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.rooms.rooms
+    - field.storage.rooms.field_roomgroup
+id: rooms.rooms.field_roomgroup
+field_name: field_roomgroup
+entity_type: rooms
+bundle: rooms
+label: roomgroup
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

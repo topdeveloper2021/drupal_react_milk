@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-ranks-asias-best-performing-cities?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 723
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c0b3b13e-1905-4b5d-bad3-efbcbeb858d6"
+        }
+    ],
+    "vid": [
+        {
+            "value": 723
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute ranks Asia\u2019s Best-Performing Cities",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-09-16T21:24:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:49:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-ranks-asias-best-performing-cities",
+            "pid": 776,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "SINGAPORE \u2013 The Milken Institute released today its first-ever ranking of the economic performance of Asia\u2019s major cities, revealing that in creating jobs and vibrant urban growth, the Chinese dragon still roars. Of Asia\u2019s top ten cities, six are in the People\u2019s Republic. Top of the pack: Shenzhen, the birthplace of modern Chinese economic reform.For more than decade, the Milken Institute has analyzed and ranked the Best-Performing Cities in the United States, focused on which regional economies best fuel job and income growth. With the establishment of its Asia Center in Singapore, the Institute has adapted one of its most recognized tools to the cities and regions in Asia where jobs are being created and sustained. The Best-Performing Cities Asia Index is based on actual economic performance assessing job and income growth, and the strength of industries on the extent of economic value they add.As the first of modern China\u2019s special economic zones, top-ranked Shenzhen remains a major production hub, boosting factories that employ tens of thousands of workers who produce iPhones for Apple and assemble components for many other firms. Yet lately the city\u2019s rapid progress up the economic ladder has been fuelled by higher value-added \u2013 and better-paying \u2013 industries such as telecommunications, finance, and biopharmaceuticals.Three other Chinese cities \u2013 Guangzhou, Chengdu, and Tianjin \u2013 rounded out the top four, and Beijing placed seventh. Shanghai came in at 10th place; this major financial center developing a world-class skilled workforce hasn\u2019t been able to compete with cities that host high-tech manufacturing.Outside of China, Asia\u2019s best-performing cities span the region, with India\u2019s Delhi (#5), Malaysia\u2019s Kuala Lumpur (#6) and Vietnam\u2019s Ho Chi Minh City (#9) all claiming top ten spots. Singapore comes in at 8th, the only developed economy among the top 10, a remarkable showing since the survey\u2019s methodology rewards fast-growing cities. The city-state is an economic role model on how to transition from a low-cost location to an open international economy, based on human capital, research, and innovation capacities.\u201cAbove all other factors, it is job creation that drives the formation and expansion of the middle class in Asia\u2019s most dynamic cities,\u201d says Ross DeVol, the Milken Institute\u2019s chief research officer and one of the authors of the study. \u201cOur data-based index highlights the urban economies that are doing the best job in both creating jobs and transitioning to a higher value-added, more sustainable, growth rate.\u201dThe Best-Performing Cities Asia index ranks Asian cities based on their economic performance. The index measures growth in jobs, household income and high value-added industries over five years (2008-2013) to adjust for extreme variations in business cycles. It also incorporates the most recent one-year performance in these areas. As an economic index, Best-Performing Cities Asia does not include cost-of-living comparisons or quality-of-life conditions such as pollution or commute times.\u201cWith the launch of Best-Performing Cities Asia as an annual index of the Milken Institute, we hope to help Asian leaders in government, business, and finance identify how best to continue to grow their economies,\u201d says Perry Wong, Managing Director of Research at the Institute and one of the authors of the study. \u201cThat in turn will fuel further prosperity and opportunity for people throughout the region.\u201cBest-Performing Cities Asia 2014: the Region\u2019s Most Dynamic Economies,\u201d by Ross DeVol, Minoli Ratnatunga and Perry Wong is available at http:\/\/www.milkeninstitute.org\/publications\/view\/659.",
+    "format": "rich_text",
+    "processed": "SINGAPORE \u2013 The Milken Institute released today its first-ever ranking of the economic performance of Asia\u2019s major cities, revealing that in creating jobs and vibrant urban growth, the Chinese dragon still roars. Of Asia\u2019s top ten cities, six are in the People\u2019s Republic. Top of the pack: Shenzhen, the birthplace of modern Chinese economic reform.For more than decade, the Milken Institute has analyzed and ranked the Best-Performing Cities in the United States, focused on which regional economies best fuel job and income growth. With the establishment of its Asia Center in Singapore, the Institute has adapted one of its most recognized tools to the cities and regions in Asia where jobs are being created and sustained. The Best-Performing Cities Asia Index is based on actual economic performance assessing job and income growth, and the strength of industries on the extent of economic value they add.As the first of modern China\u2019s special economic zones, top-ranked Shenzhen remains a major production hub, boosting factories that employ tens of thousands of workers who produce iPhones for Apple and assemble components for many other firms. Yet lately the city\u2019s rapid progress up the economic ladder has been fuelled by higher value-added \u2013 and better-paying \u2013 industries such as telecommunications, finance, and biopharmaceuticals.Three other Chinese cities \u2013 Guangzhou, Chengdu, and Tianjin \u2013 rounded out the top four, and Beijing placed seventh. Shanghai came in at 10th place; this major financial center developing a world-class skilled workforce hasn\u2019t been able to compete with cities that host high-tech manufacturing.Outside of China, Asia\u2019s best-performing cities span the region, with India\u2019s Delhi (#5), Malaysia\u2019s Kuala Lumpur (#6) and Vietnam\u2019s Ho Chi Minh City (#9) all claiming top ten spots. Singapore comes in at 8th, the only developed economy among the top 10, a remarkable showing since the survey\u2019s methodology rewards fast-growing cities. The city-state is an economic role model on how to transition from a low-cost location to an open international economy, based on human capital, research, and innovation capacities.\u201cAbove all other factors, it is job creation that drives the formation and expansion of the middle class in Asia\u2019s most dynamic cities,\u201d says Ross DeVol, the Milken Institute\u2019s chief research officer and one of the authors of the study. \u201cOur data-based index highlights the urban economies that are doing the best job in both creating jobs and transitioning to a higher value-added, more sustainable, growth rate.\u201dThe Best-Performing Cities Asia index ranks Asian cities based on their economic performance. The index measures growth in jobs, household income and high value-added industries over five years (2008-2013) to adjust for extreme variations in business cycles. It also incorporates the most recent one-year performance in these areas. As an economic index, Best-Performing Cities Asia does not include cost-of-living comparisons or quality-of-life conditions such as pollution or commute times.\u201cWith the launch of Best-Performing Cities Asia as an annual index of the Milken Institute, we hope to help Asian leaders in government, business, and finance identify how best to continue to grow their economies,\u201d says Perry Wong, Managing Director of Research at the Institute and one of the authors of the study. \u201cThat in turn will fuel further prosperity and opportunity for people throughout the region.\u201cBest-Performing Cities Asia 2014: the Region\u2019s Most Dynamic Economies,\u201d by Ross DeVol, Minoli Ratnatunga and Perry Wong is available at http:\/\/www.milkeninstitute.org\/publications\/view\/659.",
+    "summary": null,
+    "summary_processed": ""
+}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-february-25-2019?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/124?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 741
+        }
+    ],
+    "uuid": [
+        {
+            "value": "cbd7d4cc-2ef2-4c2a-a1a7-f5ceea6035e3"
+        }
+    ],
+    "vid": [
+        {
+            "value": 741
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/124?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3223a5e0-5879-4b8a-aadf-14183302e1ed"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus - February 25, 2019",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-04T12:54:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:17:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-february-25-2019",
+            "pid": 794,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The (Digital) Economy is Fyre Festival Last week, FT Alphaville\u2019s Izabella Kaminska published a piece on the rise of corporate \u201cmystics.\u201d You know the type. They make heavy use of words like \u201csynergy\u201d and spend their careers accumulating followers on Twitter rather than lines on a resume. According to Kaminska\u2019s perusal, there are 6,158 \u201cevangelists,\u201d 15,145 \u201cthought leaders,\u201d and 245,167 \u201cinfluencers\u201d on LinkedIn today. In jest, I responded that the entire economy is Fyre Festival, the ill-fated music and cash-burning festival made infamous by recent Netflix and Hulu documentaries. But the problem is particularly pronounced in the digital economy, where firms that extract capital from investors are celebrated and their leaders are lionized as visionaries. Fyre Festival and its hapless leaders may have been more obnoxious than usual, but the nature of the venture was pretty in line with the digital economy\u2019s norms. We see it all the time in FinTech, particularly in the exasperating world of cryptocurrency. In fact, cryptocurrency schemes often deceive investors by using the same tactic employed by Billy McFarland: paying \u201cinfluencers\u201d on Instagram. While McFarland and Ja Rule, his Always on Time accomplice, paid swimsuit models to post about Fyre Festival, cryptocurrency firms will pay pretty much anyone who doesn\u2019t mind giving poor investment advice. Similarly, cryptocurrency \u201cthought leaders\u201d expound on their belief in a decentralized future, but their arguments usually have the added benefit of inflating an asset bubble they are positioned to profit from. But this type of behavior is not limited to the fringes of the digital economy. It is a key characteristic of tech companies with wild valuations, including some of the world\u2019s most valuable companies. Theranos infamously achieved a $9 billion valuation before collapsing under the weight of its fraud, but Elizabeth Holmes\u2019s talk of saving lives made her an idol in the business community. Uber remains unprofitable and is widely criticized for its treatment of drivers, but Travis Kalanick wooed starry-eyed investors with his mission to \u201cbring transportation to everyone, everywhere\u201d. Tesla\u2019s farcical mismanagement has finally come under greater scrutiny, but Elon Musk continues to distract with his supposedly altruistic mission to save this planet and conquer new ones. Investors are conditioned to believe these stories because they have seen them work out before. For example, Facebook\u2019s mission to \u201cbring the world closer together\u201d became profitable by selling users\u2019 data for targeted advertising. To varying degrees, most of today\u2019s tech giants have an uncanny tendency to rely on this type of cross-subsidization. However, when you move fast and break things, the mess will eventually have to be cleaned up. Today, a \u201ctechlash\u201d has led to a popular outcry for increased protections of consumer data, and regulators around the world are taking action. But here\u2019s the kicker, the digital economy carried the stock market in the decade since the financial crisis. While other sectors lagged, rising share prices at Amazon, Apple, Alphabet, Facebook, Microsoft, and Netflix accounted for half of the S&P 500\u2019s gain over the past ten years. That type of concentration risk is problematic at the best of times, but when it is predicated on business practices that society may decide it is better off without? Well, make sure to find your tent before the rain starts. Industry Headlines Hello there, FinTech in Focus readers. We\u2019re back after a brief hiatus, and there is no shortage of FinTech news to cover. <i>Big Tech<\/i>: Ant Financial acquired WorldFirst, a London-based remittances company, for $700 million. WorldFirst will keep its brand, but the acquisition marks another sign of the growing links between China\u2019s tech giants and Europe\u2019s FinTech firms. Meanwhile, in the latest example of an American Big Tech company teaming up with a large bank, Apple and Goldman Sachs are teaming up on a credit card to be paired with the iPhone. <i>Blockchain & Crypto<\/i>: In the last edition of FinTech in Focus, I complained that I am always disappointed when I write this section of the newsletter. There just never seems to be good news. Soon thereafter, however, there was a piece of news that could be very good, depending on how you look at it. JPMorgan announced the launch of \u201cJPM Coin,\u201d a stable coin the firms says will be used in trials in its wholesale payments business. That could be big news, or as Matt Levine writes, it could just be subtraction. <i>Data Intermediation<\/i>: Lloyds Bank announced the launch of their open banking platform, allowing its customers to manage their accounts at other financial institutions from the Lloyds app. <i>Digital Banking<\/i>:\u00a0Starling Bank raised $97 million in additional funding, which it plans to use to increase its product offerings and expand into Europe. <i>Payments<\/i>:\u00a0Alipay will expand into 3,000 Walgreens locations, the latest effort by Ant Financial to leverage growing numbers of Chinese tourists into a market presence in the United States. Meanwhile, Dutch payments unicorn Adyen announced it is has adopted a payments service: the European Union\u2019s PSD2 mandate. According to PayPal CEO Dan Schulman, payments will continue to be a very active space, and might become a $100 trillion global market. <i>RegTech<\/i>: The Cambridge Center for Alternative Finance announced it is launching a RegTech benchmarking survey, which will include an \u201cevidence-based taxonomy of RegTech firms.\u201d Research is underway, and the report is expected in the first half of 2019. <i>Wealth Management<\/i>:\u00a0SoFi announced its plan to expand its wealth management business, the latest indication of re-bundling in FinTech. SoFi\u2019s plan is to allow customers to trade stocks and exchange traded funds on its platform, bringing it into closer competition with other wealth management FinTechs. Meanwhile, Wealthfront will offer its customers a cash account with an interest rate of 2.24 percent. Global Developments <i>United Nations<\/i>: The UN Secretary-General's Special Advocate for Inclusive Finance for Development (UNSGSA) released a report last week on innovation offices, regulatory sandboxes, and RegTech. The report is largely positive on innovation offices and RegTech, but is notably critical of regulatory sandboxes. Specifically, the report states: <i>\u201cLessons learned from early regulatory sandboxes highlight that they are neither necessary nor sufficient for promoting financial inclusion. Sandboxes do offer benefits but are complex to set up and costly to run. Experience shows that most regulatory questions raised in connection with sandbox tests can be effectively resolved without a live testing environment. Similar results may be more affordably achieved through innovation offices and other tools.\u201d<\/i> <i>Financial Stability Board<\/i>:\u00a0The Financial Stability Board released a report on FinTech\u2019s implications for market structure and financial stability. While the report finds the relationship between FinTechs and incumbents is largely complementary, it posits that Big Tech and third party data service providers may ultimately be more impactful on financial services than FinTech. Notably, the report states the shift to open banking may result in more competition in certain services, but also a potential increase for certain risks. The entrance of Big Tech, the report finds, will mean greater competition for incumbents, but may ultimately result in a less competitive market over the long term. <i>China<\/i>:\u00a0Police in China froze $1.5 billion in assets at 380 peer-to-peer lenders in China, in an operation with the code name \u201cFox Hunt.\u201d The Chinese police accused these peer-to-peer lenders of \u201cusing the guise of financial innovation with the bait of high returns\u201d in order to extract capital from investors. Sound familiar? <i>Germany<\/i>: The German competition authority became the latest regulator to crack down of Facebook\u2019s business model, ruling that users must be able to refuse to allow Facebook to combine their Facebook data with data from third parties. <i>Hong Kong<\/i>: Regulators in Hong Kong are set to issue digital banking licenses to Tencent, Ant Financial, Xiaomi, Standard Chartered, Hong Kong Telecom, and ZhongAn. <i>Lithuania<\/i>: Here\u2019s an unusual story. Revolut, one of several British challenger banks vying for European dominance, has found itself in a sticky situation that may result in the loss of its Lithuanian banking license. As more FinTech firms look to Lithuania as a gateway to Europe, some Lithuanian policymakers have begun to question whether their financial regulators have the capacity to monitor such firms. Revolut in particular seems to have concerned the head of Parliament\u2019s budget and finance committee, Stasys Jakeliunas. To make matters worse, it turns out Revolut\u2019s CEO, Nikolay Storonsky, is the son of a director at Gazprom, the Russian energy giant with close ties to the Kremlin. That might not seem particularly relevant to Revolut\u2019s business, but Lithuanian politics is marked by a historical fear of Russian interference. These links, combined with the regulatory concerns, have led to an official investigation into Revolut, which may endanger its banking license. <i>Saudi Arabia<\/i>: The Saudi Arabian Monetary Authority announced the launch of a regulatory sandbox as part of the government\u2019s Vision 2030 agenda. <i>United States<\/i>: The Conference of State Bank Supervisor\u2019s FinTech Advisory Panel released its list of recommendations for state financial regulators. The recommendations include developing a 50-state model law to license money services businesses, creating a standardized call report for consumer finance businesses, building an online database of state licensing and FinTech guidance, developing a State Examination System to simplify examinations of nonbanks operating in more than one state, and expanding the use of the Nationwide Multistate Licensing System among all state regulators and to all nonbank industries supervised at the state level. Meanwhile on Capitol Hill, FinTech is becoming an increasingly hot topic. Congressman Bill Foster (D-IL) sent a letter to Maxine Waters, the Chairwoman of the House Financial Services Committee, to express his \u201cstrong interest in serving as the Chair of the Taskforce on Financial Technology and Innovation that will be convened in the coming weeks.\u201d But perhaps even more impactful, Senators Mike Crapo (R-ID) and Sherrod Brown (D-OH), the Chairman and Ranking Member of the Senate Banking Committee, issued a joint request for information on financial data privacy, protection, and collection. The request includes questions on consumer control, disclosure, and data protection and accuracy at credit rating agencies. On a related note, the GAO released a report on consumer data protection, outlining the ways policymakers could increase consumer protection through legislation, regulation, and civil penalty authority. Oh, and one more thing on consumer data protection. Facebook still isn\u2019t off the hook for being bad at it. Finally, the District of Columbia established a regulatory sandbox without consulting me.",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb The (Digital) Economy is Fyre Festival Last week, FT Alphaville\u2019s Izabella Kaminska published a piece on the rise of corporate \u201cmystics.\u201d You know the type. They make heavy use of words like \u201csynergy\u201d and spend their careers accumulating followers on Twitter rather than lines on a resume. According to Kaminska\u2019s perusal, there are 6,158 \u201cevangelists,\u201d 15,145 \u201cthought leaders,\u201d and 245,167 \u201cinfluencers\u201d on LinkedIn today. In jest, I responded that the entire economy is Fyre Festival, the ill-fated music and cash-burning festival made infamous by recent Netflix and Hulu documentaries. But the problem is particularly pronounced in the digital economy, where firms that extract capital from investors are celebrated and their leaders are lionized as visionaries. Fyre Festival and its hapless leaders may have been more obnoxious than usual, but the nature of the venture was pretty in line with the digital economy\u2019s norms. We see it all the time in FinTech, particularly in the exasperating world of cryptocurrency. In fact, cryptocurrency schemes often deceive investors by using the same tactic employed by Billy McFarland: paying \u201cinfluencers\u201d on Instagram. While McFarland and Ja Rule, his Always on Time accomplice, paid swimsuit models to post about Fyre Festival, cryptocurrency firms will pay pretty much anyone who doesn\u2019t mind giving poor investment advice. Similarly, cryptocurrency \u201cthought leaders\u201d expound on their belief in a decentralized future, but their arguments usually have the added benefit of inflating an asset bubble they are positioned to profit from. But this type of behavior is not limited to the fringes of the digital economy. It is a key characteristic of tech companies with wild valuations, including some of the world\u2019s most valuable companies. Theranos infamously achieved a $9 billion valuation before collapsing under the weight of its fraud, but Elizabeth Holmes\u2019s talk of saving lives made her an idol in the business community. Uber remains unprofitable and is widely criticized for its treatment of drivers, but Travis Kalanick wooed starry-eyed investors with his mission to \u201cbring transportation to everyone, everywhere\u201d. Tesla\u2019s farcical mismanagement has finally come under greater scrutiny, but Elon Musk continues to distract with his supposedly altruistic mission to save this planet and conquer new ones. Investors are conditioned to believe these stories because they have seen them work out before. For example, Facebook\u2019s mission to \u201cbring the world closer together\u201d became profitable by selling users\u2019 data for targeted advertising. To varying degrees, most of today\u2019s tech giants have an uncanny tendency to rely on this type of cross-subsidization. However, when you move fast and break things, the mess will eventually have to be cleaned up. Today, a \u201ctechlash\u201d has led to a popular outcry for increased protections of consumer data, and regulators around the world are taking action. But here\u2019s the kicker, the digital economy carried the stock market in the decade since the financial crisis. While other sectors lagged, rising share prices at Amazon, Apple, Alphabet, Facebook, Microsoft, and Netflix accounted for half of the S&amp;P 500\u2019s gain over the past ten years. That type of concentration risk is problematic at the best of times, but when it is predicated on business practices that society may decide it is better off without? Well, make sure to find your tent before the rain starts. Industry Headlines Hello there, FinTech in Focus readers. We\u2019re back after a brief hiatus, and there is no shortage of FinTech news to cover. <i>Big Tech<\/i>: Ant Financial acquired WorldFirst, a London-based remittances company, for $700 million. WorldFirst will keep its brand, but the acquisition marks another sign of the growing links between China\u2019s tech giants and Europe\u2019s FinTech firms. Meanwhile, in the latest example of an American Big Tech company teaming up with a large bank, Apple and Goldman Sachs are teaming up on a credit card to be paired with the iPhone. <i>Blockchain &amp; Crypto<\/i>: In the last edition of FinTech in Focus, I complained that I am always disappointed when I write this section of the newsletter. There just never seems to be good news. Soon thereafter, however, there was a piece of news that could be very good, depending on how you look at it. JPMorgan announced the launch of \u201cJPM Coin,\u201d a stable coin the firms says will be used in trials in its wholesale payments business. That could be big news, or as Matt Levine writes, it could just be subtraction. <i>Data Intermediation<\/i>: Lloyds Bank announced the launch of their open banking platform, allowing its customers to manage their accounts at other financial institutions from the Lloyds app. <i>Digital Banking<\/i>:\u00a0Starling Bank raised $97 million in additional funding, which it plans to use to increase its product offerings and expand into Europe. <i>Payments<\/i>:\u00a0Alipay will expand into 3,000 Walgreens locations, the latest effort by Ant Financial to leverage growing numbers of Chinese tourists into a market presence in the United States. Meanwhile, Dutch payments unicorn Adyen announced it is has adopted a payments service: the European Union\u2019s PSD2 mandate. According to PayPal CEO Dan Schulman, payments will continue to be a very active space, and might become a $100 trillion global market. <i>RegTech<\/i>: The Cambridge Center for Alternative Finance announced it is launching a RegTech benchmarking survey, which will include an \u201cevidence-based taxonomy of RegTech firms.\u201d Research is underway, and the report is expected in the first half of 2019. <i>Wealth Management<\/i>:\u00a0SoFi announced its plan to expand its wealth management business, the latest indication of re-bundling in FinTech. SoFi\u2019s plan is to allow customers to trade stocks and exchange traded funds on its platform, bringing it into closer competition with other wealth management FinTechs. Meanwhile, Wealthfront will offer its customers a cash account with an interest rate of 2.24 percent. Global Developments <i>United Nations<\/i>: The UN Secretary-General's Special Advocate for Inclusive Finance for Development (UNSGSA) released a report last week on innovation offices, regulatory sandboxes, and RegTech. The report is largely positive on innovation offices and RegTech, but is notably critical of regulatory sandboxes. Specifically, the report states: <i>\u201cLessons learned from early regulatory sandboxes highlight that they are neither necessary nor sufficient for promoting financial inclusion. Sandboxes do offer benefits but are complex to set up and costly to run. Experience shows that most regulatory questions raised in connection with sandbox tests can be effectively resolved without a live testing environment. Similar results may be more affordably achieved through innovation offices and other tools.\u201d<\/i> <i>Financial Stability Board<\/i>:\u00a0The Financial Stability Board released a report on FinTech\u2019s implications for market structure and financial stability. While the report finds the relationship between FinTechs and incumbents is largely complementary, it posits that Big Tech and third party data service providers may ultimately be more impactful on financial services than FinTech. Notably, the report states the shift to open banking may result in more competition in certain services, but also a potential increase for certain risks. The entrance of Big Tech, the report finds, will mean greater competition for incumbents, but may ultimately result in a less competitive market over the long term. <i>China<\/i>:\u00a0Police in China froze $1.5 billion in assets at 380 peer-to-peer lenders in China, in an operation with the code name \u201cFox Hunt.\u201d The Chinese police accused these peer-to-peer lenders of \u201cusing the guise of financial innovation with the bait of high returns\u201d in order to extract capital from investors. Sound familiar? <i>Germany<\/i>: The German competition authority became the latest regulator to crack down of Facebook\u2019s business model, ruling that users must be able to refuse to allow Facebook to combine their Facebook data with data from third parties. <i>Hong Kong<\/i>: Regulators in Hong Kong are set to issue digital banking licenses to Tencent, Ant Financial, Xiaomi, Standard Chartered, Hong Kong Telecom, and ZhongAn. <i>Lithuania<\/i>: Here\u2019s an unusual story. Revolut, one of several British challenger banks vying for European dominance, has found itself in a sticky situation that may result in the loss of its Lithuanian banking license. As more FinTech firms look to Lithuania as a gateway to Europe, some Lithuanian policymakers have begun to question whether their financial regulators have the capacity to monitor such firms. Revolut in particular seems to have concerned the head of Parliament\u2019s budget and finance committee, Stasys Jakeliunas. To make matters worse, it turns out Revolut\u2019s CEO, Nikolay Storonsky, is the son of a director at Gazprom, the Russian energy giant with close ties to the Kremlin. That might not seem particularly relevant to Revolut\u2019s business, but Lithuanian politics is marked by a historical fear of Russian interference. These links, combined with the regulatory concerns, have led to an official investigation into Revolut, which may endanger its banking license. <i>Saudi Arabia<\/i>: The Saudi Arabian Monetary Authority announced the launch of a regulatory sandbox as part of the government\u2019s Vision 2030 agenda. <i>United States<\/i>: The Conference of State Bank Supervisor\u2019s FinTech Advisory Panel released its list of recommendations for state financial regulators. The recommendations include developing a 50-state model law to license money services businesses, creating a standardized call report for consumer finance businesses, building an online database of state licensing and FinTech guidance, developing a State Examination System to simplify examinations of nonbanks operating in more than one state, and expanding the use of the Nationwide Multistate Licensing System among all state regulators and to all nonbank industries supervised at the state level. Meanwhile on Capitol Hill, FinTech is becoming an increasingly hot topic. Congressman Bill Foster (D-IL) sent a letter to Maxine Waters, the Chairwoman of the House Financial Services Committee, to express his \u201cstrong interest in serving as the Chair of the Taskforce on Financial Technology and Innovation that will be convened in the coming weeks.\u201d But perhaps even more impactful, Senators Mike Crapo (R-ID) and Sherrod Brown (D-OH), the Chairman and Ranking Member of the Senate Banking Committee, issued a joint request for information on financial data privacy, protection, and collection. The request includes questions on consumer control, disclosure, and data protection and accuracy at credit rating agencies. On a related note, the GAO released a report on consumer data protection, outlining the ways policymakers could increase consumer protection through legislation, regulation, and civil penalty authority. Oh, and one more thing on consumer data protection. Facebook still isn\u2019t off the hook for being bad at it. Finally, the District of Columbia established a regulatory sandbox without consulting me.",
+    "summary": null,
+    "summary_processed": ""
+}

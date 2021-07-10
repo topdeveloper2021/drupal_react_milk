@@ -1,0 +1,82 @@
+diff --git a/README.md b/README.md
+index 68dba5dad04c0b1ed4b481c40e9b77564c958b38..93d26632c71002c3dee874d08ef39dd4be7191df 100644
+--- a/README.md
++++ b/README.md
+@@ -50,6 +50,13 @@ Along with your access token, an authentication token is created. It's called th
+
+ Then you will need to generate a new token from scratch. You can avoid this by refreshing your access token before your refresh token expires. This way you avoid the need to require the user to prove their identity to Drupal to create a new token. Another way to mitigate this is to use longer expiration times in your tokens. This will work, but the the recommendation is to refresh your token in time.
+
++### I'm seeing warnings about my private key file permissions. What should I do?
++
++The upstream OAuth library checks the private key's file permissions by default. This is suitable in certain server configurations, however in some modern environments (e.g., containerized workloads) where secrets are injected into the environment and owned by a user different from the web daemon's run-as user, this is a false-positive. In these scenarios, you can use the Settings API to set the value passed to `CryptKey::__construct()` for checking the file permission:
++
++In `settings.php`:
++```$settings['simple_oauth.key_permissions_check'] = FALSE;```
++
+ ### Recommendation
+
+ Check the official documentation on the [Bearer Token Usage](http://tools.ietf.org/html/rfc6750). And **turn on SSL!**.
+diff --git a/src/Plugin/Oauth2GrantManager.php b/src/Plugin/Oauth2GrantManager.php
+index 0ec74c2e60f41ded3cdd9dae332ae5138ca1a3d4..91737b22f206414bf6f5d5bc49b689865c1922c1 100644
+--- a/src/Plugin/Oauth2GrantManager.php
++++ b/src/Plugin/Oauth2GrantManager.php
+@@ -13,6 +13,7 @@ use Drupal\Core\Cache\CacheBackendInterface;
+ use Drupal\Core\Extension\ModuleHandlerInterface;
+ use Drupal\Core\Site\Settings;
+ use League\OAuth2\Server\AuthorizationServer;
++use League\OAuth2\Server\CryptKey;
+ use League\OAuth2\Server\Exception\OAuthServerException;
+ use League\OAuth2\Server\Grant\AuthCodeGrant;
+ use League\OAuth2\Server\Repositories\AccessTokenRepositoryInterface;
+@@ -149,12 +150,19 @@ class Oauth2GrantManager extends DefaultPluginManager implements Oauth2GrantMana
+       throw OAuthServerException::serverError('Hash salt must be at least 32 characters long.');
+     }
+
++    // Initialize the crypto key, optionally disabling the permissions check.
++    $crypt_key = new CryptKey(
++      $this->fileSystem()->realpath($this->privateKeyPath),
++      NULL,
++      Settings::get('simple_oauth.key_permissions_check', TRUE)
++    );
++
+     if (empty($this->server)) {
+       $this->server = new AuthorizationServer(
+         $this->clientRepository,
+         $this->accessTokenRepository,
+         $this->scopeRepository,
+-        $this->fileSystem()->realpath($this->privateKeyPath),
++        $crypt_key,
+         Core::ourSubstr($salt, 0, 32),
+         $this->responseType
+       );
+diff --git a/src/Server/ResourceServer.php b/src/Server/ResourceServer.php
+index 6a338e0e7083b572e185d0fe33c4bc3c4671f8ab..bee12fd7289d9564a4c3695abe4e19987e6a36b3 100644
+--- a/src/Server/ResourceServer.php
++++ b/src/Server/ResourceServer.php
+@@ -4,6 +4,8 @@ namespace Drupal\simple_oauth\Server;
+
+ use Drupal\Core\Config\ConfigFactoryInterface;
+ use Drupal\Core\File\FileSystemInterface;
++use Drupal\Core\Site\Settings;
++use League\OAuth2\Server\CryptKey;
+ use League\OAuth2\Server\Repositories\AccessTokenRepositoryInterface;
+ use League\OAuth2\Server\ResourceServer as LeageResourceServer;
+ use Symfony\Bridge\PsrHttpMessage\HttpFoundationFactoryInterface;
+@@ -57,9 +59,16 @@ class ResourceServer implements ResourceServerInterface {
+         ->get('public_key');
+       $public_key_real = $this->fileSystem()->realpath($public_key);
+       if ($public_key && $public_key_real) {
++        // Initialize the crypto key, optionally disabling the permissions
++        // check.
++        $crypt_key = new CryptKey(
++          $public_key_real,
++          NULL,
++          Settings::get('simple_oauth.key_permissions_check', TRUE)
++        );
+         $this->subject = new LeageResourceServer(
+           $access_token_repository,
+-          $public_key_real
++          $crypt_key
+         );
+       }
+     } catch (\LogicException $exception) {

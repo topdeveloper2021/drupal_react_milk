@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/outcome-based-philanthropic-giving-can-drive-food-security-and-economic-growth-sub-saharan?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 664
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e1867989-a3df-42e4-a505-2c518767c959"
+        }
+    ],
+    "vid": [
+        {
+            "value": 664
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Outcome-based philanthropic giving can drive food security and economic growth in Sub-Saharan Africa, according to Milken Institute report",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2014-04-01T17:00:14+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:41:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/outcome-based-philanthropic-giving-can-drive-food-security-and-economic-growth-sub-saharan",
+            "pid": 717,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "(LOS ANGELES) Despite significant donor and philanthropic efforts, economic growth in sub-Saharan Africa continues to be hampered by agricultural diseases that sicken or kill livestock and contaminate crops. Vaccines, natural pest control and better grain storage could dramatically improve the health and economic prospects of the region\u2032s farmers, but so far, neither government nor private-sector initiatives have been successful in addressing the many challenges in the sector.\nA new report from the Milken Institute, \"<b>Paying for Outcomes: Protecting Human and Animal Health in Sub-Saharan Africa<\/b>\" looks at two of the primary threats to sustainable agricultural development in the region and suggests how donors can break through challenges in vaccination and crop safety. \"It's time to start looking at rewards, or in finance-speak, 'pull-mechanisms,'\" said Glenn Yago, executive director of financial research at the Milken Institute. \"Let's get donors focused on rewarding specific outcomes such as more effectively vaccinated cattle or increases in uncontaminated grain instead of making them guess about what technology will work best.\" The two specific issues examined are contagious bovine pleuropneumonia (CBPP) - a damaging respiratory disease that strikes cattle i? 1\/2 and aflatoxin, a toxin that causes liver disease and reduced immune function in both humans and livestock when they eat infected crops. <br> 24.4 million people in sub-Saharan Africa who depend on livestock for their livelihood are at risk from CBPP.<br>\nLack of data reporting makes it difficult to quantify economic impact of CBPP, with estimates ranging from $80 million to $2 billion in lost economic output annually. <br>\nAflatoxin contamination of maize and other crops results in almost half-billion dollar trade losses in Africa every year. <br>\nIn 2010, heavy rains in Kenya at harvest time and improper drying resulted in 2.3 million bags of contaminated maize. Some of the suggested donor-funded financial incentives include: <br>\nPrice guarantees to incentivize manufacturers to produce consistently high-quality vaccines for CBPP. The donor would subsidize the cost of the vaccine upon purchase. The pull mechanism implies that if no vaccine is made available or the farmers don\u2032t buy the vaccine, the donor doesn\u2032t pay. <br>\nDonor-provided rewards for successfully increasing use of biocontrol products that have already proven effective in eradicating aflatoxin from crops. <br>\nDonor-created markets that provide a higher price for maize that has been tested and guaranteed as aflatoxin-free. The report is the result of two half-day Financial Innovations Lab, hosted by the Milken Institute with support from the Bill & Melinda Gates Foundation, which took place in London in October 2010. The participants included authorities from development finance institutions, philanthropy, academia, government and NGOs, as well as scientists, vaccine manufacturers and peanut traders. Financial Innovations Labs are part of the Milken Institute\u2032s continuing leadership in promoting financial innovations to help solve ongoing social, economic and environmental challenges. The full report is available at www.milkeninstitute.org.",
+    "format": "rich_text",
+    "processed": "(LOS ANGELES) Despite significant donor and philanthropic efforts, economic growth in sub-Saharan Africa continues to be hampered by agricultural diseases that sicken or kill livestock and contaminate crops. Vaccines, natural pest control and better grain storage could dramatically improve the health and economic prospects of the region\u2032s farmers, but so far, neither government nor private-sector initiatives have been successful in addressing the many challenges in the sector.\nA new report from the Milken Institute, \"<b>Paying for Outcomes: Protecting Human and Animal Health in Sub-Saharan Africa<\/b>\" looks at two of the primary threats to sustainable agricultural development in the region and suggests how donors can break through challenges in vaccination and crop safety. \"It's time to start looking at rewards, or in finance-speak, 'pull-mechanisms,'\" said Glenn Yago, executive director of financial research at the Milken Institute. \"Let's get donors focused on rewarding specific outcomes such as more effectively vaccinated cattle or increases in uncontaminated grain instead of making them guess about what technology will work best.\" The two specific issues examined are contagious bovine pleuropneumonia (CBPP) - a damaging respiratory disease that strikes cattle i? 1\/2 and aflatoxin, a toxin that causes liver disease and reduced immune function in both humans and livestock when they eat infected crops. <br \/> 24.4 million people in sub-Saharan Africa who depend on livestock for their livelihood are at risk from CBPP.<br \/>\nLack of data reporting makes it difficult to quantify economic impact of CBPP, with estimates ranging from $80 million to $2 billion in lost economic output annually. <br \/>\nAflatoxin contamination of maize and other crops results in almost half-billion dollar trade losses in Africa every year. <br \/>\nIn 2010, heavy rains in Kenya at harvest time and improper drying resulted in 2.3 million bags of contaminated maize. Some of the suggested donor-funded financial incentives include: <br \/>\nPrice guarantees to incentivize manufacturers to produce consistently high-quality vaccines for CBPP. The donor would subsidize the cost of the vaccine upon purchase. The pull mechanism implies that if no vaccine is made available or the farmers don\u2032t buy the vaccine, the donor doesn\u2032t pay. <br \/>\nDonor-provided rewards for successfully increasing use of biocontrol products that have already proven effective in eradicating aflatoxin from crops. <br \/>\nDonor-created markets that provide a higher price for maize that has been tested and guaranteed as aflatoxin-free. The report is the result of two half-day Financial Innovations Lab, hosted by the Milken Institute with support from the Bill &amp; Melinda Gates Foundation, which took place in London in October 2010. The participants included authorities from development finance institutions, philanthropy, academia, government and NGOs, as well as scientists, vaccine manufacturers and peanut traders. Financial Innovations Labs are part of the Milken Institute\u2032s continuing leadership in promoting financial innovations to help solve ongoing social, economic and environmental challenges. The full report is available at www.milkeninstitute.org.",
+    "summary": null,
+    "summary_processed": ""
+}

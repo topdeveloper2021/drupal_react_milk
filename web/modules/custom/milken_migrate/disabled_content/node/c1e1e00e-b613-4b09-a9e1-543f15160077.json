@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/inequality-challenge-asia?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/114?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 706
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c1e1e00e-b613-4b09-a9e1-543f15160077"
+        }
+    ],
+    "vid": [
+        {
+            "value": 706
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/114?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e0ddd9ca-e753-48ff-9a91-8e8e095c08ce"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Inequality, the Challenge for Asia",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T12:53:20+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:49:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/inequality-challenge-asia",
+            "pid": 759,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Asia has come a long way in the last 70 years. The region has experienced an unprecedented growth in prosperity, and while the West still accounts for the lion\u2019s share of global GDP, the economic center of gravity has slowly but surely shifted east. Asia now accounts for about one-third of gross world product, with its share set to rise to more than half by 2050. Some have called this the \u201cAsian Century,\u201d but others might argue that Asia is merely reclaiming its traditional dominance from a time before the Industrial Revolution and colonialism disrupted the established order. If anything, history may come to see the 18th to 20th centuries as the \u201cWestern Centuries,\u201d exceptions rather than the rule. But amid the economic fanfare, it is important we do not lose sight of the objective of development\u2014to make people's lives better. It is not enough that we focus on topline numbers that show a country\u2019s wealth. We must also pay close attention to the distribution of wealth within society. Simply put, inequality is the greatest threat to the long-term peace and prosperity of any enterprise, be it a company or a country. And the effects are especially pronounced in Asia for a variety of reasons, in particular, sociopolitical structures that limit opportunities for whole segments of society, whether due to their race, religion, gender, locality, or class. This is not to say the same problem doesn't exist in the West. The resurgence of both the far left and far right, in the U.S. and Europe respectively, recalls a bygone era of socialist and nationalist politics buoyed by a deep dissatisfaction with the growing wealth gap and lack of economic opportunities. For the most part, however, there exist well-defined avenues for rebalancing in the West at least compared to Asia. What makes inequality even more of a danger across large parts of Asia is the relative lack of a robust policy framework that supports equality, as well as the freedom of expression needed for the marginalized to make known their grievances. As it is, the rich get richer and the poor get poorer with a lack of means to change the status quo. Oxfam warned earlier this year that Asia has moved from a \u201cposter child for equitable growth\u201d in the 1960s and 1970s to the sort of uneven growth seen in Africa and Latin America, cautioning that, despite high growth rates, \u201cthe amount trickling down to the majority is rather small.\u201d Inequality feeds resentment against the state. And pent-up resentment is a dangerous thing, especially in weak or repressive states. When combined with the worsening effects of climate change and high population growth, it makes for an explosive cocktail. We are living in a time when Asia has become the main driver of global economic growth. Yet, we cannot be complacent. During periods of plenty, everyone has enough to get by and any long-standing grievances are sublimated. But, as the Asian Financial Crisis showed us, it only takes a small spark for anger to boil over into chaos, even in outwardly prosperous societies. That was 20 years ago, but the lessons are as relevant now as they were then. In our pursuit of prosperity, we must not forget about those we leave behind. Our compassion and concern for those members of society will determine whether or not our progress is ultimately sustainable.\u00a0And our response must be rooted both in equality and equity. Equality because we cannot afford to keep opportunities away from specific segments of society, equity because we have to ensure those born outside of privilege get a leg up so they have a fair shake. We must endeavor to have policies that ban discrimination on any grounds, programs to uplift the most vulnerable members of our community, continued investment in less developed regions, and access to capital and education. This would allow us to increase participation of women in the workforce, which remains dismally low in many Asian countries, even developed ones; introduce social safety nets like minimum wage to ensure the poor have a living wage so they can focus their efforts on more productive things and not just worrying about making ends meet; and invest in rural infrastructure and development so the people living there have the same opportunities as those living in the city. We must also ensure the poor have access to capital to pursue ventures that could uplift not just their fortunes, but those involved in the entire value chain of their business; and lastly, provide to all good, free education, which remains the most potent means to empower the disenfranchised and transform the fate of entire generations. Only once we have done all of that, would we have built a solid foundation for Asia to continue on its current trajectory. Prosperity means nothing if it's not shared, and Asia's task for the next 70 years and beyond is to make sure everyone benefits from our progress.",
+    "format": "rich_text",
+    "processed": "Asia has come a long way in the last 70 years. The region has experienced an unprecedented growth in prosperity, and while the West still accounts for the lion\u2019s share of global GDP, the economic center of gravity has slowly but surely shifted east. Asia now accounts for about one-third of gross world product, with its share set to rise to more than half by 2050. Some have called this the \u201cAsian Century,\u201d but others might argue that Asia is merely reclaiming its traditional dominance from a time before the Industrial Revolution and colonialism disrupted the established order. If anything, history may come to see the 18th to 20th centuries as the \u201cWestern Centuries,\u201d exceptions rather than the rule. But amid the economic fanfare, it is important we do not lose sight of the objective of development\u2014to make people's lives better. It is not enough that we focus on topline numbers that show a country\u2019s wealth. We must also pay close attention to the distribution of wealth within society. Simply put, inequality is the greatest threat to the long-term peace and prosperity of any enterprise, be it a company or a country. And the effects are especially pronounced in Asia for a variety of reasons, in particular, sociopolitical structures that limit opportunities for whole segments of society, whether due to their race, religion, gender, locality, or class. This is not to say the same problem doesn't exist in the West. The resurgence of both the far left and far right, in the U.S. and Europe respectively, recalls a bygone era of socialist and nationalist politics buoyed by a deep dissatisfaction with the growing wealth gap and lack of economic opportunities. For the most part, however, there exist well-defined avenues for rebalancing in the West at least compared to Asia. What makes inequality even more of a danger across large parts of Asia is the relative lack of a robust policy framework that supports equality, as well as the freedom of expression needed for the marginalized to make known their grievances. As it is, the rich get richer and the poor get poorer with a lack of means to change the status quo. Oxfam warned earlier this year that Asia has moved from a \u201cposter child for equitable growth\u201d in the 1960s and 1970s to the sort of uneven growth seen in Africa and Latin America, cautioning that, despite high growth rates, \u201cthe amount trickling down to the majority is rather small.\u201d Inequality feeds resentment against the state. And pent-up resentment is a dangerous thing, especially in weak or repressive states. When combined with the worsening effects of climate change and high population growth, it makes for an explosive cocktail. We are living in a time when Asia has become the main driver of global economic growth. Yet, we cannot be complacent. During periods of plenty, everyone has enough to get by and any long-standing grievances are sublimated. But, as the Asian Financial Crisis showed us, it only takes a small spark for anger to boil over into chaos, even in outwardly prosperous societies. That was 20 years ago, but the lessons are as relevant now as they were then. In our pursuit of prosperity, we must not forget about those we leave behind. Our compassion and concern for those members of society will determine whether or not our progress is ultimately sustainable.\u00a0And our response must be rooted both in equality and equity. Equality because we cannot afford to keep opportunities away from specific segments of society, equity because we have to ensure those born outside of privilege get a leg up so they have a fair shake. We must endeavor to have policies that ban discrimination on any grounds, programs to uplift the most vulnerable members of our community, continued investment in less developed regions, and access to capital and education. This would allow us to increase participation of women in the workforce, which remains dismally low in many Asian countries, even developed ones; introduce social safety nets like minimum wage to ensure the poor have a living wage so they can focus their efforts on more productive things and not just worrying about making ends meet; and invest in rural infrastructure and development so the people living there have the same opportunities as those living in the city. We must also ensure the poor have access to capital to pursue ventures that could uplift not just their fortunes, but those involved in the entire value chain of their business; and lastly, provide to all good, free education, which remains the most potent means to empower the disenfranchised and transform the fate of entire generations. Only once we have done all of that, would we have built a solid foundation for Asia to continue on its current trajectory. Prosperity means nothing if it's not shared, and Asia's task for the next 70 years and beyond is to make sure everyone benefits from our progress.",
+    "summary": null,
+    "summary_processed": ""
+}

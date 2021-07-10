@@ -1,0 +1,21 @@
+uuid: 51f7709b-8193-4360-b3a5-50bff592e259
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_custom_author
+    - media.type.report
+  module:
+    - text
+id: media.report.field_custom_author
+field_name: field_custom_author
+entity_type: media
+bundle: report
+label: 'Custom Author Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

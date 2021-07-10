@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/milken-institute-report-suggests-solutions-maintain-californias-innovation-economy?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 38
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7f2aece5-e5ad-499a-a1b1-3e58493cc42d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 38
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Milken Institute Report Suggests Solutions to Maintain California\u2019s Innovation Economy\u2014Including Doubling the R&D Tax Credit for Firms",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2015-12-01T09:54:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/milken-institute-report-suggests-solutions-maintain-californias-innovation-economy",
+            "pid": 91,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "LOS ANGELES\u2014Innovation is crucial for the creation of high-quality jobs and strong economic growth, and in the global race for innovation, California enjoys advantages that others envy. But to maintain its leadership, California must provide a competitive business environment that encourages companies to conduct innovation-creating research. In a report released today, \u201cCalifornia\u2019s Innovation-Based Economy: Policies to Maintain and Enhance It,\u201d Milken Institute researchers conducted one of the most thorough analyses of the landscape of research and development (R&D) spending in California (see figure below). The report demonstrates the key role of R&D in the state\u2019s economy, and proposes ideas for spurring businesses to continue and intensify their research activity.Especially within technology industries, clusters of innovation activity are today largely determining the economic prowess of nations, and innovation in turn is largely the result of cumulative R&D investments, or the capital stock of knowledge. A key challenge with relying solely on market forces to stimulate industry-funded R&D is that the private rate of return for an innovating firm is less than for the larger economy, since other firms expropriate value, resulting in less investment than is socially optimal. The use of tax credits can reduce the cost of R&D and induce more investment, and extensive research has demonstrated a strong relationship between R&D tax credits and R&D activities.Innovative clusters are concentrations of firms that often compete and sometimes collaborate; such clusters form and expand largely because new knowledge tends to be generated and conveyed most efficiently in close proximity. Silicon Valley is a stand-out example of the huge economic value of knowledge sharing, but it is far from California\u2019s only innovation cluster: it has six metropolitan areas that rank among the top 20 technology centers in the U.S. and Canada. California is the leading state for industry R&D spending, with $76.9 billion in 2013, and leads the nation in patents issued per capita. At more than $28 billion in 2014, the state had the largest amount of venture capital placement in the country. Another area of strength for California\u2019s innovation economy is the depth and breadth of its science, technology, engineering and mathematics talent.Yet the state cannot rest on its laurels. \u201cCalifornia\u2019s innovation economy is one of the strongest among states, but the state scores poorly in other measures of business climate,\u201d says Ross DeVol, Chief Research Officer and co-author of the report. \u201cSo California is ever-more dependent on its innovation capacity, and policy makers in Sacramento should consider what can be done to retain this edge.\u201dCalifornia\u2019s research credit, currently at 15 percent of qualifying supplemental research activity conducted within the state, in combination with the federal credit, is a crucial part of the tax environment that businesses evaluate in choosing whether to site new research activity in California or in another innovation hub. Since the research credit is one of the most direct policy levers available to affect the level of R&D conducted in the state, the report suggests four R&D policy options:Introduce tradable creditsRefund credits for small businesses\nIncrease the R&D tax credit for qualifying institutions funding university research\nDouble the R&D tax credit for firms\nTo give a sense of the economic effects that a major change in policy might have, the researchers modeled the impact of a doubling of the California research credit to 30 percent from 15 percent over five years. As detailed in the report, the model suggests that ten years after such a change, $700 million in additional research credits would stimulate between $4.5 billion to $6.8 billion in additional research and development activity in California. This would translate into $3.2 billion to $3.8 billion in economic ripple effects from the additional spending, as well as a range of 60,000 to 84,000 new jobs in California.\u201cDuring periods of technology-based expansion similar to what the state is experiencing today, California has a history of incorrectly assuming that its innovation-economy architecture is solid,\u201d says DeVol. \u201cCalifornia policy makers should consider bold steps to maintain and enhance the state\u2019s capacity for innovation and the conversion of it into commercial applications, creating high-quality jobs and sustainable economic growth.\u201d\u201cCalifornia\u2019s Innovation-Based Economy: Policies to Maintain and Enhance It\u201d is by Ross DeVol, Kristen Harris and Minoli Ratnatunga. Download it at no charge: http:\/\/www.milkeninstitute.org\/publications\/view\/753",
+    "format": "rich_text",
+    "processed": "LOS ANGELES\u2014Innovation is crucial for the creation of high-quality jobs and strong economic growth, and in the global race for innovation, California enjoys advantages that others envy. But to maintain its leadership, California must provide a competitive business environment that encourages companies to conduct innovation-creating research. In a report released today, \u201cCalifornia\u2019s Innovation-Based Economy: Policies to Maintain and Enhance It,\u201d Milken Institute researchers conducted one of the most thorough analyses of the landscape of research and development (R&amp;D) spending in California (see figure below). The report demonstrates the key role of R&amp;D in the state\u2019s economy, and proposes ideas for spurring businesses to continue and intensify their research activity.Especially within technology industries, clusters of innovation activity are today largely determining the economic prowess of nations, and innovation in turn is largely the result of cumulative R&amp;D investments, or the capital stock of knowledge. A key challenge with relying solely on market forces to stimulate industry-funded R&amp;D is that the private rate of return for an innovating firm is less than for the larger economy, since other firms expropriate value, resulting in less investment than is socially optimal. The use of tax credits can reduce the cost of R&amp;D and induce more investment, and extensive research has demonstrated a strong relationship between R&amp;D tax credits and R&amp;D activities.Innovative clusters are concentrations of firms that often compete and sometimes collaborate; such clusters form and expand largely because new knowledge tends to be generated and conveyed most efficiently in close proximity. Silicon Valley is a stand-out example of the huge economic value of knowledge sharing, but it is far from California\u2019s only innovation cluster: it has six metropolitan areas that rank among the top 20 technology centers in the U.S. and Canada. California is the leading state for industry R&amp;D spending, with $76.9 billion in 2013, and leads the nation in patents issued per capita. At more than $28 billion in 2014, the state had the largest amount of venture capital placement in the country. Another area of strength for California\u2019s innovation economy is the depth and breadth of its science, technology, engineering and mathematics talent.Yet the state cannot rest on its laurels. \u201cCalifornia\u2019s innovation economy is one of the strongest among states, but the state scores poorly in other measures of business climate,\u201d says Ross DeVol, Chief Research Officer and co-author of the report. \u201cSo California is ever-more dependent on its innovation capacity, and policy makers in Sacramento should consider what can be done to retain this edge.\u201dCalifornia\u2019s research credit, currently at 15 percent of qualifying supplemental research activity conducted within the state, in combination with the federal credit, is a crucial part of the tax environment that businesses evaluate in choosing whether to site new research activity in California or in another innovation hub. Since the research credit is one of the most direct policy levers available to affect the level of R&amp;D conducted in the state, the report suggests four R&amp;D policy options:Introduce tradable creditsRefund credits for small businesses\nIncrease the R&amp;D tax credit for qualifying institutions funding university research\nDouble the R&amp;D tax credit for firms\nTo give a sense of the economic effects that a major change in policy might have, the researchers modeled the impact of a doubling of the California research credit to 30 percent from 15 percent over five years. As detailed in the report, the model suggests that ten years after such a change, $700 million in additional research credits would stimulate between $4.5 billion to $6.8 billion in additional research and development activity in California. This would translate into $3.2 billion to $3.8 billion in economic ripple effects from the additional spending, as well as a range of 60,000 to 84,000 new jobs in California.\u201cDuring periods of technology-based expansion similar to what the state is experiencing today, California has a history of incorrectly assuming that its innovation-economy architecture is solid,\u201d says DeVol. \u201cCalifornia policy makers should consider bold steps to maintain and enhance the state\u2019s capacity for innovation and the conversion of it into commercial applications, creating high-quality jobs and sustainable economic growth.\u201d\u201cCalifornia\u2019s Innovation-Based Economy: Policies to Maintain and Enhance It\u201d is by Ross DeVol, Kristen Harris and Minoli Ratnatunga. Download it at no charge: http:\/\/www.milkeninstitute.org\/publications\/view\/753",
+    "summary": null,
+    "summary_processed": ""
+}

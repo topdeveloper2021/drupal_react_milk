@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/americans-obesity-weighs-down-us-economy-14-trillion?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 21
+        }
+    ],
+    "uuid": [
+        {
+            "value": "31f9bfde-4c93-4e36-bdb4-086cdc04a80c"
+        }
+    ],
+    "vid": [
+        {
+            "value": 21
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Americans\u2019 Obesity Weighs Down U.S. Economy by $1.4 Trillion",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-11-30T07:33:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:02:16+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/americans-obesity-weighs-down-us-economy-14-trillion",
+            "pid": 74,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "WASHINGTON\u2014Obesity and excess weight is an expanding health problem for more than 60 percent of Americans, and a new study from the Milken Institute finds that it's a tremendous drain on the U.S. economy as well. The total cost to treat health conditions related to obesity\u2014ranging from diabetes to Alzheimer's\u2014plus obesity's drag on attendance and productivity at work exceeds $1.4 trillion annually. That's more than twice what the U.S. spends on national defense. The total, from 2014 data, was equivalent to 8.2 percent of U.S. GDP, and it exceeds the economies of all but three U.S. states and all but 10 countries.The Milken Institute's new report, \"Weighing Down America: The Health and Economic Impact of Obesity,\" is the first to look at America's weight problem across all its dimensions: direct medical treatment for 23 health conditions causally related to obesity and indirect costs including the combination of lost workdays and lower productivity due to disease. In addition, more than 320,000 deaths were attributable to obesity and overweight in 2014, when the report's data were collected.\"As a country, we are too heavy,\" said Ross DeVol, chief research officer of the Milken Institute, who co-authored the study with Hugh Waters, associate professor in the University of North Carolina Schools of Nursing and Public Health. \"An overweight country is a problem for our physical health, certainly, but it's also an enormous problem for the health of our economy. Obesity is weighing down America.\"In 2014, 98.7 million U.S. residents had obesity, and another 89.9 million were overweight. In all, 188.6 million people\u2014or 60.7 percent of the population ages 2 and above\u2014either had obesity or were overweight.Among American adults, the prevalence of obesity has climbed from 13.4 percent in 1960-62 to 36.4 percent in 2014. The human suffering, medical costs and economic impacts of diseases caused by obesity now affect all geographic regions of the United States. In all 50 states, at least 20 percent of the population now has obesity. Abroad, obesity has been rising in all the member countries of the Organization for Economic Cooperation and Development (OECD) over the past two decades.\"Weighing Down America\" calculates the costs of direct medical treatment for heath conditions causally tied to obesity and overweight to be $427.8 billion in the U.S. in 2014, representing 14.3 percent of total health-care spending. Indirect costs including absenteeism, or lost workdays, and presenteeism (productivity loss or underperformance at work) amounted to $988.8 billion, leading to a total of $1.42 trillion.<b>Total Direct and Indirect Costs ($ Millions), by Condition, 2014<\/b>Fortunately, the Milken Institute study concludes, just as obesity's negative impacts on health can be reversed, so, too, can economic losses associated with excess weight. For example, a recent review of interventions designed to reduce obesity concluded that for individuals with a body mass index (BMI) of 40 or greater, a weight reduction of just 5 percent would yield $2,137 in medical cost savings annually, or $34.9 billion for all adults with extreme obesity. A 5 percent reduction in weight would amount to 14 lbs. for an American man of average height and a BMI of 40, or 12 lbs. for a woman.\"Today, obesity is the number-one health concern for the people of the United States and the disease is a rapidly growing economic issue for all of us. Unfortunately, we are unable to solve the problem overnight, but we can make improving health and reducing body weight a national priority,\" said Edward Greissing, Executive Director of the Lynda and Stewart Resnick Center for Public Health at the Milken Institute, who joined the report's authors at a discussion today on Capitol Hill. \"If we come together as a country and build on the commitment and work of employers, health providers, insurers, biopharmaceutical firms, the food and beverage industry, governments and other leaders in healthcare, by 2020 we can make significant advances to reduce obesity across the United States. It is important to remember as we tackle this crisis that most improvements in health begin with the individual and their local community.\"Specifically, \"Weighing Down America\" recommends actions that include:Individuals affected by obesity and being overweight must accept some personal responsibility to modify their behavior;Employers should recognize that they have a vested interest in providing behavior modification counseling and offering financial and other incentives to employees and their families to lose weight;\nPublic health groups should be engaged at the community level to raise awareness about the scourge of obesity;The food and beverage industry should continue transparency efforts around nutrition and continue investment in providing and marketing healthy choices;\nThe federal government should launch and support an anti-obesity campaign through the media and other means, like the anti-smoking campaign launched in the 1970s;\nGreater clarity should be brought to the reimbursement rules for health practitioners who provide weight-loss advice and counseling; and\nMore research on the most cost-effective obesity interventions is necessary. \"If we fail to alter the trajectory we are on,\" the study concludes, \"then higher medical costs, lost work time and productivity, unnecessary premature death, and slower long-term economic growth await us.\"\u00a0\"Weighing Down America\" is the latest in a series of publications from the Milken Institute that examine the problem of obesity, its consequences and the effectiveness of interventions. Recent work stemming from the Institute's seminal 2007 report on the economic burden of chronic disease, \"An Unhealthy America,\" includes:\u00a0<b>\"Weighing Solutions to Obesity\"<\/b> (March 2016), an overview of studies on prevention and intervention;\n<b>\"Drink Different: Feasible Strategies to Reduce Obesity\" <\/b>(January 2015), the first-ever analysis of the effect lowering consumption of sugary drinks \u2013 a leading cause of obesity \u2013 would have on public health and finances; and\n<b>\"Waistlines of the World: The Effect of Information and Communications Technology on Obesity\"<\/b> (August 2012), which charted the effect that the worldwide transition toward an information-based economy has had on work habits and lifestyle.\nThe latest report, <b>\"Weighing Down America: The Health and Economic Impact of Obesity\"<\/b>\u00a0, is on the Milken Institute's website at: http:\/\/www.milkeninstitute.org\/weighingdownamerica. Follow conversation about the report using the hashtag <b><i>#<\/i>weighingUSdown<\/b>. <b>ABOUT THE MILKEN INSTITUTE<\/b>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs, and improve health. We do this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.\u00a0<b>ABOUT THE LYNDA AND STEWART RESNICK CENTER FOR PUBLIC HEALTH<\/b>The Lynda and Stewart Resnick Center for Public Health at the Milken Institute is dedicated to finding solutions to complex public health challenges as an integral part of the Institute's mission to improve lives and build human capital. We believe that extending life and promoting health and wellness at all ages are among the most effective strategies for spreading prosperity and empowering people in America and across the globe.\u00a0<b>MEDIA CONTACTS: <\/b>Anne Schroeder (aschroeder@milkeninstitute.org or 202-731-1992) or Massie Ritsch (massie@agency5e.com or 202-365-8225)",
+    "format": "rich_text",
+    "processed": "WASHINGTON\u2014Obesity and excess weight is an expanding health problem for more than 60 percent of Americans, and a new study from the Milken Institute finds that it's a tremendous drain on the U.S. economy as well. The total cost to treat health conditions related to obesity\u2014ranging from diabetes to Alzheimer's\u2014plus obesity's drag on attendance and productivity at work exceeds $1.4 trillion annually. That's more than twice what the U.S. spends on national defense. The total, from 2014 data, was equivalent to 8.2 percent of U.S. GDP, and it exceeds the economies of all but three U.S. states and all but 10 countries.The Milken Institute's new report, \"Weighing Down America: The Health and Economic Impact of Obesity,\" is the first to look at America's weight problem across all its dimensions: direct medical treatment for 23 health conditions causally related to obesity and indirect costs including the combination of lost workdays and lower productivity due to disease. In addition, more than 320,000 deaths were attributable to obesity and overweight in 2014, when the report's data were collected.\"As a country, we are too heavy,\" said Ross DeVol, chief research officer of the Milken Institute, who co-authored the study with Hugh Waters, associate professor in the University of North Carolina Schools of Nursing and Public Health. \"An overweight country is a problem for our physical health, certainly, but it's also an enormous problem for the health of our economy. Obesity is weighing down America.\"In 2014, 98.7 million U.S. residents had obesity, and another 89.9 million were overweight. In all, 188.6 million people\u2014or 60.7 percent of the population ages 2 and above\u2014either had obesity or were overweight.Among American adults, the prevalence of obesity has climbed from 13.4 percent in 1960-62 to 36.4 percent in 2014. The human suffering, medical costs and economic impacts of diseases caused by obesity now affect all geographic regions of the United States. In all 50 states, at least 20 percent of the population now has obesity. Abroad, obesity has been rising in all the member countries of the Organization for Economic Cooperation and Development (OECD) over the past two decades.\"Weighing Down America\" calculates the costs of direct medical treatment for heath conditions causally tied to obesity and overweight to be $427.8 billion in the U.S. in 2014, representing 14.3 percent of total health-care spending. Indirect costs including absenteeism, or lost workdays, and presenteeism (productivity loss or underperformance at work) amounted to $988.8 billion, leading to a total of $1.42 trillion.<b>Total Direct and Indirect Costs ($ Millions), by Condition, 2014<\/b>Fortunately, the Milken Institute study concludes, just as obesity's negative impacts on health can be reversed, so, too, can economic losses associated with excess weight. For example, a recent review of interventions designed to reduce obesity concluded that for individuals with a body mass index (BMI) of 40 or greater, a weight reduction of just 5 percent would yield $2,137 in medical cost savings annually, or $34.9 billion for all adults with extreme obesity. A 5 percent reduction in weight would amount to 14 lbs. for an American man of average height and a BMI of 40, or 12 lbs. for a woman.\"Today, obesity is the number-one health concern for the people of the United States and the disease is a rapidly growing economic issue for all of us. Unfortunately, we are unable to solve the problem overnight, but we can make improving health and reducing body weight a national priority,\" said Edward Greissing, Executive Director of the Lynda and Stewart Resnick Center for Public Health at the Milken Institute, who joined the report's authors at a discussion today on Capitol Hill. \"If we come together as a country and build on the commitment and work of employers, health providers, insurers, biopharmaceutical firms, the food and beverage industry, governments and other leaders in healthcare, by 2020 we can make significant advances to reduce obesity across the United States. It is important to remember as we tackle this crisis that most improvements in health begin with the individual and their local community.\"Specifically, \"Weighing Down America\" recommends actions that include:Individuals affected by obesity and being overweight must accept some personal responsibility to modify their behavior;Employers should recognize that they have a vested interest in providing behavior modification counseling and offering financial and other incentives to employees and their families to lose weight;\nPublic health groups should be engaged at the community level to raise awareness about the scourge of obesity;The food and beverage industry should continue transparency efforts around nutrition and continue investment in providing and marketing healthy choices;\nThe federal government should launch and support an anti-obesity campaign through the media and other means, like the anti-smoking campaign launched in the 1970s;\nGreater clarity should be brought to the reimbursement rules for health practitioners who provide weight-loss advice and counseling; and\nMore research on the most cost-effective obesity interventions is necessary. \"If we fail to alter the trajectory we are on,\" the study concludes, \"then higher medical costs, lost work time and productivity, unnecessary premature death, and slower long-term economic growth await us.\"\u00a0\"Weighing Down America\" is the latest in a series of publications from the Milken Institute that examine the problem of obesity, its consequences and the effectiveness of interventions. Recent work stemming from the Institute's seminal 2007 report on the economic burden of chronic disease, \"An Unhealthy America,\" includes:\u00a0<b>\"Weighing Solutions to Obesity\"<\/b> (March 2016), an overview of studies on prevention and intervention;\n<b>\"Drink Different: Feasible Strategies to Reduce Obesity\" <\/b>(January 2015), the first-ever analysis of the effect lowering consumption of sugary drinks \u2013 a leading cause of obesity \u2013 would have on public health and finances; and\n<b>\"Waistlines of the World: The Effect of Information and Communications Technology on Obesity\"<\/b> (August 2012), which charted the effect that the worldwide transition toward an information-based economy has had on work habits and lifestyle.\nThe latest report, <b>\"Weighing Down America: The Health and Economic Impact of Obesity\"<\/b>\u00a0, is on the Milken Institute's website at: http:\/\/www.milkeninstitute.org\/weighingdownamerica. Follow conversation about the report using the hashtag <b><i>#<\/i>weighingUSdown<\/b>. <b>ABOUT THE MILKEN INSTITUTE<\/b>The Milken Institute is a nonprofit, nonpartisan think tank determined to increase global prosperity by advancing collaborative solutions that widen access to capital, create jobs, and improve health. We do this through independent, data-driven research, action-oriented meetings and meaningful policy initiatives.\u00a0<b>ABOUT THE LYNDA AND STEWART RESNICK CENTER FOR PUBLIC HEALTH<\/b>The Lynda and Stewart Resnick Center for Public Health at the Milken Institute is dedicated to finding solutions to complex public health challenges as an integral part of the Institute's mission to improve lives and build human capital. We believe that extending life and promoting health and wellness at all ages are among the most effective strategies for spreading prosperity and empowering people in America and across the globe.\u00a0<b>MEDIA CONTACTS: <\/b>Anne Schroeder (aschroeder@milkeninstitute.org or 202-731-1992) or Massie Ritsch (massie@agency5e.com or 202-365-8225)",
+    "summary": null,
+    "summary_processed": ""
+}

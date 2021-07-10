@@ -1,0 +1,127 @@
+uuid: d0724fa7-a721-411b-bd10-77b3e53819b7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - milken_migrate
+id: taxonomy_philanthropy_hub
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - taxonomy
+migration_group: milken
+label: 'Taxonomy Term => Philanthropy Hub'
+source:
+  plugin: embedded_data
+  data_rows:
+    -
+      id: 6935fc97-0179-4959-ae84-230f91703846
+      name: Donation
+      machine_name: donation
+      vocabulary: ph_actions
+    -
+      id: 9fb24a01-8ed9-477f-a6af-d582267dff41
+      name: Information
+      machine_name: information
+      vocabulary: ph_actions
+    -
+      id: b4237b56-6b24-4db6-8bdb-c28b35cdb81b
+      name: Volunteering
+      machine_name: volunteering
+      vocabulary: ph_actions
+    -
+      id: 5cde6637-20d7-4092-b66d-d6d89626266a
+      name: 'Nonprofit Lending'
+      machine_name: nonprofit-lending
+      vocabulary: ph_actions
+    -
+      id: d88535a3-41f6-4008-8a85-9a7b2311be23
+      name: Economic
+      machine_name: economic
+      vocabulary: ph_focus
+    -
+      id: 07ce3df1-660b-41d2-94b2-f676a490165a
+      name: General
+      machine_name: general
+      vocabulary: ph_focus
+    -
+      id: 3c979052-1d33-4302-9fb0-d69a670412a5
+      name: Health
+      machine_name: health
+      vocabulary: ph_focus
+    -
+      id: 6f9ef8b5-3963-4d09-a210-8fd380b40fcd
+      name: Social
+      machine_name: social
+      vocabulary: ph_focus
+    -
+      id: 0a171e45-e3d4-4442-84cb-1a672f7aaf99
+      name: Africa
+      machine_name: africa
+      vocabulary: ph_region
+    -
+      id: 9b983880-015a-48c7-ba15-08f6d51ffaef
+      name: Americas
+      machine_name: america
+      vocabulary: ph_region
+    -
+      id: bd824d7f-c269-4d47-bae3-8bfc74f0258e
+      name: Asia
+      machine_name: asia
+      vocabulary: ph_region
+    -
+      id: 5c2e3dde-b7fb-4542-921a-f96918e80301
+      name: Europe
+      machine_name: europe
+      vocabulary: ph_region
+    -
+      id: 62a07dac-090b-4bd3-8380-a5e5e7708fee
+      name: 'Middle East'
+      machine_name: middle-east
+      vocabulary: ph_region
+    -
+      id: fb7ef3fe-f605-4c6e-bdcb-1b5349226bb2
+      name: Global
+      machine_name: global
+      vocabulary: ph_region
+    -
+      id: 4e90c7b2-4f5c-44dc-8017-8045e7a3b4a7
+      name: Relief/Short
+      machine_name: short
+      vocabulary: ph_terms
+    -
+      id: fe3f9e01-ca24-4740-b0e9-a001419d9346
+      name: Recovery/Intermediate
+      machine_name: intermediate
+      vocabulary: ph_terms
+    -
+      id: e582a584-279e-427d-8057-856bbae2d8c1
+      name: 'Long Term'
+      machine_name: long
+      vocabulary: ph_terms
+  ids:
+    id:
+      type: string
+process:
+  uuid:
+    -
+      plugin: 'milken_migrate:uuid_exists'
+      source: id
+      entity_type: taxonomy_term
+    -
+      plugin: get
+      source: id
+  name: name
+  title: name
+  vid: vocabulary
+  bundle: vocabulary
+  machine_name: machine_name
+  vocabulary: vocabulary
+  field_visible:
+    plugin: default_value
+    default_value: 1
+destination:
+  plugin: 'entity:taxonomy_term'
+migration_dependencies: {  }

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/what-may-be-strongest-link-longevity?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/2?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 461
+        }
+    ],
+    "uuid": [
+        {
+            "value": "1ccb8266-868e-48a2-a4ae-d95c96dfba7f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 461
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "187203f5-441e-4663-baba-d5f24a981664"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "What May Be the Strongest Link to Longevity",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-09-26T05:21:17+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/what-may-be-strongest-link-longevity",
+            "pid": 514,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i>Director of the Longevity Genes Project at the Albert Einstein College of Medicine, Nir Barzilai has discovered several longevity genes in humans that appear to protect centenarians against major age-related diseases. Barzilai is also co-founder of CohBar, Inc., a biotechnology company developing mitochondria-based therapeutics to treat diseases associated with aging. In an interview with the Milken Institute Center for the Future of Aging, Barzilai explains why some people have longevity genes and the challenges in drug design for age-related diseases.<\/i><b>In your research, you discovered that you don\u2019t have longevity genes in your family. How did this influence how you approach your work?<\/b>I want to do it as fast as possible. I\u2019m more desperate. That\u2019s how it affects me. My wife, on the other hand, comes from a family where her great-grandfather died at age 102. He was born at the end of 19th century, where very few people reached the age of 100\u2014maybe one in a million. His daughter also lived to be the age of 102. My wife\u2019s father is now 87, but if you saw him, you would think he\u2019s more like 70. He plays singles tennis twice a week. My wife\u2019s side of the family is clearly okay, but my side of the family is not okay.<b>What are some recent findings of the Longevity Genes Project?<\/b>We discovered that longevity genes affect the growth hormone axis. So, in nature, smaller animals live longer\u2014small dogs live longer than the big dogs, ponies live longer than thoroughbreds. If you conduct an experiment in a lab, and you have dwarf versions of animals by accident or by design, they all live longer and live healthier.We found that over 50 percent of centenarians have some gene in the growth hormone pathways that are affected. This might be the strongest link to longevity we\u2019ve seen. We've had a paper recently accepted to be published in <i>Nature Communication<\/i> that illustrates how we could block the growth hormone with antibodies in mice so that they live 15 percent longer.<b>Why do some people have the longevity genes and others don\u2019t? And how does it affect our aging process?<\/b>Well, I think it\u2019s complex, but I\u2019ll answer it as simply as possible. What\u2019s important to evolution is that you reproduce and pass your genes to the next generation. That happens when you\u2019re young. Now, whether you die the day after you have your kids or you live 100 years, it doesn\u2019t matter because reproduction has already happened. What happens <i>after<\/i> reproduction is something that evolution cannot really take care of very well. Some people age faster, and some people age slower.The important thing is, it\u2019s an opportunity, because the current maximum lifespan of humans is somewhere around 115 years. There are probably hundreds of people during the last millennium or so that reached the age of 115. And, on average we die at an age less than 80. So, we have 35 years with low-hanging fruit where we could start working on our maximal capacity and extending our health span.<b>How do you respond to scientists who only focus on lifespan?<\/b>Some of the models we use can extend lifespan without health span. There are nematodes that can live longer, but they don\u2019t move for most of the time\u2014almost in a vegetative state. I have to say that in humans, it\u2019s really not like that. In humans, lifespan and health span are connected. We have to make sure that our treatment isn\u2019t going to debilitate people, but instead will make them live longer and healthier.<b>You are the recipient of many accolades and awards, including the Wrote Award and Ipsen Longevity Award in 2018. What do you hope to achieve next?<\/b>I\u2019m helping to fund more early-stage bioscience and biotech companies, because we should start targeting aging and start developing the drugs now, so that we\u2019re ready when the FDA is prepared to approve them. We have to move fast. I think that, at the very least, in about five years, most elderly people will be on metformin, which is a pill capable of preventing certain components of aging. Add two or three years to that, and there will be better drugs and combinations of drugs that will allow us to live much healthier for longer.",
+    "format": "rich_text",
+    "processed": "<i>Director of the Longevity Genes Project at the Albert Einstein College of Medicine, Nir Barzilai has discovered several longevity genes in humans that appear to protect centenarians against major age-related diseases. Barzilai is also co-founder of CohBar, Inc., a biotechnology company developing mitochondria-based therapeutics to treat diseases associated with aging. In an interview with the Milken Institute Center for the Future of Aging, Barzilai explains why some people have longevity genes and the challenges in drug design for age-related diseases.<\/i><b>In your research, you discovered that you don\u2019t have longevity genes in your family. How did this influence how you approach your work?<\/b>I want to do it as fast as possible. I\u2019m more desperate. That\u2019s how it affects me. My wife, on the other hand, comes from a family where her great-grandfather died at age 102. He was born at the end of 19th century, where very few people reached the age of 100\u2014maybe one in a million. His daughter also lived to be the age of 102. My wife\u2019s father is now 87, but if you saw him, you would think he\u2019s more like 70. He plays singles tennis twice a week. My wife\u2019s side of the family is clearly okay, but my side of the family is not okay.<b>What are some recent findings of the Longevity Genes Project?<\/b>We discovered that longevity genes affect the growth hormone axis. So, in nature, smaller animals live longer\u2014small dogs live longer than the big dogs, ponies live longer than thoroughbreds. If you conduct an experiment in a lab, and you have dwarf versions of animals by accident or by design, they all live longer and live healthier.We found that over 50 percent of centenarians have some gene in the growth hormone pathways that are affected. This might be the strongest link to longevity we\u2019ve seen. We've had a paper recently accepted to be published in <i>Nature Communication<\/i> that illustrates how we could block the growth hormone with antibodies in mice so that they live 15 percent longer.<b>Why do some people have the longevity genes and others don\u2019t? And how does it affect our aging process?<\/b>Well, I think it\u2019s complex, but I\u2019ll answer it as simply as possible. What\u2019s important to evolution is that you reproduce and pass your genes to the next generation. That happens when you\u2019re young. Now, whether you die the day after you have your kids or you live 100 years, it doesn\u2019t matter because reproduction has already happened. What happens <i>after<\/i> reproduction is something that evolution cannot really take care of very well. Some people age faster, and some people age slower.The important thing is, it\u2019s an opportunity, because the current maximum lifespan of humans is somewhere around 115 years. There are probably hundreds of people during the last millennium or so that reached the age of 115. And, on average we die at an age less than 80. So, we have 35 years with low-hanging fruit where we could start working on our maximal capacity and extending our health span.<b>How do you respond to scientists who only focus on lifespan?<\/b>Some of the models we use can extend lifespan without health span. There are nematodes that can live longer, but they don\u2019t move for most of the time\u2014almost in a vegetative state. I have to say that in humans, it\u2019s really not like that. In humans, lifespan and health span are connected. We have to make sure that our treatment isn\u2019t going to debilitate people, but instead will make them live longer and healthier.<b>You are the recipient of many accolades and awards, including the Wrote Award and Ipsen Longevity Award in 2018. What do you hope to achieve next?<\/b>I\u2019m helping to fund more early-stage bioscience and biotech companies, because we should start targeting aging and start developing the drugs now, so that we\u2019re ready when the FDA is prepared to approve them. We have to move fast. I think that, at the very least, in about five years, most elderly people will be on metformin, which is a pill capable of preventing certain components of aging. Add two or three years to that, and there will be better drugs and combinations of drugs that will allow us to live much healthier for longer.",
+    "summary": null,
+    "summary_processed": ""
+}

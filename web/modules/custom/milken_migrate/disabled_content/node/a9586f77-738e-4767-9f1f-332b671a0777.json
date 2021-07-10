@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/fintech-focus-october-15-2018?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/135?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 763
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a9586f77-738e-4767-9f1f-332b671a0777"
+        }
+    ],
+    "vid": [
+        {
+            "value": 763
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/135?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e3f1a4d4-904c-4919-adff-6aa83db29eda"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FinTech in Focus October 15, 2018",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-10-15T14:25:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-28T19:18:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/fintech-focus-october-15-2018",
+            "pid": 816,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Stable Cons Barry Eichengreen, a prominent economist from the University of California, Berkeley, recently wrote in Project Syndicate that the\u00a0problems with stable coins\u00a0should be \u201cfamiliar to anyone who has encountered even a single study of speculative attacks on pegged exchange rates.\u201d Less than a month later, his criticisms are proving prescient. At the time of writing, crypto investors are\u00a0fleeing from Tether, a widely used stable coin whose peg to the dollar is purported to be fully backed by dollar deposits. Doubts have long been simmering about the veracity of this claim. In early 2018, news broke that\u00a0Tether parted ways with the accounting firm\u00a0that had been hired to audit it. In June, a paper by John M. Griffin and Amin Shams found strong evidence that\u00a0Tether was being used to prop up the prices of Bitcoin\u00a0and other cryptocurrencies. If Tether were just another economically and ethically challenged cryptocurrency, this might not be particularly noteworthy. Tether is different, however, in that it is used for about 20 percent of the cryptocurrency transactions tracked by CoinMarketCap.com. In that respect, its importance to crypto markets should not be understated. News of Tether\u2019s fall caused a rise in the price of Bitcoin and other cryptocurrencies as investors fled for safety, but it wouldn\u2019t be surprising to see them fall yet again on news that a key source of stability and liquidity can no longer be counted on.<br \/> <br \/> <i>Source: Is Bitcoin Really Un-Tethered?<\/i> By John M. Griffin and Amin Shams<br \/> Industry Headlines <i>AltFi:<\/i> A week after Funding Circle\u2019s disappointing IPO, there\u2019s more mixed news in the alternative finance world. Investors seem to be paring down their expectations for other leading firms, with Square recording the most notable drop of all. Square\u2019s share price has dropped almost 30 percent in the last week, with news of its CFO\u2019s departure causing particular consternation among investors. Prior to this unwelcome news, Square\u2019s week had already been made unpleasant by BTIG analyst Mark Palmer, who believes the market has overlooked credit risk at Square. Meanwhile, Goldman Sachs is reported to be tapping the brakes on the growth of Marcus, its online lending platform. According to Bloomberg, Goldman has cut its target for Marcus\u2019s loan originations in 2019 on concerns of adverse market conditions. <i>Blockchain and Crypto:<\/i> On Thursday, Congressional staff were treated to an unusually entertaining Senate Banking Committee hearing when Dr. Nouriel Roubini of NYU and Peter Van Valkenburgh of CoinCenter testified on cryptocurrency and blockchain. The two men have opposing views on the topic, making Republican and Democratic members of the committee look quite united by comparison. Wherever you stand on cryptocurrency, Roubini\u2019s testimony was certainly well-timed to coincide with another bad week for crypto (and a bad 2018 for crypto exchanges). Meanwhile, Gary Cohn was in the news late last week for joining blockchain startup Spring Labs as an advisor. Spring Labs aims to use blockchain to allow financial institutions to exchange credit information more efficiently. Cohn said this is an \u201cobvious place to take a very, very analogue industry and digitize it.\u201d Finally, Switzerland continues its effort to be an international leader in blockchain and cryptocurrency, awarding an asset management license to Crypto Finance AG. <i>Digital Banking:<\/i> Tencent\u2019s march into digital banking continued this week, this time investing in Voyager, a FinTech firm based in the Philippines. Last year, Ant Financial invested in Mynt, Voyager\u2019s rival in the Philippines. This comes as N26, another member of the Tencent family, announced they have launched in the U.K. and plan to move on to the U.S. market in 2019. <i>InsurTech:<\/i> Willis Towers Watson and Plug and Play announced an InsurTech partnership last week, giving Willis Towers Watson access to all of Plug and Play\u2019s InsurTech platforms. <i>Payments:<\/i> PayPal made news this week with two unconventional partnerships. First, PayPal and Walmart announced that PayPal customers can now deposit and withdraw from their PayPal accounts at Walmart stores for a flat fee of three dollars. Meanwhile, PayPal also announced it has struck a partnership with Chevron to allow drivers to use PayPal at the pump. Speaking of PayPal, they teamed up with Village Capital to write a report about non-payments related FinTech innovation in Sub-Saharan Africa. Global Developments <i>European Union:<\/i> The European Securities and Markets Authority (ESMA) says it is assessing initial coin offerings (ICOs) on a case by case basis. ESMA chair Steven Maijoor said in a statement, \u201cSome of these ICOs are like a financial instrument. Once it is a financial instrument it comes under a whole regulatory framework.\u201d European Banking Authority Chair Andrea Enria, however, seems to be getting impatient with crypto. After an initial hands-off approach, Enria told Reuters, \u201cConsumer warnings don\u2019t seem to be sufficiently effective in raising awareness among consumers that there is a lack of safety net for these investments.\u201d In other news, European Data Protection Supervisor Giovanni Buttarelli told Reuters last week that the first round of fines and enforcement actions under the E.U.\u2019s General Data Protection Regulation (GDPR) are likely to come by year\u2019s end. Buttarelli said that in addition to fines, enforcement actions could also include \u201cdecisions to admonish the controllers, to impose a preliminary ban, a temporary ban or to give them an ultimatum.\u201d <i>Australia:<\/i> The Australian Securities and Investments Commission (ASIC) signed a FinTech cooperation agreement with the Luxembourg Commission de Surveillance du Secteur Financier. News of the agreement came at the same time as news of the agreement between ASIC and the U.S. Commodity Futures Trading Commission (CFTC). <i>Hong Kong:<\/i> Reuters wins the headline of the week award with \u201cData privacy rules spoiling fintech boom, says industry group.\u201d Those pesky data privacy rules. In a report, the Asian Securities Industry and Financial Markets Association (Asifma) advocates for a principles-based, rather than rules-based, approach to data privacy regulation. <i>Norway:<\/i> Norway\u2019s Financial Supervisory Authority announced that cryptocurrency exchanges will have to comply with anti-money laundering rules, which come into force this week. <i>United Kingdom:<\/i> Deloitte and Innovate Finance published a joint report on the Financial Conduct Authority\u2019s (FCA\u2019s) regulatory sandbox. The FCA\u2019s sandbox has accepted 89 firms to date, and the report is an effort to assess the sandbox experience of those firms. All in all, the report found users of the sandbox are broadly supportive of the model. <i>United States:<\/i> In an announcement that evaded last week\u2019s FinTech in Focus, the Federal Reserve called for comment on actions it could take to facilitate faster payments in the United States. Federal Reserve Governor Lael Brainard announced the call for comment along with a proposal for the Fed to develop a \u201c24\/7\/365\u201d payment system. This would be a tremendous improvement upon the current system, which does not work on weekends or holidays, and is frequently cited as a challenge for consumers. Meanwhile, Grovetta Gardineer of the Office of the Comptroller of the Currency (OCC) announced the OCC will move forward with their special purpose charter for FinTechs, despite promise of litigation from the Conference of State Bank Supervisors (CSBS). Gardineer stated, \u201cIf we determine that an application meets the requirements \u2026 it is our intent to grant that charter \u2026 Our ability to grant the charter is not questioned, at least by us.\u201d Elsewhere, FINCA International and USAID's Partnering to Accelerate Entrepreneurship (PACE) Initiative will team up to launch FINCA Forward, an innovation platform designed to bring together FinTech innovators with microfinance institutions. Last but not least, the Securities and Exchange Commission (SEC) stopped a planned ICO by Blockvest LLC this week. This wasn\u2019t just any ICO, however. Blockvest\u2019s ICO was notable for several reasons. Chief among them was Blockvest\u2019s claim that its ICO had received approval from both the SEC and the \u201cBlockchain Exchange Commission.\u201d The SEC had issued no such approval, of course, and the \u201cBlockchain Exchange Commission\u201d is a fictional government agency.\u00a0",
+    "format": "rich_text",
+    "processed": "In this issue: Industry Headlines \u00bb Global Developments \u00bb Stable Cons Barry Eichengreen, a prominent economist from the University of California, Berkeley, recently wrote in Project Syndicate that the\u00a0problems with stable coins\u00a0should be \u201cfamiliar to anyone who has encountered even a single study of speculative attacks on pegged exchange rates.\u201d Less than a month later, his criticisms are proving prescient. At the time of writing, crypto investors are\u00a0fleeing from Tether, a widely used stable coin whose peg to the dollar is purported to be fully backed by dollar deposits. Doubts have long been simmering about the veracity of this claim. In early 2018, news broke that\u00a0Tether parted ways with the accounting firm\u00a0that had been hired to audit it. In June, a paper by John M. Griffin and Amin Shams found strong evidence that\u00a0Tether was being used to prop up the prices of Bitcoin\u00a0and other cryptocurrencies. If Tether were just another economically and ethically challenged cryptocurrency, this might not be particularly noteworthy. Tether is different, however, in that it is used for about 20 percent of the cryptocurrency transactions tracked by CoinMarketCap.com. In that respect, its importance to crypto markets should not be understated. News of Tether\u2019s fall caused a rise in the price of Bitcoin and other cryptocurrencies as investors fled for safety, but it wouldn\u2019t be surprising to see them fall yet again on news that a key source of stability and liquidity can no longer be counted on.<br \/><br \/><i>Source: Is Bitcoin Really Un-Tethered?<\/i> By John M. Griffin and Amin Shams<br \/> Industry Headlines <i>AltFi:<\/i> A week after Funding Circle\u2019s disappointing IPO, there\u2019s more mixed news in the alternative finance world. Investors seem to be paring down their expectations for other leading firms, with Square recording the most notable drop of all. Square\u2019s share price has dropped almost 30 percent in the last week, with news of its CFO\u2019s departure causing particular consternation among investors. Prior to this unwelcome news, Square\u2019s week had already been made unpleasant by BTIG analyst Mark Palmer, who believes the market has overlooked credit risk at Square. Meanwhile, Goldman Sachs is reported to be tapping the brakes on the growth of Marcus, its online lending platform. According to Bloomberg, Goldman has cut its target for Marcus\u2019s loan originations in 2019 on concerns of adverse market conditions. <i>Blockchain and Crypto:<\/i> On Thursday, Congressional staff were treated to an unusually entertaining Senate Banking Committee hearing when Dr. Nouriel Roubini of NYU and Peter Van Valkenburgh of CoinCenter testified on cryptocurrency and blockchain. The two men have opposing views on the topic, making Republican and Democratic members of the committee look quite united by comparison. Wherever you stand on cryptocurrency, Roubini\u2019s testimony was certainly well-timed to coincide with another bad week for crypto (and a bad 2018 for crypto exchanges). Meanwhile, Gary Cohn was in the news late last week for joining blockchain startup Spring Labs as an advisor. Spring Labs aims to use blockchain to allow financial institutions to exchange credit information more efficiently. Cohn said this is an \u201cobvious place to take a very, very analogue industry and digitize it.\u201d Finally, Switzerland continues its effort to be an international leader in blockchain and cryptocurrency, awarding an asset management license to Crypto Finance AG. <i>Digital Banking:<\/i> Tencent\u2019s march into digital banking continued this week, this time investing in Voyager, a FinTech firm based in the Philippines. Last year, Ant Financial invested in Mynt, Voyager\u2019s rival in the Philippines. This comes as N26, another member of the Tencent family, announced they have launched in the U.K. and plan to move on to the U.S. market in 2019. <i>InsurTech:<\/i> Willis Towers Watson and Plug and Play announced an InsurTech partnership last week, giving Willis Towers Watson access to all of Plug and Play\u2019s InsurTech platforms. <i>Payments:<\/i> PayPal made news this week with two unconventional partnerships. First, PayPal and Walmart announced that PayPal customers can now deposit and withdraw from their PayPal accounts at Walmart stores for a flat fee of three dollars. Meanwhile, PayPal also announced it has struck a partnership with Chevron to allow drivers to use PayPal at the pump. Speaking of PayPal, they teamed up with Village Capital to write a report about non-payments related FinTech innovation in Sub-Saharan Africa. Global Developments <i>European Union:<\/i> The European Securities and Markets Authority (ESMA) says it is assessing initial coin offerings (ICOs) on a case by case basis. ESMA chair Steven Maijoor said in a statement, \u201cSome of these ICOs are like a financial instrument. Once it is a financial instrument it comes under a whole regulatory framework.\u201d European Banking Authority Chair Andrea Enria, however, seems to be getting impatient with crypto. After an initial hands-off approach, Enria told Reuters, \u201cConsumer warnings don\u2019t seem to be sufficiently effective in raising awareness among consumers that there is a lack of safety net for these investments.\u201d In other news, European Data Protection Supervisor Giovanni Buttarelli told Reuters last week that the first round of fines and enforcement actions under the E.U.\u2019s General Data Protection Regulation (GDPR) are likely to come by year\u2019s end. Buttarelli said that in addition to fines, enforcement actions could also include \u201cdecisions to admonish the controllers, to impose a preliminary ban, a temporary ban or to give them an ultimatum.\u201d <i>Australia:<\/i> The Australian Securities and Investments Commission (ASIC) signed a FinTech cooperation agreement with the Luxembourg Commission de Surveillance du Secteur Financier. News of the agreement came at the same time as news of the agreement between ASIC and the U.S. Commodity Futures Trading Commission (CFTC). <i>Hong Kong:<\/i> Reuters wins the headline of the week award with \u201cData privacy rules spoiling fintech boom, says industry group.\u201d Those pesky data privacy rules. In a report, the Asian Securities Industry and Financial Markets Association (Asifma) advocates for a principles-based, rather than rules-based, approach to data privacy regulation. <i>Norway:<\/i> Norway\u2019s Financial Supervisory Authority announced that cryptocurrency exchanges will have to comply with anti-money laundering rules, which come into force this week. <i>United Kingdom:<\/i> Deloitte and Innovate Finance published a joint report on the Financial Conduct Authority\u2019s (FCA\u2019s) regulatory sandbox. The FCA\u2019s sandbox has accepted 89 firms to date, and the report is an effort to assess the sandbox experience of those firms. All in all, the report found users of the sandbox are broadly supportive of the model. <i>United States:<\/i> In an announcement that evaded last week\u2019s FinTech in Focus, the Federal Reserve called for comment on actions it could take to facilitate faster payments in the United States. Federal Reserve Governor Lael Brainard announced the call for comment along with a proposal for the Fed to develop a \u201c24\/7\/365\u201d payment system. This would be a tremendous improvement upon the current system, which does not work on weekends or holidays, and is frequently cited as a challenge for consumers. Meanwhile, Grovetta Gardineer of the Office of the Comptroller of the Currency (OCC) announced the OCC will move forward with their special purpose charter for FinTechs, despite promise of litigation from the Conference of State Bank Supervisors (CSBS). Gardineer stated, \u201cIf we determine that an application meets the requirements \u2026 it is our intent to grant that charter \u2026 Our ability to grant the charter is not questioned, at least by us.\u201d Elsewhere, FINCA International and USAID's Partnering to Accelerate Entrepreneurship (PACE) Initiative will team up to launch FINCA Forward, an innovation platform designed to bring together FinTech innovators with microfinance institutions. Last but not least, the Securities and Exchange Commission (SEC) stopped a planned ICO by Blockvest LLC this week. This wasn\u2019t just any ICO, however. Blockvest\u2019s ICO was notable for several reasons. Chief among them was Blockvest\u2019s claim that its ICO had received approval from both the SEC and the \u201cBlockchain Exchange Commission.\u201d The SEC had issued no such approval, of course, and the \u201cBlockchain Exchange Commission\u201d is a fictional government agency.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

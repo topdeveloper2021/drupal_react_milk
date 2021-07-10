@@ -1,0 +1,58 @@
+uuid: 97917a30-a3da-48b1-a3a5-3dc2b34a3378
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.people.field_centers
+    - field.field.paragraph.people.field_section_header
+    - field.field.paragraph.people.field_teams
+    - field.field.paragraph.people.field_type_of_people
+    - field.field.paragraph.people.field_view_mode
+    - paragraphs.paragraphs_type.people
+  module:
+    - options
+id: paragraph.people.default
+targetEntityType: paragraph
+bundle: people
+mode: default
+content:
+  field_centers:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_section_header:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_teams:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_of_people:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_view_mode:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+hidden:
+  search_api_excerpt: true

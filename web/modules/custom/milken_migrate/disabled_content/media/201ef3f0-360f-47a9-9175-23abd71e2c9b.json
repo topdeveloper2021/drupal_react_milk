@@ -1,0 +1,154 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7245\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7245
+        }
+    ],
+    "uuid": [
+        {
+            "value": "201ef3f0-360f-47a9-9175-23abd71e2c9b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1675
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/media-icons\/generic\/video.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0828ffb5-a2c6-4dcc-8bf2-8292700e71c3"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Made in California: Presentations from California Grown Startups",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-16T19:52:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-08T18:52:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "California\u2019s venture capital isn\u2019t invested solely in tech and software. The Golden State is quickly developing fertile ground, in regions throughout the state, for cultivating manufacturing startups. These start-ups have revitalized the state\u2019s reputation as a hub of industrial innovation as they look to utilize advanced manufacturing techniques to grow their companies and deliver innovative products. This session will showcase a selection of manufacturers, incubators and entrepreneurs who are leveraging regional characteristics to drive innovation and continue to ensure that the future is made in California. Moderator Dorothy Rothrock, President, California Manufacturers & Technology Association Speakers Ian Coll McEachern, Co-Founder, Open Agriculture Supply; Owner and Consultant, Nerdian Inc. Gordon Fowler, President and CEO, 3fold Communications<br \/> <br \/> Gabe Grifoni, CEO and Co-Founder, Rufus Labs<br \/> <br \/> Susie Harborth, General Partner and CFO, BioInnovation Capital<br \/> <br \/> Stella Kramer, Scientist and Co-Founder, Sun Genomics<br \/> <br \/> Carmen Palafox, Partner, Make in LA Capital Advisors<br \/> <br \/> Dolly Singh, Founder and CEO, ThesisCouture Ken Sunshine, Co-Founder and Chief Financial Officer, Vector Launch, Inc.",
+    "format": "rich_text",
+    "processed": "California\u2019s venture capital isn\u2019t invested solely in tech and software. The Golden State is quickly developing fertile ground, in regions throughout the state, for cultivating manufacturing startups. These start-ups have revitalized the state\u2019s reputation as a hub of industrial innovation as they look to utilize advanced manufacturing techniques to grow their companies and deliver innovative products. This session will showcase a selection of manufacturers, incubators and entrepreneurs who are leveraging regional characteristics to drive innovation and continue to ensure that the future is made in California. Moderator Dorothy Rothrock, President, California Manufacturers &amp; Technology Association Speakers Ian Coll McEachern, Co-Founder, Open Agriculture Supply; Owner and Consultant, Nerdian Inc. Gordon Fowler, President and CEO, 3fold Communications<br \/><br \/> Gabe Grifoni, CEO and Co-Founder, Rufus Labs<br \/><br \/> Susie Harborth, General Partner and CFO, BioInnovation Capital<br \/><br \/> Stella Kramer, Scientist and Co-Founder, Sun Genomics<br \/><br \/> Carmen Palafox, Partner, Make in LA Capital Advisors<br \/><br \/> Dolly Singh, Founder and CEO, ThesisCouture Ken Sunshine, Co-Founder and Chief Financial Officer, Vector Launch, Inc.",
+    "summary": null,
+    "summary_processed": "",
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/videoseries",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+uuid: d104c896-9471-470c-8554-4444dddcebfa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.block.field_block_reference
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+id: paragraph.block.default
+targetEntityType: paragraph
+bundle: block
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_block_reference:
+    weight: -9
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+hidden:
+  created: true
+  status: true

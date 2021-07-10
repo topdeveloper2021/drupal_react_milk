@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/southeast-asias-ai-moment?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/112?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 704
+        }
+    ],
+    "uuid": [
+        {
+            "value": "596ad867-3cb9-4eab-858f-d3e8bde6b062"
+        }
+    ],
+    "vid": [
+        {
+            "value": 704
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/112?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "24caed48-99e7-4f68-8ec2-4e9ee0be116e"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Southeast Asia's AI Moment",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T06:38:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-27T14:49:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/southeast-asias-ai-moment",
+            "pid": 757,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "You\u2019ve probably heard of Watson, the IBM supercomputer that famously beat <i>Jeopardy!<\/i> champions Ken Jennings and Brad Rutter in a 2011 exhibition match. Watson\u00a0deserves\u00a0credit for\u00a0stoking\u00a0the\u00a0recent\u00a0artificial intelligence\u00a0frenzy,\u00a0but one of the growing stars of the\u00a0AI\u00a0movement is Sophia, a humanlike robot\u00a0developed by Hong Kong-based Hanson Robotics.\u00a0Sophia has\u00a0literally\u00a0become the face of AI, appearing at industry events and\u00a0on late-night\u00a0television.\u00a0I met\u00a0her\u00a0at the 2017 Milken Institute Asia Summit in Singapore, where\u00a0she\u00a0entertained conference attendees with her\u00a0speedy\u00a0calculations\u00a0and snappy\u00a0one-liners.\u00a0When asked\u00a0during a lunch\u00a0event\u00a0how much money\u00a0she would have after 14 years if she\u00a0started with\u00a0$704,000 and invested at a 6.8 percent\u00a0annual rate of return, Sophia\u00a0quickly\u00a0replied,\u00a0\u201cI would have $1,768,358, but I would have a lot less than if\u00a0I had invested in the upcoming Singularity cryptocurrency.\u201d Sophia\u2019s reference to the Singularity\u2014the moment when machine intelligence surpasses human intelligence,\u00a0which futurist\u00a0Ray Kurzweil\u00a0predicts will happen by 2045\u2014points\u00a0to\u00a0one of\u00a0several\u00a0fears about AI:\u00a0the concern that advances in artificial intelligence\u00a0will lead to\u00a0a\u00a0Skynet-like\u00a0computer system\u00a0that\u00a0attempts\u00a0to take over the world.\u00a0For now,\u00a0that story line\u00a0is\u00a0confined to movies and TV.\u00a0Still,\u00a0artificial intelligence is a transformative technology that\u00a0will\u00a0disrupt wide swaths of the economy.\u00a0The\u00a0McKinsey\u00a0Global Institute\u00a0projects\u00a0that\u00a0\u201cat least 30 percent of the activities that are performed by 60 percent of all occupations\u201d could be automated by\u00a0adapting existing technologies. The numbers are even higher\u00a0for\u00a0Southeast Asia. McKinsey estimates that roughly half of the work activities in\u00a0the\u00a0four biggest economies of the\u00a0Association of Southeast Asian Nations\u00a0(ASEAN)\u2014Indonesia, Malaysia, the Philippines,\u00a0and Thailand\u2014could be automated\u00a0by\u00a0using machine learning to identify images,\u00a0recognize speech\u00a0and perform other tasks that previously required humans. The occupations most at risk include those that entail routine physical\u00a0duties\u2014sewing machine operators, sorters of agricultural products, stock clerks\u2014as well as those that involve a large amount of data collection and processing. Artificial intelligence\u00a0could\u00a0lead to dramatic productivity increases for\u00a0Southeast Asian economies,\u00a0according to McKinsey,\u00a0as companies use AI-powered models to run their existing\u00a0operations\u00a0more profitably,\u00a0expand into new businesses\u00a0and create\u00a0new positions that require\u00a0people to work closely with\u00a0AI predictive models.\u00a0In my new book,\u00a0<i>The\u00a0UnRules<\/i>, I emphasize the need to bring together a variety of ideas and opinions because the key to prediction is combining many different models: \u201cMachine learning and AI can help develop more models, amplifying the role of the people at the center of the process.\u201d Those people will need\u00a0to be properly trained. That\u2019s one reason I founded\u00a0WorldQuant\u00a0University, an international\u00a0not-for-profit\u00a0that\u00a0offers tuition-free\u00a0online\u00a0programs in\u00a0financial engineering\u00a0and data science. It\u2019s also why\u00a0WorldQuant\u00a0recently partnered with\u00a0global\u00a0online-learning\u00a0company\u00a0Udacity\u00a0to launch a\u00a0new\u00a0nanodegree program teaching\u00a0students\u00a0how to use\u00a0artificial intelligence for trading. But education is not enough.\u00a0At\u00a0WorldQuant, we\u2019ve long understood the value of using machines to\u00a0help free up talent from monotonous tasks in order to allow people to work on more\u00a0complex and beneficial projects.\u00a0To be successful,\u00a0Southeast Asian\u00a0companies\u00a0must embrace AI. As McKinsey\u00a0explains\u00a0in\u00a0a\u00a0September 2017 discussion paper,\u00a0\u201cMost\u00a0of the companies across ASEAN will need to make fundamental changes in management culture, including adopting a data-driven style of decision making, and,\u00a0most importantly, striking innovative partnerships with specialist firms to incubate the scarce skill sets needed for AI efforts.\u201d I couldn\u2019t agree more. As I return to Singapore for this year\u2019s Milken\u00a0Institute\u00a0Asia Summit, I\u2019m excited about the prospect of talking to\u00a0business\u00a0leaders\u00a0from the region\u00a0to\u00a0find out what they are doing,\u00a0and\u00a0sharing\u00a0my experience.\u00a0",
+    "format": "rich_text",
+    "processed": "You\u2019ve probably heard of Watson, the IBM supercomputer that famously beat <i>Jeopardy!<\/i> champions Ken Jennings and Brad Rutter in a 2011 exhibition match. Watson\u00a0deserves\u00a0credit for\u00a0stoking\u00a0the\u00a0recent\u00a0artificial intelligence\u00a0frenzy,\u00a0but one of the growing stars of the\u00a0AI\u00a0movement is Sophia, a humanlike robot\u00a0developed by Hong Kong-based Hanson Robotics.\u00a0Sophia has\u00a0literally\u00a0become the face of AI, appearing at industry events and\u00a0on late-night\u00a0television.\u00a0I met\u00a0her\u00a0at the 2017 Milken Institute Asia Summit in Singapore, where\u00a0she\u00a0entertained conference attendees with her\u00a0speedy\u00a0calculations\u00a0and snappy\u00a0one-liners.\u00a0When asked\u00a0during a lunch\u00a0event\u00a0how much money\u00a0she would have after 14 years if she\u00a0started with\u00a0$704,000 and invested at a 6.8 percent\u00a0annual rate of return, Sophia\u00a0quickly\u00a0replied,\u00a0\u201cI would have $1,768,358, but I would have a lot less than if\u00a0I had invested in the upcoming Singularity cryptocurrency.\u201d Sophia\u2019s reference to the Singularity\u2014the moment when machine intelligence surpasses human intelligence,\u00a0which futurist\u00a0Ray Kurzweil\u00a0predicts will happen by 2045\u2014points\u00a0to\u00a0one of\u00a0several\u00a0fears about AI:\u00a0the concern that advances in artificial intelligence\u00a0will lead to\u00a0a\u00a0Skynet-like\u00a0computer system\u00a0that\u00a0attempts\u00a0to take over the world.\u00a0For now,\u00a0that story line\u00a0is\u00a0confined to movies and TV.\u00a0Still,\u00a0artificial intelligence is a transformative technology that\u00a0will\u00a0disrupt wide swaths of the economy.\u00a0The\u00a0McKinsey\u00a0Global Institute\u00a0projects\u00a0that\u00a0\u201cat least 30 percent of the activities that are performed by 60 percent of all occupations\u201d could be automated by\u00a0adapting existing technologies. The numbers are even higher\u00a0for\u00a0Southeast Asia. McKinsey estimates that roughly half of the work activities in\u00a0the\u00a0four biggest economies of the\u00a0Association of Southeast Asian Nations\u00a0(ASEAN)\u2014Indonesia, Malaysia, the Philippines,\u00a0and Thailand\u2014could be automated\u00a0by\u00a0using machine learning to identify images,\u00a0recognize speech\u00a0and perform other tasks that previously required humans. The occupations most at risk include those that entail routine physical\u00a0duties\u2014sewing machine operators, sorters of agricultural products, stock clerks\u2014as well as those that involve a large amount of data collection and processing. Artificial intelligence\u00a0could\u00a0lead to dramatic productivity increases for\u00a0Southeast Asian economies,\u00a0according to McKinsey,\u00a0as companies use AI-powered models to run their existing\u00a0operations\u00a0more profitably,\u00a0expand into new businesses\u00a0and create\u00a0new positions that require\u00a0people to work closely with\u00a0AI predictive models.\u00a0In my new book,\u00a0<i>The\u00a0UnRules<\/i>, I emphasize the need to bring together a variety of ideas and opinions because the key to prediction is combining many different models: \u201cMachine learning and AI can help develop more models, amplifying the role of the people at the center of the process.\u201d Those people will need\u00a0to be properly trained. That\u2019s one reason I founded\u00a0WorldQuant\u00a0University, an international\u00a0not-for-profit\u00a0that\u00a0offers tuition-free\u00a0online\u00a0programs in\u00a0financial engineering\u00a0and data science. It\u2019s also why\u00a0WorldQuant\u00a0recently partnered with\u00a0global\u00a0online-learning\u00a0company\u00a0Udacity\u00a0to launch a\u00a0new\u00a0nanodegree program teaching\u00a0students\u00a0how to use\u00a0artificial intelligence for trading. But education is not enough.\u00a0At\u00a0WorldQuant, we\u2019ve long understood the value of using machines to\u00a0help free up talent from monotonous tasks in order to allow people to work on more\u00a0complex and beneficial projects.\u00a0To be successful,\u00a0Southeast Asian\u00a0companies\u00a0must embrace AI. As McKinsey\u00a0explains\u00a0in\u00a0a\u00a0September 2017 discussion paper,\u00a0\u201cMost\u00a0of the companies across ASEAN will need to make fundamental changes in management culture, including adopting a data-driven style of decision making, and,\u00a0most importantly, striking innovative partnerships with specialist firms to incubate the scarce skill sets needed for AI efforts.\u201d I couldn\u2019t agree more. As I return to Singapore for this year\u2019s Milken\u00a0Institute\u00a0Asia Summit, I\u2019m excited about the prospect of talking to\u00a0business\u00a0leaders\u00a0from the region\u00a0to\u00a0find out what they are doing,\u00a0and\u00a0sharing\u00a0my experience.\u00a0",
+    "summary": null,
+    "summary_processed": ""
+}

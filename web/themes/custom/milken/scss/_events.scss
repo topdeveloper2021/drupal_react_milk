@@ -1,0 +1,241 @@
+body.page-view-event-pages {
+    scroll-behavior: smooth;
+    background: var(--color-milken-lightgray);
+    color: var(--color-milken-mediumgray);
+    direction: ltr;
+    font-weight: 400;
+
+    @media (min-width: 1300px) {
+      .container {
+        max-width: 1200px;
+      }
+    }
+}
+
+body.event-pages-smaller-font {
+    font-size: 13px;
+}
+
+#events {
+    width: 100%;
+
+    .btn-warning {
+        padding: 7px 14px;
+        background-color: var(--color-milken-orange);
+        color: white;
+        font-size: 14px;
+        border-color: var(--color-milken-orange);
+        border-radius: 0;
+        &:hover {
+            background-color: var(--color-milken-darkgray);
+        }
+    }
+
+    .format-select-box {
+        label {
+            padding-top: 7px;
+            margin-bottom: 0;
+            text-align: right;
+        }
+        select {
+            font-size: 14px;
+            height: 32px;
+            &:hover,
+            &:active,
+            &:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+    }
+
+    .search-bar {
+        h5 {
+            text-align: center;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .search-input-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid var(--color-milken-gray);
+            svg {
+                fill: var(--color-milken-gray);
+                display: block;
+                position: absolute;
+                margin: 8px;
+                z-index: 3;
+                width: 16px;
+            }
+            input {
+                padding-left: 33px;
+                font: 14px Arial, sans-serif;
+                border-radius: 0;
+                box-shadow: none;
+                flex: 1;
+                height: 34px;
+                border: none;
+                color: var(--color-milken-darkgray);
+                &::placeholder {
+                    color: var(--color-milken-gray);
+                }
+            }
+        }
+        .search-terms-box {
+            display: flex;
+            justify-content: space-between;
+            span {
+                margin-right: 24px;
+                padding: 4px 8px;
+                background-color: var(--color-milken-lightgray);
+                border: 1px solid var(--color-milken-gray);
+                border-radius: 4px;
+                svg {
+                    fill: #3e4d5c;
+                }
+            }
+        }
+    }
+
+    .filter-box {
+        margin-bottom: 50px;
+        border: 1px solid var(--color-milken-gray);
+        border-radius: 3px;
+        background-color: white;
+        .filter-header {
+            padding: 10px;
+            border-bottom: 1px solid var(--color-milken-gray);
+            display: flex;
+            justify-content: space-between;
+            h6 {
+                margin-bottom: 0;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .filter-actions {
+                span {
+                    cursor: pointer;
+                    &:hover {
+                        text-decoration: underline;
+                        color: var(--color-milken-orange);
+                    }
+                }
+            }
+        }
+        .filter-row {
+            padding: 10px;
+            display: flex;
+            border-top: 1px solid var(--color-milken-gray);
+            font-size: 14px;
+            font-weight: bold;
+            span {
+                margin-left: 10px;
+            }
+        }
+        .collapse-toggler {
+            svg {
+                width: 22px;
+                height: 22px;
+                fill: var(--color-milken-darkgray);
+            }
+        }
+    }
+
+    .tick-select {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 22px;
+        min-width: 22px;
+        height: 22px;
+        margin-right: 14px;
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid var(--color-milken-gray);
+        svg {
+            display: none;
+        }
+        &.selected {
+            background-color: var(--color-milken-orange);
+            border: none;
+            svg {
+                fill: white;
+                display: block;
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+
+    .programday-list {
+        .programday-container {
+            margin-bottom: 24px;
+            .program-day-header {
+                display: flex;
+                padding: 12px 0 10px;
+                cursor: pointer;
+                h4 {
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .program-day-toggler {
+                    margin-right: 10px;
+                    svg {
+                        fill: var(--color-milken-orange);
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+            .programday-sessions-container {
+                border: 1px solid var(--color-milken-gray);
+                .programday-session {
+                    padding: 16px;
+                    border-top: 1px solid var(--color-milken-gray);
+                    background-color: white;
+                    h5 {
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    .btn {
+                        margin-left: 20px;
+                        min-width: 120px;
+                        padding: 0;
+                        color: var(--color-milken-orange);
+                        font-size: 16px;
+                        &:hover,
+                        &:focus,
+                        &:active {
+                            outline: none;
+                            box-shadow: none;
+                            text-decoration: underline;
+                            color: var(--color-milken-gray);
+                        }
+                    }
+                    .profile-summary {
+                        margin-bottom: 20px;
+                        font-size: 15px;
+                        .avatar-wrapper {
+                            margin: auto;
+                            width: 80px;
+                            height: 80px;
+                            position: relative;
+                            img {
+                                top: 0;
+                                object-fit: cover;
+                                object-position: center;
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        a {
+                            display: block;
+                            margin-bottom: 10px;
+                            color: var(--color-milken-orange);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

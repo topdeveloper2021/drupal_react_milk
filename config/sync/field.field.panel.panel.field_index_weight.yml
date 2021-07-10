@@ -1,0 +1,23 @@
+uuid: bbbba58f-3b97-403b-8fe7-14b79a1cf030
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.panel.panel
+    - field.storage.panel.field_index_weight
+  module:
+    - options
+id: panel.panel.field_index_weight
+field_name: field_index_weight
+entity_type: panel
+bundle: panel
+label: 'Index Weight'
+description: 'Specify how high on the search results this item should be, where 0 is at the top of the list, followed by 1,2,3,....'
+required: false
+translatable: false
+default_value:
+  -
+    value: 5
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

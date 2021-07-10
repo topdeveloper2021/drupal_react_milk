@@ -1,0 +1,158 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/guiyang-named-2016-best-performing-city-china?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 649
+        }
+    ],
+    "uuid": [
+        {
+            "value": "6ffd8892-e7e6-40be-98ae-77d7d3df453b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 649
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Guiyang Named as 2016 Best-Performing City in China",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2016-09-22T10:17:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-26T21:06:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/guiyang-named-2016-best-performing-city-china",
+            "pid": 702,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "BEIJING \u2013 The Milken Institute\u2019s second annual Best-Performing Cities China Index, unveiled today at the Yale Center in Beijing, shows that Guiyang\u2019s growth in jobs, wages, gross domestic product (GDP), and foreign direct investment (FDI) puts it first among the first- and second-tier cities in China, followed by Shanghai and Tianjin in second and third place, respectively, for the second year in a row.The Best-Performing Cities China Index offers a comparative snapshot of the economic performance of 260 Chinese cities in two categories. The largest-cities group includes 33 \u2018first- and second-tier cities;\u2019 the small and medium-sized group includes 227 \u2018third-tier cities.\u2019 To provide insights into urban economic and development trends in China, the index takes nine factors into account: one-year (2013-2014) and fiveyear (2009-2014) job growth, one- and five-year wage growth, one- and five-year gross regional product (GRP) per capita growth, three-year (2011-2014) foreign FDI growth, share of FDI and GRP (2014), and the location quotient (LQ) for high value-added industry (2014).Guiyang jumps from eleventh place to number one among \u2018first- and second-tier cities\u2019 with its outstanding performance in growth of jobs, wages, GRP, and FDI, mainly driven by government support, particularly with its \u2018One Belt, One Road\u2019 (OBOR) initiative and an intensified effort to fill the development gaps among East \u2013 West regions. Shanghai and Shenzhen finish in the top four, reflecting the success of \u201cFree Finance and Trade Zones\u201d in China, backed by the growing high value-added research and development (R&D) industry in the two cities. Shenzhen moves up to sixth place from fourth place, followed by Chengdu, Dalian, Nanchang, Chongqing, Xi\u2019an, and Haikou.In the category of \u2018third-tier cities,\u2019 Zhoushan vaults from 95 to No.1, thanks to a promising performance in one- (1st position) and five-year (5th position) job growth, attributed to its port location, the OBOR initiative, and the 12th five-year plan. The OBOR initiative notably boosts China\u2019s cities performance, as several inland cities \u2013 Xiangyang (4th position), Baoji (7th position), Meishan (8th position), and Liupanshui (10th position) \u2013 enter the top 10 list. Following last year\u2019s rankings, Taizhou (3rd position), Suzhou (5th position), Nantong (6th position), and Suqian (ranked 9th) in Jiangsu Province also dominate the top 10 list in 2016.\u201cOur data-driven analysis reveals that increased openness, economic restructuring, and urbanization, often in the form of major urban clustering, have all led to economic improvement and development in China,\u201d said Perry Wong, Managing Director, Research at the Milken Institute and co-author of the report. \u201cThe surging openness from China\u2019s 12th FYP and the OBOR initiative, give rise to China\u2019s foreign trading activities. All trading activities with Central Asia, Europe, and Africa unlock China\u2019s potential business opportunities. The cities in the less-developed inland regions also elevate their growth rates as large scale urbanization continues to drive China\u2019s economy. \u201dCities from China\u2019s Northeast, except Dalian, generally display a lackluster performance in the ranking, which shows China\u2019s difficulty in restructuring an older industrial base that relies on energy, steel production and less diversified heavy industries. Changchun, which dropped from the 8th spot to the 17th spot in a one-year period is an example of this phenomenon. \u201cThe Best Performing Cities China Index provides fresh insights into Chinese cities\u2019 economic dynamics and their performance. Although east coast cities still dominate the best performance rankings, with government support and further urbanization development prospects, Chinese inland cities possess great potential for growth as well.\u201d Mr. Wong concluded.To download the full report, including an interactive table of all 260 cities, please go to <b>best-citieschina.org<\/b>.<b>Appendix: The Rankings<\/b><table><tr><td><b>Rank <\/b><\/td>\n<td><b>First- and Second-Tier Cities<\/b><\/td>\n<td>\u00a0<\/td>\n<td><b>Rank <\/b><\/td>\n<td><b>Third-Tier\u00a0Cities\u00a0<\/b><\/td>\n<\/tr><tr><td>1<\/td>\n<td>Guiyang, Guizhou\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>1<\/td>\n<td>Zhoushan, Zhejiang <\/td>\n<\/tr><tr><td>2<\/td>\n<td>Shanghai\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>2<\/td>\n<td>Weifang, Shandong <\/td>\n<\/tr><tr><td>3<\/td>\n<td>Tianjin\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>3<\/td>\n<td>Taizhou, Jiangsu <\/td>\n<\/tr><tr><td>4<\/td>\n<td>Shenzhen, Guangdong\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>4<\/td>\n<td>Xiangyang, Hubei <\/td>\n<\/tr><tr><td>5<\/td>\n<td>Chengdu, Sichuan\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>5<\/td>\n<td>Suzhou, Jiangsu <\/td>\n<\/tr><tr><td>6<\/td>\n<td>Dalian, Liaoning\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>6<\/td>\n<td>Nantong, Jiangsu <\/td>\n<\/tr><tr><td>7<\/td>\n<td>Nanchang, Jiangxi\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>7<\/td>\n<td>Baoji, Shaanxi <\/td>\n<\/tr><tr><td>8<\/td>\n<td>Chongqing\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>8<\/td>\n<td>Meishan, Sichuan <\/td>\n<\/tr><tr><td>9<\/td>\n<td>Xi'an, Shaanxi\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>9<\/td>\n<td>Suqian, Jiangsu <\/td>\n<\/tr><tr><td>10<\/td>\n<td>Haikou, Hainan\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>10<\/td>\n<td>Liupanshui, Guizhou <\/td>\n<\/tr><\/table><b>Appendix: Components of the Index<\/b>\n<table><tr><td><b>Indicator<\/b><\/td>\n<td><b>Weight\u00a0<\/b><\/td>\n<\/tr><tr><td>1-year job\u00a0growth (2013-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>5-year job\u00a0growth (2009-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>1-year wage\u00a0growth (2013-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>5-year wage\u00a0growth (2009-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>1-year GRP\u00a0per-capita growth (2013-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>5-year GRP\u00a0per-capita growth (2009-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>3-year FDI\u00a0growth (2011-2014)<\/td>\n<td>0 .125\u00a0<\/td>\n<\/tr><tr><td>FDI\/GRP (2014)<\/td>\n<td>0 .125\u00a0<\/td>\n<\/tr><tr><td>LQ for high\u00a0value-added industry employment (2014)<\/td>\n<td>0 .150\u00a0<\/td>\n<\/tr><\/table><b>Contact information<br><\/b><b>For media inquiries, please contact:<br><strong><br>Hamilton Advisors Limited<br><\/b>Robert T. Grieves<b>Tel: +852 2488 8866<br>Dir: +852 2487 8070<br>Email:\u00a0rgrieves@hamiltonadvisorsltd.com<br><strong><br>Milken Institute<br><\/b>Ann Marie Eu<br>Communications Associate, Asia\u00a0<br>Phone: +65 9879 8125<br>Email:\u00a0aeu@milkeninstitute.org<br><br>Anne Schroeder<br>Media Advisor<br>Phone: (310) 570-4623<br>Cell: (202) 731-1992\u00a0<br>Email:\u00a0aschroeder@milkeninstitute.org ",
+    "format": "rich_text",
+    "processed": "BEIJING \u2013 The Milken Institute\u2019s second annual Best-Performing Cities China Index, unveiled today at the Yale Center in Beijing, shows that Guiyang\u2019s growth in jobs, wages, gross domestic product (GDP), and foreign direct investment (FDI) puts it first among the first- and second-tier cities in China, followed by Shanghai and Tianjin in second and third place, respectively, for the second year in a row.The Best-Performing Cities China Index offers a comparative snapshot of the economic performance of 260 Chinese cities in two categories. The largest-cities group includes 33 \u2018first- and second-tier cities;\u2019 the small and medium-sized group includes 227 \u2018third-tier cities.\u2019 To provide insights into urban economic and development trends in China, the index takes nine factors into account: one-year (2013-2014) and fiveyear (2009-2014) job growth, one- and five-year wage growth, one- and five-year gross regional product (GRP) per capita growth, three-year (2011-2014) foreign FDI growth, share of FDI and GRP (2014), and the location quotient (LQ) for high value-added industry (2014).Guiyang jumps from eleventh place to number one among \u2018first- and second-tier cities\u2019 with its outstanding performance in growth of jobs, wages, GRP, and FDI, mainly driven by government support, particularly with its \u2018One Belt, One Road\u2019 (OBOR) initiative and an intensified effort to fill the development gaps among East \u2013 West regions. Shanghai and Shenzhen finish in the top four, reflecting the success of \u201cFree Finance and Trade Zones\u201d in China, backed by the growing high value-added research and development (R&amp;D) industry in the two cities. Shenzhen moves up to sixth place from fourth place, followed by Chengdu, Dalian, Nanchang, Chongqing, Xi\u2019an, and Haikou.In the category of \u2018third-tier cities,\u2019 Zhoushan vaults from 95 to No.1, thanks to a promising performance in one- (1st position) and five-year (5th position) job growth, attributed to its port location, the OBOR initiative, and the 12th five-year plan. The OBOR initiative notably boosts China\u2019s cities performance, as several inland cities \u2013 Xiangyang (4th position), Baoji (7th position), Meishan (8th position), and Liupanshui (10th position) \u2013 enter the top 10 list. Following last year\u2019s rankings, Taizhou (3rd position), Suzhou (5th position), Nantong (6th position), and Suqian (ranked 9th) in Jiangsu Province also dominate the top 10 list in 2016.\u201cOur data-driven analysis reveals that increased openness, economic restructuring, and urbanization, often in the form of major urban clustering, have all led to economic improvement and development in China,\u201d said Perry Wong, Managing Director, Research at the Milken Institute and co-author of the report. \u201cThe surging openness from China\u2019s 12th FYP and the OBOR initiative, give rise to China\u2019s foreign trading activities. All trading activities with Central Asia, Europe, and Africa unlock China\u2019s potential business opportunities. The cities in the less-developed inland regions also elevate their growth rates as large scale urbanization continues to drive China\u2019s economy. \u201dCities from China\u2019s Northeast, except Dalian, generally display a lackluster performance in the ranking, which shows China\u2019s difficulty in restructuring an older industrial base that relies on energy, steel production and less diversified heavy industries. Changchun, which dropped from the 8th spot to the 17th spot in a one-year period is an example of this phenomenon. \u201cThe Best Performing Cities China Index provides fresh insights into Chinese cities\u2019 economic dynamics and their performance. Although east coast cities still dominate the best performance rankings, with government support and further urbanization development prospects, Chinese inland cities possess great potential for growth as well.\u201d Mr. Wong concluded.To download the full report, including an interactive table of all 260 cities, please go to <b>best-citieschina.org<\/b>.<b>Appendix: The Rankings<\/b><table><tr><td><b>Rank <\/b><\/td>\n<td><b>First- and Second-Tier Cities<\/b><\/td>\n<td>\u00a0<\/td>\n<td><b>Rank <\/b><\/td>\n<td><b>Third-Tier\u00a0Cities\u00a0<\/b><\/td>\n<\/tr><tr><td>1<\/td>\n<td>Guiyang, Guizhou\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>1<\/td>\n<td>Zhoushan, Zhejiang <\/td>\n<\/tr><tr><td>2<\/td>\n<td>Shanghai\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>2<\/td>\n<td>Weifang, Shandong <\/td>\n<\/tr><tr><td>3<\/td>\n<td>Tianjin\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>3<\/td>\n<td>Taizhou, Jiangsu <\/td>\n<\/tr><tr><td>4<\/td>\n<td>Shenzhen, Guangdong\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>4<\/td>\n<td>Xiangyang, Hubei <\/td>\n<\/tr><tr><td>5<\/td>\n<td>Chengdu, Sichuan\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>5<\/td>\n<td>Suzhou, Jiangsu <\/td>\n<\/tr><tr><td>6<\/td>\n<td>Dalian, Liaoning\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>6<\/td>\n<td>Nantong, Jiangsu <\/td>\n<\/tr><tr><td>7<\/td>\n<td>Nanchang, Jiangxi\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>7<\/td>\n<td>Baoji, Shaanxi <\/td>\n<\/tr><tr><td>8<\/td>\n<td>Chongqing\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>8<\/td>\n<td>Meishan, Sichuan <\/td>\n<\/tr><tr><td>9<\/td>\n<td>Xi'an, Shaanxi\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>9<\/td>\n<td>Suqian, Jiangsu <\/td>\n<\/tr><tr><td>10<\/td>\n<td>Haikou, Hainan\u00a0<\/td>\n<td>\u00a0<\/td>\n<td>10<\/td>\n<td>Liupanshui, Guizhou <\/td>\n<\/tr><\/table><b>Appendix: Components of the Index<\/b>\n<table><tr><td><b>Indicator<\/b><\/td>\n<td><b>Weight\u00a0<\/b><\/td>\n<\/tr><tr><td>1-year job\u00a0growth (2013-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>5-year job\u00a0growth (2009-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>1-year wage\u00a0growth (2013-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>5-year wage\u00a0growth (2009-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>1-year GRP\u00a0per-capita growth (2013-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>5-year GRP\u00a0per-capita growth (2009-2014)<\/td>\n<td>0 .100\u00a0<\/td>\n<\/tr><tr><td>3-year FDI\u00a0growth (2011-2014)<\/td>\n<td>0 .125\u00a0<\/td>\n<\/tr><tr><td>FDI\/GRP (2014)<\/td>\n<td>0 .125\u00a0<\/td>\n<\/tr><tr><td>LQ for high\u00a0value-added industry employment (2014)<\/td>\n<td>0 .150\u00a0<\/td>\n<\/tr><\/table><b>Contact information<br \/><\/b><b>For media inquiries, please contact:<br \/><strong><br \/>Hamilton Advisors Limited<br \/><\/strong><\/b>Robert T. Grieves<b>Tel: +852 2488 8866<br \/>Dir: +852 2487 8070<br \/>Email:\u00a0rgrieves@hamiltonadvisorsltd.com<br \/><strong><br \/>Milken Institute<br \/><\/strong><\/b>Ann Marie Eu<br \/>Communications Associate, Asia\u00a0<br \/>Phone: +65 9879 8125<br \/>Email:\u00a0aeu@milkeninstitute.org<br \/><br \/>Anne Schroeder<br \/>Media Advisor<br \/>Phone: (310) 570-4623<br \/>Cell: (202) 731-1992\u00a0<br \/>Email:\u00a0aschroeder@milkeninstitute.org ",
+    "summary": null,
+    "summary_processed": ""
+}

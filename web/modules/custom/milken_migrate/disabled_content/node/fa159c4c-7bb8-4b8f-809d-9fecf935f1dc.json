@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/new-frontier-successful-aging-financial-gerontology-spotlight-white-house-conference-aging?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/159?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 787
+        }
+    ],
+    "uuid": [
+        {
+            "value": "fa159c4c-7bb8-4b8f-809d-9fecf935f1dc"
+        }
+    ],
+    "vid": [
+        {
+            "value": 787
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/159?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e3354f5a-d9cc-44a8-893d-520d34104d54"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "New Frontier for Successful Aging: Financial Gerontology in the Spotlight at White House Conference on Aging",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-06-13T21:23:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-15T21:40:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/new-frontier-successful-aging-financial-gerontology-spotlight-white-house-conference-aging",
+            "pid": 840,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "At last week's 2015 White House Conference on Aging, President Obama spoke to us about opportunity for all Americans, saying that individuals should have a shot to achieve their dreams \"at any age.\" An evolving force to achieve that goal is financial gerontology, focusing on the financial health of older adults. Coupled with increasing commitment by the financial services industry to better understand and address the changing economic circumstances that come with longer lives, the emergence of financial gerontology is good news for an aging population. Around the U.S. and the world, there's growing awareness about the abilities of older adults. Intergenerational workforces capitalize on talents across the age spectrum. Traditional retirement is being re-imagined as older adults turn away from age-segregation, decline, and mass leisure to continue their careers, launch start-ups, pursue new education, and contribute to their communities through purposeful work, volunteerism, and civic engagement. A longevity economy is developing as markets recognize the demand for products and services for the growing aging demographic. Gerontology is often thought of as a field where researchers and practitioners focus on health - on the biology, psychology, cognition, and sociology of aging. But a take-away from the White House Conference is that the field's relevance and reach are spreading in important new ways. Indeed, the reinvention of retirement may find its place at the intersection of gerontology and financial services. Catherine Collinson, president of Transamerica Institute, a nonprofit research foundation, says boomer-age workers \"have cast aside long-held societal notions about fully retiring at age 65. They are literally transforming retirement.\" Eighty-two percent expect to or are already working past age 65 -- or they do not plan to retire at all, according to Collinson's research. Whether individual objectives tend to entrepreneurship, encore careers, volunteerism, lifelong learning or travel, the financial services industry has the potential to be a powerful enabler of this evolving narrative of older age. In the words of U.S. Secretary of Labor Tom Perez at the White House Conference, retirement has become much more than \"a pen, a pension, and a party.\" It's now a time for transition to new challenges, pathways and accomplishments. With planning tools and innovative savings, investment and insurance products, and strategies to align wealth span with life span and health span, the industry's role in empowering individuals to realize their goals could not be more central. Financial services firms recognize that they must elevate the quality, relevancy and efficacy of the ideas and advice they're providing to differentiate their offerings in a competitive market. While more progress is needed, the industry is reacting to the challenge. From BlackRock, Aegon, and Prudential to Mass Mutual and Principal, financial services firms are exploring new ways to add value for their clients as a new life course is being defined. But the industry cannot go it alone. Involving gerontology, with its knowledge, understanding and expertise about aging, is a strategy that can make a world of difference for financial firms and their aging clients. The shared opportunity for financial services and gerontology took center stage at the White House Conference when Andy Seig, head of Global Wealth and Retirement Solutions at Bank of America Merrill Lynch described the company's new Longevity Training Program, a ground-breaking initiative in collaboration with the University of Southern California Leonard Davis School of Gerontology. This program will help Merrill Lynch financial advisors and retirement specialists understand and address the objectives of their aging clients. As Dean Pinchas Cohen of the USC Davis School said \"anticipating and understanding the unique needs and dreams of older adults is more important than ever...By incorporating gerontology knowledge into the financial advice they receive, we aim to help older individuals accomplish more of the goals they've set for themselves and their loved ones.\" From a pilot group of 50 participants, the training program is available to more than 14,000 advisors and specialists, and will be expanded to include all of companies for which Bank of America Merrill Lynch provides retirement and benefit plan services -- more than 35,000 companies and 5 million employees. A leading proponent of the Longevity Training Program has been Cynthia Hutchins, the Bank of America Merrill Lynch director of financial gerontology and an active alumna of the USC Davis School. Hutchins' experience in both gerontology and financial services serves as a bridge between two worlds.<br \/> <br \/> Hutchins' role at Bank of America is a wake-up call for leaders in both financial services and gerontology, and should inform new practices and innovations. By engaging with expert gerontologists, financial services organizations and their employees have an opportunity to understand the complex implications of increasing longevity and changing retirement norms, and to develop new products, services and communications strategies to enhance the client experience and increase client loyalty. By engaging with the financial services industry, gerontologists have an opportunity to inform members of their profession about the potential for financial solutions to improve lives, to incorporate financial education in the gerontology curriculum, and to develop alliances that can lead to program development, research funding, and new career opportunities. Fresh ideas and approaches can empower a brighter future of aging, and the emergence of financial gerontology is cause for hope. This link between two disciplines that are critically important to the aging population presents the potential for new solutions and healthy, productive and purposeful outcomes for today's older adults and for generations to come. This article first appeared in the\u00a0Huffington Post.",
+    "format": "rich_text",
+    "processed": "At last week's 2015 White House Conference on Aging, President Obama spoke to us about opportunity for all Americans, saying that individuals should have a shot to achieve their dreams \"at any age.\" An evolving force to achieve that goal is financial gerontology, focusing on the financial health of older adults. Coupled with increasing commitment by the financial services industry to better understand and address the changing economic circumstances that come with longer lives, the emergence of financial gerontology is good news for an aging population. Around the U.S. and the world, there's growing awareness about the abilities of older adults. Intergenerational workforces capitalize on talents across the age spectrum. Traditional retirement is being re-imagined as older adults turn away from age-segregation, decline, and mass leisure to continue their careers, launch start-ups, pursue new education, and contribute to their communities through purposeful work, volunteerism, and civic engagement. A longevity economy is developing as markets recognize the demand for products and services for the growing aging demographic. Gerontology is often thought of as a field where researchers and practitioners focus on health - on the biology, psychology, cognition, and sociology of aging. But a take-away from the White House Conference is that the field's relevance and reach are spreading in important new ways. Indeed, the reinvention of retirement may find its place at the intersection of gerontology and financial services. Catherine Collinson, president of Transamerica Institute, a nonprofit research foundation, says boomer-age workers \"have cast aside long-held societal notions about fully retiring at age 65. They are literally transforming retirement.\" Eighty-two percent expect to or are already working past age 65 -- or they do not plan to retire at all, according to Collinson's research. Whether individual objectives tend to entrepreneurship, encore careers, volunteerism, lifelong learning or travel, the financial services industry has the potential to be a powerful enabler of this evolving narrative of older age. In the words of U.S. Secretary of Labor Tom Perez at the White House Conference, retirement has become much more than \"a pen, a pension, and a party.\" It's now a time for transition to new challenges, pathways and accomplishments. With planning tools and innovative savings, investment and insurance products, and strategies to align wealth span with life span and health span, the industry's role in empowering individuals to realize their goals could not be more central. Financial services firms recognize that they must elevate the quality, relevancy and efficacy of the ideas and advice they're providing to differentiate their offerings in a competitive market. While more progress is needed, the industry is reacting to the challenge. From BlackRock, Aegon, and Prudential to Mass Mutual and Principal, financial services firms are exploring new ways to add value for their clients as a new life course is being defined. But the industry cannot go it alone. Involving gerontology, with its knowledge, understanding and expertise about aging, is a strategy that can make a world of difference for financial firms and their aging clients. The shared opportunity for financial services and gerontology took center stage at the White House Conference when Andy Seig, head of Global Wealth and Retirement Solutions at Bank of America Merrill Lynch described the company's new Longevity Training Program, a ground-breaking initiative in collaboration with the University of Southern California Leonard Davis School of Gerontology. This program will help Merrill Lynch financial advisors and retirement specialists understand and address the objectives of their aging clients. As Dean Pinchas Cohen of the USC Davis School said \"anticipating and understanding the unique needs and dreams of older adults is more important than ever...By incorporating gerontology knowledge into the financial advice they receive, we aim to help older individuals accomplish more of the goals they've set for themselves and their loved ones.\" From a pilot group of 50 participants, the training program is available to more than 14,000 advisors and specialists, and will be expanded to include all of companies for which Bank of America Merrill Lynch provides retirement and benefit plan services -- more than 35,000 companies and 5 million employees. A leading proponent of the Longevity Training Program has been Cynthia Hutchins, the Bank of America Merrill Lynch director of financial gerontology and an active alumna of the USC Davis School. Hutchins' experience in both gerontology and financial services serves as a bridge between two worlds.<br \/><br \/> Hutchins' role at Bank of America is a wake-up call for leaders in both financial services and gerontology, and should inform new practices and innovations. By engaging with expert gerontologists, financial services organizations and their employees have an opportunity to understand the complex implications of increasing longevity and changing retirement norms, and to develop new products, services and communications strategies to enhance the client experience and increase client loyalty. By engaging with the financial services industry, gerontologists have an opportunity to inform members of their profession about the potential for financial solutions to improve lives, to incorporate financial education in the gerontology curriculum, and to develop alliances that can lead to program development, research funding, and new career opportunities. Fresh ideas and approaches can empower a brighter future of aging, and the emergence of financial gerontology is cause for hope. This link between two disciplines that are critically important to the aging population presents the potential for new solutions and healthy, productive and purposeful outcomes for today's older adults and for generations to come. This article first appeared in the\u00a0Huffington Post.",
+    "summary": null,
+    "summary_processed": ""
+}

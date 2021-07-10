@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/10147\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/q58tEoRYAHBPorVJ2_FviZ4-_0DGHyoVaSGJLR1J1jc.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 10147
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c21bbda8-aa7a-4a81-825c-b17de395b5c1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1797
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/q58tEoRYAHBPorVJ2_FviZ4-_0DGHyoVaSGJLR1J1jc.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2c109261-b65e-4ce0-8d8d-3c2731483acc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Navigating the New Paradigm in International Investment and Trade",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-31T19:46:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-15T18:12:46+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "For many years, it was taken for granted that working together to reduce global trade and investment barriers would promote growth and create opportunities for competition. Recently, this approach has changed, with a move away from collaborative, multilateral efforts like the WTO toward bilateral agreements and more competitive strategies. This can be seen in multiple trade and investment disruptions, like US tariffs and renegotiation of NAFTA; the UK's Brexit; China's One Belt, One Road initiative; and greater scrutiny of trade and foreign direct investment globally. This paradigm shift was at first gradual, but it appears to be accelerating given the new waves of populism and anti-globalization sentiment. What does this mean for policy makers and business leaders navigating the new paradigm? Will this trend last? And how do we adapt?",
+    "format": "rich_text",
+    "processed": "For many years, it was taken for granted that working together to reduce global trade and investment barriers would promote growth and create opportunities for competition. Recently, this approach has changed, with a move away from collaborative, multilateral efforts like the WTO toward bilateral agreements and more competitive strategies. This can be seen in multiple trade and investment disruptions, like US tariffs and renegotiation of NAFTA; the UK's Brexit; China's One Belt, One Road initiative; and greater scrutiny of trade and foreign direct investment globally. This paradigm shift was at first gradual, but it appears to be accelerating given the new waves of populism and anti-globalization sentiment. What does this mean for policy makers and business leaders navigating the new paradigm? Will this trend last? And how do we adapt?",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/bDoPc_1jUsU",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/q58tEoRYAHBPorVJ2_FviZ4-_0DGHyoVaSGJLR1J1jc.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

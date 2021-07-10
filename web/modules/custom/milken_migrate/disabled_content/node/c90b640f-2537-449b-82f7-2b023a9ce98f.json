@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/shared-prosperity-will-require-basic-research-and-lot-it?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/66?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 531
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c90b640f-2537-449b-82f7-2b023a9ce98f"
+        }
+    ],
+    "vid": [
+        {
+            "value": 531
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/66?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "60718376-42dc-4b2d-9692-ee5fa9bb73b3"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Shared Prosperity Will Require Basic Research\u2014and a Lot of It",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-10T06:40:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-07T15:33:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/shared-prosperity-will-require-basic-research-and-lot-it",
+            "pid": 584,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "<i><b>The way researchers approach four key areas will have huge implications for the AI-powered world we live in tomorrow.<\/b><\/i> Technological advances have the power to alleviate suffering and improve living standards, but we still have much work to do before we can realize their benefits broadly, on a global scale. We cannot take innovation, or the benefits it brings, for granted. Basic research by governments, corporations, and universities has led to new technologies as diverse as GPS, the internet, vaccines, and, most recently, artificial intelligence. To build a more prosperous future\u2014and to make sure that prosperity is shared widely\u2014basic scientific research must remain among our highest priorities. I\u2019ve spent my life working with AI and related technologies, and the progress has been breathtaking. Today, we\u2019re rapidly moving toward a world where computers routinely make decisions for humans. This is a massive shift, and I believe it will make the world a better place. To realize the full promise of AI, however, we need significantly greater understanding\u2014of how it works and exactly where it falls short. Gaining this understanding will take an enormous amount of good, old-fashioned scientific research, just as it has for advances in medicine, agriculture, and transportation. In particular, I believe that to build that AI-powered future safely and sanely, we must focus on four key areas. <b>1. Complexity and Reliability<\/b><b> Years ago, algorithms were pretty simple, but today we rely on extraordinarily complicated computer systems. Managing the complexity of these systems has become a real engineering challenge. It\u2019s one thing if they are performing a simple and harmless task, but handling complexity reliably is critical when they perform more important tasks like driving your car or plane. We are making software that is far more elaborate than anything humans have ever built before, and we have to learn how to build it in a consistently safe and dependable way. Doing so will require fundamental advances that only basic research can bring about. <b>2. Security<\/b> Related to this challenge is security. As our dependence on decision-making algorithms grows, we need to make sure all our systems are well protected. Despite some important advances in this area, this problem will become even more acute as decision-making algorithms proliferate. Any society has bad actors, and we have to assume that such people will try even harder to exploit the security flaws of increasingly critical software. People didn\u2019t pay much attention to security when the internet was first invented, and today we continue to pay the price. So let\u2019s learn from our experience and devote the resources necessary to learn how to truly safeguard our systems. <b>3. Data Integrity and Bias<\/b> Substantial problems in data privacy, data ownership, and data bias remain unaddressed. Without solutions, the algorithms that increasingly drive our world are at high risk of becoming \u201cdata-compromised.\u201d Legitimate concerns about data use hinder the development of new and beneficial algorithms. This means we are missing the opportunity to tackle pressing problems because of the lack of accessible data. And part of the reason is that we haven\u2019t solved data privacy and ownership issues. Again, significant fundamental research into data integrity and bias is urgent. <b>4. Explainability<\/b> Finally, the notion of explainability remains a central problem in machine learning, a type of artificial intelligence that\u2019s finding widespread application across industries. Unfortunately, machine learning algorithms can\u2019t provide an explanation for their outputs\u2014at least not in the way people normally understand the word \u201cexplanation.\u201d This is obviously a problem not just for researchers, but also for society, which increasingly uses such algorithms in the course of everyday life. We must be able to understand the world we\u2019re interacting with to be comfortable living in it, and as AI becomes more ubiquitous, people eventually won\u2019t tolerate its inability to explain its decisions. The way researchers approach these four issues will have huge implications for the world we live in tomorrow. And similar challenges affect nearly every other area of revolutionary innovation, be it gene editing, robotics, or distributed ledger technology. If we want to build a future of shared prosperity, enabling fundamental research must be among our very highest global priorities. ",
+    "format": "rich_text",
+    "processed": "<i><b>The way researchers approach four key areas will have huge implications for the AI-powered world we live in tomorrow.<\/b><\/i> Technological advances have the power to alleviate suffering and improve living standards, but we still have much work to do before we can realize their benefits broadly, on a global scale. We cannot take innovation, or the benefits it brings, for granted. Basic research by governments, corporations, and universities has led to new technologies as diverse as GPS, the internet, vaccines, and, most recently, artificial intelligence. To build a more prosperous future\u2014and to make sure that prosperity is shared widely\u2014basic scientific research must remain among our highest priorities. I\u2019ve spent my life working with AI and related technologies, and the progress has been breathtaking. Today, we\u2019re rapidly moving toward a world where computers routinely make decisions for humans. This is a massive shift, and I believe it will make the world a better place. To realize the full promise of AI, however, we need significantly greater understanding\u2014of how it works and exactly where it falls short. Gaining this understanding will take an enormous amount of good, old-fashioned scientific research, just as it has for advances in medicine, agriculture, and transportation. In particular, I believe that to build that AI-powered future safely and sanely, we must focus on four key areas. <b>1. Complexity and Reliability<\/b><b> Years ago, algorithms were pretty simple, but today we rely on extraordinarily complicated computer systems. Managing the complexity of these systems has become a real engineering challenge. It\u2019s one thing if they are performing a simple and harmless task, but handling complexity reliably is critical when they perform more important tasks like driving your car or plane. We are making software that is far more elaborate than anything humans have ever built before, and we have to learn how to build it in a consistently safe and dependable way. Doing so will require fundamental advances that only basic research can bring about. <b>2. Security<\/b> Related to this challenge is security. As our dependence on decision-making algorithms grows, we need to make sure all our systems are well protected. Despite some important advances in this area, this problem will become even more acute as decision-making algorithms proliferate. Any society has bad actors, and we have to assume that such people will try even harder to exploit the security flaws of increasingly critical software. People didn\u2019t pay much attention to security when the internet was first invented, and today we continue to pay the price. So let\u2019s learn from our experience and devote the resources necessary to learn how to truly safeguard our systems. <b>3. Data Integrity and Bias<\/b> Substantial problems in data privacy, data ownership, and data bias remain unaddressed. Without solutions, the algorithms that increasingly drive our world are at high risk of becoming \u201cdata-compromised.\u201d Legitimate concerns about data use hinder the development of new and beneficial algorithms. This means we are missing the opportunity to tackle pressing problems because of the lack of accessible data. And part of the reason is that we haven\u2019t solved data privacy and ownership issues. Again, significant fundamental research into data integrity and bias is urgent. <b>4. Explainability<\/b> Finally, the notion of explainability remains a central problem in machine learning, a type of artificial intelligence that\u2019s finding widespread application across industries. Unfortunately, machine learning algorithms can\u2019t provide an explanation for their outputs\u2014at least not in the way people normally understand the word \u201cexplanation.\u201d This is obviously a problem not just for researchers, but also for society, which increasingly uses such algorithms in the course of everyday life. We must be able to understand the world we\u2019re interacting with to be comfortable living in it, and as AI becomes more ubiquitous, people eventually won\u2019t tolerate its inability to explain its decisions. The way researchers approach these four issues will have huge implications for the world we live in tomorrow. And similar challenges affect nearly every other area of revolutionary innovation, be it gene editing, robotics, or distributed ledger technology. If we want to build a future of shared prosperity, enabling fundamental research must be among our very highest global priorities. <\/b>",
+    "summary": null,
+    "summary_processed": ""
+}

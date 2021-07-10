@@ -1,0 +1,29 @@
+uuid: 7282a3a5-5a24-4e7f-9b8b-24ba04453a4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.location.office
+    - field.storage.node.field_location
+    - node.type.career
+id: node.career.field_location
+field_name: field_location
+entity_type: node
+bundle: career
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:location'
+  handler_settings:
+    target_bundles:
+      office: office
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,9 @@
+uuid: 30549029-2c30-4df8-b7ac-33330014070e
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.people
+type: person
+name: Person
+description: 'Use this to add any type of person.'

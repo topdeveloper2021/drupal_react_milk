@@ -1,0 +1,25 @@
+uuid: c53cb890-54ee-4164-aaf7-dfd0a6e1f6b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_num_text_columns
+    - paragraphs.paragraphs_type.body_content
+id: paragraph.body_content.field_num_text_columns
+field_name: field_num_text_columns
+entity_type: paragraph
+bundle: body_content
+label: 'Number of Text Columns'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  min: 1
+  max: 8
+  prefix: ''
+  suffix: ''
+field_type: integer

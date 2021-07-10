@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/solving-longevity-wealth-crisis?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/20?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 479
+        }
+    ],
+    "uuid": [
+        {
+            "value": "00f78ab6-f3a7-4266-91ef-59aaeadf01c4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 479
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b59331a6-42c0-4178-b25b-b2f7661d59f1"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Solving the Longevity Wealth Crisis",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T06:01:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/solving-longevity-wealth-crisis",
+            "pid": 532,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "The oldest age at which 50 percent of babies born in 2007 are predicted to still be alive in the United States is 104, according to the Human Mortality Database, the University of California, Berkeley, and Germany\u2019s Max Planck Institute for Demographic Research. On the surface, it is an astounding statistic. At the same time, it only incorporates what we now know. With the rapid development of CRISPR gene editing and other healthcare advances moving medical science from \u201chardware\u201d solutions to \u201csoftware,\u201d today\u2019s scientists could well be undershooting the mark when it comes to longevity projections. Unfortunately, the vast majority of the beneficiaries of those longer lifespans are woefully unprepared financially to enjoy these additional years of productive life.Financial advances have simply not kept pace with medical and social advances. The result is the creation of a dramatic longevity wealth crisis.The size of the longevity wealth gap is dramatic. Mercer estimates the retirement income gap to be approximately 1.5 times the annual GDP of the countries they studied. The gap is expected to grow by 5 percent each year and by 2050 will amount to $400 trillion for the eight largest economies in their report.In the United States, the decline of the defined benefit pension plan in favor of defined contribution plans has put more of the onus on the individual to accumulate funds for retirement.No longer can people rely on an employer to provide for their retirement; individuals now must navigate increasingly complex financial waters to ensure their long-term financial well-being. Additionally, there is no longer a \u201cpooling of interests\u201d\u2014except in annuity markets\u2014in which longer lifespans can be funded collectively alongside shorter lifespans to produce a predictable average cost.Now, individuals must prepare for the potential of living a much longer than average life\u2014in essence, individuals need to self-insure.What is really disheartening is that no comprehensive solutions are being advanced to solve this problem. In the recent presidential election, the topic wasn't broached in any of the debates. While topics included each candidate's individual health history, a Miss Universe contestant, and a defective microphone, the retirement income crisis was not addressed. Part of the reason for the omission is that a complex problem is difficult to answer with a bromide. Maybe \u201cthe wealthy should pay their fair share,\u201d and we should \u201csave Social Security,\u201d but simple soundbites will not remedy the issue.How do we close this enormous longevity wealth gap?Contrary to popular literature on the topic, we do possess a magic bullet of sorts. It is a bullet that only works over time (which is fortunate, because it looks as if we\u2019ll all have more of that), and it is one of the most powerful forces in the world. The solution is compound interest.First, individuals need to be taught to invest for retirement and not to save for retirement. The surest way to build true long-term wealth for retirement is to invest in the equity market. Mistakes begin early in life and the biggest financial mistake people make today is taking too little risk. In fact, a recent UBS study showed that millennials and the World War II generation have similar asset allocations\u2014low allocations to equities and inordinately high allocations to cash. Both generations were shaped by cataclysmic financial events in their formative years\u2014the WWII Generation with the Great Depression and Millennials with the Financial Crisis. As Mick Jagger sang, \u201ctime is on my side,\u201d and time is definitely on the side of younger investors. They need to begin compounding early, and let that compounding work its patient magic over decades.Second, individuals must understand that financial products do exist that ameliorate longevity risk and can serve as a supplement to that investing strategy. While some popular market pundits, particularly Ken Fisher, pan annuities, they are appropriate solutions for many individuals. A longevity annuity is a stream of payments that starts when an individual reaches a certain age, say 85. If you have a longevity annuity, you have a secure source of income late in your life at a reasonable cost. As with any insurance policy, purchasing a longevity annuity earlier in life is much less expensive than one purchased later in life.While the social safety net of Social Security represents an important financial backstop for individuals, it was designed to support much shorter lifespans and to be a \u201cpay as you go\u201d system. It does not take advantage of compounding, and as such is underfunded and wholly inadequate for ensuring adequate income in one\u2019s golden years. There is a major role that government can play, however, when the program is designed correctly to support today\u2019s lifespans. One need only look to Australia for a template on a potential structure. Superannuation is a retirement income system that mandates employers contribute a percentage of an employee\u2019s salary to individual retirement funds. Employees are encouraged, through tax incentives, to make additional voluntary contributions to these funds.The strength of the Australian system is that the contribution levels are significant. Current contribution levels are 9.5 percent and are scheduled to gradually increase to 12 percent in 2025. As of first quarter 2017 superannuation assets stood at $2.3 trillion. Patience in investing works. That is a message that our U.S. population needs to take to heart. We are drawn to immediate gratification like moths to a flame, with pretty much the same end result when it comes to wealth accumulation.One of the other big problems with respect to retirement savings is that people are paralyzed by choice. Researchers at the Columbia Business School found that as companies increased the number of options in a 401k plan, participation actually fell. Any compulsory retirement system should have limited choices and should have low-cost, broad market indexing options. Enacting such a program in the United States would entail a tremendous amount of political courage, but compounding is not the exclusive purview of the wealthy. Compounding works for all, at every income level, provided there is an appropriate program structure, robust education, and patience for results. Here the United States can take a page from Australia\u2019s playbook and gradually phase in mandatory contributions with a streamlined, simple approach for consumers at all income levels. When Australia\u2019s program began in 1992, the minimum contribution percentage was three percent. We can learn a great deal from a country founded by some of England\u2019s outcasts at approximately the same time the United States was established. The retirement puzzle is one problem they have solved that we haven\u2019t\u2026yet.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "The oldest age at which 50 percent of babies born in 2007 are predicted to still be alive in the United States is 104, according to the Human Mortality Database, the University of California, Berkeley, and Germany\u2019s Max Planck Institute for Demographic Research. On the surface, it is an astounding statistic. At the same time, it only incorporates what we now know. With the rapid development of CRISPR gene editing and other healthcare advances moving medical science from \u201chardware\u201d solutions to \u201csoftware,\u201d today\u2019s scientists could well be undershooting the mark when it comes to longevity projections. Unfortunately, the vast majority of the beneficiaries of those longer lifespans are woefully unprepared financially to enjoy these additional years of productive life.Financial advances have simply not kept pace with medical and social advances. The result is the creation of a dramatic longevity wealth crisis.The size of the longevity wealth gap is dramatic. Mercer estimates the retirement income gap to be approximately 1.5 times the annual GDP of the countries they studied. The gap is expected to grow by 5 percent each year and by 2050 will amount to $400 trillion for the eight largest economies in their report.In the United States, the decline of the defined benefit pension plan in favor of defined contribution plans has put more of the onus on the individual to accumulate funds for retirement.No longer can people rely on an employer to provide for their retirement; individuals now must navigate increasingly complex financial waters to ensure their long-term financial well-being. Additionally, there is no longer a \u201cpooling of interests\u201d\u2014except in annuity markets\u2014in which longer lifespans can be funded collectively alongside shorter lifespans to produce a predictable average cost.Now, individuals must prepare for the potential of living a much longer than average life\u2014in essence, individuals need to self-insure.What is really disheartening is that no comprehensive solutions are being advanced to solve this problem. In the recent presidential election, the topic wasn't broached in any of the debates. While topics included each candidate's individual health history, a Miss Universe contestant, and a defective microphone, the retirement income crisis was not addressed. Part of the reason for the omission is that a complex problem is difficult to answer with a bromide. Maybe \u201cthe wealthy should pay their fair share,\u201d and we should \u201csave Social Security,\u201d but simple soundbites will not remedy the issue.How do we close this enormous longevity wealth gap?Contrary to popular literature on the topic, we do possess a magic bullet of sorts. It is a bullet that only works over time (which is fortunate, because it looks as if we\u2019ll all have more of that), and it is one of the most powerful forces in the world. The solution is compound interest.First, individuals need to be taught to invest for retirement and not to save for retirement. The surest way to build true long-term wealth for retirement is to invest in the equity market. Mistakes begin early in life and the biggest financial mistake people make today is taking too little risk. In fact, a recent UBS study showed that millennials and the World War II generation have similar asset allocations\u2014low allocations to equities and inordinately high allocations to cash. Both generations were shaped by cataclysmic financial events in their formative years\u2014the WWII Generation with the Great Depression and Millennials with the Financial Crisis. As Mick Jagger sang, \u201ctime is on my side,\u201d and time is definitely on the side of younger investors. They need to begin compounding early, and let that compounding work its patient magic over decades.Second, individuals must understand that financial products do exist that ameliorate longevity risk and can serve as a supplement to that investing strategy. While some popular market pundits, particularly Ken Fisher, pan annuities, they are appropriate solutions for many individuals. A longevity annuity is a stream of payments that starts when an individual reaches a certain age, say 85. If you have a longevity annuity, you have a secure source of income late in your life at a reasonable cost. As with any insurance policy, purchasing a longevity annuity earlier in life is much less expensive than one purchased later in life.While the social safety net of Social Security represents an important financial backstop for individuals, it was designed to support much shorter lifespans and to be a \u201cpay as you go\u201d system. It does not take advantage of compounding, and as such is underfunded and wholly inadequate for ensuring adequate income in one\u2019s golden years. There is a major role that government can play, however, when the program is designed correctly to support today\u2019s lifespans. One need only look to Australia for a template on a potential structure. Superannuation is a retirement income system that mandates employers contribute a percentage of an employee\u2019s salary to individual retirement funds. Employees are encouraged, through tax incentives, to make additional voluntary contributions to these funds.The strength of the Australian system is that the contribution levels are significant. Current contribution levels are 9.5 percent and are scheduled to gradually increase to 12 percent in 2025. As of first quarter 2017 superannuation assets stood at $2.3 trillion. Patience in investing works. That is a message that our U.S. population needs to take to heart. We are drawn to immediate gratification like moths to a flame, with pretty much the same end result when it comes to wealth accumulation.One of the other big problems with respect to retirement savings is that people are paralyzed by choice. Researchers at the Columbia Business School found that as companies increased the number of options in a 401k plan, participation actually fell. Any compulsory retirement system should have limited choices and should have low-cost, broad market indexing options. Enacting such a program in the United States would entail a tremendous amount of political courage, but compounding is not the exclusive purview of the wealthy. Compounding works for all, at every income level, provided there is an appropriate program structure, robust education, and patience for results. Here the United States can take a page from Australia\u2019s playbook and gradually phase in mandatory contributions with a streamlined, simple approach for consumers at all income levels. When Australia\u2019s program began in 1992, the minimum contribution percentage was three percent. We can learn a great deal from a country founded by some of England\u2019s outcasts at approximately the same time the United States was established. The retirement puzzle is one problem they have solved that we haven\u2019t\u2026yet.<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

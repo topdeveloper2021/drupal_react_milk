@@ -1,0 +1,26 @@
+uuid: a9b9b098-b486-479e-b007-8095437aa491
+langcode: en
+status: false
+dependencies: {  }
+id: config_test
+label: config_test
+description: ''
+folder: ../config/splits/test
+module:
+  devel: 0
+  devel_generate: 0
+  search_api: 50
+  search_api_solr: 51
+  search_api_attachments: 52
+theme: {  }
+blacklist:
+  - devel.settings
+  - search_api.index.milken_solr
+  - search_api.server.solr_dev
+  - system.performance
+  - views.view.search
+  - devel.toolbar
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

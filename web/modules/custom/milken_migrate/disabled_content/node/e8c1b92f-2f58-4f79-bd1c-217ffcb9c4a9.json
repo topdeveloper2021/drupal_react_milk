@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/hollywood-finally-changing-its-script-aging?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/167?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 795
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e8c1b92f-2f58-4f79-bd1c-217ffcb9c4a9"
+        }
+    ],
+    "vid": [
+        {
+            "value": 795
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/167?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d3edc49a-0694-4428-b882-d4e7115cc834"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Hollywood is Finally Changing Its Script on Aging ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-22T16:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-22T16:07:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/hollywood-finally-changing-its-script-aging",
+            "pid": 848,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "When we think of industries projecting a positive image of older adults, it\u2019s hard to imagine that entertainment would top the list. Isn\u2019t this a business that defines youth culture and reinforces ageist stereotypes? Music gave us The Rolling Stones\u2019 \u201cMother\u2019s Little Helper\u201d and its refrain,\u00a0\u201cwhat a drag it is getting old, \u201cand The Who\u2019s \u201cMy Generation,\u201d with the lyrics, \u201cI hope I die before I get old.\u201d Movies portrayed Gloria Swanson\u2019s tragically aging Norma Desmond in \u201cSunset Boulevard\u201d and showcased Jack Lemmon and Walter Matthau in \u201cGrumpy Old Men,\u201d and again in the sequel, \u201cGrumpier Old Men.\u201d Can entertainment be the industry that\u2019s changing aging culture for the better? Just maybe. The 57th annual Grammy Awards show is a case in point. Who would have expected music\u2019s fresh outlook on older artists and intergenerational collaboration? The Grammy\u2019s featured powerhouse teams like Eurythmics\u2019 veteran Annie Lennox and Hozier, a millennial sensation. Tony Bennett was paired with Lady Gaga and Jessie J performed with Tom Jones. Paul McCartney formed a trio with Rihanna and Kanye West. The message about the artistic potential of intergenerational teams could not have been clearer. The movie business is doing its part, too. \u201cThe Second Best Exotic Marigold Hotel,\u201d reaching theaters this month, continues the narrative introduced in the first \u201cBest Exotic\u201d film about the possibilities for older adults and the value of intergenerational collaboration. The widely praised documentary, \u201cKeep On Keepin\u2019 On,\u201d is the story of the late, great jazz trumpeter Clark Terry\u2019s mentorship of blind piano prodigy Justin Kauflin as Terry\u2019s young prot\u00e9g\u00e9 prepares for an international competition. Many other films have portrayed older mentors with dignity, including \u201cTo Sir, With Love,\u201d \u201cThe Blind Side,\u201d \u201cGood Will Hunting,\u201d \u201cMr. Holland\u2019s Opus,\u201d \u201cThe Karate Kid,\u201d \u201cLean on Me,\u201d \u201cStand and Deliver,\u201d \u201cDead Poets Society,\u201d and \u201cStar Wars,\u201d to name just a few. Hopefully, more such films are on the way. As the U.S. and countries across the world confront a massive demographic shift resulting from lower birthrates and increasing longevity, there\u2019s an opportunity for new thinking about purposefully engaging older adults. Research demonstrates the value of intergenerational relationships for older and younger people \u2013 and for effectiveness. The creativity and innovation can inspire. The energy, learning and mentorship flow both ways. If older adults can be recognized for their value and intergenerational models can work so well in entertainment, they can certainly work in technology, manufacturing, health care, financial services, education and other domains. Not all older adults have the vitality of the 70-something Stones (it turns out it wasn\u2019t such a drag for them to get old). But an emerging message from the entertainment industry is worth consideration. Presented with opportunity, older adults can continue to contribute successfully, and both young and old can benefit from enhanced understanding about the power of intergenerational engagement. Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and a scholar in residence at the University of Southern California Davis School of Gerontology. <i><em>This article first appeared in\u00a0The Wall Street Journal.<\/i><\/em>",
+    "format": "rich_text",
+    "processed": "When we think of industries projecting a positive image of older adults, it\u2019s hard to imagine that entertainment would top the list. Isn\u2019t this a business that defines youth culture and reinforces ageist stereotypes? Music gave us The Rolling Stones\u2019 \u201cMother\u2019s Little Helper\u201d and its refrain,\u00a0\u201cwhat a drag it is getting old, \u201cand The Who\u2019s \u201cMy Generation,\u201d with the lyrics, \u201cI hope I die before I get old.\u201d Movies portrayed Gloria Swanson\u2019s tragically aging Norma Desmond in \u201cSunset Boulevard\u201d and showcased Jack Lemmon and Walter Matthau in \u201cGrumpy Old Men,\u201d and again in the sequel, \u201cGrumpier Old Men.\u201d Can entertainment be the industry that\u2019s changing aging culture for the better? Just maybe. The 57th annual Grammy Awards show is a case in point. Who would have expected music\u2019s fresh outlook on older artists and intergenerational collaboration? The Grammy\u2019s featured powerhouse teams like Eurythmics\u2019 veteran Annie Lennox and Hozier, a millennial sensation. Tony Bennett was paired with Lady Gaga and Jessie J performed with Tom Jones. Paul McCartney formed a trio with Rihanna and Kanye West. The message about the artistic potential of intergenerational teams could not have been clearer. The movie business is doing its part, too. \u201cThe Second Best Exotic Marigold Hotel,\u201d reaching theaters this month, continues the narrative introduced in the first \u201cBest Exotic\u201d film about the possibilities for older adults and the value of intergenerational collaboration. The widely praised documentary, \u201cKeep On Keepin\u2019 On,\u201d is the story of the late, great jazz trumpeter Clark Terry\u2019s mentorship of blind piano prodigy Justin Kauflin as Terry\u2019s young prot\u00e9g\u00e9 prepares for an international competition. Many other films have portrayed older mentors with dignity, including \u201cTo Sir, With Love,\u201d \u201cThe Blind Side,\u201d \u201cGood Will Hunting,\u201d \u201cMr. Holland\u2019s Opus,\u201d \u201cThe Karate Kid,\u201d \u201cLean on Me,\u201d \u201cStand and Deliver,\u201d \u201cDead Poets Society,\u201d and \u201cStar Wars,\u201d to name just a few. Hopefully, more such films are on the way. As the U.S. and countries across the world confront a massive demographic shift resulting from lower birthrates and increasing longevity, there\u2019s an opportunity for new thinking about purposefully engaging older adults. Research demonstrates the value of intergenerational relationships for older and younger people \u2013 and for effectiveness. The creativity and innovation can inspire. The energy, learning and mentorship flow both ways. If older adults can be recognized for their value and intergenerational models can work so well in entertainment, they can certainly work in technology, manufacturing, health care, financial services, education and other domains. Not all older adults have the vitality of the 70-something Stones (it turns out it wasn\u2019t such a drag for them to get old). But an emerging message from the entertainment industry is worth consideration. Presented with opportunity, older adults can continue to contribute successfully, and both young and old can benefit from enhanced understanding about the power of intergenerational engagement. Paul Irving is chairman of the Center for the Future of Aging at the Milken Institute and a scholar in residence at the University of Southern California Davis School of Gerontology. <i><em>This article first appeared in\u00a0The Wall Street Journal.<\/em><\/i>",
+    "summary": null,
+    "summary_processed": ""
+}

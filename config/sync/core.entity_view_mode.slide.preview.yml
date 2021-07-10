@@ -1,0 +1,10 @@
+uuid: 0af4fb4a-ab52-4102-af32-a7f1ce139055
+langcode: en
+status: true
+dependencies:
+  module:
+    - eck
+id: slide.preview
+label: Preview
+targetEntityType: slide
+cache: true

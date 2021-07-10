@@ -1,0 +1,11 @@
+services:
+  milken_base.twig_jsonapi:
+    class: Drupal\milken_base\JSONApiTwigExtension
+    tags:
+      - { name: twig.extension }
+    arguments:
+      - '@http_kernel.basic'
+      - '@jsonapi.resource_type.repository'
+      - '@session'
+      - '@request_stack'
+      - '@entity_type.manager'

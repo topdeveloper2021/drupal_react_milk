@@ -1,0 +1,282 @@
+diff --git a/core/modules/layout_builder/layout_builder.services.yml b/core/modules/layout_builder/layout_builder.services.yml
+index 6e94ed74d2..331eaeefe1 100644
+--- a/core/modules/layout_builder/layout_builder.services.yml
++++ b/core/modules/layout_builder/layout_builder.services.yml
+@@ -51,3 +51,14 @@ services:
+   inline_block.usage:
+     class: Drupal\layout_builder\InlineBlockUsage
+     arguments: ['@database']
++  layout_builder.normalizer.section_data:
++    class: Drupal\layout_builder\Normalizer\SectionDataNormalizer
++    tags:
++        # Priority must be higher than serializer.normalizer.typed_data.
++      - { name: normalizer, priority: 1 }
++  layout_builder.normalizer.layout_section_item:
++    class: Drupal\layout_builder\Normalizer\LayoutSectionItemNormalizer
++    public: false
++    tags:
++        # Priority must be higher than serializer.normalizer.entity_reference_field_item.
++      - { name: normalizer, priority: 9 }
+diff --git a/core/modules/layout_builder/src/Field/LayoutSectionItemList.php b/core/modules/layout_builder/src/Field/LayoutSectionItemList.php
+index 3243be97a6..3721cedf71 100644
+--- a/core/modules/layout_builder/src/Field/LayoutSectionItemList.php
++++ b/core/modules/layout_builder/src/Field/LayoutSectionItemList.php
+@@ -102,6 +102,11 @@ public function equals(FieldItemListInterface $list_to_compare) {
+    */
+   public function defaultAccess($operation = 'view', AccountInterface $account = NULL) {
+     // @todo Allow access in https://www.drupal.org/node/2942975.
++
++    if ($operation === 'view') {
++      return parent::defaultAccess($operation, $account);
++    }
++
+     return AccessResult::forbidden();
+   }
+ 
+diff --git a/core/modules/layout_builder/src/LayoutBuilderServiceProvider.php b/core/modules/layout_builder/src/LayoutBuilderServiceProvider.php
+index 71005ee48c..837d5b4516 100644
+--- a/core/modules/layout_builder/src/LayoutBuilderServiceProvider.php
++++ b/core/modules/layout_builder/src/LayoutBuilderServiceProvider.php
+@@ -39,14 +39,6 @@ public function register(ContainerBuilder $container) {
+       $definition->addTag('event_subscriber');
+       $container->setDefinition('layout_builder.get_block_dependency_subscriber', $definition);
+     }
+-    if (isset($modules['serialization'])) {
+-      $definition = (new ChildDefinition('serializer.normalizer.config_entity'))
+-        ->setClass(LayoutEntityDisplayNormalizer::class)
+-        // Ensure that this normalizer takes precedence for Layout Builder data
+-        // over the generic serializer.normalizer.config_entity.
+-        ->addTag('normalizer', ['priority' => 5]);
+-      $container->setDefinition('layout_builder.normalizer.layout_entity_display', $definition);
+-    }
+   }
+ 
+ }
+diff --git a/core/modules/layout_builder/src/Normalizer/LayoutSectionItemNormalizer.php b/core/modules/layout_builder/src/Normalizer/LayoutSectionItemNormalizer.php
+new file mode 100644
+index 0000000000..bf91eb56e3
+--- /dev/null
++++ b/core/modules/layout_builder/src/Normalizer/LayoutSectionItemNormalizer.php
+@@ -0,0 +1,33 @@
++<?php
++
++
++namespace Drupal\layout_builder\Normalizer;
++
++use Drupal\layout_builder\Plugin\DataType\SectionData;
++use Drupal\layout_builder\Plugin\Field\FieldType\LayoutSectionItem;
++use Drupal\serialization\Normalizer\FieldItemNormalizer;
++
++/**
++ * Normalizes section lists.
++ *
++ * @todo Remove in https://www.drupal.org/node/issues/2957385
++ *
++ * @internal
++ */
++class LayoutSectionItemNormalizer extends FieldItemNormalizer {
++
++  /**
++   * {@inheritdoc}
++   */
++  protected $supportedInterfaceOrClass = LayoutSectionItem::class;
++
++  /**
++   * {@inheritdoc}
++   */
++  public function denormalize($data, $class, $format = NULL, array $context = []) {
++    /** @var \Drupal\layout_builder\Plugin\DataType\SectionData $section_data */
++    $section_data = $this->serializer->denormalize($data['section'], SectionData::class, $format, $context);;
++    return parent::denormalize($section_data->getValue(), $class, $format, $context);
++  }
++
++}
+diff --git a/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php b/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php
+new file mode 100644
+index 0000000000..d90c9088f5
+--- /dev/null
++++ b/core/modules/layout_builder/src/Normalizer/SectionDataNormalizer.php
+@@ -0,0 +1,46 @@
++<?php
++
++
++namespace Drupal\layout_builder\Normalizer;
++
++use Drupal\layout_builder\Plugin\DataType\SectionData;
++use Drupal\layout_builder\Section;
++use Drupal\serialization\Normalizer\TypedDataNormalizer;
++use Symfony\Component\Serializer\Exception\InvalidArgumentException;
++use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
++
++/**
++ * Normalizes section data.
++ */
++class SectionDataNormalizer extends TypedDataNormalizer implements DenormalizerInterface {
++
++  /**
++   * {@inheritdoc}
++   */
++  protected $supportedInterfaceOrClass = SectionData::class;
++
++  /**
++   * {@inheritdoc}
++   */
++  public function normalize($object, $format = NULL, array $context = []) {
++    return $object->getValue()->toArray();
++  }
++
++  /**
++   * {@inheritdoc}
++   */
++  public function denormalize($data, $class, $format = NULL, array $context = []) {
++    if (!isset($context['target_instance'])) {
++      throw new InvalidArgumentException('$context[\'target_instance\'] must be set to denormalize with the SectionDataNormalizer');
++    }
++
++    /** @var \Drupal\Core\Field\FieldItemInterface $field_item */
++    $target_instance = $context['target_instance'];
++
++    $object = SectionData::createInstance($target_instance->getDataDefinition());
++    $section = Section::fromArray($data);
++    $object->setValue($section);
++    return $object;
++  }
++
++}
+diff --git a/core/modules/layout_builder/src/Plugin/Block/InlineBlock.php b/core/modules/layout_builder/src/Plugin/Block/InlineBlock.php
+index 01f64eb37f..c4f37de8d6 100644
+--- a/core/modules/layout_builder/src/Plugin/Block/InlineBlock.php
++++ b/core/modules/layout_builder/src/Plugin/Block/InlineBlock.php
+@@ -294,6 +294,8 @@ public function saveBlockContent($new_revision = FALSE, $duplicate_block = FALSE
+       $block->save();
+       $this->configuration['block_revision_id'] = $block->getRevisionId();
+       $this->configuration['block_serialized'] = NULL;
++      $this->configuration['type'] = $block->bundle();
++      $this->configuration['uuid'] = $block->uuid();
+     }
+   }
+ 
+diff --git a/core/modules/layout_builder/src/Plugin/DataType/SectionData.php b/core/modules/layout_builder/src/Plugin/DataType/SectionData.php
+index 8783904d49..a3f99bf967 100644
+--- a/core/modules/layout_builder/src/Plugin/DataType/SectionData.php
++++ b/core/modules/layout_builder/src/Plugin/DataType/SectionData.php
+@@ -29,11 +29,23 @@ class SectionData extends TypedData {
+   /**
+    * {@inheritdoc}
+    */
+-  public function setValue($value, $notify = TRUE) {
++  public function setValue($value, $notify = TRUE)
++  {
++    if ($value && is_array($value)) {
++      $value = Section::fromArray($value);
++    }
++
+     if ($value && !$value instanceof Section) {
+-      throw new \InvalidArgumentException(sprintf('Value assigned to "%s" is not a valid section', $this->getName()));
++      if (isset($value->value) && !$value->value instanceof Section) {
++        throw new \InvalidArgumentException(sprintf('Value assigned to "%s" is not a valid section', $this->getName()));
++      }
++      else {
++        parent::setValue($value->value, $notify);
++      }
++    }
++    else {
++      parent::setValue($value, $notify);
+     }
+-    parent::setValue($value, $notify);
+   }
+ 
+ }
+diff --git a/core/modules/layout_builder/tests/src/Unit/SectionDataNormalizerTest.php b/core/modules/layout_builder/tests/src/Unit/SectionDataNormalizerTest.php
+new file mode 100644
+index 0000000000..58a3644b56
+--- /dev/null
++++ b/core/modules/layout_builder/tests/src/Unit/SectionDataNormalizerTest.php
+@@ -0,0 +1,87 @@
++<?php
++
++
++namespace Drupal\Tests\layout_builder\Unit;
++
++use Drupal\Core\Field\FieldItemInterface;
++use Drupal\Core\TypedData\DataDefinitionInterface;
++use Drupal\layout_builder\Normalizer\SectionDataNormalizer;
++use Drupal\layout_builder\Plugin\DataType\SectionData;
++use Drupal\layout_builder\Section;
++use Drupal\Tests\UnitTestCase;
++use Symfony\Component\Serializer\Exception\InvalidArgumentException;
++
++/**
++ * @coversDefaultClass \Drupal\layout_builder\Normalizer\SectionDataNormalizer
++ * @group layout_builder
++ */
++class SectionDataNormalizerTest extends UnitTestCase {
++
++  /**
++   * The normalizer.
++   *
++   * @var \Drupal\layout_builder\Normalizer\SectionDataNormalizer
++   */
++  protected $normalizer;
++
++  /**
++   * @covers ::supportsNormalization
++   */
++  public function testSupportsNormalization() {
++    $section_data = $this->prophesize(SectionData::class);
++    $this->assertTrue($this->normalizer->supportsNormalization($section_data->reveal()));
++  }
++
++  /**
++   * @covers ::supportsDenormalization
++   */
++  public function testSupportsDenormalization() {
++    $this->assertTrue($this->normalizer->supportsDenormalization([], SectionData::class));
++  }
++
++  /**
++   * Tests the normalize function.
++   *
++   * @covers ::normalize
++   */
++  public function testNormalize() {
++    $data = ['foo'];
++    $section_data = $this->prophesize(SectionData::class);
++    $section = $this->prophesize(Section::class);
++    $section->toArray()
++      ->willReturn($data);
++    $section_data->getValue()
++      ->willReturn($section);
++    $this->assertArrayEquals($data, $this->normalizer->normalize($section_data->reveal()));
++  }
++
++  /**
++   * Tests the denormalize function.
++   *
++   * @covers ::denormalize
++   */
++  public function testDenormalize() {
++    $data = ['foo'];
++    $target_instance = $this->prophesize(FieldItemInterface::class);
++    $target_instance->getDataDefinition()
++      ->willReturn($this->prophesize(DataDefinitionInterface::class));
++    $context = [
++      'target_instance' => [
++        $target_instance,
++      ],
++    ];
++    $this->setExpectedException(InvalidArgumentException::class);
++    $this->normalizer->denormalize($data, SectionData::class);
++    $section_data = $this->normalizer->denormalize($data, SectionData::class, $context);
++    $this->assertArrayEquals($data, $section_data->getValue()->toArray());
++  }
++
++  /**
++   * {@inheritdoc}
++   */
++  protected function setUp() {
++    parent::setUp();
++    $this->normalizer = new SectionDataNormalizer();
++  }
++
++}

@@ -1,0 +1,180 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/article\/multigenerational-workforces-are-productive-and-profitable-0?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "href": "http:\/\/localhost:8080\/slide\/18?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 477
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7f007929-b054-4d64-a2bb-29bde6181a5b"
+        }
+    ],
+    "vid": [
+        {
+            "value": 477
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-02-13T07:45:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_promo_slide": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/slide\/18?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/slide\/full_width_one_column"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e55a1d8f-34c6-4b83-8d76-a0b69ea7c052"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Multigenerational Workforces Are Productive and Profitable",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-11-13T11:29:26+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-04-09T21:05:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/article\/multigenerational-workforces-are-productive-and-profitable-0",
+            "pid": 530,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "Work dominates much of our adult lives. For many recent generations, work, family, and community comprised the entirety of our adult lives, with education occupying childhood for the lucky ones. Over time, a legal and regulatory framework was negotiated around these structures\u2014compromises to ensure employers had the labor force they needed to optimize productivity and profitability. Workers had basic rights and protections to ensure they would be paid, had some time away from work, had some protection from unsafe work places, and, eventually, even had some income support after retirement.These legal frameworks were built upon unexamined assumptions about the nature of work and the length and characteristics of our lives. As work moved from stable manufacturing to \u201cright on time\u201d service and retail, jobs moved from full-time to contractual and contingent. The paid, formal workforce changed from predominantly male to include more women. Globalization and shifting opportunities shrank the number of generations living together, and changes in technology placed millions of workers always on call. It's obvious that the existing regulatory frameworks do not address today\u2019s issues. Now we come to the seismic shifts needed to address the dramatic increase in longevity and evolving changes in the life course.Most of the existing legal framework in the U.S. developed when life expectancy (and health expectancy) was 20-30 years shorter.The unprecedented change in the length and nature of a lifetime requires every institution in society to evolve and adapt, centrally including work. But first, consider education: what are the chances that one dose of education, concluding when a person is 22, will suffice for the next 60 years? Yet, employers, universities, and continuing education providers have been slow to recognize this need for change. Why are parks still designed primarily for children when adults also need outdoor play? Why do we continue to build transportation systems to move people from bedroom (a.k.a. child-raising) communities to \u201cwork hubs\u201d when people now have 30-40 years after child rearing ends\u2014and new transportation patterns might serve people better? I will stop before approaching the opportunities and challenges in the technology and health sectors, and turn to the subject of work.So, work (and retirement) are far from alone as institutions requiring a structural overhaul to respond effectively to the change in life course and longevity. Interestingly, many employers have not shown positive responses to workers who want to keep their jobs longer or to negotiate modified work arrangements (perhaps becoming more involved in training or mentorship of newer employees; restructuring jobs to better take advantage of skills and experience without risking injury; expanding access to flexible work arrangements like adjusted work schedules or telecommuting; moving into a gradual or phased retirement plan without diminution of pension). Employers argue that older workers are expensive, slow, hesitant to adapt to change, frequently absent, and resistant to new technology.Since each of these arguments is either untrue on its face or amenable to workplace policy solutions, the employers currently enjoying the benefits of a mixed-age workforce\u2014including older workers\u2014are not effectively making the case to their peers. Similarly, those of us in the research, policy, and communications fields are not telling this story effectively. And lastly, economists and the government entities they inform are not modeling the effects of working longer\u2014including relatively minor policy fixes to make positive results even more pronounced\u2014are either not doing this research or not publicizing it in an understandable form to employers and their representatives.In fact, a multi-generational workforce boasts numerous benefits, and such workforces are achievable. In the U.S., there are currently skill shortages in specific industries and regions. Among the most impacted are crafts fields and manufacturing. Employers who develop active mentoring programs, pair older and younger workers on jobs and creatively restructure jobs can ameliorate these shortages while preparing a new generation of skilled workers. The now-famous BMW production line that was redesigned to bring the productivity of its older workers back to the norm is joined by many other manufacturers who have made similar modifications: a bakery that restructures bakers\u2019 jobs so that their experienced hands knead and shape the loaves, while stronger rotator cuffs put the trays in the oven; a dry cleaning plant where the workers select their own chairs and lights to customize their workstations for efficiency and comfort; a tie factory where workers are cross-trained so that their colleagues may use their flex time spontaneously to handle family matters without disruption of the production line.In New York City, we reward such employers (and many more) with Age Smart Employer Awards. We\u2019d like to spread this program, currently funded by the Alfred P. Sloan Foundation, to cover the country so we can raise employers\u2019 awareness that companies that employ workers of all ages\u2014often with some flexible policies and practices that benefit workers of ALL ages\u2014are productive and profitable. This is only one strategy (though we\u2019d love your help on this one); there are many others. Sometimes social change simply happens organically. Sometimes we need to take responsibility to urge it along.\u00a0<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "format": "rich_text",
+    "processed": "Work dominates much of our adult lives. For many recent generations, work, family, and community comprised the entirety of our adult lives, with education occupying childhood for the lucky ones. Over time, a legal and regulatory framework was negotiated around these structures\u2014compromises to ensure employers had the labor force they needed to optimize productivity and profitability. Workers had basic rights and protections to ensure they would be paid, had some time away from work, had some protection from unsafe work places, and, eventually, even had some income support after retirement.These legal frameworks were built upon unexamined assumptions about the nature of work and the length and characteristics of our lives. As work moved from stable manufacturing to \u201cright on time\u201d service and retail, jobs moved from full-time to contractual and contingent. The paid, formal workforce changed from predominantly male to include more women. Globalization and shifting opportunities shrank the number of generations living together, and changes in technology placed millions of workers always on call. It's obvious that the existing regulatory frameworks do not address today\u2019s issues. Now we come to the seismic shifts needed to address the dramatic increase in longevity and evolving changes in the life course.Most of the existing legal framework in the U.S. developed when life expectancy (and health expectancy) was 20-30 years shorter.The unprecedented change in the length and nature of a lifetime requires every institution in society to evolve and adapt, centrally including work. But first, consider education: what are the chances that one dose of education, concluding when a person is 22, will suffice for the next 60 years? Yet, employers, universities, and continuing education providers have been slow to recognize this need for change. Why are parks still designed primarily for children when adults also need outdoor play? Why do we continue to build transportation systems to move people from bedroom (a.k.a. child-raising) communities to \u201cwork hubs\u201d when people now have 30-40 years after child rearing ends\u2014and new transportation patterns might serve people better? I will stop before approaching the opportunities and challenges in the technology and health sectors, and turn to the subject of work.So, work (and retirement) are far from alone as institutions requiring a structural overhaul to respond effectively to the change in life course and longevity. Interestingly, many employers have not shown positive responses to workers who want to keep their jobs longer or to negotiate modified work arrangements (perhaps becoming more involved in training or mentorship of newer employees; restructuring jobs to better take advantage of skills and experience without risking injury; expanding access to flexible work arrangements like adjusted work schedules or telecommuting; moving into a gradual or phased retirement plan without diminution of pension). Employers argue that older workers are expensive, slow, hesitant to adapt to change, frequently absent, and resistant to new technology.Since each of these arguments is either untrue on its face or amenable to workplace policy solutions, the employers currently enjoying the benefits of a mixed-age workforce\u2014including older workers\u2014are not effectively making the case to their peers. Similarly, those of us in the research, policy, and communications fields are not telling this story effectively. And lastly, economists and the government entities they inform are not modeling the effects of working longer\u2014including relatively minor policy fixes to make positive results even more pronounced\u2014are either not doing this research or not publicizing it in an understandable form to employers and their representatives.In fact, a multi-generational workforce boasts numerous benefits, and such workforces are achievable. In the U.S., there are currently skill shortages in specific industries and regions. Among the most impacted are crafts fields and manufacturing. Employers who develop active mentoring programs, pair older and younger workers on jobs and creatively restructure jobs can ameliorate these shortages while preparing a new generation of skilled workers. The now-famous BMW production line that was redesigned to bring the productivity of its older workers back to the norm is joined by many other manufacturers who have made similar modifications: a bakery that restructures bakers\u2019 jobs so that their experienced hands knead and shape the loaves, while stronger rotator cuffs put the trays in the oven; a dry cleaning plant where the workers select their own chairs and lights to customize their workstations for efficiency and comfort; a tie factory where workers are cross-trained so that their colleagues may use their flex time spontaneously to handle family matters without disruption of the production line.In New York City, we reward such employers (and many more) with Age Smart Employer Awards. We\u2019d like to spread this program, currently funded by the Alfred P. Sloan Foundation, to cover the country so we can raise employers\u2019 awareness that companies that employ workers of all ages\u2014often with some flexible policies and practices that benefit workers of ALL ages\u2014are productive and profitable. This is only one strategy (though we\u2019d love your help on this one); there are many others. Sometimes social change simply happens organically. Sometimes we need to take responsibility to urge it along.\u00a0<table><tr><td>View Report \u2192<\/td><\/tr><\/table>",
+    "summary": null,
+    "summary_processed": ""
+}

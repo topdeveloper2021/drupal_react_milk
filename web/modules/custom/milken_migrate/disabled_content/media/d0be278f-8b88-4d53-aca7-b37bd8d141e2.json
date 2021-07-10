@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/localhost:8080\/media\/7124\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/media\/video"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/u-3Hdr-j2bAwTvaM7CozNLzk8cXKML1I50PgM7Aydrg.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 7124
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d0be278f-8b88-4d53-aca7-b37bd8d141e2"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1981
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2020-02-13T07:30:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/user\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "20b60d4b-bf21-4da9-8d41-4af6bd4e47ba"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/localhost:8080\/sites\/default\/files\/oembed_thumbnails\/u-3Hdr-j2bAwTvaM7CozNLzk8cXKML1I50PgM7Aydrg.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78aa8135-1bb8-4b8f-a3c9-366eab1481bb"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Want to Live to a Healthy 100?",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-07-05T07:47:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-06-20T16:06:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": []
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "value": "What if lifetimes of 100, 110, or even more years become the norm? We are in the midst of a global demographic shift resulting from increasing longevity and low birth rates. While lifespans have nearly doubled in the last century, some believe that lengthening lives further is the ultimate scientific goal. But there is a more urgent challenge. We must ensure that lifespan health\u2014the opportunity to enjoy the gift of more time\u2014is available to all of us. How has the growing knowledge about nutrition, exercise, and mindful living interacted with social determinants of health? What progress has been made by precision medicine, innovative digital tools, and genetic research\u2014and who benefits from it? Experts explore these questions along with possibilities just around the corner.",
+    "format": "rich_text",
+    "processed": "What if lifetimes of 100, 110, or even more years become the norm? We are in the midst of a global demographic shift resulting from increasing longevity and low birth rates. While lifespans have nearly doubled in the last century, some believe that lengthening lives further is the ultimate scientific goal. But there is a more urgent challenge. We must ensure that lifespan health\u2014the opportunity to enjoy the gift of more time\u2014is available to all of us. How has the growing knowledge about nutrition, exercise, and mindful living interacted with social determinants of health? What progress has been made by precision medicine, innovative digital tools, and genetic research\u2014and who benefits from it? Experts explore these questions along with possibilities just around the corner.",
+    "summary": null,
+    "summary_processed": "",
+    "field_height": [
+        {
+            "value": 360,
+            "lang": "en"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/youtu.be\/ZQ5hNPpZWrg",
+            "lang": "en"
+        }
+    ],
+    "field_thumbnail_uri": [
+        {
+            "value": "public:\/\/oembed_thumbnails\/u-3Hdr-j2bAwTvaM7CozNLzk8cXKML1I50PgM7Aydrg.jpg"
+        }
+    ],
+    "field_video_height": [
+        {
+            "value": 270
+        }
+    ],
+    "field_video_width": [
+        {
+            "value": 480
+        }
+    ],
+    "field_width": [
+        {
+            "value": 480,
+            "lang": "en"
+        }
+    ]
+}

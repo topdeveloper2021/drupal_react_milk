@@ -1,0 +1,11 @@
+/*.page-title {
+  color: red !important;
+}*/
+input.field-plugin-settings-edit { 
+  width: 100%; 
+}
+
+/* Fix Entity Browser Edit/Delete buttons for Tiles Media Paragraph */
+.entities-list:not(.entities-list--single-item) {
+  min-height: 7em;
+}

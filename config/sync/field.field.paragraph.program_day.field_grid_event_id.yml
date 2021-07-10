@@ -1,0 +1,19 @@
+uuid: 6e020301-c448-49f7-87dd-ee25f6741380
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_event_id
+    - paragraphs.paragraphs_type.program_day
+id: paragraph.program_day.field_grid_event_id
+field_name: field_grid_event_id
+entity_type: paragraph
+bundle: program_day
+label: 'Grid Event ID'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,78 @@
+
+/****** FONTS ********/
+$font-family-sans-serif: "LatoWeb", "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-family-base:  $font-family-sans-serif;
+
+$secondaryFont : 'monospace';
+$enable-responsive-font-sizes : true;
+
+$jumbotron-padding: 0;
+
+
+/**** Headings ****/
+
+$headings-font-family: 'LatoWebBold', $font-family-sans-serif;
+$headings-font-weight: 700;
+
+/***** RESPONISVE VARIABLES *****/
+$breakpointDesktop: 1600px;
+$breakpointTablet: 1200px;
+$breakpointTableMD: 992px;
+$breakpointPhone: 767px;
+$breakpointExtraSmall: 320px;
+
+/***** MOBILE FIRST RESPONISVE VARIABLES *****/
+$mobileFirstBreakpointPhone: 426px;
+
+
+/**** COLORS ***/
+$mainFontColor: #000;
+$darkBlue: #0063ca;
+$newsBlue: #0065CC;
+$newsGray: #d2d4da;
+$tagsViolet: #9a6397;
+$orangeButtons: #FF6237;
+$backgroundLight: #E2E7EA;
+$backgroundLittleBitDarker: #bbb;
+$backgroundLittleBitLighter: #ddd;
+$backgroundDark: #2E2E34;
+$backgroundDarkest: #111;
+$backgroundSocial: #f1f4f6;
+$backgroundGrey: #e2e7ea;
+$lightTitle: #fff;
+$darkTitle: #000;
+$grayFont: #444;
+$grayTabsBkg: #27262C;
+$grayTabsActive: #07060A;
+$lightgrayFont: #999;
+$finalGray: #F0F3F5;
+$reportsBlack: #35363c;
+$reportsTransparentBlack: rgba(53,54,60,0.87);
+$grayLightModule: #f0f3f5;
+$heroBorderColor : #151618;
+$heroTextColor: #86878b;
+$white: #fff;
+$gray-txt: #999aa3;
+$smartbrief-underline: #E1E1E1;
+$imgOverlay: rgba(53, 54, 60, .1);
+$mainParagraphColor: #696969;
+$blueHeaders: #0066cc;
+$selectBorderColor: #ced4da;
+:root {
+    --color-milken-orange: #{$orangeButtons};
+    --color-milken-blue: #{$newsBlue};
+    --color-milken-borders: #{$selectBorderColor};
+    --color-milken-gray: #{$lightgrayFont};
+    --color-milken-mediumgray: #{$reportsBlack};
+    --color-milken-darkgray: #{$backgroundDark};
+    --color-milken-lightgray: #{$backgroundSocial};
+  }
+
+/**** AFTER DEMO ***/
+$afterDemoBlack: #35363c;
+$finalGrayForText: #999AA3;
+$mediumGray: #CCC;
+
+$enable_shadows: true;
+$input-btn-focus-box-shadow: none;
